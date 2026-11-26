@@ -294,13 +294,13 @@ are in [`architecture.md`](architecture.md) → Storage migration; in brief:
 
 `npm run build` writes `output/`. `base` is `/study-minna-no-nihongo-vocabulary-basic/`. `npm run dev` and `npm run preview` serve that subpath (`/` redirects to it). Asset and archive URLs are prefixed with the base. The runtime fetches `dict/vol.bin` against `document.baseURI`. The shipped manifest has 50 lessons, so the production build publishes that archive.
 
-The document title is `大家の單詞`. No favicon until a later revision adds `docs/logo/`. Do not copy the conjugation logo.
+The document title is `大家の單詞`, and `index.html` declares the site's logo as icons derived from `docs/img/logo.jpg`: `docs/img/favicon.ico` (16, 32 and 48px), `docs/img/favicon-32.png`, `docs/img/favicon-192.png` and `docs/img/apple-touch-icon.png` (180px), with `docs/img/logo-512.png` kept as the 512px copy of the same artwork. `index.html` references them with relative paths, so Vite hashes each file into `output/assets/` and prefixes it with the base; no root-absolute `/favicon.ico` and no third-party icon host. Do not copy the conjugation logo.
 
 `predev`, `pretest`, and `prebuild` run `node scripts/write-sha256.mjs --check` only. The check hashes `vol/lesson_*.json`. A build needs no network. `output/` is gitignored. `output/dict/vol.bin` contains 50 lesson entries.
 
 ## Out of scope until a later spec revision
 
-A kana keyboard (the quiz is tap-driven), audio and Opus bins, a logo, accounts, a backend, a model call, conjugation forms, 從/到, 學習, and 變形說明. Google Tag IDs stay empty through T9. `image` stays undrawn while every value is `null`.
+A kana keyboard (the quiz is tap-driven), audio and Opus bins, accounts, a backend, a model call, conjugation forms, 從/到, 學習, and 變形說明. Google Tag IDs stay empty through T9. `image` stays undrawn while every value is `null`.
 
 ## Analytics
 

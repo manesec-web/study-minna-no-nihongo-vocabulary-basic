@@ -76,8 +76,65 @@ try {
   const servedBase = await page.evaluate(() => document.baseURI)
   check('the site is served under the Pages subpath', servedBase.endsWith(SITE_BASE), servedBase)
 
-  const title = await page.title()
-  check('the document title is 大家の單詞', title === '大家の單詞', title)
+  const headMeta = await page.evaluate(async () => {
+    const linkOf = (selector) => {
+      const link = document.querySelector(selector)
+      if (!link) return null
+      return { href: link.href, sizes: link.getAttribute('sizes') || '', type: link.getAttribute('type') || '' }
+    }
+    const probe = async (href) => {
+      if (!href) return { status: 0, type: '', bytes: 0, ok: false }
+      const response = await fetch(href)
+      const blob = await response.blob()
+      return {
+        status: response.status,
+        type: response.headers.get('content-type') || '',
+        bytes: blob.size,
+        ok: response.ok,
+      }
+    }
+    const icons = {
+      ico: linkOf('link[rel="icon"][href$=".ico"]'),
+      png32: linkOf('link[rel="icon"][type="image/png"][sizes="32x32"]'),
+      png192: linkOf('link[rel="icon"][type="image/png"][sizes="192x192"]'),
+      touch: linkOf('link[rel="apple-touch-icon"]'),
+    }
+    return {
+      title: document.title,
+      icons,
+      ico: await probe(icons.ico && icons.ico.href),
+      png32: await probe(icons.png32 && icons.png32.href),
+      png192: await probe(icons.png192 && icons.png192.href),
+      touch: await probe(icons.touch && icons.touch.href),
+    }
+  })
+  check('the document title is 大家の單詞', headMeta.title === '大家の單詞', headMeta.title)
+  check(
+    'the head declares a favicon and a touch icon',
+    Boolean(headMeta.icons.ico && headMeta.icons.png192 && headMeta.icons.touch),
+    JSON.stringify(headMeta.icons),
+  )
+  check(
+    'every icon URL lives under the Pages subpath',
+    [headMeta.icons.ico, headMeta.icons.png32, headMeta.icons.png192, headMeta.icons.touch]
+      .every((icon) => icon && icon.href.includes(SITE_BASE)),
+    [headMeta.icons.ico, headMeta.icons.touch].map((icon) => icon && icon.href).join(' '),
+  )
+  check(
+    'the favicon is served as an image',
+    headMeta.ico.ok && headMeta.ico.bytes > 0 && /image/.test(headMeta.ico.type),
+    `${headMeta.ico.status} ${headMeta.ico.type} ${headMeta.ico.bytes}B`,
+  )
+  check(
+    'the 32px and 192px favicons are served as images',
+    headMeta.png32.ok && headMeta.png192.ok && headMeta.png32.bytes > 0 && headMeta.png192.bytes > 0,
+    `${headMeta.png32.status}/${headMeta.png192.status}`,
+  )
+  check(
+    'the iOS touch icon is served as an image',
+    headMeta.touch.ok && headMeta.touch.bytes > 0 && /image/.test(headMeta.touch.type),
+    `${headMeta.touch.status} ${headMeta.touch.type} ${headMeta.touch.bytes}B`,
+  )
 
   const logo = page.locator('.loading-logo')
   check('loading shows the site logo', (await logo.count()) === 1)
