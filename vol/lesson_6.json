@@ -1,0 +1,6587 @@
+{
+  "lesson_6": {
+    "vols": [
+      {
+        "japanese": "たべます",
+        "kanji": "食べます",
+        "chinese": "吃",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「昼」、「晩」、「毎」、「軽」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "昼",
+              "zh": "晝",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "軽",
+              "zh": "輕",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "action_activity"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_2"
+        ],
+        "sentence": [
+          {
+            "japanese": "朝はいつもパンを食べます。",
+            "chinese": "早上總是吃麵包。"
+          },
+          {
+            "japanese": "昼ごはんは食堂で食べます。",
+            "chinese": "午餐在餐廳吃。"
+          },
+          {
+            "japanese": "今晩は魚と野菜を食べます。",
+            "chinese": "今晚吃魚和蔬菜。"
+          },
+          {
+            "japanese": "週末は家族と晩ごはんを食べます。",
+            "chinese": "週末和家人吃晚餐。"
+          },
+          {
+            "japanese": "朝ごはんに卵を食べます。",
+            "chinese": "早餐吃蛋。"
+          },
+          {
+            "japanese": "田中さんは昼にそばを食べます。",
+            "chinese": "田中先生中午吃蕎麥麵。"
+          },
+          {
+            "japanese": "このパンは弟が食べます。",
+            "chinese": "這個麵包是弟弟吃。"
+          },
+          {
+            "japanese": "晩ごはんの後で果物を食べます。",
+            "chinese": "晚餐後吃水果。"
+          },
+          {
+            "japanese": "今日は家で晩ごはんを食べます。",
+            "chinese": "今天在家吃晚餐。"
+          },
+          {
+            "japanese": "食堂で友達と昼ごはんを食べます。",
+            "chinese": "在餐廳和朋友吃午餐。"
+          },
+          {
+            "japanese": "母は朝ごはんにヨーグルトを食べます。",
+            "chinese": "媽媽早餐吃優格。"
+          },
+          {
+            "japanese": "明日はレストランで昼ごはんを食べます。",
+            "chinese": "明天在餐廳吃午餐。"
+          },
+          {
+            "japanese": "仕事の後で軽いものを食べます。",
+            "chinese": "下班後吃點簡單的東西。"
+          },
+          {
+            "japanese": "パンは朝ごはんに食べます。",
+            "chinese": "麵包在早餐吃。"
+          },
+          {
+            "japanese": "夜は早めに晩ごはんを食べます。",
+            "chinese": "晚上早點吃晚餐。"
+          },
+          {
+            "japanese": "兄は毎朝ごはんとみそ汁を食べます。",
+            "chinese": "哥哥每天早上吃飯和味噌湯。"
+          },
+          {
+            "japanese": "外で昼ごはんを食べますか。",
+            "chinese": "在外面吃午餐嗎？"
+          },
+          {
+            "japanese": "ごはんと魚をいっしょに食べます。",
+            "chinese": "飯和魚一起吃。"
+          },
+          {
+            "japanese": "休みの日は朝ごはんをゆっくり食べます。",
+            "chinese": "假日慢慢吃早餐。"
+          },
+          {
+            "japanese": "この食堂でいつも昼ごはんを食べます。",
+            "chinese": "總是在這個餐廳吃午餐。"
+          }
+        ]
+      },
+      {
+        "japanese": "のみます",
+        "kanji": "飲みます",
+        "chinese": "喝，服用",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "寝",
+              "zh": "寢",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "温",
+              "zh": "溫",
+              "note": null
+            },
+            {
+              "jp": "緑",
+              "zh": "綠",
+              "note": null
+            },
+            {
+              "jp": "薬",
+              "zh": "藥",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "action_activity"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_1"
+        ],
+        "sentence": [
+          {
+            "japanese": "朝は牛乳を飲みます。",
+            "chinese": "早上喝牛奶。"
+          },
+          {
+            "japanese": "コーヒーは仕事の後に飲みます。",
+            "chinese": "咖啡是下班後喝。"
+          },
+          {
+            "japanese": "今日は水をたくさん飲みます。",
+            "chinese": "今天喝很多水。"
+          },
+          {
+            "japanese": "夕食のときにお茶を飲みます。",
+            "chinese": "晚餐時喝茶。"
+          },
+          {
+            "japanese": "父は晩ごはんにビールを飲みます。",
+            "chinese": "爸爸晚餐時喝啤酒。"
+          },
+          {
+            "japanese": "この店でジュースを飲みます。",
+            "chinese": "在這家店喝果汁。"
+          },
+          {
+            "japanese": "毎朝、緑茶を飲みます。",
+            "chinese": "每天早上喝綠茶。"
+          },
+          {
+            "japanese": "母は薬を水で飲みます。",
+            "chinese": "媽媽用水服藥。"
+          },
+          {
+            "japanese": "夏は水をよく飲みます。",
+            "chinese": "夏天常喝水。"
+          },
+          {
+            "japanese": "寝る前に温かい牛乳を飲みます。",
+            "chinese": "睡前喝溫牛奶。"
+          },
+          {
+            "japanese": "紅茶は午後3時に飲みます。",
+            "chinese": "紅茶在下午三點喝。"
+          },
+          {
+            "japanese": "明日は友達とお茶を飲みます。",
+            "chinese": "明天和朋友喝茶。"
+          },
+          {
+            "japanese": "会社でコーヒーを飲みます。",
+            "chinese": "在公司喝咖啡。"
+          },
+          {
+            "japanese": "駅の前で水を飲みます。",
+            "chinese": "在車站前喝水。"
+          },
+          {
+            "japanese": "お酒は週末に飲みます。",
+            "chinese": "酒在週末喝。"
+          },
+          {
+            "japanese": "田中さんは毎日ジュースを飲みます。",
+            "chinese": "田中先生每天喝果汁。"
+          },
+          {
+            "japanese": "運動の後で水を飲みます。",
+            "chinese": "運動後喝水。"
+          },
+          {
+            "japanese": "朝ごはんのときに牛乳を飲みます。",
+            "chinese": "早餐時喝牛奶。"
+          },
+          {
+            "japanese": "晩ごはんの後でお茶を飲みます。",
+            "chinese": "晚餐後喝茶。"
+          },
+          {
+            "japanese": "姉はカフェで紅茶を飲みます。",
+            "chinese": "姊姊在咖啡館喝紅茶。"
+          }
+        ]
+      },
+      {
+        "japanese": "すいます",
+        "kanji": "吸います",
+        "chinese": "吸（煙）",
+        "image": null,
+        "note": "常與「たばこ」連用「たばこを吸います」",
+        "kanji_note": {
+          "summary": "日語的「晩」、「毎」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "action_activity"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_1"
+        ],
+        "sentence": [
+          {
+            "japanese": "父は外でたばこを吸います。",
+            "chinese": "爸爸在外面抽菸。"
+          },
+          {
+            "japanese": "この店ではたばこを吸いますか。",
+            "chinese": "這家店可以抽菸嗎？"
+          },
+          {
+            "japanese": "田中さんは休みの日にたばこを吸います。",
+            "chinese": "田中先生休假時抽菸。"
+          },
+          {
+            "japanese": "部長はよくたばこを吸います。",
+            "chinese": "部長常抽菸。"
+          },
+          {
+            "japanese": "兄は家の前でたばこを吸います。",
+            "chinese": "哥哥在家門前抽菸。"
+          },
+          {
+            "japanese": "公園のベンチでたばこを吸います。",
+            "chinese": "在公園長椅抽菸。"
+          },
+          {
+            "japanese": "たばこは外で吸います。",
+            "chinese": "菸在外面抽。"
+          },
+          {
+            "japanese": "佐藤さんは今たばこを吸います。",
+            "chinese": "佐藤先生現在抽菸。"
+          },
+          {
+            "japanese": "仕事の後に一本たばこを吸います。",
+            "chinese": "下班後抽一根菸。"
+          },
+          {
+            "japanese": "山田さんは駅の近くでたばこを吸います。",
+            "chinese": "山田先生在車站附近抽菸。"
+          },
+          {
+            "japanese": "木村さんは毎日たばこを吸います。",
+            "chinese": "木村先生每天抽菸。"
+          },
+          {
+            "japanese": "お客さんは外でたばこを吸います。",
+            "chinese": "客人在外面抽菸。"
+          },
+          {
+            "japanese": "王さんは庭でたばこを吸います。",
+            "chinese": "王先生在院子抽菸。"
+          },
+          {
+            "japanese": "李さんはベランダでたばこを吸います。",
+            "chinese": "李先生在陽台抽菸。"
+          },
+          {
+            "japanese": "晩ごはんの後でたばこを吸います。",
+            "chinese": "晚餐後抽菸。"
+          },
+          {
+            "japanese": "朝のコーヒーと一緒にたばこを吸います。",
+            "chinese": "早上配咖啡抽菸。"
+          },
+          {
+            "japanese": "父と兄は外でたばこを吸います。",
+            "chinese": "爸爸和哥哥在外面抽菸。"
+          },
+          {
+            "japanese": "タバコは一日に何本吸いますか。",
+            "chinese": "菸一天抽幾根？"
+          },
+          {
+            "japanese": "佐藤さんはときどきたばこを吸います。",
+            "chinese": "佐藤先生有時抽菸。"
+          },
+          {
+            "japanese": "店の前でたばこを吸います。",
+            "chinese": "在店前抽菸。"
+          }
+        ]
+      },
+      {
+        "japanese": "みます",
+        "kanji": "見ます",
+        "chinese": "看",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「曜」、「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "action_activity"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_2"
+        ],
+        "sentence": [
+          {
+            "japanese": "毎晩ニュースを見ます。",
+            "chinese": "每晚看新聞。"
+          },
+          {
+            "japanese": "日曜日に映画を見ます。",
+            "chinese": "星期天看電影。"
+          },
+          {
+            "japanese": "この映画は家で見ます。",
+            "chinese": "這部電影在家看。"
+          },
+          {
+            "japanese": "写真を見ます。",
+            "chinese": "看照片。"
+          },
+          {
+            "japanese": "テレビは夜に見ます。",
+            "chinese": "電視晚上看。"
+          },
+          {
+            "japanese": "田中さんは試合を見ます。",
+            "chinese": "田中先生看比賽。"
+          },
+          {
+            "japanese": "弟はサッカーをテレビで見ます。",
+            "chinese": "弟弟在電視上看足球。"
+          },
+          {
+            "japanese": "夜空の星を見ます。",
+            "chinese": "看夜空的星星。"
+          },
+          {
+            "japanese": "今日は映画館で映画を見ます。",
+            "chinese": "今天在電影院看電影。"
+          },
+          {
+            "japanese": "夕方にニュースを見ます。",
+            "chinese": "傍晚看新聞。"
+          },
+          {
+            "japanese": "母は毎朝ドラマを見ます。",
+            "chinese": "媽媽每天早上看連續劇。"
+          },
+          {
+            "japanese": "週末に映画を見ます。",
+            "chinese": "週末看電影。"
+          },
+          {
+            "japanese": "友達と家でビデオを見ます。",
+            "chinese": "和朋友在家看錄影帶。"
+          },
+          {
+            "japanese": "この写真を見ますか。",
+            "chinese": "看這張照片嗎？"
+          },
+          {
+            "japanese": "父は野球の試合を見ます。",
+            "chinese": "爸爸看棒球比賽。"
+          },
+          {
+            "japanese": "夜10時のニュースを見ます。",
+            "chinese": "看晚上十點的新聞。"
+          },
+          {
+            "japanese": "休みの日に映画を見ます。",
+            "chinese": "假日看電影。"
+          },
+          {
+            "japanese": "教室でビデオを見ます。",
+            "chinese": "在教室看錄影帶。"
+          },
+          {
+            "japanese": "李さんは公園で花を見ます。",
+            "chinese": "李先生在公園看花。"
+          },
+          {
+            "japanese": "仕事の後でテレビを見ます。",
+            "chinese": "下班後看電視。"
+          }
+        ]
+      },
+      {
+        "japanese": "ききます",
+        "kanji": "聞きます",
+        "chinese": "聽",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「話」、「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "寝",
+              "zh": "寢",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "楽",
+              "zh": "樂",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "話",
+              "zh": "話",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "action_activity"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_1"
+        ],
+        "sentence": [
+          {
+            "japanese": "毎朝ラジオを聞きます。",
+            "chinese": "每天早上聽廣播。"
+          },
+          {
+            "japanese": "音楽は通勤のときに聞きます。",
+            "chinese": "通勤時聽音樂。"
+          },
+          {
+            "japanese": "この曲をよく聞きます。",
+            "chinese": "常聽這首歌。"
+          },
+          {
+            "japanese": "車でニュースを聞きます。",
+            "chinese": "在車上聽新聞。"
+          },
+          {
+            "japanese": "母は家でラジオを聞きます。",
+            "chinese": "媽媽在家聽廣播。"
+          },
+          {
+            "japanese": "田中さんは毎晩音楽を聞きます。",
+            "chinese": "田中先生每天晚上聽音樂。"
+          },
+          {
+            "japanese": "今日はこの曲を聞きます。",
+            "chinese": "今天聽這首歌。"
+          },
+          {
+            "japanese": "寝る前にラジオを聞きます。",
+            "chinese": "睡前聽廣播。"
+          },
+          {
+            "japanese": "山田さんはCDを聞きます。",
+            "chinese": "山田先生聽CD。"
+          },
+          {
+            "japanese": "散歩のときに音楽を聞きます。",
+            "chinese": "散步時聽音樂。"
+          },
+          {
+            "japanese": "授業で先生の話を聞きます。",
+            "chinese": "上課聽老師講話。"
+          },
+          {
+            "japanese": "友達の話を聞きます。",
+            "chinese": "聽朋友講話。"
+          },
+          {
+            "japanese": "夜はジャズを聞きます。",
+            "chinese": "晚上聽爵士樂。"
+          },
+          {
+            "japanese": "このニュースを聞きますか。",
+            "chinese": "聽這則新聞嗎？"
+          },
+          {
+            "japanese": "会社でラジオを聞きます。",
+            "chinese": "在公司聽廣播。"
+          },
+          {
+            "japanese": "弟はアニメの歌を聞きます。",
+            "chinese": "弟弟聽動畫歌。"
+          },
+          {
+            "japanese": "クラシックを聞きます。",
+            "chinese": "聽古典音樂。"
+          },
+          {
+            "japanese": "父は朝のニュースを聞きます。",
+            "chinese": "爸爸聽早上的新聞。"
+          },
+          {
+            "japanese": "図書館でCDを聞きます。",
+            "chinese": "在圖書館聽CD。"
+          },
+          {
+            "japanese": "休みの日は家で音楽を聞きます。",
+            "chinese": "假日在家聽音樂。"
+          }
+        ]
+      },
+      {
+        "japanese": "よみます",
+        "kanji": "読みます",
+        "chinese": "閱讀",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「紙」、「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "売",
+              "zh": "賣",
+              "note": null
+            },
+            {
+              "jp": "寝",
+              "zh": "寢",
+              "note": null
+            },
+            {
+              "jp": "専",
+              "zh": "專",
+              "note": null
+            },
+            {
+              "jp": "昼",
+              "zh": "晝",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "済",
+              "zh": "濟",
+              "note": null
+            },
+            {
+              "jp": "紙",
+              "zh": "紙",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "経",
+              "zh": "經",
+              "note": null
+            },
+            {
+              "jp": "絵",
+              "zh": "繪",
+              "note": null
+            },
+            {
+              "jp": "説",
+              "zh": "說",
+              "note": null
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            },
+            {
+              "jp": "雑",
+              "zh": "雜",
+              "note": null
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "communication_language_study"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_1"
+        ],
+        "sentence": [
+          {
+            "japanese": "毎朝新聞を読みます。",
+            "chinese": "每天早上看報紙。"
+          },
+          {
+            "japanese": "電車で本を読みます。",
+            "chinese": "在電車上看書。"
+          },
+          {
+            "japanese": "寝る前に雑誌を読みます。",
+            "chinese": "睡前看雜誌。"
+          },
+          {
+            "japanese": "図書館で小説を読みます。",
+            "chinese": "在圖書館看小說。"
+          },
+          {
+            "japanese": "田中さんは経済の本を読みます。",
+            "chinese": "田中先生看經濟的書。"
+          },
+          {
+            "japanese": "このレポートを読みます。",
+            "chinese": "讀這份報告。"
+          },
+          {
+            "japanese": "父は朝食のときに新聞を読みます。",
+            "chinese": "爸爸吃早餐時看報紙。"
+          },
+          {
+            "japanese": "母は料理の雑誌を読みます。",
+            "chinese": "媽媽看料理雜誌。"
+          },
+          {
+            "japanese": "週末は家で本を読みます。",
+            "chinese": "週末在家看書。"
+          },
+          {
+            "japanese": "駅の売店で雑誌を読みます。",
+            "chinese": "在車站的小店看雜誌。"
+          },
+          {
+            "japanese": "先生は宿題のレポートを読みます。",
+            "chinese": "老師看作業報告。"
+          },
+          {
+            "japanese": "この本を読みますか。",
+            "chinese": "看這本書嗎？"
+          },
+          {
+            "japanese": "山田さんは毎晩新聞を読みます。",
+            "chinese": "山田先生每天晚上看報紙。"
+          },
+          {
+            "japanese": "妹は絵本を読みます。",
+            "chinese": "妹妹看繪本。"
+          },
+          {
+            "japanese": "休み時間にマンガを読みます。",
+            "chinese": "休息時間看漫畫。"
+          },
+          {
+            "japanese": "李さんは手紙を読みます。",
+            "chinese": "李先生讀信。"
+          },
+          {
+            "japanese": "昼休みに本を読みます。",
+            "chinese": "午休時看書。"
+          },
+          {
+            "japanese": "兄は専門書を読みます。",
+            "chinese": "哥哥看專業書。"
+          },
+          {
+            "japanese": "今日は雑誌を読みます。",
+            "chinese": "今天看雜誌。"
+          },
+          {
+            "japanese": "旅行の前にガイドブックを読みます。",
+            "chinese": "旅行前看旅遊指南。"
+          }
+        ]
+      },
+      {
+        "japanese": "かきます",
+        "kanji": "書きます",
+        "chinese": "書寫",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "「予」在日語可表「預先／給予」，繁體對應視語境為「預」或「予」，不宜一律寫成「豫」。日語的「漢」、「紙」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "予",
+              "zh": "預／予",
+              "note": "在日語可表「預先／給予」，繁體對應視語境為「預」或「予」，不宜一律寫成「豫」。"
+            },
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "漢",
+              "zh": "漢",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "状",
+              "zh": "狀",
+              "note": null
+            },
+            {
+              "jp": "紙",
+              "zh": "紙",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "黒",
+              "zh": "黑",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "communication_language_study"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_1"
+        ],
+        "sentence": [
+          {
+            "japanese": "毎晩日記を書きます。",
+            "chinese": "每天晚上寫日記。"
+          },
+          {
+            "japanese": "手紙を書きます。",
+            "chinese": "寫信。"
+          },
+          {
+            "japanese": "会社でレポートを書きます。",
+            "chinese": "在公司寫報告。"
+          },
+          {
+            "japanese": "黒板に名前を書きます。",
+            "chinese": "在黑板上寫名字。"
+          },
+          {
+            "japanese": "母は買い物リストを書きます。",
+            "chinese": "媽媽寫購物清單。"
+          },
+          {
+            "japanese": "授業でノートを書きます。",
+            "chinese": "上課抄筆記。"
+          },
+          {
+            "japanese": "今日の予定を書きます。",
+            "chinese": "寫今天的行程。"
+          },
+          {
+            "japanese": "田中さんは毎日レポートを書きます。",
+            "chinese": "田中先生每天寫報告。"
+          },
+          {
+            "japanese": "この用紙に住所を書きます。",
+            "chinese": "在這張紙上寫地址。"
+          },
+          {
+            "japanese": "山田さんは手紙を書きます。",
+            "chinese": "山田先生寫信。"
+          },
+          {
+            "japanese": "妹は宿題の答えを書きます。",
+            "chinese": "妹妹寫作業的答案。"
+          },
+          {
+            "japanese": "カレンダーに予定を書きます。",
+            "chinese": "在月曆上寫行程。"
+          },
+          {
+            "japanese": "先生は質問を書きます。",
+            "chinese": "老師寫問題。"
+          },
+          {
+            "japanese": "王さんは漢字を書きます。",
+            "chinese": "王先生寫漢字。"
+          },
+          {
+            "japanese": "ノートに言葉を書きます。",
+            "chinese": "在筆記本上寫單字。"
+          },
+          {
+            "japanese": "李さんは毎晩レポートを書きます。",
+            "chinese": "李先生每天晚上寫報告。"
+          },
+          {
+            "japanese": "紙に手紙を書きます。",
+            "chinese": "在紙上寫信。"
+          },
+          {
+            "japanese": "明日の会議のメモを書きます。",
+            "chinese": "寫明天會議的筆記。"
+          },
+          {
+            "japanese": "父は年賀状を書きます。",
+            "chinese": "爸爸寫賀年卡。"
+          },
+          {
+            "japanese": "週末に友達へ手紙を書きます。",
+            "chinese": "週末寫信給朋友。"
+          }
+        ]
+      },
+      {
+        "japanese": "かいます",
+        "kanji": "買います",
+        "chinese": "購買",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「具」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "具",
+              "zh": "具",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "売",
+              "zh": "賣",
+              "note": null
+            },
+            {
+              "jp": "昼",
+              "zh": "晝",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "薬",
+              "zh": "藥",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "action_activity"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_1"
+        ],
+        "sentence": [
+          {
+            "japanese": "毎朝パンを買います。",
+            "chinese": "每天早上買麵包。"
+          },
+          {
+            "japanese": "スーパーで野菜を買います。",
+            "chinese": "在超市買蔬菜。"
+          },
+          {
+            "japanese": "駅の売店で新聞を買います。",
+            "chinese": "在車站的店買報紙。"
+          },
+          {
+            "japanese": "今日は魚を買います。",
+            "chinese": "今天買魚。"
+          },
+          {
+            "japanese": "母は近所の店で卵を買います。",
+            "chinese": "媽媽在附近的店買蛋。"
+          },
+          {
+            "japanese": "デパートで服を買います。",
+            "chinese": "在百貨公司買衣服。"
+          },
+          {
+            "japanese": "父は週末にビールを買います。",
+            "chinese": "爸爸週末買啤酒。"
+          },
+          {
+            "japanese": "この店でお茶を買います。",
+            "chinese": "在這家店買茶。"
+          },
+          {
+            "japanese": "田中さんは肉を買います。",
+            "chinese": "田中先生買肉。"
+          },
+          {
+            "japanese": "妹は文房具を買います。",
+            "chinese": "妹妹買文具。"
+          },
+          {
+            "japanese": "コンビニでおにぎりを買います。",
+            "chinese": "在便利商店買飯糰。"
+          },
+          {
+            "japanese": "明日の朝ごはんを買います。",
+            "chinese": "買明天的早餐。"
+          },
+          {
+            "japanese": "山田さんは花を買います。",
+            "chinese": "山田先生買花。"
+          },
+          {
+            "japanese": "チケットを駅で買います。",
+            "chinese": "在車站買票。"
+          },
+          {
+            "japanese": "プレゼントを買います。",
+            "chinese": "買禮物。"
+          },
+          {
+            "japanese": "薬屋で薬を買います。",
+            "chinese": "在藥房買藥。"
+          },
+          {
+            "japanese": "李さんは果物を買います。",
+            "chinese": "李先生買水果。"
+          },
+          {
+            "japanese": "昼ごはんを買いますか。",
+            "chinese": "買午餐嗎？"
+          },
+          {
+            "japanese": "週末に家族のための食材を買います。",
+            "chinese": "週末買給家人的食材。"
+          },
+          {
+            "japanese": "商店街で靴を買います。",
+            "chinese": "在商店街買鞋。"
+          }
+        ]
+      },
+      {
+        "japanese": "とります",
+        "kanji": "撮ります",
+        "chinese": "拍（照），攝影",
+        "image": null,
+        "note": "常與「写真」連用「写真を撮ります」",
+        "kanji_note": {
+          "summary": "日語的「会」、「写」、「桜」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "桜",
+              "zh": "櫻",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "action_activity"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_1"
+        ],
+        "sentence": [
+          {
+            "japanese": "旅行で写真を撮ります。",
+            "chinese": "旅行時拍照。"
+          },
+          {
+            "japanese": "公園で花の写真を撮ります。",
+            "chinese": "在公園拍花的照片。"
+          },
+          {
+            "japanese": "家族の写真を撮ります。",
+            "chinese": "拍全家福。"
+          },
+          {
+            "japanese": "今日は景色を撮ります。",
+            "chinese": "今天拍風景。"
+          },
+          {
+            "japanese": "田中さんは駅で写真を撮ります。",
+            "chinese": "田中先生在車站拍照。"
+          },
+          {
+            "japanese": "友達と一緒に写真を撮ります。",
+            "chinese": "和朋友一起拍照。"
+          },
+          {
+            "japanese": "このカメラで写真を撮ります。",
+            "chinese": "用這台相機拍照。"
+          },
+          {
+            "japanese": "桜の写真を撮ります。",
+            "chinese": "拍櫻花的照片。"
+          },
+          {
+            "japanese": "山田さんは旅行の写真を撮ります。",
+            "chinese": "山田先生拍旅行的照片。"
+          },
+          {
+            "japanese": "夕日の写真を撮ります。",
+            "chinese": "拍夕陽的照片。"
+          },
+          {
+            "japanese": "母は料理の写真を撮ります。",
+            "chinese": "媽媽拍料理的照片。"
+          },
+          {
+            "japanese": "運動会で写真を撮ります。",
+            "chinese": "在運動會拍照。"
+          },
+          {
+            "japanese": "王さんはビデオを撮ります。",
+            "chinese": "王先生拍影片。"
+          },
+          {
+            "japanese": "卒業式で写真を撮ります。",
+            "chinese": "在畢業典禮拍照。"
+          },
+          {
+            "japanese": "この場所で写真を撮りますか。",
+            "chinese": "在這個地方拍照嗎？"
+          },
+          {
+            "japanese": "李さんは動物の写真を撮ります。",
+            "chinese": "李先生拍動物的照片。"
+          },
+          {
+            "japanese": "休みの日に海の写真を撮ります。",
+            "chinese": "假日拍海的照片。"
+          },
+          {
+            "japanese": "佐藤さんは商品の写真を撮ります。",
+            "chinese": "佐藤先生拍商品的照片。"
+          },
+          {
+            "japanese": "弟の写真を撮ります。",
+            "chinese": "拍弟弟的照片。"
+          },
+          {
+            "japanese": "週末に紅葉の写真を撮ります。",
+            "chinese": "週末拍紅葉的照片。"
+          }
+        ]
+      },
+      {
+        "japanese": "します",
+        "kanji": null,
+        "chinese": "做",
+        "image": null,
+        "note": "與名詞連用構成動詞，如「宿題をします」",
+        "kanji_note": {
+          "summary": "「予」在日語可表「預先／給予」，繁體對應視語境為「預」或「予」，不宜一律寫成「豫」。日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "予",
+              "zh": "預／予",
+              "note": "在日語可表「預先／給予」，繁體對應視語境為「預」或「予」，不宜一律寫成「豫」。"
+            },
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "action_activity"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_3"
+        ],
+        "sentence": [
+          {
+            "japanese": "毎日宿題をします。",
+            "chinese": "每天做功課。"
+          },
+          {
+            "japanese": "週末にテニスをします。",
+            "chinese": "週末打網球。"
+          },
+          {
+            "japanese": "会社で仕事をします。",
+            "chinese": "在公司工作。"
+          },
+          {
+            "japanese": "今日は買い物をします。",
+            "chinese": "今天去買東西。"
+          },
+          {
+            "japanese": "田中さんは日曜日にサッカーをします。",
+            "chinese": "田中先生星期天踢足球。"
+          },
+          {
+            "japanese": "家で掃除をします。",
+            "chinese": "在家打掃。"
+          },
+          {
+            "japanese": "朝に運動をします。",
+            "chinese": "早上運動。"
+          },
+          {
+            "japanese": "母は庭で洗濯をします。",
+            "chinese": "媽媽在院子洗衣服。"
+          },
+          {
+            "japanese": "友達とゲームをします。",
+            "chinese": "和朋友玩遊戲。"
+          },
+          {
+            "japanese": "公園で散歩をします。",
+            "chinese": "在公園散步。"
+          },
+          {
+            "japanese": "明日は予約をします。",
+            "chinese": "明天預約。"
+          },
+          {
+            "japanese": "山田さんは会議をします。",
+            "chinese": "山田先生開會。"
+          },
+          {
+            "japanese": "料理をします。",
+            "chinese": "做菜。"
+          },
+          {
+            "japanese": "休みの日に旅行の準備をします。",
+            "chinese": "假日準備旅行。"
+          },
+          {
+            "japanese": "王さんは毎晩復習をします。",
+            "chinese": "王先生每天晚上複習。"
+          },
+          {
+            "japanese": "部屋で宿題をします。",
+            "chinese": "在房間做功課。"
+          },
+          {
+            "japanese": "夕食の後で皿洗いをします。",
+            "chinese": "晚餐後洗碗。"
+          },
+          {
+            "japanese": "李さんはアルバイトをします。",
+            "chinese": "李先生打工。"
+          },
+          {
+            "japanese": "一緒にピクニックをします。",
+            "chinese": "一起去野餐。"
+          },
+          {
+            "japanese": "週末は家でゆっくりします。",
+            "chinese": "週末在家好好休息。"
+          }
+        ]
+      },
+      {
+        "japanese": "あいます",
+        "kanji": "会います",
+        "chinese": "遇見（朋友）",
+        "image": null,
+        "note": "「友達に会います」用「に」",
+        "kanji_note": {
+          "summary": "日語的「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "医",
+              "zh": "醫",
+              "note": null
+            },
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "恋",
+              "zh": "戀",
+              "note": null
+            },
+            {
+              "jp": "昼",
+              "zh": "晝",
+              "note": null
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "action_activity"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_1"
+        ],
+        "sentence": [
+          {
+            "japanese": "明日、友達に会います。",
+            "chinese": "明天和朋友見面。"
+          },
+          {
+            "japanese": "駅で田中さんに会います。",
+            "chinese": "在車站見田中先生。"
+          },
+          {
+            "japanese": "久しぶりに友達に会います。",
+            "chinese": "久違地見朋友。"
+          },
+          {
+            "japanese": "会社で部長に会います。",
+            "chinese": "在公司見部長。"
+          },
+          {
+            "japanese": "公園で山田さんに会います。",
+            "chinese": "在公園見山田先生。"
+          },
+          {
+            "japanese": "週末に恋人に会います。",
+            "chinese": "週末見戀人。"
+          },
+          {
+            "japanese": "学校で先生に会います。",
+            "chinese": "在學校見老師。"
+          },
+          {
+            "japanese": "今日は大学の友達に会います。",
+            "chinese": "今天見大學的朋友。"
+          },
+          {
+            "japanese": "李さんは客先で取引先に会います。",
+            "chinese": "李先生在客戶處見客戶。"
+          },
+          {
+            "japanese": "レストランで母に会います。",
+            "chinese": "在餐廳見媽媽。"
+          },
+          {
+            "japanese": "午後、医者に会います。",
+            "chinese": "下午看醫生。"
+          },
+          {
+            "japanese": "この駅で友達に会いますか。",
+            "chinese": "在這個車站見朋友嗎？"
+          },
+          {
+            "japanese": "王さんは空港で家族に会います。",
+            "chinese": "王先生在機場見家人。"
+          },
+          {
+            "japanese": "妹は塾で友達に会います。",
+            "chinese": "妹妹在補習班見朋友。"
+          },
+          {
+            "japanese": "仕事の後で先輩に会います。",
+            "chinese": "下班後見學長。"
+          },
+          {
+            "japanese": "京都で昔の友達に会います。",
+            "chinese": "在京都見老朋友。"
+          },
+          {
+            "japanese": "明日の朝、取引先に会います。",
+            "chinese": "明天早上見客戶。"
+          },
+          {
+            "japanese": "図書館でクラスメートに会います。",
+            "chinese": "在圖書館見同學。"
+          },
+          {
+            "japanese": "佐藤さんは昼に顧客に会います。",
+            "chinese": "佐藤先生中午見顧客。"
+          },
+          {
+            "japanese": "久しぶりに先生に会います。",
+            "chinese": "久違地見老師。"
+          }
+        ]
+      },
+      {
+        "japanese": "ごはん",
+        "kanji": null,
+        "chinese": "餐，米飯",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「昼」、「毎」、「気」、「温」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "昼",
+              "zh": "晝",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "温",
+              "zh": "溫",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "今朝はごはんを食べます。",
+            "chinese": "今天早上吃飯。"
+          },
+          {
+            "japanese": "このごはんは温かいです。",
+            "chinese": "這飯是溫的。"
+          },
+          {
+            "japanese": "ごはんを炊きます。",
+            "chinese": "煮飯。"
+          },
+          {
+            "japanese": "昼はごはんと魚を食べます。",
+            "chinese": "中午吃飯和魚。"
+          },
+          {
+            "japanese": "田中さんは毎朝ごはんを食べます。",
+            "chinese": "田中先生每天早上吃飯。"
+          },
+          {
+            "japanese": "この店のごはんは人気です。",
+            "chinese": "這家店的飯很受歡迎。"
+          },
+          {
+            "japanese": "ごはんにみそ汁を付けます。",
+            "chinese": "飯附味噌湯。"
+          },
+          {
+            "japanese": "おかわりでごはんを食べます。",
+            "chinese": "再添一碗飯吃。"
+          },
+          {
+            "japanese": "このごはんは私のです。",
+            "chinese": "這飯是我的。"
+          },
+          {
+            "japanese": "母は毎日ごはんを炊きます。",
+            "chinese": "媽媽每天煮飯。"
+          },
+          {
+            "japanese": "ごはんは冷めます。",
+            "chinese": "飯涼了。"
+          },
+          {
+            "japanese": "弟はごはんをたくさん食べます。",
+            "chinese": "弟弟吃很多飯。"
+          },
+          {
+            "japanese": "このごはんをどうぞ。",
+            "chinese": "這飯請用。"
+          },
+          {
+            "japanese": "今日はカレーをごはんにかけます。",
+            "chinese": "今天把咖哩淋在飯上。"
+          },
+          {
+            "japanese": "ごはんとみそ汁の朝食です。",
+            "chinese": "早餐是飯和味噌湯。"
+          },
+          {
+            "japanese": "山田さんはごはんを買います。",
+            "chinese": "山田先生買飯。"
+          },
+          {
+            "japanese": "休みの日はごはんを炊きます。",
+            "chinese": "假日煮飯。"
+          },
+          {
+            "japanese": "このごはんは家で炊きます。",
+            "chinese": "這飯在家煮。"
+          },
+          {
+            "japanese": "王さんはレストランでごはんを食べます。",
+            "chinese": "王先生在餐廳吃飯。"
+          },
+          {
+            "japanese": "ごはんのおかずは魚です。",
+            "chinese": "配飯的菜是魚。"
+          }
+        ]
+      },
+      {
+        "japanese": "あさごはん",
+        "kanji": "朝ごはん",
+        "chinese": "早餐",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「抜」、「歯」、「毎」、「温」、「焼」、「読」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "抜",
+              "zh": "拔",
+              "note": null
+            },
+            {
+              "jp": "歯",
+              "zh": "齒",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "温",
+              "zh": "溫",
+              "note": null
+            },
+            {
+              "jp": "焼",
+              "zh": "燒",
+              "note": null
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "朝ごはんは7時に食べます。",
+            "chinese": "早餐七點吃。"
+          },
+          {
+            "japanese": "今日の朝ごはんはパンです。",
+            "chinese": "今天的早餐是麵包。"
+          },
+          {
+            "japanese": "毎朝、朝ごはんを食べます。",
+            "chinese": "每天早上吃早餐。"
+          },
+          {
+            "japanese": "朝ごはんに卵を焼きます。",
+            "chinese": "早餐煎蛋。"
+          },
+          {
+            "japanese": "田中さんは朝ごはんを抜きます。",
+            "chinese": "田中先生不吃早餐。"
+          },
+          {
+            "japanese": "このホテルは朝ごはんが付きます。",
+            "chinese": "這家飯店附早餐。"
+          },
+          {
+            "japanese": "朝ごはんは牛乳とパンです。",
+            "chinese": "早餐是牛奶和麵包。"
+          },
+          {
+            "japanese": "母は毎朝朝ごはんを用意します。",
+            "chinese": "媽媽每天早上準備早餐。"
+          },
+          {
+            "japanese": "朝ごはんを大急ぎで食べます。",
+            "chinese": "趕著吃早餐。"
+          },
+          {
+            "japanese": "休みの日は朝ごはんをゆっくり食べます。",
+            "chinese": "假日慢慢吃早餐。"
+          },
+          {
+            "japanese": "朝ごはんの後で歯を磨きます。",
+            "chinese": "早餐後刷牙。"
+          },
+          {
+            "japanese": "山田さんはレストランで朝ごはんを食べます。",
+            "chinese": "山田先生在餐廳吃早餐。"
+          },
+          {
+            "japanese": "朝ごはんにおにぎりを食べます。",
+            "chinese": "早餐吃飯糰。"
+          },
+          {
+            "japanese": "この朝ごはんは温かいです。",
+            "chinese": "這早餐是溫的。"
+          },
+          {
+            "japanese": "王さんは朝ごはんを食べますか。",
+            "chinese": "王先生吃早餐嗎？"
+          },
+          {
+            "japanese": "朝ごはんは家で食べます。",
+            "chinese": "早餐在家吃。"
+          },
+          {
+            "japanese": "妹は朝ごはんに果物を食べます。",
+            "chinese": "妹妹早餐吃水果。"
+          },
+          {
+            "japanese": "明日の朝ごはんを買います。",
+            "chinese": "買明天的早餐。"
+          },
+          {
+            "japanese": "父は朝ごはんのときに新聞を読みます。",
+            "chinese": "爸爸吃早餐時看報紙。"
+          },
+          {
+            "japanese": "朝ごはんを食べます。それから出かけます。",
+            "chinese": "吃早餐，然後出門。"
+          }
+        ]
+      },
+      {
+        "japanese": "ひるごはん",
+        "kanji": "昼ごはん",
+        "chinese": "中餐",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "「弁」在繁體對應「辨／辯／瓣／弁」等，隨詞義而異，不宜一律寫成「瓣」。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "弁",
+              "zh": "辨／辯／瓣／弁",
+              "note": "隨詞義而異，不宜一律寫成「瓣」。"
+            },
+            {
+              "jp": "当",
+              "zh": "當",
+              "note": null
+            },
+            {
+              "jp": "昼",
+              "zh": "晝",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "済",
+              "zh": "濟",
+              "note": null
+            },
+            {
+              "jp": "軽",
+              "zh": "輕",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "昼ごはんは12時に食べます。",
+            "chinese": "午餐十二點吃。"
+          },
+          {
+            "japanese": "今日の昼ごはんはそばです。",
+            "chinese": "今天的午餐是蕎麥麵。"
+          },
+          {
+            "japanese": "会社で昼ごはんを食べます。",
+            "chinese": "在公司吃午餐。"
+          },
+          {
+            "japanese": "昼ごはんに弁当を食べます。",
+            "chinese": "午餐吃便當。"
+          },
+          {
+            "japanese": "田中さんは食堂で昼ごはんを食べます。",
+            "chinese": "田中先生在餐廳吃午餐。"
+          },
+          {
+            "japanese": "この店の昼ごはんは人気です。",
+            "chinese": "這家店的午餐很受歡迎。"
+          },
+          {
+            "japanese": "昼ごはんは外で食べます。",
+            "chinese": "午餐在外面吃。"
+          },
+          {
+            "japanese": "母は家で昼ごはんを用意します。",
+            "chinese": "媽媽在家準備午餐。"
+          },
+          {
+            "japanese": "昼ごはんの後で散歩します。",
+            "chinese": "午餐後散步。"
+          },
+          {
+            "japanese": "山田さんは昼ごはんにカレーを食べます。",
+            "chinese": "山田先生午餐吃咖哩。"
+          },
+          {
+            "japanese": "昼ごはんを一緒に食べますか。",
+            "chinese": "一起吃午餐嗎？"
+          },
+          {
+            "japanese": "12時半に昼ごはんを食べます。",
+            "chinese": "十二點半吃午餐。"
+          },
+          {
+            "japanese": "王さんは公園で昼ごはんを食べます。",
+            "chinese": "王先生在公園吃午餐。"
+          },
+          {
+            "japanese": "この弁当は昼ごはんです。",
+            "chinese": "這個便當是午餐。"
+          },
+          {
+            "japanese": "昼ごはんにパンと牛乳を食べます。",
+            "chinese": "午餐吃麵包和牛奶。"
+          },
+          {
+            "japanese": "李さんは毎日昼ごはんを食べます。",
+            "chinese": "李先生每天吃午餐。"
+          },
+          {
+            "japanese": "昼ごはんは軽く済ませます。",
+            "chinese": "午餐簡單解決。"
+          },
+          {
+            "japanese": "週末は家族と昼ごはんを食べます。",
+            "chinese": "週末和家人吃午餐。"
+          },
+          {
+            "japanese": "明日は友達と昼ごはんを食べます。",
+            "chinese": "明天和朋友吃午餐。"
+          },
+          {
+            "japanese": "昼ごはんを食べます。それから仕事をします。",
+            "chinese": "吃午餐，然後工作。"
+          }
+        ]
+      },
+      {
+        "japanese": "ばんごはん",
+        "kanji": "晩ごはん",
+        "chinese": "晚餐",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「晩」、「歯」、「毎」、「気」、「焼」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "歯",
+              "zh": "齒",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "焼",
+              "zh": "燒",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "晩ごはんは7時に食べます。",
+            "chinese": "晚餐七點吃。"
+          },
+          {
+            "japanese": "今日の晩ごはんは魚です。",
+            "chinese": "今天的晚餐是魚。"
+          },
+          {
+            "japanese": "家で晩ごはんを食べます。",
+            "chinese": "在家吃晚餐。"
+          },
+          {
+            "japanese": "晩ごはんに肉を焼きます。",
+            "chinese": "晚餐烤肉。"
+          },
+          {
+            "japanese": "田中さんはレストランで晩ごはんを食べます。",
+            "chinese": "田中先生在餐廳吃晚餐。"
+          },
+          {
+            "japanese": "この店の晩ごはんは人気です。",
+            "chinese": "這家店的晚餐很受歡迎。"
+          },
+          {
+            "japanese": "晩ごはんは家族と食べます。",
+            "chinese": "晚餐和家人吃。"
+          },
+          {
+            "japanese": "母は毎晩晩ごはんを用意します。",
+            "chinese": "媽媽每天晚上準備晚餐。"
+          },
+          {
+            "japanese": "晩ごはんの後で歯を磨きます。",
+            "chinese": "晚餐後刷牙。"
+          },
+          {
+            "japanese": "山田さんは晩ごはんにすき焼きを食べます。",
+            "chinese": "山田先生晚餐吃壽喜燒。"
+          },
+          {
+            "japanese": "晩ごはんを一緒に食べますか。",
+            "chinese": "一起吃晚餐嗎？"
+          },
+          {
+            "japanese": "8時に晩ごはんを食べます。",
+            "chinese": "八點吃晚餐。"
+          },
+          {
+            "japanese": "王さんは外で晩ごはんを食べます。",
+            "chinese": "王先生在外面吃晚餐。"
+          },
+          {
+            "japanese": "この魚は晩ごはんです。",
+            "chinese": "這條魚是晚餐。"
+          },
+          {
+            "japanese": "晩ごはんにごはんとみそ汁を食べます。",
+            "chinese": "晚餐吃飯和味噌湯。"
+          },
+          {
+            "japanese": "李さんは毎日晩ごはんを食べます。",
+            "chinese": "李先生每天吃晚餐。"
+          },
+          {
+            "japanese": "晩ごはんは早めに食べます。",
+            "chinese": "晚餐早點吃。"
+          },
+          {
+            "japanese": "週末は外で晩ごはんを食べます。",
+            "chinese": "週末在外面吃晚餐。"
+          },
+          {
+            "japanese": "明日は友達と晩ごはんを食べます。",
+            "chinese": "明天和朋友吃晚餐。"
+          },
+          {
+            "japanese": "晩ごはんを食べます。それからテレビを見ます。",
+            "chinese": "吃晚餐，然後看電視。"
+          }
+        ]
+      },
+      {
+        "japanese": "パン",
+        "kanji": null,
+        "chinese": "麵包",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「挟」、「昼」、「毎」、「温」、「焼」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "挟",
+              "zh": "挾",
+              "note": null
+            },
+            {
+              "jp": "昼",
+              "zh": "晝",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "温",
+              "zh": "溫",
+              "note": null
+            },
+            {
+              "jp": "焼",
+              "zh": "燒",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "朝はパンを食べます。",
+            "chinese": "早上吃麵包。"
+          },
+          {
+            "japanese": "このパンは焼きたてです。",
+            "chinese": "這麵包是剛出爐的。"
+          },
+          {
+            "japanese": "パン屋でパンを買います。",
+            "chinese": "在麵包店買麵包。"
+          },
+          {
+            "japanese": "今日のパンは少し硬いです。",
+            "chinese": "今天的麵包有點硬。"
+          },
+          {
+            "japanese": "田中さんは毎朝パンを食べます。",
+            "chinese": "田中先生每天早上吃麵包。"
+          },
+          {
+            "japanese": "このパンにバターを塗ります。",
+            "chinese": "在麵包上塗奶油。"
+          },
+          {
+            "japanese": "パンは朝ごはんです。",
+            "chinese": "麵包是早餐。"
+          },
+          {
+            "japanese": "母はパンを焼きます。",
+            "chinese": "媽媽烤麵包。"
+          },
+          {
+            "japanese": "昼はパンと牛乳を食べます。",
+            "chinese": "中午吃麵包和牛奶。"
+          },
+          {
+            "japanese": "山田さんは駅の店でパンを買います。",
+            "chinese": "山田先生在車站的店買麵包。"
+          },
+          {
+            "japanese": "このパンを半分にします。",
+            "chinese": "把這麵包分成兩半。"
+          },
+          {
+            "japanese": "パンにハムを挟みます。",
+            "chinese": "在麵包裡夾火腿。"
+          },
+          {
+            "japanese": "妹はジャムのパンを食べます。",
+            "chinese": "妹妹吃果醬麵包。"
+          },
+          {
+            "japanese": "明日の朝のパンを買います。",
+            "chinese": "買明天早上的麵包。"
+          },
+          {
+            "japanese": "パンは家で焼きます。",
+            "chinese": "麵包在家烤。"
+          },
+          {
+            "japanese": "李さんは昼ごはんにパンを食べます。",
+            "chinese": "李先生午餐吃麵包。"
+          },
+          {
+            "japanese": "このパンは私のです。",
+            "chinese": "這麵包是我的。"
+          },
+          {
+            "japanese": "週末にパン屋へ行きます。",
+            "chinese": "週末去麵包店。"
+          },
+          {
+            "japanese": "パンを温めます。",
+            "chinese": "加熱麵包。"
+          },
+          {
+            "japanese": "王さんはパンを買いますか。",
+            "chinese": "王先生買麵包嗎？"
+          }
+        ]
+      },
+      {
+        "japanese": "たまご",
+        "kanji": "卵",
+        "chinese": "雞蛋",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「昼」、「晩」、「毎」、「温」、「焼」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "昼",
+              "zh": "晝",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "温",
+              "zh": "溫",
+              "note": null
+            },
+            {
+              "jp": "焼",
+              "zh": "燒",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "朝ごはんに卵を食べます。",
+            "chinese": "早餐吃蛋。"
+          },
+          {
+            "japanese": "この卵は新鮮です。",
+            "chinese": "這蛋是新鮮的。"
+          },
+          {
+            "japanese": "卵を焼きます。",
+            "chinese": "煎蛋。"
+          },
+          {
+            "japanese": "スーパーで卵を買います。",
+            "chinese": "在超市買蛋。"
+          },
+          {
+            "japanese": "田中さんは毎朝卵を食べます。",
+            "chinese": "田中先生每天早上吃蛋。"
+          },
+          {
+            "japanese": "卵を割ります。",
+            "chinese": "打蛋。"
+          },
+          {
+            "japanese": "この料理に卵を使います。",
+            "chinese": "這道菜用蛋。"
+          },
+          {
+            "japanese": "母は卵でオムレツを焼きます。",
+            "chinese": "媽媽用蛋煎歐姆蛋。"
+          },
+          {
+            "japanese": "昼ごはんに卵を食べます。",
+            "chinese": "午餐吃蛋。"
+          },
+          {
+            "japanese": "山田さんは卵を買います。",
+            "chinese": "山田先生買蛋。"
+          },
+          {
+            "japanese": "卵と野菜を炒めます。",
+            "chinese": "炒蛋和蔬菜。"
+          },
+          {
+            "japanese": "この卵は温かいです。",
+            "chinese": "這蛋是溫的。"
+          },
+          {
+            "japanese": "妹はゆで卵を食べます。",
+            "chinese": "妹妹吃水煮蛋。"
+          },
+          {
+            "japanese": "卵を2つ買います。",
+            "chinese": "買兩顆蛋。"
+          },
+          {
+            "japanese": "晩ごはんに卵焼きを食べます。",
+            "chinese": "晚餐吃煎蛋捲。"
+          },
+          {
+            "japanese": "李さんは卵を食べますか。",
+            "chinese": "李先生吃蛋嗎？"
+          },
+          {
+            "japanese": "この卵は私のです。",
+            "chinese": "這蛋是我的。"
+          },
+          {
+            "japanese": "週末に卵をたくさん買います。",
+            "chinese": "週末買很多蛋。"
+          },
+          {
+            "japanese": "卵は台所に置きます。",
+            "chinese": "蛋放在廚房。"
+          },
+          {
+            "japanese": "王さんは卵を買います。",
+            "chinese": "王先生買蛋。"
+          }
+        ]
+      },
+      {
+        "japanese": "にく",
+        "kanji": "肉",
+        "chinese": "肉",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「昼」、「晩」、「毎」、「気」、「焼」、「鶏」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "昼",
+              "zh": "晝",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "焼",
+              "zh": "燒",
+              "note": null
+            },
+            {
+              "jp": "鶏",
+              "zh": "雞",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "晩ごはんに肉を食べます。",
+            "chinese": "晚餐吃肉。"
+          },
+          {
+            "japanese": "この肉は柔らかいです。",
+            "chinese": "這肉很嫩。"
+          },
+          {
+            "japanese": "肉を焼きます。",
+            "chinese": "烤肉。"
+          },
+          {
+            "japanese": "スーパーで肉を買います。",
+            "chinese": "在超市買肉。"
+          },
+          {
+            "japanese": "田中さんは毎日肉を食べます。",
+            "chinese": "田中先生每天吃肉。"
+          },
+          {
+            "japanese": "肉と野菜を炒めます。",
+            "chinese": "炒肉和蔬菜。"
+          },
+          {
+            "japanese": "この店の肉は人気です。",
+            "chinese": "這家店的肉很受歡迎。"
+          },
+          {
+            "japanese": "母は肉を煮ます。",
+            "chinese": "媽媽燉肉。"
+          },
+          {
+            "japanese": "昼ごはんに肉を食べます。",
+            "chinese": "午餐吃肉。"
+          },
+          {
+            "japanese": "山田さんは肉を買います。",
+            "chinese": "山田先生買肉。"
+          },
+          {
+            "japanese": "肉を一口大にします。",
+            "chinese": "把肉切成一口大小。"
+          },
+          {
+            "japanese": "肉は冷凍します。",
+            "chinese": "肉冷凍。"
+          },
+          {
+            "japanese": "妹は鶏肉を食べます。",
+            "chinese": "妹妹吃雞肉。"
+          },
+          {
+            "japanese": "肉を2パック買います。",
+            "chinese": "買兩盒肉。"
+          },
+          {
+            "japanese": "晩ごはんに肉じゃがを食べます。",
+            "chinese": "晚餐吃馬鈴薯燉肉。"
+          },
+          {
+            "japanese": "李さんは肉を食べますか。",
+            "chinese": "李先生吃肉嗎？"
+          },
+          {
+            "japanese": "この肉は私のです。",
+            "chinese": "這肉是我的。"
+          },
+          {
+            "japanese": "週末に肉をたくさん買います。",
+            "chinese": "週末買很多肉。"
+          },
+          {
+            "japanese": "肉は台所に置きます。",
+            "chinese": "肉放在廚房。"
+          },
+          {
+            "japanese": "王さんは肉を買います。",
+            "chinese": "王先生買肉。"
+          }
+        ]
+      },
+      {
+        "japanese": "さかな",
+        "kanji": "魚",
+        "chinese": "魚",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「塩」、「昼」、「晩」、「毎」、「気」、「焼」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "塩",
+              "zh": "鹽",
+              "note": null
+            },
+            {
+              "jp": "昼",
+              "zh": "晝",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "焼",
+              "zh": "燒",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "晩ごはんに魚を食べます。",
+            "chinese": "晚餐吃魚。"
+          },
+          {
+            "japanese": "この魚は新鮮です。",
+            "chinese": "這魚是新鮮的。"
+          },
+          {
+            "japanese": "魚を焼きます。",
+            "chinese": "烤魚。"
+          },
+          {
+            "japanese": "市場で魚を買います。",
+            "chinese": "在市場買魚。"
+          },
+          {
+            "japanese": "田中さんは毎日魚を食べます。",
+            "chinese": "田中先生每天吃魚。"
+          },
+          {
+            "japanese": "魚と野菜を煮ます。",
+            "chinese": "燉魚和蔬菜。"
+          },
+          {
+            "japanese": "この店の魚は人気です。",
+            "chinese": "這家店的魚很受歡迎。"
+          },
+          {
+            "japanese": "母は魚をさばきます。",
+            "chinese": "媽媽處理魚。"
+          },
+          {
+            "japanese": "昼ごはんに魚を食べます。",
+            "chinese": "午餐吃魚。"
+          },
+          {
+            "japanese": "山田さんは魚を買います。",
+            "chinese": "山田先生買魚。"
+          },
+          {
+            "japanese": "魚に塩を振ります。",
+            "chinese": "在魚上撒鹽。"
+          },
+          {
+            "japanese": "魚は冷凍します。",
+            "chinese": "魚冷凍。"
+          },
+          {
+            "japanese": "妹は焼き魚を食べます。",
+            "chinese": "妹妹吃烤魚。"
+          },
+          {
+            "japanese": "魚を2匹買います。",
+            "chinese": "買兩條魚。"
+          },
+          {
+            "japanese": "晩ごはんに魚の刺身を食べます。",
+            "chinese": "晚餐吃生魚片。"
+          },
+          {
+            "japanese": "李さんは魚を食べますか。",
+            "chinese": "李先生吃魚嗎？"
+          },
+          {
+            "japanese": "この魚は私のです。",
+            "chinese": "這魚是我的。"
+          },
+          {
+            "japanese": "週末に魚をたくさん買います。",
+            "chinese": "週末買很多魚。"
+          },
+          {
+            "japanese": "魚は台所に置きます。",
+            "chinese": "魚放在廚房。"
+          },
+          {
+            "japanese": "王さんは魚を買います。",
+            "chinese": "王先生買魚。"
+          }
+        ]
+      },
+      {
+        "japanese": "やさい",
+        "kanji": "野菜",
+        "chinese": "蔬菜",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "昼",
+              "zh": "晝",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "毎日野菜を食べます。",
+            "chinese": "每天吃蔬菜。"
+          },
+          {
+            "japanese": "この野菜は新鮮です。",
+            "chinese": "這蔬菜是新鮮的。"
+          },
+          {
+            "japanese": "野菜を炒めます。",
+            "chinese": "炒蔬菜。"
+          },
+          {
+            "japanese": "スーパーで野菜を買います。",
+            "chinese": "在超市買蔬菜。"
+          },
+          {
+            "japanese": "田中さんは毎日野菜を食べます。",
+            "chinese": "田中先生每天吃蔬菜。"
+          },
+          {
+            "japanese": "野菜と肉を煮ます。",
+            "chinese": "燉蔬菜和肉。"
+          },
+          {
+            "japanese": "この店の野菜は人気です。",
+            "chinese": "這家店的蔬菜很受歡迎。"
+          },
+          {
+            "japanese": "母は野菜を刻みます。",
+            "chinese": "媽媽切蔬菜。"
+          },
+          {
+            "japanese": "昼ごはんに野菜を食べます。",
+            "chinese": "午餐吃蔬菜。"
+          },
+          {
+            "japanese": "山田さんは野菜を買います。",
+            "chinese": "山田先生買蔬菜。"
+          },
+          {
+            "japanese": "野菜にドレッシングをかけます。",
+            "chinese": "在蔬菜上淋沙拉醬。"
+          },
+          {
+            "japanese": "野菜は冷凍します。",
+            "chinese": "蔬菜冷凍。"
+          },
+          {
+            "japanese": "妹は野菜サラダを食べます。",
+            "chinese": "妹妹吃蔬菜沙拉。"
+          },
+          {
+            "japanese": "野菜を2袋買います。",
+            "chinese": "買兩袋蔬菜。"
+          },
+          {
+            "japanese": "晩ごはんに野菜スープを飲みます。",
+            "chinese": "晚餐喝蔬菜湯。"
+          },
+          {
+            "japanese": "李さんは野菜を食べますか。",
+            "chinese": "李先生吃蔬菜嗎？"
+          },
+          {
+            "japanese": "この野菜は私のです。",
+            "chinese": "這蔬菜是我的。"
+          },
+          {
+            "japanese": "週末に野菜をたくさん買います。",
+            "chinese": "週末買很多蔬菜。"
+          },
+          {
+            "japanese": "野菜は台所に置きます。",
+            "chinese": "蔬菜放在廚房。"
+          },
+          {
+            "japanese": "王さんは野菜を買います。",
+            "chinese": "王先生買蔬菜。"
+          }
+        ]
+      },
+      {
+        "japanese": "くだもの",
+        "kanji": "果物",
+        "chinese": "水果",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「昼」、「晩」、「毎」、「気」、「蔵」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "昼",
+              "zh": "晝",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "蔵",
+              "zh": "藏",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "朝に果物を食べます。",
+            "chinese": "早上吃水果。"
+          },
+          {
+            "japanese": "この果物は甘いです。",
+            "chinese": "這水果很甜。"
+          },
+          {
+            "japanese": "果物を剥きます。",
+            "chinese": "剝水果。"
+          },
+          {
+            "japanese": "市場で果物を買います。",
+            "chinese": "在市場買水果。"
+          },
+          {
+            "japanese": "田中さんは毎朝果物を食べます。",
+            "chinese": "田中先生每天早上吃水果。"
+          },
+          {
+            "japanese": "果物とヨーグルトを食べます。",
+            "chinese": "吃水果和優格。"
+          },
+          {
+            "japanese": "この店の果物は人気です。",
+            "chinese": "這家店的水果很受歡迎。"
+          },
+          {
+            "japanese": "母は果物を選びます。",
+            "chinese": "媽媽挑選水果。"
+          },
+          {
+            "japanese": "昼ごはんの後で果物を食べます。",
+            "chinese": "午餐後吃水果。"
+          },
+          {
+            "japanese": "山田さんは果物を買います。",
+            "chinese": "山田先生買水果。"
+          },
+          {
+            "japanese": "果物を冷やします。",
+            "chinese": "冰水果。"
+          },
+          {
+            "japanese": "果物は冷蔵庫に置きます。",
+            "chinese": "水果放在冰箱。"
+          },
+          {
+            "japanese": "妹は果物を食べます。",
+            "chinese": "妹妹吃水果。"
+          },
+          {
+            "japanese": "果物を2種類買います。",
+            "chinese": "買兩種水果。"
+          },
+          {
+            "japanese": "晩ごはんの後で果物を食べます。",
+            "chinese": "晚餐後吃水果。"
+          },
+          {
+            "japanese": "李さんは果物を食べますか。",
+            "chinese": "李先生吃水果嗎？"
+          },
+          {
+            "japanese": "この果物は私のです。",
+            "chinese": "這水果是我的。"
+          },
+          {
+            "japanese": "週末に果物をたくさん買います。",
+            "chinese": "週末買很多水果。"
+          },
+          {
+            "japanese": "果物は台所に置きます。",
+            "chinese": "水果放在廚房。"
+          },
+          {
+            "japanese": "王さんは果物を買います。",
+            "chinese": "王先生買水果。"
+          }
+        ]
+      },
+      {
+        "japanese": "みず",
+        "kanji": "水",
+        "chinese": "水",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "運動の後で水を飲みます。",
+            "chinese": "運動後喝水。"
+          },
+          {
+            "japanese": "この水は水道の水です。",
+            "chinese": "這水是自來水。"
+          },
+          {
+            "japanese": "水を沸かします。",
+            "chinese": "燒水。"
+          },
+          {
+            "japanese": "スーパーで水を買います。",
+            "chinese": "在超市買水。"
+          },
+          {
+            "japanese": "田中さんは毎日水を飲みます。",
+            "chinese": "田中先生每天喝水。"
+          },
+          {
+            "japanese": "水をコップに注ぎます。",
+            "chinese": "把水倒進杯子。"
+          },
+          {
+            "japanese": "この水は大丈夫です。",
+            "chinese": "這水沒問題。"
+          },
+          {
+            "japanese": "母は水をやります。",
+            "chinese": "媽媽澆水。"
+          },
+          {
+            "japanese": "夏の日に水を飲みます。",
+            "chinese": "夏天喝水。"
+          },
+          {
+            "japanese": "山田さんは水を買います。",
+            "chinese": "山田先生買水。"
+          },
+          {
+            "japanese": "水に氷を浮かべます。",
+            "chinese": "在水裡放冰塊。"
+          },
+          {
+            "japanese": "水は毎日飲みます。",
+            "chinese": "水每天喝。"
+          },
+          {
+            "japanese": "妹は水を飲みます。",
+            "chinese": "妹妹喝水。"
+          },
+          {
+            "japanese": "水を2本買います。",
+            "chinese": "買兩瓶水。"
+          },
+          {
+            "japanese": "晩ごはんのときに水を飲みます。",
+            "chinese": "晚餐時喝水。"
+          },
+          {
+            "japanese": "李さんは水を飲みますか。",
+            "chinese": "李先生喝水嗎？"
+          },
+          {
+            "japanese": "この水は私のです。",
+            "chinese": "這水是我的。"
+          },
+          {
+            "japanese": "週末に水をたくさん買います。",
+            "chinese": "週末買很多水。"
+          },
+          {
+            "japanese": "水は台所に置きます。",
+            "chinese": "水放在廚房。"
+          },
+          {
+            "japanese": "王さんは水を買います。",
+            "chinese": "王先生買水。"
+          }
+        ]
+      },
+      {
+        "japanese": "おちゃ",
+        "kanji": "お茶",
+        "chinese": "茶",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "温",
+              "zh": "溫",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "朝にお茶を飲みます。",
+            "chinese": "早上喝茶。"
+          },
+          {
+            "japanese": "このお茶は温かいです。",
+            "chinese": "這茶是溫的。"
+          },
+          {
+            "japanese": "お茶を淹れます。",
+            "chinese": "泡茶。"
+          },
+          {
+            "japanese": "スーパーでお茶を買います。",
+            "chinese": "在超市買茶。"
+          },
+          {
+            "japanese": "田中さんは毎日お茶を飲みます。",
+            "chinese": "田中先生每天喝茶。"
+          },
+          {
+            "japanese": "お茶を急須に注ぎます。",
+            "chinese": "把茶倒進茶壺。"
+          },
+          {
+            "japanese": "このお茶は人気です。",
+            "chinese": "這茶很受歡迎。"
+          },
+          {
+            "japanese": "母は食後にお茶を飲みます。",
+            "chinese": "媽媽飯後喝茶。"
+          },
+          {
+            "japanese": "午後3時にお茶を飲みます。",
+            "chinese": "下午三點喝茶。"
+          },
+          {
+            "japanese": "山田さんはお茶を買います。",
+            "chinese": "山田先生買茶。"
+          },
+          {
+            "japanese": "お茶に砂糖を加えます。",
+            "chinese": "在茶裡加糖。"
+          },
+          {
+            "japanese": "お茶は毎日飲みます。",
+            "chinese": "茶每天喝。"
+          },
+          {
+            "japanese": "妹はお茶を飲みます。",
+            "chinese": "妹妹喝茶。"
+          },
+          {
+            "japanese": "お茶を2本買います。",
+            "chinese": "買兩瓶茶。"
+          },
+          {
+            "japanese": "晩ごはんの後でお茶を飲みます。",
+            "chinese": "晚餐後喝茶。"
+          },
+          {
+            "japanese": "李さんはお茶を飲みますか。",
+            "chinese": "李先生喝茶嗎？"
+          },
+          {
+            "japanese": "このお茶は私のです。",
+            "chinese": "這茶是我的。"
+          },
+          {
+            "japanese": "週末にお茶をたくさん買います。",
+            "chinese": "週末買很多茶。"
+          },
+          {
+            "japanese": "お茶は台所に置きます。",
+            "chinese": "茶放在廚房。"
+          },
+          {
+            "japanese": "王さんはお茶を買います。",
+            "chinese": "王先生買茶。"
+          }
+        ]
+      },
+      {
+        "japanese": "こうちゃ",
+        "kanji": "紅茶",
+        "chinese": "紅茶",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "温",
+              "zh": "溫",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "午後3時に紅茶を飲みます。",
+            "chinese": "下午三點喝紅茶。"
+          },
+          {
+            "japanese": "この紅茶は温かいです。",
+            "chinese": "這紅茶是溫的。"
+          },
+          {
+            "japanese": "紅茶を淹れます。",
+            "chinese": "泡紅茶。"
+          },
+          {
+            "japanese": "スーパーで紅茶を買います。",
+            "chinese": "在超市買紅茶。"
+          },
+          {
+            "japanese": "田中さんは毎日紅茶を飲みます。",
+            "chinese": "田中先生每天喝紅茶。"
+          },
+          {
+            "japanese": "紅茶にミルクを加えます。",
+            "chinese": "在紅茶裡加牛奶。"
+          },
+          {
+            "japanese": "この紅茶は人気です。",
+            "chinese": "這紅茶很受歡迎。"
+          },
+          {
+            "japanese": "母は食後に紅茶を飲みます。",
+            "chinese": "媽媽飯後喝紅茶。"
+          },
+          {
+            "japanese": "カフェで紅茶を飲みます。",
+            "chinese": "在咖啡館喝紅茶。"
+          },
+          {
+            "japanese": "山田さんは紅茶を買います。",
+            "chinese": "山田先生買紅茶。"
+          },
+          {
+            "japanese": "紅茶を冷やします。",
+            "chinese": "冰紅茶。"
+          },
+          {
+            "japanese": "紅茶は毎日飲みます。",
+            "chinese": "紅茶每天喝。"
+          },
+          {
+            "japanese": "妹はレモン紅茶を飲みます。",
+            "chinese": "妹妹喝檸檬紅茶。"
+          },
+          {
+            "japanese": "紅茶を2箱買います。",
+            "chinese": "買兩盒紅茶。"
+          },
+          {
+            "japanese": "晩ごはんの後で紅茶を飲みます。",
+            "chinese": "晚餐後喝紅茶。"
+          },
+          {
+            "japanese": "李さんは紅茶を飲みますか。",
+            "chinese": "李先生喝紅茶嗎？"
+          },
+          {
+            "japanese": "この紅茶は私のです。",
+            "chinese": "這紅茶是我的。"
+          },
+          {
+            "japanese": "週末に紅茶をたくさん買います。",
+            "chinese": "週末買很多紅茶。"
+          },
+          {
+            "japanese": "紅茶は台所に置きます。",
+            "chinese": "紅茶放在廚房。"
+          },
+          {
+            "japanese": "王さんは紅茶を買います。",
+            "chinese": "王先生買紅茶。"
+          }
+        ]
+      },
+      {
+        "japanese": "ぎゅうにゅう",
+        "kanji": "牛乳",
+        "chinese": "牛奶",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "寝",
+              "zh": "寢",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "温",
+              "zh": "溫",
+              "note": null
+            },
+            {
+              "jp": "蔵",
+              "zh": "藏",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "朝ごはんに牛乳を飲みます。",
+            "chinese": "早餐喝牛奶。"
+          },
+          {
+            "japanese": "この牛乳は今朝のものです。",
+            "chinese": "這牛奶是今天早上的。"
+          },
+          {
+            "japanese": "牛乳を温めます。",
+            "chinese": "加熱牛奶。"
+          },
+          {
+            "japanese": "スーパーで牛乳を買います。",
+            "chinese": "在超市買牛奶。"
+          },
+          {
+            "japanese": "田中さんは毎朝牛乳を飲みます。",
+            "chinese": "田中先生每天早上喝牛奶。"
+          },
+          {
+            "japanese": "牛乳でコーヒーを割ります。",
+            "chinese": "用牛奶調咖啡。"
+          },
+          {
+            "japanese": "この牛乳は人気です。",
+            "chinese": "這牛奶很受歡迎。"
+          },
+          {
+            "japanese": "母は料理に牛乳を使います。",
+            "chinese": "媽媽做菜用牛奶。"
+          },
+          {
+            "japanese": "寝る前に牛乳を飲みます。",
+            "chinese": "睡前喝牛奶。"
+          },
+          {
+            "japanese": "山田さんは牛乳を買います。",
+            "chinese": "山田先生買牛奶。"
+          },
+          {
+            "japanese": "牛乳をコップに注ぎます。",
+            "chinese": "把牛奶倒進杯子。"
+          },
+          {
+            "japanese": "牛乳は毎日飲みます。",
+            "chinese": "牛奶每天喝。"
+          },
+          {
+            "japanese": "妹は牛乳を飲みます。",
+            "chinese": "妹妹喝牛奶。"
+          },
+          {
+            "japanese": "牛乳を2本買います。",
+            "chinese": "買兩瓶牛奶。"
+          },
+          {
+            "japanese": "晩ごはんの後で牛乳を飲みます。",
+            "chinese": "晚餐後喝牛奶。"
+          },
+          {
+            "japanese": "李さんは牛乳を飲みますか。",
+            "chinese": "李先生喝牛奶嗎？"
+          },
+          {
+            "japanese": "この牛乳は私のです。",
+            "chinese": "這牛奶是我的。"
+          },
+          {
+            "japanese": "週末に牛乳をたくさん買います。",
+            "chinese": "週末買很多牛奶。"
+          },
+          {
+            "japanese": "牛乳は冷蔵庫に置きます。",
+            "chinese": "牛奶放在冰箱。"
+          },
+          {
+            "japanese": "王さんは牛乳を買います。",
+            "chinese": "王先生買牛奶。"
+          }
+        ]
+      },
+      {
+        "japanese": "ジュース",
+        "kanji": null,
+        "chinese": "果汁",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "昼",
+              "zh": "晝",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "蔵",
+              "zh": "藏",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "朝にジュースを飲みます。",
+            "chinese": "早上喝果汁。"
+          },
+          {
+            "japanese": "このジュースは甘いです。",
+            "chinese": "這果汁是甜的。"
+          },
+          {
+            "japanese": "ジュースを冷やします。",
+            "chinese": "冰果汁。"
+          },
+          {
+            "japanese": "コンビニでジュースを買います。",
+            "chinese": "在便利商店買果汁。"
+          },
+          {
+            "japanese": "田中さんは毎日ジュースを飲みます。",
+            "chinese": "田中先生每天喝果汁。"
+          },
+          {
+            "japanese": "ジュースをコップに注ぎます。",
+            "chinese": "把果汁倒進杯子。"
+          },
+          {
+            "japanese": "このジュースは人気です。",
+            "chinese": "這果汁很受歡迎。"
+          },
+          {
+            "japanese": "母は果物でジュースを絞ります。",
+            "chinese": "媽媽用水果榨汁。"
+          },
+          {
+            "japanese": "昼ごはんにジュースを飲みます。",
+            "chinese": "午餐喝果汁。"
+          },
+          {
+            "japanese": "山田さんはジュースを買います。",
+            "chinese": "山田先生買果汁。"
+          },
+          {
+            "japanese": "ジュースに氷を浮かべます。",
+            "chinese": "在果汁裡放冰塊。"
+          },
+          {
+            "japanese": "ジュースは毎日飲みます。",
+            "chinese": "果汁每天喝。"
+          },
+          {
+            "japanese": "妹はりんごジュースを飲みます。",
+            "chinese": "妹妹喝蘋果汁。"
+          },
+          {
+            "japanese": "ジュースを2本買います。",
+            "chinese": "買兩瓶果汁。"
+          },
+          {
+            "japanese": "晩ごはんの後でジュースを飲みます。",
+            "chinese": "晚餐後喝果汁。"
+          },
+          {
+            "japanese": "李さんはジュースを飲みますか。",
+            "chinese": "李先生喝果汁嗎？"
+          },
+          {
+            "japanese": "このジュースは私のです。",
+            "chinese": "這果汁是我的。"
+          },
+          {
+            "japanese": "週末にジュースをたくさん買います。",
+            "chinese": "週末買很多果汁。"
+          },
+          {
+            "japanese": "ジュースは冷蔵庫に置きます。",
+            "chinese": "果汁放在冰箱。"
+          },
+          {
+            "japanese": "王さんはジュースを買います。",
+            "chinese": "王先生買果汁。"
+          }
+        ]
+      },
+      {
+        "japanese": "ビール",
+        "kanji": null,
+        "chinese": "啤酒",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "蔵",
+              "zh": "藏",
+              "note": null
+            },
+            {
+              "jp": "頼",
+              "zh": "賴",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "晩ごはんのときにビールを飲みます。",
+            "chinese": "晚餐時喝啤酒。"
+          },
+          {
+            "japanese": "このビールは冷蔵庫のものです。",
+            "chinese": "這啤酒是冰箱裡的。"
+          },
+          {
+            "japanese": "ビールを冷やします。",
+            "chinese": "冰啤酒。"
+          },
+          {
+            "japanese": "スーパーでビールを買います。",
+            "chinese": "在超市買啤酒。"
+          },
+          {
+            "japanese": "田中さんは週末にビールを飲みます。",
+            "chinese": "田中先生週末喝啤酒。"
+          },
+          {
+            "japanese": "ビールをコップに注ぎます。",
+            "chinese": "把啤酒倒進杯子。"
+          },
+          {
+            "japanese": "このビールは人気です。",
+            "chinese": "這啤酒很受歡迎。"
+          },
+          {
+            "japanese": "父は晩ごはんにビールを飲みます。",
+            "chinese": "爸爸晚餐時喝啤酒。"
+          },
+          {
+            "japanese": "居酒屋でビールを飲みます。",
+            "chinese": "在居酒屋喝啤酒。"
+          },
+          {
+            "japanese": "山田さんはビールを買います。",
+            "chinese": "山田先生買啤酒。"
+          },
+          {
+            "japanese": "ビールと枝豆を頼みます。",
+            "chinese": "點啤酒和毛豆。"
+          },
+          {
+            "japanese": "ビールは週末に飲みます。",
+            "chinese": "啤酒週末喝。"
+          },
+          {
+            "japanese": "兄はビールを飲みます。",
+            "chinese": "哥哥喝啤酒。"
+          },
+          {
+            "japanese": "ビールを6本買います。",
+            "chinese": "買六瓶啤酒。"
+          },
+          {
+            "japanese": "仕事の後でビールを飲みます。",
+            "chinese": "下班後喝啤酒。"
+          },
+          {
+            "japanese": "李さんはビールを飲みますか。",
+            "chinese": "李先生喝啤酒嗎？"
+          },
+          {
+            "japanese": "このビールは私のです。",
+            "chinese": "這啤酒是我的。"
+          },
+          {
+            "japanese": "週末にビールをたくさん買います。",
+            "chinese": "週末買很多啤酒。"
+          },
+          {
+            "japanese": "ビールは冷蔵庫に置きます。",
+            "chinese": "啤酒放在冰箱。"
+          },
+          {
+            "japanese": "王さんはビールを買います。",
+            "chinese": "王先生買啤酒。"
+          }
+        ]
+      },
+      {
+        "japanese": "おさけ",
+        "kanji": "お酒",
+        "chinese": "酒類，日本酒",
+        "image": null,
+        "note": "加「お」較禮貌",
+        "kanji_note": {
+          "summary": "日語的「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "蔵",
+              "zh": "藏",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "週末にお酒を飲みます。",
+            "chinese": "週末喝酒。"
+          },
+          {
+            "japanese": "このお酒は強いです。",
+            "chinese": "這酒很烈。"
+          },
+          {
+            "japanese": "お酒を冷やします。",
+            "chinese": "冰酒。"
+          },
+          {
+            "japanese": "酒店でお酒を買います。",
+            "chinese": "在酒類商店買酒。"
+          },
+          {
+            "japanese": "田中さんは毎晩お酒を飲みます。",
+            "chinese": "田中先生每天晚上喝酒。"
+          },
+          {
+            "japanese": "お酒を少し飲みます。",
+            "chinese": "喝一點酒。"
+          },
+          {
+            "japanese": "このお酒は人気です。",
+            "chinese": "這酒很受歡迎。"
+          },
+          {
+            "japanese": "父は晩ごはんにお酒を飲みます。",
+            "chinese": "爸爸晚餐時喝酒。"
+          },
+          {
+            "japanese": "居酒屋でお酒を飲みます。",
+            "chinese": "在居酒屋喝酒。"
+          },
+          {
+            "japanese": "山田さんはお酒を買います。",
+            "chinese": "山田先生買酒。"
+          },
+          {
+            "japanese": "お酒を水で割ります。",
+            "chinese": "用水調酒。"
+          },
+          {
+            "japanese": "お酒は週末に飲みます。",
+            "chinese": "酒週末喝。"
+          },
+          {
+            "japanese": "兄はお酒を飲みます。",
+            "chinese": "哥哥喝酒。"
+          },
+          {
+            "japanese": "お酒を2本買います。",
+            "chinese": "買兩瓶酒。"
+          },
+          {
+            "japanese": "仕事の後でお酒を飲みます。",
+            "chinese": "下班後喝酒。"
+          },
+          {
+            "japanese": "李さんはお酒を飲みますか。",
+            "chinese": "李先生喝酒嗎？"
+          },
+          {
+            "japanese": "このお酒は私のです。",
+            "chinese": "這酒是我的。"
+          },
+          {
+            "japanese": "週末にお酒をたくさん買います。",
+            "chinese": "週末買很多酒。"
+          },
+          {
+            "japanese": "お酒は冷蔵庫に置きます。",
+            "chinese": "酒放在冰箱。"
+          },
+          {
+            "japanese": "王さんはお酒を買います。",
+            "chinese": "王先生買酒。"
+          }
+        ]
+      },
+      {
+        "japanese": "ビデオ",
+        "kanji": null,
+        "chinese": "錄影帶，錄影機",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「話」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "巻",
+              "zh": "卷",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "話",
+              "zh": "話",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "週末にビデオを見ます。",
+            "chinese": "週末看錄影帶。"
+          },
+          {
+            "japanese": "このビデオは人気です。",
+            "chinese": "這錄影帶很受歡迎。"
+          },
+          {
+            "japanese": "ビデオを家で見ます。",
+            "chinese": "在家看錄影帶。"
+          },
+          {
+            "japanese": "レンタル店でビデオを選びます。",
+            "chinese": "在租片店選錄影帶。"
+          },
+          {
+            "japanese": "田中さんは夜ビデオを見ます。",
+            "chinese": "田中先生晚上看錄影帶。"
+          },
+          {
+            "japanese": "ビデオを巻き戻します。",
+            "chinese": "倒帶。"
+          },
+          {
+            "japanese": "このビデオは話題です。",
+            "chinese": "這錄影帶是話題之作。"
+          },
+          {
+            "japanese": "母は料理のビデオを見ます。",
+            "chinese": "媽媽看料理錄影帶。"
+          },
+          {
+            "japanese": "家族とビデオを見ます。",
+            "chinese": "和家人看錄影帶。"
+          },
+          {
+            "japanese": "山田さんはビデオを見ます。",
+            "chinese": "山田先生看錄影帶。"
+          },
+          {
+            "japanese": "ビデオを再生します。",
+            "chinese": "播放錄影帶。"
+          },
+          {
+            "japanese": "ビデオは夜に見ます。",
+            "chinese": "錄影帶晚上看。"
+          },
+          {
+            "japanese": "妹はアニメのビデオを見ます。",
+            "chinese": "妹妹看動畫錄影帶。"
+          },
+          {
+            "japanese": "ビデオを2本選びます。",
+            "chinese": "選兩部錄影帶。"
+          },
+          {
+            "japanese": "晩ごはんの後でビデオを見ます。",
+            "chinese": "晚餐後看錄影帶。"
+          },
+          {
+            "japanese": "李さんはビデオを見ますか。",
+            "chinese": "李先生看錄影帶嗎？"
+          },
+          {
+            "japanese": "このビデオは私のです。",
+            "chinese": "這錄影帶是我的。"
+          },
+          {
+            "japanese": "週末にビデオをたくさん見ます。",
+            "chinese": "週末看很多錄影帶。"
+          },
+          {
+            "japanese": "ビデオは棚に置きます。",
+            "chinese": "錄影帶放在架上。"
+          },
+          {
+            "japanese": "王さんはビデオを見ます。",
+            "chinese": "王先生看錄影帶。"
+          }
+        ]
+      },
+      {
+        "japanese": "えいが",
+        "kanji": "映画",
+        "chinese": "電影",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "恋",
+              "zh": "戀",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "culture_entertainment"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "週末に映画を見ます。",
+            "chinese": "週末看電影。"
+          },
+          {
+            "japanese": "この映画は人気です。",
+            "chinese": "這電影很受歡迎。"
+          },
+          {
+            "japanese": "映画館で映画を見ます。",
+            "chinese": "在電影院看電影。"
+          },
+          {
+            "japanese": "今夜は映画を見ます。",
+            "chinese": "今晚看電影。"
+          },
+          {
+            "japanese": "田中さんは毎月映画を見ます。",
+            "chinese": "田中先生每個月看電影。"
+          },
+          {
+            "japanese": "友達と映画を見ます。",
+            "chinese": "和朋友看電影。"
+          },
+          {
+            "japanese": "この映画は長いです。",
+            "chinese": "這電影很長。"
+          },
+          {
+            "japanese": "母は恋愛映画を見ます。",
+            "chinese": "媽媽看愛情電影。"
+          },
+          {
+            "japanese": "映画の後でごはんを食べます。",
+            "chinese": "看完電影後吃飯。"
+          },
+          {
+            "japanese": "山田さんは映画を見ます。",
+            "chinese": "山田先生看電影。"
+          },
+          {
+            "japanese": "映画のチケットを買います。",
+            "chinese": "買電影票。"
+          },
+          {
+            "japanese": "映画は週末に見ます。",
+            "chinese": "電影週末看。"
+          },
+          {
+            "japanese": "妹はアニメ映画を見ます。",
+            "chinese": "妹妹看動畫電影。"
+          },
+          {
+            "japanese": "映画を2本見ます。",
+            "chinese": "看兩部電影。"
+          },
+          {
+            "japanese": "晩ごはんの後で映画を見ます。",
+            "chinese": "晚餐後看電影。"
+          },
+          {
+            "japanese": "李さんは映画を見ますか。",
+            "chinese": "李先生看電影嗎？"
+          },
+          {
+            "japanese": "この映画は私の好みです。",
+            "chinese": "這電影合我口味。"
+          },
+          {
+            "japanese": "週末に映画をたくさん見ます。",
+            "chinese": "週末看很多電影。"
+          },
+          {
+            "japanese": "映画は家で見ます。",
+            "chinese": "電影在家看。"
+          },
+          {
+            "japanese": "王さんは映画を見ます。",
+            "chinese": "王先生看電影。"
+          }
+        ]
+      },
+      {
+        "japanese": "CD",
+        "kanji": null,
+        "chinese": "CD",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「話」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "話",
+              "zh": "話",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "culture_entertainment"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "車でCDを聞きます。",
+            "chinese": "在車上聽CD。"
+          },
+          {
+            "japanese": "このCDは人気です。",
+            "chinese": "這CD很受歡迎。"
+          },
+          {
+            "japanese": "CDをレンタルします。",
+            "chinese": "租CD。"
+          },
+          {
+            "japanese": "話題のCDを買います。",
+            "chinese": "買話題的CD。"
+          },
+          {
+            "japanese": "田中さんは毎晩CDを聞きます。",
+            "chinese": "田中先生每天晚上聽CD。"
+          },
+          {
+            "japanese": "CDをプレーヤーで再生します。",
+            "chinese": "用播放器放CD。"
+          },
+          {
+            "japanese": "このCDは歌がいいです。",
+            "chinese": "這CD的歌很好。"
+          },
+          {
+            "japanese": "母は演歌のCDを聞きます。",
+            "chinese": "媽媽聽演歌CD。"
+          },
+          {
+            "japanese": "家でCDを聞きます。",
+            "chinese": "在家聽CD。"
+          },
+          {
+            "japanese": "山田さんはCDを聞きます。",
+            "chinese": "山田先生聽CD。"
+          },
+          {
+            "japanese": "CDを買います。",
+            "chinese": "買CD。"
+          },
+          {
+            "japanese": "CDは夜に聞きます。",
+            "chinese": "CD晚上聽。"
+          },
+          {
+            "japanese": "妹はアイドルのCDを聞きます。",
+            "chinese": "妹妹聽偶像的CD。"
+          },
+          {
+            "japanese": "CDを2枚選びます。",
+            "chinese": "選兩張CD。"
+          },
+          {
+            "japanese": "晩ごはんの後でCDを聞きます。",
+            "chinese": "晚餐後聽CD。"
+          },
+          {
+            "japanese": "李さんはCDを聞きますか。",
+            "chinese": "李先生聽CD嗎？"
+          },
+          {
+            "japanese": "このCDは私のです。",
+            "chinese": "這CD是我的。"
+          },
+          {
+            "japanese": "週末にCDをたくさん聞きます。",
+            "chinese": "週末聽很多CD。"
+          },
+          {
+            "japanese": "CDは棚に置きます。",
+            "chinese": "CD放在架上。"
+          },
+          {
+            "japanese": "王さんはCDを買います。",
+            "chinese": "王先生買CD。"
+          }
+        ]
+      },
+      {
+        "japanese": "てがみ",
+        "kanji": "手紙",
+        "chinese": "信",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「紙」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "届",
+              "zh": "屆",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "紙",
+              "zh": "紙",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "communication_language_study"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "友達に手紙を書きます。",
+            "chinese": "寫信給朋友。"
+          },
+          {
+            "japanese": "今日手紙が届きます。",
+            "chinese": "今天信會送到。"
+          },
+          {
+            "japanese": "手紙をポストへ出します。",
+            "chinese": "把信投進郵筒。"
+          },
+          {
+            "japanese": "母に手紙を書きます。",
+            "chinese": "寫信給媽媽。"
+          },
+          {
+            "japanese": "田中さんは毎月手紙を書きます。",
+            "chinese": "田中先生每個月寫信。"
+          },
+          {
+            "japanese": "手紙を読みます。",
+            "chinese": "讀信。"
+          },
+          {
+            "japanese": "この手紙は祖母からです。",
+            "chinese": "這封信是祖母寄來的。"
+          },
+          {
+            "japanese": "山田さんは手紙を書きます。",
+            "chinese": "山田先生寫信。"
+          },
+          {
+            "japanese": "手紙に切手を貼ります。",
+            "chinese": "在信上貼郵票。"
+          },
+          {
+            "japanese": "李さんは手紙を読みます。",
+            "chinese": "李先生讀信。"
+          },
+          {
+            "japanese": "手紙を封筒に詰めます。",
+            "chinese": "把信裝進信封。"
+          },
+          {
+            "japanese": "手紙は週末に書きます。",
+            "chinese": "信週末寫。"
+          },
+          {
+            "japanese": "妹は友達に手紙を書きます。",
+            "chinese": "妹妹寫信給朋友。"
+          },
+          {
+            "japanese": "手紙を2通書きます。",
+            "chinese": "寫兩封信。"
+          },
+          {
+            "japanese": "晩ごはんの後で手紙を書きます。",
+            "chinese": "晚餐後寫信。"
+          },
+          {
+            "japanese": "王さんは手紙を書きますか。",
+            "chinese": "王先生寫信嗎？"
+          },
+          {
+            "japanese": "この手紙は私のです。",
+            "chinese": "這封信是我的。"
+          },
+          {
+            "japanese": "週末に手紙を書きます。",
+            "chinese": "週末寫信。"
+          },
+          {
+            "japanese": "手紙は机に置きます。",
+            "chinese": "信放在桌上。"
+          },
+          {
+            "japanese": "父は手紙を書きます。",
+            "chinese": "爸爸寫信。"
+          }
+        ]
+      },
+      {
+        "japanese": "レポート",
+        "kanji": null,
+        "chinese": "報告",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「直」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "直",
+              "zh": "直",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "communication_language_study"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "毎週レポートを書きます。",
+            "chinese": "每週寫報告。"
+          },
+          {
+            "japanese": "このレポートは長いです。",
+            "chinese": "這報告很長。"
+          },
+          {
+            "japanese": "レポートを提出します。",
+            "chinese": "交報告。"
+          },
+          {
+            "japanese": "会社でレポートを書きます。",
+            "chinese": "在公司寫報告。"
+          },
+          {
+            "japanese": "田中さんは毎日レポートを書きます。",
+            "chinese": "田中先生每天寫報告。"
+          },
+          {
+            "japanese": "レポートを読みます。",
+            "chinese": "讀報告。"
+          },
+          {
+            "japanese": "このレポートは重要です。",
+            "chinese": "這報告很重要。"
+          },
+          {
+            "japanese": "山田さんはレポートを書きます。",
+            "chinese": "山田先生寫報告。"
+          },
+          {
+            "japanese": "レポートにデータをまとめます。",
+            "chinese": "在報告裡整理資料。"
+          },
+          {
+            "japanese": "李さんはレポートを読みます。",
+            "chinese": "李先生讀報告。"
+          },
+          {
+            "japanese": "レポートを直します。",
+            "chinese": "修改報告。"
+          },
+          {
+            "japanese": "レポートは週末に書きます。",
+            "chinese": "報告週末寫。"
+          },
+          {
+            "japanese": "妹は宿題のレポートを書きます。",
+            "chinese": "妹妹寫作業報告。"
+          },
+          {
+            "japanese": "レポートを2本書きます。",
+            "chinese": "寫兩份報告。"
+          },
+          {
+            "japanese": "晩ごはんの後でレポートを書きます。",
+            "chinese": "晚餐後寫報告。"
+          },
+          {
+            "japanese": "王さんはレポートを書きますか。",
+            "chinese": "王先生寫報告嗎？"
+          },
+          {
+            "japanese": "このレポートは私のです。",
+            "chinese": "這報告是我的。"
+          },
+          {
+            "japanese": "週末にレポートを書きます。",
+            "chinese": "週末寫報告。"
+          },
+          {
+            "japanese": "レポートは机に置きます。",
+            "chinese": "報告放在桌上。"
+          },
+          {
+            "japanese": "父は仕事のレポートを書きます。",
+            "chinese": "爸爸寫工作報告。"
+          }
+        ]
+      },
+      {
+        "japanese": "しゃしん",
+        "kanji": "写真",
+        "chinese": "相片",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「写」、「晩」、「毎」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "旅行で写真を撮ります。",
+            "chinese": "旅行時拍照。"
+          },
+          {
+            "japanese": "この写真は思い出です。",
+            "chinese": "這照片是回憶。"
+          },
+          {
+            "japanese": "写真をアルバムに貼ります。",
+            "chinese": "把照片貼在相簿。"
+          },
+          {
+            "japanese": "公園で写真を撮ります。",
+            "chinese": "在公園拍照。"
+          },
+          {
+            "japanese": "田中さんは毎日写真を撮ります。",
+            "chinese": "田中先生每天拍照。"
+          },
+          {
+            "japanese": "写真を見ます。",
+            "chinese": "看照片。"
+          },
+          {
+            "japanese": "この写真は家族です。",
+            "chinese": "這照片是家人。"
+          },
+          {
+            "japanese": "山田さんは写真を撮ります。",
+            "chinese": "山田先生拍照。"
+          },
+          {
+            "japanese": "写真に日付を書きます。",
+            "chinese": "在照片上寫日期。"
+          },
+          {
+            "japanese": "李さんは写真を見ます。",
+            "chinese": "李先生看照片。"
+          },
+          {
+            "japanese": "写真を現像します。",
+            "chinese": "沖洗照片。"
+          },
+          {
+            "japanese": "写真は週末に撮ります。",
+            "chinese": "照片週末拍。"
+          },
+          {
+            "japanese": "妹は友達の写真を見ます。",
+            "chinese": "妹妹看朋友的照片。"
+          },
+          {
+            "japanese": "写真を2枚撮ります。",
+            "chinese": "拍兩張照片。"
+          },
+          {
+            "japanese": "晩ごはんの後で写真を見ます。",
+            "chinese": "晚餐後看照片。"
+          },
+          {
+            "japanese": "王さんは写真を撮りますか。",
+            "chinese": "王先生拍照嗎？"
+          },
+          {
+            "japanese": "この写真は私のです。",
+            "chinese": "這照片是我的。"
+          },
+          {
+            "japanese": "週末に写真を撮ります。",
+            "chinese": "週末拍照。"
+          },
+          {
+            "japanese": "写真は机に置きます。",
+            "chinese": "照片放在桌上。"
+          },
+          {
+            "japanese": "父は家族の写真を撮ります。",
+            "chinese": "爸爸拍全家福。"
+          }
+        ]
+      },
+      {
+        "japanese": "みせ",
+        "kanji": "店",
+        "chinese": "商店",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「伝」、「昼」、「晩」、「気」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "伝",
+              "zh": "傳",
+              "note": null
+            },
+            {
+              "jp": "昼",
+              "zh": "晝",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "駅の近くに店を開きます。",
+            "chinese": "在車站附近開店。"
+          },
+          {
+            "japanese": "この店は人気です。",
+            "chinese": "這家店很受歡迎。"
+          },
+          {
+            "japanese": "店を閉めます。",
+            "chinese": "關店。"
+          },
+          {
+            "japanese": "この店で昼ごはんを食べます。",
+            "chinese": "在這家店吃午餐。"
+          },
+          {
+            "japanese": "田中さんは店で買い物をします。",
+            "chinese": "田中先生在店裡買東西。"
+          },
+          {
+            "japanese": "店に品物を並べます。",
+            "chinese": "在店裡擺商品。"
+          },
+          {
+            "japanese": "この店は朝9時に開きます。",
+            "chinese": "這家店早上九點開門。"
+          },
+          {
+            "japanese": "山田さんは店を手伝います。",
+            "chinese": "山田先生幫店裡忙。"
+          },
+          {
+            "japanese": "店の前で友達に会います。",
+            "chinese": "在店前見朋友。"
+          },
+          {
+            "japanese": "李さんは店で買い物をします。",
+            "chinese": "李先生在店裡買東西。"
+          },
+          {
+            "japanese": "店を準備します。",
+            "chinese": "準備開店。"
+          },
+          {
+            "japanese": "店は週末に混みます。",
+            "chinese": "店週末人多。"
+          },
+          {
+            "japanese": "妹はこの店でお菓子を買います。",
+            "chinese": "妹妹在這家店買零食。"
+          },
+          {
+            "japanese": "店を2軒回ります。",
+            "chinese": "逛兩家店。"
+          },
+          {
+            "japanese": "晩ごはんの後で店を回ります。",
+            "chinese": "晚餐後逛店。"
+          },
+          {
+            "japanese": "王さんは店で買い物をしますか。",
+            "chinese": "王先生在店裡買東西嗎？"
+          },
+          {
+            "japanese": "この店は私のお気に入りです。",
+            "chinese": "這家店是我的最愛。"
+          },
+          {
+            "japanese": "週末に店へ行きます。",
+            "chinese": "週末去店裡。"
+          },
+          {
+            "japanese": "店は駅の前にできます。",
+            "chinese": "店開在車站前。"
+          },
+          {
+            "japanese": "父は店で野菜を買います。",
+            "chinese": "爸爸在店裡買蔬菜。"
+          }
+        ]
+      },
+      {
+        "japanese": "レストラン",
+        "kanji": null,
+        "chinese": "餐廳",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "「予」在日語可表「預先／給予」，繁體對應視語境為「預」或「予」，不宜一律寫成「豫」。日語「働」為和製字（國字），中文無此字。",
+          "details": [
+            {
+              "jp": "予",
+              "zh": "預／予",
+              "note": "在日語可表「預先／給予」，繁體對應視語境為「預」或「予」，不宜一律寫成「豫」。"
+            },
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "昼",
+              "zh": "晝",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "駅の近くにレストランを予約します。",
+            "chinese": "在車站附近訂餐廳。"
+          },
+          {
+            "japanese": "このレストランは人気です。",
+            "chinese": "這家餐廳很受歡迎。"
+          },
+          {
+            "japanese": "レストランで昼ごはんを食べます。",
+            "chinese": "在餐廳吃午餐。"
+          },
+          {
+            "japanese": "このレストランは料理が評判です。",
+            "chinese": "這家餐廳的菜很有名。"
+          },
+          {
+            "japanese": "田中さんはレストランで晩ごはんを食べます。",
+            "chinese": "田中先生在餐廳吃晚餐。"
+          },
+          {
+            "japanese": "レストランを予約します。",
+            "chinese": "訂餐廳。"
+          },
+          {
+            "japanese": "このレストランは午後5時に開きます。",
+            "chinese": "這家餐廳下午五點開門。"
+          },
+          {
+            "japanese": "山田さんはレストランで働きます。",
+            "chinese": "山田先生在餐廳工作。"
+          },
+          {
+            "japanese": "レストランの前で友達に会います。",
+            "chinese": "在餐廳前見朋友。"
+          },
+          {
+            "japanese": "李さんはレストランで食べます。",
+            "chinese": "李先生在餐廳吃飯。"
+          },
+          {
+            "japanese": "レストランのメニューを見ます。",
+            "chinese": "看餐廳的菜單。"
+          },
+          {
+            "japanese": "レストランは週末に混みます。",
+            "chinese": "餐廳週末人多。"
+          },
+          {
+            "japanese": "妹はこのレストランでパスタを食べます。",
+            "chinese": "妹妹在這家餐廳吃義大利麵。"
+          },
+          {
+            "japanese": "レストランを2軒予約します。",
+            "chinese": "訂兩家餐廳。"
+          },
+          {
+            "japanese": "晩ごはんの後でレストランを後にします。",
+            "chinese": "晚餐後離開餐廳。"
+          },
+          {
+            "japanese": "王さんはレストランで食べますか。",
+            "chinese": "王先生在餐廳吃飯嗎？"
+          },
+          {
+            "japanese": "このレストランは私のお気に入りです。",
+            "chinese": "這家餐廳是我的最愛。"
+          },
+          {
+            "japanese": "週末にレストランへ行きます。",
+            "chinese": "週末去餐廳。"
+          },
+          {
+            "japanese": "レストランは駅の前に面しています。",
+            "chinese": "餐廳面向車站前。"
+          },
+          {
+            "japanese": "父はレストランで魚を食べます。",
+            "chinese": "爸爸在餐廳吃魚。"
+          }
+        ]
+      },
+      {
+        "japanese": "にわ",
+        "kanji": "庭",
+        "chinese": "院子",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「写」、「広」、「昼」、「晩」、「歩」、「裏」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "広",
+              "zh": "廣",
+              "note": null
+            },
+            {
+              "jp": "昼",
+              "zh": "晝",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "裏",
+              "zh": "裡",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "家に庭を造ります。",
+            "chinese": "在家造院子。"
+          },
+          {
+            "japanese": "この庭は広いです。",
+            "chinese": "這院子很寬敞。"
+          },
+          {
+            "japanese": "庭で花を育てます。",
+            "chinese": "在院子種花。"
+          },
+          {
+            "japanese": "庭を掃除します。",
+            "chinese": "打掃院子。"
+          },
+          {
+            "japanese": "田中さんは庭で野菜を育てます。",
+            "chinese": "田中先生在院子種蔬菜。"
+          },
+          {
+            "japanese": "庭でバーベキューをします。",
+            "chinese": "在院子烤肉。"
+          },
+          {
+            "japanese": "この庭は母の自慢です。",
+            "chinese": "這院子是媽媽的驕傲。"
+          },
+          {
+            "japanese": "山田さんは庭で写真を撮ります。",
+            "chinese": "山田先生在院子拍照。"
+          },
+          {
+            "japanese": "庭の木に水をやります。",
+            "chinese": "給院子的樹澆水。"
+          },
+          {
+            "japanese": "李さんは庭を散歩します。",
+            "chinese": "李先生在院子散步。"
+          },
+          {
+            "japanese": "庭を整えます。",
+            "chinese": "整理院子。"
+          },
+          {
+            "japanese": "庭は週末に手入れします。",
+            "chinese": "院子週末整理。"
+          },
+          {
+            "japanese": "妹は庭で遊びます。",
+            "chinese": "妹妹在院子玩。"
+          },
+          {
+            "japanese": "庭に花を植えます。",
+            "chinese": "在院子種花。"
+          },
+          {
+            "japanese": "晩ごはんの後で庭を散歩します。",
+            "chinese": "晚餐後在院子散步。"
+          },
+          {
+            "japanese": "王さんは庭で写真を撮りますか。",
+            "chinese": "王先生在院子拍照嗎？"
+          },
+          {
+            "japanese": "この庭は私の家のです。",
+            "chinese": "這院子是我家的。"
+          },
+          {
+            "japanese": "週末に庭で昼ごはんを食べます。",
+            "chinese": "週末在院子吃午餐。"
+          },
+          {
+            "japanese": "庭は家の裏に広がります。",
+            "chinese": "院子延伸到房子後面。"
+          },
+          {
+            "japanese": "父は庭でたばこを吸います。",
+            "chinese": "爸爸在院子抽菸。"
+          }
+        ]
+      },
+      {
+        "japanese": "しゅくだい",
+        "kanji": "宿題",
+        "chinese": "作業",
+        "image": null,
+        "note": "「宿題をします」做作業",
+        "kanji_note": {
+          "summary": "日語的「漢」、「直」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "漢",
+              "zh": "漢",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "直",
+              "zh": "直",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "communication_language_study"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "毎日宿題をします。",
+            "chinese": "每天做功課。"
+          },
+          {
+            "japanese": "今日の宿題は漢字です。",
+            "chinese": "今天的作業是漢字。"
+          },
+          {
+            "japanese": "宿題を学校でします。",
+            "chinese": "在學校做功課。"
+          },
+          {
+            "japanese": "宿題を家でします。",
+            "chinese": "在家做功課。"
+          },
+          {
+            "japanese": "田中さんは毎晩宿題をします。",
+            "chinese": "田中先生每天晚上做功課。"
+          },
+          {
+            "japanese": "宿題をノートに書きます。",
+            "chinese": "把作業寫在筆記本。"
+          },
+          {
+            "japanese": "この宿題は量が多いです。",
+            "chinese": "這作業量很多。"
+          },
+          {
+            "japanese": "山田さんは宿題をします。",
+            "chinese": "山田先生做功課。"
+          },
+          {
+            "japanese": "宿題の答えを確認します。",
+            "chinese": "確認作業答案。"
+          },
+          {
+            "japanese": "李さんは宿題をします。",
+            "chinese": "李先生做功課。"
+          },
+          {
+            "japanese": "宿題を直します。",
+            "chinese": "訂正作業。"
+          },
+          {
+            "japanese": "宿題は週末にします。",
+            "chinese": "作業週末做。"
+          },
+          {
+            "japanese": "妹は宿題をします。",
+            "chinese": "妹妹做功課。"
+          },
+          {
+            "japanese": "宿題を2つします。",
+            "chinese": "做兩份作業。"
+          },
+          {
+            "japanese": "晩ごはんの後で宿題をします。",
+            "chinese": "晚餐後做功課。"
+          },
+          {
+            "japanese": "王さんは宿題をしますか。",
+            "chinese": "王先生做功課嗎？"
+          },
+          {
+            "japanese": "この宿題は私のです。",
+            "chinese": "這作業是我的。"
+          },
+          {
+            "japanese": "週末に宿題をします。",
+            "chinese": "週末做功課。"
+          },
+          {
+            "japanese": "宿題は机に置きます。",
+            "chinese": "作業放在桌上。"
+          },
+          {
+            "japanese": "父は妹の宿題を見ます。",
+            "chinese": "爸爸看妹妹的作業。"
+          }
+        ]
+      },
+      {
+        "japanese": "テニス",
+        "kanji": null,
+        "chinese": "網球",
+        "image": null,
+        "note": "「テニスをします」",
+        "kanji_note": {
+          "summary": "日語的「曜」、「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "体",
+              "zh": "體",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "戦",
+              "zh": "戰",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "culture_entertainment"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "週末にテニスをします。",
+            "chinese": "週末打網球。"
+          },
+          {
+            "japanese": "今日のテニスはいい練習です。",
+            "chinese": "今天的網球是不錯的練習。"
+          },
+          {
+            "japanese": "テニスコートでテニスをします。",
+            "chinese": "在網球場打網球。"
+          },
+          {
+            "japanese": "友達とテニスをします。",
+            "chinese": "和朋友打網球。"
+          },
+          {
+            "japanese": "田中さんは毎週テニスをします。",
+            "chinese": "田中先生每週打網球。"
+          },
+          {
+            "japanese": "テニスの練習をします。",
+            "chinese": "練習網球。"
+          },
+          {
+            "japanese": "このテニスは接戦です。",
+            "chinese": "這場網球勢均力敵。"
+          },
+          {
+            "japanese": "山田さんはテニスをします。",
+            "chinese": "山田先生打網球。"
+          },
+          {
+            "japanese": "テニスのラケットを買います。",
+            "chinese": "買網球拍。"
+          },
+          {
+            "japanese": "李さんはテニスをします。",
+            "chinese": "李先生打網球。"
+          },
+          {
+            "japanese": "テニスを練習します。",
+            "chinese": "練習網球。"
+          },
+          {
+            "japanese": "テニスは週末にします。",
+            "chinese": "網球週末打。"
+          },
+          {
+            "japanese": "妹は学校でテニスをします。",
+            "chinese": "妹妹在學校打網球。"
+          },
+          {
+            "japanese": "テニスを2時間します。",
+            "chinese": "打兩小時網球。"
+          },
+          {
+            "japanese": "晩ごはんの後でテニスをします。",
+            "chinese": "晚餐後打網球。"
+          },
+          {
+            "japanese": "王さんはテニスをしますか。",
+            "chinese": "王先生打網球嗎？"
+          },
+          {
+            "japanese": "このテニスは私の試合です。",
+            "chinese": "這場網球是我的比賽。"
+          },
+          {
+            "japanese": "土曜日にテニスをします。",
+            "chinese": "星期六打網球。"
+          },
+          {
+            "japanese": "テニスは体育館でします。",
+            "chinese": "網球在體育館打。"
+          },
+          {
+            "japanese": "父は朝テニスをします。",
+            "chinese": "爸爸早上打網球。"
+          }
+        ]
+      },
+      {
+        "japanese": "サッカー",
+        "kanji": null,
+        "chinese": "足球",
+        "image": null,
+        "note": "「サッカーをします」",
+        "kanji_note": {
+          "summary": "日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "応",
+              "zh": "應",
+              "note": null
+            },
+            {
+              "jp": "戦",
+              "zh": "戰",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "culture_entertainment"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "週末にサッカーをします。",
+            "chinese": "週末踢足球。"
+          },
+          {
+            "japanese": "今日のサッカーは接戦です。",
+            "chinese": "今天的足球勢均力敵。"
+          },
+          {
+            "japanese": "校庭でサッカーをします。",
+            "chinese": "在校園踢足球。"
+          },
+          {
+            "japanese": "友達とサッカーをします。",
+            "chinese": "和朋友踢足球。"
+          },
+          {
+            "japanese": "田中さんは毎週サッカーをします。",
+            "chinese": "田中先生每週踢足球。"
+          },
+          {
+            "japanese": "サッカーの練習をします。",
+            "chinese": "練習足球。"
+          },
+          {
+            "japanese": "このサッカーは見応え十分です。",
+            "chinese": "這場足球很有看頭。"
+          },
+          {
+            "japanese": "山田さんはサッカーをします。",
+            "chinese": "山田先生踢足球。"
+          },
+          {
+            "japanese": "サッカーの試合を見ます。",
+            "chinese": "看足球比賽。"
+          },
+          {
+            "japanese": "李さんはサッカーをします。",
+            "chinese": "李先生踢足球。"
+          },
+          {
+            "japanese": "サッカーを練習します。",
+            "chinese": "練習足球。"
+          },
+          {
+            "japanese": "サッカーは週末にします。",
+            "chinese": "足球週末踢。"
+          },
+          {
+            "japanese": "妹はサッカーを見ます。",
+            "chinese": "妹妹看足球。"
+          },
+          {
+            "japanese": "サッカーを2時間します。",
+            "chinese": "踢兩小時足球。"
+          },
+          {
+            "japanese": "晩ごはんの後でサッカーをします。",
+            "chinese": "晚餐後踢足球。"
+          },
+          {
+            "japanese": "王さんはサッカーをしますか。",
+            "chinese": "王先生踢足球嗎？"
+          },
+          {
+            "japanese": "このサッカーは私の試合です。",
+            "chinese": "這場足球是我的比賽。"
+          },
+          {
+            "japanese": "土曜日にサッカーをします。",
+            "chinese": "星期六踢足球。"
+          },
+          {
+            "japanese": "サッカーは公園でします。",
+            "chinese": "足球在公園踢。"
+          },
+          {
+            "japanese": "父は弟とサッカーをします。",
+            "chinese": "爸爸和弟弟踢足球。"
+          }
+        ]
+      },
+      {
+        "japanese": "おはなみ",
+        "kanji": "お花見",
+        "chinese": "賞花",
+        "image": null,
+        "note": "「花見をします」",
+        "kanji_note": {
+          "summary": "日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "恒",
+              "zh": "恆",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "楽",
+              "zh": "樂",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "culture_entertainment"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "春にお花見をします。",
+            "chinese": "春天去賞花。"
+          },
+          {
+            "japanese": "今日のお花見は大勢です。",
+            "chinese": "今天的賞花人很多。"
+          },
+          {
+            "japanese": "公園でお花見をします。",
+            "chinese": "在公園賞花。"
+          },
+          {
+            "japanese": "家族とお花見をします。",
+            "chinese": "和家人賞花。"
+          },
+          {
+            "japanese": "田中さんは週末にお花見をします。",
+            "chinese": "田中先生週末賞花。"
+          },
+          {
+            "japanese": "お花見の準備をします。",
+            "chinese": "準備賞花。"
+          },
+          {
+            "japanese": "このお花見は毎年恒例です。",
+            "chinese": "這賞花是每年慣例。"
+          },
+          {
+            "japanese": "山田さんはお花見をします。",
+            "chinese": "山田先生賞花。"
+          },
+          {
+            "japanese": "お花見の場所を取ります。",
+            "chinese": "佔賞花的位置。"
+          },
+          {
+            "japanese": "李さんはお花見をします。",
+            "chinese": "李先生賞花。"
+          },
+          {
+            "japanese": "お花見で写真を撮ります。",
+            "chinese": "賞花時拍照。"
+          },
+          {
+            "japanese": "お花見は週末にします。",
+            "chinese": "賞花週末去。"
+          },
+          {
+            "japanese": "妹は友達とお花見をします。",
+            "chinese": "妹妹和朋友賞花。"
+          },
+          {
+            "japanese": "お花見を2時間します。",
+            "chinese": "賞花兩小時。"
+          },
+          {
+            "japanese": "晩ごはんの後でお花見をします。",
+            "chinese": "晚餐後賞花。"
+          },
+          {
+            "japanese": "王さんはお花見をしますか。",
+            "chinese": "王先生賞花嗎？"
+          },
+          {
+            "japanese": "このお花見は私の楽しみです。",
+            "chinese": "這賞花是我的樂趣。"
+          },
+          {
+            "japanese": "土曜日にお花見をします。",
+            "chinese": "星期六賞花。"
+          },
+          {
+            "japanese": "お花見は川沿いでします。",
+            "chinese": "賞花在河邊。"
+          },
+          {
+            "japanese": "父は会社の人とお花見をします。",
+            "chinese": "爸爸和公司的人賞花。"
+          }
+        ]
+      },
+      {
+        "japanese": "なに",
+        "kanji": "何",
+        "chinese": "什麼",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "伝",
+              "zh": "傳",
+              "note": null
+            },
+            {
+              "jp": "昼",
+              "zh": "晝",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "function_word"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "朝ごはんに何を食べますか。",
+            "chinese": "早餐吃什麼？"
+          },
+          {
+            "japanese": "今日は何をしますか。",
+            "chinese": "今天做什麼？"
+          },
+          {
+            "japanese": "この箱の中は何ですか。",
+            "chinese": "這箱子裡是什麼？"
+          },
+          {
+            "japanese": "何を飲みますか。",
+            "chinese": "喝什麼？"
+          },
+          {
+            "japanese": "週末に何を買いますか。",
+            "chinese": "週末買什麼？"
+          },
+          {
+            "japanese": "田中さんは何を読みますか。",
+            "chinese": "田中先生看什麼？"
+          },
+          {
+            "japanese": "昼ごはんは何にしますか。",
+            "chinese": "午餐要吃什麼？"
+          },
+          {
+            "japanese": "この字は何と読みますか。",
+            "chinese": "這個字怎麼讀？"
+          },
+          {
+            "japanese": "何を見ますか。",
+            "chinese": "看什麼？"
+          },
+          {
+            "japanese": "山田さんは何を書きますか。",
+            "chinese": "山田先生寫什麼？"
+          },
+          {
+            "japanese": "明日は何時に起きますか。",
+            "chinese": "明天幾點起床？"
+          },
+          {
+            "japanese": "これは何ですか。",
+            "chinese": "這是什麼？"
+          },
+          {
+            "japanese": "何を食べますか。",
+            "chinese": "吃什麼？"
+          },
+          {
+            "japanese": "その袋に何を詰めますか。",
+            "chinese": "那個袋子裡裝什麼？"
+          },
+          {
+            "japanese": "晩ごはんは何を食べますか。",
+            "chinese": "晚餐吃什麼？"
+          },
+          {
+            "japanese": "李さんは何を買いますか。",
+            "chinese": "李先生買什麼？"
+          },
+          {
+            "japanese": "何か手伝いますか。",
+            "chinese": "需要幫忙什麼嗎？"
+          },
+          {
+            "japanese": "週末は何をしますか。",
+            "chinese": "週末做什麼？"
+          },
+          {
+            "japanese": "この店で何を買いますか。",
+            "chinese": "在這家店買什麼？"
+          },
+          {
+            "japanese": "王さんは何を聞きますか。",
+            "chinese": "王先生聽什麼？"
+          }
+        ]
+      },
+      {
+        "japanese": "いっしょに",
+        "kanji": null,
+        "chinese": "一起",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "昼",
+              "zh": "晝",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "quality_state_degree"
+        ],
+        "speech": [
+          "adverb"
+        ],
+        "sentence": [
+          {
+            "japanese": "友達といっしょに映画を見ます。",
+            "chinese": "和朋友一起看電影。"
+          },
+          {
+            "japanese": "いっしょに昼ごはんを食べますか。",
+            "chinese": "一起吃午餐嗎？"
+          },
+          {
+            "japanese": "家族といっしょに晩ごはんを食べます。",
+            "chinese": "和家人一起吃晚餐。"
+          },
+          {
+            "japanese": "週末は友達といっしょに買い物をします。",
+            "chinese": "週末和朋友一起買東西。"
+          },
+          {
+            "japanese": "田中さんといっしょに仕事をします。",
+            "chinese": "和田中先生一起工作。"
+          },
+          {
+            "japanese": "いっしょに写真を撮ります。",
+            "chinese": "一起拍照。"
+          },
+          {
+            "japanese": "弟といっしょにゲームをします。",
+            "chinese": "和弟弟一起玩遊戲。"
+          },
+          {
+            "japanese": "母といっしょに料理をします。",
+            "chinese": "和媽媽一起做菜。"
+          },
+          {
+            "japanese": "いっしょに公園を散歩します。",
+            "chinese": "一起逛公園。"
+          },
+          {
+            "japanese": "山田さんといっしょにテニスをします。",
+            "chinese": "和山田先生一起打網球。"
+          },
+          {
+            "japanese": "いっしょにお茶を飲みます。",
+            "chinese": "一起喝茶。"
+          },
+          {
+            "japanese": "父といっしょに釣りをします。",
+            "chinese": "和爸爸一起釣魚。"
+          },
+          {
+            "japanese": "いっしょに宿題をします。",
+            "chinese": "一起做功課。"
+          },
+          {
+            "japanese": "友達といっしょに散歩します。",
+            "chinese": "和朋友一起散步。"
+          },
+          {
+            "japanese": "いっしょに歌を歌います。",
+            "chinese": "一起唱歌。"
+          },
+          {
+            "japanese": "李さんといっしょに食べます。",
+            "chinese": "和李先生一起吃。"
+          },
+          {
+            "japanese": "いっしょにレストランへ行きます。",
+            "chinese": "一起去餐廳。"
+          },
+          {
+            "japanese": "妹といっしょに本を読みます。",
+            "chinese": "和妹妹一起看書。"
+          },
+          {
+            "japanese": "いっしょに買い物をします。",
+            "chinese": "一起買東西。"
+          },
+          {
+            "japanese": "王さんといっしょに働きます。",
+            "chinese": "和王先生一起工作。"
+          }
+        ]
+      },
+      {
+        "japanese": "ちょっと",
+        "kanji": null,
+        "chinese": "一下子，稍",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "伝",
+              "zh": "傳",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "狭",
+              "zh": "狹",
+              "note": null
+            },
+            {
+              "jp": "遅",
+              "zh": "遲",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "quality_state_degree"
+        ],
+        "speech": [
+          "adverb"
+        ],
+        "sentence": [
+          {
+            "japanese": "今日はちょっと早いです。",
+            "chinese": "今天有點早。"
+          },
+          {
+            "japanese": "ちょっと休みます。",
+            "chinese": "稍微休息一下。"
+          },
+          {
+            "japanese": "この店でちょっと買い物をします。",
+            "chinese": "在這家店買點東西。"
+          },
+          {
+            "japanese": "ちょっと立ち止まります。",
+            "chinese": "稍微停下腳步。"
+          },
+          {
+            "japanese": "田中さんはちょっと遅れます。",
+            "chinese": "田中先生會稍微遲到。"
+          },
+          {
+            "japanese": "ちょっと相談します。",
+            "chinese": "稍微商量一下。"
+          },
+          {
+            "japanese": "この料理はちょっと辛いです。",
+            "chinese": "這道菜有點辣。"
+          },
+          {
+            "japanese": "母はちょっと出かけます。",
+            "chinese": "媽媽出去一下。"
+          },
+          {
+            "japanese": "ちょっと散歩します。",
+            "chinese": "散一下步。"
+          },
+          {
+            "japanese": "山田さんはちょっと疲れます。",
+            "chinese": "山田先生有點累。"
+          },
+          {
+            "japanese": "ちょっと手伝います。",
+            "chinese": "幫一下忙。"
+          },
+          {
+            "japanese": "この道はちょっと狭いです。",
+            "chinese": "這條路有點窄。"
+          },
+          {
+            "japanese": "妹はちょっと恥ずかしがります。",
+            "chinese": "妹妹有點害羞。"
+          },
+          {
+            "japanese": "ちょっと運動します。",
+            "chinese": "稍微運動一下。"
+          },
+          {
+            "japanese": "晩ごはんはちょっと遅めに食べます。",
+            "chinese": "晚餐稍微晚點吃。"
+          },
+          {
+            "japanese": "李さんはちょっと困ります。",
+            "chinese": "李先生有點困擾。"
+          },
+          {
+            "japanese": "ちょっとここで待ち合わせます。",
+            "chinese": "在這裡碰個面。"
+          },
+          {
+            "japanese": "週末はちょっと遠出します。",
+            "chinese": "週末稍微出遠門。"
+          },
+          {
+            "japanese": "ちょっと水を飲みます。",
+            "chinese": "喝點水。"
+          },
+          {
+            "japanese": "王さんはちょっと迷います。",
+            "chinese": "王先生有點迷路。"
+          }
+        ]
+      },
+      {
+        "japanese": "いつも",
+        "kanji": null,
+        "chinese": "總是",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「飲」、「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "寝",
+              "zh": "寢",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "昼",
+              "zh": "晝",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "楽",
+              "zh": "樂",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "quality_state_degree"
+        ],
+        "speech": [
+          "adverb"
+        ],
+        "sentence": [
+          {
+            "japanese": "いつも朝6時に起きます。",
+            "chinese": "總是早上六點起床。"
+          },
+          {
+            "japanese": "朝ごはんはいつもパンです。",
+            "chinese": "早餐總是麵包。"
+          },
+          {
+            "japanese": "田中さんはいつも電車で通勤します。",
+            "chinese": "田中先生總是搭電車通勤。"
+          },
+          {
+            "japanese": "いつもこの店で買い物をします。",
+            "chinese": "總是在這家店買東西。"
+          },
+          {
+            "japanese": "母はいつも早く起きます。",
+            "chinese": "媽媽總是早起。"
+          },
+          {
+            "japanese": "昼ごはんはいつも食堂で食べます。",
+            "chinese": "午餐總是在餐廳吃。"
+          },
+          {
+            "japanese": "いつも寝る前に本を読みます。",
+            "chinese": "總是在睡前看書。"
+          },
+          {
+            "japanese": "山田さんはいつも図書館で勉強します。",
+            "chinese": "山田先生總是在圖書館唸書。"
+          },
+          {
+            "japanese": "この道はいつも混みます。",
+            "chinese": "這條路總是很擠。"
+          },
+          {
+            "japanese": "いつも家で晩ごはんを食べます。",
+            "chinese": "總是在家吃晚餐。"
+          },
+          {
+            "japanese": "父はいつも新聞を読みます。",
+            "chinese": "爸爸總是看報紙。"
+          },
+          {
+            "japanese": "週末はいつも公園を散歩します。",
+            "chinese": "週末總是逛公園。"
+          },
+          {
+            "japanese": "妹はいつも笑います。",
+            "chinese": "妹妹總是笑。"
+          },
+          {
+            "japanese": "いつも音楽を聞きます。",
+            "chinese": "總是聽音樂。"
+          },
+          {
+            "japanese": "李さんはいつも丁寧です。",
+            "chinese": "李先生總是很客氣。"
+          },
+          {
+            "japanese": "この店はいつも人が多いです。",
+            "chinese": "這家店總是人很多。"
+          },
+          {
+            "japanese": "いつも友達といっしょに帰ります。",
+            "chinese": "總是和朋友一起回家。"
+          },
+          {
+            "japanese": "王さんはいつも早く来ます。",
+            "chinese": "王先生總是早到。"
+          },
+          {
+            "japanese": "仕事の後はいつもお茶を飲みます。",
+            "chinese": "下班後總是喝茶。"
+          },
+          {
+            "japanese": "夜はいつも早く寝ます。",
+            "chinese": "晚上總是早睡。"
+          }
+        ]
+      },
+      {
+        "japanese": "ときどき",
+        "kanji": "時々",
+        "chinese": "時常，有時",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「紙」、「話」、「飲」、「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "昼",
+              "zh": "晝",
+              "note": null
+            },
+            {
+              "jp": "楽",
+              "zh": "樂",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "紙",
+              "zh": "紙",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "話",
+              "zh": "話",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            },
+            {
+              "jp": "遅",
+              "zh": "遲",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "adverb"
+        ],
+        "sentence": [
+          {
+            "japanese": "時々公園を散歩します。",
+            "chinese": "有時逛公園。"
+          },
+          {
+            "japanese": "時々外で昼ごはんを食べます。",
+            "chinese": "有時在外面吃午餐。"
+          },
+          {
+            "japanese": "田中さんは時々映画を見ます。",
+            "chinese": "田中先生有時看電影。"
+          },
+          {
+            "japanese": "時々友達とカラオケへ行きます。",
+            "chinese": "有時和朋友去唱卡拉OK。"
+          },
+          {
+            "japanese": "母は時々手紙を書きます。",
+            "chinese": "媽媽有時寫信。"
+          },
+          {
+            "japanese": "時々早く帰ります。",
+            "chinese": "有時早回家。"
+          },
+          {
+            "japanese": "山田さんは時々ビールを飲みます。",
+            "chinese": "山田先生有時喝啤酒。"
+          },
+          {
+            "japanese": "時々図書館で本を読みます。",
+            "chinese": "有時在圖書館看書。"
+          },
+          {
+            "japanese": "この店は時々休みます。",
+            "chinese": "這家店有時休息。"
+          },
+          {
+            "japanese": "時々家で料理をします。",
+            "chinese": "有時在家做菜。"
+          },
+          {
+            "japanese": "父は時々たばこを吸います。",
+            "chinese": "爸爸有時抽菸。"
+          },
+          {
+            "japanese": "時々写真を撮ります。",
+            "chinese": "有時拍照。"
+          },
+          {
+            "japanese": "妹は時々泣きます。",
+            "chinese": "妹妹有時哭。"
+          },
+          {
+            "japanese": "時々音楽を聞きます。",
+            "chinese": "有時聽音樂。"
+          },
+          {
+            "japanese": "李さんは時々遅れます。",
+            "chinese": "李先生有時遲到。"
+          },
+          {
+            "japanese": "時々話題の本を買います。",
+            "chinese": "有時買話題的書。"
+          },
+          {
+            "japanese": "週末は時々遠出します。",
+            "chinese": "週末有時出遠門。"
+          },
+          {
+            "japanese": "王さんは時々スポーツをします。",
+            "chinese": "王先生有時運動。"
+          },
+          {
+            "japanese": "時々海へ行きます。",
+            "chinese": "有時去海邊。"
+          },
+          {
+            "japanese": "夜は時々ラジオを聞きます。",
+            "chinese": "晚上有時聽廣播。"
+          }
+        ]
+      },
+      {
+        "japanese": "それから",
+        "kanji": null,
+        "chinese": "然後",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "「予」在日語可表「預先／給予」，繁體對應視語境為「預」或「予」，不宜一律寫成「豫」。日語的「紙」、「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "予",
+              "zh": "預／予",
+              "note": "在日語可表「預先／給予」，繁體對應視語境為「預」或「予」，不宜一律寫成「豫」。"
+            },
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "寝",
+              "zh": "寢",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "昼",
+              "zh": "晝",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "楽",
+              "zh": "樂",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "紙",
+              "zh": "紙",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "grammar_pattern"
+        ],
+        "speech": [
+          "conjunction"
+        ],
+        "sentence": [
+          {
+            "japanese": "朝ごはんを食べます。それから学校へ行きます。",
+            "chinese": "吃早餐，然後去學校。"
+          },
+          {
+            "japanese": "買い物をします。それから家へ帰ります。",
+            "chinese": "買東西，然後回家。"
+          },
+          {
+            "japanese": "田中さんは仕事をします。それからテニスをします。",
+            "chinese": "田中先生工作，然後打網球。"
+          },
+          {
+            "japanese": "手を拭きます。それからごはんを食べます。",
+            "chinese": "擦手，然後吃飯。"
+          },
+          {
+            "japanese": "映画を見ます。それから晩ごはんを食べます。",
+            "chinese": "看電影，然後吃晚餐。"
+          },
+          {
+            "japanese": "勉強します。それから寝ます。",
+            "chinese": "唸書，然後睡覺。"
+          },
+          {
+            "japanese": "山田さんはお茶を飲みます。それから仕事をします。",
+            "chinese": "山田先生喝茶，然後工作。"
+          },
+          {
+            "japanese": "宿題をします。それから遊びます。",
+            "chinese": "做功課，然後玩。"
+          },
+          {
+            "japanese": "写真を撮ります。それから友達に見せます。",
+            "chinese": "拍照，然後給朋友看。"
+          },
+          {
+            "japanese": "父は新聞を読みます。それから散歩します。",
+            "chinese": "爸爸看報紙，然後散步。"
+          },
+          {
+            "japanese": "昼ごはんを食べます。それから昼寝をします。",
+            "chinese": "吃午餐，然後午睡。"
+          },
+          {
+            "japanese": "本を読みます。それから感想を書きます。",
+            "chinese": "看書，然後寫感想。"
+          },
+          {
+            "japanese": "妹は音楽を聞きます。それから宿題をします。",
+            "chinese": "妹妹聽音樂，然後做功課。"
+          },
+          {
+            "japanese": "買い物をします。それからカフェで休みます。",
+            "chinese": "買東西，然後在咖啡館休息。"
+          },
+          {
+            "japanese": "運動します。それからシャワーを浴びます。",
+            "chinese": "運動，然後淋浴。"
+          },
+          {
+            "japanese": "李さんは会議をします。それから帰ります。",
+            "chinese": "李先生開會，然後回家。"
+          },
+          {
+            "japanese": "料理をします。それから片付けます。",
+            "chinese": "做菜，然後收拾。"
+          },
+          {
+            "japanese": "週末は掃除をします。それから買い物をします。",
+            "chinese": "週末打掃，然後買東西。"
+          },
+          {
+            "japanese": "手紙を書きます。それから切手を貼ります。",
+            "chinese": "寫信，然後貼郵票。"
+          },
+          {
+            "japanese": "王さんは予約をします。それから出かけます。",
+            "chinese": "王先生預約，然後出門。"
+          }
+        ]
+      },
+      {
+        "japanese": "ええ",
+        "kanji": null,
+        "chinese": "是，嗯（表贊同）",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「伝」、「来」、「毎」、「読」、「賛」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "伝",
+              "zh": "傳",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            },
+            {
+              "jp": "賛",
+              "zh": "贊",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "greeting_conversational"
+        ],
+        "speech": [
+          "interjection"
+        ],
+        "sentence": [
+          {
+            "japanese": "ええ、そうです。",
+            "chinese": "是的，是這樣。"
+          },
+          {
+            "japanese": "ええ、大丈夫です。",
+            "chinese": "嗯，沒問題。"
+          },
+          {
+            "japanese": "はい、ええ、賛成です。",
+            "chinese": "是的，嗯，贊成。"
+          },
+          {
+            "japanese": "ええ、行きます。",
+            "chinese": "好，我去。"
+          },
+          {
+            "japanese": "ええ、食べます。",
+            "chinese": "好，我吃。"
+          },
+          {
+            "japanese": "ああ、ええ、わかります。",
+            "chinese": "啊，嗯，我懂。"
+          },
+          {
+            "japanese": "ええ、聞きます。",
+            "chinese": "嗯，我聽。"
+          },
+          {
+            "japanese": "ええ、書きます。",
+            "chinese": "嗯，我寫。"
+          },
+          {
+            "japanese": "そう、ええ、買います。",
+            "chinese": "對，嗯，我買。"
+          },
+          {
+            "japanese": "ええ、見ます。",
+            "chinese": "嗯，我看。"
+          },
+          {
+            "japanese": "ええ、撮ります。",
+            "chinese": "嗯，我拍。"
+          },
+          {
+            "japanese": "はい、ええ、その通りです。",
+            "chinese": "是的，嗯，正是如此。"
+          },
+          {
+            "japanese": "ええ、お願いします。",
+            "chinese": "好的，麻煩了。"
+          },
+          {
+            "japanese": "ええ、明日来ます。",
+            "chinese": "嗯，明天來。"
+          },
+          {
+            "japanese": "ああ、ええ、できます。",
+            "chinese": "啊，嗯，可以。"
+          },
+          {
+            "japanese": "ええ、読みます。",
+            "chinese": "嗯，我讀。"
+          },
+          {
+            "japanese": "ええ、会います。",
+            "chinese": "嗯，我見面。"
+          },
+          {
+            "japanese": "そう、ええ、毎日します。",
+            "chinese": "對，嗯，每天做。"
+          },
+          {
+            "japanese": "ええ、手伝います。",
+            "chinese": "嗯，我幫忙。"
+          },
+          {
+            "japanese": "ええ、それでいいです。",
+            "chinese": "嗯，這樣就好。"
+          }
+        ]
+      },
+      {
+        "japanese": "いいですね",
+        "kanji": null,
+        "chinese": "好呀",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "「予」在日語可表「預先／給予」，繁體對應視語境為「預」或「予」，不宜一律寫成「豫」。",
+          "details": [
+            {
+              "jp": "予",
+              "zh": "預／予",
+              "note": "在日語可表「預先／給予」，繁體對應視語境為「預」或「予」，不宜一律寫成「豫」。"
+            },
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "桜",
+              "zh": "櫻",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "greeting_conversational"
+        ],
+        "speech": [
+          "set_phrase"
+        ],
+        "sentence": [
+          {
+            "japanese": "この公園はいいですね。",
+            "chinese": "這個公園真不錯。"
+          },
+          {
+            "japanese": "今日は天気がいいですね。",
+            "chinese": "今天天氣真好。"
+          },
+          {
+            "japanese": "その服、いいですね。",
+            "chinese": "那件衣服真好看。"
+          },
+          {
+            "japanese": "この店、いいですね。",
+            "chinese": "這家店真好。"
+          },
+          {
+            "japanese": "週末に旅行、いいですね。",
+            "chinese": "週末去旅行，真好啊。"
+          },
+          {
+            "japanese": "この写真、いいですね。",
+            "chinese": "這照片真好。"
+          },
+          {
+            "japanese": "田中さんの家はいいですね。",
+            "chinese": "田中先生的家真好。"
+          },
+          {
+            "japanese": "このレストラン、いいですね。",
+            "chinese": "這家餐廳真不錯。"
+          },
+          {
+            "japanese": "山田さんのアイデア、いいですね。",
+            "chinese": "山田先生的點子真好。"
+          },
+          {
+            "japanese": "この曲、いいですね。",
+            "chinese": "這首歌真好聽。"
+          },
+          {
+            "japanese": "このカバン、いいですね。",
+            "chinese": "這個包包真好看。"
+          },
+          {
+            "japanese": "この映画、いいですね。",
+            "chinese": "這電影真不錯。"
+          },
+          {
+            "japanese": "この本、いいですね。",
+            "chinese": "這本書真好。"
+          },
+          {
+            "japanese": "桜の季節はいいですね。",
+            "chinese": "櫻花季節真好。"
+          },
+          {
+            "japanese": "この部屋、いいですね。",
+            "chinese": "這房間真好。"
+          },
+          {
+            "japanese": "その靴、いいですね。",
+            "chinese": "那雙鞋真好看。"
+          },
+          {
+            "japanese": "この料理、いいですね。",
+            "chinese": "這道菜真不錯。"
+          },
+          {
+            "japanese": "この喫茶店、いいですね。",
+            "chinese": "這家咖啡館真好。"
+          },
+          {
+            "japanese": "週末の予定、いいですね。",
+            "chinese": "週末的行程真好。"
+          },
+          {
+            "japanese": "この天気、いいですね。",
+            "chinese": "這天氣真好。"
+          }
+        ]
+      },
+      {
+        "japanese": "わかりました",
+        "kanji": null,
+        "chinese": "我明白了",
+        "image": null,
+        "note": "「分かりました」常寫漢字",
+        "kanji_note": {
+          "summary": "「予」在日語可表「預先／給予」，繁體對應視語境為「預」或「予」，不宜一律寫成「豫」。日語的「話」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "予",
+              "zh": "預／予",
+              "note": "在日語可表「預先／給予」，繁體對應視語境為「預」或「予」，不宜一律寫成「豫」。"
+            },
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "話",
+              "zh": "話",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "説",
+              "zh": "說",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "greeting_conversational"
+        ],
+        "speech": [
+          "set_phrase"
+        ],
+        "sentence": [
+          {
+            "japanese": "先生の説明で、わかりました。",
+            "chinese": "聽了老師的說明，我明白了。"
+          },
+          {
+            "japanese": "はい、わかりました。",
+            "chinese": "好的，我明白了。"
+          },
+          {
+            "japanese": "道がわかりました。",
+            "chinese": "路明白了。"
+          },
+          {
+            "japanese": "この問題、わかりました。",
+            "chinese": "這題懂了。"
+          },
+          {
+            "japanese": "今日の予定がわかりました。",
+            "chinese": "今天的行程明白了。"
+          },
+          {
+            "japanese": "使い方がわかりました。",
+            "chinese": "用法明白了。"
+          },
+          {
+            "japanese": "田中さんのおかげで、わかりました。",
+            "chinese": "多虧田中先生，我明白了。"
+          },
+          {
+            "japanese": "説明を聞きます。それで、わかりました。",
+            "chinese": "聽說明，然後明白了。"
+          },
+          {
+            "japanese": "地図を見ます。それで、わかりました。",
+            "chinese": "看地圖，然後明白了。"
+          },
+          {
+            "japanese": "これで、わかりました。",
+            "chinese": "這樣就明白了。"
+          },
+          {
+            "japanese": "先生、わかりました。",
+            "chinese": "老師，我懂了。"
+          },
+          {
+            "japanese": "やっと、わかりました。",
+            "chinese": "終於明白了。"
+          },
+          {
+            "japanese": "内容がわかりました。",
+            "chinese": "內容明白了。"
+          },
+          {
+            "japanese": "意味がわかりました。",
+            "chinese": "意思明白了。"
+          },
+          {
+            "japanese": "答えがわかりました。",
+            "chinese": "答案明白了。"
+          },
+          {
+            "japanese": "話を聞きます。それで、わかりました。",
+            "chinese": "聽話，然後明白了。"
+          },
+          {
+            "japanese": "ルールがわかりました。",
+            "chinese": "規則明白了。"
+          },
+          {
+            "japanese": "メモを見ます。それで、わかりました。",
+            "chinese": "看筆記，然後明白了。"
+          },
+          {
+            "japanese": "順番がわかりました。",
+            "chinese": "順序明白了。"
+          },
+          {
+            "japanese": "おかげさまで、わかりました。",
+            "chinese": "託您的福，我明白了。"
+          }
+        ]
+      }
+    ]
+  }
+}

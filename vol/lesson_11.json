@@ -1,0 +1,6589 @@
+{
+  "lesson_11": {
+    "vols": [
+      {
+        "japanese": "います",
+        "kanji": null,
+        "chinese": "有〔孩子〕",
+        "image": null,
+        "note": "表示人或動物的存在；「子どもがいます」＝有孩子。",
+        "kanji_note": {
+          "summary": "日語「両」→ 繁體「兩」。",
+          "details": [
+            {
+              "jp": "両",
+              "zh": "兩",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_2"
+        ],
+        "sentence": [
+          {
+            "japanese": "子どもが二人います。",
+            "chinese": "有兩個孩子。"
+          },
+          {
+            "japanese": "田中さんは男の子がいます。",
+            "chinese": "田中先生有兒子。"
+          },
+          {
+            "japanese": "犬が一匹います。",
+            "chinese": "有一隻狗。"
+          },
+          {
+            "japanese": "弟が一人います。",
+            "chinese": "有一個弟弟。"
+          },
+          {
+            "japanese": "妹が二人います。",
+            "chinese": "有兩個妹妹。"
+          },
+          {
+            "japanese": "佐藤さんは猫がいます。",
+            "chinese": "佐藤先生養貓。"
+          },
+          {
+            "japanese": "兄が一人います。",
+            "chinese": "有一個哥哥。"
+          },
+          {
+            "japanese": "友達がたくさんいます。",
+            "chinese": "有很多朋友。"
+          },
+          {
+            "japanese": "木村さんは子どもが三人います。",
+            "chinese": "木村先生有三個孩子。"
+          },
+          {
+            "japanese": "姉が一人います。",
+            "chinese": "有一個姊姊。"
+          },
+          {
+            "japanese": "鈴木さんは犬が二匹います。",
+            "chinese": "鈴木先生養兩隻狗。"
+          },
+          {
+            "japanese": "両親がいます。",
+            "chinese": "有雙親。"
+          },
+          {
+            "japanese": "李さんは子どもが一人います。",
+            "chinese": "李先生有一個孩子。"
+          },
+          {
+            "japanese": "妹がいます。",
+            "chinese": "有妹妹。"
+          },
+          {
+            "japanese": "山田さんは兄がいます。",
+            "chinese": "山田先生有哥哥。"
+          },
+          {
+            "japanese": "おじいさんがいます。",
+            "chinese": "有爺爺。"
+          },
+          {
+            "japanese": "王さんは弟がいます。",
+            "chinese": "王先生有弟弟。"
+          },
+          {
+            "japanese": "猫が三匹います。",
+            "chinese": "有三隻貓。"
+          },
+          {
+            "japanese": "おばあさんがいます。",
+            "chinese": "有奶奶。"
+          },
+          {
+            "japanese": "友達が一人います。",
+            "chinese": "有一個朋友。"
+          }
+        ]
+      },
+      {
+        "japanese": "います",
+        "kanji": null,
+        "chinese": "在〔日本〕",
+        "image": null,
+        "note": "表示人或動物在某處；「日本にいます」＝在日本。",
+        "kanji_note": {
+          "summary": "日語的「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "国",
+              "zh": "國",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "横",
+              "zh": "橫",
+              "note": null
+            },
+            {
+              "jp": "浜",
+              "zh": "濱",
+              "note": null
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_2"
+        ],
+        "sentence": [
+          {
+            "japanese": "田中さんは今東京にいます。",
+            "chinese": "田中先生現在在東京。"
+          },
+          {
+            "japanese": "母は家にいます。",
+            "chinese": "媽媽在家。"
+          },
+          {
+            "japanese": "父は会社にいます。",
+            "chinese": "爸爸在公司。"
+          },
+          {
+            "japanese": "山田さんは大阪にいます。",
+            "chinese": "山田先生在大阪。"
+          },
+          {
+            "japanese": "妹は部屋にいます。",
+            "chinese": "妹妹在房間。"
+          },
+          {
+            "japanese": "先生は教室にいます。",
+            "chinese": "老師在教室。"
+          },
+          {
+            "japanese": "王さんは中国にいます。",
+            "chinese": "王先生在中國。"
+          },
+          {
+            "japanese": "兄は今図書館にいます。",
+            "chinese": "哥哥現在在圖書館。"
+          },
+          {
+            "japanese": "木村さんは京都にいます。",
+            "chinese": "木村先生在京都。"
+          },
+          {
+            "japanese": "友達は駅にいます。",
+            "chinese": "朋友在車站。"
+          },
+          {
+            "japanese": "鈴木さんは銀行にいます。",
+            "chinese": "鈴木先生在銀行。"
+          },
+          {
+            "japanese": "猫は庭にいます。",
+            "chinese": "貓在院子裡。"
+          },
+          {
+            "japanese": "佐藤さんは名古屋にいます。",
+            "chinese": "佐藤先生在名古屋。"
+          },
+          {
+            "japanese": "弟は学校にいます。",
+            "chinese": "弟弟在學校。"
+          },
+          {
+            "japanese": "犬は公園にいます。",
+            "chinese": "狗在公園。"
+          },
+          {
+            "japanese": "李さんは横浜にいます。",
+            "chinese": "李先生在橫濱。"
+          },
+          {
+            "japanese": "姉はデパートにいます。",
+            "chinese": "姊姊在百貨公司。"
+          },
+          {
+            "japanese": "田中さんは北海道にいます。",
+            "chinese": "田中先生在北海道。"
+          },
+          {
+            "japanese": "子どもは外にいます。",
+            "chinese": "孩子在外面。"
+          },
+          {
+            "japanese": "山田さんは会議室にいます。",
+            "chinese": "山田先生在會議室。"
+          }
+        ]
+      },
+      {
+        "japanese": "かかります",
+        "kanji": null,
+        "chinese": "花費（金錢或時間）",
+        "image": null,
+        "note": "「時間／お金がかかります」＝花費時間或金錢。",
+        "kanji_note": {
+          "summary": "日語的「紙」、「線」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "国",
+              "zh": "國",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "紙",
+              "zh": "紙",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "線",
+              "zh": "線",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "転",
+              "zh": "轉",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_1"
+        ],
+        "sentence": [
+          {
+            "japanese": "東京まで新幹線で二時間かかります。",
+            "chinese": "到東京搭新幹線要花兩小時。"
+          },
+          {
+            "japanese": "この仕事は一週間かかります。",
+            "chinese": "這項工作要花一星期。"
+          },
+          {
+            "japanese": "大阪まで電車で一時間かかります。",
+            "chinese": "到大阪搭電車要花一小時。"
+          },
+          {
+            "japanese": "旅行はお金がかかります。",
+            "chinese": "旅行要花錢。"
+          },
+          {
+            "japanese": "京都までバスで三時間かかります。",
+            "chinese": "到京都搭公車要花三小時。"
+          },
+          {
+            "japanese": "この料理は時間がかかります。",
+            "chinese": "這道料理要花時間。"
+          },
+          {
+            "japanese": "宿題は二時間かかります。",
+            "chinese": "作業要花兩小時。"
+          },
+          {
+            "japanese": "北海道まで飛行機で一時間半かかります。",
+            "chinese": "到北海道搭飛機要花一個半小時。"
+          },
+          {
+            "japanese": "家から駅まで十五分かかります。",
+            "chinese": "從家到車站要花十五分鐘。"
+          },
+          {
+            "japanese": "空港まで車で四十分かかります。",
+            "chinese": "到機場開車要花四十分鐘。"
+          },
+          {
+            "japanese": "学校までの徒歩は三十分かかります。",
+            "chinese": "走到學校要花三十分鐘。"
+          },
+          {
+            "japanese": "この手紙は一週間かかります。",
+            "chinese": "這封信要花一星期。"
+          },
+          {
+            "japanese": "料理はお金がかかります。",
+            "chinese": "做菜要花錢。"
+          },
+          {
+            "japanese": "会社まで自転車で二十分かかります。",
+            "chinese": "到公司騎自行車要花二十分鐘。"
+          },
+          {
+            "japanese": "日本から中国まで飛行機で三時間かかります。",
+            "chinese": "從日本到中國搭飛機要花三小時。"
+          },
+          {
+            "japanese": "この宿題は一時間かかります。",
+            "chinese": "這份作業要花一小時。"
+          },
+          {
+            "japanese": "映画は二時間かかります。",
+            "chinese": "電影要花兩小時。"
+          },
+          {
+            "japanese": "病院までタクシーで十分かかります。",
+            "chinese": "到醫院搭計程車要花十分鐘。"
+          },
+          {
+            "japanese": "このテストは時間がかかります。",
+            "chinese": "這個考試要花時間。"
+          },
+          {
+            "japanese": "名古屋まで新幹線で一時間半かかります。",
+            "chinese": "到名古屋搭新幹線要花一個半小時。"
+          }
+        ]
+      },
+      {
+        "japanese": "やすみます",
+        "kanji": "休みます",
+        "chinese": "向〔公司〕請假",
+        "image": null,
+        "note": "「会社を休みます」＝向公司請假。",
+        "kanji_note": {
+          "summary": "日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "action_activity"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_1"
+        ],
+        "sentence": [
+          {
+            "japanese": "田中さんは明日会社を休みます。",
+            "chinese": "田中先生明天向公司請假。"
+          },
+          {
+            "japanese": "明日は学校を休みます。",
+            "chinese": "明天向學校請假。"
+          },
+          {
+            "japanese": "山田さんは今日仕事を休みます。",
+            "chinese": "山田先生今天向公司請假。"
+          },
+          {
+            "japanese": "来週一日休みます。",
+            "chinese": "下星期請假一天。"
+          },
+          {
+            "japanese": "木村さんは風邪で会社を休みます。",
+            "chinese": "木村先生因感冒向公司請假。"
+          },
+          {
+            "japanese": "今週の金曜日に休みます。",
+            "chinese": "這星期五請假。"
+          },
+          {
+            "japanese": "鈴木さんは明日学校を休みます。",
+            "chinese": "鈴木先生明天向學校請假。"
+          },
+          {
+            "japanese": "月曜日に休みます。",
+            "chinese": "星期一請假。"
+          },
+          {
+            "japanese": "佐藤さんは今日会社を休みます。",
+            "chinese": "佐藤先生今天向公司請假。"
+          },
+          {
+            "japanese": "夏に一週間休みます。",
+            "chinese": "夏天休假一星期。"
+          },
+          {
+            "japanese": "水曜日に休みます。",
+            "chinese": "星期三請假。"
+          },
+          {
+            "japanese": "病気で学校を休みます。",
+            "chinese": "因病向學校請假。"
+          },
+          {
+            "japanese": "山田さんは明日仕事を休みます。",
+            "chinese": "山田先生明天請假。"
+          },
+          {
+            "japanese": "土曜日に休みます。",
+            "chinese": "星期六休假。"
+          },
+          {
+            "japanese": "木村さんは今週会社を休みます。",
+            "chinese": "木村先生這星期向公司請假。"
+          },
+          {
+            "japanese": "今日は学校を休みます。",
+            "chinese": "今天向學校請假。"
+          },
+          {
+            "japanese": "鈴木さんは金曜日に休みます。",
+            "chinese": "鈴木先生星期五請假。"
+          },
+          {
+            "japanese": "明日一日休みます。",
+            "chinese": "明天請假一天。"
+          },
+          {
+            "japanese": "佐藤さんは来週仕事を休みます。",
+            "chinese": "佐藤先生下星期請假。"
+          },
+          {
+            "japanese": "日曜日に休みます。",
+            "chinese": "星期天休息。"
+          }
+        ]
+      },
+      {
+        "japanese": "ひとつ",
+        "kanji": "1つ",
+        "chinese": "一個（用於計算物品）",
+        "image": null,
+        "note": "計算物品時使用；10以下用「ひとつ～とお」。",
+        "kanji_note": {
+          "summary": "日語的「蔵」、「頼」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "蔵",
+              "zh": "藏",
+              "note": null
+            },
+            {
+              "jp": "頼",
+              "zh": "賴",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "りんごがひとつあります。",
+            "chinese": "有一個蘋果。"
+          },
+          {
+            "japanese": "みかんをひとつ食べます。",
+            "chinese": "吃一個橘子。"
+          },
+          {
+            "japanese": "ケーキをひとつ買います。",
+            "chinese": "買一個蛋糕。"
+          },
+          {
+            "japanese": "質問がひとつあります。",
+            "chinese": "有一個問題。"
+          },
+          {
+            "japanese": "冷蔵庫に卵がひとつあります。",
+            "chinese": "冰箱裡有一個雞蛋。"
+          },
+          {
+            "japanese": "パンをひとつ選びます。",
+            "chinese": "選一個麵包。"
+          },
+          {
+            "japanese": "お菓子がひとつだけあります。",
+            "chinese": "只有一個點心。"
+          },
+          {
+            "japanese": "クッキーをひとつもらいます。",
+            "chinese": "拿一塊餅乾。"
+          },
+          {
+            "japanese": "消しゴムをひとつ使います。",
+            "chinese": "用一個橡皮擦。"
+          },
+          {
+            "japanese": "ノートがひとつ要ります。",
+            "chinese": "需要一本筆記本。"
+          },
+          {
+            "japanese": "ボタンをひとつ押します。",
+            "chinese": "按一個按鈕。"
+          },
+          {
+            "japanese": "机の上にりんごがひとつあります。",
+            "chinese": "桌上有一個蘋果。"
+          },
+          {
+            "japanese": "袋にお菓子をひとつ入れます。",
+            "chinese": "把一個點心放進袋子裡。"
+          },
+          {
+            "japanese": "あとで卵をひとつ茹でます。",
+            "chinese": "等一下煮一個雞蛋。"
+          },
+          {
+            "japanese": "かごからみかんをひとつ取ります。",
+            "chinese": "從籃子裡拿一個橘子。"
+          },
+          {
+            "japanese": "テーブルの上にケーキをひとつ置きます。",
+            "chinese": "在桌上放一個蛋糕。"
+          },
+          {
+            "japanese": "店でりんごをひとつ注文します。",
+            "chinese": "在店裡點一個蘋果。"
+          },
+          {
+            "japanese": "飴をひとつなめます。",
+            "chinese": "舔一顆糖果。"
+          },
+          {
+            "japanese": "アイスクリームをひとつ頼みます。",
+            "chinese": "點一個冰淇淋。"
+          },
+          {
+            "japanese": "この箱にみかんがひとつだけあります。",
+            "chinese": "這個箱子裡只有一個橘子。"
+          }
+        ]
+      },
+      {
+        "japanese": "ふたつ",
+        "kanji": "2つ",
+        "chinese": "二個",
+        "image": null,
+        "note": "計算物品時使用。",
+        "kanji_note": null,
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "コップがふたつあります。",
+            "chinese": "有兩個杯子。"
+          },
+          {
+            "japanese": "お皿をふたつ洗います。",
+            "chinese": "洗兩個盤子。"
+          },
+          {
+            "japanese": "スプーンをふたつ買います。",
+            "chinese": "買兩支湯匙。"
+          },
+          {
+            "japanese": "フォークがふたつあります。",
+            "chinese": "有兩支叉子。"
+          },
+          {
+            "japanese": "茶碗がふたつあります。",
+            "chinese": "有兩個碗。"
+          },
+          {
+            "japanese": "手袋をふたつ買います。",
+            "chinese": "買兩副手套。"
+          },
+          {
+            "japanese": "コップに水をふたつ注ぎます。",
+            "chinese": "倒兩杯水。"
+          },
+          {
+            "japanese": "お皿をふたつ出します。",
+            "chinese": "拿出兩個盤子。"
+          },
+          {
+            "japanese": "靴をふたつ並べます。",
+            "chinese": "排兩雙鞋子。"
+          },
+          {
+            "japanese": "石をふたつ拾います。",
+            "chinese": "撿兩顆石頭。"
+          },
+          {
+            "japanese": "傘をふたつ持ちます。",
+            "chinese": "帶兩把傘。"
+          },
+          {
+            "japanese": "枕をふたつ買います。",
+            "chinese": "買兩個枕頭。"
+          },
+          {
+            "japanese": "クッションがふたつあります。",
+            "chinese": "有兩個靠墊。"
+          },
+          {
+            "japanese": "スリッパをふたつ置きます。",
+            "chinese": "放兩雙拖鞋。"
+          },
+          {
+            "japanese": "ハンカチをふたつ洗います。",
+            "chinese": "洗兩條手帕。"
+          },
+          {
+            "japanese": "袋に石をふたつ入れます。",
+            "chinese": "把兩顆石頭放進袋子裡。"
+          },
+          {
+            "japanese": "店でコップをふたつ買います。",
+            "chinese": "在店裡買兩個杯子。"
+          },
+          {
+            "japanese": "箱にお皿がふたつあります。",
+            "chinese": "箱子裡有兩個盤子。"
+          },
+          {
+            "japanese": "スプーンをふたつ使います。",
+            "chinese": "用兩支湯匙。"
+          },
+          {
+            "japanese": "手袋がふたつだけあります。",
+            "chinese": "只有兩副手套。"
+          }
+        ]
+      },
+      {
+        "japanese": "みっつ",
+        "kanji": "3つ",
+        "chinese": "三個",
+        "image": null,
+        "note": "計算物品時使用。",
+        "kanji_note": {
+          "summary": "日語的「殻」、「転」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "殻",
+              "zh": "殼",
+              "note": null
+            },
+            {
+              "jp": "転",
+              "zh": "轉",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "チョコレートがみっつあります。",
+            "chinese": "有三塊巧克力。"
+          },
+          {
+            "japanese": "ドーナツをみっつ買います。",
+            "chinese": "買三個甜甜圈。"
+          },
+          {
+            "japanese": "まんじゅうをみっつ食べます。",
+            "chinese": "吃三個饅頭。"
+          },
+          {
+            "japanese": "キャンディーをみっつもらいます。",
+            "chinese": "拿三顆糖果。"
+          },
+          {
+            "japanese": "ビー玉がみっつあります。",
+            "chinese": "有三顆彈珠。"
+          },
+          {
+            "japanese": "積み木をみっつ重ねます。",
+            "chinese": "疊三個積木。"
+          },
+          {
+            "japanese": "ボールがみっつあります。",
+            "chinese": "有三顆球。"
+          },
+          {
+            "japanese": "風船をみっつ膨らませます。",
+            "chinese": "吹三個氣球。"
+          },
+          {
+            "japanese": "おはじきをみっつ並べます。",
+            "chinese": "排三個小彈珠。"
+          },
+          {
+            "japanese": "貝殻をみっつ拾います。",
+            "chinese": "撿三個貝殼。"
+          },
+          {
+            "japanese": "松ぼっくりをみっつ集めます。",
+            "chinese": "收集三顆松果。"
+          },
+          {
+            "japanese": "チョコレートをみっつ分けます。",
+            "chinese": "分三塊巧克力。"
+          },
+          {
+            "japanese": "箱にドーナツがみっつあります。",
+            "chinese": "箱子裡有三個甜甜圈。"
+          },
+          {
+            "japanese": "まんじゅうをみっつだけ買います。",
+            "chinese": "只買三個饅頭。"
+          },
+          {
+            "japanese": "袋にキャンディーをみっつ入れます。",
+            "chinese": "把三顆糖果放進袋子裡。"
+          },
+          {
+            "japanese": "あとでチョコレートをみっつ買います。",
+            "chinese": "等一下買三塊巧克力。"
+          },
+          {
+            "japanese": "テーブルにまんじゅうがみっつあります。",
+            "chinese": "桌上有三個饅頭。"
+          },
+          {
+            "japanese": "ビー玉をみっつ転がします。",
+            "chinese": "滾三顆彈珠。"
+          },
+          {
+            "japanese": "キャンディーがみっつだけあります。",
+            "chinese": "只有三顆糖果。"
+          },
+          {
+            "japanese": "この箱にドーナツがみっつあります。",
+            "chinese": "這個箱子裡有三個甜甜圈。"
+          }
+        ]
+      },
+      {
+        "japanese": "よっつ",
+        "kanji": "4つ",
+        "chinese": "四個",
+        "image": null,
+        "note": "計算物品時使用。",
+        "kanji_note": {
+          "summary": "日語的「紙」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "紙",
+              "zh": "紙",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "缶",
+              "zh": "罐",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "鉛筆がよっつあります。",
+            "chinese": "有四支鉛筆。"
+          },
+          {
+            "japanese": "ペンをよっつ買います。",
+            "chinese": "買四支筆。"
+          },
+          {
+            "japanese": "封筒をよっつ用意します。",
+            "chinese": "準備四個信封。"
+          },
+          {
+            "japanese": "切手がよっつあります。",
+            "chinese": "有四張郵票。"
+          },
+          {
+            "japanese": "紙をよっつ折ります。",
+            "chinese": "摺四張紙。"
+          },
+          {
+            "japanese": "箱をよっつ重ねます。",
+            "chinese": "疊四個箱子。"
+          },
+          {
+            "japanese": "瓶がよっつあります。",
+            "chinese": "有四個瓶子。"
+          },
+          {
+            "japanese": "缶をよっつ洗います。",
+            "chinese": "洗四個罐子。"
+          },
+          {
+            "japanese": "いすをよっつ並べます。",
+            "chinese": "排四張椅子。"
+          },
+          {
+            "japanese": "机がよっつあります。",
+            "chinese": "有四張桌子。"
+          },
+          {
+            "japanese": "花をよっつ飾ります。",
+            "chinese": "擺四朵花。"
+          },
+          {
+            "japanese": "はがきをよっつ買います。",
+            "chinese": "買四張明信片。"
+          },
+          {
+            "japanese": "ペンがよっつだけあります。",
+            "chinese": "只有四支筆。"
+          },
+          {
+            "japanese": "棚に箱がよっつあります。",
+            "chinese": "架子上有四個箱子。"
+          },
+          {
+            "japanese": "封筒をよっつ買います。",
+            "chinese": "買四個信封。"
+          },
+          {
+            "japanese": "テーブルにいすをよっつ置きます。",
+            "chinese": "在桌旁放四張椅子。"
+          },
+          {
+            "japanese": "切手をよっつ貼ります。",
+            "chinese": "貼四張郵票。"
+          },
+          {
+            "japanese": "缶をよっつ捨てます。",
+            "chinese": "丟四個罐子。"
+          },
+          {
+            "japanese": "花がよっつだけあります。",
+            "chinese": "只有四朵花。"
+          },
+          {
+            "japanese": "この棚に瓶がよっつあります。",
+            "chinese": "這個架子上有四個瓶子。"
+          }
+        ]
+      },
+      {
+        "japanese": "いつつ",
+        "kanji": "5つ",
+        "chinese": "五個",
+        "image": null,
+        "note": "計算物品時使用。",
+        "kanji_note": {
+          "summary": "日語「焼」→ 繁體「燒」。",
+          "details": [
+            {
+              "jp": "焼",
+              "zh": "燒",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "桃がいつつあります。",
+            "chinese": "有五顆桃子。"
+          },
+          {
+            "japanese": "柿をいつつ食べます。",
+            "chinese": "吃五顆柿子。"
+          },
+          {
+            "japanese": "じゃがいもをいつつ洗います。",
+            "chinese": "洗五顆馬鈴薯。"
+          },
+          {
+            "japanese": "玉ねぎをいつつ切ります。",
+            "chinese": "切五顆洋蔥。"
+          },
+          {
+            "japanese": "にんじんがいつつあります。",
+            "chinese": "有五根紅蘿蔔。"
+          },
+          {
+            "japanese": "大根をいつつ買います。",
+            "chinese": "買五根白蘿蔔。"
+          },
+          {
+            "japanese": "きゅうりをいつつ切ります。",
+            "chinese": "切五條小黃瓜。"
+          },
+          {
+            "japanese": "なすがいつつあります。",
+            "chinese": "有五條茄子。"
+          },
+          {
+            "japanese": "かぼちゃをいつつ煮ます。",
+            "chinese": "煮五塊南瓜。"
+          },
+          {
+            "japanese": "トマトをいつつ買います。",
+            "chinese": "買五顆番茄。"
+          },
+          {
+            "japanese": "箱に桃をいつつ入れます。",
+            "chinese": "把五顆桃子放進箱子裡。"
+          },
+          {
+            "japanese": "柿がいつつだけあります。",
+            "chinese": "只有五顆柿子。"
+          },
+          {
+            "japanese": "店でじゃがいもをいつつ買います。",
+            "chinese": "在店裡買五顆馬鈴薯。"
+          },
+          {
+            "japanese": "かごに玉ねぎがいつつあります。",
+            "chinese": "籃子裡有五顆洋蔥。"
+          },
+          {
+            "japanese": "にんじんをいつつ切ります。",
+            "chinese": "切五根紅蘿蔔。"
+          },
+          {
+            "japanese": "大根がいつつだけあります。",
+            "chinese": "只有五根白蘿蔔。"
+          },
+          {
+            "japanese": "きゅうりをいつつ洗います。",
+            "chinese": "洗五條小黃瓜。"
+          },
+          {
+            "japanese": "なすをいつつ焼きます。",
+            "chinese": "烤五條茄子。"
+          },
+          {
+            "japanese": "かぼちゃがいつつだけあります。",
+            "chinese": "只有五塊南瓜。"
+          },
+          {
+            "japanese": "この箱にトマトがいつつあります。",
+            "chinese": "這個箱子裡有五顆番茄。"
+          }
+        ]
+      },
+      {
+        "japanese": "むっつ",
+        "kanji": "6つ",
+        "chinese": "六個",
+        "image": null,
+        "note": "計算物品時使用。",
+        "kanji_note": {
+          "summary": "日語「焼」→ 繁體「燒」。",
+          "details": [
+            {
+              "jp": "焼",
+              "zh": "燒",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "おにぎりがむっつあります。",
+            "chinese": "有六個飯糰。"
+          },
+          {
+            "japanese": "サンドイッチをむっつ作ります。",
+            "chinese": "做六個三明治。"
+          },
+          {
+            "japanese": "蒸しパンをむっつ食べます。",
+            "chinese": "吃六個蒸糕。"
+          },
+          {
+            "japanese": "ビスケットをむっつ買います。",
+            "chinese": "買六塊餅乾。"
+          },
+          {
+            "japanese": "あんぱんがむっつあります。",
+            "chinese": "有六個紅豆麵包。"
+          },
+          {
+            "japanese": "メロンパンをむっつ食べます。",
+            "chinese": "吃六個菠蘿麵包。"
+          },
+          {
+            "japanese": "ロールパンをむっつ買います。",
+            "chinese": "買六個捲麵包。"
+          },
+          {
+            "japanese": "食パンをむっつ焼きます。",
+            "chinese": "烤六片吐司。"
+          },
+          {
+            "japanese": "どら焼きがむっつあります。",
+            "chinese": "有六個銅鑼燒。"
+          },
+          {
+            "japanese": "大福をむっつ買います。",
+            "chinese": "買六個大福。"
+          },
+          {
+            "japanese": "箱におにぎりをむっつ入れます。",
+            "chinese": "把六個飯糰放進箱子裡。"
+          },
+          {
+            "japanese": "サンドイッチがむっつだけあります。",
+            "chinese": "只有六個三明治。"
+          },
+          {
+            "japanese": "店で蒸しパンをむっつ買います。",
+            "chinese": "在店裡買六個蒸糕。"
+          },
+          {
+            "japanese": "テーブルにビスケットがむっつあります。",
+            "chinese": "桌上有六塊餅乾。"
+          },
+          {
+            "japanese": "あんぱんをむっつ食べます。",
+            "chinese": "吃六個紅豆麵包。"
+          },
+          {
+            "japanese": "メロンパンがむっつだけあります。",
+            "chinese": "只有六個菠蘿麵包。"
+          },
+          {
+            "japanese": "ロールパンをむっつ食べます。",
+            "chinese": "吃六個捲麵包。"
+          },
+          {
+            "japanese": "食パンがむっつだけあります。",
+            "chinese": "只有六片吐司。"
+          },
+          {
+            "japanese": "どら焼きをむっつ買います。",
+            "chinese": "買六個銅鑼燒。"
+          },
+          {
+            "japanese": "この箱に大福がむっつあります。",
+            "chinese": "這個箱子裡有六個大福。"
+          }
+        ]
+      },
+      {
+        "japanese": "ななつ",
+        "kanji": "7つ",
+        "chinese": "七個",
+        "image": null,
+        "note": "計算物品時使用。",
+        "kanji_note": {
+          "summary": "日語的「実」、「数」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "実",
+              "zh": "實",
+              "note": null
+            },
+            {
+              "jp": "数",
+              "zh": "數",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "小石がななつあります。",
+            "chinese": "有七顆小石頭。"
+          },
+          {
+            "japanese": "どんぐりをななつ拾います。",
+            "chinese": "撿七顆橡實。"
+          },
+          {
+            "japanese": "木の実をななつ集めます。",
+            "chinese": "收集七顆樹果。"
+          },
+          {
+            "japanese": "葉っぱがななつあります。",
+            "chinese": "有七片葉子。"
+          },
+          {
+            "japanese": "木の葉をななつ拾います。",
+            "chinese": "撿七片樹葉。"
+          },
+          {
+            "japanese": "枝をななつ折ります。",
+            "chinese": "折七根樹枝。"
+          },
+          {
+            "japanese": "種をななつ植えます。",
+            "chinese": "種七顆種子。"
+          },
+          {
+            "japanese": "豆がななつあります。",
+            "chinese": "有七顆豆子。"
+          },
+          {
+            "japanese": "栗をななつ拾います。",
+            "chinese": "撿七顆栗子。"
+          },
+          {
+            "japanese": "銀杏をななつ集めます。",
+            "chinese": "收集七顆銀杏。"
+          },
+          {
+            "japanese": "袋に小石をななつ入れます。",
+            "chinese": "把七顆小石頭放進袋子裡。"
+          },
+          {
+            "japanese": "どんぐりがななつだけあります。",
+            "chinese": "只有七顆橡實。"
+          },
+          {
+            "japanese": "公園で木の実をななつ拾います。",
+            "chinese": "在公園撿七顆樹果。"
+          },
+          {
+            "japanese": "箱に葉っぱがななつあります。",
+            "chinese": "箱子裡有七片葉子。"
+          },
+          {
+            "japanese": "木の葉をななつ集めます。",
+            "chinese": "收集七片樹葉。"
+          },
+          {
+            "japanese": "枝がななつだけあります。",
+            "chinese": "只有七根樹枝。"
+          },
+          {
+            "japanese": "種をななつ数えます。",
+            "chinese": "數七顆種子。"
+          },
+          {
+            "japanese": "豆がななつだけあります。",
+            "chinese": "只有七顆豆子。"
+          },
+          {
+            "japanese": "栗をななつ買います。",
+            "chinese": "買七顆栗子。"
+          },
+          {
+            "japanese": "この箱に銀杏がななつあります。",
+            "chinese": "這個箱子裡有七顆銀杏。"
+          }
+        ]
+      },
+      {
+        "japanese": "やっつ",
+        "kanji": "8つ",
+        "chinese": "八個",
+        "image": null,
+        "note": "計算物品時使用。",
+        "kanji_note": null,
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "皿がやっつあります。",
+            "chinese": "有八個盤子。"
+          },
+          {
+            "japanese": "お椀をやっつ洗います。",
+            "chinese": "洗八個碗。"
+          },
+          {
+            "japanese": "箸をやっつ並べます。",
+            "chinese": "排八雙筷子。"
+          },
+          {
+            "japanese": "しゃもじをやっつ買います。",
+            "chinese": "買八支飯匙。"
+          },
+          {
+            "japanese": "鍋がやっつあります。",
+            "chinese": "有八個鍋子。"
+          },
+          {
+            "japanese": "フライパンをやっつ洗います。",
+            "chinese": "洗八個平底鍋。"
+          },
+          {
+            "japanese": "まな板をやっつ買います。",
+            "chinese": "買八塊砧板。"
+          },
+          {
+            "japanese": "包丁がやっつあります。",
+            "chinese": "有八把菜刀。"
+          },
+          {
+            "japanese": "おたまをやっつ並べます。",
+            "chinese": "排八支湯杓。"
+          },
+          {
+            "japanese": "ざるをやっつ洗います。",
+            "chinese": "洗八個濾盆。"
+          },
+          {
+            "japanese": "箱に皿をやっつ入れます。",
+            "chinese": "把八個盤子放進箱子裡。"
+          },
+          {
+            "japanese": "お椀がやっつだけあります。",
+            "chinese": "只有八個碗。"
+          },
+          {
+            "japanese": "店で箸をやっつ買います。",
+            "chinese": "在店裡買八雙筷子。"
+          },
+          {
+            "japanese": "棚にしゃもじがやっつあります。",
+            "chinese": "架子上有八支飯匙。"
+          },
+          {
+            "japanese": "鍋をやっつ洗います。",
+            "chinese": "洗八個鍋子。"
+          },
+          {
+            "japanese": "フライパンがやっつだけあります。",
+            "chinese": "只有八個平底鍋。"
+          },
+          {
+            "japanese": "まな板をやっつ使います。",
+            "chinese": "用八塊砧板。"
+          },
+          {
+            "japanese": "包丁がやっつだけあります。",
+            "chinese": "只有八把菜刀。"
+          },
+          {
+            "japanese": "おたまをやっつ買います。",
+            "chinese": "買八支湯杓。"
+          },
+          {
+            "japanese": "この棚にざるがやっつあります。",
+            "chinese": "這個架子上有八個濾盆。"
+          }
+        ]
+      },
+      {
+        "japanese": "ここのつ",
+        "kanji": "9つ",
+        "chinese": "九個",
+        "image": null,
+        "note": "計算物品時使用。",
+        "kanji_note": null,
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "ぶどうがここのつあります。",
+            "chinese": "有九顆葡萄。"
+          },
+          {
+            "japanese": "なしをここのつ食べます。",
+            "chinese": "吃九顆梨子。"
+          },
+          {
+            "japanese": "レモンをここのつ買います。",
+            "chinese": "買九顆檸檬。"
+          },
+          {
+            "japanese": "いちごがここのつあります。",
+            "chinese": "有九顆草莓。"
+          },
+          {
+            "japanese": "バナナをここのつ食べます。",
+            "chinese": "吃九根香蕉。"
+          },
+          {
+            "japanese": "さくらんぼをここのつ買います。",
+            "chinese": "買九顆櫻桃。"
+          },
+          {
+            "japanese": "メロンがここのつあります。",
+            "chinese": "有九顆哈密瓜。"
+          },
+          {
+            "japanese": "スイカをここのつ切ります。",
+            "chinese": "切九塊西瓜。"
+          },
+          {
+            "japanese": "パイナップルをここのつ買います。",
+            "chinese": "買九顆鳳梨。"
+          },
+          {
+            "japanese": "オレンジをここのつ食べます。",
+            "chinese": "吃九顆柳丁。"
+          },
+          {
+            "japanese": "箱にぶどうをここのつ入れます。",
+            "chinese": "把九顆葡萄放進箱子裡。"
+          },
+          {
+            "japanese": "なしがここのつだけあります。",
+            "chinese": "只有九顆梨子。"
+          },
+          {
+            "japanese": "店でレモンをここのつ買います。",
+            "chinese": "在店裡買九顆檸檬。"
+          },
+          {
+            "japanese": "テーブルにいちごがここのつあります。",
+            "chinese": "桌上有九顆草莓。"
+          },
+          {
+            "japanese": "バナナをここのつ買います。",
+            "chinese": "買九根香蕉。"
+          },
+          {
+            "japanese": "さくらんぼがここのつだけあります。",
+            "chinese": "只有九顆櫻桃。"
+          },
+          {
+            "japanese": "メロンをここのつ食べます。",
+            "chinese": "吃九塊哈密瓜。"
+          },
+          {
+            "japanese": "スイカがここのつだけあります。",
+            "chinese": "只有九塊西瓜。"
+          },
+          {
+            "japanese": "パイナップルをここのつ切ります。",
+            "chinese": "切九塊鳳梨。"
+          },
+          {
+            "japanese": "この箱にオレンジがここのつあります。",
+            "chinese": "這個箱子裡有九顆柳丁。"
+          }
+        ]
+      },
+      {
+        "japanese": "とお",
+        "kanji": "10つ",
+        "chinese": "十個",
+        "image": null,
+        "note": "計算物品時使用；「とお」＝十個。",
+        "kanji_note": {
+          "summary": "日語「数」→ 繁體「數」。",
+          "details": [
+            {
+              "jp": "数",
+              "zh": "數",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "ナッツがとおあります。",
+            "chinese": "有十顆堅果。"
+          },
+          {
+            "japanese": "ビーズをとお買います。",
+            "chinese": "買十顆珠子。"
+          },
+          {
+            "japanese": "数珠玉をとお集めます。",
+            "chinese": "收集十顆念珠。"
+          },
+          {
+            "japanese": "お手玉がとおあります。",
+            "chinese": "有十個沙包。"
+          },
+          {
+            "japanese": "こまをとお回します。",
+            "chinese": "轉十個陀螺。"
+          },
+          {
+            "japanese": "ブロックをとお重ねます。",
+            "chinese": "疊十個積木。"
+          },
+          {
+            "japanese": "磁石がとおあります。",
+            "chinese": "有十塊磁鐵。"
+          },
+          {
+            "japanese": "クリップをとお使います。",
+            "chinese": "用十個迴紋針。"
+          },
+          {
+            "japanese": "コインをとお数えます。",
+            "chinese": "數十枚硬幣。"
+          },
+          {
+            "japanese": "シールをとお貼ります。",
+            "chinese": "貼十張貼紙。"
+          },
+          {
+            "japanese": "箱にナッツをとお入れます。",
+            "chinese": "把十顆堅果放進箱子裡。"
+          },
+          {
+            "japanese": "ビーズがとおだけあります。",
+            "chinese": "只有十顆珠子。"
+          },
+          {
+            "japanese": "店で数珠玉をとお買います。",
+            "chinese": "在店裡買十顆念珠。"
+          },
+          {
+            "japanese": "テーブルにお手玉がとおあります。",
+            "chinese": "桌上有十個沙包。"
+          },
+          {
+            "japanese": "こまをとお並べます。",
+            "chinese": "排十個陀螺。"
+          },
+          {
+            "japanese": "ブロックがとおだけあります。",
+            "chinese": "只有十個積木。"
+          },
+          {
+            "japanese": "磁石をとお買います。",
+            "chinese": "買十塊磁鐵。"
+          },
+          {
+            "japanese": "クリップがとおだけあります。",
+            "chinese": "只有十個迴紋針。"
+          },
+          {
+            "japanese": "コインをとお入れます。",
+            "chinese": "放進十枚硬幣。"
+          },
+          {
+            "japanese": "この箱にシールがとおあります。",
+            "chinese": "這個箱子裡有十張貼紙。"
+          }
+        ]
+      },
+      {
+        "japanese": "いくつ",
+        "kanji": null,
+        "chinese": "幾個",
+        "image": null,
+        "note": "詢問物品數量。",
+        "kanji_note": {
+          "summary": "日語「蔵」→ 繁體「藏」。",
+          "details": [
+            {
+              "jp": "蔵",
+              "zh": "藏",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "function_word"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "りんごがいくつありますか。",
+            "chinese": "有幾個蘋果？"
+          },
+          {
+            "japanese": "みかんをいくつ食べますか。",
+            "chinese": "要吃幾個橘子？"
+          },
+          {
+            "japanese": "ケーキをいくつ買いますか。",
+            "chinese": "要買幾個蛋糕？"
+          },
+          {
+            "japanese": "机の上にりんごがいくつありますか。",
+            "chinese": "桌上有幾個蘋果？"
+          },
+          {
+            "japanese": "卵がいくつありますか。",
+            "chinese": "有幾個蛋？"
+          },
+          {
+            "japanese": "お皿がいくつありますか。",
+            "chinese": "有幾個盤子？"
+          },
+          {
+            "japanese": "コップをいくつ洗いますか。",
+            "chinese": "要洗幾個杯子？"
+          },
+          {
+            "japanese": "この箱にみかんがいくつありますか。",
+            "chinese": "這個箱子裡有幾個橘子？"
+          },
+          {
+            "japanese": "パンがいくつありますか。",
+            "chinese": "有幾個麵包？"
+          },
+          {
+            "japanese": "アイスクリームをいくつ食べますか。",
+            "chinese": "要吃幾個冰淇淋？"
+          },
+          {
+            "japanese": "お菓子がいくつありますか。",
+            "chinese": "有幾個點心？"
+          },
+          {
+            "japanese": "冷蔵庫に卵がいくつありますか。",
+            "chinese": "冰箱裡有幾個蛋？"
+          },
+          {
+            "japanese": "テーブルにケーキがいくつありますか。",
+            "chinese": "桌上有幾個蛋糕？"
+          },
+          {
+            "japanese": "サンドイッチをいくつ買いますか。",
+            "chinese": "要買幾個三明治？"
+          },
+          {
+            "japanese": "かごにみかんがいくつありますか。",
+            "chinese": "籃子裡有幾個橘子？"
+          },
+          {
+            "japanese": "箱にりんごがいくつありますか。",
+            "chinese": "箱子裡有幾個蘋果？"
+          },
+          {
+            "japanese": "クッキーがいくつありますか。",
+            "chinese": "有幾塊餅乾？"
+          },
+          {
+            "japanese": "みかんがいくつありますか。",
+            "chinese": "有幾個橘子？"
+          },
+          {
+            "japanese": "りんごをいくつ買いますか。",
+            "chinese": "要買幾個蘋果？"
+          },
+          {
+            "japanese": "ケーキがいくつありますか。",
+            "chinese": "有幾個蛋糕？"
+          }
+        ]
+      },
+      {
+        "japanese": "ひとり",
+        "kanji": "1人",
+        "chinese": "一個人",
+        "image": null,
+        "note": "計算人數時使用；一人、二人讀「ひとり、ふたり」。",
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "学生がひとりいます。",
+            "chinese": "有一個學生。"
+          },
+          {
+            "japanese": "友達がひとり来ます。",
+            "chinese": "一個朋友要來。"
+          },
+          {
+            "japanese": "田中さんはひとりで働きます。",
+            "chinese": "田中先生一個人工作。"
+          },
+          {
+            "japanese": "子どもがひとりいます。",
+            "chinese": "有一個孩子。"
+          },
+          {
+            "japanese": "先生がひとり来ます。",
+            "chinese": "一位老師要來。"
+          },
+          {
+            "japanese": "駅で友達をひとり待ちます。",
+            "chinese": "在車站等一個朋友。"
+          },
+          {
+            "japanese": "妹がひとりいます。",
+            "chinese": "有一個妹妹。"
+          },
+          {
+            "japanese": "今日はひとりで行きます。",
+            "chinese": "今天一個人去。"
+          },
+          {
+            "japanese": "客がひとり来ます。",
+            "chinese": "一個客人要來。"
+          },
+          {
+            "japanese": "教室に学生がひとりだけいます。",
+            "chinese": "教室裡只有一個學生。"
+          },
+          {
+            "japanese": "兄がひとりいます。",
+            "chinese": "有一個哥哥。"
+          },
+          {
+            "japanese": "パーティーに友達がひとり来ます。",
+            "chinese": "派對上一個朋友要來。"
+          },
+          {
+            "japanese": "社員がひとりいます。",
+            "chinese": "有一個職員。"
+          },
+          {
+            "japanese": "家に客がひとりいます。",
+            "chinese": "家裡有一個客人。"
+          },
+          {
+            "japanese": "学生がひとりだけ来ます。",
+            "chinese": "只有一個學生要來。"
+          },
+          {
+            "japanese": "映画館で友達をひとり待ちます。",
+            "chinese": "在電影院等一個朋友。"
+          },
+          {
+            "japanese": "子どもがひとり来ます。",
+            "chinese": "一個孩子要來。"
+          },
+          {
+            "japanese": "先生がひとりだけいます。",
+            "chinese": "只有一位老師。"
+          },
+          {
+            "japanese": "会議に社員がひとり来ます。",
+            "chinese": "會議上一個職員要來。"
+          },
+          {
+            "japanese": "母がひとりで料理します。",
+            "chinese": "媽媽一個人做飯。"
+          }
+        ]
+      },
+      {
+        "japanese": "ふたり",
+        "kanji": "2人",
+        "chinese": "二個人",
+        "image": null,
+        "note": "計算人數時使用；二人讀「ふたり」。",
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「話」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "残",
+              "zh": "殘",
+              "note": null
+            },
+            {
+              "jp": "話",
+              "zh": "話",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "子どもがふたり遊びます。",
+            "chinese": "兩個孩子在玩。"
+          },
+          {
+            "japanese": "友達とふたりでご飯を食べます。",
+            "chinese": "和朋友兩個人吃飯。"
+          },
+          {
+            "japanese": "学生がふたり並びます。",
+            "chinese": "兩個學生排隊。"
+          },
+          {
+            "japanese": "兄弟がふたりいます。",
+            "chinese": "有兩個兄弟。"
+          },
+          {
+            "japanese": "田中さんと山田さんがふたりで話します。",
+            "chinese": "田中先生和山田先生兩個人聊天。"
+          },
+          {
+            "japanese": "先生がふたり来ます。",
+            "chinese": "兩位老師要來。"
+          },
+          {
+            "japanese": "駅で友達をふたり見かけます。",
+            "chinese": "在車站看到兩個朋友。"
+          },
+          {
+            "japanese": "今日はふたりで買い物します。",
+            "chinese": "今天兩個人去買東西。"
+          },
+          {
+            "japanese": "客がふたり座ります。",
+            "chinese": "兩個客人坐下。"
+          },
+          {
+            "japanese": "教室に学生がふたり残ります。",
+            "chinese": "教室裡剩下兩個學生。"
+          },
+          {
+            "japanese": "姉がふたりいます。",
+            "chinese": "有兩個姊姊。"
+          },
+          {
+            "japanese": "パーティーに友達をふたり呼びます。",
+            "chinese": "邀請兩個朋友來派對。"
+          },
+          {
+            "japanese": "社員がふたり働きます。",
+            "chinese": "兩個職員在工作。"
+          },
+          {
+            "japanese": "家に客がふたり来ます。",
+            "chinese": "家裡有兩個客人要來。"
+          },
+          {
+            "japanese": "子どもをふたり連れます。",
+            "chinese": "帶著兩個孩子。"
+          },
+          {
+            "japanese": "公園で友達をふたり見かけます。",
+            "chinese": "在公園看到兩個朋友。"
+          },
+          {
+            "japanese": "学生がふたり走ります。",
+            "chinese": "兩個學生在跑。"
+          },
+          {
+            "japanese": "先生がふたり教えます。",
+            "chinese": "兩位老師在教課。"
+          },
+          {
+            "japanese": "会議に社員をふたり呼びます。",
+            "chinese": "叫兩個職員來開會。"
+          },
+          {
+            "japanese": "父と母がふたりで旅行します。",
+            "chinese": "爸爸媽媽兩個人旅行。"
+          }
+        ]
+      },
+      {
+        "japanese": "…にん",
+        "kanji": "…人",
+        "chinese": "…個人",
+        "image": null,
+        "note": "計算人數；三人以上用「…人（にん）」。",
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "学生が三人います。",
+            "chinese": "有三個學生。"
+          },
+          {
+            "japanese": "この教室に学生が五人います。",
+            "chinese": "這個教室裡有五個學生。"
+          },
+          {
+            "japanese": "田中さんの家は家族が四人です。",
+            "chinese": "田中先生家有四個人。"
+          },
+          {
+            "japanese": "会議に十人が来ます。",
+            "chinese": "會議上有十個人要來。"
+          },
+          {
+            "japanese": "社員が二十人働きます。",
+            "chinese": "有二十個職員工作。"
+          },
+          {
+            "japanese": "パーティーに友達が六人来ます。",
+            "chinese": "派對上有六個朋友要來。"
+          },
+          {
+            "japanese": "この学校に学生が八百人います。",
+            "chinese": "這間學校有八百個學生。"
+          },
+          {
+            "japanese": "クラスに男の子が五人います。",
+            "chinese": "班上有五個男生。"
+          },
+          {
+            "japanese": "駅に人が百人います。",
+            "chinese": "車站有一百個人。"
+          },
+          {
+            "japanese": "映画館に客が三十人います。",
+            "chinese": "電影院裡有三十個客人。"
+          },
+          {
+            "japanese": "兄の会社に社員が五十人います。",
+            "chinese": "哥哥的公司有五十個職員。"
+          },
+          {
+            "japanese": "今日は友達が三人来ます。",
+            "chinese": "今天有三個朋友要來。"
+          },
+          {
+            "japanese": "このホテルに客が二十人います。",
+            "chinese": "這間旅館有二十個客人。"
+          },
+          {
+            "japanese": "料理教室に人が八人います。",
+            "chinese": "料理教室裡有八個人。"
+          },
+          {
+            "japanese": "子どもが四人います。",
+            "chinese": "有四個孩子。"
+          },
+          {
+            "japanese": "病院に患者が三十人います。",
+            "chinese": "醫院裡有三十個病人。"
+          },
+          {
+            "japanese": "この店で五人働きます。",
+            "chinese": "這家店裡有五個人工作。"
+          },
+          {
+            "japanese": "空港に人が二百人います。",
+            "chinese": "機場有兩百個人。"
+          },
+          {
+            "japanese": "山田さんは兄弟が三人います。",
+            "chinese": "山田先生有三個兄弟。"
+          },
+          {
+            "japanese": "電車に人が五十人います。",
+            "chinese": "電車上有五十個人。"
+          }
+        ]
+      },
+      {
+        "japanese": "…だい",
+        "kanji": "…台",
+        "chinese": "…台（計算機械、車輛等）",
+        "image": null,
+        "note": "計算機械、車輛等機械類時使用。",
+        "kanji_note": {
+          "summary": "日語的「話」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "蔵",
+              "zh": "藏",
+              "note": null
+            },
+            {
+              "jp": "話",
+              "zh": "話",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "転",
+              "zh": "轉",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "車が二台あります。",
+            "chinese": "有兩台車。"
+          },
+          {
+            "japanese": "この家にテレビが三台あります。",
+            "chinese": "這個家裡有三台電視。"
+          },
+          {
+            "japanese": "会社にパソコンが五十台あります。",
+            "chinese": "公司裡有五十台電腦。"
+          },
+          {
+            "japanese": "田中さんは車を二台買います。",
+            "chinese": "田中先生買兩台車。"
+          },
+          {
+            "japanese": "工場に機械が十台あります。",
+            "chinese": "工廠裡有十台機器。"
+          },
+          {
+            "japanese": "この店に冷蔵庫が五台あります。",
+            "chinese": "這家店裡有五台冰箱。"
+          },
+          {
+            "japanese": "自転車が三台あります。",
+            "chinese": "有三台腳踏車。"
+          },
+          {
+            "japanese": "事務所にコピー機が一台あります。",
+            "chinese": "辦公室裡有一台影印機。"
+          },
+          {
+            "japanese": "兄はバイクを一台買います。",
+            "chinese": "哥哥買一台機車。"
+          },
+          {
+            "japanese": "エアコンが二台あります。",
+            "chinese": "有兩台冷氣機。"
+          },
+          {
+            "japanese": "教室にテレビが一台あります。",
+            "chinese": "教室裡有一台電視。"
+          },
+          {
+            "japanese": "家に電話が一台あります。",
+            "chinese": "家裡有一台電話。"
+          },
+          {
+            "japanese": "この駅に自転車が二十台あります。",
+            "chinese": "這個車站有二十台腳踏車。"
+          },
+          {
+            "japanese": "工場に機械が五台あります。",
+            "chinese": "工廠裡有五台機器。"
+          },
+          {
+            "japanese": "店でテレビを二台買います。",
+            "chinese": "在店裡買兩台電視。"
+          },
+          {
+            "japanese": "車が一台だけあります。",
+            "chinese": "只有一台車。"
+          },
+          {
+            "japanese": "この事務所にパソコンが十台あります。",
+            "chinese": "這間辦公室裡有十台電腦。"
+          },
+          {
+            "japanese": "冷蔵庫が一台あります。",
+            "chinese": "有一台冰箱。"
+          },
+          {
+            "japanese": "駐車場に車が三十台あります。",
+            "chinese": "停車場裡有三十台車。"
+          },
+          {
+            "japanese": "家にエアコンが二台あります。",
+            "chinese": "家裡有兩台冷氣機。"
+          }
+        ]
+      },
+      {
+        "japanese": "…まい",
+        "kanji": "…枚",
+        "chinese": "…張（計算紙張、郵票等）",
+        "image": null,
+        "note": "計算紙張、郵票等薄的物品時使用。",
+        "kanji_note": {
+          "summary": "日語的「紙」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "紙",
+              "zh": "紙",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "切手が三枚あります。",
+            "chinese": "有三張郵票。"
+          },
+          {
+            "japanese": "はがきを二枚買います。",
+            "chinese": "買兩張明信片。"
+          },
+          {
+            "japanese": "紙が一枚あります。",
+            "chinese": "有一張紙。"
+          },
+          {
+            "japanese": "写真が十枚あります。",
+            "chinese": "有十張照片。"
+          },
+          {
+            "japanese": "手紙を一枚書きます。",
+            "chinese": "寫一封信。"
+          },
+          {
+            "japanese": "田中さんは写真を五枚撮ります。",
+            "chinese": "田中先生拍五張照片。"
+          },
+          {
+            "japanese": "チケットが二枚あります。",
+            "chinese": "有兩張票。"
+          },
+          {
+            "japanese": "お皿を三枚洗います。",
+            "chinese": "洗三個盤子。"
+          },
+          {
+            "japanese": "この箱に切手が二十枚あります。",
+            "chinese": "這個箱子裡有二十張郵票。"
+          },
+          {
+            "japanese": "はがきが一枚だけあります。",
+            "chinese": "只有一張明信片。"
+          },
+          {
+            "japanese": "店で紙を五枚買います。",
+            "chinese": "在店裡買五張紙。"
+          },
+          {
+            "japanese": "シャツを二枚買います。",
+            "chinese": "買兩件襯衫。"
+          },
+          {
+            "japanese": "タオルが三枚あります。",
+            "chinese": "有三條毛巾。"
+          },
+          {
+            "japanese": "カードを一枚書きます。",
+            "chinese": "寫一張卡片。"
+          },
+          {
+            "japanese": "写真が一枚だけあります。",
+            "chinese": "只有一張照片。"
+          },
+          {
+            "japanese": "手紙が二枚あります。",
+            "chinese": "有兩封信。"
+          },
+          {
+            "japanese": "姉は切手を十枚買います。",
+            "chinese": "姊姊買十張郵票。"
+          },
+          {
+            "japanese": "この店ではがきを五枚買います。",
+            "chinese": "在這家店買五張明信片。"
+          },
+          {
+            "japanese": "紙が百枚あります。",
+            "chinese": "有一百張紙。"
+          },
+          {
+            "japanese": "テーブルに写真が三枚あります。",
+            "chinese": "桌上有三張照片。"
+          }
+        ]
+      },
+      {
+        "japanese": "…かい",
+        "kanji": "…回",
+        "chinese": "…次",
+        "image": null,
+        "note": "計算次數時使用。",
+        "kanji_note": {
+          "summary": "日語的「漢」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "漢",
+              "zh": "漢",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "この映画を二回見ます。",
+            "chinese": "這部電影看兩次。"
+          },
+          {
+            "japanese": "日本へ三回行きます。",
+            "chinese": "去日本三次。"
+          },
+          {
+            "japanese": "一週間に三回ジョギングします。",
+            "chinese": "一星期慢跑三次。"
+          },
+          {
+            "japanese": "この店へ二回来ます。",
+            "chinese": "來這家店兩次。"
+          },
+          {
+            "japanese": "田中さんは京都へ五回行きます。",
+            "chinese": "田中先生去京都五次。"
+          },
+          {
+            "japanese": "会議は一か月に一回あります。",
+            "chinese": "會議一個月有一次。"
+          },
+          {
+            "japanese": "この本を三回読みます。",
+            "chinese": "這本書讀三次。"
+          },
+          {
+            "japanese": "病院へ一回行きます。",
+            "chinese": "去醫院一次。"
+          },
+          {
+            "japanese": "授業は一週間に五回あります。",
+            "chinese": "課一星期有五次。"
+          },
+          {
+            "japanese": "この歌を十回聞きます。",
+            "chinese": "這首歌聽十次。"
+          },
+          {
+            "japanese": "日本へ一回だけ行きます。",
+            "chinese": "只去日本一次。"
+          },
+          {
+            "japanese": "映画を一回見ます。",
+            "chinese": "看一次電影。"
+          },
+          {
+            "japanese": "兄は海外へ二回行きます。",
+            "chinese": "哥哥去國外兩次。"
+          },
+          {
+            "japanese": "この漢字を五回書きます。",
+            "chinese": "這個漢字寫五次。"
+          },
+          {
+            "japanese": "東京へ三回行きます。",
+            "chinese": "去東京三次。"
+          },
+          {
+            "japanese": "一年に一回旅行します。",
+            "chinese": "一年旅行一次。"
+          },
+          {
+            "japanese": "この店に一回だけ来ます。",
+            "chinese": "只來這家店一次。"
+          },
+          {
+            "japanese": "練習は一週間に二回あります。",
+            "chinese": "練習一星期有兩次。"
+          },
+          {
+            "japanese": "田中さんに一回会います。",
+            "chinese": "見田中先生一次。"
+          },
+          {
+            "japanese": "この映画を三回見ます。",
+            "chinese": "這部電影看三次。"
+          }
+        ]
+      },
+      {
+        "japanese": "りんご",
+        "kanji": null,
+        "chinese": "蘋果",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「蔵」→ 繁體「藏」。",
+          "details": [
+            {
+              "jp": "蔵",
+              "zh": "藏",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "りんごを一つ食べます。",
+            "chinese": "吃一個蘋果。"
+          },
+          {
+            "japanese": "このりんごはおいしいです。",
+            "chinese": "這個蘋果很好吃。"
+          },
+          {
+            "japanese": "店でりんごを買います。",
+            "chinese": "在店裡買蘋果。"
+          },
+          {
+            "japanese": "机の上にりんごがあります。",
+            "chinese": "桌上有蘋果。"
+          },
+          {
+            "japanese": "田中さんはりんごを食べます。",
+            "chinese": "田中先生吃蘋果。"
+          },
+          {
+            "japanese": "りんごが二つあります。",
+            "chinese": "有兩個蘋果。"
+          },
+          {
+            "japanese": "このりんごは赤いです。",
+            "chinese": "這個蘋果是紅色的。"
+          },
+          {
+            "japanese": "冷蔵庫にりんごがあります。",
+            "chinese": "冰箱裡有蘋果。"
+          },
+          {
+            "japanese": "母はりんごを買います。",
+            "chinese": "媽媽買蘋果。"
+          },
+          {
+            "japanese": "りんごを一つもらいます。",
+            "chinese": "拿一個蘋果。"
+          },
+          {
+            "japanese": "このりんごは大きいです。",
+            "chinese": "這個蘋果很大。"
+          },
+          {
+            "japanese": "りんごの皮をむきます。",
+            "chinese": "削蘋果皮。"
+          },
+          {
+            "japanese": "子どもがりんごを食べます。",
+            "chinese": "孩子吃蘋果。"
+          },
+          {
+            "japanese": "りんごが一つだけあります。",
+            "chinese": "只有一個蘋果。"
+          },
+          {
+            "japanese": "このりんごを二つに切ります。",
+            "chinese": "把這個蘋果切成兩半。"
+          },
+          {
+            "japanese": "りんごを洗います。",
+            "chinese": "洗蘋果。"
+          },
+          {
+            "japanese": "兄はりんごが好きです。",
+            "chinese": "哥哥喜歡蘋果。"
+          },
+          {
+            "japanese": "りんごを五つ買います。",
+            "chinese": "買五個蘋果。"
+          },
+          {
+            "japanese": "このりんごは青いです。",
+            "chinese": "這個蘋果是綠色的。"
+          },
+          {
+            "japanese": "りんごを一つだけ食べます。",
+            "chinese": "只吃一個蘋果。"
+          }
+        ]
+      },
+      {
+        "japanese": "みかん",
+        "kanji": null,
+        "chinese": "橘子",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「蔵」→ 繁體「藏」。",
+          "details": [
+            {
+              "jp": "蔵",
+              "zh": "藏",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "みかんを一つ食べます。",
+            "chinese": "吃一個橘子。"
+          },
+          {
+            "japanese": "このみかんはおいしいです。",
+            "chinese": "這個橘子很好吃。"
+          },
+          {
+            "japanese": "店でみかんを買います。",
+            "chinese": "在店裡買橘子。"
+          },
+          {
+            "japanese": "机の上にみかんがあります。",
+            "chinese": "桌上有橘子。"
+          },
+          {
+            "japanese": "田中さんはみかんを食べます。",
+            "chinese": "田中先生吃橘子。"
+          },
+          {
+            "japanese": "みかんが二つあります。",
+            "chinese": "有兩個橘子。"
+          },
+          {
+            "japanese": "このみかんは小さいです。",
+            "chinese": "這個橘子很小。"
+          },
+          {
+            "japanese": "冷蔵庫にみかんがあります。",
+            "chinese": "冰箱裡有橘子。"
+          },
+          {
+            "japanese": "母はみかんを買います。",
+            "chinese": "媽媽買橘子。"
+          },
+          {
+            "japanese": "みかんを一つもらいます。",
+            "chinese": "拿一個橘子。"
+          },
+          {
+            "japanese": "このみかんは大きいです。",
+            "chinese": "這個橘子很大。"
+          },
+          {
+            "japanese": "みかんの皮をむきます。",
+            "chinese": "剝橘子皮。"
+          },
+          {
+            "japanese": "子どもがみかんを食べます。",
+            "chinese": "孩子吃橘子。"
+          },
+          {
+            "japanese": "みかんが一つだけあります。",
+            "chinese": "只有一個橘子。"
+          },
+          {
+            "japanese": "このみかんを二つに分けます。",
+            "chinese": "把這個橘子分成兩半。"
+          },
+          {
+            "japanese": "みかんを洗います。",
+            "chinese": "洗橘子。"
+          },
+          {
+            "japanese": "兄はみかんが好きです。",
+            "chinese": "哥哥喜歡橘子。"
+          },
+          {
+            "japanese": "みかんを五つ買います。",
+            "chinese": "買五個橘子。"
+          },
+          {
+            "japanese": "このみかんは青いです。",
+            "chinese": "這個橘子是綠色的。"
+          },
+          {
+            "japanese": "みかんを一つだけ食べます。",
+            "chinese": "只吃一個橘子。"
+          }
+        ]
+      },
+      {
+        "japanese": "サンドイッチ",
+        "kanji": null,
+        "chinese": "三明治",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「昼」、「蔵」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "昼",
+              "zh": "晝",
+              "note": null
+            },
+            {
+              "jp": "蔵",
+              "zh": "藏",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "サンドイッチを一つ食べます。",
+            "chinese": "吃一個三明治。"
+          },
+          {
+            "japanese": "このサンドイッチはおいしいです。",
+            "chinese": "這個三明治很好吃。"
+          },
+          {
+            "japanese": "店でサンドイッチを買います。",
+            "chinese": "在店裡買三明治。"
+          },
+          {
+            "japanese": "机の上にサンドイッチがあります。",
+            "chinese": "桌上有三明治。"
+          },
+          {
+            "japanese": "田中さんはサンドイッチを食べます。",
+            "chinese": "田中先生吃三明治。"
+          },
+          {
+            "japanese": "サンドイッチが二つあります。",
+            "chinese": "有兩個三明治。"
+          },
+          {
+            "japanese": "コンビニでサンドイッチを買います。",
+            "chinese": "在便利商店買三明治。"
+          },
+          {
+            "japanese": "冷蔵庫にサンドイッチがあります。",
+            "chinese": "冰箱裡有三明治。"
+          },
+          {
+            "japanese": "母はサンドイッチを買います。",
+            "chinese": "媽媽買三明治。"
+          },
+          {
+            "japanese": "サンドイッチを一つもらいます。",
+            "chinese": "拿一個三明治。"
+          },
+          {
+            "japanese": "このサンドイッチは大きいです。",
+            "chinese": "這個三明治很大。"
+          },
+          {
+            "japanese": "サンドイッチを半分に切ります。",
+            "chinese": "把三明治切成兩半。"
+          },
+          {
+            "japanese": "子どもがサンドイッチを食べます。",
+            "chinese": "孩子吃三明治。"
+          },
+          {
+            "japanese": "サンドイッチが一つだけあります。",
+            "chinese": "只有一個三明治。"
+          },
+          {
+            "japanese": "このサンドイッチは小さいです。",
+            "chinese": "這個三明治很小。"
+          },
+          {
+            "japanese": "昼ご飯にサンドイッチを食べます。",
+            "chinese": "午餐吃三明治。"
+          },
+          {
+            "japanese": "兄はサンドイッチが好きです。",
+            "chinese": "哥哥喜歡三明治。"
+          },
+          {
+            "japanese": "サンドイッチを五つ買います。",
+            "chinese": "買五個三明治。"
+          },
+          {
+            "japanese": "このサンドイッチは新しいです。",
+            "chinese": "這個三明治很新鮮。"
+          },
+          {
+            "japanese": "サンドイッチを一つだけ食べます。",
+            "chinese": "只吃一個三明治。"
+          }
+        ]
+      },
+      {
+        "japanese": "カレー",
+        "kanji": null,
+        "chinese": "咖哩〔飯〕",
+        "image": null,
+        "note": "「カレーライス」也常見，ライス可省略。",
+        "kanji_note": {
+          "summary": "日語的「昼」、「蔵」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "昼",
+              "zh": "晝",
+              "note": null
+            },
+            {
+              "jp": "蔵",
+              "zh": "藏",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "カレーを食べます。",
+            "chinese": "吃咖哩。"
+          },
+          {
+            "japanese": "このカレーはおいしいです。",
+            "chinese": "這個咖哩很好吃。"
+          },
+          {
+            "japanese": "店でカレーを食べます。",
+            "chinese": "在店裡吃咖哩。"
+          },
+          {
+            "japanese": "机の上にカレーがあります。",
+            "chinese": "桌上有咖哩。"
+          },
+          {
+            "japanese": "田中さんはカレーを食べます。",
+            "chinese": "田中先生吃咖哩。"
+          },
+          {
+            "japanese": "カレーが一つあります。",
+            "chinese": "有一份咖哩。"
+          },
+          {
+            "japanese": "レストランでカレーを注文します。",
+            "chinese": "在餐廳點咖哩。"
+          },
+          {
+            "japanese": "冷蔵庫にカレーがあります。",
+            "chinese": "冰箱裡有咖哩。"
+          },
+          {
+            "japanese": "母はカレーを買います。",
+            "chinese": "媽媽買咖哩。"
+          },
+          {
+            "japanese": "カレーをもらいます。",
+            "chinese": "拿咖哩。"
+          },
+          {
+            "japanese": "このカレーは熱いです。",
+            "chinese": "這個咖哩很燙。"
+          },
+          {
+            "japanese": "カレーに野菜を入れます。",
+            "chinese": "在咖哩裡放蔬菜。"
+          },
+          {
+            "japanese": "子どもがカレーを食べます。",
+            "chinese": "孩子吃咖哩。"
+          },
+          {
+            "japanese": "カレーが一つだけあります。",
+            "chinese": "只有一份咖哩。"
+          },
+          {
+            "japanese": "このカレーは安いです。",
+            "chinese": "這個咖哩很便宜。"
+          },
+          {
+            "japanese": "昼ご飯にカレーを食べます。",
+            "chinese": "午餐吃咖哩。"
+          },
+          {
+            "japanese": "兄はカレーが好きです。",
+            "chinese": "哥哥喜歡咖哩。"
+          },
+          {
+            "japanese": "カレーを二つ注文します。",
+            "chinese": "點兩份咖哩。"
+          },
+          {
+            "japanese": "このカレーはおいしくないです。",
+            "chinese": "這個咖哩不好吃。"
+          },
+          {
+            "japanese": "カレーを一つだけ食べます。",
+            "chinese": "只吃一份咖哩。"
+          }
+        ]
+      },
+      {
+        "japanese": "アイスクリーム",
+        "kanji": null,
+        "chinese": "冰淇淋",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「蔵」→ 繁體「藏」。",
+          "details": [
+            {
+              "jp": "蔵",
+              "zh": "藏",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "アイスクリームを一つ食べます。",
+            "chinese": "吃一個冰淇淋。"
+          },
+          {
+            "japanese": "このアイスクリームはおいしいです。",
+            "chinese": "這個冰淇淋很好吃。"
+          },
+          {
+            "japanese": "店でアイスクリームを買います。",
+            "chinese": "在店裡買冰淇淋。"
+          },
+          {
+            "japanese": "机の上にアイスクリームがあります。",
+            "chinese": "桌上有冰淇淋。"
+          },
+          {
+            "japanese": "田中さんはアイスクリームを食べます。",
+            "chinese": "田中先生吃冰淇淋。"
+          },
+          {
+            "japanese": "アイスクリームが二つあります。",
+            "chinese": "有兩個冰淇淋。"
+          },
+          {
+            "japanese": "コンビニでアイスクリームを買います。",
+            "chinese": "在便利商店買冰淇淋。"
+          },
+          {
+            "japanese": "冷蔵庫にアイスクリームがあります。",
+            "chinese": "冰箱裡有冰淇淋。"
+          },
+          {
+            "japanese": "母はアイスクリームを買います。",
+            "chinese": "媽媽買冰淇淋。"
+          },
+          {
+            "japanese": "アイスクリームを一つもらいます。",
+            "chinese": "拿一個冰淇淋。"
+          },
+          {
+            "japanese": "このアイスクリームは冷たいです。",
+            "chinese": "這個冰淇淋很冰。"
+          },
+          {
+            "japanese": "アイスクリームを二つ食べます。",
+            "chinese": "吃兩個冰淇淋。"
+          },
+          {
+            "japanese": "子どもがアイスクリームを食べます。",
+            "chinese": "孩子吃冰淇淋。"
+          },
+          {
+            "japanese": "アイスクリームが一つだけあります。",
+            "chinese": "只有一個冰淇淋。"
+          },
+          {
+            "japanese": "このアイスクリームは小さいです。",
+            "chinese": "這個冰淇淋很小。"
+          },
+          {
+            "japanese": "夏にアイスクリームを食べます。",
+            "chinese": "夏天吃冰淇淋。"
+          },
+          {
+            "japanese": "兄はアイスクリームが好きです。",
+            "chinese": "哥哥喜歡冰淇淋。"
+          },
+          {
+            "japanese": "アイスクリームを五つ買います。",
+            "chinese": "買五個冰淇淋。"
+          },
+          {
+            "japanese": "このアイスクリームは高いです。",
+            "chinese": "這個冰淇淋很貴。"
+          },
+          {
+            "japanese": "アイスクリームを一つだけ食べます。",
+            "chinese": "只吃一個冰淇淋。"
+          }
+        ]
+      },
+      {
+        "japanese": "きって",
+        "kanji": "切手",
+        "chinese": "郵票",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「紙」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "紙",
+              "zh": "紙",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "切手を一枚買います。",
+            "chinese": "買一張郵票。"
+          },
+          {
+            "japanese": "この切手はきれいです。",
+            "chinese": "這張郵票很漂亮。"
+          },
+          {
+            "japanese": "封筒に切手を貼ります。",
+            "chinese": "把郵票貼在信封上。"
+          },
+          {
+            "japanese": "切手が三枚あります。",
+            "chinese": "有三張郵票。"
+          },
+          {
+            "japanese": "田中さんは切手を集めます。",
+            "chinese": "田中先生收集郵票。"
+          },
+          {
+            "japanese": "郵便局で切手を買います。",
+            "chinese": "在郵局買郵票。"
+          },
+          {
+            "japanese": "切手を一枚貼ります。",
+            "chinese": "貼一張郵票。"
+          },
+          {
+            "japanese": "この切手は新しいです。",
+            "chinese": "這張郵票是新的。"
+          },
+          {
+            "japanese": "母は切手を買います。",
+            "chinese": "媽媽買郵票。"
+          },
+          {
+            "japanese": "切手が一枚だけあります。",
+            "chinese": "只有一張郵票。"
+          },
+          {
+            "japanese": "兄は切手を集めます。",
+            "chinese": "哥哥收集郵票。"
+          },
+          {
+            "japanese": "切手を十枚買います。",
+            "chinese": "買十張郵票。"
+          },
+          {
+            "japanese": "この切手は古いです。",
+            "chinese": "這張郵票很舊。"
+          },
+          {
+            "japanese": "手紙に切手を貼ります。",
+            "chinese": "在信上貼郵票。"
+          },
+          {
+            "japanese": "切手が二枚あります。",
+            "chinese": "有兩張郵票。"
+          },
+          {
+            "japanese": "店で切手を買います。",
+            "chinese": "在店裡買郵票。"
+          },
+          {
+            "japanese": "この切手を封筒に貼ります。",
+            "chinese": "把這張郵票貼在信封上。"
+          },
+          {
+            "japanese": "切手を五枚買います。",
+            "chinese": "買五張郵票。"
+          },
+          {
+            "japanese": "この切手は小さいです。",
+            "chinese": "這張郵票很小。"
+          },
+          {
+            "japanese": "切手を一枚もらいます。",
+            "chinese": "拿一張郵票。"
+          }
+        ]
+      },
+      {
+        "japanese": "はがき",
+        "kanji": null,
+        "chinese": "明信片",
+        "image": null,
+        "note": null,
+        "kanji_note": null,
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "はがきを一枚書きます。",
+            "chinese": "寫一張明信片。"
+          },
+          {
+            "japanese": "このはがきはきれいです。",
+            "chinese": "這張明信片很漂亮。"
+          },
+          {
+            "japanese": "友達にはがきを書きます。",
+            "chinese": "給朋友寫明信片。"
+          },
+          {
+            "japanese": "はがきが三枚あります。",
+            "chinese": "有三張明信片。"
+          },
+          {
+            "japanese": "田中さんははがきを買います。",
+            "chinese": "田中先生買明信片。"
+          },
+          {
+            "japanese": "郵便局ではがきを買います。",
+            "chinese": "在郵局買明信片。"
+          },
+          {
+            "japanese": "はがきを一枚買います。",
+            "chinese": "買一張明信片。"
+          },
+          {
+            "japanese": "このはがきは新しいです。",
+            "chinese": "這張明信片是新的。"
+          },
+          {
+            "japanese": "母ははがきを書きます。",
+            "chinese": "媽媽寫明信片。"
+          },
+          {
+            "japanese": "はがきが一枚だけあります。",
+            "chinese": "只有一張明信片。"
+          },
+          {
+            "japanese": "兄ははがきを買います。",
+            "chinese": "哥哥買明信片。"
+          },
+          {
+            "japanese": "はがきを十枚買います。",
+            "chinese": "買十張明信片。"
+          },
+          {
+            "japanese": "このはがきは古いです。",
+            "chinese": "這張明信片很舊。"
+          },
+          {
+            "japanese": "はがきに切手を貼ります。",
+            "chinese": "在明信片上貼郵票。"
+          },
+          {
+            "japanese": "はがきが二枚あります。",
+            "chinese": "有兩張明信片。"
+          },
+          {
+            "japanese": "店ではがきを買います。",
+            "chinese": "在店裡買明信片。"
+          },
+          {
+            "japanese": "このはがきを出します。",
+            "chinese": "寄出這張明信片。"
+          },
+          {
+            "japanese": "はがきを五枚買います。",
+            "chinese": "買五張明信片。"
+          },
+          {
+            "japanese": "このはがきは小さいです。",
+            "chinese": "這張明信片很小。"
+          },
+          {
+            "japanese": "はがきを一枚もらいます。",
+            "chinese": "拿一張明信片。"
+          }
+        ]
+      },
+      {
+        "japanese": "ふうとう",
+        "kanji": "封筒",
+        "chinese": "信封",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「紙」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "紙",
+              "zh": "紙",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "封筒を一枚買います。",
+            "chinese": "買一個信封。"
+          },
+          {
+            "japanese": "この封筒は白いです。",
+            "chinese": "這個信封是白色的。"
+          },
+          {
+            "japanese": "手紙を封筒に入れます。",
+            "chinese": "把信放進信封。"
+          },
+          {
+            "japanese": "封筒が三枚あります。",
+            "chinese": "有三個信封。"
+          },
+          {
+            "japanese": "田中さんは封筒を買います。",
+            "chinese": "田中先生買信封。"
+          },
+          {
+            "japanese": "郵便局で封筒を買います。",
+            "chinese": "在郵局買信封。"
+          },
+          {
+            "japanese": "封筒に切手を貼ります。",
+            "chinese": "在信封上貼郵票。"
+          },
+          {
+            "japanese": "この封筒は新しいです。",
+            "chinese": "這個信封是新的。"
+          },
+          {
+            "japanese": "母は封筒を買います。",
+            "chinese": "媽媽買信封。"
+          },
+          {
+            "japanese": "封筒が一枚だけあります。",
+            "chinese": "只有一個信封。"
+          },
+          {
+            "japanese": "兄は封筒を買います。",
+            "chinese": "哥哥買信封。"
+          },
+          {
+            "japanese": "封筒を十枚買います。",
+            "chinese": "買十個信封。"
+          },
+          {
+            "japanese": "この封筒は大きいです。",
+            "chinese": "這個信封很大。"
+          },
+          {
+            "japanese": "封筒に住所を書きます。",
+            "chinese": "在信封上寫地址。"
+          },
+          {
+            "japanese": "封筒が二枚あります。",
+            "chinese": "有兩個信封。"
+          },
+          {
+            "japanese": "店で封筒を買います。",
+            "chinese": "在店裡買信封。"
+          },
+          {
+            "japanese": "この封筒を出します。",
+            "chinese": "寄出這個信封。"
+          },
+          {
+            "japanese": "封筒を五枚買います。",
+            "chinese": "買五個信封。"
+          },
+          {
+            "japanese": "この封筒は小さいです。",
+            "chinese": "這個信封很小。"
+          },
+          {
+            "japanese": "封筒を一枚もらいます。",
+            "chinese": "拿一個信封。"
+          }
+        ]
+      },
+      {
+        "japanese": "そくたつ",
+        "kanji": "速達",
+        "chinese": "限時信",
+        "image": null,
+        "note": "「速達で送ります」＝以限時專送寄出。",
+        "kanji_note": {
+          "summary": "日語的「紙」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "届",
+              "zh": "屆",
+              "note": null
+            },
+            {
+              "jp": "紙",
+              "zh": "紙",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "頼",
+              "zh": "賴",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "communication_language_study"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "速達で手紙を送ります。",
+            "chinese": "用限時信寄信。"
+          },
+          {
+            "japanese": "この手紙は速達で送ります。",
+            "chinese": "這封信用限時信寄。"
+          },
+          {
+            "japanese": "郵便局で速達を出します。",
+            "chinese": "在郵局寄限時信。"
+          },
+          {
+            "japanese": "速達は便利です。",
+            "chinese": "限時信很方便。"
+          },
+          {
+            "japanese": "田中さんは速達で書類を送ります。",
+            "chinese": "田中先生用限時信寄文件。"
+          },
+          {
+            "japanese": "この書類は速達で送ります。",
+            "chinese": "這份文件用限時信寄。"
+          },
+          {
+            "japanese": "速達で出します。",
+            "chinese": "用限時信寄出。"
+          },
+          {
+            "japanese": "母は速達で手紙を送ります。",
+            "chinese": "媽媽用限時信寄信。"
+          },
+          {
+            "japanese": "速達は少し高いです。",
+            "chinese": "限時信有點貴。"
+          },
+          {
+            "japanese": "兄は速達で荷物を送ります。",
+            "chinese": "哥哥用限時信寄行李。"
+          },
+          {
+            "japanese": "この手紙は速達でお願いします。",
+            "chinese": "這封信請用限時信。"
+          },
+          {
+            "japanese": "速達で送ります。",
+            "chinese": "用限時信寄。"
+          },
+          {
+            "japanese": "速達で書類を送ります。",
+            "chinese": "用限時信寄文件。"
+          },
+          {
+            "japanese": "郵便局で速達を頼みます。",
+            "chinese": "在郵局寄限時信。"
+          },
+          {
+            "japanese": "この荷物は速達でお願いします。",
+            "chinese": "這個行李請用限時信。"
+          },
+          {
+            "japanese": "速達は高いです。",
+            "chinese": "限時信很貴。"
+          },
+          {
+            "japanese": "山田さんは速達で書類を送ります。",
+            "chinese": "山田先生用限時信寄文件。"
+          },
+          {
+            "japanese": "速達で手紙を出します。",
+            "chinese": "用限時信寄信。"
+          },
+          {
+            "japanese": "速達はすぐ届きます。",
+            "chinese": "限時信很快就到。"
+          },
+          {
+            "japanese": "この書類は速達で出します。",
+            "chinese": "這份文件用限時信寄。"
+          }
+        ]
+      },
+      {
+        "japanese": "かきとめ",
+        "kanji": "書留",
+        "chinese": "掛號信",
+        "image": null,
+        "note": "「書留で送ります」＝以掛號寄出。",
+        "kanji_note": {
+          "summary": "日語的「紙」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "紙",
+              "zh": "紙",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "頼",
+              "zh": "賴",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "communication_language_study"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "書留で手紙を送ります。",
+            "chinese": "用掛號信寄信。"
+          },
+          {
+            "japanese": "この手紙は書留で送ります。",
+            "chinese": "這封信用掛號信寄。"
+          },
+          {
+            "japanese": "郵便局で書留を出します。",
+            "chinese": "在郵局寄掛號信。"
+          },
+          {
+            "japanese": "書留は安心です。",
+            "chinese": "掛號信很安心。"
+          },
+          {
+            "japanese": "田中さんは書留で書類を送ります。",
+            "chinese": "田中先生用掛號信寄文件。"
+          },
+          {
+            "japanese": "この書類は書留で送ります。",
+            "chinese": "這份文件用掛號信寄。"
+          },
+          {
+            "japanese": "書留で出します。",
+            "chinese": "用掛號信寄出。"
+          },
+          {
+            "japanese": "母は書留で手紙を送ります。",
+            "chinese": "媽媽用掛號信寄信。"
+          },
+          {
+            "japanese": "書留は少し高いです。",
+            "chinese": "掛號信有點貴。"
+          },
+          {
+            "japanese": "兄は書留で荷物を送ります。",
+            "chinese": "哥哥用掛號信寄行李。"
+          },
+          {
+            "japanese": "この手紙は書留でお願いします。",
+            "chinese": "這封信請用掛號信。"
+          },
+          {
+            "japanese": "書留で送ります。",
+            "chinese": "用掛號信寄。"
+          },
+          {
+            "japanese": "書留は大切な手紙に便利です。",
+            "chinese": "掛號信對重要的信很方便。"
+          },
+          {
+            "japanese": "郵便局で書留を頼みます。",
+            "chinese": "在郵局寄掛號信。"
+          },
+          {
+            "japanese": "この荷物は書留でお願いします。",
+            "chinese": "這個行李請用掛號信。"
+          },
+          {
+            "japanese": "書留は高いです。",
+            "chinese": "掛號信很貴。"
+          },
+          {
+            "japanese": "山田さんは書留で書類を送ります。",
+            "chinese": "山田先生用掛號信寄文件。"
+          },
+          {
+            "japanese": "書留で手紙を出します。",
+            "chinese": "用掛號信寄信。"
+          },
+          {
+            "japanese": "書留で送ると安心です。",
+            "chinese": "用掛號信寄比較安心。"
+          },
+          {
+            "japanese": "この書類は書留で出します。",
+            "chinese": "這份文件用掛號信寄。"
+          }
+        ]
+      },
+      {
+        "japanese": "エアメール",
+        "kanji": null,
+        "chinese": "航空郵件，航空信",
+        "image": null,
+        "note": "也稱「航空便（こうくうびん）」。",
+        "kanji_note": {
+          "summary": "日語的「紙」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "国",
+              "zh": "國",
+              "note": null
+            },
+            {
+              "jp": "紙",
+              "zh": "紙",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "頼",
+              "zh": "賴",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "communication_language_study"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "エアメールで手紙を送ります。",
+            "chinese": "用航空信寄信。"
+          },
+          {
+            "japanese": "この手紙はエアメールで送ります。",
+            "chinese": "這封信用航空信寄。"
+          },
+          {
+            "japanese": "郵便局でエアメールを出します。",
+            "chinese": "在郵局寄航空信。"
+          },
+          {
+            "japanese": "エアメールは便利です。",
+            "chinese": "航空信很方便。"
+          },
+          {
+            "japanese": "田中さんはエアメールで書類を送ります。",
+            "chinese": "田中先生用航空信寄文件。"
+          },
+          {
+            "japanese": "この書類はエアメールで送ります。",
+            "chinese": "這份文件用航空信寄。"
+          },
+          {
+            "japanese": "エアメールで出します。",
+            "chinese": "用航空信寄出。"
+          },
+          {
+            "japanese": "母はエアメールで手紙を送ります。",
+            "chinese": "媽媽用航空信寄信。"
+          },
+          {
+            "japanese": "エアメールは少し高いです。",
+            "chinese": "航空信有點貴。"
+          },
+          {
+            "japanese": "兄はエアメールで荷物を送ります。",
+            "chinese": "哥哥用航空信寄行李。"
+          },
+          {
+            "japanese": "この手紙はエアメールでお願いします。",
+            "chinese": "這封信請用航空信。"
+          },
+          {
+            "japanese": "エアメールで送ります。",
+            "chinese": "用航空信寄。"
+          },
+          {
+            "japanese": "外国へエアメールで手紙を送ります。",
+            "chinese": "用航空信寄信到國外。"
+          },
+          {
+            "japanese": "郵便局でエアメールを頼みます。",
+            "chinese": "在郵局寄航空信。"
+          },
+          {
+            "japanese": "この荷物はエアメールでお願いします。",
+            "chinese": "這個行李請用航空信。"
+          },
+          {
+            "japanese": "エアメールは高いです。",
+            "chinese": "航空信很貴。"
+          },
+          {
+            "japanese": "山田さんはエアメールで書類を送ります。",
+            "chinese": "山田先生用航空信寄文件。"
+          },
+          {
+            "japanese": "エアメールで手紙を出します。",
+            "chinese": "用航空信寄信。"
+          },
+          {
+            "japanese": "エアメールで送ると便利です。",
+            "chinese": "用航空信寄很方便。"
+          },
+          {
+            "japanese": "この書類はエアメールで出します。",
+            "chinese": "這份文件用航空信寄。"
+          }
+        ]
+      },
+      {
+        "japanese": "ふなびん",
+        "kanji": "船便",
+        "chinese": "船運",
+        "image": null,
+        "note": "「船便で送ります」＝以船運寄出。",
+        "kanji_note": {
+          "summary": "日語的「国」、「頼」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "国",
+              "zh": "國",
+              "note": null
+            },
+            {
+              "jp": "頼",
+              "zh": "賴",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "communication_language_study"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "船便で荷物を送ります。",
+            "chinese": "用船運寄行李。"
+          },
+          {
+            "japanese": "この荷物は船便で送ります。",
+            "chinese": "這個行李用船運寄。"
+          },
+          {
+            "japanese": "郵便局で船便を出します。",
+            "chinese": "在郵局寄船運。"
+          },
+          {
+            "japanese": "船便は安いです。",
+            "chinese": "船運很便宜。"
+          },
+          {
+            "japanese": "田中さんは船便で荷物を送ります。",
+            "chinese": "田中先生用船運寄行李。"
+          },
+          {
+            "japanese": "この本は船便で送ります。",
+            "chinese": "這本書用船運寄。"
+          },
+          {
+            "japanese": "船便で出します。",
+            "chinese": "用船運寄出。"
+          },
+          {
+            "japanese": "母は船便で荷物を送ります。",
+            "chinese": "媽媽用船運寄行李。"
+          },
+          {
+            "japanese": "船便は時間がかかります。",
+            "chinese": "船運要花時間。"
+          },
+          {
+            "japanese": "兄は船便で本を送ります。",
+            "chinese": "哥哥用船運寄書。"
+          },
+          {
+            "japanese": "この荷物は船便でお願いします。",
+            "chinese": "這個行李請用船運。"
+          },
+          {
+            "japanese": "船便で送ります。",
+            "chinese": "用船運寄。"
+          },
+          {
+            "japanese": "外国へ船便で荷物を送ります。",
+            "chinese": "用船運寄行李到國外。"
+          },
+          {
+            "japanese": "郵便局で船便を頼みます。",
+            "chinese": "在郵局寄船運。"
+          },
+          {
+            "japanese": "この箱は船便で送ります。",
+            "chinese": "這個箱子用船運寄。"
+          },
+          {
+            "japanese": "船便は荷物にいいです。",
+            "chinese": "船運適合寄行李。"
+          },
+          {
+            "japanese": "山田さんは船便で本を送ります。",
+            "chinese": "山田先生用船運寄書。"
+          },
+          {
+            "japanese": "船便で荷物を出します。",
+            "chinese": "用船運寄行李。"
+          },
+          {
+            "japanese": "船便は便利です。",
+            "chinese": "船運很方便。"
+          },
+          {
+            "japanese": "この荷物は船便で出します。",
+            "chinese": "這個行李用船運寄。"
+          }
+        ]
+      },
+      {
+        "japanese": "りょうしん",
+        "kanji": "両親",
+        "chinese": "雙親",
+        "image": null,
+        "note": "指自己的父母。",
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「紙」、「話」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "両",
+              "zh": "兩",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "国",
+              "zh": "國",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "紙",
+              "zh": "紙",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "話",
+              "zh": "話",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "両親は京都にいます。",
+            "chinese": "雙親在京都。"
+          },
+          {
+            "japanese": "田中さんの両親は元気です。",
+            "chinese": "田中先生的雙親很有精神。"
+          },
+          {
+            "japanese": "両親と旅行します。",
+            "chinese": "和雙親一起旅行。"
+          },
+          {
+            "japanese": "両親は毎朝早く起きます。",
+            "chinese": "雙親每天早起。"
+          },
+          {
+            "japanese": "この写真は両親です。",
+            "chinese": "這張照片是雙親。"
+          },
+          {
+            "japanese": "山田さんの両親は親切です。",
+            "chinese": "山田先生的雙親很親切。"
+          },
+          {
+            "japanese": "両親に電話します。",
+            "chinese": "打電話給雙親。"
+          },
+          {
+            "japanese": "両親は家にいます。",
+            "chinese": "雙親在家。"
+          },
+          {
+            "japanese": "両親とご飯を食べます。",
+            "chinese": "和雙親一起吃飯。"
+          },
+          {
+            "japanese": "李さんの両親は中国にいます。",
+            "chinese": "李先生的雙親在中國。"
+          },
+          {
+            "japanese": "両親は働きます。",
+            "chinese": "雙親工作。"
+          },
+          {
+            "japanese": "この手紙は両親に書きます。",
+            "chinese": "這封信寫給雙親。"
+          },
+          {
+            "japanese": "両親と映画を見ます。",
+            "chinese": "和雙親一起看電影。"
+          },
+          {
+            "japanese": "木村さんの両親は大阪にいます。",
+            "chinese": "木村先生的雙親在大阪。"
+          },
+          {
+            "japanese": "両親は元気です。",
+            "chinese": "雙親很有精神。"
+          },
+          {
+            "japanese": "両親にプレゼントを買います。",
+            "chinese": "買禮物給雙親。"
+          },
+          {
+            "japanese": "鈴木さんの両親は店で働きます。",
+            "chinese": "鈴木先生的雙親在店裡工作。"
+          },
+          {
+            "japanese": "両親は今外国にいます。",
+            "chinese": "雙親現在在國外。"
+          },
+          {
+            "japanese": "両親と出かけます。",
+            "chinese": "和雙親一起出門。"
+          },
+          {
+            "japanese": "両親は週末に家にいます。",
+            "chinese": "雙親週末在家。"
+          }
+        ]
+      },
+      {
+        "japanese": "きょうだい",
+        "kanji": "兄弟",
+        "chinese": "兄弟姊妹",
+        "image": null,
+        "note": "「兄弟」泛指兄弟姐妹。",
+        "kanji_note": {
+          "summary": "日語的「話」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "話",
+              "zh": "話",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "兄弟が二人います。",
+            "chinese": "有兩個兄弟姊妹。"
+          },
+          {
+            "japanese": "田中さんは兄弟が三人います。",
+            "chinese": "田中先生有三個兄弟姊妹。"
+          },
+          {
+            "japanese": "兄弟は仲がいいです。",
+            "chinese": "兄弟姊妹感情很好。"
+          },
+          {
+            "japanese": "この写真は兄弟です。",
+            "chinese": "這張照片是兄弟姊妹。"
+          },
+          {
+            "japanese": "兄弟とご飯を食べます。",
+            "chinese": "和兄弟姊妹一起吃飯。"
+          },
+          {
+            "japanese": "山田さんは兄弟がいます。",
+            "chinese": "山田先生有兄弟姊妹。"
+          },
+          {
+            "japanese": "兄弟は東京にいます。",
+            "chinese": "兄弟姊妹在東京。"
+          },
+          {
+            "japanese": "兄弟と映画を見ます。",
+            "chinese": "和兄弟姊妹一起看電影。"
+          },
+          {
+            "japanese": "兄弟は親切です。",
+            "chinese": "兄弟姊妹很親切。"
+          },
+          {
+            "japanese": "李さんは兄弟が四人います。",
+            "chinese": "李先生有四個兄弟姊妹。"
+          },
+          {
+            "japanese": "兄弟に電話します。",
+            "chinese": "打電話給兄弟姊妹。"
+          },
+          {
+            "japanese": "兄弟は学校の先生です。",
+            "chinese": "兄弟姊妹是學校的老師。"
+          },
+          {
+            "japanese": "兄弟と旅行します。",
+            "chinese": "和兄弟姊妹一起旅行。"
+          },
+          {
+            "japanese": "木村さんは兄弟が二人います。",
+            "chinese": "木村先生有兩個兄弟姊妹。"
+          },
+          {
+            "japanese": "兄弟は今家にいます。",
+            "chinese": "兄弟姊妹現在在家。"
+          },
+          {
+            "japanese": "兄弟にプレゼントを買います。",
+            "chinese": "買禮物給兄弟姊妹。"
+          },
+          {
+            "japanese": "鈴木さんは兄弟が一人います。",
+            "chinese": "鈴木先生有一個兄弟姊妹。"
+          },
+          {
+            "japanese": "兄弟と歩きます。",
+            "chinese": "和兄弟姊妹一起走路。"
+          },
+          {
+            "japanese": "兄弟は元気です。",
+            "chinese": "兄弟姊妹很有精神。"
+          },
+          {
+            "japanese": "兄弟と公園へ行きます。",
+            "chinese": "和兄弟姊妹一起去公園。"
+          }
+        ]
+      },
+      {
+        "japanese": "あに",
+        "kanji": "兄",
+        "chinese": "（我）哥哥",
+        "image": null,
+        "note": "稱呼自己的哥哥時用「兄」；稱呼他人的哥哥用「お兄さん」。",
+        "kanji_note": {
+          "summary": "「弁」在繁體對應「辨／辯／瓣／弁」等，隨詞義而異，不宜一律寫成「瓣」。日語「働」為和製字（國字），中文無此字。日語的「話」、「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "弁",
+              "zh": "辨／辯／瓣／弁",
+              "note": "隨詞義而異，不宜一律寫成「瓣」。"
+            },
+            {
+              "jp": "当",
+              "zh": "當",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "話",
+              "zh": "話",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "遅",
+              "zh": "遲",
+              "note": null
+            },
+            {
+              "jp": "静",
+              "zh": "靜",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "兄は毎朝6時に起きます。",
+            "chinese": "哥哥每天早上6點起床。"
+          },
+          {
+            "japanese": "兄の会社は東京にあります。",
+            "chinese": "哥哥的公司位在東京。"
+          },
+          {
+            "japanese": "今日は兄の会議です。",
+            "chinese": "今天是哥哥的會議。"
+          },
+          {
+            "japanese": "兄は会社員です。",
+            "chinese": "哥哥是公司職員。"
+          },
+          {
+            "japanese": "兄の仕事は忙しいです。",
+            "chinese": "哥哥的工作很忙。"
+          },
+          {
+            "japanese": "兄は毎日電車で会社へ行きます。",
+            "chinese": "哥哥每天搭電車去公司。"
+          },
+          {
+            "japanese": "父は兄と話します。",
+            "chinese": "爸爸和哥哥說話。"
+          },
+          {
+            "japanese": "兄は朝から晩まで働きます。",
+            "chinese": "哥哥從早到晚工作。"
+          },
+          {
+            "japanese": "この書類は兄のです。",
+            "chinese": "這份文件是哥哥的。"
+          },
+          {
+            "japanese": "兄はネクタイをします。",
+            "chinese": "哥哥打領帶。"
+          },
+          {
+            "japanese": "兄の部屋は静かです。",
+            "chinese": "哥哥的房間很安靜。"
+          },
+          {
+            "japanese": "田中さんは兄の友達です。",
+            "chinese": "田中先生是哥哥的朋友。"
+          },
+          {
+            "japanese": "兄は今会社にいます。",
+            "chinese": "哥哥現在在公司。"
+          },
+          {
+            "japanese": "兄と映画を見ます。",
+            "chinese": "和哥哥一起看電影。"
+          },
+          {
+            "japanese": "兄は来週大阪へ行きます。",
+            "chinese": "哥哥下星期去大阪。"
+          },
+          {
+            "japanese": "兄の会社は9時から5時までです。",
+            "chinese": "哥哥的公司從9點到5點。"
+          },
+          {
+            "japanese": "兄は毎晩遅く帰ります。",
+            "chinese": "哥哥每天晚上很晚回家。"
+          },
+          {
+            "japanese": "母は兄に弁当を作ります。",
+            "chinese": "媽媽幫哥哥做便當。"
+          },
+          {
+            "japanese": "兄はよくコーヒーを飲みます。",
+            "chinese": "哥哥常常喝咖啡。"
+          },
+          {
+            "japanese": "兄は今週出張です。",
+            "chinese": "哥哥這星期出差。"
+          }
+        ]
+      },
+      {
+        "japanese": "おにいさん",
+        "kanji": "お兄さん",
+        "chinese": "（他人的）哥哥",
+        "image": null,
+        "note": "稱呼他人的哥哥；也用作對哥哥的禮貌稱呼。",
+        "kanji_note": {
+          "summary": "日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "寿",
+              "zh": "壽",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "焼",
+              "zh": "燒",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "田中さんのお兄さんは料理人です。",
+            "chinese": "田中先生的哥哥是廚師。"
+          },
+          {
+            "japanese": "お兄さんの店は駅の近くです。",
+            "chinese": "哥哥的店在車站附近。"
+          },
+          {
+            "japanese": "山田さんのお兄さんは親切です。",
+            "chinese": "山田先生的哥哥很親切。"
+          },
+          {
+            "japanese": "お兄さんは毎日お寿司を作ります。",
+            "chinese": "哥哥每天做壽司。"
+          },
+          {
+            "japanese": "お兄さんの料理はおいしいです。",
+            "chinese": "哥哥做的菜很好吃。"
+          },
+          {
+            "japanese": "王さんのお兄さんは野球が好きです。",
+            "chinese": "王先生的哥哥喜歡棒球。"
+          },
+          {
+            "japanese": "お兄さんは朝早く店に行きます。",
+            "chinese": "哥哥很早去店裡。"
+          },
+          {
+            "japanese": "この包丁はお兄さんのです。",
+            "chinese": "這把菜刀是哥哥的。"
+          },
+          {
+            "japanese": "お兄さんの車は白いです。",
+            "chinese": "哥哥的車是白色的。"
+          },
+          {
+            "japanese": "李さんのお兄さんは背が高いです。",
+            "chinese": "李先生的哥哥個子很高。"
+          },
+          {
+            "japanese": "お兄さんは日曜日に休みます。",
+            "chinese": "哥哥星期天休息。"
+          },
+          {
+            "japanese": "佐藤さんのお兄さんは料理が上手です。",
+            "chinese": "佐藤先生的哥哥很會做菜。"
+          },
+          {
+            "japanese": "お兄さんは毎晩魚を焼きます。",
+            "chinese": "哥哥每天晚上烤魚。"
+          },
+          {
+            "japanese": "木村さんのお兄さんは料理を教えます。",
+            "chinese": "木村先生的哥哥教做菜。"
+          },
+          {
+            "japanese": "お兄さんは魚を買います。",
+            "chinese": "哥哥買魚。"
+          },
+          {
+            "japanese": "今日はお兄さんの店は休みです。",
+            "chinese": "今天哥哥的店休息。"
+          },
+          {
+            "japanese": "お兄さんと野球を見ます。",
+            "chinese": "和哥哥一起看棒球。"
+          },
+          {
+            "japanese": "お兄さんの店は9時に開きます。",
+            "chinese": "哥哥的店9點開門。"
+          },
+          {
+            "japanese": "お客さんはお兄さんの料理を食べます。",
+            "chinese": "客人吃哥哥做的菜。"
+          },
+          {
+            "japanese": "あの写真はお兄さんです。",
+            "chinese": "那張照片是哥哥。"
+          }
+        ]
+      },
+      {
+        "japanese": "あね",
+        "kanji": "姉",
+        "chinese": "（我）姊姊",
+        "image": null,
+        "note": "稱呼自己的姊姊時用「姉」；稱呼他人的姊姊用「お姉さん」。",
+        "kanji_note": {
+          "summary": "日語的「話」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "話",
+              "zh": "話",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "静",
+              "zh": "靜",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "姉は主婦です。",
+            "chinese": "姊姊是家庭主婦。"
+          },
+          {
+            "japanese": "姉の夫は会社員です。",
+            "chinese": "姊姊的丈夫是公司職員。"
+          },
+          {
+            "japanese": "姉の家は大阪にあります。",
+            "chinese": "姊姊的家位在大阪。"
+          },
+          {
+            "japanese": "姉は毎日料理をします。",
+            "chinese": "姊姊每天做飯。"
+          },
+          {
+            "japanese": "姉の家は静かな町にあります。",
+            "chinese": "姊姊的家在安靜的小鎮上。"
+          },
+          {
+            "japanese": "姉は子どもが二人います。",
+            "chinese": "姊姊有兩個孩子。"
+          },
+          {
+            "japanese": "姉の子どもは女の子です。",
+            "chinese": "姊姊的孩子是女孩。"
+          },
+          {
+            "japanese": "姉は夫と買い物に行きます。",
+            "chinese": "姊姊和丈夫去買東西。"
+          },
+          {
+            "japanese": "姉の夫は親切です。",
+            "chinese": "姊姊的丈夫很親切。"
+          },
+          {
+            "japanese": "姉は庭で花を育てます。",
+            "chinese": "姊姊在院子裡種花。"
+          },
+          {
+            "japanese": "姉のマンションは駅の近くです。",
+            "chinese": "姊姊的公寓在車站附近。"
+          },
+          {
+            "japanese": "姉は近所の人と仲がいいです。",
+            "chinese": "姊姊和鄰居相處得很好。"
+          },
+          {
+            "japanese": "姉は朝早く起きます。",
+            "chinese": "姊姊很早起床。"
+          },
+          {
+            "japanese": "姉の家に遊びに行きます。",
+            "chinese": "去姊姊家玩。"
+          },
+          {
+            "japanese": "姉は夫の家族と住んでいます。",
+            "chinese": "姊姊和丈夫的家人住在一起。"
+          },
+          {
+            "japanese": "姉の料理はおいしいです。",
+            "chinese": "姊姊做的菜很好吃。"
+          },
+          {
+            "japanese": "姉は毎晩夫と話します。",
+            "chinese": "姊姊每天晚上和丈夫聊天。"
+          },
+          {
+            "japanese": "この写真は姉の結婚式です。",
+            "chinese": "這張照片是姊姊的婚禮。"
+          },
+          {
+            "japanese": "姉は来月引っ越します。",
+            "chinese": "姊姊下個月搬家。"
+          },
+          {
+            "japanese": "姉の家は東京から一時間です。",
+            "chinese": "姊姊的家離東京一小時。"
+          }
+        ]
+      },
+      {
+        "japanese": "おねえさん",
+        "kanji": "お姉さん",
+        "chinese": "（他人的）姊姊",
+        "image": null,
+        "note": "稱呼他人的姊姊；也用作對姊姊的禮貌稱呼。",
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "静",
+              "zh": "靜",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "田中さんのお姉さんは優しいです。",
+            "chinese": "田中先生的姊姊很溫柔。"
+          },
+          {
+            "japanese": "お姉さんの仕事は看護師です。",
+            "chinese": "姊姊的工作是護士。"
+          },
+          {
+            "japanese": "山田さんのお姉さんは看護師です。",
+            "chinese": "山田先生的姊姊是護士。"
+          },
+          {
+            "japanese": "お姉さんは病院で働きます。",
+            "chinese": "姊姊在醫院工作。"
+          },
+          {
+            "japanese": "この写真はお姉さんです。",
+            "chinese": "這張照片是姊姊。"
+          },
+          {
+            "japanese": "お姉さんの家は京都にあります。",
+            "chinese": "姊姊的家位在京都。"
+          },
+          {
+            "japanese": "王さんのお姉さんは京都にいます。",
+            "chinese": "王先生的姊姊在京都。"
+          },
+          {
+            "japanese": "お姉さんは毎朝早く起きます。",
+            "chinese": "姊姊每天早上很早起床。"
+          },
+          {
+            "japanese": "李さんのお姉さんは料理が上手です。",
+            "chinese": "李先生的姊姊很會做菜。"
+          },
+          {
+            "japanese": "お姉さんの車は小さいです。",
+            "chinese": "姊姊的車很小。"
+          },
+          {
+            "japanese": "佐藤さんのお姉さんは静かです。",
+            "chinese": "佐藤先生的姊姊很安靜。"
+          },
+          {
+            "japanese": "お姉さんは患者さんに親切です。",
+            "chinese": "姊姊對病人很親切。"
+          },
+          {
+            "japanese": "木村さんのお姉さんは子どもが二人います。",
+            "chinese": "木村先生的姊姊有兩個孩子。"
+          },
+          {
+            "japanese": "お姉さんの夫は教師です。",
+            "chinese": "姊姊的丈夫是老師。"
+          },
+          {
+            "japanese": "今日はお姉さんの休みです。",
+            "chinese": "今天是姊姊的休假日。"
+          },
+          {
+            "japanese": "お姉さんは夜勤があります。",
+            "chinese": "姊姊要上夜班。"
+          },
+          {
+            "japanese": "この白い服はお姉さんのです。",
+            "chinese": "這件白衣服是姊姊的。"
+          },
+          {
+            "japanese": "お姉さんとお茶を飲みます。",
+            "chinese": "和姊姊一起喝茶。"
+          },
+          {
+            "japanese": "あの病院はお姉さんの職場です。",
+            "chinese": "那家醫院是姊姊的工作地點。"
+          },
+          {
+            "japanese": "お姉さんは来月旅行します。",
+            "chinese": "姊姊下個月去旅行。"
+          }
+        ]
+      },
+      {
+        "japanese": "おとうと",
+        "kanji": "弟",
+        "chinese": "（我）弟弟",
+        "image": null,
+        "note": "稱呼自己的弟弟時用「弟」；稱呼他人的弟弟用「弟さん」。",
+        "kanji_note": {
+          "summary": "日語的「曜」、「難」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "体",
+              "zh": "體",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "転",
+              "zh": "轉",
+              "note": null
+            },
+            {
+              "jp": "難",
+              "zh": "難",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "弟は高校生です。",
+            "chinese": "弟弟是高中生。"
+          },
+          {
+            "japanese": "弟の学校は家の近くです。",
+            "chinese": "弟弟的學校離家很近。"
+          },
+          {
+            "japanese": "弟は毎日サッカーをします。",
+            "chinese": "弟弟每天踢足球。"
+          },
+          {
+            "japanese": "弟の部活は野球です。",
+            "chinese": "弟弟的社團是棒球。"
+          },
+          {
+            "japanese": "弟は朝6時に起きます。",
+            "chinese": "弟弟早上6點起床。"
+          },
+          {
+            "japanese": "弟の友達はたくさんいます。",
+            "chinese": "弟弟有很多朋友。"
+          },
+          {
+            "japanese": "弟は放課後グラウンドで走ります。",
+            "chinese": "弟弟放學後在操場跑步。"
+          },
+          {
+            "japanese": "弟は毎晩宿題をします。",
+            "chinese": "弟弟每天晚上做功課。"
+          },
+          {
+            "japanese": "弟の試合は日曜日です。",
+            "chinese": "弟弟的比賽在星期天。"
+          },
+          {
+            "japanese": "弟はサッカーの練習をします。",
+            "chinese": "弟弟練習足球。"
+          },
+          {
+            "japanese": "弟の背は高いです。",
+            "chinese": "弟弟的個子很高。"
+          },
+          {
+            "japanese": "弟は学校まで自転車で行きます。",
+            "chinese": "弟弟騎自行車去學校。"
+          },
+          {
+            "japanese": "弟と公園で遊びます。",
+            "chinese": "和弟弟在公園玩。"
+          },
+          {
+            "japanese": "弟は体育の時間が好きです。",
+            "chinese": "弟弟喜歡體育課。"
+          },
+          {
+            "japanese": "弟のユニフォームは青いです。",
+            "chinese": "弟弟的隊服是藍色的。"
+          },
+          {
+            "japanese": "弟は毎日シャワーを浴びます。",
+            "chinese": "弟弟每天淋浴。"
+          },
+          {
+            "japanese": "弟の先生は親切です。",
+            "chinese": "弟弟的老師很親切。"
+          },
+          {
+            "japanese": "弟は来月遠足です。",
+            "chinese": "弟弟下個月去遠足。"
+          },
+          {
+            "japanese": "弟は夏に海で泳ぎます。",
+            "chinese": "弟弟夏天在海裡游泳。"
+          },
+          {
+            "japanese": "弟の宿題は難しいです。",
+            "chinese": "弟弟的功課很難。"
+          }
+        ]
+      },
+      {
+        "japanese": "おとうとさん",
+        "kanji": "弟さん",
+        "chinese": "（他人的）弟弟",
+        "image": null,
+        "note": "稱呼他人的弟弟。",
+        "kanji_note": {
+          "summary": "日語的「話」、「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "話",
+              "zh": "話",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "辞",
+              "zh": "辭",
+              "note": null
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "木村さんの弟さんは大学生です。",
+            "chinese": "木村先生的弟弟是大學生。"
+          },
+          {
+            "japanese": "弟さんの大学は東京にあります。",
+            "chinese": "弟弟的大學位在東京。"
+          },
+          {
+            "japanese": "山田さんの弟さんは背が高いです。",
+            "chinese": "山田先生的弟弟個子很高。"
+          },
+          {
+            "japanese": "弟さんは毎日英語を勉強します。",
+            "chinese": "弟弟每天學英語。"
+          },
+          {
+            "japanese": "この辞書は弟さんのです。",
+            "chinese": "這本辭典是弟弟的。"
+          },
+          {
+            "japanese": "弟さんの部活はバスケットボールです。",
+            "chinese": "弟弟的社團是籃球。"
+          },
+          {
+            "japanese": "王さんの弟さんは英語が上手です。",
+            "chinese": "王先生的弟弟英語很好。"
+          },
+          {
+            "japanese": "弟さんは朝ジョギングをします。",
+            "chinese": "弟弟早上慢跑。"
+          },
+          {
+            "japanese": "李さんの弟さんはバスケットボールが好きです。",
+            "chinese": "李先生的弟弟喜歡籃球。"
+          },
+          {
+            "japanese": "弟さんの部屋は本でいっぱいです。",
+            "chinese": "弟弟的房間滿是書。"
+          },
+          {
+            "japanese": "佐藤さんの弟さんは元気です。",
+            "chinese": "佐藤先生的弟弟很有精神。"
+          },
+          {
+            "japanese": "弟さんは放課後図書館で勉強します。",
+            "chinese": "弟弟放學後在圖書館念書。"
+          },
+          {
+            "japanese": "田中さんの弟さんは大学の寮に住んでいます。",
+            "chinese": "田中先生的弟弟住在大學宿舍。"
+          },
+          {
+            "japanese": "弟さんの友達は留学生です。",
+            "chinese": "弟弟的朋友是留學生。"
+          },
+          {
+            "japanese": "今日は弟さんの試合です。",
+            "chinese": "今天是弟弟的比賽。"
+          },
+          {
+            "japanese": "弟さんは毎週試合をします。",
+            "chinese": "弟弟每星期比賽。"
+          },
+          {
+            "japanese": "このボールは弟さんのです。",
+            "chinese": "這顆球是弟弟的。"
+          },
+          {
+            "japanese": "弟さんと英語で話します。",
+            "chinese": "和弟弟用英語聊天。"
+          },
+          {
+            "japanese": "あの大学生は弟さんの友達です。",
+            "chinese": "那位大學生是弟弟的朋友。"
+          },
+          {
+            "japanese": "弟さんは来年留学します。",
+            "chinese": "弟弟明年去留學。"
+          }
+        ]
+      },
+      {
+        "japanese": "いもうと",
+        "kanji": "妹",
+        "chinese": "（我）妹妹",
+        "image": null,
+        "note": "稱呼自己的妹妹時用「妹」；稱呼他人的妹妹用「妹さん」。",
+        "kanji_note": {
+          "summary": "日語的「会」、「声」、「学」、「弾」、「晩」、「来」、「楽」、「毎」、「発」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "声",
+              "zh": "聲",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "弾",
+              "zh": "彈",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "楽",
+              "zh": "樂",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "発",
+              "zh": "發",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "妹は小学生です。",
+            "chinese": "妹妹是小學生。"
+          },
+          {
+            "japanese": "妹の学校は駅のそばです。",
+            "chinese": "妹妹的學校在車站旁邊。"
+          },
+          {
+            "japanese": "妹は毎日歌を歌います。",
+            "chinese": "妹妹每天唱歌。"
+          },
+          {
+            "japanese": "妹の声はきれいです。",
+            "chinese": "妹妹的聲音很好聽。"
+          },
+          {
+            "japanese": "妹は合唱部に入ります。",
+            "chinese": "妹妹加入合唱團。"
+          },
+          {
+            "japanese": "妹のピアノは上手です。",
+            "chinese": "妹妹鋼琴彈得很好。"
+          },
+          {
+            "japanese": "妹は音楽の時間が好きです。",
+            "chinese": "妹妹喜歡音樂課。"
+          },
+          {
+            "japanese": "妹の発表会は来週です。",
+            "chinese": "妹妹的發表會在下星期。"
+          },
+          {
+            "japanese": "妹は毎晩ピアノを弾きます。",
+            "chinese": "妹妹每天晚上彈鋼琴。"
+          },
+          {
+            "japanese": "妹と一緒に歌を歌います。",
+            "chinese": "和妹妹一起唱歌。"
+          },
+          {
+            "japanese": "妹の歌は上手です。",
+            "chinese": "妹妹歌唱得很好。"
+          },
+          {
+            "japanese": "妹は学校で歌の練習をします。",
+            "chinese": "妹妹在學校練習唱歌。"
+          },
+          {
+            "japanese": "妹の先生は音楽の先生です。",
+            "chinese": "妹妹的老師是音樂老師。"
+          },
+          {
+            "japanese": "妹は朝から歌を歌います。",
+            "chinese": "妹妹從早上就唱歌。"
+          },
+          {
+            "japanese": "妹の友達も歌が好きです。",
+            "chinese": "妹妹的朋友也喜歡唱歌。"
+          },
+          {
+            "japanese": "妹は発表会でソロを歌います。",
+            "chinese": "妹妹在發表會上獨唱。"
+          },
+          {
+            "japanese": "妹の夢は歌手です。",
+            "chinese": "妹妹的夢想是當歌手。"
+          },
+          {
+            "japanese": "妹は毎日ピアノの練習をします。",
+            "chinese": "妹妹每天練習鋼琴。"
+          },
+          {
+            "japanese": "妹の歌を聞きます。",
+            "chinese": "聽妹妹唱歌。"
+          },
+          {
+            "japanese": "妹は今音楽室にいます。",
+            "chinese": "妹妹現在在音樂教室。"
+          }
+        ]
+      },
+      {
+        "japanese": "いもうとさん",
+        "kanji": "妹さん",
+        "chinese": "（他人的）妹妹",
+        "image": null,
+        "note": "稱呼他人的妹妹。",
+        "kanji_note": {
+          "summary": "日語的「会」、「写」、「学」、「来」、「歩」、「毎」、「絵」、「覧」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "絵",
+              "zh": "繪",
+              "note": null
+            },
+            {
+              "jp": "覧",
+              "zh": "覽",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "鈴木さんの妹さんは中学生です。",
+            "chinese": "鈴木先生的妹妹是國中生。"
+          },
+          {
+            "japanese": "妹さんの学校は家の近くです。",
+            "chinese": "妹妹的學校離家很近。"
+          },
+          {
+            "japanese": "山田さんの妹さんは絵が上手です。",
+            "chinese": "山田先生的妹妹很會畫畫。"
+          },
+          {
+            "japanese": "妹さんは毎日絵を描きます。",
+            "chinese": "妹妹每天畫畫。"
+          },
+          {
+            "japanese": "この絵は妹さんのです。",
+            "chinese": "這幅畫是妹妹的。"
+          },
+          {
+            "japanese": "妹さんの絵は上手です。",
+            "chinese": "妹妹的畫畫得很好。"
+          },
+          {
+            "japanese": "王さんの妹さんは猫を飼います。",
+            "chinese": "王先生的妹妹養貓。"
+          },
+          {
+            "japanese": "妹さんは猫が好きです。",
+            "chinese": "妹妹喜歡貓。"
+          },
+          {
+            "japanese": "李さんの妹さんは明るいです。",
+            "chinese": "李先生的妹妹很開朗。"
+          },
+          {
+            "japanese": "妹さんの部屋は明るいです。",
+            "chinese": "妹妹的房間很明亮。"
+          },
+          {
+            "japanese": "佐藤さんの妹さんは動物が好きです。",
+            "chinese": "佐藤先生的妹妹喜歡動物。"
+          },
+          {
+            "japanese": "妹さんは学校で美術を勉強します。",
+            "chinese": "妹妹在學校學美術。"
+          },
+          {
+            "japanese": "木村さんの妹さんは絵の教室に行きます。",
+            "chinese": "木村先生的妹妹去繪畫教室。"
+          },
+          {
+            "japanese": "妹さんの友達も絵が好きです。",
+            "chinese": "妹妹的朋友也喜歡畫畫。"
+          },
+          {
+            "japanese": "今日は妹さんの誕生日です。",
+            "chinese": "今天是妹妹的生日。"
+          },
+          {
+            "japanese": "妹さんは犬と散歩します。",
+            "chinese": "妹妹和狗散步。"
+          },
+          {
+            "japanese": "この写真は妹さんの絵です。",
+            "chinese": "這張照片是妹妹的畫。"
+          },
+          {
+            "japanese": "妹さんと絵を描きます。",
+            "chinese": "和妹妹一起畫畫。"
+          },
+          {
+            "japanese": "あの犬は妹さんの犬です。",
+            "chinese": "那隻狗是妹妹的狗。"
+          },
+          {
+            "japanese": "妹さんは来月展覧会です。",
+            "chinese": "妹妹下個月有展覽會。"
+          }
+        ]
+      },
+      {
+        "japanese": "がいこく",
+        "kanji": "外国",
+        "chinese": "外國",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「紙」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "国",
+              "zh": "國",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "紙",
+              "zh": "紙",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "外国へ旅行します。",
+            "chinese": "去國外旅行。"
+          },
+          {
+            "japanese": "田中さんは外国で働きます。",
+            "chinese": "田中先生在國外工作。"
+          },
+          {
+            "japanese": "外国の料理を食べます。",
+            "chinese": "吃外國料理。"
+          },
+          {
+            "japanese": "この店は外国の物があります。",
+            "chinese": "這家店有外國的東西。"
+          },
+          {
+            "japanese": "兄は外国にいます。",
+            "chinese": "哥哥在國外。"
+          },
+          {
+            "japanese": "外国の映画を見ます。",
+            "chinese": "看外國電影。"
+          },
+          {
+            "japanese": "外国から手紙が来ます。",
+            "chinese": "從國外寄來信。"
+          },
+          {
+            "japanese": "母は外国へ行きます。",
+            "chinese": "媽媽去國外。"
+          },
+          {
+            "japanese": "外国の友達がいます。",
+            "chinese": "有外國朋友。"
+          },
+          {
+            "japanese": "山田さんは外国へ行きます。",
+            "chinese": "山田先生去國外。"
+          },
+          {
+            "japanese": "外国の歌を聞きます。",
+            "chinese": "聽外國歌曲。"
+          },
+          {
+            "japanese": "外国で日本語を勉強します。",
+            "chinese": "在國外唸日文。"
+          },
+          {
+            "japanese": "この本は外国の本です。",
+            "chinese": "這本書是外國的書。"
+          },
+          {
+            "japanese": "李さんは外国から来ます。",
+            "chinese": "李先生從國外來。"
+          },
+          {
+            "japanese": "外国の写真を見ます。",
+            "chinese": "看外國的照片。"
+          },
+          {
+            "japanese": "父は外国で働きます。",
+            "chinese": "爸爸在國外工作。"
+          },
+          {
+            "japanese": "外国へ行く時間がかかります。",
+            "chinese": "去國外要花時間。"
+          },
+          {
+            "japanese": "外国の言葉を勉強します。",
+            "chinese": "學外國語言。"
+          },
+          {
+            "japanese": "妹は外国に留学します。",
+            "chinese": "妹妹去國外留學。"
+          },
+          {
+            "japanese": "外国のニュースを聞きます。",
+            "chinese": "聽外國新聞。"
+          }
+        ]
+      },
+      {
+        "japanese": "…じかん",
+        "kanji": "…時間",
+        "chinese": "…小時",
+        "image": null,
+        "note": "計算小時數時使用。",
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "寝",
+              "zh": "寢",
+              "note": null
+            },
+            {
+              "jp": "昼",
+              "zh": "晝",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            },
+            {
+              "jp": "転",
+              "zh": "轉",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "毎日二時間勉強します。",
+            "chinese": "每天唸書兩小時。"
+          },
+          {
+            "japanese": "この仕事は三時間かかります。",
+            "chinese": "這項工作要花三小時。"
+          },
+          {
+            "japanese": "映画は二時間です。",
+            "chinese": "電影是兩小時。"
+          },
+          {
+            "japanese": "毎晩八時間寝ます。",
+            "chinese": "每晚睡八小時。"
+          },
+          {
+            "japanese": "一時間歩きます。",
+            "chinese": "走一小時。"
+          },
+          {
+            "japanese": "テレビを一時間見ます。",
+            "chinese": "看一小時電視。"
+          },
+          {
+            "japanese": "この本を三時間読みます。",
+            "chinese": "這本書讀三小時。"
+          },
+          {
+            "japanese": "田中さんは毎日一時間運転します。",
+            "chinese": "田中先生每天開車一小時。"
+          },
+          {
+            "japanese": "日本語を二時間勉強します。",
+            "chinese": "唸日文兩小時。"
+          },
+          {
+            "japanese": "会議は一時間です。",
+            "chinese": "會議是一小時。"
+          },
+          {
+            "japanese": "朝に一時間歩きます。",
+            "chinese": "早上走一小時。"
+          },
+          {
+            "japanese": "東京から大阪まで四時間かかります。",
+            "chinese": "從東京到大阪要花四小時。"
+          },
+          {
+            "japanese": "ゲームを一時間します。",
+            "chinese": "玩遊戲一小時。"
+          },
+          {
+            "japanese": "この映画は三時間です。",
+            "chinese": "這部電影是三小時。"
+          },
+          {
+            "japanese": "毎日五時間働きます。",
+            "chinese": "每天工作五小時。"
+          },
+          {
+            "japanese": "電車で二時間かかります。",
+            "chinese": "搭電車要花兩小時。"
+          },
+          {
+            "japanese": "一時間だけ勉強します。",
+            "chinese": "只唸書一小時。"
+          },
+          {
+            "japanese": "昼休みは一時間です。",
+            "chinese": "午休是一小時。"
+          },
+          {
+            "japanese": "飛行機で十時間かかります。",
+            "chinese": "搭飛機要花十小時。"
+          },
+          {
+            "japanese": "この料理は一時間かかります。",
+            "chinese": "這道料理要花一小時。"
+          }
+        ]
+      },
+      {
+        "japanese": "…しゅうかん",
+        "kanji": "…週間",
+        "chinese": "…星期",
+        "image": null,
+        "note": "計算星期數時使用。",
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「終」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "国",
+              "zh": "國",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "終",
+              "zh": "終",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "一週間旅行します。",
+            "chinese": "旅行一星期。"
+          },
+          {
+            "japanese": "この仕事は二週間かかります。",
+            "chinese": "這項工作要花兩星期。"
+          },
+          {
+            "japanese": "日本に三週間います。",
+            "chinese": "在日本三個星期。"
+          },
+          {
+            "japanese": "夏休みは四週間です。",
+            "chinese": "暑假是四星期。"
+          },
+          {
+            "japanese": "一週間休みます。",
+            "chinese": "休息一星期。"
+          },
+          {
+            "japanese": "京都に二週間います。",
+            "chinese": "在京都兩星期。"
+          },
+          {
+            "japanese": "この本を一週間で読みます。",
+            "chinese": "這本書在一星期內讀完。"
+          },
+          {
+            "japanese": "北海道へ一週間行きます。",
+            "chinese": "去北海道一星期。"
+          },
+          {
+            "japanese": "仕事で二週間外国へ行きます。",
+            "chinese": "因工作去國外兩星期。"
+          },
+          {
+            "japanese": "一週間だけ勉強します。",
+            "chinese": "只唸書一星期。"
+          },
+          {
+            "japanese": "田中さんは二週間会社を休みます。",
+            "chinese": "田中先生向公司請假兩星期。"
+          },
+          {
+            "japanese": "この仕事は一週間で終わります。",
+            "chinese": "這項工作一星期結束。"
+          },
+          {
+            "japanese": "三週間働きます。",
+            "chinese": "工作三星期。"
+          },
+          {
+            "japanese": "このクラスは八週間です。",
+            "chinese": "這門課是八星期。"
+          },
+          {
+            "japanese": "大阪に四週間います。",
+            "chinese": "在大阪四星期。"
+          },
+          {
+            "japanese": "一週間に一回映画を見ます。",
+            "chinese": "一星期看一次電影。"
+          },
+          {
+            "japanese": "この宿題は一週間かかります。",
+            "chinese": "這份作業要花一星期。"
+          },
+          {
+            "japanese": "二週間だけ日本にいます。",
+            "chinese": "只在日本兩個星期。"
+          },
+          {
+            "japanese": "姉は一週間旅行します。",
+            "chinese": "姊姊旅行一星期。"
+          },
+          {
+            "japanese": "この仕事は十週間かかります。",
+            "chinese": "這項工作要花十星期。"
+          }
+        ]
+      },
+      {
+        "japanese": "…かげつ",
+        "kanji": "…か月",
+        "chinese": "…個月",
+        "image": null,
+        "note": "計算月數時使用。",
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「終」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "国",
+              "zh": "國",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "終",
+              "zh": "終",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "一か月旅行します。",
+            "chinese": "旅行一個月。"
+          },
+          {
+            "japanese": "この仕事は二か月かかります。",
+            "chinese": "這項工作要花兩個月。"
+          },
+          {
+            "japanese": "日本に三か月います。",
+            "chinese": "在日本三個月。"
+          },
+          {
+            "japanese": "夏休みは一か月です。",
+            "chinese": "暑假是一個月。"
+          },
+          {
+            "japanese": "二か月休みます。",
+            "chinese": "休息兩個月。"
+          },
+          {
+            "japanese": "京都に一か月います。",
+            "chinese": "在京都一個月。"
+          },
+          {
+            "japanese": "この授業は六か月です。",
+            "chinese": "這門課是六個月。"
+          },
+          {
+            "japanese": "北海道へ一か月行きます。",
+            "chinese": "去北海道一個月。"
+          },
+          {
+            "japanese": "仕事で二か月外国へ行きます。",
+            "chinese": "因工作去國外兩個月。"
+          },
+          {
+            "japanese": "一か月だけ勉強します。",
+            "chinese": "只唸書一個月。"
+          },
+          {
+            "japanese": "田中さんは一か月会社を休みます。",
+            "chinese": "田中先生向公司請假一個月。"
+          },
+          {
+            "japanese": "この仕事は三か月で終わります。",
+            "chinese": "這項工作三個月結束。"
+          },
+          {
+            "japanese": "十か月働きます。",
+            "chinese": "工作十個月。"
+          },
+          {
+            "japanese": "このクラスは十二か月です。",
+            "chinese": "這門課是十二個月。"
+          },
+          {
+            "japanese": "大阪に二か月います。",
+            "chinese": "在大阪兩個月。"
+          },
+          {
+            "japanese": "一か月に一回映画を見ます。",
+            "chinese": "一個月看一次電影。"
+          },
+          {
+            "japanese": "この宿題は一か月かかります。",
+            "chinese": "這份作業要花一個月。"
+          },
+          {
+            "japanese": "二か月だけ日本にいます。",
+            "chinese": "只在日本兩個月。"
+          },
+          {
+            "japanese": "姉は三か月旅行します。",
+            "chinese": "姊姊旅行三個月。"
+          },
+          {
+            "japanese": "この仕事は六か月かかります。",
+            "chinese": "這項工作要花六個月。"
+          }
+        ]
+      },
+      {
+        "japanese": "…ねん",
+        "kanji": "…年",
+        "chinese": "…年",
+        "image": null,
+        "note": "計算年數時使用。",
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「終」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "国",
+              "zh": "國",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "終",
+              "zh": "終",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "日本に三年います。",
+            "chinese": "在日本三年。"
+          },
+          {
+            "japanese": "この仕事は五年かかります。",
+            "chinese": "這項工作要花五年。"
+          },
+          {
+            "japanese": "日本語を二年勉強します。",
+            "chinese": "唸日文兩年。"
+          },
+          {
+            "japanese": "一年旅行します。",
+            "chinese": "旅行一年。"
+          },
+          {
+            "japanese": "田中さんは十年働きます。",
+            "chinese": "田中先生工作十年。"
+          },
+          {
+            "japanese": "この学校に三年います。",
+            "chinese": "在這間學校三年。"
+          },
+          {
+            "japanese": "一年だけ日本にいます。",
+            "chinese": "只在日本一年。"
+          },
+          {
+            "japanese": "京都に二年います。",
+            "chinese": "在京都兩年。"
+          },
+          {
+            "japanese": "この会社で五年働きます。",
+            "chinese": "在這家公司工作五年。"
+          },
+          {
+            "japanese": "日本に一年います。",
+            "chinese": "在日本一年。"
+          },
+          {
+            "japanese": "兄は外国に三年います。",
+            "chinese": "哥哥在國外三年。"
+          },
+          {
+            "japanese": "この仕事は二年で終わります。",
+            "chinese": "這項工作兩年結束。"
+          },
+          {
+            "japanese": "一年に一回旅行します。",
+            "chinese": "一年旅行一次。"
+          },
+          {
+            "japanese": "このクラスは二年です。",
+            "chinese": "這門課是兩年。"
+          },
+          {
+            "japanese": "大阪に五年います。",
+            "chinese": "在大阪五年。"
+          },
+          {
+            "japanese": "一年だけ勉強します。",
+            "chinese": "只唸書一年。"
+          },
+          {
+            "japanese": "この会社は創業二十年です。",
+            "chinese": "這家公司創業二十年。"
+          },
+          {
+            "japanese": "三年働きます。",
+            "chinese": "工作三年。"
+          },
+          {
+            "japanese": "姉は日本に五年います。",
+            "chinese": "姊姊在日本五年。"
+          },
+          {
+            "japanese": "この仕事は十年かかります。",
+            "chinese": "這項工作要花十年。"
+          }
+        ]
+      },
+      {
+        "japanese": "～ぐらい",
+        "kanji": null,
+        "chinese": "～左右",
+        "image": null,
+        "note": "接在數量後，表示大約的數量。",
+        "kanji_note": {
+          "summary": "日語的「会」、「円」、「来」、「歩」、「画」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "円",
+              "zh": "圓",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "grammar_pattern"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "駅まで三十分ぐらいかかります。",
+            "chinese": "到車站大約要三十分鐘。"
+          },
+          {
+            "japanese": "この仕事は一時間ぐらいかかります。",
+            "chinese": "這項工作大約要花一小時。"
+          },
+          {
+            "japanese": "パーティーに十人ぐらい来ます。",
+            "chinese": "派對上大約有十個人要來。"
+          },
+          {
+            "japanese": "りんごを二つぐらい買います。",
+            "chinese": "大約買兩個蘋果。"
+          },
+          {
+            "japanese": "この映画は二時間ぐらいです。",
+            "chinese": "這部電影大約兩小時。"
+          },
+          {
+            "japanese": "東京から大阪まで三時間ぐらいかかります。",
+            "chinese": "從東京到大阪大約要花三小時。"
+          },
+          {
+            "japanese": "会議は一時間ぐらいです。",
+            "chinese": "會議大約一小時。"
+          },
+          {
+            "japanese": "京都に一週間ぐらいいます。",
+            "chinese": "在京都大約一星期。"
+          },
+          {
+            "japanese": "この本は五百円ぐらいです。",
+            "chinese": "這本書大約五百日圓。"
+          },
+          {
+            "japanese": "駅までの徒歩は十分ぐらいです。",
+            "chinese": "走到車站大約十分鐘。"
+          },
+          {
+            "japanese": "田中さんは十時ぐらいに来ます。",
+            "chinese": "田中先生大約十點來。"
+          },
+          {
+            "japanese": "この料理は三十分ぐらいかかります。",
+            "chinese": "這道料理大約要花三十分鐘。"
+          },
+          {
+            "japanese": "友達が五人ぐらい来ます。",
+            "chinese": "大約有五個朋友要來。"
+          },
+          {
+            "japanese": "この店は九時ぐらいに開きます。",
+            "chinese": "這家店大約九點開。"
+          },
+          {
+            "japanese": "家から会社まで一時間ぐらいかかります。",
+            "chinese": "從家到公司大約要花一小時。"
+          },
+          {
+            "japanese": "みかんを三つぐらい食べます。",
+            "chinese": "大約吃三個橘子。"
+          },
+          {
+            "japanese": "この仕事は三日ぐらいかかります。",
+            "chinese": "這項工作大約要花三天。"
+          },
+          {
+            "japanese": "駅に十時ぐらいに行きます。",
+            "chinese": "大約十點去車站。"
+          },
+          {
+            "japanese": "この宿題は二時間ぐらいかかります。",
+            "chinese": "這份作業大約要花兩小時。"
+          },
+          {
+            "japanese": "日本に一年ぐらいいます。",
+            "chinese": "在日本大約一年。"
+          }
+        ]
+      },
+      {
+        "japanese": "どのぐらい",
+        "kanji": null,
+        "chinese": "多久",
+        "image": null,
+        "note": "詢問時間長短或數量。",
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「線」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "国",
+              "zh": "國",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "線",
+              "zh": "線",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "function_word"
+        ],
+        "speech": [
+          "adverb"
+        ],
+        "sentence": [
+          {
+            "japanese": "駅までどのぐらいかかりますか。",
+            "chinese": "到車站要多久？"
+          },
+          {
+            "japanese": "この仕事はどのぐらいかかりますか。",
+            "chinese": "這項工作要多久？"
+          },
+          {
+            "japanese": "家から学校までどのぐらいかかりますか。",
+            "chinese": "從家到學校要多久？"
+          },
+          {
+            "japanese": "京都までどのぐらいかかりますか。",
+            "chinese": "到京都要多久？"
+          },
+          {
+            "japanese": "この映画はどのぐらいですか。",
+            "chinese": "這部電影有多久？"
+          },
+          {
+            "japanese": "大阪まで電車でどのぐらいかかりますか。",
+            "chinese": "到大阪搭電車要多久？"
+          },
+          {
+            "japanese": "田中さんはどのぐらい働きますか。",
+            "chinese": "田中先生工作多久？"
+          },
+          {
+            "japanese": "日本語をどのぐらい勉強しますか。",
+            "chinese": "唸日文多久？"
+          },
+          {
+            "japanese": "会議はどのぐらいですか。",
+            "chinese": "會議要多久？"
+          },
+          {
+            "japanese": "空港までどのぐらいかかりますか。",
+            "chinese": "到機場要多久？"
+          },
+          {
+            "japanese": "この本をどのぐらい読みますか。",
+            "chinese": "這本書讀多久？"
+          },
+          {
+            "japanese": "パーティーはどのぐらいですか。",
+            "chinese": "派對要多久？"
+          },
+          {
+            "japanese": "病院までどのぐらいかかりますか。",
+            "chinese": "到醫院要多久？"
+          },
+          {
+            "japanese": "兄は外国にどのぐらいいますか。",
+            "chinese": "哥哥在國外多久？"
+          },
+          {
+            "japanese": "この料理はどのぐらいかかりますか。",
+            "chinese": "這道料理要多久？"
+          },
+          {
+            "japanese": "東京まで新幹線でどのぐらいかかりますか。",
+            "chinese": "到東京搭新幹線要多久？"
+          },
+          {
+            "japanese": "一週間にどのぐらい働きますか。",
+            "chinese": "一星期工作多久？"
+          },
+          {
+            "japanese": "この宿題はどのぐらいかかりますか。",
+            "chinese": "這份作業要多久？"
+          },
+          {
+            "japanese": "家から駅までどのぐらいですか。",
+            "chinese": "從家到車站要多久？"
+          },
+          {
+            "japanese": "日本にどのぐらいいますか。",
+            "chinese": "在日本多久？"
+          }
+        ]
+      },
+      {
+        "japanese": "ぜんぶで",
+        "kanji": "全部で",
+        "chinese": "一共",
+        "image": null,
+        "note": "表示總計數量。",
+        "kanji_note": {
+          "summary": "日語的「万」、「会」、「円」、「写」、「学」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "万",
+              "zh": "萬",
+              "note": null
+            },
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "円",
+              "zh": "圓",
+              "note": null
+            },
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "quality_state_degree"
+        ],
+        "speech": [
+          "adverb"
+        ],
+        "sentence": [
+          {
+            "japanese": "全部でいくらですか。",
+            "chinese": "一共多少錢？"
+          },
+          {
+            "japanese": "りんごは全部で十個あります。",
+            "chinese": "蘋果一共有十個。"
+          },
+          {
+            "japanese": "この料理は全部で二千円です。",
+            "chinese": "這道料理一共兩千日圓。"
+          },
+          {
+            "japanese": "学生は全部で二十人います。",
+            "chinese": "學生一共有二十個人。"
+          },
+          {
+            "japanese": "切手は全部で五枚あります。",
+            "chinese": "郵票一共有五張。"
+          },
+          {
+            "japanese": "全部で三人です。",
+            "chinese": "一共三個人。"
+          },
+          {
+            "japanese": "今日は全部で二時間勉強します。",
+            "chinese": "今天一共唸書兩小時。"
+          },
+          {
+            "japanese": "この店で全部で五千円買います。",
+            "chinese": "在這家店一共買五千日圓。"
+          },
+          {
+            "japanese": "全部で十人です。",
+            "chinese": "一共十個人。"
+          },
+          {
+            "japanese": "みかんは全部で八個あります。",
+            "chinese": "橘子一共有八個。"
+          },
+          {
+            "japanese": "この旅行は全部で十万円かかります。",
+            "chinese": "這次旅行一共要花十萬日圓。"
+          },
+          {
+            "japanese": "全部で二週間休みます。",
+            "chinese": "一共休息兩星期。"
+          },
+          {
+            "japanese": "本が全部で三十冊あります。",
+            "chinese": "書一共有三十本。"
+          },
+          {
+            "japanese": "この会議は全部で一時間です。",
+            "chinese": "這個會議一共一小時。"
+          },
+          {
+            "japanese": "荷物は全部で三つあります。",
+            "chinese": "行李一共有三個。"
+          },
+          {
+            "japanese": "全部で五千円です。",
+            "chinese": "一共五千日圓。"
+          },
+          {
+            "japanese": "このクラスは全部で十五人です。",
+            "chinese": "這個班級一共十五個人。"
+          },
+          {
+            "japanese": "家族は全部で四人です。",
+            "chinese": "家人一共四個。"
+          },
+          {
+            "japanese": "写真が全部で二十枚あります。",
+            "chinese": "照片一共有二十張。"
+          },
+          {
+            "japanese": "全部で二時間かかります。",
+            "chinese": "一共要花兩小時。"
+          }
+        ]
+      },
+      {
+        "japanese": "みんな",
+        "kanji": null,
+        "chinese": "全部，全體",
+        "image": null,
+        "note": "也可作名詞表示「大家」。",
+        "kanji_note": {
+          "summary": "日語的「写」、「学」、「来」、「気」、「画」、「読」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "quality_state_degree"
+        ],
+        "speech": [
+          "adverb"
+        ],
+        "sentence": [
+          {
+            "japanese": "みんなでご飯を食べます。",
+            "chinese": "大家一起吃飯。"
+          },
+          {
+            "japanese": "学生はみんなこの本を読みます。",
+            "chinese": "學生都讀這本書。"
+          },
+          {
+            "japanese": "家族はみんな元気です。",
+            "chinese": "家人大家都很健康。"
+          },
+          {
+            "japanese": "みんなで写真を撮ります。",
+            "chinese": "大家一起拍照。"
+          },
+          {
+            "japanese": "友達はみんな来ます。",
+            "chinese": "朋友都會來。"
+          },
+          {
+            "japanese": "このクラスの学生はみんな日本語を勉強します。",
+            "chinese": "這個班級的學生都唸日文。"
+          },
+          {
+            "japanese": "みんなで映画を見ます。",
+            "chinese": "大家一起看電影。"
+          },
+          {
+            "japanese": "社員はみんな九時に来ます。",
+            "chinese": "職員都九點來。"
+          },
+          {
+            "japanese": "みんなこの店が好きです。",
+            "chinese": "大家都喜歡這家店。"
+          },
+          {
+            "japanese": "子どもたちはみんな公園にいます。",
+            "chinese": "孩子們都在公園。"
+          },
+          {
+            "japanese": "みんなで旅行します。",
+            "chinese": "大家一起去旅行。"
+          },
+          {
+            "japanese": "この問題はみんなわかります。",
+            "chinese": "這個問題大家都懂。"
+          },
+          {
+            "japanese": "みんな駅で待ちます。",
+            "chinese": "大家在車站等。"
+          },
+          {
+            "japanese": "田中さんの家族はみんな親切です。",
+            "chinese": "田中先生的家人大家都很親切。"
+          },
+          {
+            "japanese": "みんなで歌を歌います。",
+            "chinese": "大家一起唱歌。"
+          },
+          {
+            "japanese": "学生はみんな元気です。",
+            "chinese": "學生大家都很健康。"
+          },
+          {
+            "japanese": "みんなパーティーに来ます。",
+            "chinese": "大家都來派對。"
+          },
+          {
+            "japanese": "この仕事はみんなでします。",
+            "chinese": "這個工作大家一起做。"
+          },
+          {
+            "japanese": "みんな九時に集合します。",
+            "chinese": "大家九點集合。"
+          },
+          {
+            "japanese": "友達はみんなこのレストランが好きです。",
+            "chinese": "朋友都喜歡這家餐廳。"
+          }
+        ]
+      },
+      {
+        "japanese": "～だけ",
+        "kanji": null,
+        "chinese": "只～，僅～",
+        "image": null,
+        "note": "限定範圍，表示「只、僅」。",
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「曜」、「難」、「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            },
+            {
+              "jp": "難",
+              "zh": "難",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "grammar_pattern"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "りんごを一つだけ食べます。",
+            "chinese": "只吃一個蘋果。"
+          },
+          {
+            "japanese": "水だけ飲みます。",
+            "chinese": "只喝水。"
+          },
+          {
+            "japanese": "今日だけ休みます。",
+            "chinese": "只今天休息。"
+          },
+          {
+            "japanese": "この本だけ読みます。",
+            "chinese": "只讀這本書。"
+          },
+          {
+            "japanese": "田中さんだけ来ます。",
+            "chinese": "只有田中先生來。"
+          },
+          {
+            "japanese": "一つだけ買います。",
+            "chinese": "只買一個。"
+          },
+          {
+            "japanese": "朝だけ働きます。",
+            "chinese": "只在早上工作。"
+          },
+          {
+            "japanese": "この店だけ休みます。",
+            "chinese": "只有這家店休息。"
+          },
+          {
+            "japanese": "日本語だけ勉強します。",
+            "chinese": "只唸日文。"
+          },
+          {
+            "japanese": "二つだけあります。",
+            "chinese": "只有兩個。"
+          },
+          {
+            "japanese": "土曜日だけ仕事をします。",
+            "chinese": "只在星期六工作。"
+          },
+          {
+            "japanese": "この部屋だけきれいです。",
+            "chinese": "只有這個房間乾淨。"
+          },
+          {
+            "japanese": "この荷物だけあります。",
+            "chinese": "只有這個行李。"
+          },
+          {
+            "japanese": "兄だけ家にいます。",
+            "chinese": "只有哥哥在家。"
+          },
+          {
+            "japanese": "この問題だけ難しいです。",
+            "chinese": "只有這個問題難。"
+          },
+          {
+            "japanese": "一つだけあります。",
+            "chinese": "只有一個。"
+          },
+          {
+            "japanese": "田中さんだけ会社にいます。",
+            "chinese": "只有田中先生在公司。"
+          },
+          {
+            "japanese": "この料理だけおいしいです。",
+            "chinese": "只有這道料理好吃。"
+          },
+          {
+            "japanese": "日曜日だけ休みます。",
+            "chinese": "只有星期日休息。"
+          },
+          {
+            "japanese": "この映画だけ見ます。",
+            "chinese": "只看這部電影。"
+          }
+        ]
+      },
+      {
+        "japanese": "いらっしゃいませ",
+        "kanji": null,
+        "chinese": "歡迎光臨",
+        "image": null,
+        "note": "商店、行號在顧客光臨時的問候語。",
+        "kanji_note": {
+          "summary": "日語的「声」、「気」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "声",
+              "zh": "聲",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "greeting_conversational"
+        ],
+        "speech": [
+          "set_phrase"
+        ],
+        "sentence": [
+          {
+            "japanese": "店員さんは「いらっしゃいませ」と言います。",
+            "chinese": "店員說「歡迎光臨」。"
+          },
+          {
+            "japanese": "デパートで「いらっしゃいませ」と聞きます。",
+            "chinese": "在百貨公司聽到「歡迎光臨」。"
+          },
+          {
+            "japanese": "レストランの店員さんが「いらっしゃいませ」と言います。",
+            "chinese": "餐廳的店員說「歡迎光臨」。"
+          },
+          {
+            "japanese": "日本のお店で「いらっしゃいませ」をよく聞きます。",
+            "chinese": "在日本店家常聽到「歡迎光臨」。"
+          },
+          {
+            "japanese": "「いらっしゃいませ」はお店のあいさつです。",
+            "chinese": "「歡迎光臨」是店家的問候語。"
+          },
+          {
+            "japanese": "店員さんが笑顔で「いらっしゃいませ」と言います。",
+            "chinese": "店員笑著說「歡迎光臨」。"
+          },
+          {
+            "japanese": "コンビニでも「いらっしゃいませ」と言います。",
+            "chinese": "便利商店也會說「歡迎光臨」。"
+          },
+          {
+            "japanese": "お客さんに「いらっしゃいませ」と言います。",
+            "chinese": "對客人說「歡迎光臨」。"
+          },
+          {
+            "japanese": "この店の店員さんは「いらっしゃいませ」と大きな声で言います。",
+            "chinese": "這家店的店員大聲說「歡迎光臨」。"
+          },
+          {
+            "japanese": "「いらっしゃいませ」と聞いて店へ行きます。",
+            "chinese": "聽到「歡迎光臨」走向店家。"
+          },
+          {
+            "japanese": "靴屋の店員さんが「いらっしゃいませ」と言います。",
+            "chinese": "鞋店的店員說「歡迎光臨」。"
+          },
+          {
+            "japanese": "友達と店へ行くと「いらっしゃいませ」と聞きます。",
+            "chinese": "和朋友去店家時會聽到「歡迎光臨」。"
+          },
+          {
+            "japanese": "喫茶店でも「いらっしゃいませ」と言います。",
+            "chinese": "咖啡館也會說「歡迎光臨」。"
+          },
+          {
+            "japanese": "「いらっしゃいませ」は丁寧な言葉です。",
+            "chinese": "「歡迎光臨」是禮貌的用語。"
+          },
+          {
+            "japanese": "店員さんはお客さんに「いらっしゃいませ」と言います。",
+            "chinese": "店員對客人說「歡迎光臨」。"
+          },
+          {
+            "japanese": "お店の人が元気に「いらっしゃいませ」と言います。",
+            "chinese": "店家很有精神地說「歡迎光臨」。"
+          },
+          {
+            "japanese": "花屋さんでも「いらっしゃいませ」と言います。",
+            "chinese": "花店也會說「歡迎光臨」。"
+          },
+          {
+            "japanese": "「いらっしゃいませ」と店員さんが言います。",
+            "chinese": "店員說「歡迎光臨」。"
+          },
+          {
+            "japanese": "この店の「いらっしゃいませ」は明るい声です。",
+            "chinese": "這家店的「歡迎光臨」聲音很開朗。"
+          },
+          {
+            "japanese": "パン屋の店員さんが「いらっしゃいませ」と言います。",
+            "chinese": "麵包店的店員說「歡迎光臨」。"
+          }
+        ]
+      }
+    ]
+  }
+}

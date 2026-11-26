@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Japanese lesson vocabulary schema",
+  "description": "Structure and rules for lesson_*.json vocabulary files (みんなの日本語派生單字庫，非官方)。",
+  "lesson_key_format": "lesson_{N} (N 為 1–50，無補零，例如 lesson_1、lesson_10)",
+  "structure": {
+    "lesson_{N}": {
+      "vols": [
+        {
+          "japanese": "假名/片假名讀音；動詞詞條用課本原樣（ます形原形，如 おきます）",
+          "kanji": "漢字形；無漢字時可為 null",
+          "chinese": "繁體中文釋義",
+          "image": "永遠為 null（暫留空）",
+          "note": "用法/注意事項說明；無則為 null。字形對照與書寫注意已改放到 kanji_note，不再寫在 note。",
+          "kanji_note": {
+            "summary": "該詞條字形對照概述（繁體中文，非空字串）。整個 kanji_note 無內容時為 null，而非空物件。不含「【字形對照】」標題（由 UI 標示）。",
+            "details": [
+              {
+                "jp": "日語字形",
+                "zh": "繁體對應字形；無對應（如和製字）時為 null",
+                "note": "該字補充說明；無則為 null"
+              }
+            ]
+          },
+          "tags": [
+            "1–2 個語意 tag，必須取自 tag_registry"
+          ],
+          "speech": [
+            "取自 speech_enum，可多個。動詞詞條為 [\"verb\", \"verb_group_N\"]"
+          ],
+          "sentence": [
+            {
+              "japanese": "手寫例句（動詞詞條須原樣出現）",
+              "chinese": "例句繁體中文翻譯"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "rules": {
+    "sentence_count": "每詞條 exactly 20 句",
+    "image": "一律 null",
+    "note": "說明何時用、注意事項；沒有就 null。不再收錄字形對照或書寫時留意。",
+    "kanji_note": "字形對照／書寫時留意；沒有就 null。有則為物件，鍵序為 summary、details。summary 為非空字串概述；details 為非空陣列，每筆鍵序為 jp、zh、note（zh 與 note 可為 null）。不含【字形對照】標題。",
+    "tags": "每詞條 1–2 個；新增時語意須清晰，並登記回本檔 tag_registry.extended",
+    "speech": "取自 speech_enum，可多個。動詞詞條必須是 [\"verb\", \"verb_group_N\"]（先 verb 再分組）；非動詞不得帶 verb_group_*。",
+    "verb_groups": "verb_group_1＝五段／u-verbs／グループ1（書きます、飲みます、帰ります、話します、あります 等，含 す五段）；verb_group_2＝一段／ru-verbs／グループ2（食べます、見ます、起きます、います＝在 等）；verb_group_3＝不規則／グループ3（来ます、します，及勉強します・結婚します 等サ変複合）。す五段（話します、出します、直します、渡します、申します 等）屬 verb_group_1，不是 3。いたします（する 的謙讓語）屬 verb_group_3。敬語依實際活用歸類：いらっしゃいます・めしあがります・おっしゃいます・なさいます・ご覧になります・まいります・おります・いただきます 多為 verb_group_1；存じます（存じる）為 verb_group_2。",
+    "no_fiction": "刪除所有虛構專有名詞詞條，且例句中不得出現虛構專有名詞（改用田中/王/李、真實地名國名）——避免原教材版權問題",
+    "verb_form_strict": "動詞詞條必須在每一句中原樣出現，禁止 ました／ません／ませんでした／て形／た形／意向形 等活用形（規則8）；但 set_phrase 固定套句允許照原樣出現。此規則僅適用 speech 含 verb 且不含 set_phrase 的詞條；speech 含 set_phrase 者依 set_phrase 規則保持例句原樣。",
+    "handwritten": "例句須依實際情境手寫，禁止用腳本生成",
+    "grammar_scope": "每課例句僅使用到該課為止已學文法",
+    "set_phrase": "固定套句(この～から来ました、はじめまして、どうぞよろしくお願いします 等)屬 speech=[\"set_phrase\"]，保持原樣"
+  },
+  "speech_enum": [
+    "noun",
+    "verb",
+    "verb_group_1",
+    "verb_group_2",
+    "verb_group_3",
+    "i_adjective",
+    "na_adjective",
+    "adverb",
+    "demonstrative",
+    "determiner",
+    "conjunction",
+    "interjection",
+    "set_phrase",
+    "bound_morpheme"
+  ],
+  "tag_registry": {
+    "base": [
+      "people_role_address",
+      "object_tool",
+      "place_facility",
+      "time_date_quantity",
+      "action_activity",
+      "quality_state_degree",
+      "transportation_movement",
+      "food_housing_daily_life",
+      "communication_language_study",
+      "greeting_conversational"
+    ],
+    "extended": {
+      "grammar_pattern": "文法句型／助詞接續（如 ～から、～まで、～と）",
+      "reference_demonstrative": "こそあど指示詞（これ・それ・この・その 等）",
+      "function_word": "疑問詞／機能語（なん・だれ・いつ 等）",
+      "culture_entertainment": "文化娛樂（映画・音楽・歌・スポーツ・コンサート・絵 等）",
+      "nature": "自然（桜・山・花 等）",
+      "direction_position": "位置方向（上・下・前・後ろ・右・左・中・外・隣・近く・間 等）"
+    }
+  }
+}

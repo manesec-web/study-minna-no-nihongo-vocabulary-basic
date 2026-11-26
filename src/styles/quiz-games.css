@@ -1,0 +1,866 @@
+/* Quiz game boards. Global (not scoped) so each game-*.vue component can use the
+   same tokens; every colour here is a var() from app.css, no raw colour values. */
+
+.board {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.prompt {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  text-align: center;
+}
+
+.prompt-face {
+  font-size: 0.78rem;
+  color: var(--muted);
+  letter-spacing: 0.14em;
+}
+
+.prompt-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.choice-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+
+.choice {
+  min-height: 48px;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+  transition: background 140ms ease, transform 140ms ease;
+}
+
+.choice:hover {
+  background: var(--tint);
+}
+
+.choice:active {
+  transform: scale(0.98);
+}
+
+.hp-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hp-track {
+  flex: 1;
+  height: 12px;
+  border-radius: 999px;
+  background: var(--track);
+  overflow: hidden;
+}
+
+.hp-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: var(--error);
+  transition: width 200ms ease;
+}
+
+.hp-text {
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+
+.modifier {
+  align-self: flex-start;
+  padding: 2px 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 0.72rem;
+  color: var(--note);
+}
+
+.pairs-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+
+@media (max-width: 550px) {
+  .pairs-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.pair-card {
+  aspect-ratio: 1;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  perspective: 800px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.pair-card-inner {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 240ms var(--ease-turn);
+}
+
+.pair-card--open .pair-card-inner {
+  transform: rotateY(180deg);
+}
+
+.pair-card-face {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--ink);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  font-size: 0.9rem;
+}
+
+.pair-card-front {
+  color: var(--muted);
+  background: var(--tint);
+}
+
+.pair-card-back {
+  transform: rotateY(180deg);
+}
+
+.pair-card:not(:disabled):hover .pair-card-face {
+  background: var(--tint);
+}
+
+.pair-card--matched {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.column-card--flash,
+.connect-cell--flash {
+  border-color: var(--error);
+}
+
+.pair-card--flash .pair-card-face {
+  border-color: var(--error);
+}
+
+.card-back {
+  color: var(--muted);
+}
+
+.quiz-mode-hint {
+  margin: 0 0 4px;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.match3-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.connect-grid {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.connect-board {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.connect-path {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 1;
+  transition: opacity 280ms ease;
+}
+
+.connect-path--fade {
+  opacity: 0;
+}
+
+.connect-path polyline {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  filter: drop-shadow(0 0 3px var(--accent-tint));
+}
+
+.match3-cell,
+.connect-cell {
+  min-width: 0;
+  width: 100%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  padding: 2px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.78rem;
+  line-height: 1.1;
+  cursor: pointer;
+  transition: transform 120ms ease, background 120ms ease;
+}
+
+.cell-font--short {
+  font-size: 0.82rem;
+}
+
+.cell-font--medium {
+  font-size: 0.72rem;
+}
+
+.cell-font--long {
+  font-size: 0.6rem;
+}
+
+.match3-cell:disabled,
+.connect-cell:disabled {
+  background: transparent;
+  border-color: transparent;
+  cursor: default;
+}
+
+.match3-cell--selected,
+.connect-cell--selected {
+  border-color: var(--accent);
+  background: var(--accent-tint);
+}
+
+.quiz-end {
+  align-self: center;
+  min-height: 44px;
+}
+
+.memory-status {
+  margin: 0;
+  text-align: center;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+
+.memory-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.memory-card {
+  aspect-ratio: 1;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.95rem;
+  cursor: default;
+  transition: background 140ms ease, transform 140ms ease;
+}
+
+.memory-card--hidden {
+  background: var(--tint);
+}
+
+.memory-options {
+  margin-top: 6px;
+}
+
+.memory-option--solved {
+  opacity: 0.45;
+  cursor: default;
+  border-color: var(--accent);
+}
+
+.quiz-begin {
+  align-self: center;
+  min-width: 160px;
+}
+
+.placed-row {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 44px;
+}
+
+.placed-slot {
+  width: 40px;
+  height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.placed-slot:empty {
+  background: var(--tint);
+}
+
+.tile-row {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tile {
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 140ms ease, transform 140ms ease;
+}
+
+.tile:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.reaction-progress {
+  margin: 0;
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.reaction-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.reaction-card {
+  aspect-ratio: 1;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 140ms ease, transform 140ms ease;
+}
+
+.reaction-card:hover {
+  background: var(--tint);
+}
+
+.reaction-card--flash {
+  border-color: var(--error);
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.column-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.column-card {
+  min-height: 48px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 140ms ease, transform 140ms ease;
+}
+
+.column-card:hover:not(:disabled) {
+  background: var(--tint);
+}
+
+.column-card--selected {
+  border-color: var(--accent);
+  background: var(--accent-tint);
+}
+
+.column-card--matched {
+  opacity: 0.4;
+  cursor: default;
+}
+
+/* --- newer modes --- */
+
+.swipe-card {
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--surface);
+  padding: 20px;
+}
+
+.swipe-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.oddone-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.oddone-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  cursor: pointer;
+}
+
+.fillblank-word {
+  font-size: 1.8rem;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+
+.fillblank-options {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.wordle-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.wordle-row {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+}
+
+.wordle-cell {
+  width: 40px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-size: 1.2rem;
+}
+
+.wordle-cell--green {
+  background: var(--highlight);
+  color: var(--accent-ink);
+  border-color: var(--highlight);
+}
+
+.wordle-cell--yellow {
+  background: var(--note);
+  color: var(--accent-ink);
+  border-color: var(--note);
+}
+
+.wordle-cell--muted {
+  background: var(--tint);
+  color: var(--muted);
+}
+
+.wordle-pad {
+  display: grid;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  gap: 4px;
+}
+
+.wordle-key {
+  min-height: 36px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.wordle-toolbar {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.crossword-grid {
+  display: grid;
+  gap: 2px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.crossword-cell {
+  width: 34px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface);
+  font-size: 1.1rem;
+}
+
+.crossword-cell--empty {
+  border-color: transparent;
+  background: transparent;
+}
+
+.crossword-cell--selected {
+  border-color: var(--accent);
+  background: var(--accent-tint);
+}
+
+.crossword-cell--correct {
+  color: var(--highlight);
+}
+
+.crossword-hint {
+  text-align: center;
+  color: var(--ink-soft);
+  min-height: 22px;
+}
+
+.trimatch-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.trimatch-card {
+  aspect-ratio: 1;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.trimatch-card--selected {
+  border-color: var(--accent);
+  background: var(--accent-tint);
+}
+
+.trimatch-card--cleared {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.falling-lane {
+  position: relative;
+  height: 260px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.falling-meteor {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 8px 12px;
+  border: 1px solid var(--accent);
+  border-radius: 10px;
+  background: var(--accent-tint);
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.falling-cannons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.falling-cannon {
+  min-height: 48px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.whack-target {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.whack-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.whack-hole {
+  aspect-ratio: 1;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--tint);
+  color: var(--ink);
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.whack-hole--visible {
+  background: var(--surface);
+  border-color: var(--accent);
+}
+
+.furigana-prompt {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* --- stage-8 modes --- */
+.mahjong-board {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-rows: repeat(3, auto);
+  gap: 6px;
+}
+
+.mahjong-tile {
+  min-height: 56px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 0.9rem;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.mahjong-tile--blocked {
+  background: var(--tint-strong);
+  color: var(--muted);
+}
+
+.mahjong-tile--cleared {
+  opacity: 0.25;
+  cursor: default;
+}
+
+.mahjong-tile--tray {
+  border-color: var(--accent);
+}
+
+.mahjong-tray {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  min-height: 56px;
+}
+
+.mahjong-tray-slot {
+  width: 48px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+}
+
+.mahjong-tray-slot--empty {
+  background: var(--tint);
+  border-color: transparent;
+}
+
+.sushi-lane {
+  position: relative;
+  height: 90px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--surface);
+}
+
+.sushi-plate {
+  position: absolute;
+  top: 20px;
+  transform: translateX(-50%);
+  padding: 6px 14px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--accent-tint);
+  color: var(--ink);
+  white-space: nowrap;
+  transition: left 0.9s linear;
+}
+
+.sushi-input {
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  padding: 0 12px;
+  text-align: center;
+}
+
+.wordsearch-clues {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+}
+
+.wordsearch-clue {
+  padding: 2px 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+
+.wordsearch-clue--found {
+  border-color: var(--accent);
+  background: var(--accent-tint);
+  color: var(--ink);
+}
+
+.wordsearch-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 2px;
+}
+
+.wordsearch-cell {
+  aspect-ratio: 1;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.wordsearch-cell--start {
+  border-color: var(--accent);
+  background: var(--accent-tint);
+}
+
+.snake-grid {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 2px;
+}
+
+.snake-cell {
+  aspect-ratio: 1;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.snake-cell--head {
+  background: var(--accent);
+  color: var(--accent-ink);
+  border-color: var(--accent);
+}
+
+.snake-cell--body {
+  background: var(--accent-tint);
+  color: var(--ink);
+}
+
+.snake-cell--food {
+  border-color: var(--note);
+}
+
+.snake-pad {
+  display: grid;
+  grid-template-columns: repeat(3, 48px);
+  gap: 6px;
+  justify-content: center;
+}
+
+.tile--used {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.wordsearch-cell--preview {
+  background: var(--accent-tint);
+  border-color: var(--accent);
+}

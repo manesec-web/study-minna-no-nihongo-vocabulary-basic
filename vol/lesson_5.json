@@ -1,0 +1,6924 @@
+{
+  "lesson_5": {
+    "vols": [
+      {
+        "japanese": "いきます",
+        "kanji": "行きます",
+        "chinese": "去",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「曜」、「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "transportation_movement"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_1"
+        ],
+        "sentence": [
+          {
+            "japanese": "毎朝、学校へ行きます。",
+            "chinese": "每天早上我去學校。"
+          },
+          {
+            "japanese": "あのう、駅まで行きますか。",
+            "chinese": "不好意思，你要去車站嗎？"
+          },
+          {
+            "japanese": "田中さんは会社へ行きます。",
+            "chinese": "田中先生去公司。"
+          },
+          {
+            "japanese": "明日、京都へ行きます。",
+            "chinese": "明天去京都。"
+          },
+          {
+            "japanese": "すみません、デパートへ行きますか。",
+            "chinese": "不好意思，你要去百貨公司嗎？"
+          },
+          {
+            "japanese": "山田さんは銀行へ行きます。",
+            "chinese": "山田先生去銀行。"
+          },
+          {
+            "japanese": "日曜日は公園へ行きます。",
+            "chinese": "星期日去公園。"
+          },
+          {
+            "japanese": "あ、王さんは病院へ行きます。",
+            "chinese": "啊，王先生去醫院。"
+          },
+          {
+            "japanese": "これから学校へ行きます。",
+            "chinese": "現在去學校。"
+          },
+          {
+            "japanese": "ええと、郵便局へ行きます。",
+            "chinese": "嗯，去郵局。"
+          },
+          {
+            "japanese": "高橋さんは大阪へ行きます。",
+            "chinese": "高橋先生去大阪。"
+          },
+          {
+            "japanese": "土曜日に図書館へ行きます。",
+            "chinese": "星期六去圖書館。"
+          },
+          {
+            "japanese": "李さんはスーパーへ行きます。",
+            "chinese": "李先生去超市。"
+          },
+          {
+            "japanese": "今から駅へ行きます。",
+            "chinese": "現在去車站。"
+          },
+          {
+            "japanese": "林さんは海へ行きます。",
+            "chinese": "林先生去海邊。"
+          },
+          {
+            "japanese": "あのう、何時に行きますか。",
+            "chinese": "不好意思，幾點去？"
+          },
+          {
+            "japanese": "金さんは東京へ行きます。",
+            "chinese": "金先生去東京。"
+          },
+          {
+            "japanese": "私は今日、病院へ行きます。",
+            "chinese": "我今天去醫院。"
+          },
+          {
+            "japanese": "佐藤さんは名古屋へ行きます。",
+            "chinese": "佐藤先生去名古屋。"
+          },
+          {
+            "japanese": "鈴木さんは学校へ行きます。",
+            "chinese": "鈴木先生去學校。"
+          }
+        ]
+      },
+      {
+        "japanese": "きます",
+        "kanji": "来ます",
+        "chinese": "來",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "国",
+              "zh": "國",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "transportation_movement"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_3"
+        ],
+        "sentence": [
+          {
+            "japanese": "田中さんは明日、大阪から来ます。",
+            "chinese": "田中先生明天從大阪來。"
+          },
+          {
+            "japanese": "あのう、何時に来ますか。",
+            "chinese": "不好意思，幾點來？"
+          },
+          {
+            "japanese": "山田さんは学校へ来ます。",
+            "chinese": "山田先生來學校。"
+          },
+          {
+            "japanese": "王さんは中国から来ます。",
+            "chinese": "王先生從中國來。"
+          },
+          {
+            "japanese": "すみません、会議室へ来ますか。",
+            "chinese": "不好意思，你要來會議室嗎？"
+          },
+          {
+            "japanese": "高橋さんは会社へ来ます。",
+            "chinese": "高橋先生來公司。"
+          },
+          {
+            "japanese": "李さんは駅へ来ます。",
+            "chinese": "李先生來車站。"
+          },
+          {
+            "japanese": "あ、木村さんは来ます。",
+            "chinese": "啊，木村先生要來。"
+          },
+          {
+            "japanese": "金さんは来週、日本へ来ます。",
+            "chinese": "金先生下週來日本。"
+          },
+          {
+            "japanese": "ええと、先生は後で来ます。",
+            "chinese": "嗯，老師等一下來。"
+          },
+          {
+            "japanese": "林さんは午後、学校へ来ます。",
+            "chinese": "林先生下午來學校。"
+          },
+          {
+            "japanese": "鈴木さんは明日、東京へ来ます。",
+            "chinese": "鈴木先生明天來東京。"
+          },
+          {
+            "japanese": "佐藤さんは今、駅へ来ます。",
+            "chinese": "佐藤先生現在來車站。"
+          },
+          {
+            "japanese": "私は明日、会社へ来ます。",
+            "chinese": "我明天來公司。"
+          },
+          {
+            "japanese": "山田さんは日曜日、公園へ来ます。",
+            "chinese": "山田先生星期日來公園。"
+          },
+          {
+            "japanese": "あのう、王さんは来ますか。",
+            "chinese": "不好意思，王先生會來嗎？"
+          },
+          {
+            "japanese": "田中さんは電車で来ます。",
+            "chinese": "田中先生搭電車來。"
+          },
+          {
+            "japanese": "はい、私も来ます。",
+            "chinese": "是，我也來。"
+          },
+          {
+            "japanese": "李さんは飛行機で来ます。",
+            "chinese": "李先生搭飛機來。"
+          },
+          {
+            "japanese": "高橋さんはバスで来ます。",
+            "chinese": "高橋先生搭公車來。"
+          }
+        ]
+      },
+      {
+        "japanese": "かえります",
+        "kanji": "帰ります",
+        "chinese": "回家，回去",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "国",
+              "zh": "國",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "transportation_movement"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_1"
+        ],
+        "sentence": [
+          {
+            "japanese": "毎晩、家へ帰ります。",
+            "chinese": "每天晚上回家。"
+          },
+          {
+            "japanese": "あのう、何時に帰りますか。",
+            "chinese": "不好意思，幾點回去？"
+          },
+          {
+            "japanese": "田中さんは会社から帰ります。",
+            "chinese": "田中先生從公司回去。"
+          },
+          {
+            "japanese": "山田さんは駅から帰ります。",
+            "chinese": "山田先生從車站回去。"
+          },
+          {
+            "japanese": "すみません、今日は早く帰りますか。",
+            "chinese": "不好意思，今天你早點回去嗎？"
+          },
+          {
+            "japanese": "高橋さんは学校から帰ります。",
+            "chinese": "高橋先生從學校回去。"
+          },
+          {
+            "japanese": "李さんは大阪へ帰ります。",
+            "chinese": "李先生回大阪。"
+          },
+          {
+            "japanese": "あ、王さんはもう帰ります。",
+            "chinese": "啊，王先生要回去了。"
+          },
+          {
+            "japanese": "金さんは来週、中国へ帰ります。",
+            "chinese": "金先生下週回中國。"
+          },
+          {
+            "japanese": "ええと、林さんは家へ帰ります。",
+            "chinese": "嗯，林先生回家。"
+          },
+          {
+            "japanese": "鈴木さんはバスで帰ります。",
+            "chinese": "鈴木先生搭公車回去。"
+          },
+          {
+            "japanese": "佐藤さんは電車で帰ります。",
+            "chinese": "佐藤先生搭電車回去。"
+          },
+          {
+            "japanese": "私は6時に帰ります。",
+            "chinese": "我6點回去。"
+          },
+          {
+            "japanese": "木村さんは先に帰ります。",
+            "chinese": "木村先生先回去。"
+          },
+          {
+            "japanese": "山田さんは日曜日に帰ります。",
+            "chinese": "山田先生星期日回去。"
+          },
+          {
+            "japanese": "あのう、王さんは帰りますか。",
+            "chinese": "不好意思，王先生要回去嗎？"
+          },
+          {
+            "japanese": "田中さんは午後、家へ帰ります。",
+            "chinese": "田中先生下午回家。"
+          },
+          {
+            "japanese": "はい、私も帰ります。",
+            "chinese": "是，我也要回去。"
+          },
+          {
+            "japanese": "李さんは飛行機で帰ります。",
+            "chinese": "李先生搭飛機回去。"
+          },
+          {
+            "japanese": "高橋さんはタクシーで帰ります。",
+            "chinese": "高橋先生搭計程車回去。"
+          }
+        ]
+      },
+      {
+        "japanese": "がっこう",
+        "kanji": "学校",
+        "chinese": "學校",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "隣",
+              "zh": "鄰",
+              "note": null
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "学校は駅の近くです。",
+            "chinese": "學校在車站附近。"
+          },
+          {
+            "japanese": "あのう、学校はどこですか。",
+            "chinese": "不好意思，學校在哪裡？"
+          },
+          {
+            "japanese": "田中さんは学校へ行きます。",
+            "chinese": "田中先生去學校。"
+          },
+          {
+            "japanese": "すみません、学校は何時からですか。",
+            "chinese": "不好意思，學校幾點開始？"
+          },
+          {
+            "japanese": "学校は9時からです。",
+            "chinese": "學校9點開始。"
+          },
+          {
+            "japanese": "はい、学校はこちらです。",
+            "chinese": "是，學校在這裡。"
+          },
+          {
+            "japanese": "あの学校は王さんの学校です。",
+            "chinese": "那所學校是王先生的學校。"
+          },
+          {
+            "japanese": "あ、学校、あそこです。",
+            "chinese": "啊，學校在那裡。"
+          },
+          {
+            "japanese": "学校の受付はあちらです。",
+            "chinese": "學校的接待處在那邊。"
+          },
+          {
+            "japanese": "ええと、学校はこの先です。",
+            "chinese": "嗯，學校在前面。"
+          },
+          {
+            "japanese": "山田さんは学校から帰ります。",
+            "chinese": "山田先生從學校回去。"
+          },
+          {
+            "japanese": "いいえ、学校は10時からではありません。",
+            "chinese": "不，學校不是10點開始。"
+          },
+          {
+            "japanese": "学校は駅の前です。",
+            "chinese": "學校在車站前面。"
+          },
+          {
+            "japanese": "高橋さん、学校はどこですか。",
+            "chinese": "高橋先生，學校在哪裡？"
+          },
+          {
+            "japanese": "李さんは学校へ来ます。",
+            "chinese": "李先生來學校。"
+          },
+          {
+            "japanese": "あのう、学校、こちらですか。",
+            "chinese": "不好意思，學校在這裡嗎？"
+          },
+          {
+            "japanese": "学校は図書館の隣です。",
+            "chinese": "學校在圖書館的隔壁。"
+          },
+          {
+            "japanese": "はい、学校は私の学校です。",
+            "chinese": "是，學校是我的學校。"
+          },
+          {
+            "japanese": "学校、銀行の前です。",
+            "chinese": "學校在銀行前面。"
+          },
+          {
+            "japanese": "林さん、学校は何時までですか。",
+            "chinese": "林先生，學校到幾點？"
+          }
+        ]
+      },
+      {
+        "japanese": "スーパー",
+        "kanji": null,
+        "chinese": "超級市場",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「学」、「帰」、「来」、「隣」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "隣",
+              "zh": "鄰",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "スーパーは駅の近くです。",
+            "chinese": "超市在車站附近。"
+          },
+          {
+            "japanese": "あのう、スーパーはどこですか。",
+            "chinese": "不好意思，超市在哪裡？"
+          },
+          {
+            "japanese": "田中さんはスーパーへ行きます。",
+            "chinese": "田中先生去超市。"
+          },
+          {
+            "japanese": "すみません、スーパーは何時からですか。",
+            "chinese": "不好意思，超市幾點開始營業？"
+          },
+          {
+            "japanese": "スーパーは9時からです。",
+            "chinese": "超市9點開始營業。"
+          },
+          {
+            "japanese": "はい、スーパーはこちらです。",
+            "chinese": "是，超市在這裡。"
+          },
+          {
+            "japanese": "あのスーパーは王さんの家の近くです。",
+            "chinese": "那家超市在王先生家附近。"
+          },
+          {
+            "japanese": "あ、スーパー、あそこです。",
+            "chinese": "啊，超市在那裡。"
+          },
+          {
+            "japanese": "スーパーの入り口はあちらです。",
+            "chinese": "超市的入口在那邊。"
+          },
+          {
+            "japanese": "ええと、スーパーはこの先です。",
+            "chinese": "嗯，超市在前面。"
+          },
+          {
+            "japanese": "山田さんはスーパーから帰ります。",
+            "chinese": "山田先生從超市回去。"
+          },
+          {
+            "japanese": "いいえ、スーパーは10時からではありません。",
+            "chinese": "不，超市不是10點開始。"
+          },
+          {
+            "japanese": "スーパーは駅の前です。",
+            "chinese": "超市在車站前面。"
+          },
+          {
+            "japanese": "高橋さん、スーパーはどこですか。",
+            "chinese": "高橋先生，超市在哪裡？"
+          },
+          {
+            "japanese": "李さんはスーパーへ来ます。",
+            "chinese": "李先生來超市。"
+          },
+          {
+            "japanese": "あのう、スーパー、こちらですか。",
+            "chinese": "不好意思，超市在這裡嗎？"
+          },
+          {
+            "japanese": "スーパーは銀行の隣です。",
+            "chinese": "超市在銀行的隔壁。"
+          },
+          {
+            "japanese": "はい、スーパーは私の家の近くです。",
+            "chinese": "是，超市在我家附近。"
+          },
+          {
+            "japanese": "スーパー、学校の前です。",
+            "chinese": "超市在學校前面。"
+          },
+          {
+            "japanese": "林さん、スーパーは何時までですか。",
+            "chinese": "林先生，超市到幾點？"
+          }
+        ]
+      },
+      {
+        "japanese": "えき",
+        "kanji": "駅",
+        "chinese": "火車站",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「学」、「帰」、「来」、「隣」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "隣",
+              "zh": "鄰",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "駅は学校の近くです。",
+            "chinese": "車站在學校附近。"
+          },
+          {
+            "japanese": "あのう、駅はどこですか。",
+            "chinese": "不好意思，車站在哪裡？"
+          },
+          {
+            "japanese": "田中さんは駅へ行きます。",
+            "chinese": "田中先生去車站。"
+          },
+          {
+            "japanese": "すみません、駅は何時からですか。",
+            "chinese": "不好意思，車站幾點開始？"
+          },
+          {
+            "japanese": "駅は5時からです。",
+            "chinese": "車站5點開始。"
+          },
+          {
+            "japanese": "はい、駅はこちらです。",
+            "chinese": "是，車站在這裡。"
+          },
+          {
+            "japanese": "あの駅は王さんの家の近くです。",
+            "chinese": "那個車站在王先生家附近。"
+          },
+          {
+            "japanese": "あ、駅、あそこです。",
+            "chinese": "啊，車站在那裡。"
+          },
+          {
+            "japanese": "駅の改札はあちらです。",
+            "chinese": "車站的剪票口在那邊。"
+          },
+          {
+            "japanese": "ええと、駅はこの先です。",
+            "chinese": "嗯，車站在前面。"
+          },
+          {
+            "japanese": "山田さんは駅から帰ります。",
+            "chinese": "山田先生從車站回去。"
+          },
+          {
+            "japanese": "いいえ、駅は6時からではありません。",
+            "chinese": "不，車站不是6點開始。"
+          },
+          {
+            "japanese": "駅はスーパーの前です。",
+            "chinese": "車站在超市前面。"
+          },
+          {
+            "japanese": "高橋さん、駅はどこですか。",
+            "chinese": "高橋先生，車站在哪裡？"
+          },
+          {
+            "japanese": "李さんは駅へ来ます。",
+            "chinese": "李先生來車站。"
+          },
+          {
+            "japanese": "あのう、駅、こちらですか。",
+            "chinese": "不好意思，車站在這裡嗎？"
+          },
+          {
+            "japanese": "駅は銀行の隣です。",
+            "chinese": "車站在銀行的隔壁。"
+          },
+          {
+            "japanese": "はい、駅は私の家の近くです。",
+            "chinese": "是，車站在我家附近。"
+          },
+          {
+            "japanese": "駅、学校の前です。",
+            "chinese": "車站在學校前面。"
+          },
+          {
+            "japanese": "林さん、駅は何時までですか。",
+            "chinese": "林先生，車站到幾點？"
+          }
+        ]
+      },
+      {
+        "japanese": "ひこうき",
+        "kanji": "飛行機",
+        "chinese": "飛機",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「国」、「帰」、「来」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "国",
+              "zh": "國",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "transportation_movement"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "私は飛行機で東京へ行きます。",
+            "chinese": "我搭飛機去東京。"
+          },
+          {
+            "japanese": "木村さんは飛行機でアメリカへ行きます。",
+            "chinese": "木村先生搭飛機去美國。"
+          },
+          {
+            "japanese": "これは飛行機です。",
+            "chinese": "這是飛機。"
+          },
+          {
+            "japanese": "あれは飛行機です。",
+            "chinese": "那是飛機。"
+          },
+          {
+            "japanese": "田中さんは飛行機で来ます。",
+            "chinese": "田中先生搭飛機來。"
+          },
+          {
+            "japanese": "飛行機は空港から来ます。",
+            "chinese": "飛機從機場飛來。"
+          },
+          {
+            "japanese": "私は飛行機で大阪へ行きます。",
+            "chinese": "我搭飛機去大阪。"
+          },
+          {
+            "japanese": "山田さんは飛行機で中国へ帰ります。",
+            "chinese": "山田先生搭飛機回中國。"
+          },
+          {
+            "japanese": "私は明日飛行機で北海道へ行きます。",
+            "chinese": "我明天搭飛機去北海道。"
+          },
+          {
+            "japanese": "王さんは飛行機で日本へ来ます。",
+            "chinese": "王先生搭飛機來日本。"
+          },
+          {
+            "japanese": "飛行機は空港に来ます。",
+            "chinese": "飛機到達機場。"
+          },
+          {
+            "japanese": "飛行機で京都から帰ります。",
+            "chinese": "搭飛機從京都回去。"
+          },
+          {
+            "japanese": "これは日本の飛行機です。",
+            "chinese": "這是日本的飛機。"
+          },
+          {
+            "japanese": "私は来月飛行機で京都へ行きます。",
+            "chinese": "我下個月搭飛機去京都。"
+          },
+          {
+            "japanese": "飛行機は朝7時に来ます。",
+            "chinese": "飛機早上7點到。"
+          },
+          {
+            "japanese": "父は飛行機で来ます。",
+            "chinese": "爸爸搭飛機來。"
+          },
+          {
+            "japanese": "明日飛行機で京都へ行きます。",
+            "chinese": "明天搭飛機去京都。"
+          },
+          {
+            "japanese": "この飛行機は東京へ行きます。",
+            "chinese": "這架飛機飛往東京。"
+          },
+          {
+            "japanese": "飛行機で日本から帰ります。",
+            "chinese": "搭飛機從日本回來。"
+          },
+          {
+            "japanese": "私は飛行機でアメリカへ行きます。",
+            "chinese": "我搭飛機去美國。"
+          }
+        ]
+      },
+      {
+        "japanese": "ふね",
+        "kanji": "船",
+        "chinese": "船",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「乗」、「会」、「学」、「帰」、「来」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "乗",
+              "zh": "乘",
+              "note": null
+            },
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "transportation_movement"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "船は大阪から来ます。",
+            "chinese": "船從大阪來。"
+          },
+          {
+            "japanese": "あのう、船は何時に来ますか。",
+            "chinese": "不好意思，船幾點來？"
+          },
+          {
+            "japanese": "田中さんは船で帰ります。",
+            "chinese": "田中先生搭船回去。"
+          },
+          {
+            "japanese": "すみません、船はどこから来ますか。",
+            "chinese": "不好意思，船從哪裡來？"
+          },
+          {
+            "japanese": "船は北海道から来ます。",
+            "chinese": "船從北海道來。"
+          },
+          {
+            "japanese": "はい、船はこちらです。",
+            "chinese": "是，船在這裡。"
+          },
+          {
+            "japanese": "あの船は王さんの会社のです。",
+            "chinese": "那艘船是王先生公司的。"
+          },
+          {
+            "japanese": "あ、船、あそこです。",
+            "chinese": "啊，船在那裡。"
+          },
+          {
+            "japanese": "船の乗り場はあちらです。",
+            "chinese": "船的乘船處在那邊。"
+          },
+          {
+            "japanese": "ええと、船はこの先です。",
+            "chinese": "嗯，船在前面。"
+          },
+          {
+            "japanese": "山田さんは船で来ます。",
+            "chinese": "山田先生搭船來。"
+          },
+          {
+            "japanese": "いいえ、船は東京からではありません。",
+            "chinese": "不，船不是從東京來。"
+          },
+          {
+            "japanese": "船は駅の近くです。",
+            "chinese": "船在車站附近。"
+          },
+          {
+            "japanese": "高橋さん、船はどこですか。",
+            "chinese": "高橋先生，船在哪裡？"
+          },
+          {
+            "japanese": "李さんは船で大阪へ行きます。",
+            "chinese": "李先生搭船去大阪。"
+          },
+          {
+            "japanese": "あのう、船、こちらですか。",
+            "chinese": "不好意思，船在這裡嗎？"
+          },
+          {
+            "japanese": "船は港の近くです。",
+            "chinese": "船在港口附近。"
+          },
+          {
+            "japanese": "はい、船は私の家の近くです。",
+            "chinese": "是，船在我家附近。"
+          },
+          {
+            "japanese": "船、学校の前です。",
+            "chinese": "船在學校前面。"
+          },
+          {
+            "japanese": "林さん、船は何時までですか。",
+            "chinese": "林先生，船到幾點？"
+          }
+        ]
+      },
+      {
+        "japanese": "でんしゃ",
+        "kanji": "電車",
+        "chinese": "電車",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「学」、「帰」、「来」、「隣」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "隣",
+              "zh": "鄰",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "transportation_movement"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "電車は駅に来ます。",
+            "chinese": "電車來車站。"
+          },
+          {
+            "japanese": "あのう、電車は何時に来ますか。",
+            "chinese": "不好意思，電車幾點來？"
+          },
+          {
+            "japanese": "田中さんは電車で来ます。",
+            "chinese": "田中先生搭電車來。"
+          },
+          {
+            "japanese": "すみません、電車はどこから来ますか。",
+            "chinese": "不好意思，電車從哪裡來？"
+          },
+          {
+            "japanese": "電車は東京から来ます。",
+            "chinese": "電車從東京來。"
+          },
+          {
+            "japanese": "はい、電車はこちらです。",
+            "chinese": "是，電車在這裡。"
+          },
+          {
+            "japanese": "あの電車は京都行きです。",
+            "chinese": "那班電車開往京都。"
+          },
+          {
+            "japanese": "あ、電車、あそこです。",
+            "chinese": "啊，電車在那裡。"
+          },
+          {
+            "japanese": "電車の駅はあちらです。",
+            "chinese": "電車的車站在那邊。"
+          },
+          {
+            "japanese": "ええと、電車はこの先です。",
+            "chinese": "嗯，電車在前面。"
+          },
+          {
+            "japanese": "山田さんは電車で帰ります。",
+            "chinese": "山田先生搭電車回去。"
+          },
+          {
+            "japanese": "いいえ、電車は大阪からではありません。",
+            "chinese": "不，電車不是從大阪來。"
+          },
+          {
+            "japanese": "電車は学校の近くです。",
+            "chinese": "電車在學校附近。"
+          },
+          {
+            "japanese": "高橋さん、電車はどこですか。",
+            "chinese": "高橋先生，電車在哪裡？"
+          },
+          {
+            "japanese": "李さんは電車で大阪へ行きます。",
+            "chinese": "李先生搭電車去大阪。"
+          },
+          {
+            "japanese": "あのう、電車、こちらですか。",
+            "chinese": "不好意思，電車在這裡嗎？"
+          },
+          {
+            "japanese": "電車は駅の隣です。",
+            "chinese": "電車在車站的隔壁。"
+          },
+          {
+            "japanese": "はい、電車は私の家の近くです。",
+            "chinese": "是，電車在我家附近。"
+          },
+          {
+            "japanese": "電車、学校の前です。",
+            "chinese": "電車在學校前面。"
+          },
+          {
+            "japanese": "林さん、電車は何時までですか。",
+            "chinese": "林先生，電車到幾點？"
+          }
+        ]
+      },
+      {
+        "japanese": "ちかてつ",
+        "kanji": "地下鉄",
+        "chinese": "地下鐵",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「学」、「帰」、「来」、「鉄」、「隣」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "鉄",
+              "zh": "鐵",
+              "note": null
+            },
+            {
+              "jp": "隣",
+              "zh": "鄰",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "transportation_movement"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "地下鉄は駅の近くです。",
+            "chinese": "地下鐵在車站附近。"
+          },
+          {
+            "japanese": "あのう、地下鉄はどこですか。",
+            "chinese": "不好意思，地下鐵在哪裡？"
+          },
+          {
+            "japanese": "田中さんは地下鉄で来ます。",
+            "chinese": "田中先生搭地下鐵來。"
+          },
+          {
+            "japanese": "すみません、地下鉄は何時からですか。",
+            "chinese": "不好意思，地下鐵幾點開始？"
+          },
+          {
+            "japanese": "地下鉄は5時からです。",
+            "chinese": "地下鐵5點開始。"
+          },
+          {
+            "japanese": "はい、地下鉄はこちらです。",
+            "chinese": "是，地下鐵在這裡。"
+          },
+          {
+            "japanese": "あの地下鉄は王さんの家の近くです。",
+            "chinese": "那條地下鐵在王先生家附近。"
+          },
+          {
+            "japanese": "あ、地下鉄、あそこです。",
+            "chinese": "啊，地下鐵在那裡。"
+          },
+          {
+            "japanese": "地下鉄の入口はあちらです。",
+            "chinese": "地下鐵的入口在那邊。"
+          },
+          {
+            "japanese": "ええと、地下鉄はこの先です。",
+            "chinese": "嗯，地下鐵在前面。"
+          },
+          {
+            "japanese": "山田さんは地下鉄で帰ります。",
+            "chinese": "山田先生搭地下鐵回去。"
+          },
+          {
+            "japanese": "いいえ、地下鉄は6時からではありません。",
+            "chinese": "不，地下鐵不是6點開始。"
+          },
+          {
+            "japanese": "地下鉄はスーパーの前です。",
+            "chinese": "地下鐵在超市前面。"
+          },
+          {
+            "japanese": "高橋さん、地下鉄はどこですか。",
+            "chinese": "高橋先生，地下鐵在哪裡？"
+          },
+          {
+            "japanese": "李さんは地下鉄で大阪へ行きます。",
+            "chinese": "李先生搭地下鐵去大阪。"
+          },
+          {
+            "japanese": "あのう、地下鉄、こちらですか。",
+            "chinese": "不好意思，地下鐵在這裡嗎？"
+          },
+          {
+            "japanese": "地下鉄は銀行の隣です。",
+            "chinese": "地下鐵在銀行的隔壁。"
+          },
+          {
+            "japanese": "はい、地下鉄は私の家の近くです。",
+            "chinese": "是，地下鐵在我家附近。"
+          },
+          {
+            "japanese": "地下鉄、学校の前です。",
+            "chinese": "地下鐵在學校前面。"
+          },
+          {
+            "japanese": "林さん、地下鉄は何時までですか。",
+            "chinese": "林先生，地下鐵到幾點？"
+          }
+        ]
+      },
+      {
+        "japanese": "しんかんせん",
+        "kanji": "新幹線",
+        "chinese": "新幹線",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「線」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "線",
+              "zh": "線",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "隣",
+              "zh": "鄰",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "transportation_movement"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "新幹線は東京から来ます。",
+            "chinese": "新幹線從東京來。"
+          },
+          {
+            "japanese": "あのう、新幹線は何時に来ますか。",
+            "chinese": "不好意思，新幹線幾點來？"
+          },
+          {
+            "japanese": "田中さんは新幹線で来ます。",
+            "chinese": "田中先生搭新幹線來。"
+          },
+          {
+            "japanese": "すみません、新幹線はどこから来ますか。",
+            "chinese": "不好意思，新幹線從哪裡來？"
+          },
+          {
+            "japanese": "新幹線は大阪から来ます。",
+            "chinese": "新幹線從大阪來。"
+          },
+          {
+            "japanese": "はい、新幹線はこちらです。",
+            "chinese": "是，新幹線在這裡。"
+          },
+          {
+            "japanese": "あの新幹線は京都行きです。",
+            "chinese": "那班新幹線開往京都。"
+          },
+          {
+            "japanese": "あ、新幹線、あそこです。",
+            "chinese": "啊，新幹線在那裡。"
+          },
+          {
+            "japanese": "新幹線のホームはあちらです。",
+            "chinese": "新幹線的月台在那邊。"
+          },
+          {
+            "japanese": "ええと、新幹線はこの先です。",
+            "chinese": "嗯，新幹線在前面。"
+          },
+          {
+            "japanese": "山田さんは新幹線で帰ります。",
+            "chinese": "山田先生搭新幹線回去。"
+          },
+          {
+            "japanese": "いいえ、新幹線は名古屋からではありません。",
+            "chinese": "不，新幹線不是從名古屋來。"
+          },
+          {
+            "japanese": "新幹線は駅の近くです。",
+            "chinese": "新幹線在車站附近。"
+          },
+          {
+            "japanese": "高橋さん、新幹線はどこですか。",
+            "chinese": "高橋先生，新幹線在哪裡？"
+          },
+          {
+            "japanese": "李さんは新幹線で大阪へ行きます。",
+            "chinese": "李先生搭新幹線去大阪。"
+          },
+          {
+            "japanese": "あのう、新幹線、こちらですか。",
+            "chinese": "不好意思，新幹線在這裡嗎？"
+          },
+          {
+            "japanese": "新幹線は銀行の隣です。",
+            "chinese": "新幹線在銀行的隔壁。"
+          },
+          {
+            "japanese": "はい、新幹線は私の家の近くです。",
+            "chinese": "是，新幹線在我家附近。"
+          },
+          {
+            "japanese": "新幹線、学校の前です。",
+            "chinese": "新幹線在學校前面。"
+          },
+          {
+            "japanese": "林さん、新幹線は何時までですか。",
+            "chinese": "林先生，新幹線到幾點？"
+          }
+        ]
+      },
+      {
+        "japanese": "バス",
+        "kanji": null,
+        "chinese": "公車，巴士",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「学」、「帰」、「来」、「毎」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "transportation_movement"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "私はバスで駅へ行きます。",
+            "chinese": "我搭公車去車站。"
+          },
+          {
+            "japanese": "これはバスです。",
+            "chinese": "這是公車。"
+          },
+          {
+            "japanese": "田中さんはバスで来ます。",
+            "chinese": "田中先生搭公車來。"
+          },
+          {
+            "japanese": "バス停は駅の前です。",
+            "chinese": "公車站在車站前。"
+          },
+          {
+            "japanese": "私はバスで学校へ行きます。",
+            "chinese": "我搭公車去學校。"
+          },
+          {
+            "japanese": "山田さんはバスで帰ります。",
+            "chinese": "山田先生搭公車回家。"
+          },
+          {
+            "japanese": "バスは10時に来ます。",
+            "chinese": "公車10點發車。"
+          },
+          {
+            "japanese": "私は毎日バスで行きます。",
+            "chinese": "我每天搭公車去。"
+          },
+          {
+            "japanese": "バスで空港へ行きます。",
+            "chinese": "搭公車去機場。"
+          },
+          {
+            "japanese": "王さんはバスで来ます。",
+            "chinese": "王先生搭公車來。"
+          },
+          {
+            "japanese": "私は明日バスで京都へ行きます。",
+            "chinese": "我明天搭公車去京都。"
+          },
+          {
+            "japanese": "バスは駅から来ます。",
+            "chinese": "公車從車站出發。"
+          },
+          {
+            "japanese": "私は母とバスで行きます。",
+            "chinese": "我和媽媽搭公車去。"
+          },
+          {
+            "japanese": "バスで会社へ帰ります。",
+            "chinese": "搭公車回公司。"
+          },
+          {
+            "japanese": "バスで学校から帰ります。",
+            "chinese": "搭公車從學校回去。"
+          },
+          {
+            "japanese": "このバスは東京へ行きます。",
+            "chinese": "這班公車開往東京。"
+          },
+          {
+            "japanese": "バスは9時に来ます。",
+            "chinese": "公車9點來。"
+          },
+          {
+            "japanese": "バスで家へ帰ります。",
+            "chinese": "搭公車從學校回家。"
+          },
+          {
+            "japanese": "バスで大阪へ行きます。",
+            "chinese": "搭公車去大阪。"
+          },
+          {
+            "japanese": "明日バスで駅へ行きます。",
+            "chinese": "明天搭公車去車站。"
+          }
+        ]
+      },
+      {
+        "japanese": "タクシー",
+        "kanji": null,
+        "chinese": "計程車",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「学」、「帰」、「来」、「転」、「隣」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "転",
+              "zh": "轉",
+              "note": null
+            },
+            {
+              "jp": "隣",
+              "zh": "鄰",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "transportation_movement"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "タクシーは駅の前です。",
+            "chinese": "計程車在車站前面。"
+          },
+          {
+            "japanese": "あのう、タクシーはどこですか。",
+            "chinese": "不好意思，計程車在哪裡？"
+          },
+          {
+            "japanese": "田中さんはタクシーで帰ります。",
+            "chinese": "田中先生搭計程車回去。"
+          },
+          {
+            "japanese": "すみません、タクシーはどこですか。",
+            "chinese": "不好意思，計程車在哪裡？"
+          },
+          {
+            "japanese": "タクシーはこちらです。",
+            "chinese": "計程車在這裡。"
+          },
+          {
+            "japanese": "はい、タクシーは駅の前です。",
+            "chinese": "是，計程車在車站前面。"
+          },
+          {
+            "japanese": "あのタクシーは王さんの会社のです。",
+            "chinese": "那輛計程車是王先生公司的。"
+          },
+          {
+            "japanese": "あ、タクシー、あそこです。",
+            "chinese": "啊，計程車在那裡。"
+          },
+          {
+            "japanese": "タクシーの運転手さんは山田さんです。",
+            "chinese": "計程車的司機是山田先生。"
+          },
+          {
+            "japanese": "ええと、タクシーはこの先です。",
+            "chinese": "嗯，計程車在前面。"
+          },
+          {
+            "japanese": "山田さんはタクシーで来ます。",
+            "chinese": "山田先生搭計程車來。"
+          },
+          {
+            "japanese": "いいえ、タクシーは駅の前ではありません。",
+            "chinese": "不，計程車不在車站前面。"
+          },
+          {
+            "japanese": "タクシーは学校の近くです。",
+            "chinese": "計程車在學校附近。"
+          },
+          {
+            "japanese": "高橋さん、タクシーはどこですか。",
+            "chinese": "高橋先生，計程車在哪裡？"
+          },
+          {
+            "japanese": "李さんはタクシーで大阪へ行きます。",
+            "chinese": "李先生搭計程車去大阪。"
+          },
+          {
+            "japanese": "あのう、タクシー、こちらですか。",
+            "chinese": "不好意思，計程車在這裡嗎？"
+          },
+          {
+            "japanese": "タクシーは銀行の隣です。",
+            "chinese": "計程車在銀行的隔壁。"
+          },
+          {
+            "japanese": "はい、タクシーは私の家の近くです。",
+            "chinese": "是，計程車在我家附近。"
+          },
+          {
+            "japanese": "タクシー、学校の前です。",
+            "chinese": "計程車在學校前面。"
+          },
+          {
+            "japanese": "林さん、タクシーはどこですか。",
+            "chinese": "林先生，計程車在哪裡？"
+          }
+        ]
+      },
+      {
+        "japanese": "じてんしゃ",
+        "kanji": "自転車",
+        "chinese": "自行車，腳踏車",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「学」、「帰」、「来」、「転」、「隣」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "転",
+              "zh": "轉",
+              "note": null
+            },
+            {
+              "jp": "隣",
+              "zh": "鄰",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "transportation_movement"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "自転車は駅の前です。",
+            "chinese": "自行車在車站前面。"
+          },
+          {
+            "japanese": "あのう、自転車はどこですか。",
+            "chinese": "不好意思，自行車在哪裡？"
+          },
+          {
+            "japanese": "田中さんは自転車で来ます。",
+            "chinese": "田中先生騎自行車來。"
+          },
+          {
+            "japanese": "すみません、自転車はどこですか。",
+            "chinese": "不好意思，自行車在哪裡？"
+          },
+          {
+            "japanese": "自転車はこちらです。",
+            "chinese": "自行車在這裡。"
+          },
+          {
+            "japanese": "はい、自転車は駅の前です。",
+            "chinese": "是，自行車在車站前面。"
+          },
+          {
+            "japanese": "あの自転車は王さんのものです。",
+            "chinese": "那輛自行車是王先生的。"
+          },
+          {
+            "japanese": "あ、自転車、あそこです。",
+            "chinese": "啊，自行車在那裡。"
+          },
+          {
+            "japanese": "自転車のかごはあちらです。",
+            "chinese": "自行車的籃子在那邊。"
+          },
+          {
+            "japanese": "ええと、自転車はこの先です。",
+            "chinese": "嗯，自行車在前面。"
+          },
+          {
+            "japanese": "山田さんは自転車で帰ります。",
+            "chinese": "山田先生騎自行車回去。"
+          },
+          {
+            "japanese": "いいえ、自転車は駅の前ではありません。",
+            "chinese": "不，自行車不在車站前面。"
+          },
+          {
+            "japanese": "自転車は学校の近くです。",
+            "chinese": "自行車在學校附近。"
+          },
+          {
+            "japanese": "高橋さん、自転車はどこですか。",
+            "chinese": "高橋先生，自行車在哪裡？"
+          },
+          {
+            "japanese": "李さんは自転車で学校へ行きます。",
+            "chinese": "李先生騎自行車去學校。"
+          },
+          {
+            "japanese": "あのう、自転車、こちらですか。",
+            "chinese": "不好意思，自行車在這裡嗎？"
+          },
+          {
+            "japanese": "自転車は銀行の隣です。",
+            "chinese": "自行車在銀行的隔壁。"
+          },
+          {
+            "japanese": "はい、自転車は私のものです。",
+            "chinese": "是，自行車是我的。"
+          },
+          {
+            "japanese": "自転車、学校の前です。",
+            "chinese": "自行車在學校前面。"
+          },
+          {
+            "japanese": "林さん、自転車はどこですか。",
+            "chinese": "林先生，自行車在哪裡？"
+          }
+        ]
+      },
+      {
+        "japanese": "あるいて",
+        "kanji": "歩いて",
+        "chinese": "步行",
+        "image": null,
+        "note": "「歩く」的「て形」「歩いて」，作副詞表「用走的」。",
+        "kanji_note": {
+          "summary": "日語的「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "transportation_movement"
+        ],
+        "speech": [
+          "adverb"
+        ],
+        "sentence": [
+          {
+            "japanese": "毎朝、歩いて学校へ行きます。",
+            "chinese": "每天早上走路去學校。"
+          },
+          {
+            "japanese": "あのう、歩いて駅まで行きますか。",
+            "chinese": "不好意思，你要走到車站嗎？"
+          },
+          {
+            "japanese": "田中さんは歩いて会社へ行きます。",
+            "chinese": "田中先生走路去公司。"
+          },
+          {
+            "japanese": "山田さんは歩いて駅へ来ます。",
+            "chinese": "山田先生走路來車站。"
+          },
+          {
+            "japanese": "すみません、歩いて銀行へ行きますか。",
+            "chinese": "不好意思，你要走路去銀行嗎？"
+          },
+          {
+            "japanese": "高橋さんは歩いて帰ります。",
+            "chinese": "高橋先生走路回去。"
+          },
+          {
+            "japanese": "李さんは歩いて家へ帰ります。",
+            "chinese": "李先生走路回家。"
+          },
+          {
+            "japanese": "あ、王さんは歩いて来ます。",
+            "chinese": "啊，王先生走路來。"
+          },
+          {
+            "japanese": "金さんは歩いてスーパーへ行きます。",
+            "chinese": "金先生走路去超市。"
+          },
+          {
+            "japanese": "ええと、林さんは歩いて学校へ来ます。",
+            "chinese": "嗯，林先生走路來學校。"
+          },
+          {
+            "japanese": "鈴木さんは歩いて駅へ帰ります。",
+            "chinese": "鈴木先生走路回車站。"
+          },
+          {
+            "japanese": "佐藤さんは歩いて図書館へ行きます。",
+            "chinese": "佐藤先生走路去圖書館。"
+          },
+          {
+            "japanese": "私は歩いて会社へ行きます。",
+            "chinese": "我走路去公司。"
+          },
+          {
+            "japanese": "木村さんは歩いて公園へ行きます。",
+            "chinese": "木村先生走路去公園。"
+          },
+          {
+            "japanese": "山田さんは歩いて家へ帰ります。",
+            "chinese": "山田先生走路回家。"
+          },
+          {
+            "japanese": "あのう、歩いて何分ですか。",
+            "chinese": "不好意思，走路要幾分鐘？"
+          },
+          {
+            "japanese": "田中さんは歩いて病院へ行きます。",
+            "chinese": "田中先生走路去醫院。"
+          },
+          {
+            "japanese": "はい、私も歩いて行きます。",
+            "chinese": "是，我也走路去。"
+          },
+          {
+            "japanese": "李さんは歩いて学校へ来ます。",
+            "chinese": "李先生走路來學校。"
+          },
+          {
+            "japanese": "高橋さんは歩いて駅へ行きます。",
+            "chinese": "高橋先生走路去車站。"
+          }
+        ]
+      },
+      {
+        "japanese": "ひと",
+        "kanji": "人",
+        "chinese": "人",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "医",
+              "zh": "醫",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "あの人は先生です。",
+            "chinese": "那個人是老師。"
+          },
+          {
+            "japanese": "この人は学生です。",
+            "chinese": "這個人是學生。"
+          },
+          {
+            "japanese": "あの人は医者です。",
+            "chinese": "那個人是醫生。"
+          },
+          {
+            "japanese": "この人は会社員です。",
+            "chinese": "這個人是公司職員。"
+          },
+          {
+            "japanese": "あの人は銀行員です。",
+            "chinese": "那個人是銀行員。"
+          },
+          {
+            "japanese": "この人は研究者です。",
+            "chinese": "這個人是研究人員。"
+          },
+          {
+            "japanese": "あの人はエンジニアです。",
+            "chinese": "那個人是工程師。"
+          },
+          {
+            "japanese": "この人は私の友達です。",
+            "chinese": "這個人是我的朋友。"
+          },
+          {
+            "japanese": "あの人は毎日働きます。",
+            "chinese": "那個人每天工作。"
+          },
+          {
+            "japanese": "この人は学校へ行きます。",
+            "chinese": "這個人去學校。"
+          },
+          {
+            "japanese": "あの人は車で来ます。",
+            "chinese": "那個人開車來。"
+          },
+          {
+            "japanese": "この人は5時に帰ります。",
+            "chinese": "這個人5點回家。"
+          },
+          {
+            "japanese": "あの人は先生ではありません。",
+            "chinese": "那個人不是老師。"
+          },
+          {
+            "japanese": "この人は学生ですか。",
+            "chinese": "這個人是學生嗎？"
+          },
+          {
+            "japanese": "あの人は電車で来ます。",
+            "chinese": "那個人搭電車來。"
+          },
+          {
+            "japanese": "この人は学校まで歩きます。",
+            "chinese": "這個人走路去學校。"
+          },
+          {
+            "japanese": "あの人は毎日勉強します。",
+            "chinese": "那個人每天學習。"
+          },
+          {
+            "japanese": "この人は朝勉強します。",
+            "chinese": "這個人早上學習。"
+          },
+          {
+            "japanese": "あの人は明日休みます。",
+            "chinese": "那個人明天休息。"
+          },
+          {
+            "japanese": "この人は王さんではありません。",
+            "chinese": "這個人不是王先生。"
+          }
+        ]
+      },
+      {
+        "japanese": "ともだち",
+        "kanji": "友達",
+        "chinese": "朋友",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "友達は駅へ来ます。",
+            "chinese": "朋友來車站。"
+          },
+          {
+            "japanese": "友達と学校へ行きます。",
+            "chinese": "和朋友一起去學校。"
+          },
+          {
+            "japanese": "あの友達は学生です。",
+            "chinese": "那個朋友是學生。"
+          },
+          {
+            "japanese": "明日、友達が大阪から来ます。",
+            "chinese": "明天朋友從大阪來。"
+          },
+          {
+            "japanese": "友達は家へ帰ります。",
+            "chinese": "朋友回家。"
+          },
+          {
+            "japanese": "友達は電車で来ます。",
+            "chinese": "朋友搭電車來。"
+          },
+          {
+            "japanese": "駅に友達が来ます。",
+            "chinese": "朋友來車站。"
+          },
+          {
+            "japanese": "友達は会社へ行きます。",
+            "chinese": "朋友去公司。"
+          },
+          {
+            "japanese": "昨日は友達の誕生日でした。",
+            "chinese": "昨天是朋友的生日。"
+          },
+          {
+            "japanese": "友達は東京へ帰ります。",
+            "chinese": "朋友回東京。"
+          },
+          {
+            "japanese": "王さんは私の友達ではありません。",
+            "chinese": "王先生不是我的朋友。"
+          },
+          {
+            "japanese": "友達は何時に来ますか。",
+            "chinese": "朋友幾點來？"
+          },
+          {
+            "japanese": "友達はどこですか。",
+            "chinese": "朋友在哪裡？"
+          },
+          {
+            "japanese": "友達と図書館へ行きます。",
+            "chinese": "和朋友一起去圖書館。"
+          },
+          {
+            "japanese": "スーパーへ友達と行きます。",
+            "chinese": "和朋友一起去超市。"
+          },
+          {
+            "japanese": "友達は学校から帰ります。",
+            "chinese": "朋友從學校回去。"
+          },
+          {
+            "japanese": "来週、友達が日本へ来ます。",
+            "chinese": "下週朋友來日本。"
+          },
+          {
+            "japanese": "友達は毎朝、学校まで歩きます。",
+            "chinese": "朋友每天早上走路去學校。"
+          },
+          {
+            "japanese": "私の友達は家の近くです。",
+            "chinese": "我的朋友住在家附近。"
+          },
+          {
+            "japanese": "友達は銀行へ行きます。",
+            "chinese": "朋友去銀行。"
+          }
+        ]
+      },
+      {
+        "japanese": "かれ",
+        "kanji": "彼",
+        "chinese": "他，男朋友",
+        "image": null,
+        "note": "亦指男朋友",
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "医",
+              "zh": "醫",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "彼は学生です。",
+            "chinese": "他是學生。"
+          },
+          {
+            "japanese": "彼は毎日学校へ行きます。",
+            "chinese": "他每天去學校。"
+          },
+          {
+            "japanese": "彼は私の友達です。",
+            "chinese": "他是我的朋友。"
+          },
+          {
+            "japanese": "彼は会社員ではありません。",
+            "chinese": "他不是公司職員。"
+          },
+          {
+            "japanese": "彼は明日来ます。",
+            "chinese": "他明天來。"
+          },
+          {
+            "japanese": "彼は電車で帰ります。",
+            "chinese": "他搭電車回家。"
+          },
+          {
+            "japanese": "彼は医者ですか。",
+            "chinese": "他是醫生嗎？"
+          },
+          {
+            "japanese": "彼は5時に来ます。",
+            "chinese": "他5點來。"
+          },
+          {
+            "japanese": "彼は東京へ行きます。",
+            "chinese": "他去東京。"
+          },
+          {
+            "japanese": "彼は来週帰ります。",
+            "chinese": "他下星期回去。"
+          },
+          {
+            "japanese": "彼は銀行員です。",
+            "chinese": "他是銀行員。"
+          },
+          {
+            "japanese": "彼は毎朝学校へ来ます。",
+            "chinese": "他每天早上來學校。"
+          },
+          {
+            "japanese": "彼は車で会社へ行きます。",
+            "chinese": "他開車去公司。"
+          },
+          {
+            "japanese": "彼は研究者ですか。",
+            "chinese": "他是研究人員嗎？"
+          },
+          {
+            "japanese": "彼は一人で帰ります。",
+            "chinese": "他一個人回去。"
+          },
+          {
+            "japanese": "彼は友達と来ます。",
+            "chinese": "他和朋友一起來。"
+          },
+          {
+            "japanese": "彼は先生ではありません。",
+            "chinese": "他不是老師。"
+          },
+          {
+            "japanese": "彼は毎日働きます。",
+            "chinese": "他每天工作。"
+          },
+          {
+            "japanese": "彼はバスで学校へ行きます。",
+            "chinese": "他搭公車去學校。"
+          },
+          {
+            "japanese": "彼は7時に来ます。",
+            "chinese": "他7點來。"
+          }
+        ]
+      },
+      {
+        "japanese": "かのじょ",
+        "kanji": "彼女",
+        "chinese": "她，女朋友",
+        "image": null,
+        "note": "亦指女朋友",
+        "kanji_note": {
+          "summary": "日語的「会」、「医」、「学」、「帰」、「来」、「歩」、「毎」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "医",
+              "zh": "醫",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "彼女は先生です。",
+            "chinese": "她是老師。"
+          },
+          {
+            "japanese": "彼女は毎日会社へ行きます。",
+            "chinese": "她每天去公司。"
+          },
+          {
+            "japanese": "彼女は私の友達です。",
+            "chinese": "她是我的朋友。"
+          },
+          {
+            "japanese": "彼女は学生ではありません。",
+            "chinese": "她不是學生。"
+          },
+          {
+            "japanese": "彼女は明日来ます。",
+            "chinese": "她明天來。"
+          },
+          {
+            "japanese": "彼女はバスで帰ります。",
+            "chinese": "她搭公車回家。"
+          },
+          {
+            "japanese": "彼女は看護師ですか。",
+            "chinese": "她是護士嗎？"
+          },
+          {
+            "japanese": "彼女は7時に来ます。",
+            "chinese": "她7點來。"
+          },
+          {
+            "japanese": "彼女は京都です。",
+            "chinese": "她在京都。"
+          },
+          {
+            "japanese": "彼女は東京へ行きます。",
+            "chinese": "她去東京。"
+          },
+          {
+            "japanese": "彼女は来月帰ります。",
+            "chinese": "她下個月回去。"
+          },
+          {
+            "japanese": "彼女はエンジニアです。",
+            "chinese": "她是工程師。"
+          },
+          {
+            "japanese": "彼女は毎朝電車で来ます。",
+            "chinese": "她每天早上搭電車來。"
+          },
+          {
+            "japanese": "彼女は会社まで歩きます。",
+            "chinese": "她走路去公司。"
+          },
+          {
+            "japanese": "彼女は医者ですか。",
+            "chinese": "她是醫生嗎？"
+          },
+          {
+            "japanese": "彼女はタクシーで帰ります。",
+            "chinese": "她搭計程車回家。"
+          },
+          {
+            "japanese": "彼女は友達と来ます。",
+            "chinese": "她和朋友一起來。"
+          },
+          {
+            "japanese": "彼女は会社員ではありません。",
+            "chinese": "她不是公司職員。"
+          },
+          {
+            "japanese": "彼女は毎日勉強します。",
+            "chinese": "她每天學習。"
+          },
+          {
+            "japanese": "彼女は5時に帰ります。",
+            "chinese": "她5點回家。"
+          }
+        ]
+      },
+      {
+        "japanese": "かぞく",
+        "kanji": "家族",
+        "chinese": "家人，家屬",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "国",
+              "zh": "國",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "家族は大阪へ行きます。",
+            "chinese": "家人去大阪。"
+          },
+          {
+            "japanese": "家族と京都へ行きます。",
+            "chinese": "和家人一起去京都。"
+          },
+          {
+            "japanese": "あの家族は東京から来ます。",
+            "chinese": "那家人從東京來。"
+          },
+          {
+            "japanese": "明日、家族が日本へ来ます。",
+            "chinese": "明天家人來日本。"
+          },
+          {
+            "japanese": "家族は大阪へ帰ります。",
+            "chinese": "家人回大阪。"
+          },
+          {
+            "japanese": "家族はバスで来ます。",
+            "chinese": "家人搭公車來。"
+          },
+          {
+            "japanese": "家に家族が来ます。",
+            "chinese": "家人來家裡。"
+          },
+          {
+            "japanese": "家族はデパートへ行きます。",
+            "chinese": "家人去百貨公司。"
+          },
+          {
+            "japanese": "日曜日は家族と公園へ行きます。",
+            "chinese": "星期日和家人去公園。"
+          },
+          {
+            "japanese": "家族は京都へ帰ります。",
+            "chinese": "家人回京都。"
+          },
+          {
+            "japanese": "王さんの家族は中国です。",
+            "chinese": "王先生的家人們在中國。"
+          },
+          {
+            "japanese": "家族は何時に帰りますか。",
+            "chinese": "家人幾點回去？"
+          },
+          {
+            "japanese": "家族はどこへ行きますか。",
+            "chinese": "家人要去哪裡？"
+          },
+          {
+            "japanese": "家族と駅まで行きます。",
+            "chinese": "和家人一起去車站。"
+          },
+          {
+            "japanese": "デパートへ家族と行きます。",
+            "chinese": "和家人一起去百貨公司。"
+          },
+          {
+            "japanese": "家族は駅から帰ります。",
+            "chinese": "家人從車站回去。"
+          },
+          {
+            "japanese": "来週、家族が大阪へ来ます。",
+            "chinese": "下週家人來大阪。"
+          },
+          {
+            "japanese": "家族は毎朝、公園まで歩きます。",
+            "chinese": "家人每天早上走路去公園。"
+          },
+          {
+            "japanese": "私の家族は大阪です。",
+            "chinese": "我的家人在大阪。"
+          },
+          {
+            "japanese": "家族は病院へ行きます。",
+            "chinese": "家人去醫院。"
+          }
+        ]
+      },
+      {
+        "japanese": "ひとりで",
+        "kanji": "一人で",
+        "chinese": "一個人，獨自",
+        "image": null,
+        "note": "表示獨自進行某動作",
+        "kanji_note": {
+          "summary": "日語的「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "action_activity"
+        ],
+        "speech": [
+          "adverb"
+        ],
+        "sentence": [
+          {
+            "japanese": "毎朝、一人で学校へ行きます。",
+            "chinese": "每天早上一個人去學校。"
+          },
+          {
+            "japanese": "あのう、一人で駅まで行きますか。",
+            "chinese": "不好意思，你一個人去車站嗎？"
+          },
+          {
+            "japanese": "田中さんは一人で会社へ行きます。",
+            "chinese": "田中先生一個人去公司。"
+          },
+          {
+            "japanese": "山田さんは一人で帰ります。",
+            "chinese": "山田先生一個人回去。"
+          },
+          {
+            "japanese": "すみません、一人で銀行へ行きますか。",
+            "chinese": "不好意思，你一個人去銀行嗎？"
+          },
+          {
+            "japanese": "高橋さんは一人で来ます。",
+            "chinese": "高橋先生一個人來。"
+          },
+          {
+            "japanese": "李さんは一人で家へ帰ります。",
+            "chinese": "李先生一個人回家。"
+          },
+          {
+            "japanese": "あ、王さんは一人で来ます。",
+            "chinese": "啊，王先生一個人來。"
+          },
+          {
+            "japanese": "金さんは一人でスーパーへ行きます。",
+            "chinese": "金先生一個人去超市。"
+          },
+          {
+            "japanese": "ええと、林さんは一人で学校へ来ます。",
+            "chinese": "嗯，林先生一個人來學校。"
+          },
+          {
+            "japanese": "鈴木さんは一人で駅へ帰ります。",
+            "chinese": "鈴木先生一個人回車站。"
+          },
+          {
+            "japanese": "佐藤さんは一人で図書館へ行きます。",
+            "chinese": "佐藤先生一個人去圖書館。"
+          },
+          {
+            "japanese": "私は一人で会社へ行きます。",
+            "chinese": "我一個人去公司。"
+          },
+          {
+            "japanese": "木村さんは一人で公園へ行きます。",
+            "chinese": "木村先生一個人去公園。"
+          },
+          {
+            "japanese": "山田さんは一人で家へ帰ります。",
+            "chinese": "山田先生一個人回家。"
+          },
+          {
+            "japanese": "あのう、一人で来ますか。",
+            "chinese": "不好意思，你一個人來嗎？"
+          },
+          {
+            "japanese": "田中さんは一人で病院へ行きます。",
+            "chinese": "田中先生一個人去醫院。"
+          },
+          {
+            "japanese": "はい、私も一人で行きます。",
+            "chinese": "是，我也一個人去。"
+          },
+          {
+            "japanese": "李さんは一人で学校へ来ます。",
+            "chinese": "李先生一個人來學校。"
+          },
+          {
+            "japanese": "高橋さんは一人で駅へ行きます。",
+            "chinese": "高橋先生一個人去車站。"
+          }
+        ]
+      },
+      {
+        "japanese": "せんしゅう",
+        "kanji": "先週",
+        "chinese": "上週，上星期",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「曜」、「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "先週は休みでした。",
+            "chinese": "上週休息。"
+          },
+          {
+            "japanese": "先週の日曜日は雨でした。",
+            "chinese": "上週星期天下雨。"
+          },
+          {
+            "japanese": "田中さんは先週、大阪でした。",
+            "chinese": "田中先生上週在大阪。"
+          },
+          {
+            "japanese": "先週は会議でした。",
+            "chinese": "上週有會議。"
+          },
+          {
+            "japanese": "先週、山田さんは京都でした。",
+            "chinese": "上週山田先生在京都。"
+          },
+          {
+            "japanese": "先週の金曜日は仕事でした。",
+            "chinese": "上週星期五要上班。"
+          },
+          {
+            "japanese": "王さんは先週、学校でした。",
+            "chinese": "王先生上週在學校。"
+          },
+          {
+            "japanese": "先週は10日でした。",
+            "chinese": "上週是10號。"
+          },
+          {
+            "japanese": "先週、李さんは図書館でした。",
+            "chinese": "上週李先生在圖書館。"
+          },
+          {
+            "japanese": "先週の午後は病院でした。",
+            "chinese": "上週下午在醫院。"
+          },
+          {
+            "japanese": "先週は何日でしたか。",
+            "chinese": "上週是幾號？"
+          },
+          {
+            "japanese": "木村さんは先週、東京でした。",
+            "chinese": "木村先生上週在東京。"
+          },
+          {
+            "japanese": "先週の月曜日は晴れでした。",
+            "chinese": "上週星期一是晴天。"
+          },
+          {
+            "japanese": "先週、林さんは銀行でした。",
+            "chinese": "上週林先生在銀行。"
+          },
+          {
+            "japanese": "先週は私の誕生日でした。",
+            "chinese": "上週是我的生日。"
+          },
+          {
+            "japanese": "鈴木さんは先週、福岡でした。",
+            "chinese": "鈴木先生上週在福岡。"
+          },
+          {
+            "japanese": "先週の夜は雨でした。",
+            "chinese": "上週晚上下雨。"
+          },
+          {
+            "japanese": "先週はどこでしたか。",
+            "chinese": "上週你在哪裡？"
+          },
+          {
+            "japanese": "先週の土曜日は晴れでした。",
+            "chinese": "上週星期六是晴天。"
+          },
+          {
+            "japanese": "佐藤さんは先週、名古屋でした。",
+            "chinese": "佐藤先生上週在名古屋。"
+          }
+        ]
+      },
+      {
+        "japanese": "こんしゅう",
+        "kanji": "今週",
+        "chinese": "本週，這星期",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "今週は仕事です。",
+            "chinese": "這星期有工作。"
+          },
+          {
+            "japanese": "今週は月曜日です。",
+            "chinese": "這星期是星期一。"
+          },
+          {
+            "japanese": "今週の金曜日に帰ります。",
+            "chinese": "這星期五回去。"
+          },
+          {
+            "japanese": "今週は学校へ行きます。",
+            "chinese": "這星期去學校。"
+          },
+          {
+            "japanese": "今週の日曜日は休みです。",
+            "chinese": "這星期天休息。"
+          },
+          {
+            "japanese": "私は今週東京へ行きます。",
+            "chinese": "我這星期去東京。"
+          },
+          {
+            "japanese": "今週の会議は木曜日です。",
+            "chinese": "這星期的會議在星期四。"
+          },
+          {
+            "japanese": "今週は5月です。",
+            "chinese": "這星期是5月。"
+          },
+          {
+            "japanese": "今週末に京都へ行きます。",
+            "chinese": "這週末去京都。"
+          },
+          {
+            "japanese": "今週はテストです。",
+            "chinese": "這星期有考試。"
+          },
+          {
+            "japanese": "家族は今週来ます。",
+            "chinese": "家人這星期來。"
+          },
+          {
+            "japanese": "今週は大阪へ帰ります。",
+            "chinese": "這星期回大阪。"
+          },
+          {
+            "japanese": "今週は5時に帰ります。",
+            "chinese": "這星期5點回家。"
+          },
+          {
+            "japanese": "今週の木曜日に会議です。",
+            "chinese": "這星期四有會議。"
+          },
+          {
+            "japanese": "今週は日本語の勉強です。",
+            "chinese": "這星期是日語學習。"
+          },
+          {
+            "japanese": "今週は休みではありません。",
+            "chinese": "這星期不是假日。"
+          },
+          {
+            "japanese": "今週の月曜日から学校へ行きます。",
+            "chinese": "這星期一開始去學校。"
+          },
+          {
+            "japanese": "今週から働きます。",
+            "chinese": "這星期開始工作。"
+          },
+          {
+            "japanese": "今週の土曜日まで働きます。",
+            "chinese": "工作到這星期六。"
+          },
+          {
+            "japanese": "今週は火曜日まで休みです。",
+            "chinese": "休息到這星期二。"
+          }
+        ]
+      },
+      {
+        "japanese": "らいしゅう",
+        "kanji": "来週",
+        "chinese": "下週，下星期",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「曜」、「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "験",
+              "zh": "驗",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "来週は仕事です。",
+            "chinese": "下週要上班。"
+          },
+          {
+            "japanese": "来週の日曜日は休みです。",
+            "chinese": "下週星期天休息。"
+          },
+          {
+            "japanese": "田中さんは来週、大阪へ行きます。",
+            "chinese": "田中先生下週去大阪。"
+          },
+          {
+            "japanese": "来週は会議です。",
+            "chinese": "下週有會議。"
+          },
+          {
+            "japanese": "来週、山田さんは京都へ来ます。",
+            "chinese": "下週山田先生來京都。"
+          },
+          {
+            "japanese": "来週の金曜日は試験です。",
+            "chinese": "下週星期五有考試。"
+          },
+          {
+            "japanese": "王さんは来週、学校へ来ます。",
+            "chinese": "王先生下週來學校。"
+          },
+          {
+            "japanese": "来週は11日です。",
+            "chinese": "下週是11號。"
+          },
+          {
+            "japanese": "来週、李さんは図書館へ行きます。",
+            "chinese": "李先生下週去圖書館。"
+          },
+          {
+            "japanese": "来週の午後は病院です。",
+            "chinese": "下週下午去醫院。"
+          },
+          {
+            "japanese": "来週は何日ですか。",
+            "chinese": "下週是幾號？"
+          },
+          {
+            "japanese": "木村さんは来週、東京へ行きます。",
+            "chinese": "木村先生下週去東京。"
+          },
+          {
+            "japanese": "来週の月曜日は9時からです。",
+            "chinese": "下週星期一9點開始。"
+          },
+          {
+            "japanese": "来週、林さんは銀行へ行きます。",
+            "chinese": "林先生下週去銀行。"
+          },
+          {
+            "japanese": "来週は私の誕生日です。",
+            "chinese": "下週是我的生日。"
+          },
+          {
+            "japanese": "鈴木さんは来週、大阪へ来ます。",
+            "chinese": "鈴木先生下週來大阪。"
+          },
+          {
+            "japanese": "来週の夜は会議です。",
+            "chinese": "下週晚上有會議。"
+          },
+          {
+            "japanese": "来週はどこへ行きますか。",
+            "chinese": "下週要去哪裡？"
+          },
+          {
+            "japanese": "来週の土曜日はパーティーです。",
+            "chinese": "下週星期六有派對。"
+          },
+          {
+            "japanese": "佐藤さんは来週、名古屋へ行きます。",
+            "chinese": "佐藤先生下週去名古屋。"
+          }
+        ]
+      },
+      {
+        "japanese": "せんげつ",
+        "kanji": "先月",
+        "chinese": "上個月",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「曜」、「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "先月は休みでした。",
+            "chinese": "上個月休息。"
+          },
+          {
+            "japanese": "あのう、先月はどこでしたか。",
+            "chinese": "不好意思，上個月你在哪裡？"
+          },
+          {
+            "japanese": "先月、田中さんは大阪でした。",
+            "chinese": "上個月田中先生在大阪。"
+          },
+          {
+            "japanese": "すみません、先月は仕事でしたか。",
+            "chinese": "不好意思，上個月要工作嗎？"
+          },
+          {
+            "japanese": "先月は会議でした。",
+            "chinese": "上個月有會議。"
+          },
+          {
+            "japanese": "はい、先月は私の誕生日でした。",
+            "chinese": "是，上個月是我的生日。"
+          },
+          {
+            "japanese": "先月、山田さんは京都でした。",
+            "chinese": "上個月山田先生在京都。"
+          },
+          {
+            "japanese": "あ、先月、私は家でした。",
+            "chinese": "啊，上個月我在家。"
+          },
+          {
+            "japanese": "先月の10日は雨でした。",
+            "chinese": "上個月的10號下雨。"
+          },
+          {
+            "japanese": "ええと、先月は休みでした。",
+            "chinese": "嗯，上個月休息。"
+          },
+          {
+            "japanese": "先月、王さんは学校でした。",
+            "chinese": "上個月王先生在學校。"
+          },
+          {
+            "japanese": "先月は12月でした。",
+            "chinese": "上個月是12月。"
+          },
+          {
+            "japanese": "高橋さん、先月はどこでしたか。",
+            "chinese": "高橋先生，上個月你在哪裡？"
+          },
+          {
+            "japanese": "先月、李さんは図書館でした。",
+            "chinese": "上個月李先生在圖書館。"
+          },
+          {
+            "japanese": "先月の15日は金曜日でした。",
+            "chinese": "上個月15號是星期五。"
+          },
+          {
+            "japanese": "あのう、先月は何月でしたか。",
+            "chinese": "不好意思，上個月是幾月？"
+          },
+          {
+            "japanese": "先月の午後、私は病院でした。",
+            "chinese": "上個月下午我在醫院。"
+          },
+          {
+            "japanese": "はい、先月は仕事でした。",
+            "chinese": "是，上個月要工作。"
+          },
+          {
+            "japanese": "先月、林さんは銀行でした。",
+            "chinese": "上個月林先生在銀行。"
+          },
+          {
+            "japanese": "林さん、先月はどこでしたか。",
+            "chinese": "林先生，上個月你在哪裡？"
+          }
+        ]
+      },
+      {
+        "japanese": "こんげつ",
+        "kanji": "今月",
+        "chinese": "這個月",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "今月は仕事です。",
+            "chinese": "這個月有工作。"
+          },
+          {
+            "japanese": "今月は5月です。",
+            "chinese": "這個月是5月。"
+          },
+          {
+            "japanese": "今月の会議は金曜日です。",
+            "chinese": "這個月的會議在星期五。"
+          },
+          {
+            "japanese": "私は今月京都へ行きます。",
+            "chinese": "我這個月去京都。"
+          },
+          {
+            "japanese": "今月は学校へ行きます。",
+            "chinese": "這個月去學校。"
+          },
+          {
+            "japanese": "今月の15日に帰ります。",
+            "chinese": "這個月15號回去。"
+          },
+          {
+            "japanese": "今月はテストです。",
+            "chinese": "這個月有考試。"
+          },
+          {
+            "japanese": "家族は今月来ます。",
+            "chinese": "家人這個月來。"
+          },
+          {
+            "japanese": "今月は大阪へ行きます。",
+            "chinese": "這個月去大阪。"
+          },
+          {
+            "japanese": "今月から働きます。",
+            "chinese": "這個月開始工作。"
+          },
+          {
+            "japanese": "今月は4月ですか。",
+            "chinese": "這個月是4月嗎？"
+          },
+          {
+            "japanese": "今月の給料は5日です。",
+            "chinese": "這個月的薪水是5號。"
+          },
+          {
+            "japanese": "今月末に京都へ行きます。",
+            "chinese": "這個月底去京都。"
+          },
+          {
+            "japanese": "今月は日本語の勉強です。",
+            "chinese": "這個月是日語學習。"
+          },
+          {
+            "japanese": "今月は休みではありません。",
+            "chinese": "這個月不是假日。"
+          },
+          {
+            "japanese": "今月の10日から学校へ行きます。",
+            "chinese": "這個月10號開始去學校。"
+          },
+          {
+            "japanese": "今月の20日まで働きます。",
+            "chinese": "工作到這個月20號。"
+          },
+          {
+            "japanese": "今月は6月です。",
+            "chinese": "這個月是6月。"
+          },
+          {
+            "japanese": "今月は何月ですか。",
+            "chinese": "這個月是幾月？"
+          },
+          {
+            "japanese": "今月の日曜日は休みです。",
+            "chinese": "這個月的星期天休息。"
+          }
+        ]
+      },
+      {
+        "japanese": "らいげつ",
+        "kanji": "来月",
+        "chinese": "下個月",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「曜」、「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "来月は仕事です。",
+            "chinese": "下個月要工作。"
+          },
+          {
+            "japanese": "あのう、来月はどこですか。",
+            "chinese": "不好意思，下個月你在哪裡？"
+          },
+          {
+            "japanese": "来月、田中さんは大阪です。",
+            "chinese": "下個月田中先生在大阪。"
+          },
+          {
+            "japanese": "すみません、来月は何月ですか。",
+            "chinese": "不好意思，下個月是幾月？"
+          },
+          {
+            "japanese": "来月は会議です。",
+            "chinese": "下個月有會議。"
+          },
+          {
+            "japanese": "はい、来月は私の誕生日です。",
+            "chinese": "是，下個月是我的生日。"
+          },
+          {
+            "japanese": "来月、山田さんは京都です。",
+            "chinese": "下個月山田先生在京都。"
+          },
+          {
+            "japanese": "あ、来月、私は家です。",
+            "chinese": "啊，下個月我在家。"
+          },
+          {
+            "japanese": "来月の10日は雨です。",
+            "chinese": "下個月的10號下雨。"
+          },
+          {
+            "japanese": "ええと、来月は休みです。",
+            "chinese": "嗯，下個月休息。"
+          },
+          {
+            "japanese": "来月、王さんは学校です。",
+            "chinese": "下個月王先生在學校。"
+          },
+          {
+            "japanese": "来月は1月です。",
+            "chinese": "下個月是1月。"
+          },
+          {
+            "japanese": "高橋さん、来月はどこですか。",
+            "chinese": "高橋先生，下個月你在哪裡？"
+          },
+          {
+            "japanese": "来月、李さんは図書館です。",
+            "chinese": "下個月李先生在圖書館。"
+          },
+          {
+            "japanese": "来月の10日は金曜日です。",
+            "chinese": "下個月10號是星期五。"
+          },
+          {
+            "japanese": "あのう、来月は何月ですか。",
+            "chinese": "不好意思，下個月是幾月？"
+          },
+          {
+            "japanese": "来月の午後、私は病院です。",
+            "chinese": "下個月下午我在醫院。"
+          },
+          {
+            "japanese": "はい、来月は仕事です。",
+            "chinese": "是，下個月要工作。"
+          },
+          {
+            "japanese": "来月、林さんは銀行です。",
+            "chinese": "下個月林先生在銀行。"
+          },
+          {
+            "japanese": "林さん、来月はどこですか。",
+            "chinese": "林先生，下個月你在哪裡？"
+          }
+        ]
+      },
+      {
+        "japanese": "きょねん",
+        "kanji": "去年",
+        "chinese": "去年",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「曜」、「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "去年は大阪でした。",
+            "chinese": "去年在大阪。"
+          },
+          {
+            "japanese": "あのう、去年はどこでしたか。",
+            "chinese": "不好意思，去年你在哪裡？"
+          },
+          {
+            "japanese": "去年、田中さんは日本でした。",
+            "chinese": "去年田中先生在日本。"
+          },
+          {
+            "japanese": "すみません、去年は何年でしたか。",
+            "chinese": "不好意思，去年是哪一年？"
+          },
+          {
+            "japanese": "去年は仕事でした。",
+            "chinese": "去年要工作。"
+          },
+          {
+            "japanese": "はい、去年は私の誕生日でした。",
+            "chinese": "是，去年是我的生日。"
+          },
+          {
+            "japanese": "去年、山田さんは京都でした。",
+            "chinese": "去年山田先生在京都。"
+          },
+          {
+            "japanese": "あ、去年、私は家でした。",
+            "chinese": "啊，去年我在家。"
+          },
+          {
+            "japanese": "去年の4月は雨でした。",
+            "chinese": "去年的4月下雨。"
+          },
+          {
+            "japanese": "ええと、去年は会議でした。",
+            "chinese": "嗯，去年有會議。"
+          },
+          {
+            "japanese": "去年、王さんは学校でした。",
+            "chinese": "去年王先生在學校。"
+          },
+          {
+            "japanese": "去年は2020年でした。",
+            "chinese": "去年是2020年。"
+          },
+          {
+            "japanese": "高橋さん、去年はどこでしたか。",
+            "chinese": "高橋先生，去年你在哪裡？"
+          },
+          {
+            "japanese": "去年、李さんは図書館でした。",
+            "chinese": "去年李先生在圖書館。"
+          },
+          {
+            "japanese": "去年の誕生日は金曜日でした。",
+            "chinese": "去年的生日是星期五。"
+          },
+          {
+            "japanese": "あのう、去年は何年でしたか。",
+            "chinese": "不好意思，去年是哪一年？"
+          },
+          {
+            "japanese": "去年の午後、私は病院でした。",
+            "chinese": "去年下午我在醫院。"
+          },
+          {
+            "japanese": "はい、去年は仕事でした。",
+            "chinese": "是，去年要工作。"
+          },
+          {
+            "japanese": "去年、林さんは銀行でした。",
+            "chinese": "去年林先生在銀行。"
+          },
+          {
+            "japanese": "林さん、去年はどこでしたか。",
+            "chinese": "林先生，去年你在哪裡？"
+          }
+        ]
+      },
+      {
+        "japanese": "ことし",
+        "kanji": "今年",
+        "chinese": "今年",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "医",
+              "zh": "醫",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "今年は学生です。",
+            "chinese": "今年是學生。"
+          },
+          {
+            "japanese": "今年は仕事です。",
+            "chinese": "今年有工作。"
+          },
+          {
+            "japanese": "今年から働きます。",
+            "chinese": "今年開始工作。"
+          },
+          {
+            "japanese": "私は今年京都へ行きます。",
+            "chinese": "我今年去京都。"
+          },
+          {
+            "japanese": "今年は学校へ行きます。",
+            "chinese": "今年去學校。"
+          },
+          {
+            "japanese": "今年の会議は金曜日です。",
+            "chinese": "今年的會議在星期五。"
+          },
+          {
+            "japanese": "今年はテストです。",
+            "chinese": "今年有考試。"
+          },
+          {
+            "japanese": "家族は今年来ます。",
+            "chinese": "家人今年來。"
+          },
+          {
+            "japanese": "今年は大阪へ行きます。",
+            "chinese": "今年去大阪。"
+          },
+          {
+            "japanese": "今年の5月から働きます。",
+            "chinese": "今年5月開始工作。"
+          },
+          {
+            "japanese": "今年は何年ですか。",
+            "chinese": "今年是幾年份？"
+          },
+          {
+            "japanese": "今年の給料は5日です。",
+            "chinese": "今年的薪水是5號。"
+          },
+          {
+            "japanese": "今年末に京都へ行きます。",
+            "chinese": "今年底去京都。"
+          },
+          {
+            "japanese": "今年は日本語の勉強です。",
+            "chinese": "今年是日語學習。"
+          },
+          {
+            "japanese": "今年は休みではありません。",
+            "chinese": "今年不是假日。"
+          },
+          {
+            "japanese": "今年の4月から学校へ行きます。",
+            "chinese": "今年4月開始去學校。"
+          },
+          {
+            "japanese": "今年の12月まで働きます。",
+            "chinese": "工作到今年12月。"
+          },
+          {
+            "japanese": "今年は医者です。",
+            "chinese": "今年是醫生。"
+          },
+          {
+            "japanese": "今年の日曜日は休みです。",
+            "chinese": "今年的星期天休息。"
+          },
+          {
+            "japanese": "今年は社会人です。",
+            "chinese": "今年是社會人士。"
+          }
+        ]
+      },
+      {
+        "japanese": "らいねん",
+        "kanji": "来年",
+        "chinese": "明年",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "医",
+              "zh": "醫",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "来年は学生です。",
+            "chinese": "明年是學生。"
+          },
+          {
+            "japanese": "来年は仕事です。",
+            "chinese": "明年有工作。"
+          },
+          {
+            "japanese": "来年から働きます。",
+            "chinese": "明年開始工作。"
+          },
+          {
+            "japanese": "私は来年京都へ行きます。",
+            "chinese": "我明年去京都。"
+          },
+          {
+            "japanese": "来年は学校へ行きます。",
+            "chinese": "明年去學校。"
+          },
+          {
+            "japanese": "来年の会議は月曜日です。",
+            "chinese": "明年的會議在星期一。"
+          },
+          {
+            "japanese": "来年はテストです。",
+            "chinese": "明年有考試。"
+          },
+          {
+            "japanese": "家族は来年来ます。",
+            "chinese": "家人明年來。"
+          },
+          {
+            "japanese": "来年は大阪へ行きます。",
+            "chinese": "明年去大阪。"
+          },
+          {
+            "japanese": "来年の4月から働きます。",
+            "chinese": "明年4月開始工作。"
+          },
+          {
+            "japanese": "来年は何年ですか。",
+            "chinese": "明年是幾年份？"
+          },
+          {
+            "japanese": "来年の給料は5日です。",
+            "chinese": "明年的薪水是5號。"
+          },
+          {
+            "japanese": "来年の春に京都へ行きます。",
+            "chinese": "明年春天去京都。"
+          },
+          {
+            "japanese": "来年は日本語の勉強です。",
+            "chinese": "明年是日語學習。"
+          },
+          {
+            "japanese": "来年は休みではありません。",
+            "chinese": "明年不是假日。"
+          },
+          {
+            "japanese": "来年の4月から学校へ行きます。",
+            "chinese": "明年4月開始去學校。"
+          },
+          {
+            "japanese": "来年の12月まで働きます。",
+            "chinese": "工作到明年12月。"
+          },
+          {
+            "japanese": "来年は医者です。",
+            "chinese": "明年是醫生。"
+          },
+          {
+            "japanese": "来年の日曜日は休みです。",
+            "chinese": "明年的星期天休息。"
+          },
+          {
+            "japanese": "来年は社会人です。",
+            "chinese": "明年是社會人士。"
+          }
+        ]
+      },
+      {
+        "japanese": "～がつ",
+        "kanji": "～月",
+        "chinese": "～月",
+        "image": null,
+        "note": "接數字後表月份，如「4月＝しがつ」",
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "験",
+              "zh": "驗",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "誕生日は5月です。",
+            "chinese": "生日在5月。"
+          },
+          {
+            "japanese": "4月から学校へ行きます。",
+            "chinese": "4月開始去學校。"
+          },
+          {
+            "japanese": "私は3月に日本へ来ます。",
+            "chinese": "我3月來日本。"
+          },
+          {
+            "japanese": "8月は休みです。",
+            "chinese": "8月是假日。"
+          },
+          {
+            "japanese": "12月は仕事の月です。",
+            "chinese": "12月是工作的月份。"
+          },
+          {
+            "japanese": "6月は学校です。",
+            "chinese": "6月是學校。"
+          },
+          {
+            "japanese": "私は7月に京都へ行きます。",
+            "chinese": "我7月去京都。"
+          },
+          {
+            "japanese": "会議は9月です。",
+            "chinese": "會議在9月。"
+          },
+          {
+            "japanese": "10月は仕事です。",
+            "chinese": "10月有工作。"
+          },
+          {
+            "japanese": "私は1月に帰ります。",
+            "chinese": "我1月回去。"
+          },
+          {
+            "japanese": "2月は休みの月です。",
+            "chinese": "2月是放假的月份。"
+          },
+          {
+            "japanese": "11月は休みです。",
+            "chinese": "11月是假日。"
+          },
+          {
+            "japanese": "試験は5月です。",
+            "chinese": "考試在5月。"
+          },
+          {
+            "japanese": "私は4月から働きます。",
+            "chinese": "我4月開始工作。"
+          },
+          {
+            "japanese": "7月に友達が来ます。",
+            "chinese": "7月朋友來。"
+          },
+          {
+            "japanese": "9月に学校へ行きます。",
+            "chinese": "9月開始上學。"
+          },
+          {
+            "japanese": "8月は休みの月です。",
+            "chinese": "8月是放假的月份。"
+          },
+          {
+            "japanese": "私は6月に大阪へ行きます。",
+            "chinese": "我6月去大阪。"
+          },
+          {
+            "japanese": "3月は休みです。",
+            "chinese": "3月是假日。"
+          },
+          {
+            "japanese": "8月に京都へ行きます。",
+            "chinese": "8月去京都。"
+          }
+        ]
+      },
+      {
+        "japanese": "なんがつ",
+        "kanji": "何月",
+        "chinese": "幾月",
+        "image": null,
+        "note": "詢問月份",
+        "kanji_note": {
+          "summary": "日語「咲」為「笑」的古異體，日語借用表「花開」（國訓）。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "咲",
+              "zh": "笑",
+              "note": "為「笑」的古異體，日語借用表「花開」（國訓）。"
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "桜",
+              "zh": "櫻",
+              "note": null
+            },
+            {
+              "jp": "験",
+              "zh": "驗",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "誕生日は何月ですか。",
+            "chinese": "生日是幾月？"
+          },
+          {
+            "japanese": "今は何月ですか。",
+            "chinese": "現在是幾月？"
+          },
+          {
+            "japanese": "試験は何月ですか。",
+            "chinese": "考試是幾月？"
+          },
+          {
+            "japanese": "あなたの誕生日は何月ですか。",
+            "chinese": "你的生日是幾月？"
+          },
+          {
+            "japanese": "会議は何月ですか。",
+            "chinese": "會議在幾月？"
+          },
+          {
+            "japanese": "旅行は何月ですか。",
+            "chinese": "旅行是幾月？"
+          },
+          {
+            "japanese": "入学は何月ですか。",
+            "chinese": "入學是幾月？"
+          },
+          {
+            "japanese": "祭りは何月ですか。",
+            "chinese": "祭典在幾月？"
+          },
+          {
+            "japanese": "卒業は何月ですか。",
+            "chinese": "畢業是幾月？"
+          },
+          {
+            "japanese": "休みは何月ですか。",
+            "chinese": "假期是幾月？"
+          },
+          {
+            "japanese": "学校は何月からですか。",
+            "chinese": "學校是幾月開始？"
+          },
+          {
+            "japanese": "家族の誕生日は何月ですか。",
+            "chinese": "家人的生日是幾月？"
+          },
+          {
+            "japanese": "仕事は何月からですか。",
+            "chinese": "新工作是幾月開始？"
+          },
+          {
+            "japanese": "テストは何月ですか。",
+            "chinese": "考試是幾月？"
+          },
+          {
+            "japanese": "雪は何月ですか。",
+            "chinese": "雪在幾月下？"
+          },
+          {
+            "japanese": "桜は何月に咲きますか。",
+            "chinese": "櫻花在幾月開？"
+          },
+          {
+            "japanese": "あなたの仕事は何月からですか。",
+            "chinese": "你的工作是幾月開始？"
+          },
+          {
+            "japanese": "友達の誕生日は何月ですか。",
+            "chinese": "朋友的生日是幾月？"
+          },
+          {
+            "japanese": "花見は何月ですか。",
+            "chinese": "賞花是幾月？"
+          },
+          {
+            "japanese": "私の帰りは何月ですか。",
+            "chinese": "我回去是幾月？"
+          }
+        ]
+      },
+      {
+        "japanese": "ついたち",
+        "kanji": "1日",
+        "chinese": "1日，1號",
+        "image": null,
+        "note": "「一日」特殊讀法，表每月1日",
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "今日は1日です。",
+            "chinese": "今天是1號。"
+          },
+          {
+            "japanese": "1日に会議です。",
+            "chinese": "1號有會議。"
+          },
+          {
+            "japanese": "私は1日に休みます。",
+            "chinese": "我1號休息。"
+          },
+          {
+            "japanese": "1日は休みです。",
+            "chinese": "1號是假日。"
+          },
+          {
+            "japanese": "会議は1日です。",
+            "chinese": "會議在1號。"
+          },
+          {
+            "japanese": "1日に友達が来ます。",
+            "chinese": "1號朋友來。"
+          },
+          {
+            "japanese": "給料は1日です。",
+            "chinese": "薪水是1號發。"
+          },
+          {
+            "japanese": "1日から働きます。",
+            "chinese": "從1號開始工作。"
+          },
+          {
+            "japanese": "1日に学校へ行きます。",
+            "chinese": "1號去學校。"
+          },
+          {
+            "japanese": "今日は8月1日です。",
+            "chinese": "今天是8月1號。"
+          },
+          {
+            "japanese": "1日は月曜日です。",
+            "chinese": "1號是星期一。"
+          },
+          {
+            "japanese": "1日から学校へ行きます。",
+            "chinese": "從1號開始去學校。"
+          },
+          {
+            "japanese": "私は1日に大阪へ行きます。",
+            "chinese": "我1號去大阪。"
+          },
+          {
+            "japanese": "家族は1日に来ます。",
+            "chinese": "家人1號來。"
+          },
+          {
+            "japanese": "1日は仕事です。",
+            "chinese": "1號有工作。"
+          },
+          {
+            "japanese": "1日に京都へ帰ります。",
+            "chinese": "1號回京都。"
+          },
+          {
+            "japanese": "1日から仕事です。",
+            "chinese": "從1號開始上班。"
+          },
+          {
+            "japanese": "1日は元旦です。",
+            "chinese": "1號是元旦。"
+          },
+          {
+            "japanese": "1日の午後に帰ります。",
+            "chinese": "1號下午回去。"
+          },
+          {
+            "japanese": "先月の1日は金曜日でした。",
+            "chinese": "上個月的1號是星期五。"
+          }
+        ]
+      },
+      {
+        "japanese": "ふつか",
+        "kanji": "2日",
+        "chinese": "2日，2號",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "今日は2日です。",
+            "chinese": "今天是2號。"
+          },
+          {
+            "japanese": "2日に会議です。",
+            "chinese": "2號有會議。"
+          },
+          {
+            "japanese": "私は2日に働きます。",
+            "chinese": "我2號工作。"
+          },
+          {
+            "japanese": "2日は休みです。",
+            "chinese": "2號是假日。"
+          },
+          {
+            "japanese": "会議は2日です。",
+            "chinese": "會議在2號。"
+          },
+          {
+            "japanese": "2日に友達が来ます。",
+            "chinese": "2號朋友來。"
+          },
+          {
+            "japanese": "2日から働きます。",
+            "chinese": "從2號開始工作。"
+          },
+          {
+            "japanese": "2日に学校へ行きます。",
+            "chinese": "2號去學校。"
+          },
+          {
+            "japanese": "今日は6月2日です。",
+            "chinese": "今天是6月2號。"
+          },
+          {
+            "japanese": "2日は火曜日です。",
+            "chinese": "2號是星期二。"
+          },
+          {
+            "japanese": "2日から学校へ行きます。",
+            "chinese": "從2號開始去學校。"
+          },
+          {
+            "japanese": "私は2日に大阪へ行きます。",
+            "chinese": "我2號去大阪。"
+          },
+          {
+            "japanese": "家族は2日に来ます。",
+            "chinese": "家人2號來。"
+          },
+          {
+            "japanese": "2日は仕事です。",
+            "chinese": "2號有工作。"
+          },
+          {
+            "japanese": "2日に京都へ帰ります。",
+            "chinese": "2號回京都。"
+          },
+          {
+            "japanese": "2日から仕事です。",
+            "chinese": "從2號開始上班。"
+          },
+          {
+            "japanese": "2日は月曜日でした。",
+            "chinese": "2號是星期一。"
+          },
+          {
+            "japanese": "2日の午後に帰ります。",
+            "chinese": "2號下午回去。"
+          },
+          {
+            "japanese": "先月の2日は日曜日でした。",
+            "chinese": "上個月的2號是星期天。"
+          },
+          {
+            "japanese": "2日は何曜日ですか。",
+            "chinese": "2號是星期幾？"
+          }
+        ]
+      },
+      {
+        "japanese": "みっか",
+        "kanji": "3日",
+        "chinese": "3日，3號",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "今日は3日です。",
+            "chinese": "今天是3號。"
+          },
+          {
+            "japanese": "3日に会議です。",
+            "chinese": "3號有會議。"
+          },
+          {
+            "japanese": "私は3日に働きます。",
+            "chinese": "我3號工作。"
+          },
+          {
+            "japanese": "3日は休みです。",
+            "chinese": "3號是假日。"
+          },
+          {
+            "japanese": "会議は3日です。",
+            "chinese": "會議在3號。"
+          },
+          {
+            "japanese": "3日に友達が来ます。",
+            "chinese": "3號朋友來。"
+          },
+          {
+            "japanese": "3日から働きます。",
+            "chinese": "從3號開始工作。"
+          },
+          {
+            "japanese": "3日に学校へ行きます。",
+            "chinese": "3號去學校。"
+          },
+          {
+            "japanese": "今日は7月3日です。",
+            "chinese": "今天是7月3號。"
+          },
+          {
+            "japanese": "3日は水曜日です。",
+            "chinese": "3號是星期三。"
+          },
+          {
+            "japanese": "3日から学校へ行きます。",
+            "chinese": "從3號開始去學校。"
+          },
+          {
+            "japanese": "私は3日に大阪へ行きます。",
+            "chinese": "我3號去大阪。"
+          },
+          {
+            "japanese": "家族は3日に来ます。",
+            "chinese": "家人3號來。"
+          },
+          {
+            "japanese": "3日は仕事です。",
+            "chinese": "3號有工作。"
+          },
+          {
+            "japanese": "3日に京都へ帰ります。",
+            "chinese": "3號回京都。"
+          },
+          {
+            "japanese": "3日から仕事です。",
+            "chinese": "從3號開始上班。"
+          },
+          {
+            "japanese": "3日は火曜日でした。",
+            "chinese": "3號是星期二。"
+          },
+          {
+            "japanese": "3日の午後に帰ります。",
+            "chinese": "3號下午回去。"
+          },
+          {
+            "japanese": "先月の3日は月曜日でした。",
+            "chinese": "上個月的3號是星期一。"
+          },
+          {
+            "japanese": "3日は何曜日ですか。",
+            "chinese": "3號是星期幾？"
+          }
+        ]
+      },
+      {
+        "japanese": "よっか",
+        "kanji": "4日",
+        "chinese": "4日，4號",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "今日は4日です。",
+            "chinese": "今天是4號。"
+          },
+          {
+            "japanese": "4日に会議です。",
+            "chinese": "4號有會議。"
+          },
+          {
+            "japanese": "私は4日に働きます。",
+            "chinese": "我4號工作。"
+          },
+          {
+            "japanese": "4日は休みです。",
+            "chinese": "4號是假日。"
+          },
+          {
+            "japanese": "会議は4日です。",
+            "chinese": "會議在4號。"
+          },
+          {
+            "japanese": "4日に友達が来ます。",
+            "chinese": "4號朋友來。"
+          },
+          {
+            "japanese": "4日から働きます。",
+            "chinese": "從4號開始工作。"
+          },
+          {
+            "japanese": "4日に学校へ行きます。",
+            "chinese": "4號去學校。"
+          },
+          {
+            "japanese": "今日は8月4日です。",
+            "chinese": "今天是8月4號。"
+          },
+          {
+            "japanese": "4日は木曜日です。",
+            "chinese": "4號是星期四。"
+          },
+          {
+            "japanese": "4日から学校へ行きます。",
+            "chinese": "從4號開始去學校。"
+          },
+          {
+            "japanese": "私は4日に大阪へ行きます。",
+            "chinese": "我4號去大阪。"
+          },
+          {
+            "japanese": "家族は4日に来ます。",
+            "chinese": "家人4號來。"
+          },
+          {
+            "japanese": "4日は仕事です。",
+            "chinese": "4號有工作。"
+          },
+          {
+            "japanese": "4日に京都へ帰ります。",
+            "chinese": "4號回京都。"
+          },
+          {
+            "japanese": "4日から仕事です。",
+            "chinese": "從4號開始上班。"
+          },
+          {
+            "japanese": "4日は水曜日でした。",
+            "chinese": "4號是星期三。"
+          },
+          {
+            "japanese": "4日の午後に帰ります。",
+            "chinese": "4號下午回去。"
+          },
+          {
+            "japanese": "先月の4日は火曜日でした。",
+            "chinese": "上個月的4號是星期二。"
+          },
+          {
+            "japanese": "4日は何曜日ですか。",
+            "chinese": "4號是星期幾？"
+          }
+        ]
+      },
+      {
+        "japanese": "いつか",
+        "kanji": "5日",
+        "chinese": "5日，5號",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "今日は5日です。",
+            "chinese": "今天是5號。"
+          },
+          {
+            "japanese": "5日に会議です。",
+            "chinese": "5號有會議。"
+          },
+          {
+            "japanese": "私は5日に働きます。",
+            "chinese": "我5號工作。"
+          },
+          {
+            "japanese": "5日は休みです。",
+            "chinese": "5號是假日。"
+          },
+          {
+            "japanese": "会議は5日です。",
+            "chinese": "會議在5號。"
+          },
+          {
+            "japanese": "5日に友達が来ます。",
+            "chinese": "5號朋友來。"
+          },
+          {
+            "japanese": "給料は5日です。",
+            "chinese": "薪水是5號發。"
+          },
+          {
+            "japanese": "5日から働きます。",
+            "chinese": "從5號開始工作。"
+          },
+          {
+            "japanese": "5日に学校へ行きます。",
+            "chinese": "5號去學校。"
+          },
+          {
+            "japanese": "今日は9月5日です。",
+            "chinese": "今天是9月5號。"
+          },
+          {
+            "japanese": "5日は金曜日です。",
+            "chinese": "5號是星期五。"
+          },
+          {
+            "japanese": "5日から学校へ行きます。",
+            "chinese": "從5號開始去學校。"
+          },
+          {
+            "japanese": "私は5日に大阪へ行きます。",
+            "chinese": "我5號去大阪。"
+          },
+          {
+            "japanese": "家族は5日に来ます。",
+            "chinese": "家人5號來。"
+          },
+          {
+            "japanese": "5日は仕事です。",
+            "chinese": "5號有工作。"
+          },
+          {
+            "japanese": "5日に京都へ帰ります。",
+            "chinese": "5號回京都。"
+          },
+          {
+            "japanese": "5日から仕事です。",
+            "chinese": "從5號開始上班。"
+          },
+          {
+            "japanese": "5日は木曜日でした。",
+            "chinese": "5號是星期四。"
+          },
+          {
+            "japanese": "5日の午後に帰ります。",
+            "chinese": "5號下午回去。"
+          },
+          {
+            "japanese": "5日は何曜日ですか。",
+            "chinese": "5號是星期幾？"
+          }
+        ]
+      },
+      {
+        "japanese": "むいか",
+        "kanji": "6日",
+        "chinese": "6日，6號",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "今日は6日です。",
+            "chinese": "今天是6號。"
+          },
+          {
+            "japanese": "6日に会議です。",
+            "chinese": "6號有會議。"
+          },
+          {
+            "japanese": "私は6日に働きます。",
+            "chinese": "我6號工作。"
+          },
+          {
+            "japanese": "6日は休みです。",
+            "chinese": "6號是假日。"
+          },
+          {
+            "japanese": "会議は6日です。",
+            "chinese": "會議在6號。"
+          },
+          {
+            "japanese": "6日に友達が来ます。",
+            "chinese": "6號朋友來。"
+          },
+          {
+            "japanese": "6日から働きます。",
+            "chinese": "從6號開始工作。"
+          },
+          {
+            "japanese": "6日に学校へ行きます。",
+            "chinese": "6號去學校。"
+          },
+          {
+            "japanese": "今日は10月6日です。",
+            "chinese": "今天是10月6號。"
+          },
+          {
+            "japanese": "6日は土曜日です。",
+            "chinese": "6號是星期六。"
+          },
+          {
+            "japanese": "6日から学校へ行きます。",
+            "chinese": "從6號開始去學校。"
+          },
+          {
+            "japanese": "私は6日に大阪へ行きます。",
+            "chinese": "我6號去大阪。"
+          },
+          {
+            "japanese": "家族は6日に来ます。",
+            "chinese": "家人6號來。"
+          },
+          {
+            "japanese": "6日は仕事です。",
+            "chinese": "6號有工作。"
+          },
+          {
+            "japanese": "6日に京都へ帰ります。",
+            "chinese": "6號回京都。"
+          },
+          {
+            "japanese": "6日から仕事です。",
+            "chinese": "從6號開始上班。"
+          },
+          {
+            "japanese": "6日は金曜日でした。",
+            "chinese": "6號是星期五。"
+          },
+          {
+            "japanese": "6日の午後に帰ります。",
+            "chinese": "6號下午回去。"
+          },
+          {
+            "japanese": "先月の6日は木曜日でした。",
+            "chinese": "上個月的6號是星期四。"
+          },
+          {
+            "japanese": "6日は何曜日ですか。",
+            "chinese": "6號是星期幾？"
+          }
+        ]
+      },
+      {
+        "japanese": "なのか",
+        "kanji": "7日",
+        "chinese": "7日，7號",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "今日は7日です。",
+            "chinese": "今天是7號。"
+          },
+          {
+            "japanese": "7日に会議です。",
+            "chinese": "7號有會議。"
+          },
+          {
+            "japanese": "私は7日に働きます。",
+            "chinese": "我7號工作。"
+          },
+          {
+            "japanese": "7日は休みです。",
+            "chinese": "7號是假日。"
+          },
+          {
+            "japanese": "会議は7日です。",
+            "chinese": "會議在7號。"
+          },
+          {
+            "japanese": "7日に友達が来ます。",
+            "chinese": "7號朋友來。"
+          },
+          {
+            "japanese": "7日から働きます。",
+            "chinese": "從7號開始工作。"
+          },
+          {
+            "japanese": "7日に学校へ行きます。",
+            "chinese": "7號去學校。"
+          },
+          {
+            "japanese": "今日は11月7日です。",
+            "chinese": "今天是11月7號。"
+          },
+          {
+            "japanese": "7日は日曜日です。",
+            "chinese": "7號是星期天。"
+          },
+          {
+            "japanese": "7日から学校へ行きます。",
+            "chinese": "從7號開始去學校。"
+          },
+          {
+            "japanese": "私は7日に大阪へ行きます。",
+            "chinese": "我7號去大阪。"
+          },
+          {
+            "japanese": "家族は7日に来ます。",
+            "chinese": "家人7號來。"
+          },
+          {
+            "japanese": "7日は仕事です。",
+            "chinese": "7號有工作。"
+          },
+          {
+            "japanese": "7日に京都へ帰ります。",
+            "chinese": "7號回京都。"
+          },
+          {
+            "japanese": "7日から仕事です。",
+            "chinese": "從7號開始上班。"
+          },
+          {
+            "japanese": "7日は土曜日でした。",
+            "chinese": "7號是星期六。"
+          },
+          {
+            "japanese": "7日の午後に帰ります。",
+            "chinese": "7號下午回去。"
+          },
+          {
+            "japanese": "先月の7日は金曜日でした。",
+            "chinese": "上個月的7號是星期五。"
+          },
+          {
+            "japanese": "7日は何曜日ですか。",
+            "chinese": "7號是星期幾？"
+          }
+        ]
+      },
+      {
+        "japanese": "ようか",
+        "kanji": "8日",
+        "chinese": "8日，8號",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "今日は8日です。",
+            "chinese": "今天是8號。"
+          },
+          {
+            "japanese": "8日に会議です。",
+            "chinese": "8號有會議。"
+          },
+          {
+            "japanese": "私は8日に働きます。",
+            "chinese": "我8號工作。"
+          },
+          {
+            "japanese": "8日は休みです。",
+            "chinese": "8號是假日。"
+          },
+          {
+            "japanese": "会議は8日です。",
+            "chinese": "會議在8號。"
+          },
+          {
+            "japanese": "8日に友達が来ます。",
+            "chinese": "8號朋友來。"
+          },
+          {
+            "japanese": "8日から働きます。",
+            "chinese": "從8號開始工作。"
+          },
+          {
+            "japanese": "8日に学校へ行きます。",
+            "chinese": "8號去學校。"
+          },
+          {
+            "japanese": "今日は12月8日です。",
+            "chinese": "今天是12月8號。"
+          },
+          {
+            "japanese": "8日は月曜日です。",
+            "chinese": "8號是星期一。"
+          },
+          {
+            "japanese": "8日から学校へ行きます。",
+            "chinese": "從8號開始去學校。"
+          },
+          {
+            "japanese": "私は8日に大阪へ行きます。",
+            "chinese": "我8號去大阪。"
+          },
+          {
+            "japanese": "家族は8日に来ます。",
+            "chinese": "家人8號來。"
+          },
+          {
+            "japanese": "8日は仕事です。",
+            "chinese": "8號有工作。"
+          },
+          {
+            "japanese": "8日に京都へ帰ります。",
+            "chinese": "8號回京都。"
+          },
+          {
+            "japanese": "8日から仕事です。",
+            "chinese": "從8號開始上班。"
+          },
+          {
+            "japanese": "8日は日曜日でした。",
+            "chinese": "8號是星期天。"
+          },
+          {
+            "japanese": "8日の午後に帰ります。",
+            "chinese": "8號下午回去。"
+          },
+          {
+            "japanese": "先月の8日は土曜日でした。",
+            "chinese": "上個月的8號是星期六。"
+          },
+          {
+            "japanese": "8日は何曜日ですか。",
+            "chinese": "8號是星期幾？"
+          }
+        ]
+      },
+      {
+        "japanese": "ここのか",
+        "kanji": "9日",
+        "chinese": "9日，9號",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "今日は9日です。",
+            "chinese": "今天是9號。"
+          },
+          {
+            "japanese": "9日に会議です。",
+            "chinese": "9號有會議。"
+          },
+          {
+            "japanese": "私は9日に働きます。",
+            "chinese": "我9號工作。"
+          },
+          {
+            "japanese": "9日は休みです。",
+            "chinese": "9號是假日。"
+          },
+          {
+            "japanese": "会議は9日です。",
+            "chinese": "會議在9號。"
+          },
+          {
+            "japanese": "9日に友達が来ます。",
+            "chinese": "9號朋友來。"
+          },
+          {
+            "japanese": "9日から働きます。",
+            "chinese": "從9號開始工作。"
+          },
+          {
+            "japanese": "9日に学校へ行きます。",
+            "chinese": "9號去學校。"
+          },
+          {
+            "japanese": "今日は1月9日です。",
+            "chinese": "今天是1月9號。"
+          },
+          {
+            "japanese": "9日は火曜日です。",
+            "chinese": "9號是星期二。"
+          },
+          {
+            "japanese": "9日から学校へ行きます。",
+            "chinese": "從9號開始去學校。"
+          },
+          {
+            "japanese": "私は9日に大阪へ行きます。",
+            "chinese": "我9號去大阪。"
+          },
+          {
+            "japanese": "家族は9日に来ます。",
+            "chinese": "家人9號來。"
+          },
+          {
+            "japanese": "9日は仕事です。",
+            "chinese": "9號有工作。"
+          },
+          {
+            "japanese": "9日に京都へ帰ります。",
+            "chinese": "9號回京都。"
+          },
+          {
+            "japanese": "9日から仕事です。",
+            "chinese": "從9號開始上班。"
+          },
+          {
+            "japanese": "9日は月曜日でした。",
+            "chinese": "9號是星期一。"
+          },
+          {
+            "japanese": "9日の午後に帰ります。",
+            "chinese": "9號下午回去。"
+          },
+          {
+            "japanese": "先月の9日は日曜日でした。",
+            "chinese": "上個月的9號是星期天。"
+          },
+          {
+            "japanese": "9日は何曜日ですか。",
+            "chinese": "9號是星期幾？"
+          }
+        ]
+      },
+      {
+        "japanese": "とおか",
+        "kanji": "10日",
+        "chinese": "10日，10號",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "10日は月曜日です。",
+            "chinese": "10號是星期一。"
+          },
+          {
+            "japanese": "田中さんは10日に大阪へ行きます。",
+            "chinese": "田中先生10號去大阪。"
+          },
+          {
+            "japanese": "10日は仕事です。",
+            "chinese": "10號要上班。"
+          },
+          {
+            "japanese": "10日から会議です。",
+            "chinese": "從10號開始開會。"
+          },
+          {
+            "japanese": "山田さんは10日に京都へ行きます。",
+            "chinese": "山田先生10號去京都。"
+          },
+          {
+            "japanese": "10日は休みではありません。",
+            "chinese": "10號不休息。"
+          },
+          {
+            "japanese": "10日の朝は9時です。",
+            "chinese": "10號早上是9點。"
+          },
+          {
+            "japanese": "王さんは10日に学校へ行きます。",
+            "chinese": "王先生10號去學校。"
+          },
+          {
+            "japanese": "10日に友達が来ます。",
+            "chinese": "10號朋友要來。"
+          },
+          {
+            "japanese": "10日は何曜日ですか。",
+            "chinese": "10號是星期幾？"
+          },
+          {
+            "japanese": "李さんは10日に帰ります。",
+            "chinese": "李先生10號要回去。"
+          },
+          {
+            "japanese": "10日まで仕事です。",
+            "chinese": "到10號為止要上班。"
+          },
+          {
+            "japanese": "10日の午後は病院です。",
+            "chinese": "10號下午去醫院。"
+          },
+          {
+            "japanese": "木村さんは10日に東京へ行きます。",
+            "chinese": "木村先生10號去東京。"
+          },
+          {
+            "japanese": "10日は私の誕生日です。",
+            "chinese": "10號是我的生日。"
+          },
+          {
+            "japanese": "10日の夜は雨でした。",
+            "chinese": "10號晚上下雨。"
+          },
+          {
+            "japanese": "今日は10日です。",
+            "chinese": "今天是10號。"
+          },
+          {
+            "japanese": "10日は晴れでした。",
+            "chinese": "10號是晴天。"
+          },
+          {
+            "japanese": "10日に家族が来ます。",
+            "chinese": "10號家人要來。"
+          },
+          {
+            "japanese": "テストは10日です。",
+            "chinese": "考試在10號。"
+          }
+        ]
+      },
+      {
+        "japanese": "じゅうよっか",
+        "kanji": "14日",
+        "chinese": "14日，14號",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「曜」、「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "14日は火曜日です。",
+            "chinese": "14號是星期二。"
+          },
+          {
+            "japanese": "田中さんは14日に学校へ来ます。",
+            "chinese": "田中先生14號來學校。"
+          },
+          {
+            "japanese": "14日は学校です。",
+            "chinese": "14號要上學。"
+          },
+          {
+            "japanese": "14日から休みです。",
+            "chinese": "從14號開始休息。"
+          },
+          {
+            "japanese": "山田さんは14日に東京へ帰ります。",
+            "chinese": "山田先生14號回東京。"
+          },
+          {
+            "japanese": "14日は会議ではありません。",
+            "chinese": "14號沒有會議。"
+          },
+          {
+            "japanese": "14日の朝は8時です。",
+            "chinese": "14號早上是8點。"
+          },
+          {
+            "japanese": "王さんは14日に駅へ行きます。",
+            "chinese": "王先生14號去車站。"
+          },
+          {
+            "japanese": "14日に先生が来ます。",
+            "chinese": "14號老師要來。"
+          },
+          {
+            "japanese": "14日は何の日ですか。",
+            "chinese": "14號是什麼日子？"
+          },
+          {
+            "japanese": "李さんは14日に来ます。",
+            "chinese": "李先生14號要來。"
+          },
+          {
+            "japanese": "14日まで学校です。",
+            "chinese": "到14號為止要上學。"
+          },
+          {
+            "japanese": "14日の午後は図書館です。",
+            "chinese": "14號下午在圖書館。"
+          },
+          {
+            "japanese": "木村さんは14日に大阪へ行きます。",
+            "chinese": "木村先生14號去大阪。"
+          },
+          {
+            "japanese": "14日は妹の誕生日です。",
+            "chinese": "14號是妹妹的生日。"
+          },
+          {
+            "japanese": "14日の夜は晴れでした。",
+            "chinese": "14號晚上是晴天。"
+          },
+          {
+            "japanese": "今日は14日ではありません。",
+            "chinese": "今天不是14號。"
+          },
+          {
+            "japanese": "14日は雨でした。",
+            "chinese": "14號下雨。"
+          },
+          {
+            "japanese": "14日に友達が帰ります。",
+            "chinese": "14號朋友要回去。"
+          },
+          {
+            "japanese": "パーティーは14日です。",
+            "chinese": "派對在14號。"
+          }
+        ]
+      },
+      {
+        "japanese": "はつか",
+        "kanji": "20日",
+        "chinese": "20日，20號",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "20日は水曜日です。",
+            "chinese": "20號是星期三。"
+          },
+          {
+            "japanese": "母は20日に家へ帰ります。",
+            "chinese": "媽媽20號回家。"
+          },
+          {
+            "japanese": "20日は休みです。",
+            "chinese": "20號休息。"
+          },
+          {
+            "japanese": "20日から旅行です。",
+            "chinese": "從20號開始旅行。"
+          },
+          {
+            "japanese": "父は20日に大阪から来ます。",
+            "chinese": "爸爸20號從大阪來。"
+          },
+          {
+            "japanese": "20日は仕事ではありません。",
+            "chinese": "20號不用上班。"
+          },
+          {
+            "japanese": "20日の朝は7時です。",
+            "chinese": "20號早上是7點。"
+          },
+          {
+            "japanese": "王さんは20日に銀行へ行きます。",
+            "chinese": "王先生20號去銀行。"
+          },
+          {
+            "japanese": "20日に姉が来ます。",
+            "chinese": "20號姊姊要來。"
+          },
+          {
+            "japanese": "20日は何曜日でしたか。",
+            "chinese": "20號那天是星期幾？"
+          },
+          {
+            "japanese": "李さんは20日に家へ帰ります。",
+            "chinese": "李先生20號回家。"
+          },
+          {
+            "japanese": "20日まで休みです。",
+            "chinese": "到20號為止休息。"
+          },
+          {
+            "japanese": "20日の午後はデパートです。",
+            "chinese": "20號下午去百貨公司。"
+          },
+          {
+            "japanese": "木村さんは20日に京都へ行きます。",
+            "chinese": "木村先生20號去京都。"
+          },
+          {
+            "japanese": "20日は母の誕生日です。",
+            "chinese": "20號是媽媽的生日。"
+          },
+          {
+            "japanese": "20日の夜は曇りでした。",
+            "chinese": "20號晚上是陰天。"
+          },
+          {
+            "japanese": "昨日は20日でした。",
+            "chinese": "昨天是20號。"
+          },
+          {
+            "japanese": "20日は曇りでした。",
+            "chinese": "20號是陰天。"
+          },
+          {
+            "japanese": "20日にお客さんが来ます。",
+            "chinese": "20號客人要來。"
+          },
+          {
+            "japanese": "映画は20日です。",
+            "chinese": "電影在20號。"
+          }
+        ]
+      },
+      {
+        "japanese": "にじゅうよっか",
+        "kanji": "24日",
+        "chinese": "24日，24號",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "国",
+              "zh": "國",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "験",
+              "zh": "驗",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "24日は木曜日です。",
+            "chinese": "24號是星期四。"
+          },
+          {
+            "japanese": "田中さんは24日に名古屋へ行きます。",
+            "chinese": "田中先生24號去名古屋。"
+          },
+          {
+            "japanese": "24日は試験です。",
+            "chinese": "24號有考試。"
+          },
+          {
+            "japanese": "24日から学校です。",
+            "chinese": "從24號開始上學。"
+          },
+          {
+            "japanese": "山田さんは24日に福岡へ行きます。",
+            "chinese": "山田先生24號去福岡。"
+          },
+          {
+            "japanese": "24日は学校ではありません。",
+            "chinese": "24號不是上學日。"
+          },
+          {
+            "japanese": "24日の朝は6時です。",
+            "chinese": "24號早上是6點。"
+          },
+          {
+            "japanese": "王さんは24日に会社へ行きます。",
+            "chinese": "王先生24號去公司。"
+          },
+          {
+            "japanese": "24日に客が来ます。",
+            "chinese": "24號客人要來。"
+          },
+          {
+            "japanese": "24日は何日でしたか。",
+            "chinese": "24號那天是幾號？"
+          },
+          {
+            "japanese": "李さんは24日に中国へ帰ります。",
+            "chinese": "李先生24號回中國。"
+          },
+          {
+            "japanese": "24日まで旅行です。",
+            "chinese": "到24號為止旅行。"
+          },
+          {
+            "japanese": "24日の午後は学校です。",
+            "chinese": "24號下午在學校。"
+          },
+          {
+            "japanese": "木村さんは24日に北海道へ行きます。",
+            "chinese": "木村先生24號去北海道。"
+          },
+          {
+            "japanese": "24日は父の誕生日です。",
+            "chinese": "24號是爸爸的生日。"
+          },
+          {
+            "japanese": "24日の夜は雪でした。",
+            "chinese": "24號晚上下雪。"
+          },
+          {
+            "japanese": "今日は24日ですね。",
+            "chinese": "今天是24號呢。"
+          },
+          {
+            "japanese": "24日は雪でした。",
+            "chinese": "24號下雪。"
+          },
+          {
+            "japanese": "24日に弟が来ます。",
+            "chinese": "24號弟弟要來。"
+          },
+          {
+            "japanese": "会議は24日です。",
+            "chinese": "會議在24號。"
+          }
+        ]
+      },
+      {
+        "japanese": "～にち",
+        "kanji": "～日",
+        "chinese": "～日，～號",
+        "image": null,
+        "note": "接數字後表日期，如「15日」",
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "今日は15日です。",
+            "chinese": "今天是15號。"
+          },
+          {
+            "japanese": "会議は25日です。",
+            "chinese": "會議在25號。"
+          },
+          {
+            "japanese": "私は30日に働きます。",
+            "chinese": "我30號工作。"
+          },
+          {
+            "japanese": "15日は休みです。",
+            "chinese": "15號是假日。"
+          },
+          {
+            "japanese": "18日に友達が来ます。",
+            "chinese": "18號朋友來。"
+          },
+          {
+            "japanese": "私は22日に大阪へ行きます。",
+            "chinese": "我22號去大阪。"
+          },
+          {
+            "japanese": "11日から働きます。",
+            "chinese": "從11號開始工作。"
+          },
+          {
+            "japanese": "会議は12日です。",
+            "chinese": "會議在12號。"
+          },
+          {
+            "japanese": "13日に学校へ行きます。",
+            "chinese": "13號去學校。"
+          },
+          {
+            "japanese": "16日は月曜日です。",
+            "chinese": "16號是星期一。"
+          },
+          {
+            "japanese": "17日に京都へ帰ります。",
+            "chinese": "17號回京都。"
+          },
+          {
+            "japanese": "19日は仕事です。",
+            "chinese": "19號有工作。"
+          },
+          {
+            "japanese": "21日に休みます。",
+            "chinese": "21號休息。"
+          },
+          {
+            "japanese": "23日から学校へ行きます。",
+            "chinese": "從23號開始去學校。"
+          },
+          {
+            "japanese": "26日に家族が来ます。",
+            "chinese": "26號家人來。"
+          },
+          {
+            "japanese": "27日は金曜日です。",
+            "chinese": "27號是星期五。"
+          },
+          {
+            "japanese": "28日に働きます。",
+            "chinese": "28號工作。"
+          },
+          {
+            "japanese": "29日は日曜日です。",
+            "chinese": "29號是星期天。"
+          },
+          {
+            "japanese": "31日から仕事です。",
+            "chinese": "從31號開始上班。"
+          },
+          {
+            "japanese": "今日は17日です。",
+            "chinese": "今天是17號。"
+          }
+        ]
+      },
+      {
+        "japanese": "なんにち",
+        "kanji": "何日",
+        "chinese": "幾日，幾號",
+        "image": null,
+        "note": "詢問日期",
+        "kanji_note": {
+          "summary": "「予」在日語可表「預先／給予」，繁體對應視語境為「預」或「予」，不宜一律寫成「豫」。",
+          "details": [
+            {
+              "jp": "予",
+              "zh": "預／予",
+              "note": "在日語可表「預先／給予」，繁體對應視語境為「預」或「予」，不宜一律寫成「豫」。"
+            },
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "今日は何日ですか。",
+            "chinese": "今天是幾號？"
+          },
+          {
+            "japanese": "誕生日は何日ですか。",
+            "chinese": "生日是幾號？"
+          },
+          {
+            "japanese": "会議は何日ですか。",
+            "chinese": "會議在幾號？"
+          },
+          {
+            "japanese": "旅行は何日ですか。",
+            "chinese": "旅行是幾號？"
+          },
+          {
+            "japanese": "あなたの誕生日は何日ですか。",
+            "chinese": "你的生日是幾號？"
+          },
+          {
+            "japanese": "給料は何日ですか。",
+            "chinese": "薪水是幾號？"
+          },
+          {
+            "japanese": "学校は何日からですか。",
+            "chinese": "學校是幾號開始？"
+          },
+          {
+            "japanese": "休みは何日ですか。",
+            "chinese": "假日是幾號？"
+          },
+          {
+            "japanese": "友達は何日に来ますか。",
+            "chinese": "朋友幾號來？"
+          },
+          {
+            "japanese": "仕事は何日からですか。",
+            "chinese": "工作是幾號開始？"
+          },
+          {
+            "japanese": "会議は何日までですか。",
+            "chinese": "會議到幾號？"
+          },
+          {
+            "japanese": "テストは何日ですか。",
+            "chinese": "考試是幾號？"
+          },
+          {
+            "japanese": "家族は何日に来ますか。",
+            "chinese": "家人幾號來？"
+          },
+          {
+            "japanese": "泊まりは何日ですか。",
+            "chinese": "住宿是幾號？"
+          },
+          {
+            "japanese": "帰る日は何日ですか。",
+            "chinese": "回去是幾號？"
+          },
+          {
+            "japanese": "誕生日会は何日ですか。",
+            "chinese": "生日會是幾號？"
+          },
+          {
+            "japanese": "お店は何日が休みですか。",
+            "chinese": "店是幾號休息？"
+          },
+          {
+            "japanese": "コンサートは何日ですか。",
+            "chinese": "音樂會是幾號？"
+          },
+          {
+            "japanese": "予定は何日ですか。",
+            "chinese": "預定是幾號？"
+          },
+          {
+            "japanese": "祭りは何日ですか。",
+            "chinese": "祭典是幾號？"
+          }
+        ]
+      },
+      {
+        "japanese": "いつ",
+        "kanji": null,
+        "chinese": "什麼時候",
+        "image": null,
+        "note": "詢問時間點",
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "function_word"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "誕生日はいつですか。",
+            "chinese": "生日是什麼時候？"
+          },
+          {
+            "japanese": "いつ来ますか。",
+            "chinese": "你什麼時候來？"
+          },
+          {
+            "japanese": "いつ帰りますか。",
+            "chinese": "你什麼時候回去？"
+          },
+          {
+            "japanese": "会議はいつですか。",
+            "chinese": "會議是什麼時候？"
+          },
+          {
+            "japanese": "友達はいつ来ますか。",
+            "chinese": "朋友什麼時候來？"
+          },
+          {
+            "japanese": "学校はいつからですか。",
+            "chinese": "學校是什麼時候開始？"
+          },
+          {
+            "japanese": "仕事はいつからですか。",
+            "chinese": "工作是什麼時候開始？"
+          },
+          {
+            "japanese": "あなたはいつ休みますか。",
+            "chinese": "你什麼時候休息？"
+          },
+          {
+            "japanese": "電車はいつ来ますか。",
+            "chinese": "電車什麼時候來？"
+          },
+          {
+            "japanese": "家族はいつ来ますか。",
+            "chinese": "家人什麼時候來？"
+          },
+          {
+            "japanese": "旅行はいつですか。",
+            "chinese": "旅行是什麼時候？"
+          },
+          {
+            "japanese": "いつ学校へ行きますか。",
+            "chinese": "你什麼時候去學校？"
+          },
+          {
+            "japanese": "テストはいつですか。",
+            "chinese": "考試是什麼時候？"
+          },
+          {
+            "japanese": "彼はいつ来ますか。",
+            "chinese": "他什麼時候來？"
+          },
+          {
+            "japanese": "あなたの誕生日はいつですか。",
+            "chinese": "你的生日是什麼時候？"
+          },
+          {
+            "japanese": "私はいつでも行きます。",
+            "chinese": "我隨時去。"
+          },
+          {
+            "japanese": "姉はいつ帰りますか。",
+            "chinese": "姊姊什麼時候回去？"
+          },
+          {
+            "japanese": "いつ働きますか。",
+            "chinese": "你什麼時候工作？"
+          },
+          {
+            "japanese": "コンサートはいつですか。",
+            "chinese": "音樂會是什麼時候？"
+          },
+          {
+            "japanese": "いつから勉強しますか。",
+            "chinese": "你什麼時候開始學習？"
+          }
+        ]
+      },
+      {
+        "japanese": "たんじょうび",
+        "kanji": "誕生日",
+        "chinese": "生日",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「来」→ 繁體「來」。",
+          "details": [
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "誕生日は10日です。",
+            "chinese": "生日在10號。"
+          },
+          {
+            "japanese": "あのう、誕生日はいつですか。",
+            "chinese": "不好意思，生日是什麼時候？"
+          },
+          {
+            "japanese": "田中さんの誕生日は来週です。",
+            "chinese": "田中先生的生日在下週。"
+          },
+          {
+            "japanese": "すみません、誕生日は何月ですか。",
+            "chinese": "不好意思，生日在幾月？"
+          },
+          {
+            "japanese": "山田さんの誕生日は今日です。",
+            "chinese": "山田先生的生日在今天。"
+          },
+          {
+            "japanese": "はい、今日は誕生日です。",
+            "chinese": "是，今天是生日。"
+          },
+          {
+            "japanese": "王さんの誕生日は明日です。",
+            "chinese": "王先生的生日在明天。"
+          },
+          {
+            "japanese": "あ、明日、誕生日です。",
+            "chinese": "啊，明天是生日。"
+          },
+          {
+            "japanese": "李さんの誕生日は先週でした。",
+            "chinese": "李先生的生日在上週。"
+          },
+          {
+            "japanese": "ええと、誕生日は来月です。",
+            "chinese": "嗯，生日在下個月。"
+          },
+          {
+            "japanese": "高橋さんの誕生日は1月です。",
+            "chinese": "高橋先生的生日在1月。"
+          },
+          {
+            "japanese": "鈴木さんの誕生日は14日です。",
+            "chinese": "鈴木先生的生日在14號。"
+          },
+          {
+            "japanese": "私の誕生日は20日です。",
+            "chinese": "我的生日在20號。"
+          },
+          {
+            "japanese": "木村さんの誕生日は24日です。",
+            "chinese": "木村先生的生日在24號。"
+          },
+          {
+            "japanese": "金さんの誕生日は去年でした。",
+            "chinese": "金先生的生日在去年。"
+          },
+          {
+            "japanese": "あのう、誕生日は何日ですか。",
+            "chinese": "不好意思，生日在幾號？"
+          },
+          {
+            "japanese": "私の誕生日は来月です。",
+            "chinese": "我的生日在下個月。"
+          },
+          {
+            "japanese": "はい、誕生日は今日です。",
+            "chinese": "是，生日在今天。"
+          },
+          {
+            "japanese": "林さんの誕生日は先月でした。",
+            "chinese": "林先生的生日在上個月。"
+          },
+          {
+            "japanese": "佐藤さん、誕生日はいつですか。",
+            "chinese": "佐藤先生，你的生日是什麼時候？"
+          }
+        ]
+      },
+      {
+        "japanese": "ふつう",
+        "kanji": "普通",
+        "chinese": "普通車",
+        "image": null,
+        "note": "表每站停靠的普通列車",
+        "kanji_note": {
+          "summary": "日語的「会」、「学」、「帰」、「来」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "transportation_movement"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "私は普通で大阪へ行きます。",
+            "chinese": "我搭普通車去大阪。"
+          },
+          {
+            "japanese": "これは普通です。",
+            "chinese": "這是普通車。"
+          },
+          {
+            "japanese": "普通は駅から来ます。",
+            "chinese": "普通車從車站出發。"
+          },
+          {
+            "japanese": "田中さんは普通で来ます。",
+            "chinese": "田中先生搭普通車來。"
+          },
+          {
+            "japanese": "普通で学校へ行きます。",
+            "chinese": "搭普通車去學校。"
+          },
+          {
+            "japanese": "普通は9時に来ます。",
+            "chinese": "普通車9點來。"
+          },
+          {
+            "japanese": "私は普通で会社へ帰ります。",
+            "chinese": "我搭普通車回公司。"
+          },
+          {
+            "japanese": "普通は各駅に止まります。",
+            "chinese": "普通車每站停靠。"
+          },
+          {
+            "japanese": "普通で京都へ行きます。",
+            "chinese": "搭普通車去京都。"
+          },
+          {
+            "japanese": "山田さんは普通で来ます。",
+            "chinese": "山田先生搭普通車來。"
+          },
+          {
+            "japanese": "普通は駅から東京へ行きます。",
+            "chinese": "普通車從車站開往東京。"
+          },
+          {
+            "japanese": "私は明日普通で仕事へ行きます。",
+            "chinese": "我明天搭普通車去工作。"
+          },
+          {
+            "japanese": "普通は10時に来ます。",
+            "chinese": "普通車10點發車。"
+          },
+          {
+            "japanese": "普通で大阪から帰ります。",
+            "chinese": "搭普通車從大阪回來。"
+          },
+          {
+            "japanese": "鈴木さんは普通で帰ります。",
+            "chinese": "鈴木先生搭普通車回家。"
+          },
+          {
+            "japanese": "普通は空港へ行きます。",
+            "chinese": "普通車開往機場。"
+          },
+          {
+            "japanese": "私は普通で駅へ行きます。",
+            "chinese": "我搭普通車去車站。"
+          },
+          {
+            "japanese": "普通は5時に来ます。",
+            "chinese": "普通車5點來。"
+          },
+          {
+            "japanese": "普通で東京へ行きます。",
+            "chinese": "搭普通車去東京。"
+          },
+          {
+            "japanese": "明日は普通で行きます。",
+            "chinese": "明天搭普通車去。"
+          }
+        ]
+      },
+      {
+        "japanese": "きゅうこう",
+        "kanji": "急行",
+        "chinese": "快車",
+        "image": null,
+        "note": "比普通車停靠站少",
+        "kanji_note": {
+          "summary": "日語的「会」、「学」、「帰」、「来」、「横」、「毎」、「浜」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "横",
+              "zh": "橫",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "浜",
+              "zh": "濱",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "transportation_movement"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "急行は毎朝8時に駅へ来ます。",
+            "chinese": "快車每天早上8點到車站。"
+          },
+          {
+            "japanese": "田中さんは急行で会社へ行きます。",
+            "chinese": "田中先生搭快車去公司。"
+          },
+          {
+            "japanese": "この急行は京都まで行きますか。",
+            "chinese": "這班快車開到京都嗎？"
+          },
+          {
+            "japanese": "あのう、次の急行は何時に来ますか。",
+            "chinese": "不好意思，下一班快車幾點來？"
+          },
+          {
+            "japanese": "山田さんは急行で学校へ来ます。",
+            "chinese": "山田先生搭快車來學校。"
+          },
+          {
+            "japanese": "急行で大阪へ行きます。",
+            "chinese": "搭快車去大阪。"
+          },
+          {
+            "japanese": "鈴木さんは急行で横浜へ行きます。",
+            "chinese": "鈴木先生搭快車去橫濱。"
+          },
+          {
+            "japanese": "急行は9時に来ます。",
+            "chinese": "快車9點來。"
+          },
+          {
+            "japanese": "木村さんは急行で家へ帰ります。",
+            "chinese": "木村先生搭快車回家。"
+          },
+          {
+            "japanese": "あの急行は東京行きです。",
+            "chinese": "那班快車開往東京。"
+          },
+          {
+            "japanese": "李さんは急行で神戸へ行きます。",
+            "chinese": "李先生搭快車去神戶。"
+          },
+          {
+            "japanese": "急行はこの駅にも来ます。",
+            "chinese": "快車也會停這個車站。"
+          },
+          {
+            "japanese": "王さんは急行で駅から帰ります。",
+            "chinese": "王先生搭快車從車站回去。"
+          },
+          {
+            "japanese": "明日、急行で名古屋へ行きます。",
+            "chinese": "明天搭快車去名古屋。"
+          },
+          {
+            "japanese": "佐藤さんは急行で駅へ来ます。",
+            "chinese": "佐藤先生搭快車來車站。"
+          },
+          {
+            "japanese": "急行で京都から大阪へ行きます。",
+            "chinese": "搭快車從京都去大阪。"
+          },
+          {
+            "japanese": "高橋さんは急行で大阪へ帰ります。",
+            "chinese": "高橋先生搭快車回大阪。"
+          },
+          {
+            "japanese": "この急行は名古屋行きですか。",
+            "chinese": "這班快車是開往名古屋的嗎？"
+          },
+          {
+            "japanese": "急行は毎日、東京へ行きます。",
+            "chinese": "快車每天開往東京。"
+          },
+          {
+            "japanese": "林さんは急行で学校へ帰ります。",
+            "chinese": "林先生搭快車回學校。"
+          }
+        ]
+      },
+      {
+        "japanese": "とっきゅう",
+        "kanji": "特急",
+        "chinese": "特快車",
+        "image": null,
+        "note": "停靠站最少，速度最快",
+        "kanji_note": {
+          "summary": "日語的「会」、「帰」、「来」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "transportation_movement"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "特急は空港へ行きます。",
+            "chinese": "特快車開往機場。"
+          },
+          {
+            "japanese": "田中さんは特急で北海道へ行きます。",
+            "chinese": "田中先生搭特快車去北海道。"
+          },
+          {
+            "japanese": "この特急は指定席です。",
+            "chinese": "這班特快車是指定席。"
+          },
+          {
+            "japanese": "あのう、特急は何時に来ますか。",
+            "chinese": "不好意思，特快車幾點來？"
+          },
+          {
+            "japanese": "山田さんは特急で大阪へ帰ります。",
+            "chinese": "山田先生搭特快車回大阪。"
+          },
+          {
+            "japanese": "特急で東京から来ます。",
+            "chinese": "搭特快車從東京來。"
+          },
+          {
+            "japanese": "鈴木さんは特急で空港へ来ます。",
+            "chinese": "鈴木先生搭特快車來機場。"
+          },
+          {
+            "japanese": "特急は名古屋へ行きます。",
+            "chinese": "特快車開往名古屋。"
+          },
+          {
+            "japanese": "木村さんは特急で京都へ行きます。",
+            "chinese": "木村先生搭特快車去京都。"
+          },
+          {
+            "japanese": "あの特急は札幌行きです。",
+            "chinese": "那班特快車開往札幌。"
+          },
+          {
+            "japanese": "李さんは特急で福岡へ行きます。",
+            "chinese": "李先生搭特快車去福岡。"
+          },
+          {
+            "japanese": "特急は東京駅から来ます。",
+            "chinese": "特快車從東京車站出發。"
+          },
+          {
+            "japanese": "王さんは特急で家へ帰ります。",
+            "chinese": "王先生搭特快車回家。"
+          },
+          {
+            "japanese": "明日、特急で北海道へ行きます。",
+            "chinese": "明天搭特快車去北海道。"
+          },
+          {
+            "japanese": "佐藤さんは特急で会社へ来ます。",
+            "chinese": "佐藤先生搭特快車來公司。"
+          },
+          {
+            "japanese": "特急で京都から東京へ行きます。",
+            "chinese": "搭特快車從京都去東京。"
+          },
+          {
+            "japanese": "高橋さんは特急で帰ります。",
+            "chinese": "高橋先生搭特快車回去。"
+          },
+          {
+            "japanese": "この特急は大阪行きですか。",
+            "chinese": "這班特快車是開往大阪的嗎？"
+          },
+          {
+            "japanese": "特急は9時に空港へ来ます。",
+            "chinese": "特快車9點到機場。"
+          },
+          {
+            "japanese": "林さんは特急で駅から帰ります。",
+            "chinese": "林先生搭特快車從車站回去。"
+          }
+        ]
+      },
+      {
+        "japanese": "つぎの",
+        "kanji": "次の",
+        "chinese": "下一個，下一次",
+        "image": null,
+        "note": "連體詞，後接名詞",
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。日語的「曜」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "曜",
+              "zh": "曜",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "reference_demonstrative"
+        ],
+        "speech": [
+          "determiner"
+        ],
+        "sentence": [
+          {
+            "japanese": "次の電車で行きます。",
+            "chinese": "搭下一班電車去。"
+          },
+          {
+            "japanese": "次の駅です。",
+            "chinese": "是下一站。"
+          },
+          {
+            "japanese": "次の日曜日です。",
+            "chinese": "是下一個星期天。"
+          },
+          {
+            "japanese": "次の会議は月曜日です。",
+            "chinese": "下次會議在星期一。"
+          },
+          {
+            "japanese": "次のバスで来ます。",
+            "chinese": "搭下一班公車來。"
+          },
+          {
+            "japanese": "次の休みは来週です。",
+            "chinese": "下次休假在下星期。"
+          },
+          {
+            "japanese": "次の仕事は5日からです。",
+            "chinese": "下一個工作是5號開始。"
+          },
+          {
+            "japanese": "次の電車は9時に来ます。",
+            "chinese": "下一班電車9點來。"
+          },
+          {
+            "japanese": "次の月です。",
+            "chinese": "是下一個月。"
+          },
+          {
+            "japanese": "次の駅で帰ります。",
+            "chinese": "在下一站下車回去。"
+          },
+          {
+            "japanese": "次の日曜日に京都へ行きます。",
+            "chinese": "下一個星期天去京都。"
+          },
+          {
+            "japanese": "次のテストは来週です。",
+            "chinese": "下一個考試在下星期。"
+          },
+          {
+            "japanese": "次の電車で学校へ行きます。",
+            "chinese": "搭下一班電車去學校。"
+          },
+          {
+            "japanese": "次のバスは10時に来ます。",
+            "chinese": "下一班公車10點發車。"
+          },
+          {
+            "japanese": "次の月曜日から働きます。",
+            "chinese": "下一個星期一開始工作。"
+          },
+          {
+            "japanese": "次の誕生日は5月です。",
+            "chinese": "下一個生日在5月。"
+          },
+          {
+            "japanese": "次の電車で会社へ帰ります。",
+            "chinese": "搭下一班電車回公司。"
+          },
+          {
+            "japanese": "次の日は休みです。",
+            "chinese": "下一天是假日。"
+          },
+          {
+            "japanese": "次の駅から歩きます。",
+            "chinese": "從下一站走路去。"
+          },
+          {
+            "japanese": "次の電車まで5分です。",
+            "chinese": "到下一班電車還有5分鐘。"
+          }
+        ]
+      }
+    ]
+  }
+}

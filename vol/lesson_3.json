@@ -1,0 +1,4075 @@
+{
+  "lesson_3": {
+    "vols": [
+      {
+        "japanese": "ここ",
+        "kanji": null,
+        "chinese": "這裡，這個地方",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「学」→ 繁體「學」。",
+          "details": [
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "demonstrative"
+        ],
+        "sentence": [
+          {
+            "japanese": "ここは木村さんの席です。",
+            "chinese": "這裡是木村先生的座位。"
+          },
+          {
+            "japanese": "ここは学生の席ではありません。",
+            "chinese": "這裡不是學生的座位。"
+          },
+          {
+            "japanese": "ここ、窓の近くの席です。",
+            "chinese": "這裡是靠窗的座位。"
+          },
+          {
+            "japanese": "ここは3番の席です。",
+            "chinese": "這裡是3號座位。"
+          },
+          {
+            "japanese": "ここは山田さんの席ですか。",
+            "chinese": "這裡是山田先生的座位嗎？"
+          },
+          {
+            "japanese": "席はここですか、あそこですか。",
+            "chinese": "座位在這裡還是在那裡？"
+          },
+          {
+            "japanese": "ここは私の席ではありません。",
+            "chinese": "這裡不是我的座位。"
+          },
+          {
+            "japanese": "先生の席はここです。",
+            "chinese": "老師的座位在這裡。"
+          },
+          {
+            "japanese": "ここ、空いている席です。",
+            "chinese": "這裡是空著的座位。"
+          },
+          {
+            "japanese": "席はここではありません。",
+            "chinese": "座位不在這裡。"
+          },
+          {
+            "japanese": "ここは王さんの席ですか。",
+            "chinese": "這裡是王先生的座位嗎？"
+          },
+          {
+            "japanese": "あのう、席はここですか。",
+            "chinese": "不好意思，座位在這裡嗎？"
+          },
+          {
+            "japanese": "席、ここです。",
+            "chinese": "座位在這裡。"
+          },
+          {
+            "japanese": "田中さんの席はここです。",
+            "chinese": "田中先生的座位在這裡。"
+          },
+          {
+            "japanese": "あ、席、ここです。",
+            "chinese": "啊，座位在這裡。"
+          },
+          {
+            "japanese": "この席はここではありません。",
+            "chinese": "這個座位不在這裡。"
+          },
+          {
+            "japanese": "すみません、席はここですか。",
+            "chinese": "不好意思，座位在這裡嗎？"
+          },
+          {
+            "japanese": "私の席はここです。",
+            "chinese": "我的座位在這裡。"
+          },
+          {
+            "japanese": "ここは私の席です。",
+            "chinese": "這裡是我的座位。"
+          },
+          {
+            "japanese": "席はここです。",
+            "chinese": "座位在這裡。"
+          }
+        ]
+      },
+      {
+        "japanese": "そこ",
+        "kanji": null,
+        "chinese": "那裡，那個地方",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「学」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "demonstrative"
+        ],
+        "sentence": [
+          {
+            "japanese": "そこは山田さんがいる受付です。",
+            "chinese": "那裡是山田先生所在的接待處。"
+          },
+          {
+            "japanese": "そこはホテルの受付ではありません。",
+            "chinese": "那裡不是飯店的接待處。"
+          },
+          {
+            "japanese": "そこ、受付の前です。",
+            "chinese": "那裡在接待處前面。"
+          },
+          {
+            "japanese": "そこは1階の受付です。",
+            "chinese": "那裡是1樓的接待處。"
+          },
+          {
+            "japanese": "そこはデパートの受付ですか。",
+            "chinese": "那裡是百貨公司的接待處嗎？"
+          },
+          {
+            "japanese": "受付はそこですか、ここですか。",
+            "chinese": "接待處在那裡還是在這裡？"
+          },
+          {
+            "japanese": "そこは受付の近くではありません。",
+            "chinese": "那裡不在接待處附近。"
+          },
+          {
+            "japanese": "そこは学校の受付です。",
+            "chinese": "那裡是學校的接待處。"
+          },
+          {
+            "japanese": "そこ、銀行の受付です。",
+            "chinese": "那裡是銀行的接待處。"
+          },
+          {
+            "japanese": "そこは病院の受付ですか。",
+            "chinese": "那裡是醫院的接待處嗎？"
+          },
+          {
+            "japanese": "受付はそこではありません。",
+            "chinese": "接待處不在那裡。"
+          },
+          {
+            "japanese": "そこは受付ではありません。",
+            "chinese": "那裡不是接待處。"
+          },
+          {
+            "japanese": "あのう、受付はそこですか。",
+            "chinese": "不好意思，接待處在那裡嗎？"
+          },
+          {
+            "japanese": "受付、そこです。",
+            "chinese": "接待處在那裡。"
+          },
+          {
+            "japanese": "田中さんの会社の受付はそこです。",
+            "chinese": "田中先生公司的接待處在那裡。"
+          },
+          {
+            "japanese": "あ、受付、そこです。",
+            "chinese": "啊，接待處在那裡。"
+          },
+          {
+            "japanese": "すみません、受付はそこですか。",
+            "chinese": "不好意思，接待處在那裡嗎？"
+          },
+          {
+            "japanese": "そこ、受付です。",
+            "chinese": "那裡是接待處。"
+          },
+          {
+            "japanese": "そこは受付ですか。",
+            "chinese": "那裡是接待處嗎？"
+          },
+          {
+            "japanese": "受付はそこです。",
+            "chinese": "接待處在那裡。"
+          }
+        ]
+      },
+      {
+        "japanese": "あそこ",
+        "kanji": null,
+        "chinese": "那裡，那個地方",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「売」、「学」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "売",
+              "zh": "賣",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "demonstrative"
+        ],
+        "sentence": [
+          {
+            "japanese": "あそこは私の大学です。",
+            "chinese": "那裡是我的大學。"
+          },
+          {
+            "japanese": "あのう、あそこは教室ですか。",
+            "chinese": "不好意思，那裡是教室嗎？"
+          },
+          {
+            "japanese": "あそこは田中さんの会社です。",
+            "chinese": "那裡是田中先生的公司。"
+          },
+          {
+            "japanese": "すみません、あそこは何階ですか。",
+            "chinese": "不好意思，那裡是幾樓？"
+          },
+          {
+            "japanese": "あそこは山田さんの部屋です。",
+            "chinese": "那裡是山田先生的房間。"
+          },
+          {
+            "japanese": "はい、あそこは受付です。",
+            "chinese": "是，那裡是接待處。"
+          },
+          {
+            "japanese": "あそこは王さんの事務所ですか。",
+            "chinese": "那裡是王先生的辦公室嗎？"
+          },
+          {
+            "japanese": "あ、あそこ、私の家です。",
+            "chinese": "啊，那裡是我家。"
+          },
+          {
+            "japanese": "あそこは木村さんの売り場です。",
+            "chinese": "那裡是木村先生的賣場。"
+          },
+          {
+            "japanese": "ええと、あそこは会議室ですか。",
+            "chinese": "嗯，那裡是會議室嗎？"
+          },
+          {
+            "japanese": "あそこは佐藤さんの学校です。",
+            "chinese": "那裡是佐藤先生的學校。"
+          },
+          {
+            "japanese": "いいえ、あそこは私の部屋ではありません。",
+            "chinese": "不，那裡不是我的房間。"
+          },
+          {
+            "japanese": "あそこも鈴木さんの会社ですか。",
+            "chinese": "那裡也是鈴木先生的公司嗎？"
+          },
+          {
+            "japanese": "高橋さん、あそこはどこですか。",
+            "chinese": "高橋先生，那裡是哪裡？"
+          },
+          {
+            "japanese": "あそこは李さんの教室です。",
+            "chinese": "那裡是李先生的教室。"
+          },
+          {
+            "japanese": "あのう、あそこ、食堂ですか。",
+            "chinese": "不好意思，那裡是餐廳嗎？"
+          },
+          {
+            "japanese": "あそこはロビーではありません。",
+            "chinese": "那裡不是大廳。"
+          },
+          {
+            "japanese": "はい、あそこは私の机です。",
+            "chinese": "是，那裡是我的桌子。"
+          },
+          {
+            "japanese": "あそこ、階段の近くです。",
+            "chinese": "那裡在樓梯附近。"
+          },
+          {
+            "japanese": "林さん、あそこは何階ですか。",
+            "chinese": "林先生，那裡是幾樓？"
+          }
+        ]
+      },
+      {
+        "japanese": "どこ",
+        "kanji": null,
+        "chinese": "哪裡，哪個地方",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「売」、「学」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "売",
+              "zh": "賣",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "demonstrative"
+        ],
+        "sentence": [
+          {
+            "japanese": "トイレはどこですか。",
+            "chinese": "廁所在哪裡？"
+          },
+          {
+            "japanese": "食堂はどこですか。",
+            "chinese": "餐廳在哪裡？"
+          },
+          {
+            "japanese": "王さんの事務所はどこですか。",
+            "chinese": "王先生的辦公室在哪裡？"
+          },
+          {
+            "japanese": "受付はどこですか。",
+            "chinese": "接待處在哪裡？"
+          },
+          {
+            "japanese": "エレベーターはどこですか。",
+            "chinese": "電梯在哪裡？"
+          },
+          {
+            "japanese": "田中さんの部屋はどこですか。",
+            "chinese": "田中先生的房間在哪裡？"
+          },
+          {
+            "japanese": "学校の食堂はどこですか。",
+            "chinese": "學校的餐廳在哪裡？"
+          },
+          {
+            "japanese": "ここはどこですか。",
+            "chinese": "這裡是哪裡？"
+          },
+          {
+            "japanese": "会議室はどこですか。",
+            "chinese": "會議室在哪裡？"
+          },
+          {
+            "japanese": "デパートの靴の売り場はどこですか。",
+            "chinese": "百貨公司的鞋子賣場在哪裡？"
+          },
+          {
+            "japanese": "山田さんの会社はどこですか。",
+            "chinese": "山田先生的公司在哪裡？"
+          },
+          {
+            "japanese": "階段はどこですか。",
+            "chinese": "樓梯在哪裡？"
+          },
+          {
+            "japanese": "そこはどこですか。",
+            "chinese": "那裡是哪裡？"
+          },
+          {
+            "japanese": "あそこはどこですか。",
+            "chinese": "那邊是哪裡？"
+          },
+          {
+            "japanese": "ロビーはどこですか。",
+            "chinese": "大廳在哪裡？"
+          },
+          {
+            "japanese": "銀行のトイレはどこですか。",
+            "chinese": "銀行的廁所在哪裡？"
+          },
+          {
+            "japanese": "先生の部屋はどこですか。",
+            "chinese": "老師的房間在哪裡？"
+          },
+          {
+            "japanese": "地下の売り場はどこですか。",
+            "chinese": "地下樓層的賣場在哪裡？"
+          },
+          {
+            "japanese": "3階の会議室はどこですか。",
+            "chinese": "3樓的會議室在哪裡？"
+          },
+          {
+            "japanese": "あなたの学校はどこですか。",
+            "chinese": "你的學校在哪裡？"
+          }
+        ]
+      },
+      {
+        "japanese": "こちら",
+        "kanji": null,
+        "chinese": "這邊",
+        "image": null,
+        "note": "「こちら」是「ここ」的禮貌形，也可指人",
+        "kanji_note": {
+          "summary": "日語的「会」、「学」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "demonstrative"
+        ],
+        "sentence": [
+          {
+            "japanese": "こちら、受付の名刺です。",
+            "chinese": "這是接待處的名片。"
+          },
+          {
+            "japanese": "こちらは木村さんの名刺です。",
+            "chinese": "這裡是木村先生的名片。"
+          },
+          {
+            "japanese": "名刺はこちらですか、そちらですか。",
+            "chinese": "名片在這裡還是在那裡？"
+          },
+          {
+            "japanese": "こちらは学生の名刺ではありません。",
+            "chinese": "這裡不是學生的名片。"
+          },
+          {
+            "japanese": "こちらは会社の名刺です。",
+            "chinese": "這是公司的名片。"
+          },
+          {
+            "japanese": "名刺はこちらではありません。",
+            "chinese": "名片不在這裡。"
+          },
+          {
+            "japanese": "こちらは山田さんの名刺ですか。",
+            "chinese": "這裡是山田先生的名片嗎？"
+          },
+          {
+            "japanese": "こちらは私の名刺ではありません。",
+            "chinese": "這裡不是我的名片。"
+          },
+          {
+            "japanese": "あのう、名刺はこちらですか。",
+            "chinese": "不好意思，名片在這裡嗎？"
+          },
+          {
+            "japanese": "こちらは先生の名刺です。",
+            "chinese": "這裡是老師的名片。"
+          },
+          {
+            "japanese": "こちら、銀行の名刺です。",
+            "chinese": "這裡是銀行的名片。"
+          },
+          {
+            "japanese": "名刺、こちらです。",
+            "chinese": "名片在這裡。"
+          },
+          {
+            "japanese": "こちらは王さんの名刺ですか。",
+            "chinese": "這裡是王先生的名片嗎？"
+          },
+          {
+            "japanese": "こちらは名刺ではありません。",
+            "chinese": "這裡不是名片。"
+          },
+          {
+            "japanese": "田中さんの名刺はこちらです。",
+            "chinese": "田中先生的名片在這裡。"
+          },
+          {
+            "japanese": "こちら、名刺です。",
+            "chinese": "這裡是名片。"
+          },
+          {
+            "japanese": "あ、名刺、こちらです。",
+            "chinese": "啊，名片在這裡。"
+          },
+          {
+            "japanese": "すみません、名刺はこちらですか。",
+            "chinese": "不好意思，名片在這裡嗎？"
+          },
+          {
+            "japanese": "こちらは私の名刺です。",
+            "chinese": "這是我的名片。"
+          },
+          {
+            "japanese": "名刺はこちらです。",
+            "chinese": "名片在這裡。"
+          }
+        ]
+      },
+      {
+        "japanese": "そちら",
+        "kanji": null,
+        "chinese": "那邊",
+        "image": null,
+        "note": "「そちら」是「そこ」的禮貌形",
+        "kanji_note": {
+          "summary": "日語的「会」、「学」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "demonstrative"
+        ],
+        "sentence": [
+          {
+            "japanese": "そちら、食堂の前です。",
+            "chinese": "那裡在餐廳前面。"
+          },
+          {
+            "japanese": "そちらは山田さんの食堂です。",
+            "chinese": "那裡是山田先生的餐廳。"
+          },
+          {
+            "japanese": "食堂はそちらですか、こちらですか。",
+            "chinese": "餐廳在那裡還是在這裡？"
+          },
+          {
+            "japanese": "そちらはホテルの食堂ではありません。",
+            "chinese": "那裡不是飯店的餐廳。"
+          },
+          {
+            "japanese": "そちらは社員の食堂です。",
+            "chinese": "那裡是員工餐廳。"
+          },
+          {
+            "japanese": "食堂はそちらではありません。",
+            "chinese": "餐廳不在那裡。"
+          },
+          {
+            "japanese": "そちらは6階の食堂ですか。",
+            "chinese": "那裡是6樓的餐廳嗎？"
+          },
+          {
+            "japanese": "そちらは食堂の近くではありません。",
+            "chinese": "那裡不在餐廳附近。"
+          },
+          {
+            "japanese": "あのう、食堂はそちらですか。",
+            "chinese": "不好意思，餐廳在那裡嗎？"
+          },
+          {
+            "japanese": "そちらは病院の食堂です。",
+            "chinese": "那裡是醫院的餐廳。"
+          },
+          {
+            "japanese": "そちら、デパートの食堂です。",
+            "chinese": "那裡是百貨公司的餐廳。"
+          },
+          {
+            "japanese": "食堂、そちらです。",
+            "chinese": "餐廳在那裡。"
+          },
+          {
+            "japanese": "そちらは学校の食堂ですか。",
+            "chinese": "那裡是學校的餐廳嗎？"
+          },
+          {
+            "japanese": "そちらは食堂ではありません。",
+            "chinese": "那裡不是餐廳。"
+          },
+          {
+            "japanese": "田中さんの会社の食堂はそちらです。",
+            "chinese": "田中先生公司的餐廳在那裡。"
+          },
+          {
+            "japanese": "そちら、食堂です。",
+            "chinese": "那裡是餐廳。"
+          },
+          {
+            "japanese": "あ、食堂、そちらです。",
+            "chinese": "啊，餐廳在那裡。"
+          },
+          {
+            "japanese": "すみません、食堂はそちらですか。",
+            "chinese": "不好意思，餐廳在那裡嗎？"
+          },
+          {
+            "japanese": "そちらは食堂ですか。",
+            "chinese": "那裡是餐廳嗎？"
+          },
+          {
+            "japanese": "食堂はそちらです。",
+            "chinese": "餐廳在那裡。"
+          }
+        ]
+      },
+      {
+        "japanese": "あちら",
+        "kanji": null,
+        "chinese": "那邊",
+        "image": null,
+        "note": "「あちら」是「あそこ」的禮貌形",
+        "kanji_note": {
+          "summary": "日語的「会」、「売」、「学」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "売",
+              "zh": "賣",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "demonstrative"
+        ],
+        "sentence": [
+          {
+            "japanese": "あちらは私の大学です。",
+            "chinese": "那邊是我的大學。"
+          },
+          {
+            "japanese": "あのう、あちらは会議室ですか。",
+            "chinese": "不好意思，那邊是會議室嗎？"
+          },
+          {
+            "japanese": "あちらは田中さんの事務所です。",
+            "chinese": "那邊是田中先生的辦公室。"
+          },
+          {
+            "japanese": "すみません、あちらは何階ですか。",
+            "chinese": "不好意思，那邊是幾樓？"
+          },
+          {
+            "japanese": "あちらは山田さんの部屋です。",
+            "chinese": "那邊是山田先生的房間。"
+          },
+          {
+            "japanese": "はい、あちらは受付です。",
+            "chinese": "是，那邊是接待處。"
+          },
+          {
+            "japanese": "あちらは王さんの会社ですか。",
+            "chinese": "那邊是王先生的公司嗎？"
+          },
+          {
+            "japanese": "あ、あちら、私の家です。",
+            "chinese": "啊，那邊是我家。"
+          },
+          {
+            "japanese": "あちらは木村さんの売り場です。",
+            "chinese": "那邊是木村先生的賣場。"
+          },
+          {
+            "japanese": "ええと、あちらはロビーですか。",
+            "chinese": "嗯，那邊是大廳嗎？"
+          },
+          {
+            "japanese": "あちらは佐藤さんの学校です。",
+            "chinese": "那邊是佐藤先生的學校。"
+          },
+          {
+            "japanese": "いいえ、あちらは私の部屋ではありません。",
+            "chinese": "不，那邊不是我的房間。"
+          },
+          {
+            "japanese": "あちらも鈴木さんの会社ですか。",
+            "chinese": "那邊也是鈴木先生的公司嗎？"
+          },
+          {
+            "japanese": "高橋さん、あちらはどこですか。",
+            "chinese": "高橋先生，那邊是哪裡？"
+          },
+          {
+            "japanese": "あちらは李さんの教室です。",
+            "chinese": "那邊是李先生的教室。"
+          },
+          {
+            "japanese": "あのう、あちら、食堂ですか。",
+            "chinese": "不好意思，那邊是餐廳嗎？"
+          },
+          {
+            "japanese": "あちらはエレベーターではありません。",
+            "chinese": "那邊不是電梯。"
+          },
+          {
+            "japanese": "はい、あちらは私の机です。",
+            "chinese": "是，那邊是我的桌子。"
+          },
+          {
+            "japanese": "あちら、階段の近くです。",
+            "chinese": "那邊在樓梯附近。"
+          },
+          {
+            "japanese": "林さん、あちらは何階ですか。",
+            "chinese": "林先生，那邊是幾樓？"
+          }
+        ]
+      },
+      {
+        "japanese": "どちら",
+        "kanji": null,
+        "chinese": "哪邊",
+        "image": null,
+        "note": "「どちら」是「どこ」的禮貌形，也用於詢問二選一",
+        "kanji_note": {
+          "summary": "日語的「会」、「売」、「学」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "売",
+              "zh": "賣",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "demonstrative"
+        ],
+        "sentence": [
+          {
+            "japanese": "トイレはどちらですか。",
+            "chinese": "廁所在哪一邊？"
+          },
+          {
+            "japanese": "食堂はどちらですか。",
+            "chinese": "餐廳在哪一邊？"
+          },
+          {
+            "japanese": "エレベーターはどちらですか。",
+            "chinese": "電梯在哪一邊？"
+          },
+          {
+            "japanese": "受付はどちらですか。",
+            "chinese": "接待處在哪一邊？"
+          },
+          {
+            "japanese": "王さんの事務所はどちらですか。",
+            "chinese": "王先生的辦公室在哪一邊？"
+          },
+          {
+            "japanese": "会議室はどちらですか。",
+            "chinese": "會議室在哪一邊？"
+          },
+          {
+            "japanese": "田中さんの部屋はどちらですか。",
+            "chinese": "田中先生的房間在哪一邊？"
+          },
+          {
+            "japanese": "教室はどちらですか。",
+            "chinese": "教室在哪一邊？"
+          },
+          {
+            "japanese": "銀行の受付はどちらですか。",
+            "chinese": "銀行的接待處在哪一邊？"
+          },
+          {
+            "japanese": "階段はどちらですか。",
+            "chinese": "樓梯在哪一邊？"
+          },
+          {
+            "japanese": "デパートの食堂はどちらですか。",
+            "chinese": "百貨公司的餐廳在哪一邊？"
+          },
+          {
+            "japanese": "お手洗いはどちらですか。",
+            "chinese": "洗手間在哪一邊？"
+          },
+          {
+            "japanese": "ロビーはどちらですか。",
+            "chinese": "大廳在哪一邊？"
+          },
+          {
+            "japanese": "学校のロビーはどちらですか。",
+            "chinese": "學校的大廳在哪一邊？"
+          },
+          {
+            "japanese": "地下の売り場はどちらですか。",
+            "chinese": "地下樓層的賣場在哪一邊？"
+          },
+          {
+            "japanese": "3階のトイレはどちらですか。",
+            "chinese": "3樓的廁所在哪一邊？"
+          },
+          {
+            "japanese": "先生の事務所はどちらですか。",
+            "chinese": "老師的辦公室在哪一邊？"
+          },
+          {
+            "japanese": "2階の会議室はどちらですか。",
+            "chinese": "2樓的會議室在哪一邊？"
+          },
+          {
+            "japanese": "エスカレーターはどちらですか。",
+            "chinese": "電扶梯在哪一邊？"
+          },
+          {
+            "japanese": "王さんの部屋はどちらですか。",
+            "chinese": "王先生的房間在哪一邊？"
+          }
+        ]
+      },
+      {
+        "japanese": "きょうしつ",
+        "kanji": "教室",
+        "chinese": "教室",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「学」→ 繁體「學」。",
+          "details": [
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "ここは教室です。",
+            "chinese": "這裡是教室。"
+          },
+          {
+            "japanese": "教室は2階です。",
+            "chinese": "教室在2樓。"
+          },
+          {
+            "japanese": "あそこは教室ではありません。",
+            "chinese": "那邊不是教室。"
+          },
+          {
+            "japanese": "すみません、教室はどこですか。",
+            "chinese": "不好意思，請問教室在哪裡？"
+          },
+          {
+            "japanese": "これは1年生の教室です。",
+            "chinese": "這是一年級的教室。"
+          },
+          {
+            "japanese": "田中先生の教室は3階です。",
+            "chinese": "田中老師的教室在3樓。"
+          },
+          {
+            "japanese": "2階の教室はどこですか。",
+            "chinese": "2樓的教室在哪裡？"
+          },
+          {
+            "japanese": "あそこも3年生の教室です。",
+            "chinese": "那邊也是三年級的教室。"
+          },
+          {
+            "japanese": "学校の教室はあちらです。",
+            "chinese": "學校的教室在那邊。"
+          },
+          {
+            "japanese": "教室は1階ではありません。",
+            "chinese": "教室不在1樓。"
+          },
+          {
+            "japanese": "そこは教室ですか。",
+            "chinese": "那裡是教室嗎？"
+          },
+          {
+            "japanese": "そこは4階の教室ですか。",
+            "chinese": "那裡是4樓的教室嗎？"
+          },
+          {
+            "japanese": "山田さんの教室は5階です。",
+            "chinese": "山田先生的教室在5樓。"
+          },
+          {
+            "japanese": "あちらは教室ですか。",
+            "chinese": "那邊是教室嗎？"
+          },
+          {
+            "japanese": "私たちの教室は6階です。",
+            "chinese": "我們的教室在6樓。"
+          },
+          {
+            "japanese": "あそこは大学の教室です。",
+            "chinese": "那邊是大學的教室。"
+          },
+          {
+            "japanese": "教室は何階ですか。",
+            "chinese": "教室在幾樓？"
+          },
+          {
+            "japanese": "学校の教室は1階ですか。",
+            "chinese": "學校的教室在1樓嗎？"
+          },
+          {
+            "japanese": "ここも教室です。",
+            "chinese": "這裡也是教室。"
+          },
+          {
+            "japanese": "5階の教室はどちらですか。",
+            "chinese": "5樓的教室在哪一邊？"
+          }
+        ]
+      },
+      {
+        "japanese": "しょくどう",
+        "kanji": "食堂",
+        "chinese": "餐廳，食堂",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「円」、「学」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "円",
+              "zh": "圓",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility",
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "ここは食堂ですか。",
+            "chinese": "這裡是餐廳嗎？"
+          },
+          {
+            "japanese": "食堂は1階です。",
+            "chinese": "餐廳在1樓。"
+          },
+          {
+            "japanese": "あそこは大学の食堂ですか。",
+            "chinese": "那邊是大學的餐廳嗎？"
+          },
+          {
+            "japanese": "あちらは食堂ではありません。",
+            "chinese": "那邊不是餐廳。"
+          },
+          {
+            "japanese": "すみません、食堂はどこですか。",
+            "chinese": "不好意思，請問餐廳在哪裡？"
+          },
+          {
+            "japanese": "会社の食堂は地下です。",
+            "chinese": "公司的餐廳在地下樓層。"
+          },
+          {
+            "japanese": "食堂は3階ですか。",
+            "chinese": "餐廳在3樓嗎？"
+          },
+          {
+            "japanese": "そこは社員の食堂です。",
+            "chinese": "那裡是員工餐廳。"
+          },
+          {
+            "japanese": "デパートの食堂は6階です。",
+            "chinese": "百貨公司的餐廳在6樓。"
+          },
+          {
+            "japanese": "こちらも食堂です。",
+            "chinese": "這邊也是餐廳。"
+          },
+          {
+            "japanese": "食堂は何階ですか。",
+            "chinese": "餐廳在幾樓？"
+          },
+          {
+            "japanese": "そちらは病院の食堂です。",
+            "chinese": "那邊是醫院的餐廳。"
+          },
+          {
+            "japanese": "食堂のトイレはあそこです。",
+            "chinese": "餐廳的廁所在那邊。"
+          },
+          {
+            "japanese": "食堂のコーヒーは150円です。",
+            "chinese": "餐廳的咖啡是150日圓。"
+          },
+          {
+            "japanese": "食堂は9階ではありません。",
+            "chinese": "餐廳不在9樓。"
+          },
+          {
+            "japanese": "学校の食堂はあそこです。",
+            "chinese": "學校的餐廳在那邊。"
+          },
+          {
+            "japanese": "山田さんの会社の食堂はどこですか。",
+            "chinese": "山田先生公司的餐廳在哪裡？"
+          },
+          {
+            "japanese": "あそこも食堂です。",
+            "chinese": "那邊也是餐廳。"
+          },
+          {
+            "japanese": "6階の食堂はどちらですか。",
+            "chinese": "6樓的餐廳在哪一邊？"
+          },
+          {
+            "japanese": "私たちの食堂は2階です。",
+            "chinese": "我們的餐廳在2樓。"
+          }
+        ]
+      },
+      {
+        "japanese": "じむしょ",
+        "kanji": "事務所",
+        "chinese": "辦公室",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「万」、「会」、「円」、「学」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "万",
+              "zh": "萬",
+              "note": null
+            },
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "円",
+              "zh": "圓",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "ここは事務所です。",
+            "chinese": "這裡是辦公室。"
+          },
+          {
+            "japanese": "事務所は2階です。",
+            "chinese": "辦公室在2樓。"
+          },
+          {
+            "japanese": "事務所はどこですか。",
+            "chinese": "辦公室在哪裡？"
+          },
+          {
+            "japanese": "あそこは田中さんの事務所です。",
+            "chinese": "那邊是田中先生的辦公室。"
+          },
+          {
+            "japanese": "事務所は1階ではありません。",
+            "chinese": "辦公室不在1樓。"
+          },
+          {
+            "japanese": "そこは事務所ですか。",
+            "chinese": "那裡是辦公室嗎？"
+          },
+          {
+            "japanese": "会社の事務所は3階です。",
+            "chinese": "公司的辦公室在3樓。"
+          },
+          {
+            "japanese": "学校の事務所はあちらです。",
+            "chinese": "學校的辦公室在那邊。"
+          },
+          {
+            "japanese": "あちらも事務所です。",
+            "chinese": "那邊也是辦公室。"
+          },
+          {
+            "japanese": "王さんの事務所は何階ですか。",
+            "chinese": "王先生的辦公室在幾樓？"
+          },
+          {
+            "japanese": "事務所はどちらですか。",
+            "chinese": "辦公室在哪一邊？"
+          },
+          {
+            "japanese": "田中さんの事務所は4階です。",
+            "chinese": "田中先生的辦公室在4樓。"
+          },
+          {
+            "japanese": "事務所のパソコンは10万円です。",
+            "chinese": "辦公室的電腦是10萬日圓。"
+          },
+          {
+            "japanese": "ここも事務所です。",
+            "chinese": "這裡也是辦公室。"
+          },
+          {
+            "japanese": "事務所は5階ですか。",
+            "chinese": "辦公室在5樓嗎？"
+          },
+          {
+            "japanese": "そこは山田さんの事務所ではありません。",
+            "chinese": "那裡不是山田先生的辦公室。"
+          },
+          {
+            "japanese": "病院の事務所は3階ですか。",
+            "chinese": "醫院的辦公室在3樓嗎？"
+          },
+          {
+            "japanese": "あそこは事務所ですか。",
+            "chinese": "那邊是辦公室嗎？"
+          },
+          {
+            "japanese": "これは事務所のキーです。",
+            "chinese": "這是辦公室的鑰匙。"
+          },
+          {
+            "japanese": "私の事務所はデパートの8階です。",
+            "chinese": "我的辦公室在百貨公司的8樓。"
+          }
+        ]
+      },
+      {
+        "japanese": "かいぎしつ",
+        "kanji": "会議室",
+        "chinese": "會議室",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「学」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "すみません、会議室はどこですか。",
+            "chinese": "不好意思，請問會議室在哪裡？"
+          },
+          {
+            "japanese": "会議室は2階です。",
+            "chinese": "會議室在2樓。"
+          },
+          {
+            "japanese": "あちらは会議室ではありません。",
+            "chinese": "那邊不是會議室。"
+          },
+          {
+            "japanese": "会議室は5階ですか。",
+            "chinese": "會議室在5樓嗎？"
+          },
+          {
+            "japanese": "そこは会議室です。",
+            "chinese": "那裡是會議室。"
+          },
+          {
+            "japanese": "会議室は地下です。",
+            "chinese": "會議室在地下樓層。"
+          },
+          {
+            "japanese": "会社の会議室は4階ですか。",
+            "chinese": "公司的會議室在4樓嗎？"
+          },
+          {
+            "japanese": "ここも会議室です。",
+            "chinese": "這裡也是會議室。"
+          },
+          {
+            "japanese": "会議室は1階ではありません。",
+            "chinese": "會議室不在1樓。"
+          },
+          {
+            "japanese": "あれは会議室の時計です。",
+            "chinese": "那個是會議室的時鐘。"
+          },
+          {
+            "japanese": "大学の会議室はどこですか。",
+            "chinese": "大學的會議室在哪裡？"
+          },
+          {
+            "japanese": "そちらは会議室ですか。",
+            "chinese": "那邊是會議室嗎？"
+          },
+          {
+            "japanese": "ここは3階の会議室です。",
+            "chinese": "這裡是3樓的會議室。"
+          },
+          {
+            "japanese": "あそこも会議室です。",
+            "chinese": "那邊也是會議室。"
+          },
+          {
+            "japanese": "10階の会議室はあちらです。",
+            "chinese": "10樓的會議室在那邊。"
+          },
+          {
+            "japanese": "会議室のトイレはどこですか。",
+            "chinese": "會議室的廁所在哪裡？"
+          },
+          {
+            "japanese": "ロビーは会議室ではありません。",
+            "chinese": "大廳不是會議室。"
+          },
+          {
+            "japanese": "銀行の会議室はあそこですか。",
+            "chinese": "銀行的會議室在那邊嗎？"
+          },
+          {
+            "japanese": "会議室は何階ですか。",
+            "chinese": "會議室在幾樓？"
+          },
+          {
+            "japanese": "私たちの会議室は6階です。",
+            "chinese": "我們的會議室在6樓。"
+          }
+        ]
+      },
+      {
+        "japanese": "うけつけ",
+        "kanji": "受付",
+        "chinese": "傳達室，接待處",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「学」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "受付は1階です。",
+            "chinese": "接待處在1樓。"
+          },
+          {
+            "japanese": "ここは受付ですか。",
+            "chinese": "這裡是接待處嗎？"
+          },
+          {
+            "japanese": "あそこは受付ではありません。",
+            "chinese": "那邊不是接待處。"
+          },
+          {
+            "japanese": "銀行の受付はどこですか。",
+            "chinese": "銀行的接待處在哪裡？"
+          },
+          {
+            "japanese": "受付は2階ではありません。",
+            "chinese": "接待處不在2樓。"
+          },
+          {
+            "japanese": "そこは受付です。",
+            "chinese": "那裡是接待處。"
+          },
+          {
+            "japanese": "病院の受付は何階ですか。",
+            "chinese": "醫院的接待處在幾樓？"
+          },
+          {
+            "japanese": "大学の受付はあそこです。",
+            "chinese": "大學的接待處在那邊。"
+          },
+          {
+            "japanese": "ここも受付です。",
+            "chinese": "這裡也是接待處。"
+          },
+          {
+            "japanese": "山田さんの会社の受付はどこですか。",
+            "chinese": "山田先生公司的接待處在哪裡？"
+          },
+          {
+            "japanese": "そちらは受付ですか。",
+            "chinese": "那邊是接待處嗎？"
+          },
+          {
+            "japanese": "ロビーの受付はあちらです。",
+            "chinese": "大廳的接待處在那邊。"
+          },
+          {
+            "japanese": "デパートの受付は地下です。",
+            "chinese": "百貨公司的接待處在地下樓層。"
+          },
+          {
+            "japanese": "あそこは受付ですか。",
+            "chinese": "那邊是接待處嗎？"
+          },
+          {
+            "japanese": "受付はこちらですか。",
+            "chinese": "接待處在這邊嗎？"
+          },
+          {
+            "japanese": "受付の人はだれですか。",
+            "chinese": "接待處的人是誰？"
+          },
+          {
+            "japanese": "受付の人は王さんです。",
+            "chinese": "接待處的人是王先生。"
+          },
+          {
+            "japanese": "あそこは銀行の受付ではありません。",
+            "chinese": "那邊不是銀行的接待處。"
+          },
+          {
+            "japanese": "学校の受付は1階ですか。",
+            "chinese": "學校的接待處在1樓嗎？"
+          },
+          {
+            "japanese": "ここはデパートの受付ですか。",
+            "chinese": "這裡是百貨公司的接待處嗎？"
+          }
+        ]
+      },
+      {
+        "japanese": "ロビー",
+        "kanji": null,
+        "chinese": "大廳，休息室",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「学」、「隣」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "隣",
+              "zh": "鄰",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "ロビーは1階です。",
+            "chinese": "大廳在1樓。"
+          },
+          {
+            "japanese": "あのう、ロビーはどこですか。",
+            "chinese": "不好意思，大廳在哪裡？"
+          },
+          {
+            "japanese": "このロビーは会社のです。",
+            "chinese": "這個大廳是公司的。"
+          },
+          {
+            "japanese": "すみません、ロビーは何階ですか。",
+            "chinese": "不好意思，大廳在幾樓？"
+          },
+          {
+            "japanese": "ロビーは田中さんの待ち合わせ場所です。",
+            "chinese": "大廳是田中先生的會合地點。"
+          },
+          {
+            "japanese": "はい、ロビーはこちらです。",
+            "chinese": "是，大廳在這裡。"
+          },
+          {
+            "japanese": "あのロビーは王さんのホテルのです。",
+            "chinese": "那個大廳是王先生飯店的。"
+          },
+          {
+            "japanese": "あ、ロビー、あそこです。",
+            "chinese": "啊，大廳在那裡。"
+          },
+          {
+            "japanese": "ロビーの受付はあちらです。",
+            "chinese": "大廳的接待處在那邊。"
+          },
+          {
+            "japanese": "ええと、ロビーはこの先です。",
+            "chinese": "嗯，大廳在前面。"
+          },
+          {
+            "japanese": "あのロビーは木村さんの会社のです。",
+            "chinese": "那個大廳是木村先生公司的。"
+          },
+          {
+            "japanese": "いいえ、ロビーは2階ではありません。",
+            "chinese": "不，大廳不在2樓。"
+          },
+          {
+            "japanese": "ロビーは山田さんの部屋の隣です。",
+            "chinese": "大廳在山田先生房間的隔壁。"
+          },
+          {
+            "japanese": "高橋さん、ロビーはどこですか。",
+            "chinese": "高橋先生，大廳在哪裡？"
+          },
+          {
+            "japanese": "このロビーは李さんの学校のです。",
+            "chinese": "這個大廳是李先生學校的。"
+          },
+          {
+            "japanese": "あのう、ロビー、こちらですか。",
+            "chinese": "不好意思，大廳在這裡嗎？"
+          },
+          {
+            "japanese": "ロビーはエレベーターの前です。",
+            "chinese": "大廳在電梯前面。"
+          },
+          {
+            "japanese": "はい、ロビーは私の会社のです。",
+            "chinese": "是，大廳是我公司的。"
+          },
+          {
+            "japanese": "ロビー、階段の近くです。",
+            "chinese": "大廳在樓梯附近。"
+          },
+          {
+            "japanese": "林さん、ロビーは何階ですか。",
+            "chinese": "林先生，大廳在幾樓？"
+          }
+        ]
+      },
+      {
+        "japanese": "へや",
+        "kanji": "部屋",
+        "chinese": "房間",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「話」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "話",
+              "zh": "話",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "place_facility",
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "山田さんの部屋は2階です。",
+            "chinese": "山田先生的房間在2樓。"
+          },
+          {
+            "japanese": "ここは私の部屋です。",
+            "chinese": "這裡是我的房間。"
+          },
+          {
+            "japanese": "部屋は何階ですか。",
+            "chinese": "房間在幾樓？"
+          },
+          {
+            "japanese": "あそこは王さんの部屋ではありません。",
+            "chinese": "那邊不是王先生的房間。"
+          },
+          {
+            "japanese": "部屋は3階ですか。",
+            "chinese": "房間在3樓嗎？"
+          },
+          {
+            "japanese": "そこは王さんの部屋ですか。",
+            "chinese": "那裡是王先生的房間嗎？"
+          },
+          {
+            "japanese": "部屋の電話はあそこです。",
+            "chinese": "房間的電話在那邊。"
+          },
+          {
+            "japanese": "部屋は1階ではありません。",
+            "chinese": "房間不在1樓。"
+          },
+          {
+            "japanese": "先生の部屋はあそこです。",
+            "chinese": "老師的房間在那邊。"
+          },
+          {
+            "japanese": "私たちの部屋は5階です。",
+            "chinese": "我們的房間在5樓。"
+          },
+          {
+            "japanese": "部屋はどちらですか。",
+            "chinese": "房間在哪一邊？"
+          },
+          {
+            "japanese": "そこも部屋です。",
+            "chinese": "那裡也是房間。"
+          },
+          {
+            "japanese": "佐藤さんの部屋は6階です。",
+            "chinese": "佐藤先生的房間在6樓。"
+          },
+          {
+            "japanese": "あなたの部屋はどこですか。",
+            "chinese": "你的房間在哪裡？"
+          },
+          {
+            "japanese": "部屋は8階ではありません。",
+            "chinese": "房間不在8樓。"
+          },
+          {
+            "japanese": "そこは6階の部屋ですか。",
+            "chinese": "那裡是6樓的房間嗎？"
+          },
+          {
+            "japanese": "9階の部屋はどちらですか。",
+            "chinese": "9樓的房間在哪一邊？"
+          },
+          {
+            "japanese": "部屋は地下ではありません。",
+            "chinese": "房間不在地下樓層。"
+          },
+          {
+            "japanese": "田中さんの部屋は4階です。",
+            "chinese": "田中先生的房間在4樓。"
+          },
+          {
+            "japanese": "そこは先生の部屋ですか。",
+            "chinese": "那裡是老師的房間嗎？"
+          }
+        ]
+      },
+      {
+        "japanese": "トイレ",
+        "kanji": null,
+        "chinese": "廁所",
+        "image": null,
+        "note": "「お手洗い（おてあらい）」是較客氣的說法",
+        "kanji_note": {
+          "summary": "日語的「会」、「学」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "すみません、トイレはどこですか。",
+            "chinese": "不好意思，請問廁所在哪裡？"
+          },
+          {
+            "japanese": "トイレは1階です。",
+            "chinese": "廁所在1樓。"
+          },
+          {
+            "japanese": "トイレはあそこではありません。",
+            "chinese": "廁所不在那邊。"
+          },
+          {
+            "japanese": "ここはトイレですか。",
+            "chinese": "這裡是廁所嗎？"
+          },
+          {
+            "japanese": "2階のトイレはどこですか。",
+            "chinese": "2樓的廁所在哪裡？"
+          },
+          {
+            "japanese": "あそこは学校のトイレです。",
+            "chinese": "那邊是學校的廁所。"
+          },
+          {
+            "japanese": "トイレは地下です。",
+            "chinese": "廁所在地下樓層。"
+          },
+          {
+            "japanese": "トイレは3階ではありません。",
+            "chinese": "廁所不在3樓。"
+          },
+          {
+            "japanese": "そこはトイレではありません。",
+            "chinese": "那裡不是廁所。"
+          },
+          {
+            "japanese": "病院のトイレはどちらですか。",
+            "chinese": "醫院的廁所在哪一邊？"
+          },
+          {
+            "japanese": "トイレは何階ですか。",
+            "chinese": "廁所在幾樓？"
+          },
+          {
+            "japanese": "トイレはここですか。",
+            "chinese": "廁所在這裡嗎？"
+          },
+          {
+            "japanese": "デパートのトイレはあちらです。",
+            "chinese": "百貨公司的廁所在那邊。"
+          },
+          {
+            "japanese": "部屋のトイレはあそこです。",
+            "chinese": "房間的廁所在那邊。"
+          },
+          {
+            "japanese": "あちらはトイレではありません。",
+            "chinese": "那邊不是廁所。"
+          },
+          {
+            "japanese": "学校のトイレは1階です。",
+            "chinese": "學校的廁所在1樓。"
+          },
+          {
+            "japanese": "トイレは9階ですか。",
+            "chinese": "廁所在9樓嗎？"
+          },
+          {
+            "japanese": "会社のトイレはどこですか。",
+            "chinese": "公司的廁所在哪裡？"
+          },
+          {
+            "japanese": "あそこもトイレです。",
+            "chinese": "那邊也是廁所。"
+          },
+          {
+            "japanese": "デパートのトイレは地下です。",
+            "chinese": "百貨公司的廁所在地下樓層。"
+          }
+        ]
+      },
+      {
+        "japanese": "かいだん",
+        "kanji": "階段",
+        "chinese": "樓梯",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「学」→ 繁體「學」。",
+          "details": [
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "すみません、階段はどこですか。",
+            "chinese": "不好意思，請問樓梯在哪裡？"
+          },
+          {
+            "japanese": "階段はあちらです。",
+            "chinese": "樓梯在那邊。"
+          },
+          {
+            "japanese": "あそこは階段ではありません。",
+            "chinese": "那邊不是樓梯。"
+          },
+          {
+            "japanese": "ここは階段ですか。",
+            "chinese": "這裡是樓梯嗎？"
+          },
+          {
+            "japanese": "学校の階段はあそこです。",
+            "chinese": "學校的樓梯在那邊。"
+          },
+          {
+            "japanese": "階段は2階ですか。",
+            "chinese": "樓梯在2樓嗎？"
+          },
+          {
+            "japanese": "そこは階段です。",
+            "chinese": "那裡是樓梯。"
+          },
+          {
+            "japanese": "あちらも階段です。",
+            "chinese": "那邊也是樓梯。"
+          },
+          {
+            "japanese": "病院の階段はどちらですか。",
+            "chinese": "醫院的樓梯在哪一邊？"
+          },
+          {
+            "japanese": "ここも階段です。",
+            "chinese": "這裡也是樓梯。"
+          },
+          {
+            "japanese": "そちらは階段ですか。",
+            "chinese": "那邊是樓梯嗎？"
+          },
+          {
+            "japanese": "階段は6階です。",
+            "chinese": "樓梯在6樓。"
+          },
+          {
+            "japanese": "大学の階段はどこですか。",
+            "chinese": "大學的樓梯在哪裡？"
+          },
+          {
+            "japanese": "そこも階段です。",
+            "chinese": "那裡也是樓梯。"
+          },
+          {
+            "japanese": "階段はどれですか。",
+            "chinese": "哪一個是樓梯？"
+          },
+          {
+            "japanese": "学校の階段は1階ですか。",
+            "chinese": "學校的樓梯在1樓嗎？"
+          },
+          {
+            "japanese": "そこはデパートの階段ですか。",
+            "chinese": "那裡是百貨公司的樓梯嗎？"
+          },
+          {
+            "japanese": "ここは階段ではありません。",
+            "chinese": "這裡不是樓梯。"
+          },
+          {
+            "japanese": "10階の階段はあそこですか。",
+            "chinese": "10樓的樓梯在那邊嗎？"
+          },
+          {
+            "japanese": "こちらは階段です。",
+            "chinese": "這邊是樓梯。"
+          }
+        ]
+      },
+      {
+        "japanese": "エレベーター",
+        "kanji": null,
+        "chinese": "電梯",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「学」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "すみません、エレベーターはどこですか。",
+            "chinese": "不好意思，請問電梯在哪裡？"
+          },
+          {
+            "japanese": "エレベーターは1階です。",
+            "chinese": "電梯在1樓。"
+          },
+          {
+            "japanese": "あそこはエレベーターではありません。",
+            "chinese": "那邊不是電梯。"
+          },
+          {
+            "japanese": "これはエレベーターですか。",
+            "chinese": "這是電梯嗎？"
+          },
+          {
+            "japanese": "デパートのエレベーターはどこですか。",
+            "chinese": "百貨公司的電梯在哪裡？"
+          },
+          {
+            "japanese": "あれはエレベーターではありません。",
+            "chinese": "那個不是電梯。"
+          },
+          {
+            "japanese": "学校のエレベーターはあそこです。",
+            "chinese": "學校的電梯在那邊。"
+          },
+          {
+            "japanese": "会社のエレベーターはあちらです。",
+            "chinese": "公司的電梯在那邊。"
+          },
+          {
+            "japanese": "病院のエレベーターはどちらですか。",
+            "chinese": "醫院的電梯在哪一邊？"
+          },
+          {
+            "japanese": "あれはエレベーターです。",
+            "chinese": "那個是電梯。"
+          },
+          {
+            "japanese": "そこはエレベーターですか。",
+            "chinese": "那裡是電梯嗎？"
+          },
+          {
+            "japanese": "銀行のエレベーターはあそこです。",
+            "chinese": "銀行的電梯在那邊。"
+          },
+          {
+            "japanese": "これは3階のエレベーターですか。",
+            "chinese": "這是3樓的電梯嗎？"
+          },
+          {
+            "japanese": "あそこは大学のエレベーターです。",
+            "chinese": "那邊是大學的電梯。"
+          },
+          {
+            "japanese": "それもエレベーターです。",
+            "chinese": "那個也是電梯。"
+          },
+          {
+            "japanese": "ここはエレベーターですか。",
+            "chinese": "這裡是電梯嗎？"
+          },
+          {
+            "japanese": "デパートのエレベーターは地下です。",
+            "chinese": "百貨公司的電梯在地下樓層。"
+          },
+          {
+            "japanese": "病院のエレベーターはあそこですか。",
+            "chinese": "醫院的電梯在那邊嗎？"
+          },
+          {
+            "japanese": "これはエレベーターではありません。",
+            "chinese": "這不是電梯。"
+          },
+          {
+            "japanese": "エレベーターはどれですか。",
+            "chinese": "哪一個是電梯？"
+          }
+        ]
+      },
+      {
+        "japanese": "エスカレーター",
+        "kanji": null,
+        "chinese": "電扶梯",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「学」、「隣」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "隣",
+              "zh": "鄰",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "エスカレーターは2階です。",
+            "chinese": "電扶梯在2樓。"
+          },
+          {
+            "japanese": "あのう、エスカレーターはどこですか。",
+            "chinese": "不好意思，電扶梯在哪裡？"
+          },
+          {
+            "japanese": "このエスカレーターは会社のです。",
+            "chinese": "這個電扶梯是公司的。"
+          },
+          {
+            "japanese": "すみません、エスカレーターは何階ですか。",
+            "chinese": "不好意思，電扶梯在幾樓？"
+          },
+          {
+            "japanese": "エスカレーターは田中さんのホテルのです。",
+            "chinese": "電扶梯是田中先生飯店的。"
+          },
+          {
+            "japanese": "はい、エスカレーターはこちらです。",
+            "chinese": "是，電扶梯在這裡。"
+          },
+          {
+            "japanese": "あのエスカレーターは王さんの会社のです。",
+            "chinese": "那個電扶梯是王先生公司的。"
+          },
+          {
+            "japanese": "あ、エスカレーター、あそこです。",
+            "chinese": "啊，電扶梯在那裡。"
+          },
+          {
+            "japanese": "エスカレーターの前は受付です。",
+            "chinese": "電扶梯前面是接待處。"
+          },
+          {
+            "japanese": "ええと、エスカレーターはこの先です。",
+            "chinese": "嗯，電扶梯在前面。"
+          },
+          {
+            "japanese": "あのエスカレーターは木村さんのデパートのです。",
+            "chinese": "那個電扶梯是木村先生百貨公司的。"
+          },
+          {
+            "japanese": "いいえ、エスカレーターは3階ではありません。",
+            "chinese": "不，電扶梯不在3樓。"
+          },
+          {
+            "japanese": "エスカレーターは山田さんの部屋の近くです。",
+            "chinese": "電扶梯在山田先生房間的附近。"
+          },
+          {
+            "japanese": "高橋さん、エスカレーターはどこですか。",
+            "chinese": "高橋先生，電扶梯在哪裡？"
+          },
+          {
+            "japanese": "このエスカレーターは李さんの学校のです。",
+            "chinese": "這個電扶梯是李先生學校的。"
+          },
+          {
+            "japanese": "あのう、エスカレーター、こちらですか。",
+            "chinese": "不好意思，電扶梯在這裡嗎？"
+          },
+          {
+            "japanese": "エスカレーターは階段の隣です。",
+            "chinese": "電扶梯在樓梯的隔壁。"
+          },
+          {
+            "japanese": "はい、エスカレーターは私の会社のです。",
+            "chinese": "是，電扶梯是我公司的。"
+          },
+          {
+            "japanese": "エスカレーター、ロビーの近くです。",
+            "chinese": "電扶梯在大廳附近。"
+          },
+          {
+            "japanese": "林さん、エスカレーターは何階ですか。",
+            "chinese": "林先生，電扶梯在幾樓？"
+          }
+        ]
+      },
+      {
+        "japanese": "おくに",
+        "kanji": "お国",
+        "chinese": "貴國，國家",
+        "image": null,
+        "note": "加「お」表尊敬，多用於指對方的國家",
+        "kanji_note": {
+          "summary": "日語「国」→ 繁體「國」。",
+          "details": [
+            {
+              "jp": "国",
+              "zh": "國",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "王さんのお国は中国です。",
+            "chinese": "王先生的國家是中國。"
+          },
+          {
+            "japanese": "スミスさんのお国はどこですか。",
+            "chinese": "史密斯先生的國家是哪裡？"
+          },
+          {
+            "japanese": "私の国は日本です。",
+            "chinese": "我的國家是日本。"
+          },
+          {
+            "japanese": "友達のお国はインドネシアです。",
+            "chinese": "朋友的國家是印尼。"
+          },
+          {
+            "japanese": "李さんのお国は韓国ですか。",
+            "chinese": "李先生的國家是韓國嗎？"
+          },
+          {
+            "japanese": "あの人のお国はどこですか。",
+            "chinese": "那個人的國家是哪裡？"
+          },
+          {
+            "japanese": "私の国はブラジルではありません。",
+            "chinese": "我的國家不是巴西。"
+          },
+          {
+            "japanese": "田中さんのお国も日本です。",
+            "chinese": "田中先生的國家也是日本。"
+          },
+          {
+            "japanese": "山田さんのお国はイギリスですか、アメリカですか。",
+            "chinese": "山田先生的國家是英國還是美國？"
+          },
+          {
+            "japanese": "鈴木さんのお国はタイですか。",
+            "chinese": "鈴木先生的國家是泰國嗎？"
+          },
+          {
+            "japanese": "鈴木さんのお国はタイではありません。インドです。",
+            "chinese": "鈴木先生的國家不是泰國，是印度。"
+          },
+          {
+            "japanese": "先生のお国はどこですか。",
+            "chinese": "老師的國家是哪裡？"
+          },
+          {
+            "japanese": "佐藤さんのお国はイギリスではありません。アメリカです。",
+            "chinese": "佐藤先生的國家不是英國，是美國。"
+          },
+          {
+            "japanese": "ジョンさんのお国はアメリカです。",
+            "chinese": "約翰的國家是美國。"
+          },
+          {
+            "japanese": "その人のお国はドイツです。",
+            "chinese": "那個人的國家是德國。"
+          },
+          {
+            "japanese": "あなたのお国はどこですか。",
+            "chinese": "你的國家是哪裡？"
+          },
+          {
+            "japanese": "田中さんのお国はフランスではありません。",
+            "chinese": "田中先生的國家不是法國。"
+          },
+          {
+            "japanese": "マリアさんのお国はブラジルです。",
+            "chinese": "瑪莉亞的國家是巴西。"
+          },
+          {
+            "japanese": "私の友達のお国はタイです。",
+            "chinese": "我朋友的國家是泰國。"
+          },
+          {
+            "japanese": "李さんのお国も王さんのお国も中国です。",
+            "chinese": "李先生的國家和王先生的國家都是中國。"
+          }
+        ]
+      },
+      {
+        "japanese": "かいしゃ",
+        "kanji": "会社",
+        "chinese": "公司",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「学」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "あそこは王さんの会社です。",
+            "chinese": "那裡是王先生的公司。"
+          },
+          {
+            "japanese": "私の会社は東京です。",
+            "chinese": "我的公司在東京。"
+          },
+          {
+            "japanese": "佐藤さんの会社はどこですか。",
+            "chinese": "佐藤先生的公司在哪裡？"
+          },
+          {
+            "japanese": "これは会社ではありません。学校です。",
+            "chinese": "這不是公司，是學校。"
+          },
+          {
+            "japanese": "あれも会社ですか。",
+            "chinese": "那個也是公司嗎？"
+          },
+          {
+            "japanese": "私は会社員です。会社は大阪です。",
+            "chinese": "我是公司職員，公司在大阪。"
+          },
+          {
+            "japanese": "田中さんの会社はここですか。",
+            "chinese": "田中先生的公司是在這裡嗎？"
+          },
+          {
+            "japanese": "会社の食堂は2階です。",
+            "chinese": "公司的餐廳在2樓。"
+          },
+          {
+            "japanese": "会社はあそこではありません。",
+            "chinese": "公司不在那裡。"
+          },
+          {
+            "japanese": "私の会社の事務所は5階です。",
+            "chinese": "我公司的辦公室在5樓。"
+          },
+          {
+            "japanese": "あそこは銀行ですか、会社ですか。",
+            "chinese": "那裡是銀行還是公司？"
+          },
+          {
+            "japanese": "その会社は日本の会社ですか。",
+            "chinese": "那家公司是日本的公司嗎？"
+          },
+          {
+            "japanese": "私の会社も3階です。",
+            "chinese": "我的公司也在3樓。"
+          },
+          {
+            "japanese": "会社の会議室はどこですか。",
+            "chinese": "公司的會議室在哪裡？"
+          },
+          {
+            "japanese": "あの会社はインドの会社です。",
+            "chinese": "那家公司是印度的公司。"
+          },
+          {
+            "japanese": "王さんの会社の受付は1階です。",
+            "chinese": "王先生公司的接待處在1樓。"
+          },
+          {
+            "japanese": "ここは会社のロビーです。",
+            "chinese": "這裡是公司的大廳。"
+          },
+          {
+            "japanese": "私の会社はアメリカの会社ではありません。",
+            "chinese": "我的公司不是美國的公司。"
+          },
+          {
+            "japanese": "山田さんの会社も東京です。",
+            "chinese": "山田先生的公司也在東京。"
+          },
+          {
+            "japanese": "会社のお手洗いはどこですか。",
+            "chinese": "公司的洗手間在哪裡？"
+          }
+        ]
+      },
+      {
+        "japanese": "うち",
+        "kanji": null,
+        "chinese": "家，房子",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「会」→ 繁體「會」。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life",
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "田中さんのうちはどこですか。",
+            "chinese": "田中先生的家在哪裡？"
+          },
+          {
+            "japanese": "私のうちは京都です。",
+            "chinese": "我的家在京都。"
+          },
+          {
+            "japanese": "あそこは私のうちです。",
+            "chinese": "那裡是我的家。"
+          },
+          {
+            "japanese": "王さんのうちも東京です。",
+            "chinese": "王先生的家也在東京。"
+          },
+          {
+            "japanese": "これはうちではありません。ホテルです。",
+            "chinese": "這不是住家，是飯店。"
+          },
+          {
+            "japanese": "あなたのうちはどこですか。",
+            "chinese": "你的家在哪裡？"
+          },
+          {
+            "japanese": "私のうちのトイレは1階です。",
+            "chinese": "我家的廁所在1樓。"
+          },
+          {
+            "japanese": "あそこは鈴木さんのうちですか。",
+            "chinese": "那裡是鈴木先生的家嗎？"
+          },
+          {
+            "japanese": "李さんのうちはあそこです。",
+            "chinese": "李先生的家在那裡。"
+          },
+          {
+            "japanese": "うちは大阪ではありません。",
+            "chinese": "我家不在大阪。"
+          },
+          {
+            "japanese": "山田さんのうちもあそこです。",
+            "chinese": "山田先生的家也在那裡。"
+          },
+          {
+            "japanese": "スミスさんのうちはアメリカです。",
+            "chinese": "史密斯先生的家在美國。"
+          },
+          {
+            "japanese": "うちの会社は3階です。",
+            "chinese": "我們公司在3樓。"
+          },
+          {
+            "japanese": "あそこは高橋さんのうちです。",
+            "chinese": "那裡是高橋先生的家。"
+          },
+          {
+            "japanese": "あなたのうちは日本ですか。",
+            "chinese": "你的家在日本嗎？"
+          },
+          {
+            "japanese": "佐藤さんのうちも京都です。",
+            "chinese": "佐藤先生的家也在京都。"
+          },
+          {
+            "japanese": "あそこは鈴木さんのうちではありません。",
+            "chinese": "那裡不是鈴木先生的家。"
+          },
+          {
+            "japanese": "私のうちは6階です。",
+            "chinese": "我家在6樓。"
+          },
+          {
+            "japanese": "友達のうちは大阪です。",
+            "chinese": "朋友的家在大阪。"
+          },
+          {
+            "japanese": "山田さんのうちは何階ですか。",
+            "chinese": "山田先生的家在幾樓？"
+          }
+        ]
+      },
+      {
+        "japanese": "でんわ",
+        "kanji": "電話",
+        "chinese": "電話",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「話」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "万",
+              "zh": "萬",
+              "note": null
+            },
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "円",
+              "zh": "圓",
+              "note": null
+            },
+            {
+              "jp": "売",
+              "zh": "賣",
+              "note": null
+            },
+            {
+              "jp": "話",
+              "zh": "話",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "object_tool",
+          "communication_language_study"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "この電話はいくらですか。",
+            "chinese": "這支電話多少錢？"
+          },
+          {
+            "japanese": "その電話は8000円です。",
+            "chinese": "那支電話是8000日圓。"
+          },
+          {
+            "japanese": "あれは田中さんの電話です。",
+            "chinese": "那是田中先生的電話。"
+          },
+          {
+            "japanese": "あなたの電話はどれですか。",
+            "chinese": "你的電話是哪一支？"
+          },
+          {
+            "japanese": "これは電話ではありません。カメラです。",
+            "chinese": "這不是電話，是相機。"
+          },
+          {
+            "japanese": "この電話も8000円ですか。",
+            "chinese": "這支電話也是8000日圓嗎？"
+          },
+          {
+            "japanese": "電話の売り場は1階ですか、2階ですか。",
+            "chinese": "電話的賣場在1樓還是2樓？"
+          },
+          {
+            "japanese": "私の電話はあそこです。",
+            "chinese": "我的電話在那裡。"
+          },
+          {
+            "japanese": "その電話は王さんの電話ではありません。",
+            "chinese": "那支電話不是王先生的電話。"
+          },
+          {
+            "japanese": "電話はどこですか。",
+            "chinese": "電話在哪裡？"
+          },
+          {
+            "japanese": "あの電話は3000円です。",
+            "chinese": "那支電話是3000日圓。"
+          },
+          {
+            "japanese": "これも電話です。",
+            "chinese": "這也是電話。"
+          },
+          {
+            "japanese": "その電話は一万円です。",
+            "chinese": "那支電話是一萬日圓。"
+          },
+          {
+            "japanese": "私の会社の電話はあちらです。",
+            "chinese": "我公司的電話在那邊。"
+          },
+          {
+            "japanese": "この電話は5000円ですか。",
+            "chinese": "這支電話是5000日圓嗎？"
+          },
+          {
+            "japanese": "うちの電話はこれです。",
+            "chinese": "我家裡的電話是這個。"
+          },
+          {
+            "japanese": "電話も時計も売り場は5階ですか。",
+            "chinese": "電話和手錶的賣場都在5樓嗎？"
+          },
+          {
+            "japanese": "これは私の電話ですか。",
+            "chinese": "這是我的電話嗎？"
+          },
+          {
+            "japanese": "その電話は3000円ではありません。",
+            "chinese": "那支電話不是3000日圓。"
+          },
+          {
+            "japanese": "電話の売り場はあちらです。",
+            "chinese": "電話的賣場在那邊。"
+          }
+        ]
+      },
+      {
+        "japanese": "くつ",
+        "kanji": "靴",
+        "chinese": "鞋子",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「万」、「円」、「売」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "万",
+              "zh": "萬",
+              "note": null
+            },
+            {
+              "jp": "円",
+              "zh": "圓",
+              "note": null
+            },
+            {
+              "jp": "売",
+              "zh": "賣",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "すみません、この靴はいくらですか。",
+            "chinese": "不好意思，請問這雙鞋多少錢？"
+          },
+          {
+            "japanese": "その靴は1万円です。",
+            "chinese": "那雙鞋是一萬日圓。"
+          },
+          {
+            "japanese": "靴の売り場は5階です。",
+            "chinese": "鞋的賣場在5樓。"
+          },
+          {
+            "japanese": "これは靴ではありません。",
+            "chinese": "這不是鞋子。"
+          },
+          {
+            "japanese": "あの靴は2500円ですか。",
+            "chinese": "那雙鞋是2500日圓嗎？"
+          },
+          {
+            "japanese": "私の靴はどれですか。",
+            "chinese": "我的鞋是哪一雙？"
+          },
+          {
+            "japanese": "それは王さんの靴です。",
+            "chinese": "那是王先生的鞋。"
+          },
+          {
+            "japanese": "靴の売り場は何階ですか。",
+            "chinese": "鞋的賣場在幾樓？"
+          },
+          {
+            "japanese": "この靴は7000円ですか。",
+            "chinese": "這雙鞋是7000日圓嗎？"
+          },
+          {
+            "japanese": "靴の売り場はあそこではありません。",
+            "chinese": "鞋的賣場不在那裡。"
+          },
+          {
+            "japanese": "あれも田中さんの靴ですか。",
+            "chinese": "那雙也是田中先生的鞋嗎？"
+          },
+          {
+            "japanese": "私の靴はこれです。",
+            "chinese": "我的鞋是這雙。"
+          },
+          {
+            "japanese": "その靴は3500円です。",
+            "chinese": "那雙鞋是3500日圓。"
+          },
+          {
+            "japanese": "あの靴は2500円ではありません。",
+            "chinese": "那雙鞋不是2500日圓。"
+          },
+          {
+            "japanese": "この靴は6000円ではありません。",
+            "chinese": "這雙鞋不是6000日圓。"
+          },
+          {
+            "japanese": "あの売り場の靴はいくらですか。",
+            "chinese": "那個賣場的鞋多少錢？"
+          },
+          {
+            "japanese": "友達の靴は9000円です。",
+            "chinese": "朋友的鞋是9000日圓。"
+          },
+          {
+            "japanese": "これはだれの靴ですか。",
+            "chinese": "這是誰的鞋？"
+          },
+          {
+            "japanese": "それは私の靴ではありません。",
+            "chinese": "那不是我的鞋。"
+          },
+          {
+            "japanese": "その靴は2万円ですか。",
+            "chinese": "那雙鞋是兩萬日圓嗎？"
+          }
+        ]
+      },
+      {
+        "japanese": "ネクタイ",
+        "kanji": null,
+        "chinese": "領帶",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「万」、「円」、「売」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "万",
+              "zh": "萬",
+              "note": null
+            },
+            {
+              "jp": "円",
+              "zh": "圓",
+              "note": null
+            },
+            {
+              "jp": "売",
+              "zh": "賣",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "このネクタイはいくらですか。",
+            "chinese": "這條領帶多少錢？"
+          },
+          {
+            "japanese": "そのネクタイは3000円です。",
+            "chinese": "那條領帶是3000日圓。"
+          },
+          {
+            "japanese": "ネクタイの売り場は2階です。",
+            "chinese": "領帶的賣場在2樓。"
+          },
+          {
+            "japanese": "これはネクタイですか。",
+            "chinese": "這是領帶嗎？"
+          },
+          {
+            "japanese": "あのネクタイも3000円ですか。",
+            "chinese": "那條領帶也是3000日圓嗎？"
+          },
+          {
+            "japanese": "私のネクタイはどれですか。",
+            "chinese": "我的領帶是哪一條？"
+          },
+          {
+            "japanese": "それは田中さんのネクタイです。",
+            "chinese": "那是田中先生的領帶。"
+          },
+          {
+            "japanese": "ネクタイはあちらです。",
+            "chinese": "領帶的賣場在那邊。"
+          },
+          {
+            "japanese": "このネクタイは5000円ではありません。",
+            "chinese": "這條領帶不是5000日圓。"
+          },
+          {
+            "japanese": "あそこはネクタイの売り場ですか。",
+            "chinese": "那裡是領帶的賣場嗎？"
+          },
+          {
+            "japanese": "これも田中さんのネクタイです。",
+            "chinese": "這條也是田中先生的領帶。"
+          },
+          {
+            "japanese": "そのネクタイは8000円です。",
+            "chinese": "那條領帶是8000日圓。"
+          },
+          {
+            "japanese": "これはだれのネクタイですか。",
+            "chinese": "這是誰的領帶？"
+          },
+          {
+            "japanese": "そのネクタイは1000円ですか。",
+            "chinese": "那條領帶是1000日圓嗎？"
+          },
+          {
+            "japanese": "これは私のネクタイではありません。",
+            "chinese": "這條不是我的領帶。"
+          },
+          {
+            "japanese": "あのネクタイは1万円です。",
+            "chinese": "那條領帶是一萬日圓。"
+          },
+          {
+            "japanese": "ネクタイもかばんも2階の売り場です。",
+            "chinese": "領帶和包包的賣場都在2樓。"
+          },
+          {
+            "japanese": "あれはネクタイではありません。",
+            "chinese": "那不是領帶。"
+          },
+          {
+            "japanese": "すみません、ネクタイはどこですか。",
+            "chinese": "不好意思，請問領帶在哪裡？"
+          },
+          {
+            "japanese": "私のネクタイは1500円です。",
+            "chinese": "我的領帶是1500日圓。"
+          }
+        ]
+      },
+      {
+        "japanese": "ワイン",
+        "kanji": null,
+        "chinese": "葡萄酒",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「万」、「円」、「売」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "万",
+              "zh": "萬",
+              "note": null
+            },
+            {
+              "jp": "円",
+              "zh": "圓",
+              "note": null
+            },
+            {
+              "jp": "売",
+              "zh": "賣",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "このワインはいくらですか。",
+            "chinese": "這瓶葡萄酒多少錢？"
+          },
+          {
+            "japanese": "そのワインは1500円です。",
+            "chinese": "那瓶葡萄酒是1500日圓。"
+          },
+          {
+            "japanese": "地下1階はワインの売り場です。",
+            "chinese": "地下1樓是葡萄酒的賣場。"
+          },
+          {
+            "japanese": "これはワインではありません。",
+            "chinese": "這不是葡萄酒。"
+          },
+          {
+            "japanese": "あのワインも5000円ですか。",
+            "chinese": "那瓶葡萄酒也是5000日圓嗎？"
+          },
+          {
+            "japanese": "ワインの売り場は何階ですか。",
+            "chinese": "葡萄酒的賣場在幾樓？"
+          },
+          {
+            "japanese": "それは田中さんのワインです。",
+            "chinese": "那是田中先生的葡萄酒。"
+          },
+          {
+            "japanese": "あれもワインですか。",
+            "chinese": "那個也是葡萄酒嗎？"
+          },
+          {
+            "japanese": "このワインは1000円ではありません。",
+            "chinese": "這瓶葡萄酒不是1000日圓。"
+          },
+          {
+            "japanese": "私のワインはどれですか。",
+            "chinese": "我的葡萄酒是哪一瓶？"
+          },
+          {
+            "japanese": "そのワインは2万円です。",
+            "chinese": "那瓶葡萄酒是兩萬日圓。"
+          },
+          {
+            "japanese": "これはだれのワインですか。",
+            "chinese": "這是誰的葡萄酒？"
+          },
+          {
+            "japanese": "あのワインはフランスのワインです。",
+            "chinese": "那瓶葡萄酒是法國葡萄酒。"
+          },
+          {
+            "japanese": "ワインもたばこも地下の売り場ですか。",
+            "chinese": "葡萄酒和香菸的賣場都在地下樓層嗎？"
+          },
+          {
+            "japanese": "このワインは3000円ですか。",
+            "chinese": "這瓶葡萄酒是3000日圓嗎？"
+          },
+          {
+            "japanese": "それは私のワインではありません。",
+            "chinese": "那不是我的葡萄酒。"
+          },
+          {
+            "japanese": "これはワインですか。",
+            "chinese": "這是葡萄酒嗎？"
+          },
+          {
+            "japanese": "あのワインは1万円ではありません。",
+            "chinese": "那瓶葡萄酒不是一萬日圓。"
+          },
+          {
+            "japanese": "お土産のワインはどれですか。",
+            "chinese": "伴手禮的葡萄酒是哪一瓶？"
+          },
+          {
+            "japanese": "王さんのワインはこれですか。",
+            "chinese": "王先生的葡萄酒是這瓶嗎？"
+          }
+        ]
+      },
+      {
+        "japanese": "たばこ",
+        "kanji": null,
+        "chinese": "香菸",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「円」、「売」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "円",
+              "zh": "圓",
+              "note": null
+            },
+            {
+              "jp": "売",
+              "zh": "賣",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "たばこの売り場は何階ですか。",
+            "chinese": "香菸的賣場在幾樓？"
+          },
+          {
+            "japanese": "このたばこは500円です。",
+            "chinese": "這包香菸是500日圓。"
+          },
+          {
+            "japanese": "あそこはたばこの売り場です。",
+            "chinese": "那裡是香菸的賣場。"
+          },
+          {
+            "japanese": "これはたばこではありません。",
+            "chinese": "這不是香菸。"
+          },
+          {
+            "japanese": "そのたばこも500円ですか。",
+            "chinese": "那包香菸也是500日圓嗎？"
+          },
+          {
+            "japanese": "たばこの売り場は1階ですか、2階ですか。",
+            "chinese": "香菸的賣場在1樓還是2樓？"
+          },
+          {
+            "japanese": "それは王さんのたばこです。",
+            "chinese": "那是王先生的香菸。"
+          },
+          {
+            "japanese": "このたばこは600円ですか。",
+            "chinese": "這包香菸是600日圓嗎？"
+          },
+          {
+            "japanese": "私のたばこはどれですか。",
+            "chinese": "我的香菸是哪包？"
+          },
+          {
+            "japanese": "あのたばこは400円ではありません。",
+            "chinese": "那包香菸不是400日圓。"
+          },
+          {
+            "japanese": "たばこはあちらです。",
+            "chinese": "香菸的賣場在那邊。"
+          },
+          {
+            "japanese": "これも田中さんのたばこです。",
+            "chinese": "這包也是田中先生的香菸。"
+          },
+          {
+            "japanese": "そのたばこはいくらですか。",
+            "chinese": "那包香菸多少錢？"
+          },
+          {
+            "japanese": "あれはたばこですか。",
+            "chinese": "那個是香菸嗎？"
+          },
+          {
+            "japanese": "このたばこは300円です。",
+            "chinese": "這包香菸是300日圓。"
+          },
+          {
+            "japanese": "それは私のたばこではありません。",
+            "chinese": "那不是我的香菸。"
+          },
+          {
+            "japanese": "これは友達のたばこです。",
+            "chinese": "這是朋友的香菸。"
+          },
+          {
+            "japanese": "あのたばこは800円です。",
+            "chinese": "那包香菸是800日圓。"
+          },
+          {
+            "japanese": "たばこはどこですか。",
+            "chinese": "香菸在哪裡？"
+          },
+          {
+            "japanese": "田中さんのたばこはこれですか。",
+            "chinese": "田中先生的香菸是這包嗎？"
+          }
+        ]
+      },
+      {
+        "japanese": "うりば",
+        "kanji": "売り場",
+        "chinese": "櫃台，賣場",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「売」→ 繁體「賣」。",
+          "details": [
+            {
+              "jp": "売",
+              "zh": "賣",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "かばんの売り場はどこですか。",
+            "chinese": "包包的賣場在哪裡？"
+          },
+          {
+            "japanese": "時計の売り場は2階です。",
+            "chinese": "手錶的賣場在2樓。"
+          },
+          {
+            "japanese": "あそこは傘の売り場ですか。",
+            "chinese": "那裡是傘的賣場嗎？"
+          },
+          {
+            "japanese": "これは売り場ではありません。受付です。",
+            "chinese": "這裡不是賣場，是接待處。"
+          },
+          {
+            "japanese": "ワインの売り場も地下です。",
+            "chinese": "葡萄酒的賣場也在地下樓層。"
+          },
+          {
+            "japanese": "売り場は何階ですか。",
+            "chinese": "賣場在幾樓？"
+          },
+          {
+            "japanese": "3階はノートの売り場です。",
+            "chinese": "3樓是筆記本的賣場。"
+          },
+          {
+            "japanese": "売り場はあちらです。",
+            "chinese": "賣場在那邊。"
+          },
+          {
+            "japanese": "ここは傘の売り場ではありません。",
+            "chinese": "這裡不是傘的賣場。"
+          },
+          {
+            "japanese": "その売り場は1階ですか、地下ですか。",
+            "chinese": "那個賣場在1樓還是在地下樓層？"
+          },
+          {
+            "japanese": "ネクタイの売り場は2階ですか。",
+            "chinese": "領帶的賣場在2樓嗎？"
+          },
+          {
+            "japanese": "あちらも売り場です。",
+            "chinese": "那邊也是賣場。"
+          },
+          {
+            "japanese": "本の売り場は6階です。",
+            "chinese": "書的賣場在6樓。"
+          },
+          {
+            "japanese": "カメラの売り場はあそこです。",
+            "chinese": "相機的賣場在那裡。"
+          },
+          {
+            "japanese": "ここは何の売り場ですか。",
+            "chinese": "這裡是賣什麼的賣場？"
+          },
+          {
+            "japanese": "その売り場は4階ではありません。",
+            "chinese": "那個賣場不在4樓。"
+          },
+          {
+            "japanese": "傘の売り場も1階ですか。",
+            "chinese": "傘的賣場也在1樓嗎？"
+          },
+          {
+            "japanese": "テレビの売り場は7階です。",
+            "chinese": "電視的賣場在7樓。"
+          },
+          {
+            "japanese": "すみません、ワインの売り場はどこですか。",
+            "chinese": "不好意思，請問葡萄酒的賣場在哪裡？"
+          },
+          {
+            "japanese": "ワインの売り場はここです。",
+            "chinese": "葡萄酒的賣場在這裡。"
+          }
+        ]
+      },
+      {
+        "japanese": "ちか",
+        "kanji": "地下",
+        "chinese": "地下",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「売」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "売",
+              "zh": "賣",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "レストランは地下1階です。",
+            "chinese": "餐廳在地下1樓。"
+          },
+          {
+            "japanese": "あのレストランは地下ではありません。3階です。",
+            "chinese": "那家餐廳不在地下樓層，在3樓。"
+          },
+          {
+            "japanese": "スーパーは地下1階です。",
+            "chinese": "超市在地下1樓。"
+          },
+          {
+            "japanese": "ワインの売り場は地下です。",
+            "chinese": "葡萄酒的賣場在地下樓層。"
+          },
+          {
+            "japanese": "そちらは地下の売り場ですか。",
+            "chinese": "那邊是地下樓層的賣場嗎？"
+          },
+          {
+            "japanese": "デパートの地下の売り場はどこですか。",
+            "chinese": "百貨公司地下樓層的賣場在哪裡？"
+          },
+          {
+            "japanese": "ここは地下1階です。",
+            "chinese": "這裡是地下1樓。"
+          },
+          {
+            "japanese": "地下2階はレストランではありません。",
+            "chinese": "地下2樓不是餐廳。"
+          },
+          {
+            "japanese": "駅の地下はスーパーです。",
+            "chinese": "車站地下是超市。"
+          },
+          {
+            "japanese": "そのホテルの食堂は地下ですか。",
+            "chinese": "那家飯店的餐廳在地下樓層嗎？"
+          },
+          {
+            "japanese": "これは地下1階ではありません。",
+            "chinese": "這裡不是地下1樓。"
+          },
+          {
+            "japanese": "地下のトイレはどこですか。",
+            "chinese": "地下樓層的廁所在哪裡？"
+          },
+          {
+            "japanese": "地下1階も売り場です。",
+            "chinese": "地下1樓也是賣場。"
+          },
+          {
+            "japanese": "私の会社は地下ではありません。",
+            "chinese": "我的公司不在地下樓層。"
+          },
+          {
+            "japanese": "あのスーパーの食堂は地下2階です。",
+            "chinese": "那家超市的餐廳在地下2樓。"
+          },
+          {
+            "japanese": "銀行は地下1階ですか。",
+            "chinese": "銀行在地下1樓嗎？"
+          },
+          {
+            "japanese": "ワインの売り場は地下1階ですか、地下2階ですか。",
+            "chinese": "葡萄酒的賣場在地下1樓還是地下2樓？"
+          },
+          {
+            "japanese": "地下のトイレはあそこです。",
+            "chinese": "地下樓層的廁所在那裡。"
+          },
+          {
+            "japanese": "王さんの会社は地下2階です。",
+            "chinese": "王先生的公司在地下2樓。"
+          },
+          {
+            "japanese": "すみません、地下の食堂はここですか。",
+            "chinese": "不好意思，請問地下樓層的餐廳是在這裡嗎？"
+          }
+        ]
+      },
+      {
+        "japanese": "…かい",
+        "kanji": "…階",
+        "chinese": "…樓",
+        "image": null,
+        "note": "讀法有變化：1階讀「いっかい」、3階讀「さんがい」、6階讀「ろっかい」、10階讀「じゅっかい」。",
+        "kanji_note": {
+          "summary": "日語的「会」、「売」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "売",
+              "zh": "賣",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "私の部屋は3階です。",
+            "chinese": "我的房間在3樓。"
+          },
+          {
+            "japanese": "トイレは1階ですか。",
+            "chinese": "廁所在1樓嗎？"
+          },
+          {
+            "japanese": "あのレストランは7階です。",
+            "chinese": "那家餐廳在7樓。"
+          },
+          {
+            "japanese": "受付は1階、事務所は5階です。",
+            "chinese": "接待處在1樓，辦公室在5樓。"
+          },
+          {
+            "japanese": "田中さんの部屋は6階です。",
+            "chinese": "田中先生的房間在6樓。"
+          },
+          {
+            "japanese": "1階はロビーです。",
+            "chinese": "1樓是大廳。"
+          },
+          {
+            "japanese": "あのホテルのレストランは10階です。",
+            "chinese": "那家飯店的餐廳在10樓。"
+          },
+          {
+            "japanese": "2階の売り場はどこですか。",
+            "chinese": "2樓的賣場在哪裡？"
+          },
+          {
+            "japanese": "会議室は4階です。",
+            "chinese": "會議室在4樓。"
+          },
+          {
+            "japanese": "8階の部屋はどれですか。",
+            "chinese": "8樓的房間是哪一間？"
+          },
+          {
+            "japanese": "教室は2階ですか、3階ですか。",
+            "chinese": "教室在2樓還是3樓？"
+          },
+          {
+            "japanese": "あの銀行は1階ではありません。",
+            "chinese": "那家銀行不在1樓。"
+          },
+          {
+            "japanese": "レストランは5階です。",
+            "chinese": "餐廳在5樓。"
+          },
+          {
+            "japanese": "私の会社は9階です。",
+            "chinese": "我的公司在9樓。"
+          },
+          {
+            "japanese": "6階の部屋は王さんの部屋です。",
+            "chinese": "6樓的房間是王先生的房間。"
+          },
+          {
+            "japanese": "銀行の事務所は8階です。",
+            "chinese": "銀行的辦公室在8樓。"
+          },
+          {
+            "japanese": "3階のトイレはここですか。",
+            "chinese": "3樓的廁所在這裡嗎？"
+          },
+          {
+            "japanese": "私の部屋は2階ではありません。",
+            "chinese": "我的房間不在2樓。"
+          },
+          {
+            "japanese": "友達の部屋は8階です。",
+            "chinese": "朋友的房間在8樓。"
+          },
+          {
+            "japanese": "15階の部屋はいくらですか。",
+            "chinese": "15樓的房間多少錢？"
+          }
+        ]
+      },
+      {
+        "japanese": "なんがい",
+        "kanji": "何階",
+        "chinese": "幾樓",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「売」、「学」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "売",
+              "zh": "賣",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "あのデパートのトイレは何階ですか。",
+            "chinese": "那家百貨公司的廁所在幾樓？"
+          },
+          {
+            "japanese": "あのレストランは何階ですか。",
+            "chinese": "那家餐廳在幾樓？"
+          },
+          {
+            "japanese": "王さんの部屋は何階ですか。",
+            "chinese": "王先生的房間在幾樓？"
+          },
+          {
+            "japanese": "それは何階の売り場ですか。",
+            "chinese": "那是幾樓的賣場？"
+          },
+          {
+            "japanese": "このホテルの食堂は何階ですか。",
+            "chinese": "這家飯店的餐廳在幾樓？"
+          },
+          {
+            "japanese": "何階の部屋ですか。",
+            "chinese": "是幾樓的房間？"
+          },
+          {
+            "japanese": "田中さんの会社は何階ですか。",
+            "chinese": "田中先生的公司在幾樓？"
+          },
+          {
+            "japanese": "すみません、ここは何階ですか。",
+            "chinese": "不好意思，請問這裡是幾樓？"
+          },
+          {
+            "japanese": "あの学校の教室は何階ですか。",
+            "chinese": "那所學校的教室在幾樓？"
+          },
+          {
+            "japanese": "銀行は何階ですか。",
+            "chinese": "銀行在幾樓？"
+          },
+          {
+            "japanese": "何階のレストランですか。",
+            "chinese": "是幾樓的餐廳？"
+          },
+          {
+            "japanese": "その売り場は何階ですか。",
+            "chinese": "那個賣場在幾樓？"
+          },
+          {
+            "japanese": "時計の売り場は何階ですか。",
+            "chinese": "手錶的賣場在幾樓？"
+          },
+          {
+            "japanese": "あなたの部屋は何階ですか。",
+            "chinese": "你的房間在幾樓？"
+          },
+          {
+            "japanese": "何階の事務所ですか。",
+            "chinese": "是幾樓的辦公室？"
+          },
+          {
+            "japanese": "スーパーは何階ですか。",
+            "chinese": "超市在幾樓？"
+          },
+          {
+            "japanese": "王さんの会社の会議室は何階ですか。",
+            "chinese": "王先生公司的會議室在幾樓？"
+          },
+          {
+            "japanese": "何階ですか。2階です。",
+            "chinese": "在幾樓？在2樓。"
+          },
+          {
+            "japanese": "エレベーターは何階ですか。1階です。",
+            "chinese": "電梯在幾樓？在1樓。"
+          },
+          {
+            "japanese": "レストランは何階ですか。10階です。",
+            "chinese": "餐廳在幾樓？在10樓。"
+          }
+        ]
+      },
+      {
+        "japanese": "…えん",
+        "kanji": "…円",
+        "chinese": "…日圓",
+        "image": null,
+        "note": "讀法隨數字略有變化：4円讀「よえん」、10円讀「じゅえん」。",
+        "kanji_note": {
+          "summary": "日語的「万」、「円」、「転」、「辞」、「雑」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "万",
+              "zh": "萬",
+              "note": null
+            },
+            {
+              "jp": "円",
+              "zh": "圓",
+              "note": null
+            },
+            {
+              "jp": "転",
+              "zh": "轉",
+              "note": null
+            },
+            {
+              "jp": "辞",
+              "zh": "辭",
+              "note": null
+            },
+            {
+              "jp": "雑",
+              "zh": "雜",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "この鉛筆は100円です。",
+            "chinese": "這支鉛筆是100日圓。"
+          },
+          {
+            "japanese": "そのノートは200円です。",
+            "chinese": "那本筆記本是200日圓。"
+          },
+          {
+            "japanese": "このボールペンは300円ですか。",
+            "chinese": "這支原子筆是300日圓嗎？"
+          },
+          {
+            "japanese": "あの傘は800円です。",
+            "chinese": "那把傘是800日圓。"
+          },
+          {
+            "japanese": "その本は1000円です。",
+            "chinese": "那本書是1000日圓。"
+          },
+          {
+            "japanese": "この雑誌は500円ですか。",
+            "chinese": "這本雜誌是500日圓嗎？"
+          },
+          {
+            "japanese": "このチョコレートは600円です。",
+            "chinese": "這盒巧克力是600日圓。"
+          },
+          {
+            "japanese": "そのコーヒーは400円ですか。",
+            "chinese": "那杯咖啡是400日圓嗎？"
+          },
+          {
+            "japanese": "このかばんは2万円です。",
+            "chinese": "這個包包是2萬日圓。"
+          },
+          {
+            "japanese": "その時計は3万円ではありません。2万円です。",
+            "chinese": "那隻手錶不是3萬日圓，是2萬日圓。"
+          },
+          {
+            "japanese": "この辞書は5000円です。",
+            "chinese": "這本字典是5000日圓。"
+          },
+          {
+            "japanese": "あの自転車は15000円です。",
+            "chinese": "那輛自行車是15000日圓。"
+          },
+          {
+            "japanese": "その手帳は700円ですか。",
+            "chinese": "那本手帳是700日圓嗎？"
+          },
+          {
+            "japanese": "このカードは3000円ではありません。500円です。",
+            "chinese": "這張卡不是3000日圓，是500日圓。"
+          },
+          {
+            "japanese": "そのテレビは8万円です。",
+            "chinese": "那台電視是8萬日圓。"
+          },
+          {
+            "japanese": "あの車は200万円です。",
+            "chinese": "那輛車是200萬日圓。"
+          },
+          {
+            "japanese": "そのワインは1200円です。",
+            "chinese": "那瓶葡萄酒是1200日圓。"
+          },
+          {
+            "japanese": "そのパソコンは10万円です。",
+            "chinese": "那台個人電腦是10萬日圓。"
+          },
+          {
+            "japanese": "このカメラは5万円ですか。",
+            "chinese": "這台相機是5萬日圓嗎？"
+          },
+          {
+            "japanese": "あのお土産は2500円です。",
+            "chinese": "那個伴手禮是2500日圓。"
+          }
+        ]
+      },
+      {
+        "japanese": "いくら",
+        "kanji": null,
+        "chinese": "多少錢",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「話」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "万",
+              "zh": "萬",
+              "note": null
+            },
+            {
+              "jp": "円",
+              "zh": "圓",
+              "note": null
+            },
+            {
+              "jp": "話",
+              "zh": "話",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "転",
+              "zh": "轉",
+              "note": null
+            },
+            {
+              "jp": "辞",
+              "zh": "辭",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "これはいくらですか。",
+            "chinese": "這個多少錢？"
+          },
+          {
+            "japanese": "その靴はいくらですか。",
+            "chinese": "那雙鞋多少錢？"
+          },
+          {
+            "japanese": "すみません、このかばんはいくらですか。",
+            "chinese": "不好意思，請問這個包包多少錢？"
+          },
+          {
+            "japanese": "あのワインはいくらですか。",
+            "chinese": "那瓶葡萄酒多少錢？"
+          },
+          {
+            "japanese": "そのネクタイはいくらですか。",
+            "chinese": "那條領帶多少錢？"
+          },
+          {
+            "japanese": "自転車はいくらですか。",
+            "chinese": "自行車多少錢？"
+          },
+          {
+            "japanese": "この傘はいくらですか。800円です。",
+            "chinese": "這把傘多少錢？800日圓。"
+          },
+          {
+            "japanese": "この鉛筆はいくらですか。100円です。",
+            "chinese": "這支鉛筆多少錢？100日圓。"
+          },
+          {
+            "japanese": "あの車はいくらですか。",
+            "chinese": "那輛車多少錢？"
+          },
+          {
+            "japanese": "チョコレートはいくらですか。",
+            "chinese": "巧克力多少錢？"
+          },
+          {
+            "japanese": "そのかばんはいくらですか。2万円です。",
+            "chinese": "那個包包多少錢？2萬日圓。"
+          },
+          {
+            "japanese": "お土産はいくらですか。",
+            "chinese": "伴手禮多少錢？"
+          },
+          {
+            "japanese": "そのカメラはいくらですか。",
+            "chinese": "那台相機多少錢？"
+          },
+          {
+            "japanese": "このパソコンはいくらですか。",
+            "chinese": "這台個人電腦多少錢？"
+          },
+          {
+            "japanese": "部屋はいくらですか。",
+            "chinese": "房間多少錢？"
+          },
+          {
+            "japanese": "10階の部屋はいくらですか。",
+            "chinese": "10樓的房間多少錢？"
+          },
+          {
+            "japanese": "その辞書はいくらですか。",
+            "chinese": "那本字典多少錢？"
+          },
+          {
+            "japanese": "これもいくらですか。",
+            "chinese": "那這個多少錢？"
+          },
+          {
+            "japanese": "コーヒーはいくらですか。",
+            "chinese": "咖啡多少錢？"
+          },
+          {
+            "japanese": "その電話はいくらですか。",
+            "chinese": "那支電話多少錢？"
+          }
+        ]
+      },
+      {
+        "japanese": "ひゃく",
+        "kanji": "百",
+        "chinese": "百",
+        "image": null,
+        "note": "數字讀法有變化：300讀「さんびゃく」、600讀「ろっぴゃく」、800讀「はっぴゃく」。",
+        "kanji_note": {
+          "summary": "日語的「円」、「雑」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "円",
+              "zh": "圓",
+              "note": null
+            },
+            {
+              "jp": "雑",
+              "zh": "雜",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "この新聞は百円です。",
+            "chinese": "這份報紙是100日圓。"
+          },
+          {
+            "japanese": "あの傘は八百円ですか。",
+            "chinese": "那把傘是800日圓嗎？"
+          },
+          {
+            "japanese": "このチョコレートは三百円ではありません。",
+            "chinese": "這盒巧克力不是300日圓。"
+          },
+          {
+            "japanese": "そのノートは百円ではありません。二百円です。",
+            "chinese": "那本筆記本不是100日圓，是200日圓。"
+          },
+          {
+            "japanese": "この雑誌は六百円です。",
+            "chinese": "這本雜誌是600日圓。"
+          },
+          {
+            "japanese": "あの本は八百円です。",
+            "chinese": "那本書是800日圓。"
+          },
+          {
+            "japanese": "駅のコーヒーは四百円です。",
+            "chinese": "車站賣的咖啡是400日圓。"
+          },
+          {
+            "japanese": "このテレホンカードは五百円です。",
+            "chinese": "這張電話卡是500日圓。"
+          },
+          {
+            "japanese": "百円の鉛筆はどれですか。",
+            "chinese": "100日圓的鉛筆是哪一支？"
+          },
+          {
+            "japanese": "駅の新聞は百円です。",
+            "chinese": "車站賣的報紙是100日圓。"
+          },
+          {
+            "japanese": "この新聞も百円ですか。",
+            "chinese": "這份報紙也是100日圓嗎？"
+          },
+          {
+            "japanese": "その手帳は四百円です。",
+            "chinese": "那本手帳是400日圓。"
+          },
+          {
+            "japanese": "チョコレートは百円ですか。",
+            "chinese": "巧克力是100日圓嗎？"
+          },
+          {
+            "japanese": "このボールペンは百円ではありません。",
+            "chinese": "這支原子筆不是100日圓。"
+          },
+          {
+            "japanese": "百円のノートはこれです。",
+            "chinese": "100日圓的筆記本是這本。"
+          },
+          {
+            "japanese": "その本は六百円ではありません。",
+            "chinese": "那本書不是600日圓。"
+          },
+          {
+            "japanese": "この手帳も九百円ですか。",
+            "chinese": "這本手帳也是900日圓嗎？"
+          },
+          {
+            "japanese": "この雑誌は百円ではありません。",
+            "chinese": "這本雜誌不是100日圓。"
+          },
+          {
+            "japanese": "その傘はいくらですか。八百円です。",
+            "chinese": "那把傘多少錢？800日圓。"
+          },
+          {
+            "japanese": "百円のチョコレートはこれですか。",
+            "chinese": "100日圓的巧克力是這個嗎？"
+          }
+        ]
+      },
+      {
+        "japanese": "せん",
+        "kanji": "千",
+        "chinese": "千",
+        "image": null,
+        "note": "數字讀法有變化：3000讀「さんぜん」、8000讀「はっせん」。",
+        "kanji_note": {
+          "summary": "日語的「円」、「転」、「辞」、「雑」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "円",
+              "zh": "圓",
+              "note": null
+            },
+            {
+              "jp": "転",
+              "zh": "轉",
+              "note": null
+            },
+            {
+              "jp": "辞",
+              "zh": "辭",
+              "note": null
+            },
+            {
+              "jp": "雑",
+              "zh": "雜",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "この辞書は三千円です。",
+            "chinese": "這本字典是3000日圓。"
+          },
+          {
+            "japanese": "あの時計は八千円ですか。",
+            "chinese": "那隻手錶是8000日圓嗎？"
+          },
+          {
+            "japanese": "その靴は七千円です。",
+            "chinese": "那雙鞋是7000日圓。"
+          },
+          {
+            "japanese": "このワインは二千円です。",
+            "chinese": "這瓶葡萄酒是2000日圓。"
+          },
+          {
+            "japanese": "千円の本はどれですか。",
+            "chinese": "1000日圓的書是哪一本？"
+          },
+          {
+            "japanese": "そのテレホンカードは千円ですか。",
+            "chinese": "那張電話卡是1000日圓嗎？"
+          },
+          {
+            "japanese": "この雑誌は千円ではありません。",
+            "chinese": "這本雜誌不是1000日圓。"
+          },
+          {
+            "japanese": "あのカメラは九千円です。",
+            "chinese": "那台相機是9000日圓。"
+          },
+          {
+            "japanese": "ホテルのコーヒーは千円です。",
+            "chinese": "飯店賣的咖啡是1000日圓。"
+          },
+          {
+            "japanese": "これは千円ではありません。五千円です。",
+            "chinese": "這個不是1000日圓，是5000日圓。"
+          },
+          {
+            "japanese": "そのかばんは八千円です。",
+            "chinese": "那個包包是8000日圓。"
+          },
+          {
+            "japanese": "三千円の傘はこれですか。",
+            "chinese": "3000日圓的傘是這把嗎？"
+          },
+          {
+            "japanese": "このノートは千円ではありません。",
+            "chinese": "這本筆記本不是1000日圓。"
+          },
+          {
+            "japanese": "その手帳は千二百円ですか。",
+            "chinese": "那本手帳是1200日圓嗎？"
+          },
+          {
+            "japanese": "あの自転車は五千円です。",
+            "chinese": "那輛自行車是5000日圓。"
+          },
+          {
+            "japanese": "これは千円のチョコレートです。",
+            "chinese": "這是1000日圓的巧克力。"
+          },
+          {
+            "japanese": "そのネクタイは五千円ですか。",
+            "chinese": "那條領帶是5000日圓嗎？"
+          },
+          {
+            "japanese": "テレビは七千円ではありません。",
+            "chinese": "電視不是7000日圓。"
+          },
+          {
+            "japanese": "その時計はいくらですか。八千円です。",
+            "chinese": "那隻手錶多少錢？8000日圓。"
+          },
+          {
+            "japanese": "五千円の辞書はどれですか。",
+            "chinese": "5000日圓的字典是哪一本？"
+          }
+        ]
+      },
+      {
+        "japanese": "まん",
+        "kanji": "万",
+        "chinese": "萬",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「万」、「円」、「転」、「辞」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "万",
+              "zh": "萬",
+              "note": null
+            },
+            {
+              "jp": "円",
+              "zh": "圓",
+              "note": null
+            },
+            {
+              "jp": "転",
+              "zh": "轉",
+              "note": null
+            },
+            {
+              "jp": "辞",
+              "zh": "辭",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "その靴は三万円です。",
+            "chinese": "那雙鞋是3萬日圓。"
+          },
+          {
+            "japanese": "この時計は十万円ですか。",
+            "chinese": "這隻手錶是10萬日圓嗎？"
+          },
+          {
+            "japanese": "あの車は三百万円です。",
+            "chinese": "那輛車是300萬日圓。"
+          },
+          {
+            "japanese": "このパソコンは十五万円です。",
+            "chinese": "這台個人電腦是15萬日圓。"
+          },
+          {
+            "japanese": "そのネクタイは一万円ですか。",
+            "chinese": "那條領帶是1萬日圓嗎？"
+          },
+          {
+            "japanese": "これは一万円のワインです。",
+            "chinese": "這是1萬日圓的葡萄酒。"
+          },
+          {
+            "japanese": "そのテレビは八万円ではありません。六万円です。",
+            "chinese": "那台電視不是8萬日圓，是6萬日圓。"
+          },
+          {
+            "japanese": "この家は五千万円ですか。",
+            "chinese": "這棟房子是5000萬日圓嗎？"
+          },
+          {
+            "japanese": "あの自転車は三万円です。",
+            "chinese": "那輛自行車是3萬日圓。"
+          },
+          {
+            "japanese": "一万円の時計はどれですか。",
+            "chinese": "1萬日圓的手錶是哪一隻？"
+          },
+          {
+            "japanese": "このホテルの部屋は三万円です。",
+            "chinese": "這家飯店的房間是3萬日圓。"
+          },
+          {
+            "japanese": "その辞書は一万円ですか。",
+            "chinese": "那本字典是1萬日圓嗎？"
+          },
+          {
+            "japanese": "二万円の傘はこれですか。",
+            "chinese": "2萬日圓的傘是這把嗎？"
+          },
+          {
+            "japanese": "お土産のワインは二万円です。",
+            "chinese": "伴手禮的葡萄酒是2萬日圓。"
+          },
+          {
+            "japanese": "この靴は一万円ではありません。",
+            "chinese": "這雙鞋不是1萬日圓。"
+          },
+          {
+            "japanese": "十万円のカメラはこれです。",
+            "chinese": "10萬日圓的相機是這一台。"
+          },
+          {
+            "japanese": "そのかばんは五万円ですか。",
+            "chinese": "那個包包是5萬日圓嗎？"
+          },
+          {
+            "japanese": "あの家は二千万円です。",
+            "chinese": "那棟房子是2000萬日圓。"
+          },
+          {
+            "japanese": "このネクタイは二万円ではありません。",
+            "chinese": "這條領帶不是2萬日圓。"
+          },
+          {
+            "japanese": "三万円の部屋はどれですか。",
+            "chinese": "3萬日圓的房間是哪一間？"
+          }
+        ]
+      }
+    ]
+  }
+}

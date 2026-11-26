@@ -1,0 +1,4854 @@
+{
+  "lesson_2": {
+    "vols": [
+      {
+        "japanese": "これ",
+        "kanji": null,
+        "chinese": "這（事物近己方）",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「学」、「辞」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "辞",
+              "zh": "辭",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "reference_demonstrative"
+        ],
+        "speech": [
+          "demonstrative"
+        ],
+        "sentence": [
+          {
+            "japanese": "これは私の本です。",
+            "chinese": "這是我的書。"
+          },
+          {
+            "japanese": "あのう、これはいくらですか。",
+            "chinese": "不好意思，這個多少錢？"
+          },
+          {
+            "japanese": "これは日本語の辞書です。",
+            "chinese": "這是日語辭典。"
+          },
+          {
+            "japanese": "すみません、これは何ですか。",
+            "chinese": "不好意思，這是什麼？"
+          },
+          {
+            "japanese": "これは私の鍵です。",
+            "chinese": "這是我的鑰匙。"
+          },
+          {
+            "japanese": "田中さん、これ、あなたの傘ですか。",
+            "chinese": "田中先生，這是你的傘嗎？"
+          },
+          {
+            "japanese": "これは日本の時計です。",
+            "chinese": "這是日本的鐘錶。"
+          },
+          {
+            "japanese": "これ、私のかばんです。",
+            "chinese": "這個是我的皮包。"
+          },
+          {
+            "japanese": "これは山田さんの名刺です。",
+            "chinese": "這是山田先生的名片。"
+          },
+          {
+            "japanese": "あ、これ、私のボールペンです。",
+            "chinese": "啊，這是我的原子筆。"
+          },
+          {
+            "japanese": "これは大学のテレビです。",
+            "chinese": "這是大學的電視。"
+          },
+          {
+            "japanese": "いいえ、これは私のではありません。",
+            "chinese": "不，這不是我的。"
+          },
+          {
+            "japanese": "これも日本語の本ですか。",
+            "chinese": "這個也是日語書嗎？"
+          },
+          {
+            "japanese": "木村さん、これは何ですか。",
+            "chinese": "木村先生，這是什麼？"
+          },
+          {
+            "japanese": "これは会社のコンピューターです。",
+            "chinese": "這是公司的電腦。"
+          },
+          {
+            "japanese": "これ、王さんのカメラですか。",
+            "chinese": "這個是王先生的照相機嗎？"
+          },
+          {
+            "japanese": "これは佐藤さんの新聞です。",
+            "chinese": "這是佐藤先生的報紙。"
+          },
+          {
+            "japanese": "はい、これは私の手帳です。",
+            "chinese": "是的，這是我的記事本。"
+          },
+          {
+            "japanese": "これ、机の上のカードです。",
+            "chinese": "這個是桌上的卡片。"
+          },
+          {
+            "japanese": "これは弟のラジオです。",
+            "chinese": "這是我弟弟的收音機。"
+          }
+        ]
+      },
+      {
+        "japanese": "それ",
+        "kanji": null,
+        "chinese": "那（事物近對方）",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「辞」、「雑」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "辞",
+              "zh": "辭",
+              "note": null
+            },
+            {
+              "jp": "雑",
+              "zh": "雜",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "reference_demonstrative"
+        ],
+        "speech": [
+          "demonstrative"
+        ],
+        "sentence": [
+          {
+            "japanese": "それは私のノートです。",
+            "chinese": "那是我的筆記本。"
+          },
+          {
+            "japanese": "あのう、それは何ですか。",
+            "chinese": "不好意思，那是什麼？"
+          },
+          {
+            "japanese": "それは日本語の雑誌です。",
+            "chinese": "那是日語雜誌。"
+          },
+          {
+            "japanese": "すみません、それ、あなたのですか。",
+            "chinese": "不好意思，那是你的嗎？"
+          },
+          {
+            "japanese": "それは王さんの辞書です。",
+            "chinese": "那是王先生的辭典。"
+          },
+          {
+            "japanese": "田中さん、それはいくらですか。",
+            "chinese": "田中先生，那個多少錢？"
+          },
+          {
+            "japanese": "それは私の傘ではありません。",
+            "chinese": "那不是我的傘。"
+          },
+          {
+            "japanese": "あ、それ、私の鍵です。",
+            "chinese": "啊，那是我的鑰匙。"
+          },
+          {
+            "japanese": "それは会社のコンピューターです。",
+            "chinese": "那是公司的電腦。"
+          },
+          {
+            "japanese": "それは木村さんの名刺です。",
+            "chinese": "那是木村先生的名片。"
+          },
+          {
+            "japanese": "それも英語の本ですか。",
+            "chinese": "那也是英語書嗎？"
+          },
+          {
+            "japanese": "いいえ、それは私のではありません。",
+            "chinese": "不，那不是我的。"
+          },
+          {
+            "japanese": "それは山田さんの手帳です。",
+            "chinese": "那是山田先生的記事本。"
+          },
+          {
+            "japanese": "はい、それは私のボールペンです。",
+            "chinese": "是的，那是我的原子筆。"
+          },
+          {
+            "japanese": "それ、机の上のですか。",
+            "chinese": "那個是桌上的嗎？"
+          },
+          {
+            "japanese": "それは佐藤さんの時計です。",
+            "chinese": "那是佐藤先生的鐘錶。"
+          },
+          {
+            "japanese": "あのう、それ、いくらですか。",
+            "chinese": "不好意思，那個多少錢？"
+          },
+          {
+            "japanese": "それは弟のテープです。",
+            "chinese": "那是我弟弟的錄音帶。"
+          },
+          {
+            "japanese": "それは私のカメラです。",
+            "chinese": "那是我的照相機。"
+          },
+          {
+            "japanese": "鈴木さん、それは新聞ですか。",
+            "chinese": "鈴木先生，那是報紙嗎？"
+          }
+        ]
+      },
+      {
+        "japanese": "あれ",
+        "kanji": null,
+        "chinese": "那（事物在遠方）",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「学」、「転」、「雑」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "転",
+              "zh": "轉",
+              "note": null
+            },
+            {
+              "jp": "雑",
+              "zh": "雜",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "reference_demonstrative"
+        ],
+        "speech": [
+          "demonstrative"
+        ],
+        "sentence": [
+          {
+            "japanese": "あれは私の自動車です。",
+            "chinese": "那是我的汽車。"
+          },
+          {
+            "japanese": "あのう、あれは何ですか。",
+            "chinese": "不好意思，那是什麼？"
+          },
+          {
+            "japanese": "あれは山田さんの傘です。",
+            "chinese": "那是山田先生的傘。"
+          },
+          {
+            "japanese": "すみません、あれ、あなたのですか。",
+            "chinese": "不好意思，那是你的嗎？"
+          },
+          {
+            "japanese": "あれは大学のテレビです。",
+            "chinese": "那是大學的電視。"
+          },
+          {
+            "japanese": "田中さん、あれは何ですか。",
+            "chinese": "田中先生，那是什麼？"
+          },
+          {
+            "japanese": "あれは私のかばんではありません。",
+            "chinese": "那不是我的皮包。"
+          },
+          {
+            "japanese": "あ、あれ、私の自転車です。",
+            "chinese": "啊，那是我的自行車。"
+          },
+          {
+            "japanese": "あれは会社のカメラです。",
+            "chinese": "那是公司的照相機。"
+          },
+          {
+            "japanese": "あれは木村さんの時計です。",
+            "chinese": "那是木村先生的鐘錶。"
+          },
+          {
+            "japanese": "あれも日本語の雑誌ですか。",
+            "chinese": "那也是日語雜誌嗎？"
+          },
+          {
+            "japanese": "いいえ、あれは私のではありません。",
+            "chinese": "不，那不是我的。"
+          },
+          {
+            "japanese": "あれは佐藤さんのラジオです。",
+            "chinese": "那是佐藤先生的收音機。"
+          },
+          {
+            "japanese": "はい、あれは私の自動車です。",
+            "chinese": "是的，那是我的汽車。"
+          },
+          {
+            "japanese": "あれ、あの木の下のですか。",
+            "chinese": "那個是那棵樹下的嗎？"
+          },
+          {
+            "japanese": "あれは王さんの机です。",
+            "chinese": "那是王先生的桌子。"
+          },
+          {
+            "japanese": "あのう、あれ、いくらですか。",
+            "chinese": "不好意思，那個多少錢？"
+          },
+          {
+            "japanese": "あれは弟の椅子です。",
+            "chinese": "那是我弟弟的椅子。"
+          },
+          {
+            "japanese": "あれは私のテープレコーダーです。",
+            "chinese": "那是我的錄音機。"
+          },
+          {
+            "japanese": "鈴木さん、あれは新聞ですか。",
+            "chinese": "鈴木先生，那是報紙嗎？"
+          }
+        ]
+      },
+      {
+        "japanese": "この",
+        "kanji": null,
+        "chinese": "這～（近己方）",
+        "image": null,
+        "note": "後接名詞使用，如「この本」",
+        "kanji_note": {
+          "summary": "日語的「会」、「学」、「辞」、「雑」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "辞",
+              "zh": "辭",
+              "note": null
+            },
+            {
+              "jp": "雑",
+              "zh": "雜",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "reference_demonstrative"
+        ],
+        "speech": [
+          "determiner"
+        ],
+        "sentence": [
+          {
+            "japanese": "この本は私のです。",
+            "chinese": "這本書是我的。"
+          },
+          {
+            "japanese": "この辞書は日本語の辞書です。",
+            "chinese": "這本辭典是日語辭典。"
+          },
+          {
+            "japanese": "このかばんは田中さんのです。",
+            "chinese": "這個書包是田中先生的。"
+          },
+          {
+            "japanese": "この時計は私のです。",
+            "chinese": "這隻手錶是我的。"
+          },
+          {
+            "japanese": "このノートは私のです。",
+            "chinese": "這本筆記本是我的。"
+          },
+          {
+            "japanese": "このカメラは王さんのです。",
+            "chinese": "這台照相機是王先生的。"
+          },
+          {
+            "japanese": "この傘は私のではありません。",
+            "chinese": "這把傘不是我的。"
+          },
+          {
+            "japanese": "この名刺は木村さんのです。",
+            "chinese": "這張名片是木村先生的。"
+          },
+          {
+            "japanese": "この雑誌は日本の雑誌です。",
+            "chinese": "這本雜誌是日本雜誌。"
+          },
+          {
+            "japanese": "この新聞は今日の新聞です。",
+            "chinese": "這份報紙是今天的報紙。"
+          },
+          {
+            "japanese": "このテレビは私のです。",
+            "chinese": "這台電視是我的。"
+          },
+          {
+            "japanese": "このラジオは学生のです。",
+            "chinese": "這台收音機是學生的。"
+          },
+          {
+            "japanese": "このコンピューターは会社員のです。",
+            "chinese": "這台電腦是公司職員的。"
+          },
+          {
+            "japanese": "この車は日本の車です。",
+            "chinese": "這輛汽車是日本車。"
+          },
+          {
+            "japanese": "この机は私のではありません。",
+            "chinese": "這張桌子不是我的。"
+          },
+          {
+            "japanese": "この椅子は大学のです。",
+            "chinese": "這把椅子是大學的。"
+          },
+          {
+            "japanese": "このテレホンカードは私のです。",
+            "chinese": "這張電話卡是我的。"
+          },
+          {
+            "japanese": "このチョコレートは王さんのです。",
+            "chinese": "這個巧克力是王先生的。"
+          },
+          {
+            "japanese": "このコーヒーは私のです。",
+            "chinese": "這杯咖啡是我的。"
+          },
+          {
+            "japanese": "このボールペンは私のです。",
+            "chinese": "這支原子筆是我的。"
+          }
+        ]
+      },
+      {
+        "japanese": "その",
+        "kanji": null,
+        "chinese": "那～（近對方）",
+        "image": null,
+        "note": "後接名詞使用，如「その本」",
+        "kanji_note": {
+          "summary": "日語的「会」、「学」、「辞」、「雑」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "辞",
+              "zh": "辭",
+              "note": null
+            },
+            {
+              "jp": "雑",
+              "zh": "雜",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "reference_demonstrative"
+        ],
+        "speech": [
+          "determiner"
+        ],
+        "sentence": [
+          {
+            "japanese": "その本は私のです。",
+            "chinese": "那本書是我的。"
+          },
+          {
+            "japanese": "その辞書は誰のですか。",
+            "chinese": "那本辭典是誰的？"
+          },
+          {
+            "japanese": "そのかばんは木村さんのです。",
+            "chinese": "那個書包是木村先生的。"
+          },
+          {
+            "japanese": "その時計は王さんのです。",
+            "chinese": "那隻手錶是王先生的。"
+          },
+          {
+            "japanese": "そのノートは私のではありません。",
+            "chinese": "那本筆記本不是我的。"
+          },
+          {
+            "japanese": "そのカメラは田中さんのです。",
+            "chinese": "那台照相機是田中先生的。"
+          },
+          {
+            "japanese": "その傘は田中さんのですか。",
+            "chinese": "那把傘是田中先生的嗎？"
+          },
+          {
+            "japanese": "その名刺は会社員のです。",
+            "chinese": "那張名片是公司職員的。"
+          },
+          {
+            "japanese": "その雑誌は英語の雑誌です。",
+            "chinese": "那本雜誌是英語雜誌。"
+          },
+          {
+            "japanese": "その新聞は昨日の新聞です。",
+            "chinese": "那張報紙是昨天的報紙。"
+          },
+          {
+            "japanese": "そのテレビは大学のです。",
+            "chinese": "那台電視是大學的。"
+          },
+          {
+            "japanese": "そのラジオは私のです。",
+            "chinese": "那台收音機是我的。"
+          },
+          {
+            "japanese": "そのコンピューターは会社員のです。",
+            "chinese": "那台電腦是公司職員的。"
+          },
+          {
+            "japanese": "その車は王さんのです。",
+            "chinese": "那輛汽車是王先生的。"
+          },
+          {
+            "japanese": "その机は先生のです。",
+            "chinese": "那張桌子是老師的。"
+          },
+          {
+            "japanese": "その椅子は私のではありません。",
+            "chinese": "那把椅子不是我的。"
+          },
+          {
+            "japanese": "そのテープは私のです。",
+            "chinese": "那捲錄音帶是我的。"
+          },
+          {
+            "japanese": "そのえんぴつは誰のですか。",
+            "chinese": "那支鉛筆是誰的？"
+          },
+          {
+            "japanese": "そのシャープペンシルは私のです。",
+            "chinese": "那支自動鉛筆是我的。"
+          },
+          {
+            "japanese": "そのカードは学生のです。",
+            "chinese": "那張卡片是學生的。"
+          }
+        ]
+      },
+      {
+        "japanese": "あの",
+        "kanji": null,
+        "chinese": "那～（遠方）",
+        "image": null,
+        "note": "後接名詞使用，如「あの本」",
+        "kanji_note": {
+          "summary": "日語的「会」、「学」、「辞」、「雑」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "辞",
+              "zh": "辭",
+              "note": null
+            },
+            {
+              "jp": "雑",
+              "zh": "雜",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "reference_demonstrative"
+        ],
+        "speech": [
+          "determiner"
+        ],
+        "sentence": [
+          {
+            "japanese": "あの本は私のです。",
+            "chinese": "那本書是我的。"
+          },
+          {
+            "japanese": "あの辞書は誰のですか。",
+            "chinese": "那本辭典是誰的？"
+          },
+          {
+            "japanese": "あのかばんは田中さんのです。",
+            "chinese": "那個書包是田中先生的。"
+          },
+          {
+            "japanese": "あの時計は王さんのです。",
+            "chinese": "那隻手錶是王先生的。"
+          },
+          {
+            "japanese": "あのノートは私のではありません。",
+            "chinese": "那本筆記本不是我的。"
+          },
+          {
+            "japanese": "あのカメラは王さんのです。",
+            "chinese": "那台照相機是王先生的。"
+          },
+          {
+            "japanese": "あの傘は木村さんのです。",
+            "chinese": "那把傘是木村先生的。"
+          },
+          {
+            "japanese": "あの名刺は会社員のです。",
+            "chinese": "那張名片是公司職員的。"
+          },
+          {
+            "japanese": "あの雑誌は日本語の雑誌です。",
+            "chinese": "那本雜誌是日語雜誌。"
+          },
+          {
+            "japanese": "あの新聞は今日の新聞です。",
+            "chinese": "那張報紙是今天的報紙。"
+          },
+          {
+            "japanese": "あのテレビは私のです。",
+            "chinese": "那台電視是我的。"
+          },
+          {
+            "japanese": "あのラジオは大学のです。",
+            "chinese": "那台收音機是大學的。"
+          },
+          {
+            "japanese": "あのコンピューターは私のです。",
+            "chinese": "那台電腦是我的。"
+          },
+          {
+            "japanese": "あの車は日本の車です。",
+            "chinese": "那輛汽車是日本車。"
+          },
+          {
+            "japanese": "あの机は私のではありません。",
+            "chinese": "那張桌子不是我的。"
+          },
+          {
+            "japanese": "あの椅子は先生のです。",
+            "chinese": "那把椅子是老師的。"
+          },
+          {
+            "japanese": "あのテープレコーダーは学生のです。",
+            "chinese": "那台錄音機是學生的。"
+          },
+          {
+            "japanese": "あのえんぴつは誰のですか。",
+            "chinese": "那支鉛筆是誰的？"
+          },
+          {
+            "japanese": "あのボールペンは王さんのです。",
+            "chinese": "那支原子筆是王先生的。"
+          },
+          {
+            "japanese": "あのカードは私のです。",
+            "chinese": "那張卡片是我的。"
+          }
+        ]
+      },
+      {
+        "japanese": "ほん",
+        "kanji": "本",
+        "chinese": "書本，書籍",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「学」→ 繁體「學」。",
+          "details": [
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "これは本です。",
+            "chinese": "這是書。"
+          },
+          {
+            "japanese": "それは日本語の本です。",
+            "chinese": "那是日語書。"
+          },
+          {
+            "japanese": "あれは何の本ですか。",
+            "chinese": "那是什麼書？"
+          },
+          {
+            "japanese": "この本は私のです。",
+            "chinese": "這本書是我的。"
+          },
+          {
+            "japanese": "その本は田中さんのです。",
+            "chinese": "那本書是田中先生的。"
+          },
+          {
+            "japanese": "あの本は大学のです。",
+            "chinese": "那本書是大學的。"
+          },
+          {
+            "japanese": "これは私の本ではありません。",
+            "chinese": "這不是我的書。"
+          },
+          {
+            "japanese": "それは英語の本ですか。",
+            "chinese": "那是英語書嗎？"
+          },
+          {
+            "japanese": "この本は田中さんのですか。",
+            "chinese": "這本書是田中先生的嗎？"
+          },
+          {
+            "japanese": "その本は私のです。",
+            "chinese": "那本書是我的。"
+          },
+          {
+            "japanese": "あの本は先生のです。",
+            "chinese": "那本書是老師的。"
+          },
+          {
+            "japanese": "これは木村さんの本です。",
+            "chinese": "這是木村先生的書。"
+          },
+          {
+            "japanese": "それは王さんの本ではありません。",
+            "chinese": "那不是王先生的書。"
+          },
+          {
+            "japanese": "この本は日本語の本です。",
+            "chinese": "這本書是日語書。"
+          },
+          {
+            "japanese": "その本は誰のですか。",
+            "chinese": "那本書是誰的？"
+          },
+          {
+            "japanese": "あの本は私のではありません。",
+            "chinese": "那本書不是我的。"
+          },
+          {
+            "japanese": "これはコンピューターの本です。",
+            "chinese": "這是電腦書。"
+          },
+          {
+            "japanese": "それは英語の本ではありません。",
+            "chinese": "那不是英語書。"
+          },
+          {
+            "japanese": "この本は先生のです。",
+            "chinese": "這本書是老師的。"
+          },
+          {
+            "japanese": "あの本は学生のです。",
+            "chinese": "那本書是學生的。"
+          }
+        ]
+      },
+      {
+        "japanese": "じしょ",
+        "kanji": "辞書",
+        "chinese": "辭典",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "辞",
+              "zh": "辭",
+              "note": null
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "図書館の辞書は本棚の上です。",
+            "chinese": "圖書館的辭典在書架上。"
+          },
+          {
+            "japanese": "図書館の辞書は先生のです。",
+            "chinese": "圖書館的辭典是老師的。"
+          },
+          {
+            "japanese": "これは図書館の辞書ではありません。",
+            "chinese": "這不是圖書館的辭典。"
+          },
+          {
+            "japanese": "図書館の辞書は私のではありません。",
+            "chinese": "圖書館的辭典不是我的。"
+          },
+          {
+            "japanese": "図書館の辞書、そこです。",
+            "chinese": "圖書館的辭典在那裡。"
+          },
+          {
+            "japanese": "田中さんの図書館の辞書はこれですか。",
+            "chinese": "田中先生圖書館的辭典是這本嗎？"
+          },
+          {
+            "japanese": "図書館の辞書はどちらですか。",
+            "chinese": "圖書館的辭典在哪一邊？"
+          },
+          {
+            "japanese": "図書館の辞書はあれです。",
+            "chinese": "圖書館的辭典是那本。"
+          },
+          {
+            "japanese": "すみません、図書館の辞書はどれですか。",
+            "chinese": "不好意思，圖書館的辭典是哪一本？"
+          },
+          {
+            "japanese": "図書館の辞書はここです。",
+            "chinese": "圖書館的辭典在這裡。"
+          },
+          {
+            "japanese": "図書館の辞書は木村さんのです。",
+            "chinese": "圖書館的辭典是木村先生的。"
+          },
+          {
+            "japanese": "この辞書は図書館のではありません。",
+            "chinese": "這本辭典不是圖書館的。"
+          },
+          {
+            "japanese": "図書館の辞書は机の上です。",
+            "chinese": "圖書館的辭典在桌上。"
+          },
+          {
+            "japanese": "図書館の辞書は王さんのです。",
+            "chinese": "圖書館的辭典是王先生的。"
+          },
+          {
+            "japanese": "あ、図書館の辞書、ここです。",
+            "chinese": "啊，圖書館的辭典在這裡。"
+          },
+          {
+            "japanese": "図書館の辞書は誰のですか。",
+            "chinese": "圖書館的辭典是誰的？"
+          },
+          {
+            "japanese": "図書館の辞書はあそこではありません。",
+            "chinese": "圖書館的辭典不在那裡。"
+          },
+          {
+            "japanese": "これは図書館の辞書ですか。",
+            "chinese": "這是圖書館的辭典嗎？"
+          },
+          {
+            "japanese": "図書館の辞書は私のです。",
+            "chinese": "圖書館的辭典是我的。"
+          },
+          {
+            "japanese": "図書館の辞書はこれです。",
+            "chinese": "圖書館的辭典是這本。"
+          }
+        ]
+      },
+      {
+        "japanese": "ざっし",
+        "kanji": "雑誌",
+        "chinese": "雜誌",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「学」、「雑」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "雑",
+              "zh": "雜",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "これは雑誌です。",
+            "chinese": "這是雜誌。"
+          },
+          {
+            "japanese": "それは日本の雑誌です。",
+            "chinese": "那是日本雜誌。"
+          },
+          {
+            "japanese": "あれは英語の雑誌ですか。",
+            "chinese": "那是英語雜誌嗎？"
+          },
+          {
+            "japanese": "この雑誌は私のです。",
+            "chinese": "這本雜誌是我的。"
+          },
+          {
+            "japanese": "その雑誌は田中さんのです。",
+            "chinese": "那本雜誌是田中先生的。"
+          },
+          {
+            "japanese": "あの雑誌は大学のです。",
+            "chinese": "那本雜誌是大學的。"
+          },
+          {
+            "japanese": "これは私の雑誌ではありません。",
+            "chinese": "這不是我的雜誌。"
+          },
+          {
+            "japanese": "それは英語の雑誌です。",
+            "chinese": "那是一本英語雜誌。"
+          },
+          {
+            "japanese": "この雑誌は木村さんのです。",
+            "chinese": "這本雜誌是木村先生的。"
+          },
+          {
+            "japanese": "その雑誌は誰のですか。",
+            "chinese": "那本雜誌是誰的？"
+          },
+          {
+            "japanese": "あの雑誌は木村さんのです。",
+            "chinese": "那本雜誌是木村先生的。"
+          },
+          {
+            "japanese": "これは日本語の雑誌です。",
+            "chinese": "這是日語雜誌。"
+          },
+          {
+            "japanese": "それは英語の雑誌ではありません。",
+            "chinese": "那不是英語雜誌。"
+          },
+          {
+            "japanese": "この雑誌は学生のです。",
+            "chinese": "這本雜誌是學生的。"
+          },
+          {
+            "japanese": "その雑誌は私のです。",
+            "chinese": "那本雜誌是我的。"
+          },
+          {
+            "japanese": "あの雑誌は先生のです。",
+            "chinese": "那本雜誌是老師的。"
+          },
+          {
+            "japanese": "これは王さんの雑誌です。",
+            "chinese": "這是王先生的雜誌。"
+          },
+          {
+            "japanese": "それは日本語の雑誌です。",
+            "chinese": "那是一本日語雜誌。"
+          },
+          {
+            "japanese": "この雑誌は先生のです。",
+            "chinese": "這本雜誌是老師的。"
+          },
+          {
+            "japanese": "あの雑誌は英語の雑誌ではありません。",
+            "chinese": "那本雜誌不是英語雜誌。"
+          }
+        ]
+      },
+      {
+        "japanese": "しんぶん",
+        "kanji": "新聞",
+        "chinese": "報紙",
+        "image": null,
+        "note": null,
+        "kanji_note": null,
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "朝の新聞は机の上です。",
+            "chinese": "早上的報紙在桌上。"
+          },
+          {
+            "japanese": "朝の新聞は先生のです。",
+            "chinese": "早上的報紙是老師的。"
+          },
+          {
+            "japanese": "これは朝の新聞ではありません。",
+            "chinese": "這不是早上的報紙。"
+          },
+          {
+            "japanese": "朝の新聞は私のではありません。",
+            "chinese": "早上的報紙不是我的。"
+          },
+          {
+            "japanese": "朝の新聞、そこです。",
+            "chinese": "早上的報紙在那裡。"
+          },
+          {
+            "japanese": "田中さんの朝の新聞はこれですか。",
+            "chinese": "田中先生早上的報紙是這張嗎？"
+          },
+          {
+            "japanese": "朝の新聞はどちらですか。",
+            "chinese": "早上的報紙在哪一邊？"
+          },
+          {
+            "japanese": "朝の新聞はあれです。",
+            "chinese": "早上的報紙是那張。"
+          },
+          {
+            "japanese": "すみません、朝の新聞はどれですか。",
+            "chinese": "不好意思，早上的報紙是哪一張？"
+          },
+          {
+            "japanese": "朝の新聞はここです。",
+            "chinese": "早上的報紙在這裡。"
+          },
+          {
+            "japanese": "朝の新聞は木村さんのです。",
+            "chinese": "早上的報紙是木村先生的。"
+          },
+          {
+            "japanese": "この新聞は朝のではありません。",
+            "chinese": "這張報紙不是早上的。"
+          },
+          {
+            "japanese": "朝の新聞は先生の机の上です。",
+            "chinese": "早上的報紙在老師的桌上。"
+          },
+          {
+            "japanese": "朝の新聞は王さんのです。",
+            "chinese": "早上的報紙是王先生的。"
+          },
+          {
+            "japanese": "あ、朝の新聞、ここです。",
+            "chinese": "啊，早上的報紙在這裡。"
+          },
+          {
+            "japanese": "朝の新聞は誰のですか。",
+            "chinese": "早上的報紙是誰的？"
+          },
+          {
+            "japanese": "朝の新聞はあそこではありません。",
+            "chinese": "早上的報紙不在那裡。"
+          },
+          {
+            "japanese": "これは朝の新聞ですか。",
+            "chinese": "這是早上的報紙嗎？"
+          },
+          {
+            "japanese": "朝の新聞は私のです。",
+            "chinese": "早上的報紙是我的。"
+          },
+          {
+            "japanese": "朝の新聞はこれです。",
+            "chinese": "早上的報紙是這張。"
+          }
+        ]
+      },
+      {
+        "japanese": "ノート",
+        "kanji": null,
+        "chinese": "筆記本",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「学」→ 繁體「學」。",
+          "details": [
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "これはノートです。",
+            "chinese": "這是筆記本。"
+          },
+          {
+            "japanese": "それは私のノートです。",
+            "chinese": "那是我的筆記本。"
+          },
+          {
+            "japanese": "あれは誰のノートですか。",
+            "chinese": "那是誰的筆記本？"
+          },
+          {
+            "japanese": "このノートは私のです。",
+            "chinese": "這本筆記本是我的。"
+          },
+          {
+            "japanese": "そのノートは田中さんのです。",
+            "chinese": "那本筆記本是田中先生的。"
+          },
+          {
+            "japanese": "あのノートは大学のです。",
+            "chinese": "那本筆記本是大學的。"
+          },
+          {
+            "japanese": "これは私のノートではありません。",
+            "chinese": "這不是我的筆記本。"
+          },
+          {
+            "japanese": "それは日本語のノートです。",
+            "chinese": "那是一本日語筆記本。"
+          },
+          {
+            "japanese": "このノートは木村さんのです。",
+            "chinese": "這本筆記本是木村先生的。"
+          },
+          {
+            "japanese": "そのノートは木村さんのですか。",
+            "chinese": "那本筆記本是木村先生的嗎？"
+          },
+          {
+            "japanese": "あのノートは先生のです。",
+            "chinese": "那本筆記本是老師的。"
+          },
+          {
+            "japanese": "これは日本語のノートです。",
+            "chinese": "這是日語筆記本。"
+          },
+          {
+            "japanese": "それは私のノートではありません。",
+            "chinese": "那不是我的筆記本。"
+          },
+          {
+            "japanese": "このノートは学生のです。",
+            "chinese": "這本筆記本是學生的。"
+          },
+          {
+            "japanese": "そのノートは私のです。",
+            "chinese": "那本筆記本是我的。"
+          },
+          {
+            "japanese": "あのノートは王さんのです。",
+            "chinese": "那本筆記本是王先生的。"
+          },
+          {
+            "japanese": "これは学生のノートです。",
+            "chinese": "這是學生的筆記本。"
+          },
+          {
+            "japanese": "それは英語のノートです。",
+            "chinese": "那是英語筆記本。"
+          },
+          {
+            "japanese": "このノートは先生のです。",
+            "chinese": "這本筆記本是老師的。"
+          },
+          {
+            "japanese": "あのノートは私のではありません。",
+            "chinese": "那本筆記本不是我的。"
+          }
+        ]
+      },
+      {
+        "japanese": "てちょう",
+        "kanji": "手帳",
+        "chinese": "記事本",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「学」→ 繁體「學」。",
+          "details": [
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "これは手帳です。",
+            "chinese": "這是記事本。"
+          },
+          {
+            "japanese": "それは私の手帳です。",
+            "chinese": "那是我的記事本。"
+          },
+          {
+            "japanese": "あれは誰の手帳ですか。",
+            "chinese": "那是誰的記事本？"
+          },
+          {
+            "japanese": "この手帳は私のです。",
+            "chinese": "這本記事本是我的。"
+          },
+          {
+            "japanese": "その手帳は田中さんのです。",
+            "chinese": "那本記事本是田中先生的。"
+          },
+          {
+            "japanese": "あの手帳は大学のです。",
+            "chinese": "那本記事本是大學的。"
+          },
+          {
+            "japanese": "これは私の手帳ではありません。",
+            "chinese": "這不是我的記事本。"
+          },
+          {
+            "japanese": "それは日本語の手帳です。",
+            "chinese": "那是一本日語記事本。"
+          },
+          {
+            "japanese": "この手帳は田中さんのです。",
+            "chinese": "這本記事本是田中先生的。"
+          },
+          {
+            "japanese": "その手帳は木村さんのですか。",
+            "chinese": "那本記事本是木村先生的嗎？"
+          },
+          {
+            "japanese": "あの手帳は先生のです。",
+            "chinese": "那本記事本是老師的。"
+          },
+          {
+            "japanese": "これは日本語の手帳です。",
+            "chinese": "這是日語記事本。"
+          },
+          {
+            "japanese": "それは私の手帳ではありません。",
+            "chinese": "那不是我的記事本。"
+          },
+          {
+            "japanese": "この手帳は学生のです。",
+            "chinese": "這本記事本是學生的。"
+          },
+          {
+            "japanese": "その手帳は私のです。",
+            "chinese": "那本記事本是我的。"
+          },
+          {
+            "japanese": "あの手帳は王さんのです。",
+            "chinese": "那本記事本是王先生的。"
+          },
+          {
+            "japanese": "これは学生の手帳です。",
+            "chinese": "這是學生的記事本。"
+          },
+          {
+            "japanese": "それは英語の手帳です。",
+            "chinese": "那是英語記事本。"
+          },
+          {
+            "japanese": "この手帳は先生のです。",
+            "chinese": "這本記事本是老師的。"
+          },
+          {
+            "japanese": "あの手帳は私のではありません。",
+            "chinese": "那本記事本不是我的。"
+          }
+        ]
+      },
+      {
+        "japanese": "めいし",
+        "kanji": "名刺",
+        "chinese": "名片",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「学」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "これは名刺です。",
+            "chinese": "這是名片。"
+          },
+          {
+            "japanese": "それは私の名刺です。",
+            "chinese": "那是我的名片。"
+          },
+          {
+            "japanese": "あれは誰の名刺ですか。",
+            "chinese": "那是誰的名片？"
+          },
+          {
+            "japanese": "この名刺は私のです。",
+            "chinese": "這張名片是我的。"
+          },
+          {
+            "japanese": "その名刺は田中さんのです。",
+            "chinese": "那張名片是田中先生的。"
+          },
+          {
+            "japanese": "あの名刺は会社員のです。",
+            "chinese": "那張名片是公司職員的。"
+          },
+          {
+            "japanese": "これは私の名刺ではありません。",
+            "chinese": "這不是我的名片。"
+          },
+          {
+            "japanese": "それは日本語の名刺です。",
+            "chinese": "那是一張日語名片。"
+          },
+          {
+            "japanese": "この名刺は木村さんのです。",
+            "chinese": "這張名片是木村先生的。"
+          },
+          {
+            "japanese": "その名刺は先生のですか。",
+            "chinese": "那張名片是老師的嗎？"
+          },
+          {
+            "japanese": "あの名刺は王さんのです。",
+            "chinese": "那張名片是王先生的。"
+          },
+          {
+            "japanese": "これは日本語の名刺です。",
+            "chinese": "這是日語名片。"
+          },
+          {
+            "japanese": "それは私の名刺ではありません。",
+            "chinese": "那不是我的名片。"
+          },
+          {
+            "japanese": "この名刺は会社員のです。",
+            "chinese": "這張名片是公司職員的。"
+          },
+          {
+            "japanese": "その名刺は私のです。",
+            "chinese": "那張名片是我的。"
+          },
+          {
+            "japanese": "あの名刺は大学のです。",
+            "chinese": "那張名片是大學的。"
+          },
+          {
+            "japanese": "これは会社員の名刺です。",
+            "chinese": "這是公司職員的名片。"
+          },
+          {
+            "japanese": "それは英語の名刺です。",
+            "chinese": "那是英語名片。"
+          },
+          {
+            "japanese": "この名刺は先生のです。",
+            "chinese": "這張名片是老師的。"
+          },
+          {
+            "japanese": "あの名刺は私のではありません。",
+            "chinese": "那張名片不是我的。"
+          }
+        ]
+      },
+      {
+        "japanese": "カード",
+        "kanji": null,
+        "chinese": "卡片",
+        "image": null,
+        "note": null,
+        "kanji_note": null,
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "銀行のカードは財布の中です。",
+            "chinese": "銀行的卡片在錢包裡。"
+          },
+          {
+            "japanese": "銀行のカードは先生のです。",
+            "chinese": "銀行的卡片是老師的。"
+          },
+          {
+            "japanese": "これは銀行のカードではありません。",
+            "chinese": "這不是銀行的卡片。"
+          },
+          {
+            "japanese": "銀行のカードは私のではありません。",
+            "chinese": "銀行的卡片不是我的。"
+          },
+          {
+            "japanese": "銀行のカード、そこです。",
+            "chinese": "銀行的卡片在那裡。"
+          },
+          {
+            "japanese": "田中さんの銀行のカードはこれですか。",
+            "chinese": "田中先生銀行的卡片是這張嗎？"
+          },
+          {
+            "japanese": "銀行のカードはどちらですか。",
+            "chinese": "銀行的卡片在哪一邊？"
+          },
+          {
+            "japanese": "銀行のカードはあれです。",
+            "chinese": "銀行的卡片是那張。"
+          },
+          {
+            "japanese": "すみません、銀行のカードはどれですか。",
+            "chinese": "不好意思，銀行的卡片是哪一張？"
+          },
+          {
+            "japanese": "銀行のカードはここです。",
+            "chinese": "銀行的卡片在這裡。"
+          },
+          {
+            "japanese": "銀行のカードは木村さんのです。",
+            "chinese": "銀行的卡片是木村先生的。"
+          },
+          {
+            "japanese": "このカードは銀行のではありません。",
+            "chinese": "這張卡片不是銀行的。"
+          },
+          {
+            "japanese": "銀行のカードは机の上です。",
+            "chinese": "銀行的卡片在桌上。"
+          },
+          {
+            "japanese": "銀行のカードは王さんのです。",
+            "chinese": "銀行的卡片是王先生的。"
+          },
+          {
+            "japanese": "あ、銀行のカード、ここです。",
+            "chinese": "啊，銀行的卡片在這裡。"
+          },
+          {
+            "japanese": "銀行のカードは誰のですか。",
+            "chinese": "銀行的卡片是誰的？"
+          },
+          {
+            "japanese": "銀行のカードはあそこではありません。",
+            "chinese": "銀行的卡片不在那裡。"
+          },
+          {
+            "japanese": "これは銀行のカードですか。",
+            "chinese": "這是銀行的卡片嗎？"
+          },
+          {
+            "japanese": "銀行のカードは私のです。",
+            "chinese": "銀行的卡片是我的。"
+          },
+          {
+            "japanese": "銀行のカードはこれです。",
+            "chinese": "銀行的卡片是這張。"
+          }
+        ]
+      },
+      {
+        "japanese": "テレホンカード",
+        "kanji": null,
+        "chinese": "電話卡",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「学」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "これはテレホンカードです。",
+            "chinese": "這是電話卡。"
+          },
+          {
+            "japanese": "それは私のテレホンカードです。",
+            "chinese": "那是我的電話卡。"
+          },
+          {
+            "japanese": "あれは誰のテレホンカードですか。",
+            "chinese": "那是誰的電話卡？"
+          },
+          {
+            "japanese": "このテレホンカードは私のです。",
+            "chinese": "這張電話卡是我的。"
+          },
+          {
+            "japanese": "そのテレホンカードは田中さんのです。",
+            "chinese": "那張電話卡是田中先生的。"
+          },
+          {
+            "japanese": "あのテレホンカードは大学のです。",
+            "chinese": "那張電話卡是大學的。"
+          },
+          {
+            "japanese": "これは私のテレホンカードではありません。",
+            "chinese": "這不是我的電話卡。"
+          },
+          {
+            "japanese": "それは日本語のテレホンカードです。",
+            "chinese": "那是一張日語電話卡。"
+          },
+          {
+            "japanese": "このテレホンカードは学生のです。",
+            "chinese": "這張電話卡是學生的。"
+          },
+          {
+            "japanese": "そのテレホンカードは誰のですか。",
+            "chinese": "那張電話卡是誰的？"
+          },
+          {
+            "japanese": "あのテレホンカードは木村さんのです。",
+            "chinese": "那張電話卡是木村先生的。"
+          },
+          {
+            "japanese": "これは日本のテレホンカードです。",
+            "chinese": "這是日本電話卡。"
+          },
+          {
+            "japanese": "それは私のテレホンカードではありません。",
+            "chinese": "那不是我的電話卡。"
+          },
+          {
+            "japanese": "このテレホンカードは先生のです。",
+            "chinese": "這張電話卡是老師的。"
+          },
+          {
+            "japanese": "そのテレホンカードは私のです。",
+            "chinese": "那張電話卡是我的。"
+          },
+          {
+            "japanese": "あのテレホンカードは先生のです。",
+            "chinese": "那張電話卡是老師的。"
+          },
+          {
+            "japanese": "これは王さんのテレホンカードです。",
+            "chinese": "這是王先生的電話卡。"
+          },
+          {
+            "japanese": "それは学生のテレホンカードです。",
+            "chinese": "那是學生的電話卡。"
+          },
+          {
+            "japanese": "このテレホンカードは会社のです。",
+            "chinese": "這張電話卡是公司的。"
+          },
+          {
+            "japanese": "あのテレホンカードは私のではありません。",
+            "chinese": "那張電話卡不是我的。"
+          }
+        ]
+      },
+      {
+        "japanese": "えんぴつ",
+        "kanji": "鉛筆",
+        "chinese": "鉛筆",
+        "image": null,
+        "note": null,
+        "kanji_note": null,
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "筆箱の鉛筆は机の上です。",
+            "chinese": "鉛筆盒裡的鉛筆在桌上。"
+          },
+          {
+            "japanese": "筆箱の鉛筆は先生のです。",
+            "chinese": "鉛筆盒裡的鉛筆是老師的。"
+          },
+          {
+            "japanese": "これは筆箱の鉛筆ではありません。",
+            "chinese": "這不是鉛筆盒裡的鉛筆。"
+          },
+          {
+            "japanese": "筆箱の鉛筆は私のではありません。",
+            "chinese": "鉛筆盒裡的鉛筆不是我的。"
+          },
+          {
+            "japanese": "筆箱の鉛筆、そこです。",
+            "chinese": "鉛筆盒裡的鉛筆在那裡。"
+          },
+          {
+            "japanese": "田中さんの筆箱の鉛筆はこれですか。",
+            "chinese": "田中先生鉛筆盒裡的鉛筆是這支嗎？"
+          },
+          {
+            "japanese": "筆箱の鉛筆はどちらですか。",
+            "chinese": "鉛筆盒裡的鉛筆在哪一邊？"
+          },
+          {
+            "japanese": "筆箱の鉛筆はあれです。",
+            "chinese": "鉛筆盒裡的鉛筆是那支。"
+          },
+          {
+            "japanese": "すみません、筆箱の鉛筆はどれですか。",
+            "chinese": "不好意思，鉛筆盒裡的鉛筆是哪一支？"
+          },
+          {
+            "japanese": "筆箱の鉛筆はここです。",
+            "chinese": "鉛筆盒裡的鉛筆在這裡。"
+          },
+          {
+            "japanese": "筆箱の鉛筆は木村さんのです。",
+            "chinese": "鉛筆盒裡的鉛筆是木村先生的。"
+          },
+          {
+            "japanese": "この鉛筆は筆箱のではありません。",
+            "chinese": "這支鉛筆不是鉛筆盒裡的。"
+          },
+          {
+            "japanese": "筆箱の鉛筆は私の机の上です。",
+            "chinese": "鉛筆盒裡的鉛筆在我的桌上。"
+          },
+          {
+            "japanese": "筆箱の鉛筆は王さんのです。",
+            "chinese": "鉛筆盒裡的鉛筆是王先生的。"
+          },
+          {
+            "japanese": "あ、筆箱の鉛筆、ここです。",
+            "chinese": "啊，鉛筆盒裡的鉛筆在這裡。"
+          },
+          {
+            "japanese": "筆箱の鉛筆は誰のですか。",
+            "chinese": "鉛筆盒裡的鉛筆是誰的？"
+          },
+          {
+            "japanese": "筆箱の鉛筆はあそこではありません。",
+            "chinese": "鉛筆盒裡的鉛筆不在那裡。"
+          },
+          {
+            "japanese": "これは筆箱の鉛筆ですか。",
+            "chinese": "這是鉛筆盒裡的鉛筆嗎？"
+          },
+          {
+            "japanese": "筆箱の鉛筆は私のです。",
+            "chinese": "鉛筆盒裡的鉛筆是我的。"
+          },
+          {
+            "japanese": "筆箱の鉛筆はこれです。",
+            "chinese": "鉛筆盒裡的鉛筆是這支。"
+          }
+        ]
+      },
+      {
+        "japanese": "ボールペン",
+        "kanji": null,
+        "chinese": "原子筆",
+        "image": null,
+        "note": null,
+        "kanji_note": null,
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "受付のボールペンはロビーではありません。",
+            "chinese": "接待處的原子筆不在大廳。"
+          },
+          {
+            "japanese": "受付のボールペンは先生のです。",
+            "chinese": "接待處的原子筆是老師的。"
+          },
+          {
+            "japanese": "これは受付のボールペンではありません。",
+            "chinese": "這不是接待處的原子筆。"
+          },
+          {
+            "japanese": "受付のボールペンは私のではありません。",
+            "chinese": "接待處的原子筆不是我的。"
+          },
+          {
+            "japanese": "受付のボールペン、そこです。",
+            "chinese": "接待處的原子筆在那裡。"
+          },
+          {
+            "japanese": "田中さんの受付のボールペンはこれですか。",
+            "chinese": "田中先生接待處的原子筆是這支嗎？"
+          },
+          {
+            "japanese": "受付のボールペンはどちらですか。",
+            "chinese": "接待處的原子筆在哪一邊？"
+          },
+          {
+            "japanese": "受付のボールペンはあれです。",
+            "chinese": "接待處的原子筆是那支。"
+          },
+          {
+            "japanese": "すみません、受付のボールペンはどれですか。",
+            "chinese": "不好意思，接待處的原子筆是哪一支？"
+          },
+          {
+            "japanese": "受付のボールペンはここです。",
+            "chinese": "接待處的原子筆在這裡。"
+          },
+          {
+            "japanese": "受付のボールペンは木村さんのです。",
+            "chinese": "接待處的原子筆是木村先生的。"
+          },
+          {
+            "japanese": "このボールペンは受付のではありません。",
+            "chinese": "這支原子筆不是接待處的。"
+          },
+          {
+            "japanese": "受付のボールペンは机の上です。",
+            "chinese": "接待處的原子筆在桌上。"
+          },
+          {
+            "japanese": "受付のボールペンは王さんのです。",
+            "chinese": "接待處的原子筆是王先生的。"
+          },
+          {
+            "japanese": "あ、受付のボールペン、ここです。",
+            "chinese": "啊，接待處的原子筆在這裡。"
+          },
+          {
+            "japanese": "受付のボールペンは誰のですか。",
+            "chinese": "接待處的原子筆是誰的？"
+          },
+          {
+            "japanese": "受付のボールペンはあそこではありません。",
+            "chinese": "接待處的原子筆不在那裡。"
+          },
+          {
+            "japanese": "これは受付のボールペンですか。",
+            "chinese": "這是接待處的原子筆嗎？"
+          },
+          {
+            "japanese": "受付のボールペンは私のです。",
+            "chinese": "接待處的原子筆是我的。"
+          },
+          {
+            "japanese": "受付のボールペンはこれです。",
+            "chinese": "接待處的原子筆是這支。"
+          }
+        ]
+      },
+      {
+        "japanese": "シャープペンシル",
+        "kanji": null,
+        "chinese": "自動鉛筆",
+        "image": null,
+        "note": null,
+        "kanji_note": null,
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "机のシャープペンシルは教室です。",
+            "chinese": "桌上的自動鉛筆在教室。"
+          },
+          {
+            "japanese": "机のシャープペンシルは先生のです。",
+            "chinese": "桌上的自動鉛筆是老師的。"
+          },
+          {
+            "japanese": "これは机のシャープペンシルではありません。",
+            "chinese": "這不是桌上的自動鉛筆。"
+          },
+          {
+            "japanese": "机のシャープペンシルは私のではありません。",
+            "chinese": "桌上的自動鉛筆不是我的。"
+          },
+          {
+            "japanese": "机のシャープペンシル、そこです。",
+            "chinese": "桌上的自動鉛筆在那裡。"
+          },
+          {
+            "japanese": "田中さんの机のシャープペンシルはこれですか。",
+            "chinese": "田中先生桌上的自動鉛筆是這支嗎？"
+          },
+          {
+            "japanese": "机のシャープペンシルはどちらですか。",
+            "chinese": "桌上的自動鉛筆在哪一邊？"
+          },
+          {
+            "japanese": "机のシャープペンシルはあれです。",
+            "chinese": "桌上的自動鉛筆是那支。"
+          },
+          {
+            "japanese": "すみません、机のシャープペンシルはどれですか。",
+            "chinese": "不好意思，桌上的自動鉛筆是哪一支？"
+          },
+          {
+            "japanese": "机のシャープペンシルはここです。",
+            "chinese": "桌上的自動鉛筆在這裡。"
+          },
+          {
+            "japanese": "机のシャープペンシルは木村さんのです。",
+            "chinese": "桌上的自動鉛筆是木村先生的。"
+          },
+          {
+            "japanese": "このシャープペンシルは机のではありません。",
+            "chinese": "這支自動鉛筆不是桌上的。"
+          },
+          {
+            "japanese": "机のシャープペンシルは筆箱の中です。",
+            "chinese": "桌上的自動鉛筆在鉛筆盒裡。"
+          },
+          {
+            "japanese": "机のシャープペンシルは王さんのです。",
+            "chinese": "桌上的自動鉛筆是王先生的。"
+          },
+          {
+            "japanese": "あ、机のシャープペンシル、ここです。",
+            "chinese": "啊，桌上的自動鉛筆在這裡。"
+          },
+          {
+            "japanese": "机のシャープペンシルは誰のですか。",
+            "chinese": "桌上的自動鉛筆是誰的？"
+          },
+          {
+            "japanese": "机のシャープペンシルはあそこではありません。",
+            "chinese": "桌上的自動鉛筆不在那裡。"
+          },
+          {
+            "japanese": "これは机のシャープペンシルですか。",
+            "chinese": "這是桌上的自動鉛筆嗎？"
+          },
+          {
+            "japanese": "机のシャープペンシルは私のです。",
+            "chinese": "桌上的自動鉛筆是我的。"
+          },
+          {
+            "japanese": "机のシャープペンシルはこれです。",
+            "chinese": "桌上的自動鉛筆是這支。"
+          }
+        ]
+      },
+      {
+        "japanese": "かぎ",
+        "kanji": "鍵",
+        "chinese": "鑰匙",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「裏」、「関」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "裏",
+              "zh": "裡",
+              "note": null
+            },
+            {
+              "jp": "関",
+              "zh": "關",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "家の鍵は弟のです。",
+            "chinese": "家裡的鑰匙是我弟弟的。"
+          },
+          {
+            "japanese": "家の鍵は私のではありません。",
+            "chinese": "家裡的鑰匙不是我的。"
+          },
+          {
+            "japanese": "これは家の鍵ではありません。",
+            "chinese": "這不是家裡的鑰匙。"
+          },
+          {
+            "japanese": "家の鍵、そこです。",
+            "chinese": "家裡的鑰匙在那裡。"
+          },
+          {
+            "japanese": "家の鍵はどちらですか。",
+            "chinese": "家裡的鑰匙在哪一邊？"
+          },
+          {
+            "japanese": "山田さんの家の鍵はあれです。",
+            "chinese": "山田先生家裡的鑰匙是那把。"
+          },
+          {
+            "japanese": "家の鍵は机の上です。",
+            "chinese": "家裡的鑰匙在桌上。"
+          },
+          {
+            "japanese": "家の鍵は王さんのです。",
+            "chinese": "家裡的鑰匙是王先生的。"
+          },
+          {
+            "japanese": "家の裏口の鍵はこれです。",
+            "chinese": "家後門的鑰匙是這把。"
+          },
+          {
+            "japanese": "家の鍵はかばんの中です。",
+            "chinese": "家裡的鑰匙在包包裡。"
+          },
+          {
+            "japanese": "家の鍵はあそこではありません。",
+            "chinese": "家裡的鑰匙不在那裡。"
+          },
+          {
+            "japanese": "この鍵は家の鍵ではありません。",
+            "chinese": "這把鑰匙不是家裡的鑰匙。"
+          },
+          {
+            "japanese": "家の鍵は私のです。",
+            "chinese": "家裡的鑰匙是我的。"
+          },
+          {
+            "japanese": "すみません、家の鍵はこちらですか。",
+            "chinese": "不好意思，家裡的鑰匙在這邊嗎？"
+          },
+          {
+            "japanese": "田中さんの家の鍵はどれですか。",
+            "chinese": "田中先生家裡的鑰匙是哪一把？"
+          },
+          {
+            "japanese": "あ、家の鍵、ここです。",
+            "chinese": "啊，家裡的鑰匙在這裡。"
+          },
+          {
+            "japanese": "その鍵、家の鍵ですか。",
+            "chinese": "那把鑰匙是家裡的鑰匙嗎？"
+          },
+          {
+            "japanese": "家の玄関の鍵はこれです。",
+            "chinese": "家大門的鑰匙是這把。"
+          },
+          {
+            "japanese": "これは家の鍵です。",
+            "chinese": "這是家裡的鑰匙。"
+          },
+          {
+            "japanese": "家の鍵はどこですか。",
+            "chinese": "家裡的鑰匙在哪裡？"
+          }
+        ]
+      },
+      {
+        "japanese": "とけい",
+        "kanji": "時計",
+        "chinese": "鐘錶",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「学」→ 繁體「學」。",
+          "details": [
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "これは私の時計です。",
+            "chinese": "這是我的手錶。"
+          },
+          {
+            "japanese": "その時計は壁に掛かっています。",
+            "chinese": "那個鐘掛在牆上。"
+          },
+          {
+            "japanese": "あの時計は私のではありません。",
+            "chinese": "那個鐘不是我的。"
+          },
+          {
+            "japanese": "この時計は父のです。",
+            "chinese": "這隻手錶是爸爸的。"
+          },
+          {
+            "japanese": "時計はここです。",
+            "chinese": "鐘在這裡。"
+          },
+          {
+            "japanese": "田中さんの時計は机の上です。",
+            "chinese": "田中先生的手錶在桌上。"
+          },
+          {
+            "japanese": "これは日本の時計です。",
+            "chinese": "這是日本製的鐘。"
+          },
+          {
+            "japanese": "その時計は誰のですか。",
+            "chinese": "那個鐘是誰的？"
+          },
+          {
+            "japanese": "私の時計はかばんの中です。",
+            "chinese": "我的手錶在包包裡。"
+          },
+          {
+            "japanese": "あの時計は学生のです。",
+            "chinese": "那個鐘是學生的。"
+          },
+          {
+            "japanese": "この時計は木村さんのです。",
+            "chinese": "這隻手錶是木村先生的。"
+          },
+          {
+            "japanese": "時計の下はテレビです。",
+            "chinese": "鐘的下面是電視。"
+          },
+          {
+            "japanese": "これは時計ですか。",
+            "chinese": "這是鐘嗎？"
+          },
+          {
+            "japanese": "その時計は教室です。",
+            "chinese": "那個鐘在教室裡。"
+          },
+          {
+            "japanese": "あの時計は教室の時計です。",
+            "chinese": "那個鐘是教室的鐘。"
+          },
+          {
+            "japanese": "この時計は祖父の時計です。",
+            "chinese": "這隻手錶是祖父的。"
+          },
+          {
+            "japanese": "時計は机の上ではありません。",
+            "chinese": "鐘不在桌上。"
+          },
+          {
+            "japanese": "これは王さんの時計です。",
+            "chinese": "這是王先生的手錶。"
+          },
+          {
+            "japanese": "その時計は私のです。",
+            "chinese": "那個鐘是我的。"
+          },
+          {
+            "japanese": "あの時計は壁に掛かっています。",
+            "chinese": "那個鐘掛在牆上。"
+          }
+        ]
+      },
+      {
+        "japanese": "かさ",
+        "kanji": "傘",
+        "chinese": "傘",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「関」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "関",
+              "zh": "關",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "雨の傘は会社のです。",
+            "chinese": "雨傘是公司的。"
+          },
+          {
+            "japanese": "雨の傘は私のではありません。",
+            "chinese": "雨傘不是我的。"
+          },
+          {
+            "japanese": "これは雨の傘ではありません。",
+            "chinese": "這不是雨傘。"
+          },
+          {
+            "japanese": "雨の傘、ここです。",
+            "chinese": "雨傘在這裡。"
+          },
+          {
+            "japanese": "雨の傘はどちらですか。",
+            "chinese": "雨傘在哪一邊？"
+          },
+          {
+            "japanese": "山田さんの雨の傘はあれです。",
+            "chinese": "山田先生的雨傘是那把。"
+          },
+          {
+            "japanese": "雨の傘は車の中です。",
+            "chinese": "雨傘在車裡。"
+          },
+          {
+            "japanese": "雨の傘は誰のですか。",
+            "chinese": "雨傘是誰的？"
+          },
+          {
+            "japanese": "田中さんの雨の傘はこれですか。",
+            "chinese": "田中先生的雨傘是這把嗎？"
+          },
+          {
+            "japanese": "雨の傘はあそこです。",
+            "chinese": "雨傘在那裡。"
+          },
+          {
+            "japanese": "雨の傘は玄関です。",
+            "chinese": "雨傘在玄關。"
+          },
+          {
+            "japanese": "この傘は雨の傘ではありません。",
+            "chinese": "這把傘不是雨傘。"
+          },
+          {
+            "japanese": "雨の傘は王さんのです。",
+            "chinese": "雨傘是王先生的。"
+          },
+          {
+            "japanese": "雨の傘はここではありません。",
+            "chinese": "雨傘不在這裡。"
+          },
+          {
+            "japanese": "あ、雨の傘、そこです。",
+            "chinese": "啊，雨傘在那裡。"
+          },
+          {
+            "japanese": "雨の傘は私のです。",
+            "chinese": "雨傘是我的。"
+          },
+          {
+            "japanese": "すみません、雨の傘はどれですか。",
+            "chinese": "不好意思，雨傘是哪一把？"
+          },
+          {
+            "japanese": "あの傘は雨の日のです。",
+            "chinese": "那把傘是下雨天用的。"
+          },
+          {
+            "japanese": "これは雨の傘ですか。",
+            "chinese": "這是雨傘嗎？"
+          },
+          {
+            "japanese": "雨の傘はこれです。",
+            "chinese": "雨傘是這把。"
+          }
+        ]
+      },
+      {
+        "japanese": "かばん",
+        "kanji": null,
+        "chinese": "書包，手提包，皮包",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「学」→ 繁體「學」。",
+          "details": [
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "学校のかばんは教室です。",
+            "chinese": "學校的書包在教室。"
+          },
+          {
+            "japanese": "学校のかばんは妹のです。",
+            "chinese": "學校的書包是我妹妹的。"
+          },
+          {
+            "japanese": "これは学校のかばんではありません。",
+            "chinese": "這不是學校的書包。"
+          },
+          {
+            "japanese": "学校のかばんは私のではありません。",
+            "chinese": "學校的書包不是我的。"
+          },
+          {
+            "japanese": "学校のかばん、そこです。",
+            "chinese": "學校的書包在那裡。"
+          },
+          {
+            "japanese": "田中さんの学校のかばんはこれですか。",
+            "chinese": "田中先生的學校書包是這個嗎？"
+          },
+          {
+            "japanese": "学校のかばんはどちらですか。",
+            "chinese": "學校的書包在哪一邊？"
+          },
+          {
+            "japanese": "学校のかばんはあれです。",
+            "chinese": "學校的書包是那個。"
+          },
+          {
+            "japanese": "すみません、学校のかばんはどれですか。",
+            "chinese": "不好意思，學校的書包是哪一個？"
+          },
+          {
+            "japanese": "学校のかばんはここです。",
+            "chinese": "學校的書包在這裡。"
+          },
+          {
+            "japanese": "学校のかばんは木村さんのです。",
+            "chinese": "學校的書包是木村先生的。"
+          },
+          {
+            "japanese": "このかばんは学校のかばんですか。",
+            "chinese": "這個包包是學校的書包嗎？"
+          },
+          {
+            "japanese": "学校のかばんは机の上です。",
+            "chinese": "學校的書包在桌上。"
+          },
+          {
+            "japanese": "学校のかばんは王さんのです。",
+            "chinese": "學校的書包是王先生的。"
+          },
+          {
+            "japanese": "あ、学校のかばん、ここです。",
+            "chinese": "啊，學校的書包在這裡。"
+          },
+          {
+            "japanese": "学校のかばんは誰のですか。",
+            "chinese": "學校的書包是誰的？"
+          },
+          {
+            "japanese": "学校のかばんはあそこではありません。",
+            "chinese": "學校的書包不在那裡。"
+          },
+          {
+            "japanese": "これは学校のかばんです。",
+            "chinese": "這是學校的書包。"
+          },
+          {
+            "japanese": "学校のかばんは私のです。",
+            "chinese": "學校的書包是我的。"
+          },
+          {
+            "japanese": "学校のかばんはこれです。",
+            "chinese": "學校的書包是這個。"
+          }
+        ]
+      },
+      {
+        "japanese": "テープ",
+        "kanji": null,
+        "chinese": "錄音帶",
+        "image": null,
+        "note": null,
+        "kanji_note": null,
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "英語のテープは教室です。",
+            "chinese": "英語錄音帶在教室。"
+          },
+          {
+            "japanese": "英語のテープは先生のです。",
+            "chinese": "英語錄音帶是老師的。"
+          },
+          {
+            "japanese": "これは英語のテープではありません。",
+            "chinese": "這不是英語錄音帶。"
+          },
+          {
+            "japanese": "英語のテープは私のではありません。",
+            "chinese": "英語錄音帶不是我的。"
+          },
+          {
+            "japanese": "英語のテープ、そこです。",
+            "chinese": "英語錄音帶在那裡。"
+          },
+          {
+            "japanese": "田中さんの英語のテープはこれですか。",
+            "chinese": "田中先生的英語錄音帶是這捲嗎？"
+          },
+          {
+            "japanese": "英語のテープはどちらですか。",
+            "chinese": "英語錄音帶在哪一邊？"
+          },
+          {
+            "japanese": "英語のテープはあれです。",
+            "chinese": "英語錄音帶是那捲。"
+          },
+          {
+            "japanese": "すみません、英語のテープはどれですか。",
+            "chinese": "不好意思，英語錄音帶是哪一捲？"
+          },
+          {
+            "japanese": "英語のテープはここです。",
+            "chinese": "英語錄音帶在這裡。"
+          },
+          {
+            "japanese": "英語のテープは木村さんのです。",
+            "chinese": "英語錄音帶是木村先生的。"
+          },
+          {
+            "japanese": "このテープは英語のテープではありません。",
+            "chinese": "這捲錄音帶不是英語錄音帶。"
+          },
+          {
+            "japanese": "英語のテープは机の上です。",
+            "chinese": "英語錄音帶在桌上。"
+          },
+          {
+            "japanese": "英語のテープは王さんのです。",
+            "chinese": "英語錄音帶是王先生的。"
+          },
+          {
+            "japanese": "あ、英語のテープ、ここです。",
+            "chinese": "啊，英語錄音帶在這裡。"
+          },
+          {
+            "japanese": "英語のテープは誰のですか。",
+            "chinese": "英語錄音帶是誰的？"
+          },
+          {
+            "japanese": "英語のテープはあそこではありません。",
+            "chinese": "英語錄音帶不在那裡。"
+          },
+          {
+            "japanese": "これは英語のテープですか。",
+            "chinese": "這是英語錄音帶嗎？"
+          },
+          {
+            "japanese": "英語のテープは私のです。",
+            "chinese": "英語錄音帶是我的。"
+          },
+          {
+            "japanese": "英語のテープはこれです。",
+            "chinese": "英語錄音帶是這捲。"
+          }
+        ]
+      },
+      {
+        "japanese": "テープレコーダー",
+        "kanji": null,
+        "chinese": "錄音機",
+        "image": null,
+        "note": null,
+        "kanji_note": null,
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "教室のテープレコーダーは研究室です。",
+            "chinese": "教室的錄音機在研究室。"
+          },
+          {
+            "japanese": "教室のテープレコーダーは先生のです。",
+            "chinese": "教室的錄音機是老師的。"
+          },
+          {
+            "japanese": "これは教室のテープレコーダーではありません。",
+            "chinese": "這不是教室的錄音機。"
+          },
+          {
+            "japanese": "教室のテープレコーダーは私のではありません。",
+            "chinese": "教室的錄音機不是我的。"
+          },
+          {
+            "japanese": "教室のテープレコーダー、そこです。",
+            "chinese": "教室的錄音機在那裡。"
+          },
+          {
+            "japanese": "田中さんの教室のテープレコーダーはこれですか。",
+            "chinese": "田中先生教室的錄音機是這台嗎？"
+          },
+          {
+            "japanese": "教室のテープレコーダーはどちらですか。",
+            "chinese": "教室的錄音機在哪一邊？"
+          },
+          {
+            "japanese": "教室のテープレコーダーはあれです。",
+            "chinese": "教室的錄音機是那台。"
+          },
+          {
+            "japanese": "すみません、教室のテープレコーダーはどれですか。",
+            "chinese": "不好意思，教室的錄音機是哪一台？"
+          },
+          {
+            "japanese": "教室のテープレコーダーはここです。",
+            "chinese": "教室的錄音機在這裡。"
+          },
+          {
+            "japanese": "教室のテープレコーダーは木村さんのです。",
+            "chinese": "教室的錄音機是木村先生的。"
+          },
+          {
+            "japanese": "このテープレコーダーは教室のではありません。",
+            "chinese": "這台錄音機不是教室的。"
+          },
+          {
+            "japanese": "教室のテープレコーダーは机の上です。",
+            "chinese": "教室的錄音機在桌上。"
+          },
+          {
+            "japanese": "教室のテープレコーダーは王さんのです。",
+            "chinese": "教室的錄音機是王先生的。"
+          },
+          {
+            "japanese": "あ、教室のテープレコーダー、ここです。",
+            "chinese": "啊，教室的錄音機在這裡。"
+          },
+          {
+            "japanese": "教室のテープレコーダーは誰のですか。",
+            "chinese": "教室的錄音機是誰的？"
+          },
+          {
+            "japanese": "教室のテープレコーダーはあそこではありません。",
+            "chinese": "教室的錄音機不在那裡。"
+          },
+          {
+            "japanese": "これは教室のテープレコーダーですか。",
+            "chinese": "這是教室的錄音機嗎？"
+          },
+          {
+            "japanese": "教室のテープレコーダーは私のです。",
+            "chinese": "教室的錄音機是我的。"
+          },
+          {
+            "japanese": "教室のテープレコーダーはこれです。",
+            "chinese": "教室的錄音機是這台。"
+          }
+        ]
+      },
+      {
+        "japanese": "テレビ",
+        "kanji": null,
+        "chinese": "電視",
+        "image": null,
+        "note": null,
+        "kanji_note": null,
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "リビングのテレビは食堂ではありません。",
+            "chinese": "客廳的電視不在餐廳。"
+          },
+          {
+            "japanese": "リビングのテレビは先生のです。",
+            "chinese": "客廳的電視是老師的。"
+          },
+          {
+            "japanese": "これはリビングのテレビではありません。",
+            "chinese": "這不是客廳的電視。"
+          },
+          {
+            "japanese": "リビングのテレビは私のではありません。",
+            "chinese": "客廳的電視不是我的。"
+          },
+          {
+            "japanese": "リビングのテレビ、そこです。",
+            "chinese": "客廳的電視在那裡。"
+          },
+          {
+            "japanese": "田中さんのリビングのテレビはこれですか。",
+            "chinese": "田中先生客廳的電視是這台嗎？"
+          },
+          {
+            "japanese": "リビングのテレビはどちらですか。",
+            "chinese": "客廳的電視在哪一邊？"
+          },
+          {
+            "japanese": "リビングのテレビはあれです。",
+            "chinese": "客廳的電視是那台。"
+          },
+          {
+            "japanese": "すみません、リビングのテレビはどれですか。",
+            "chinese": "不好意思，客廳的電視是哪一台？"
+          },
+          {
+            "japanese": "リビングのテレビはここです。",
+            "chinese": "客廳的電視在這裡。"
+          },
+          {
+            "japanese": "リビングのテレビは木村さんのです。",
+            "chinese": "客廳的電視是木村先生的。"
+          },
+          {
+            "japanese": "このテレビはリビングのではありません。",
+            "chinese": "這台電視不是客廳的。"
+          },
+          {
+            "japanese": "リビングのテレビは台の上です。",
+            "chinese": "客廳的電視在櫃子上。"
+          },
+          {
+            "japanese": "リビングのテレビは王さんのです。",
+            "chinese": "客廳的電視是王先生的。"
+          },
+          {
+            "japanese": "あ、リビングのテレビ、ここです。",
+            "chinese": "啊，客廳的電視在這裡。"
+          },
+          {
+            "japanese": "リビングのテレビは誰のですか。",
+            "chinese": "客廳的電視是誰的？"
+          },
+          {
+            "japanese": "リビングのテレビはあそこではありません。",
+            "chinese": "客廳的電視不在那裡。"
+          },
+          {
+            "japanese": "これはリビングのテレビですか。",
+            "chinese": "這是客廳的電視嗎？"
+          },
+          {
+            "japanese": "リビングのテレビは私のです。",
+            "chinese": "客廳的電視是我的。"
+          },
+          {
+            "japanese": "リビングのテレビはこれです。",
+            "chinese": "客廳的電視是這台。"
+          }
+        ]
+      },
+      {
+        "japanese": "ラジオ",
+        "kanji": null,
+        "chinese": "收音機",
+        "image": null,
+        "note": null,
+        "kanji_note": null,
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "車のラジオは台所ではありません。",
+            "chinese": "車上的收音機不在廚房。"
+          },
+          {
+            "japanese": "車のラジオは先生のです。",
+            "chinese": "車上的收音機是老師的。"
+          },
+          {
+            "japanese": "これは車のラジオではありません。",
+            "chinese": "這不是車上的收音機。"
+          },
+          {
+            "japanese": "車のラジオは私のではありません。",
+            "chinese": "車上的收音機不是我的。"
+          },
+          {
+            "japanese": "車のラジオ、そこです。",
+            "chinese": "車上的收音機在那裡。"
+          },
+          {
+            "japanese": "田中さんの車のラジオはこれですか。",
+            "chinese": "田中先生車上的收音機是這台嗎？"
+          },
+          {
+            "japanese": "車のラジオはどちらですか。",
+            "chinese": "車上的收音機在哪一邊？"
+          },
+          {
+            "japanese": "車のラジオはあれです。",
+            "chinese": "車上的收音機是那台。"
+          },
+          {
+            "japanese": "すみません、車のラジオはどれですか。",
+            "chinese": "不好意思，車上的收音機是哪一台？"
+          },
+          {
+            "japanese": "車のラジオはここです。",
+            "chinese": "車上的收音機在這裡。"
+          },
+          {
+            "japanese": "車のラジオは木村さんのです。",
+            "chinese": "車上的收音機是木村先生的。"
+          },
+          {
+            "japanese": "このラジオは車のではありません。",
+            "chinese": "這台收音機不是車上的。"
+          },
+          {
+            "japanese": "車のラジオは店の商品です。",
+            "chinese": "車上的收音機是店裡的商品。"
+          },
+          {
+            "japanese": "車のラジオは王さんのです。",
+            "chinese": "車上的收音機是王先生的。"
+          },
+          {
+            "japanese": "あ、車のラジオ、ここです。",
+            "chinese": "啊，車上的收音機在這裡。"
+          },
+          {
+            "japanese": "車のラジオは誰のですか。",
+            "chinese": "車上的收音機是誰的？"
+          },
+          {
+            "japanese": "車のラジオはあそこではありません。",
+            "chinese": "車上的收音機不在那裡。"
+          },
+          {
+            "japanese": "これは車のラジオですか。",
+            "chinese": "這是車上的收音機嗎？"
+          },
+          {
+            "japanese": "車のラジオは私のです。",
+            "chinese": "車上的收音機是我的。"
+          },
+          {
+            "japanese": "車のラジオはこれです。",
+            "chinese": "車上的收音機是這台。"
+          }
+        ]
+      },
+      {
+        "japanese": "カメラ",
+        "kanji": null,
+        "chinese": "照相機",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「写」→ 繁體「寫」。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "旅行のカメラは机の上です。",
+            "chinese": "旅行的照相機在桌上。"
+          },
+          {
+            "japanese": "旅行のカメラは先生のです。",
+            "chinese": "旅行的照相機是老師的。"
+          },
+          {
+            "japanese": "これは旅行のカメラではありません。",
+            "chinese": "這不是旅行的照相機。"
+          },
+          {
+            "japanese": "旅行のカメラは私のではありません。",
+            "chinese": "旅行的照相機不是我的。"
+          },
+          {
+            "japanese": "旅行のカメラ、そこです。",
+            "chinese": "旅行的照相機在那裡。"
+          },
+          {
+            "japanese": "田中さんの旅行のカメラはこれですか。",
+            "chinese": "田中先生旅行的照相機是這台嗎？"
+          },
+          {
+            "japanese": "旅行のカメラはどちらですか。",
+            "chinese": "旅行的照相機在哪一邊？"
+          },
+          {
+            "japanese": "旅行のカメラはあれです。",
+            "chinese": "旅行的照相機是那台。"
+          },
+          {
+            "japanese": "すみません、旅行のカメラはどれですか。",
+            "chinese": "不好意思，旅行的照相機是哪一台？"
+          },
+          {
+            "japanese": "旅行のカメラはここです。",
+            "chinese": "旅行的照相機在這裡。"
+          },
+          {
+            "japanese": "旅行のカメラは木村さんのです。",
+            "chinese": "旅行的照相機是木村先生的。"
+          },
+          {
+            "japanese": "このカメラは旅行のではありません。",
+            "chinese": "這台照相機不是旅行的。"
+          },
+          {
+            "japanese": "旅行のカメラはかばんの中です。",
+            "chinese": "旅行的照相機在包包裡。"
+          },
+          {
+            "japanese": "旅行のカメラは王さんのです。",
+            "chinese": "旅行的照相機是王先生的。"
+          },
+          {
+            "japanese": "あ、旅行のカメラ、ここです。",
+            "chinese": "啊，旅行的照相機在這裡。"
+          },
+          {
+            "japanese": "旅行のカメラは誰のですか。",
+            "chinese": "旅行的照相機是誰的？"
+          },
+          {
+            "japanese": "旅行のカメラはあそこではありません。",
+            "chinese": "旅行的照相機不在那裡。"
+          },
+          {
+            "japanese": "これは旅行のカメラですか。",
+            "chinese": "這是旅行的照相機嗎？"
+          },
+          {
+            "japanese": "旅行のカメラは私のです。",
+            "chinese": "旅行的照相機是我的。"
+          },
+          {
+            "japanese": "旅行のカメラはこれです。",
+            "chinese": "旅行的照相機是這台。"
+          }
+        ]
+      },
+      {
+        "japanese": "コンピューター",
+        "kanji": null,
+        "chinese": "電腦",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「会」→ 繁體「會」。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "会社のコンピューターは事務所です。",
+            "chinese": "公司的電腦在辦公室。"
+          },
+          {
+            "japanese": "会社のコンピューターは先生のです。",
+            "chinese": "公司的電腦是老師的。"
+          },
+          {
+            "japanese": "これは会社のコンピューターではありません。",
+            "chinese": "這不是公司的電腦。"
+          },
+          {
+            "japanese": "会社のコンピューターは私のではありません。",
+            "chinese": "公司的電腦不是我的。"
+          },
+          {
+            "japanese": "会社のコンピューター、そこです。",
+            "chinese": "公司的電腦在那裡。"
+          },
+          {
+            "japanese": "田中さんの会社のコンピューターはこれですか。",
+            "chinese": "田中先生公司的電腦是這台嗎？"
+          },
+          {
+            "japanese": "会社のコンピューターはどちらですか。",
+            "chinese": "公司的電腦在哪一邊？"
+          },
+          {
+            "japanese": "会社のコンピューターはあれです。",
+            "chinese": "公司的電腦是那台。"
+          },
+          {
+            "japanese": "すみません、会社のコンピューターはどれですか。",
+            "chinese": "不好意思，公司的電腦是哪一台？"
+          },
+          {
+            "japanese": "会社のコンピューターはここです。",
+            "chinese": "公司的電腦在這裡。"
+          },
+          {
+            "japanese": "会社のコンピューターは木村さんのです。",
+            "chinese": "公司的電腦是木村先生的。"
+          },
+          {
+            "japanese": "このコンピューターは会社のではありません。",
+            "chinese": "這台電腦不是公司的。"
+          },
+          {
+            "japanese": "会社のコンピューターは机の上です。",
+            "chinese": "公司的電腦在桌上。"
+          },
+          {
+            "japanese": "会社のコンピューターは王さんのです。",
+            "chinese": "公司的電腦是王先生的。"
+          },
+          {
+            "japanese": "あ、会社のコンピューター、ここです。",
+            "chinese": "啊，公司的電腦在這裡。"
+          },
+          {
+            "japanese": "会社のコンピューターは誰のですか。",
+            "chinese": "公司的電腦是誰的？"
+          },
+          {
+            "japanese": "会社のコンピューターはあそこではありません。",
+            "chinese": "公司的電腦不在那裡。"
+          },
+          {
+            "japanese": "これは会社のコンピューターですか。",
+            "chinese": "這是公司的電腦嗎？"
+          },
+          {
+            "japanese": "会社のコンピューターは私のです。",
+            "chinese": "公司的電腦是我的。"
+          },
+          {
+            "japanese": "会社のコンピューターはこれです。",
+            "chinese": "公司的電腦是這台。"
+          }
+        ]
+      },
+      {
+        "japanese": "じどうしゃ",
+        "kanji": "自動車",
+        "chinese": "汽車",
+        "image": null,
+        "note": "「車（くるま）」的口語亦常見",
+        "kanji_note": {
+          "summary": "日語「学」→ 繁體「學」。",
+          "details": [
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "transportation_movement"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "これは自動車です。",
+            "chinese": "這是汽車。"
+          },
+          {
+            "japanese": "それは私の自動車です。",
+            "chinese": "那是我的汽車。"
+          },
+          {
+            "japanese": "あれは誰の自動車ですか。",
+            "chinese": "那是誰的汽車？"
+          },
+          {
+            "japanese": "この自動車は私のです。",
+            "chinese": "這輛汽車是我的。"
+          },
+          {
+            "japanese": "その自動車は田中さんのです。",
+            "chinese": "那輛汽車是田中先生的。"
+          },
+          {
+            "japanese": "あの自動車は学生のです。",
+            "chinese": "那輛汽車是學生的。"
+          },
+          {
+            "japanese": "これは私の自動車ではありません。",
+            "chinese": "這不是我的汽車。"
+          },
+          {
+            "japanese": "それは私の自動車ですか。",
+            "chinese": "那是我的汽車嗎？"
+          },
+          {
+            "japanese": "この自動車は木村さんのです。",
+            "chinese": "這輛汽車是木村先生的。"
+          },
+          {
+            "japanese": "その自動車は誰のですか。",
+            "chinese": "那輛汽車是誰的？"
+          },
+          {
+            "japanese": "あの自動車は先生のです。",
+            "chinese": "那輛汽車是老師的。"
+          },
+          {
+            "japanese": "これは王さんの自動車です。",
+            "chinese": "這是王先生的汽車。"
+          },
+          {
+            "japanese": "それは私の自動車ではありません。",
+            "chinese": "那不是我的汽車。"
+          },
+          {
+            "japanese": "この自動車は学生のです。",
+            "chinese": "這輛汽車是學生的。"
+          },
+          {
+            "japanese": "その自動車は私のです。",
+            "chinese": "那輛汽車是我的。"
+          },
+          {
+            "japanese": "あの自動車は私のではありません。",
+            "chinese": "那輛汽車不是我的。"
+          },
+          {
+            "japanese": "これは大学の自動車です。",
+            "chinese": "這是大學的汽車。"
+          },
+          {
+            "japanese": "それは先生の自動車です。",
+            "chinese": "那是老師的汽車。"
+          },
+          {
+            "japanese": "この自動車は先生のです。",
+            "chinese": "這輛汽車是老師的。"
+          },
+          {
+            "japanese": "あの自動車は日本の自動車です。",
+            "chinese": "那輛汽車是日本汽車。"
+          }
+        ]
+      },
+      {
+        "japanese": "つくえ",
+        "kanji": "机",
+        "chinese": "桌子",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "これは木の机です。",
+            "chinese": "這是木頭桌子。"
+          },
+          {
+            "japanese": "その机は会社の机です。",
+            "chinese": "那張桌子是公司的。"
+          },
+          {
+            "japanese": "あの机は先生のです。",
+            "chinese": "那張桌子是老師的。"
+          },
+          {
+            "japanese": "この机は学校の机です。",
+            "chinese": "這張桌子是學校的。"
+          },
+          {
+            "japanese": "机はあそこです。",
+            "chinese": "桌子在那裡。"
+          },
+          {
+            "japanese": "田中さんの机は教室です。",
+            "chinese": "田中先生的桌子在教室裡。"
+          },
+          {
+            "japanese": "これは学校の机です。",
+            "chinese": "這是學校的桌子。"
+          },
+          {
+            "japanese": "あの机は誰のですか。",
+            "chinese": "那張桌子是誰的？"
+          },
+          {
+            "japanese": "私の机は部屋の中です。",
+            "chinese": "我的桌子在房間裡。"
+          },
+          {
+            "japanese": "あの机は学生の机です。",
+            "chinese": "那張桌子是學生的。"
+          },
+          {
+            "japanese": "この机は先生のです。",
+            "chinese": "這張桌子是老師的。"
+          },
+          {
+            "japanese": "机の上は本です。",
+            "chinese": "桌子上是書。"
+          },
+          {
+            "japanese": "これは会社の机です。",
+            "chinese": "這是公司的桌子。"
+          },
+          {
+            "japanese": "その机は図書館です。",
+            "chinese": "那張桌子在圖書館裡。"
+          },
+          {
+            "japanese": "あの机は図書館の机です。",
+            "chinese": "那張桌子是圖書館的。"
+          },
+          {
+            "japanese": "この机は父の机です。",
+            "chinese": "這張桌子是爸爸的。"
+          },
+          {
+            "japanese": "机の下はかばんです。",
+            "chinese": "桌子下面是包包。"
+          },
+          {
+            "japanese": "これは木村さんの机です。",
+            "chinese": "這是木村先生的桌子。"
+          },
+          {
+            "japanese": "その机は私のではありません。",
+            "chinese": "那張桌子不是我的。"
+          },
+          {
+            "japanese": "あの机は壁のそばです。",
+            "chinese": "那張桌子在牆邊。"
+          }
+        ]
+      },
+      {
+        "japanese": "いす",
+        "kanji": "椅子",
+        "chinese": "椅子",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「団」、「学」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "団",
+              "zh": "團",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "これは台所の椅子です。",
+            "chinese": "這是廚房的椅子。"
+          },
+          {
+            "japanese": "その椅子は部屋の中です。",
+            "chinese": "那把椅子在房間裡。"
+          },
+          {
+            "japanese": "あの椅子は先生のではありません。",
+            "chinese": "那把椅子不是老師的。"
+          },
+          {
+            "japanese": "この椅子は木の椅子です。",
+            "chinese": "這把椅子是木頭做的。"
+          },
+          {
+            "japanese": "椅子はそこです。",
+            "chinese": "椅子在那裡。"
+          },
+          {
+            "japanese": "田中さんの椅子は机のそばです。",
+            "chinese": "田中先生的椅子在桌子旁邊。"
+          },
+          {
+            "japanese": "これは教室の椅子です。",
+            "chinese": "這是教室的椅子。"
+          },
+          {
+            "japanese": "この椅子は誰のですか。",
+            "chinese": "這把椅子是誰的？"
+          },
+          {
+            "japanese": "私の椅子は部屋の隅です。",
+            "chinese": "我的椅子在房間的角落。"
+          },
+          {
+            "japanese": "あの椅子は田中さんのです。",
+            "chinese": "那把椅子是田中先生的。"
+          },
+          {
+            "japanese": "この椅子は田中さんのです。",
+            "chinese": "這把椅子是田中先生的。"
+          },
+          {
+            "japanese": "椅子の上は座布団です。",
+            "chinese": "椅子上是坐墊。"
+          },
+          {
+            "japanese": "これは食堂の椅子です。",
+            "chinese": "這是餐廳的椅子。"
+          },
+          {
+            "japanese": "その椅子は食堂です。",
+            "chinese": "那把椅子在餐廳裡。"
+          },
+          {
+            "japanese": "あの椅子は学校の椅子です。",
+            "chinese": "那把椅子是學校的。"
+          },
+          {
+            "japanese": "この椅子は母の椅子です。",
+            "chinese": "這把椅子是媽媽的。"
+          },
+          {
+            "japanese": "椅子は部屋の中ではありません。",
+            "chinese": "椅子不在房間裡。"
+          },
+          {
+            "japanese": "これは弟の椅子です。",
+            "chinese": "這是弟弟的椅子。"
+          },
+          {
+            "japanese": "その椅子は私の椅子です。",
+            "chinese": "那把椅子是我的。"
+          },
+          {
+            "japanese": "あの椅子は窓のそばです。",
+            "chinese": "那把椅子在窗邊。"
+          }
+        ]
+      },
+      {
+        "japanese": "チョコレート",
+        "kanji": null,
+        "chinese": "巧克力",
+        "image": null,
+        "note": null,
+        "kanji_note": null,
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "お土産のチョコレートは店の箱の中です。",
+            "chinese": "伴手禮的巧克力在店裡的盒子裡。"
+          },
+          {
+            "japanese": "お土産のチョコレートは先生のです。",
+            "chinese": "伴手禮的巧克力是老師的。"
+          },
+          {
+            "japanese": "これはお土産のチョコレートではありません。",
+            "chinese": "這不是伴手禮的巧克力。"
+          },
+          {
+            "japanese": "お土産のチョコレートは私のではありません。",
+            "chinese": "伴手禮的巧克力不是我的。"
+          },
+          {
+            "japanese": "お土産のチョコレート、そこです。",
+            "chinese": "伴手禮的巧克力在那裡。"
+          },
+          {
+            "japanese": "田中さんのお土産のチョコレートはこれですか。",
+            "chinese": "田中先生伴手禮的巧克力是這個嗎？"
+          },
+          {
+            "japanese": "お土産のチョコレートはどちらですか。",
+            "chinese": "伴手禮的巧克力在哪一邊？"
+          },
+          {
+            "japanese": "お土産のチョコレートはあれです。",
+            "chinese": "伴手禮的巧克力是那個。"
+          },
+          {
+            "japanese": "すみません、お土産のチョコレートはどれですか。",
+            "chinese": "不好意思，伴手禮的巧克力是哪一個？"
+          },
+          {
+            "japanese": "お土産のチョコレートはここです。",
+            "chinese": "伴手禮的巧克力在這裡。"
+          },
+          {
+            "japanese": "お土産のチョコレートは木村さんのです。",
+            "chinese": "伴手禮的巧克力是木村先生的。"
+          },
+          {
+            "japanese": "このチョコレートはお土産のではありません。",
+            "chinese": "這個巧克力不是伴手禮的。"
+          },
+          {
+            "japanese": "お土産のチョコレートは机の上です。",
+            "chinese": "伴手禮的巧克力在桌上。"
+          },
+          {
+            "japanese": "お土産のチョコレートは王さんのです。",
+            "chinese": "伴手禮的巧克力是王先生的。"
+          },
+          {
+            "japanese": "あ、お土産のチョコレート、ここです。",
+            "chinese": "啊，伴手禮的巧克力在這裡。"
+          },
+          {
+            "japanese": "お土産のチョコレートは誰のですか。",
+            "chinese": "伴手禮的巧克力是誰的？"
+          },
+          {
+            "japanese": "お土産のチョコレートはあそこではありません。",
+            "chinese": "伴手禮的巧克力不在那裡。"
+          },
+          {
+            "japanese": "これはお土産のチョコレートですか。",
+            "chinese": "這是伴手禮的巧克力嗎？"
+          },
+          {
+            "japanese": "お土産のチョコレートは私のです。",
+            "chinese": "伴手禮的巧克力是我的。"
+          },
+          {
+            "japanese": "お土産のチョコレートはこれです。",
+            "chinese": "伴手禮的巧克力是這個。"
+          }
+        ]
+      },
+      {
+        "japanese": "コーヒー",
+        "kanji": null,
+        "chinese": "咖啡",
+        "image": null,
+        "note": null,
+        "kanji_note": null,
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "食堂のコーヒーは受付ではありません。",
+            "chinese": "餐廳的咖啡不在接待處。"
+          },
+          {
+            "japanese": "食堂のコーヒーは先生のです。",
+            "chinese": "餐廳的咖啡是老師的。"
+          },
+          {
+            "japanese": "これは食堂のコーヒーではありません。",
+            "chinese": "這不是餐廳的咖啡。"
+          },
+          {
+            "japanese": "食堂のコーヒーは私のではありません。",
+            "chinese": "餐廳的咖啡不是我的。"
+          },
+          {
+            "japanese": "食堂のコーヒー、そこです。",
+            "chinese": "餐廳的咖啡在那裡。"
+          },
+          {
+            "japanese": "田中さんの食堂のコーヒーはこれですか。",
+            "chinese": "田中先生餐廳的咖啡是這杯嗎？"
+          },
+          {
+            "japanese": "食堂のコーヒーはどちらですか。",
+            "chinese": "餐廳的咖啡在哪一邊？"
+          },
+          {
+            "japanese": "食堂のコーヒーはあれです。",
+            "chinese": "餐廳的咖啡是那杯。"
+          },
+          {
+            "japanese": "すみません、食堂のコーヒーはどれですか。",
+            "chinese": "不好意思，餐廳的咖啡是哪一杯？"
+          },
+          {
+            "japanese": "食堂のコーヒーはここです。",
+            "chinese": "餐廳的咖啡在這裡。"
+          },
+          {
+            "japanese": "食堂のコーヒーは木村さんのです。",
+            "chinese": "餐廳的咖啡是木村先生的。"
+          },
+          {
+            "japanese": "このコーヒーは食堂のではありません。",
+            "chinese": "這杯咖啡不是餐廳的。"
+          },
+          {
+            "japanese": "食堂のコーヒーは机の上です。",
+            "chinese": "餐廳的咖啡在桌上。"
+          },
+          {
+            "japanese": "食堂のコーヒーは王さんのです。",
+            "chinese": "餐廳的咖啡是王先生的。"
+          },
+          {
+            "japanese": "あ、食堂のコーヒー、ここです。",
+            "chinese": "啊，餐廳的咖啡在這裡。"
+          },
+          {
+            "japanese": "食堂のコーヒーは誰のですか。",
+            "chinese": "餐廳的咖啡是誰的？"
+          },
+          {
+            "japanese": "食堂のコーヒーはあそこではありません。",
+            "chinese": "餐廳的咖啡不在那裡。"
+          },
+          {
+            "japanese": "これは食堂のコーヒーですか。",
+            "chinese": "這是餐廳的咖啡嗎？"
+          },
+          {
+            "japanese": "食堂のコーヒーは私のです。",
+            "chinese": "餐廳的咖啡是我的。"
+          },
+          {
+            "japanese": "食堂のコーヒーはこれです。",
+            "chinese": "餐廳的咖啡是這杯。"
+          }
+        ]
+      },
+      {
+        "japanese": "えいご",
+        "kanji": "英語",
+        "chinese": "英語",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「辞」、「雑」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "辞",
+              "zh": "辭",
+              "note": null
+            },
+            {
+              "jp": "雑",
+              "zh": "雜",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "communication_language_study"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "これは英語の本です。",
+            "chinese": "這是英語書。"
+          },
+          {
+            "japanese": "それは英語の辞書です。",
+            "chinese": "那是英語辭典。"
+          },
+          {
+            "japanese": "あれは英語の雑誌ですか。",
+            "chinese": "那是英語雜誌嗎？"
+          },
+          {
+            "japanese": "この本は英語の本です。",
+            "chinese": "這本書是英語書。"
+          },
+          {
+            "japanese": "その辞書は英語ですか。",
+            "chinese": "那本辭典是英語的嗎？"
+          },
+          {
+            "japanese": "あの雑誌は英語の雑誌です。",
+            "chinese": "那本雜誌是英語雜誌。"
+          },
+          {
+            "japanese": "これは英語の新聞です。",
+            "chinese": "這是英語報紙。"
+          },
+          {
+            "japanese": "それは英語のノートです。",
+            "chinese": "那是英語筆記本。"
+          },
+          {
+            "japanese": "あれは英語のカードですか。",
+            "chinese": "那是英語卡片嗎？"
+          },
+          {
+            "japanese": "この名刺は英語です。",
+            "chinese": "這張名片是英語的。"
+          },
+          {
+            "japanese": "その新聞は英語ですか。",
+            "chinese": "那張報紙是英語的嗎？"
+          },
+          {
+            "japanese": "あのノートは英語のノートです。",
+            "chinese": "那本筆記本是英語筆記本。"
+          },
+          {
+            "japanese": "これは英語の先生です。",
+            "chinese": "這是英語老師。"
+          },
+          {
+            "japanese": "それは英語のテープです。",
+            "chinese": "那是英語錄音帶。"
+          },
+          {
+            "japanese": "あれは英語のラジオですか。",
+            "chinese": "那是英語收音機嗎？"
+          },
+          {
+            "japanese": "この手帳は英語ですか。",
+            "chinese": "這本記事本是英語的嗎？"
+          },
+          {
+            "japanese": "その本は英語の本です。",
+            "chinese": "那本書是英語書。"
+          },
+          {
+            "japanese": "あの辞書は英語ですか。",
+            "chinese": "那本辭典是英語的嗎？"
+          },
+          {
+            "japanese": "これは英語のテレビですか。",
+            "chinese": "這是英語電視嗎？"
+          },
+          {
+            "japanese": "それは英語のコンピューターですか。",
+            "chinese": "那是英語電腦嗎？"
+          }
+        ]
+      },
+      {
+        "japanese": "にほんご",
+        "kanji": "日本語",
+        "chinese": "日語",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「辞」、「雑」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "辞",
+              "zh": "辭",
+              "note": null
+            },
+            {
+              "jp": "雑",
+              "zh": "雜",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "communication_language_study"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "これは日本語の本です。",
+            "chinese": "這是日語書。"
+          },
+          {
+            "japanese": "それは日本語の辞書です。",
+            "chinese": "那是日語辭典。"
+          },
+          {
+            "japanese": "あれは日本語の雑誌ですか。",
+            "chinese": "那是日語雜誌嗎？"
+          },
+          {
+            "japanese": "この本は日本語です。",
+            "chinese": "這本書是日語的。"
+          },
+          {
+            "japanese": "その辞書は日本語の辞書です。",
+            "chinese": "那本辭典是日語辭典。"
+          },
+          {
+            "japanese": "あの雑誌は日本語ですか。",
+            "chinese": "那本雜誌是日語的嗎？"
+          },
+          {
+            "japanese": "これは日本語の新聞です。",
+            "chinese": "這是日語報紙。"
+          },
+          {
+            "japanese": "それは日本語のノートです。",
+            "chinese": "那是日語筆記本。"
+          },
+          {
+            "japanese": "あれは日本語のカードですか。",
+            "chinese": "那是日語卡片嗎？"
+          },
+          {
+            "japanese": "この名刺は日本語です。",
+            "chinese": "這張名片是日語的。"
+          },
+          {
+            "japanese": "その新聞は日本語ですか。",
+            "chinese": "那張報紙是日語的嗎？"
+          },
+          {
+            "japanese": "あのノートは日本語のノートです。",
+            "chinese": "那本筆記本是日語筆記本。"
+          },
+          {
+            "japanese": "これは日本語の先生です。",
+            "chinese": "這是日語老師。"
+          },
+          {
+            "japanese": "それは日本語のテープです。",
+            "chinese": "那是日語錄音帶。"
+          },
+          {
+            "japanese": "あれは日本語のラジオですか。",
+            "chinese": "那是日語收音機嗎？"
+          },
+          {
+            "japanese": "この手帳は日本語ですか。",
+            "chinese": "這本記事本是日語的嗎？"
+          },
+          {
+            "japanese": "その本は日本語の本です。",
+            "chinese": "那本書是日語書。"
+          },
+          {
+            "japanese": "あの辞書は日本語ですか。",
+            "chinese": "那本辭典是日語的嗎？"
+          },
+          {
+            "japanese": "これは日本語のテレビですか。",
+            "chinese": "這是日語電視嗎？"
+          },
+          {
+            "japanese": "それは日本語のコンピューターですか。",
+            "chinese": "那是日語電腦嗎？"
+          }
+        ]
+      },
+      {
+        "japanese": "～ご",
+        "kanji": "～語",
+        "chinese": "～語",
+        "image": null,
+        "note": "接在國名後表語言，如「英語」「中国語」",
+        "kanji_note": {
+          "summary": "日語的「国」、「辞」、「雑」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "国",
+              "zh": "國",
+              "note": null
+            },
+            {
+              "jp": "辞",
+              "zh": "辭",
+              "note": null
+            },
+            {
+              "jp": "雑",
+              "zh": "雜",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "communication_language_study"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "これは英語です。",
+            "chinese": "這是英語。"
+          },
+          {
+            "japanese": "それは日本語の本です。",
+            "chinese": "那是日語書。"
+          },
+          {
+            "japanese": "これは日本語の辞書です。",
+            "chinese": "這是日語辭典。"
+          },
+          {
+            "japanese": "それは中国語の本ですか。",
+            "chinese": "那是中文書嗎？"
+          },
+          {
+            "japanese": "あれは韓国語の辞書です。",
+            "chinese": "那是韓語辭典。"
+          },
+          {
+            "japanese": "これはフランス語の本ですか。",
+            "chinese": "這是法語書嗎？"
+          },
+          {
+            "japanese": "それはドイツ語の先生です。",
+            "chinese": "那是德語老師。"
+          },
+          {
+            "japanese": "あれはタイ語の本です。",
+            "chinese": "那是泰語書。"
+          },
+          {
+            "japanese": "これは英語の先生です。",
+            "chinese": "這是英語老師。"
+          },
+          {
+            "japanese": "それは日本語の新聞です。",
+            "chinese": "那是日語報紙。"
+          },
+          {
+            "japanese": "これは中国語の名刺です。",
+            "chinese": "這是中文名片。"
+          },
+          {
+            "japanese": "それは韓国語ですか。",
+            "chinese": "那是韓語嗎？"
+          },
+          {
+            "japanese": "あれはフランス語の雑誌です。",
+            "chinese": "那是法語雜誌。"
+          },
+          {
+            "japanese": "これはドイツ語の辞書です。",
+            "chinese": "這是德語辭典。"
+          },
+          {
+            "japanese": "それはタイ語ですか。",
+            "chinese": "那是泰語嗎？"
+          },
+          {
+            "japanese": "あれは英語のノートです。",
+            "chinese": "那是英語筆記本。"
+          },
+          {
+            "japanese": "これは日本語のカードです。",
+            "chinese": "這是日語卡片。"
+          },
+          {
+            "japanese": "それは中国語の本です。",
+            "chinese": "那是中文書。"
+          },
+          {
+            "japanese": "あれは韓国語の新聞です。",
+            "chinese": "那是韓語報紙。"
+          },
+          {
+            "japanese": "これはフランス語の辞書です。",
+            "chinese": "這是法語辭典。"
+          }
+        ]
+      },
+      {
+        "japanese": "なん",
+        "kanji": "何",
+        "chinese": "什麼",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「辞」、「雑」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "辞",
+              "zh": "辭",
+              "note": null
+            },
+            {
+              "jp": "雑",
+              "zh": "雜",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "function_word"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "これは何ですか。",
+            "chinese": "這是什麼？"
+          },
+          {
+            "japanese": "それは何ですか。",
+            "chinese": "那是什麼？"
+          },
+          {
+            "japanese": "あれは何ですか。",
+            "chinese": "那個是什麼？"
+          },
+          {
+            "japanese": "これは何の本ですか。",
+            "chinese": "這是什麼書？"
+          },
+          {
+            "japanese": "それは何の雑誌ですか。",
+            "chinese": "那是什麼雜誌？"
+          },
+          {
+            "japanese": "あれは何の辞書ですか。",
+            "chinese": "那是什麼辭典？"
+          },
+          {
+            "japanese": "これは何のカードですか。",
+            "chinese": "這是什麼卡片？"
+          },
+          {
+            "japanese": "それは何の名刺ですか。",
+            "chinese": "那是什麼名片？"
+          },
+          {
+            "japanese": "あれは何の新聞ですか。",
+            "chinese": "那是什麼報紙？"
+          },
+          {
+            "japanese": "これは何のノートですか。",
+            "chinese": "這是什麼筆記本？"
+          },
+          {
+            "japanese": "それは何の傘ですか。",
+            "chinese": "那是什麼傘？"
+          },
+          {
+            "japanese": "あれは何のテープですか。",
+            "chinese": "那是什麼錄音帶？"
+          },
+          {
+            "japanese": "これは何のカメラですか。",
+            "chinese": "這是什麼照相機？"
+          },
+          {
+            "japanese": "それは何の自動車ですか。",
+            "chinese": "那是什麼汽車？"
+          },
+          {
+            "japanese": "あれは何のコンピューターですか。",
+            "chinese": "那是什麼電腦？"
+          },
+          {
+            "japanese": "これは何のテレビですか。",
+            "chinese": "這是什麼電視？"
+          },
+          {
+            "japanese": "それは何のラジオですか。",
+            "chinese": "那是什麼收音機？"
+          },
+          {
+            "japanese": "あれは何のチョコレートですか。",
+            "chinese": "那是什麼巧克力？"
+          },
+          {
+            "japanese": "これは何のコーヒーですか。",
+            "chinese": "這是什麼咖啡？"
+          },
+          {
+            "japanese": "それは何のえんぴつですか。",
+            "chinese": "那是什麼鉛筆？"
+          }
+        ]
+      },
+      {
+        "japanese": "そう",
+        "kanji": null,
+        "chinese": "是的（表贊同）",
+        "image": null,
+        "note": "常與「はい」連用成「はい、そうです」",
+        "kanji_note": {
+          "summary": "日語的「会」、「医」、「学」、「辞」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "医",
+              "zh": "醫",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "辞",
+              "zh": "辭",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "greeting_conversational"
+        ],
+        "speech": [
+          "interjection"
+        ],
+        "sentence": [
+          {
+            "japanese": "はい、そうです。",
+            "chinese": "是的，是那樣。"
+          },
+          {
+            "japanese": "そう、これは私の本です。",
+            "chinese": "對，這是我的書。"
+          },
+          {
+            "japanese": "はい、そう。そうです。",
+            "chinese": "是的，對，是那樣。"
+          },
+          {
+            "japanese": "そう、それも私のです。",
+            "chinese": "對，那也是我的。"
+          },
+          {
+            "japanese": "そう、あれは大学です。",
+            "chinese": "對，那是大學。"
+          },
+          {
+            "japanese": "はい、そうです。私は学生です。",
+            "chinese": "是的，我是學生。"
+          },
+          {
+            "japanese": "そう、これは私のかばんです。",
+            "chinese": "對，這是我的書包。"
+          },
+          {
+            "japanese": "はい、そうです。私は医者です。",
+            "chinese": "是的，我是醫生。"
+          },
+          {
+            "japanese": "そう、これは日本語の本です。",
+            "chinese": "對，這是日語書。"
+          },
+          {
+            "japanese": "はい、そうです。木村さんです。",
+            "chinese": "是的，是木村先生。"
+          },
+          {
+            "japanese": "そう、それも王さんのです。",
+            "chinese": "對，那也是王先生的。"
+          },
+          {
+            "japanese": "はい、そうです。私は銀行員です。",
+            "chinese": "是的，我是銀行員。"
+          },
+          {
+            "japanese": "そう、これは私の時計です。",
+            "chinese": "對，這是我的手錶。"
+          },
+          {
+            "japanese": "はい、そうです。あれは大学です。",
+            "chinese": "是的，那是大學。"
+          },
+          {
+            "japanese": "そう、これは私の名刺です。",
+            "chinese": "對，這是我的名片。"
+          },
+          {
+            "japanese": "はい、そうです。私はエンジニアです。",
+            "chinese": "是的，我是工程師。"
+          },
+          {
+            "japanese": "そう、これは英語の辞書です。",
+            "chinese": "對，這是英語辭典。"
+          },
+          {
+            "japanese": "はい、そうです。私は会社員です。",
+            "chinese": "是的，我是公司職員。"
+          },
+          {
+            "japanese": "そう、これは私の車です。",
+            "chinese": "對，這是我的汽車。"
+          },
+          {
+            "japanese": "はい、そうです。私は研究者です。",
+            "chinese": "是的，我是研究人員。"
+          }
+        ]
+      },
+      {
+        "japanese": "ちがいます",
+        "kanji": "違います",
+        "chinese": "不對，不是",
+        "image": null,
+        "note": "多作獨立回應，糾正對方，如「いいえ、違います」",
+        "kanji_note": {
+          "summary": "日語的「会」、「医」、「号」、「学」、「数」、「辞」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "医",
+              "zh": "醫",
+              "note": null
+            },
+            {
+              "jp": "号",
+              "zh": "號",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "数",
+              "zh": "數",
+              "note": null
+            },
+            {
+              "jp": "辞",
+              "zh": "辭",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "greeting_conversational"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_1"
+        ],
+        "sentence": [
+          {
+            "japanese": "いいえ、違います。これは私の本です。",
+            "chinese": "不，不是。這是我的書。"
+          },
+          {
+            "japanese": "それは違います。",
+            "chinese": "那個不對。"
+          },
+          {
+            "japanese": "これも違います。",
+            "chinese": "這個也不對。"
+          },
+          {
+            "japanese": "いいえ、違います。私は学生ではありません。",
+            "chinese": "不，不是。我不是學生。"
+          },
+          {
+            "japanese": "この名前は違います。",
+            "chinese": "這個名字不對。"
+          },
+          {
+            "japanese": "あの答えは違います。",
+            "chinese": "那個答案是錯的。"
+          },
+          {
+            "japanese": "その答えも違います。",
+            "chinese": "那個答案也是錯的。"
+          },
+          {
+            "japanese": "いいえ、違います。これは私の時計ではありません。",
+            "chinese": "不，不是。這不是我的手錶。"
+          },
+          {
+            "japanese": "それも違います。",
+            "chinese": "那個也不對。"
+          },
+          {
+            "japanese": "いいえ、違います。王さんは医者ではありません。",
+            "chinese": "不，不是。王先生不是醫生。"
+          },
+          {
+            "japanese": "この番号は違います。",
+            "chinese": "這個號碼不對。"
+          },
+          {
+            "japanese": "いいえ、違います。先生は銀行員ではありません。",
+            "chinese": "不，不是。老師不是銀行員。"
+          },
+          {
+            "japanese": "あの名前は違います。",
+            "chinese": "那個名字不對。"
+          },
+          {
+            "japanese": "いいえ、違います。これは日本語の本ではありません。",
+            "chinese": "不，不是。這不是日語書。"
+          },
+          {
+            "japanese": "これは違います。",
+            "chinese": "這個不對。"
+          },
+          {
+            "japanese": "いいえ、違います。田中さんは会社員ではありません。",
+            "chinese": "不，不是。田中先生不是公司職員。"
+          },
+          {
+            "japanese": "その数字は違います。",
+            "chinese": "那個數字不對。"
+          },
+          {
+            "japanese": "いいえ、違います。それは私のではありません。",
+            "chinese": "不，不是。那不是我的。"
+          },
+          {
+            "japanese": "あれも違います。",
+            "chinese": "那個也不對。"
+          },
+          {
+            "japanese": "いいえ、違います。これは英語の辞書ではありません。",
+            "chinese": "不，不是。這不是英語辭典。"
+          }
+        ]
+      },
+      {
+        "japanese": "そうですか",
+        "kanji": null,
+        "chinese": "我了解了，是嗎？",
+        "image": null,
+        "note": "回應對方時表示理解或輕微意外",
+        "kanji_note": {
+          "summary": "日語的「変」、「残」、「気」、「礼」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "変",
+              "zh": "變",
+              "note": null
+            },
+            {
+              "jp": "残",
+              "zh": "殘",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "礼",
+              "zh": "禮",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "greeting_conversational"
+        ],
+        "speech": [
+          "set_phrase"
+        ],
+        "sentence": [
+          {
+            "japanese": "そうですか。わかりました。",
+            "chinese": "是這樣啊，我了解了。"
+          },
+          {
+            "japanese": "あ、そうですか。なるほど。",
+            "chinese": "啊，是這樣啊，原來如此。"
+          },
+          {
+            "japanese": "そうですか。それでは、また明日。",
+            "chinese": "是這樣啊，那麼明天見。"
+          },
+          {
+            "japanese": "はい、そうですか。わかりました。",
+            "chinese": "是，是這樣啊，我了解了。"
+          },
+          {
+            "japanese": "そうですか。それは残念です。",
+            "chinese": "是這樣啊，那真可惜。"
+          },
+          {
+            "japanese": "ええ、そうですか。そうですね。",
+            "chinese": "嗯，是這樣啊，說得也是。"
+          },
+          {
+            "japanese": "そうですか。お大事に。",
+            "chinese": "是這樣啊，請多保重。"
+          },
+          {
+            "japanese": "あのう、そうですか。どうも。",
+            "chinese": "不好意思，是這樣啊，謝謝。"
+          },
+          {
+            "japanese": "そうですか。ありがとうございます。",
+            "chinese": "是這樣啊，謝謝你。"
+          },
+          {
+            "japanese": "ふうん、そうですか。",
+            "chinese": "嗯哼，是這樣啊。"
+          },
+          {
+            "japanese": "そうですか。じゃあ、失礼します。",
+            "chinese": "是這樣啊，那麼我先告辭了。"
+          },
+          {
+            "japanese": "はい、そうですか。では、また。",
+            "chinese": "是，是這樣啊，那麼再見。"
+          },
+          {
+            "japanese": "そうですか。今日はいい天気ですね。",
+            "chinese": "是這樣啊，今天天氣真好呢。"
+          },
+          {
+            "japanese": "あ、そうですか。初めてです。",
+            "chinese": "啊，是這樣啊，我第一次知道。"
+          },
+          {
+            "japanese": "そうですか。田中さんもですか。",
+            "chinese": "是這樣啊，田中先生也是嗎？"
+          },
+          {
+            "japanese": "ええと、そうですか。分かりました。",
+            "chinese": "嗯，是這樣啊，我了解了。"
+          },
+          {
+            "japanese": "そうですか。それは大変ですね。",
+            "chinese": "是這樣啊，那真辛苦呢。"
+          },
+          {
+            "japanese": "あのう、そうですか。すみません。",
+            "chinese": "不好意思，是這樣啊，抱歉。"
+          },
+          {
+            "japanese": "そうですか。お先に失礼します。",
+            "chinese": "是這樣啊，我先告辭了。"
+          },
+          {
+            "japanese": "はい、そうですか。また今度。",
+            "chinese": "是，是這樣啊，下次見。"
+          }
+        ]
+      },
+      {
+        "japanese": "あのう",
+        "kanji": null,
+        "chinese": "嗯（用於表示躊躇）",
+        "image": null,
+        "note": "開口前爭取思考時間的發語詞",
+        "kanji_note": {
+          "summary": "日語的「会」、「辞」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "辞",
+              "zh": "辭",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "greeting_conversational"
+        ],
+        "speech": [
+          "interjection"
+        ],
+        "sentence": [
+          {
+            "japanese": "あのう、これはいくらですか。",
+            "chinese": "不好意思，這個多少錢？"
+          },
+          {
+            "japanese": "すみません、あのう、駅はどこですか。",
+            "chinese": "不好意思，請問車站在哪裡？"
+          },
+          {
+            "japanese": "あのう、田中さんですか。",
+            "chinese": "不好意思，您是田中先生嗎？"
+          },
+          {
+            "japanese": "はい、あのう、何ですか。",
+            "chinese": "是，不好意思，有什麼事嗎？"
+          },
+          {
+            "japanese": "あのう、お手洗いはどこですか。",
+            "chinese": "不好意思，洗手間在哪裡？"
+          },
+          {
+            "japanese": "ええと、あのう、この席は空いていますか。",
+            "chinese": "嗯，不好意思，這個位子有人坐嗎？"
+          },
+          {
+            "japanese": "あのう、これ、私のではありません。",
+            "chinese": "不好意思，這個不是我的。"
+          },
+          {
+            "japanese": "あ、あのう、その本は私のです。",
+            "chinese": "啊，不好意思，那本書是我的。"
+          },
+          {
+            "japanese": "あのう、王さんはいらっしゃいますか。",
+            "chinese": "不好意思，王先生在嗎？"
+          },
+          {
+            "japanese": "すみません、あのう、今何時ですか。",
+            "chinese": "不好意思，請問現在幾點？"
+          },
+          {
+            "japanese": "あのう、これは日本語の辞書ですか。",
+            "chinese": "不好意思，這是日語辭典嗎？"
+          },
+          {
+            "japanese": "はい、あのう、山田です。",
+            "chinese": "是，不好意思，我是山田。"
+          },
+          {
+            "japanese": "あのう、あれは会議室ですか。",
+            "chinese": "不好意思，那是會議室嗎？"
+          },
+          {
+            "japanese": "ええと、あのう、受付はどこですか。",
+            "chinese": "嗯，不好意思，接待處在哪裡？"
+          },
+          {
+            "japanese": "あのう、銀行はどこですか。",
+            "chinese": "不好意思，銀行在哪裡？"
+          },
+          {
+            "japanese": "あ、あのう、ちょっとお願いします。",
+            "chinese": "啊，不好意思，麻煩一下。"
+          },
+          {
+            "japanese": "あのう、それは誰の傘ですか。",
+            "chinese": "不好意思，那是誰的傘？"
+          },
+          {
+            "japanese": "すみません、あのう、お名前は何ですか。",
+            "chinese": "不好意思，請問您貴姓？"
+          },
+          {
+            "japanese": "あのう、あちらは食堂ですか。",
+            "chinese": "不好意思，那邊是餐廳嗎？"
+          },
+          {
+            "japanese": "はい、あのう、こちらは私の名刺です。",
+            "chinese": "是，不好意思，這是我的名片。"
+          }
+        ]
+      },
+      {
+        "japanese": "ほんのきもちです",
+        "kanji": "ほんの気持ちです",
+        "chinese": "小意思，只是一點心意",
+        "image": null,
+        "note": "送禮時的自謙說法",
+        "kanji_note": {
+          "summary": "日語「気」→ 繁體「氣」。",
+          "details": [
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "greeting_conversational"
+        ],
+        "speech": [
+          "set_phrase"
+        ],
+        "sentence": [
+          {
+            "japanese": "ほんのきもちです。山田さん。",
+            "chinese": "只是一點心意，山田先生。"
+          },
+          {
+            "japanese": "ほんのきもちです。新聞です。",
+            "chinese": "只是一點心意，是報紙。"
+          },
+          {
+            "japanese": "これはほんのきもちです。えんぴつです。",
+            "chinese": "這只是一點心意，是鉛筆。"
+          },
+          {
+            "japanese": "ほんのきもちです。この時計です。",
+            "chinese": "只是一點心意，是這隻手錶。"
+          },
+          {
+            "japanese": "ほんのきもちです。ボールペンです。",
+            "chinese": "只是一點心意，是原子筆。"
+          },
+          {
+            "japanese": "これはほんのきもちです。お茶です。",
+            "chinese": "這只是一點心意，是茶。"
+          },
+          {
+            "japanese": "ほんのきもちです。このノートです。",
+            "chinese": "只是一點心意，是這本筆記本。"
+          },
+          {
+            "japanese": "ほんのきもちです。カードです。",
+            "chinese": "只是一點心意，是卡片。"
+          },
+          {
+            "japanese": "これはほんのきもちです。王さん。",
+            "chinese": "這只是一點心意，王先生。"
+          },
+          {
+            "japanese": "ほんのきもちです。この傘です。",
+            "chinese": "只是一點心意，是這把傘。"
+          },
+          {
+            "japanese": "ほんのきもちです。えんぴつです。",
+            "chinese": "只是一點心意，是鉛筆。"
+          },
+          {
+            "japanese": "これはほんのきもちです。どうぞ。",
+            "chinese": "這只是一點心意，請收下。"
+          },
+          {
+            "japanese": "ほんのきもちです。名刺です。",
+            "chinese": "只是一點心意，是名片。"
+          },
+          {
+            "japanese": "ほんのきもちです。この本です。",
+            "chinese": "只是一點心意，是這本書。"
+          },
+          {
+            "japanese": "これ、ほんのきもちです。先生。",
+            "chinese": "這個，只是一點心意，老師。"
+          },
+          {
+            "japanese": "これはほんのきもちです。チョコレートです。",
+            "chinese": "這只是一點心意，是巧克力。"
+          },
+          {
+            "japanese": "ほんのきもちです。コーヒーです。",
+            "chinese": "只是一點心意，是咖啡。"
+          },
+          {
+            "japanese": "これ、ほんのきもちです。",
+            "chinese": "這個，只是一點心意。"
+          },
+          {
+            "japanese": "ほんのきもちです。どうぞ。",
+            "chinese": "只是一點心意，請收下。"
+          },
+          {
+            "japanese": "これはほんのきもちです。",
+            "chinese": "這只是一點心意。"
+          }
+        ]
+      },
+      {
+        "japanese": "どうぞ",
+        "kanji": null,
+        "chinese": "請，給你",
+        "image": null,
+        "note": "遞東西或請對方做某事時使用",
+        "kanji_note": null,
+        "tags": [
+          "greeting_conversational"
+        ],
+        "speech": [
+          "interjection"
+        ],
+        "sentence": [
+          {
+            "japanese": "どうぞ、こちらへ。",
+            "chinese": "請往這邊。"
+          },
+          {
+            "japanese": "はい、どうぞ。",
+            "chinese": "是，請。"
+          },
+          {
+            "japanese": "どうぞ、こちらです。",
+            "chinese": "請，這裡。"
+          },
+          {
+            "japanese": "あのう、どうぞ、お先に。",
+            "chinese": "不好意思，請您先。"
+          },
+          {
+            "japanese": "どうぞ、ご自由に。",
+            "chinese": "請自便。"
+          },
+          {
+            "japanese": "すみません、どうぞ、こちらです。",
+            "chinese": "不好意思，請，這裡。"
+          },
+          {
+            "japanese": "どうぞ、中へ。",
+            "chinese": "請進裡面。"
+          },
+          {
+            "japanese": "あ、どうぞ、遠慮なく。",
+            "chinese": "啊，請別客氣。"
+          },
+          {
+            "japanese": "どうぞ、これは私からのプレゼントです。",
+            "chinese": "請收下，這是我送的禮物。"
+          },
+          {
+            "japanese": "はい、どうぞ、こちらへどうぞ。",
+            "chinese": "是，請往這邊。"
+          },
+          {
+            "japanese": "どうぞ、お茶です。",
+            "chinese": "請，這是茶。"
+          },
+          {
+            "japanese": "ええと、どうぞ、この本です。",
+            "chinese": "嗯，請，這本書。"
+          },
+          {
+            "japanese": "どうぞ、お先にどうぞ。",
+            "chinese": "請，您先請。"
+          },
+          {
+            "japanese": "あのう、どうぞ、こちらで。",
+            "chinese": "不好意思，請，在這裡。"
+          },
+          {
+            "japanese": "どうぞ、私の席です。",
+            "chinese": "請，這是我的位子。"
+          },
+          {
+            "japanese": "すみません、どうぞ、お先に。",
+            "chinese": "不好意思，請您先。"
+          },
+          {
+            "japanese": "どうぞ、これでよろしければ。",
+            "chinese": "請，如果這個可以的話。"
+          },
+          {
+            "japanese": "あ、どうぞ、どうぞ。",
+            "chinese": "啊，請請。"
+          },
+          {
+            "japanese": "どうぞ、こちらにお願いします。",
+            "chinese": "請，麻煩這邊。"
+          },
+          {
+            "japanese": "はい、どうぞ、ありがとうございます。",
+            "chinese": "是，請，謝謝你。"
+          }
+        ]
+      },
+      {
+        "japanese": "どうも",
+        "kanji": null,
+        "chinese": "謝了（較隨意的道謝）",
+        "image": null,
+        "note": "「どうもありがとうございます」的口語簡略形",
+        "kanji_note": {
+          "summary": "日語「辞」→ 繁體「辭」。",
+          "details": [
+            {
+              "jp": "辞",
+              "zh": "辭",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "greeting_conversational"
+        ],
+        "speech": [
+          "interjection"
+        ],
+        "sentence": [
+          {
+            "japanese": "どうも。",
+            "chinese": "謝了。"
+          },
+          {
+            "japanese": "あ、どうも。",
+            "chinese": "啊，謝了。"
+          },
+          {
+            "japanese": "どうも、ありがとうございます。",
+            "chinese": "多謝，謝謝你。"
+          },
+          {
+            "japanese": "はい、どうも。",
+            "chinese": "好的，謝了。"
+          },
+          {
+            "japanese": "どうも、どうも。",
+            "chinese": "謝了，謝了。"
+          },
+          {
+            "japanese": "どうもありがとうございます。",
+            "chinese": "非常感謝。"
+          },
+          {
+            "japanese": "あの本、どうも。",
+            "chinese": "那本書，謝了。"
+          },
+          {
+            "japanese": "このカメラ、どうも。",
+            "chinese": "這台照相機，謝了。"
+          },
+          {
+            "japanese": "どうも。これは私の本です。",
+            "chinese": "謝了。這是我的書。"
+          },
+          {
+            "japanese": "コーヒー、どうも。",
+            "chinese": "咖啡，謝了。"
+          },
+          {
+            "japanese": "どうも、チョコレートです。",
+            "chinese": "謝了，是巧克力。"
+          },
+          {
+            "japanese": "この辞書、どうもありがとうございます。",
+            "chinese": "這本辭典，非常感謝。"
+          },
+          {
+            "japanese": "どうも。これは私の名刺です。",
+            "chinese": "謝了。這是我的名片。"
+          },
+          {
+            "japanese": "あ、どうも、それは私のです。",
+            "chinese": "啊，謝了，那是我的。"
+          },
+          {
+            "japanese": "どうも、これです。",
+            "chinese": "謝了，是這個。"
+          },
+          {
+            "japanese": "この傘、どうも。",
+            "chinese": "這把傘，謝了。"
+          },
+          {
+            "japanese": "どうも、王さん。",
+            "chinese": "謝了，王先生。"
+          },
+          {
+            "japanese": "どうも、先生。",
+            "chinese": "謝了，老師。"
+          },
+          {
+            "japanese": "このノート、どうも。",
+            "chinese": "這本筆記本，謝了。"
+          },
+          {
+            "japanese": "どうもありがとう。",
+            "chinese": "非常感謝。"
+          }
+        ]
+      },
+      {
+        "japanese": "ありがとうございます",
+        "kanji": null,
+        "chinese": "（非常）謝謝你",
+        "image": null,
+        "note": "「ありがとう」的禮貌形，口語亦常加「どうも」",
+        "kanji_note": {
+          "summary": "日語的「当」、「辞」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "当",
+              "zh": "當",
+              "note": null
+            },
+            {
+              "jp": "辞",
+              "zh": "辭",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "greeting_conversational"
+        ],
+        "speech": [
+          "set_phrase"
+        ],
+        "sentence": [
+          {
+            "japanese": "ありがとうございます。",
+            "chinese": "謝謝你。"
+          },
+          {
+            "japanese": "どうもありがとうございます。",
+            "chinese": "非常感謝你。"
+          },
+          {
+            "japanese": "本当にありがとうございます。",
+            "chinese": "真的很謝謝你。"
+          },
+          {
+            "japanese": "先生、ありがとうございます。",
+            "chinese": "老師，謝謝你。"
+          },
+          {
+            "japanese": "田中さん、ありがとうございます。",
+            "chinese": "田中先生，謝謝你。"
+          },
+          {
+            "japanese": "この本、ありがとうございます。",
+            "chinese": "這本書，謝謝你。"
+          },
+          {
+            "japanese": "コーヒー、ありがとうございます。",
+            "chinese": "咖啡，謝謝你。"
+          },
+          {
+            "japanese": "チョコレート、ありがとうございます。",
+            "chinese": "巧克力，謝謝你。"
+          },
+          {
+            "japanese": "この辞書、ありがとうございます。",
+            "chinese": "這本辭典，謝謝你。"
+          },
+          {
+            "japanese": "名刺、ありがとうございます。",
+            "chinese": "名片，謝謝你。"
+          },
+          {
+            "japanese": "このカメラ、ありがとうございます。",
+            "chinese": "這台照相機，謝謝你。"
+          },
+          {
+            "japanese": "王さん、ありがとうございます。",
+            "chinese": "王先生，謝謝你。"
+          },
+          {
+            "japanese": "この傘、ありがとうございます。",
+            "chinese": "這把傘，謝謝你。"
+          },
+          {
+            "japanese": "ノート、ありがとうございます。",
+            "chinese": "筆記本，謝謝你。"
+          },
+          {
+            "japanese": "この時計、ありがとうございます。",
+            "chinese": "這隻手錶，謝謝你。"
+          },
+          {
+            "japanese": "先生、本当にありがとうございます。",
+            "chinese": "老師，真的很謝謝你。"
+          },
+          {
+            "japanese": "木村さん、ありがとうございます。",
+            "chinese": "木村先生，謝謝你。"
+          },
+          {
+            "japanese": "このカード、ありがとうございます。",
+            "chinese": "這張卡片，謝謝你。"
+          },
+          {
+            "japanese": "えんぴつ、ありがとうございます。",
+            "chinese": "鉛筆，謝謝你。"
+          },
+          {
+            "japanese": "このテレビ、ありがとうございます。",
+            "chinese": "這台電視，謝謝你。"
+          }
+        ]
+      }
+    ]
+  }
+}

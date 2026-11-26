@@ -1,0 +1,5263 @@
+{
+  "lesson_10": {
+    "vols": [
+      {
+        "japanese": "います",
+        "kanji": null,
+        "chinese": "有，在（生物）",
+        "image": null,
+        "note": "表人或動物等生物的存在，所在用「に」",
+        "kanji_note": {
+          "summary": "日語的「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "action_activity"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_2"
+        ],
+        "sentence": [
+          {
+            "japanese": "公園に子どもがいます。",
+            "chinese": "公園裡有小孩。"
+          },
+          {
+            "japanese": "庭に犬がいます。",
+            "chinese": "院子裡有狗。"
+          },
+          {
+            "japanese": "家に猫がいます。",
+            "chinese": "家裡有貓。"
+          },
+          {
+            "japanese": "田中さんの家に犬がいます。",
+            "chinese": "田中先生家有狗。"
+          },
+          {
+            "japanese": "部屋に妹がいます。",
+            "chinese": "房間裡有妹妹。"
+          },
+          {
+            "japanese": "駅に友達がいます。",
+            "chinese": "車站有朋友。"
+          },
+          {
+            "japanese": "山田さんの店に店員がいます。",
+            "chinese": "山田先生的店裡有店員。"
+          },
+          {
+            "japanese": "木の上に鳥がいます。",
+            "chinese": "樹上有鳥。"
+          },
+          {
+            "japanese": "李さんの家に猫がいます。",
+            "chinese": "李先生家有貓。"
+          },
+          {
+            "japanese": "会社に部長がいます。",
+            "chinese": "公司裡有部長。"
+          },
+          {
+            "japanese": "王さんの家に赤ちゃんがいます。",
+            "chinese": "王先生家有嬰兒。"
+          },
+          {
+            "japanese": "教室に先生がいます。",
+            "chinese": "教室裡有老師。"
+          },
+          {
+            "japanese": "妹の部屋に友達がいます。",
+            "chinese": "妹妹的房間裡有朋友。"
+          },
+          {
+            "japanese": "木村さんの家に犬がいます。",
+            "chinese": "木村先生家有狗。"
+          },
+          {
+            "japanese": "晩ごはんの後で家に家族がいます。",
+            "chinese": "晚餐後家人在家。"
+          },
+          {
+            "japanese": "佐藤さんの家に猫がいます。",
+            "chinese": "佐藤先生家有貓。"
+          },
+          {
+            "japanese": "図書館に学生がいます。",
+            "chinese": "圖書館裡有學生。"
+          },
+          {
+            "japanese": "鈴木さんの店にお客さんがいます。",
+            "chinese": "鈴木先生的店裡有客人。"
+          },
+          {
+            "japanese": "公園の近くに子どもがいます。",
+            "chinese": "公園附近有小孩。"
+          },
+          {
+            "japanese": "父の会社に友達がいます。",
+            "chinese": "爸爸的公司裡有朋友。"
+          }
+        ]
+      },
+      {
+        "japanese": "あります",
+        "kanji": null,
+        "chinese": "有，在（無生物）",
+        "image": null,
+        "note": "表物品或植物等無生物的存在",
+        "kanji_note": {
+          "summary": "日語的「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "絵",
+              "zh": "繪",
+              "note": null
+            },
+            {
+              "jp": "蔵",
+              "zh": "藏",
+              "note": null
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "action_activity"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_1"
+        ],
+        "sentence": [
+          {
+            "japanese": "机の上に本があります。",
+            "chinese": "桌上有一本書。"
+          },
+          {
+            "japanese": "冷蔵庫に卵があります。",
+            "chinese": "冰箱裡有蛋。"
+          },
+          {
+            "japanese": "駅の前に店があります。",
+            "chinese": "車站前有家店。"
+          },
+          {
+            "japanese": "公園に花があります。",
+            "chinese": "公園裡有花。"
+          },
+          {
+            "japanese": "田中さんの家に庭があります。",
+            "chinese": "田中先生家有院子。"
+          },
+          {
+            "japanese": "財布にお金があります。",
+            "chinese": "錢包裡有錢。"
+          },
+          {
+            "japanese": "図書館に本があります。",
+            "chinese": "圖書館裡有書。"
+          },
+          {
+            "japanese": "山田さんの店に商品があります。",
+            "chinese": "山田先生的店裡有商品。"
+          },
+          {
+            "japanese": "部屋にテレビがあります。",
+            "chinese": "房間裡有電視。"
+          },
+          {
+            "japanese": "李さんの家に車があります。",
+            "chinese": "李先生家有車。"
+          },
+          {
+            "japanese": "この町に有名な寺があります。",
+            "chinese": "這城鎮有有名的寺廟。"
+          },
+          {
+            "japanese": "王さんの部屋にパソコンがあります。",
+            "chinese": "王先生的房間裡有電腦。"
+          },
+          {
+            "japanese": "机の中に切符があります。",
+            "chinese": "桌子裡有票。"
+          },
+          {
+            "japanese": "妹の部屋に花があります。",
+            "chinese": "妹妹的房間裡有花。"
+          },
+          {
+            "japanese": "晩ごはんの後で時間があります。",
+            "chinese": "晚餐後有時間。"
+          },
+          {
+            "japanese": "木村さんの会社に食堂があります。",
+            "chinese": "木村先生的公司裡有餐廳。"
+          },
+          {
+            "japanese": "この近くに公園があります。",
+            "chinese": "這附近有公園。"
+          },
+          {
+            "japanese": "佐藤さんの家に絵があります。",
+            "chinese": "佐藤先生家有畫。"
+          },
+          {
+            "japanese": "鈴木さんの店にケーキがあります。",
+            "chinese": "鈴木先生的店裡有蛋糕。"
+          },
+          {
+            "japanese": "父の机に新聞があります。",
+            "chinese": "爸爸的桌上有報紙。"
+          }
+        ]
+      },
+      {
+        "japanese": "いろいろ",
+        "kanji": "いろいろ〔な〕",
+        "chinese": "各式各樣〔的〕",
+        "image": null,
+        "note": "な形容詞，如「いろいろな本」",
+        "kanji_note": {
+          "summary": "日語的「話」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "楽",
+              "zh": "樂",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "話",
+              "zh": "話",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "quality_state_degree"
+        ],
+        "speech": [
+          "na_adjective"
+        ],
+        "sentence": [
+          {
+            "japanese": "いろいろな本を読みます。",
+            "chinese": "看各式各樣的書。"
+          },
+          {
+            "japanese": "この店にはいろいろな物があります。",
+            "chinese": "這家店裡有各式各樣的東西。"
+          },
+          {
+            "japanese": "田中さんはいろいろな料理を作ります。",
+            "chinese": "田中先生做各式各樣的料理。"
+          },
+          {
+            "japanese": "いろいろな花を買います。",
+            "chinese": "買各式各樣的花。"
+          },
+          {
+            "japanese": "山田さんはいろいろな音楽を聞きます。",
+            "chinese": "山田先生聽各式各樣的音樂。"
+          },
+          {
+            "japanese": "いろいろな所へ行きます。",
+            "chinese": "去各式各樣的地方。"
+          },
+          {
+            "japanese": "李さんはいろいろな写真を撮ります。",
+            "chinese": "李先生拍各式各樣的照片。"
+          },
+          {
+            "japanese": "いろいろな食べ物を食べます。",
+            "chinese": "吃各式各樣的食物。"
+          },
+          {
+            "japanese": "王さんはいろいろな質問をします。",
+            "chinese": "王先生問各式各樣的問題。"
+          },
+          {
+            "japanese": "いろいろな色があります。",
+            "chinese": "有各式各樣的顏色。"
+          },
+          {
+            "japanese": "妹はいろいろな歌を歌います。",
+            "chinese": "妹妹唱各式各樣的歌。"
+          },
+          {
+            "japanese": "木村さんはいろいろな人に会います。",
+            "chinese": "木村先生見各式各樣的人。"
+          },
+          {
+            "japanese": "いろいろな服を選びます。",
+            "chinese": "挑各式各樣的衣服。"
+          },
+          {
+            "japanese": "佐藤さんはいろいろな本を読みます。",
+            "chinese": "佐藤先生看各式各樣的書。"
+          },
+          {
+            "japanese": "晩ごはんの後でいろいろな話をします。",
+            "chinese": "晚餐後聊各式各樣的話題。"
+          },
+          {
+            "japanese": "鈴木さんはいろいろな映画を見ます。",
+            "chinese": "鈴木先生看各式各樣的電影。"
+          },
+          {
+            "japanese": "いろいろな果物を買います。",
+            "chinese": "買各式各樣的水果。"
+          },
+          {
+            "japanese": "父はいろいろな所を歩きます。",
+            "chinese": "爸爸走各式各樣的地方。"
+          },
+          {
+            "japanese": "母はいろいろな料理を作ります。",
+            "chinese": "媽媽做各式各樣的料理。"
+          },
+          {
+            "japanese": "弟はいろいろなゲームをします。",
+            "chinese": "弟弟玩各式各樣的遊戲。"
+          }
+        ]
+      },
+      {
+        "japanese": "おとこのひと",
+        "kanji": "男の人",
+        "chinese": "男子，男人",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「紙」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "医",
+              "zh": "醫",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "紙",
+              "zh": "紙",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            },
+            {
+              "jp": "転",
+              "zh": "轉",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "男の人が歩きます。",
+            "chinese": "男人在走路。"
+          },
+          {
+            "japanese": "あの男の人は先生です。",
+            "chinese": "那個男人是老師。"
+          },
+          {
+            "japanese": "男の人が写真を撮ります。",
+            "chinese": "男人在拍照。"
+          },
+          {
+            "japanese": "田中さんは男の人です。",
+            "chinese": "田中先生是男人。"
+          },
+          {
+            "japanese": "男の人が店で買い物をします。",
+            "chinese": "男人在店裡買東西。"
+          },
+          {
+            "japanese": "あの男の人は親切です。",
+            "chinese": "那個男人很親切。"
+          },
+          {
+            "japanese": "男の人が走ります。",
+            "chinese": "男人在跑步。"
+          },
+          {
+            "japanese": "山田さんは男の人です。",
+            "chinese": "山田先生是男人。"
+          },
+          {
+            "japanese": "男の人が本を読みます。",
+            "chinese": "男人在看書。"
+          },
+          {
+            "japanese": "あの男の人は有名です。",
+            "chinese": "那個男人很有名。"
+          },
+          {
+            "japanese": "男の人が車を運転します。",
+            "chinese": "男人在開車。"
+          },
+          {
+            "japanese": "李さんは男の人です。",
+            "chinese": "李先生是男人。"
+          },
+          {
+            "japanese": "男の人が歌います。",
+            "chinese": "男人在唱歌。"
+          },
+          {
+            "japanese": "あの男の人は医者です。",
+            "chinese": "那個男人是醫生。"
+          },
+          {
+            "japanese": "晩ごはんの後で男の人が散歩します。",
+            "chinese": "晚餐後男人在散步。"
+          },
+          {
+            "japanese": "王さんは男の人です。",
+            "chinese": "王先生是男人。"
+          },
+          {
+            "japanese": "男の人が手紙を書きます。",
+            "chinese": "男人在寫信。"
+          },
+          {
+            "japanese": "あの男の人は店員です。",
+            "chinese": "那個男人是店員。"
+          },
+          {
+            "japanese": "男の人が料理をします。",
+            "chinese": "男人在做菜。"
+          },
+          {
+            "japanese": "父は男の人です。",
+            "chinese": "爸爸是男人。"
+          }
+        ]
+      },
+      {
+        "japanese": "おんなのひと",
+        "kanji": "女の人",
+        "chinese": "女子，女人",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「紙」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "医",
+              "zh": "醫",
+              "note": null
+            },
+            {
+              "jp": "奥",
+              "zh": "奧",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "紙",
+              "zh": "紙",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            },
+            {
+              "jp": "転",
+              "zh": "轉",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "女の人が歩きます。",
+            "chinese": "女人在走路。"
+          },
+          {
+            "japanese": "あの女の人は先生です。",
+            "chinese": "那個女人是老師。"
+          },
+          {
+            "japanese": "女の人が写真を撮ります。",
+            "chinese": "女人在拍照。"
+          },
+          {
+            "japanese": "母は女の人です。",
+            "chinese": "媽媽是女人。"
+          },
+          {
+            "japanese": "女の人が店で買い物をします。",
+            "chinese": "女人在店裡買東西。"
+          },
+          {
+            "japanese": "あの女の人は親切です。",
+            "chinese": "那個女人很親切。"
+          },
+          {
+            "japanese": "女の人が走ります。",
+            "chinese": "女人在跑步。"
+          },
+          {
+            "japanese": "山田さんの奥さんは女の人です。",
+            "chinese": "山田先生的太太是女人。"
+          },
+          {
+            "japanese": "女の人が本を読みます。",
+            "chinese": "女人在看書。"
+          },
+          {
+            "japanese": "あの女の人は有名です。",
+            "chinese": "那個女人很有名。"
+          },
+          {
+            "japanese": "女の人が車を運転します。",
+            "chinese": "女人在開車。"
+          },
+          {
+            "japanese": "李さんの妻は女の人です。",
+            "chinese": "李先生的太太是女人。"
+          },
+          {
+            "japanese": "女の人が歌います。",
+            "chinese": "女人在唱歌。"
+          },
+          {
+            "japanese": "あの女の人は医者です。",
+            "chinese": "那個女人是醫生。"
+          },
+          {
+            "japanese": "晩ごはんの後で女の人が散歩します。",
+            "chinese": "晚餐後女人在散步。"
+          },
+          {
+            "japanese": "王さんの妻は女の人です。",
+            "chinese": "王先生的太太是女人。"
+          },
+          {
+            "japanese": "女の人が手紙を書きます。",
+            "chinese": "女人在寫信。"
+          },
+          {
+            "japanese": "あの女の人は店員です。",
+            "chinese": "那個女人是店員。"
+          },
+          {
+            "japanese": "女の人が料理をします。",
+            "chinese": "女人在做菜。"
+          },
+          {
+            "japanese": "姉は女の人です。",
+            "chinese": "姊姊是女人。"
+          }
+        ]
+      },
+      {
+        "japanese": "おとこのこ",
+        "kanji": "男の子",
+        "chinese": "男孩",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "絵",
+              "zh": "繪",
+              "note": null
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            },
+            {
+              "jp": "静",
+              "zh": "靜",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "男の子が公園で遊びます。",
+            "chinese": "男孩在公園玩。"
+          },
+          {
+            "japanese": "この男の子は元気です。",
+            "chinese": "這男孩很有精神。"
+          },
+          {
+            "japanese": "男の子が走ります。",
+            "chinese": "男孩在跑步。"
+          },
+          {
+            "japanese": "田中さんの子どもは男の子です。",
+            "chinese": "田中先生的小孩是男孩。"
+          },
+          {
+            "japanese": "男の子がサッカーをします。",
+            "chinese": "男孩在踢足球。"
+          },
+          {
+            "japanese": "この男の子はかわいいです。",
+            "chinese": "這男孩很可愛。"
+          },
+          {
+            "japanese": "男の子が本を読みます。",
+            "chinese": "男孩在看書。"
+          },
+          {
+            "japanese": "山田さんの子どもは男の子です。",
+            "chinese": "山田先生的小孩是男孩。"
+          },
+          {
+            "japanese": "男の子が歌います。",
+            "chinese": "男孩在唱歌。"
+          },
+          {
+            "japanese": "この男の子は静かです。",
+            "chinese": "這男孩很安靜。"
+          },
+          {
+            "japanese": "男の子が野球をします。",
+            "chinese": "男孩在打棒球。"
+          },
+          {
+            "japanese": "李さんの子どもは男の子です。",
+            "chinese": "李先生的小孩是男孩。"
+          },
+          {
+            "japanese": "男の子が絵を描きます。",
+            "chinese": "男孩在畫畫。"
+          },
+          {
+            "japanese": "この男の子は大きいです。",
+            "chinese": "這男孩很大。"
+          },
+          {
+            "japanese": "晩ごはんの後で男の子が宿題をします。",
+            "chinese": "晚餐後男孩做功課。"
+          },
+          {
+            "japanese": "王さんの子どもは男の子です。",
+            "chinese": "王先生的小孩是男孩。"
+          },
+          {
+            "japanese": "男の子が水を飲みます。",
+            "chinese": "男孩在喝水。"
+          },
+          {
+            "japanese": "この男の子は泣きます。",
+            "chinese": "這男孩在哭。"
+          },
+          {
+            "japanese": "男の子が笑います。",
+            "chinese": "男孩在笑。"
+          },
+          {
+            "japanese": "弟は男の子です。",
+            "chinese": "弟弟是男孩。"
+          }
+        ]
+      },
+      {
+        "japanese": "おんなのこ",
+        "kanji": "女の子",
+        "chinese": "女孩",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "弾",
+              "zh": "彈",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "絵",
+              "zh": "繪",
+              "note": null
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            },
+            {
+              "jp": "静",
+              "zh": "靜",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "女の子が公園で遊びます。",
+            "chinese": "女孩在公園玩。"
+          },
+          {
+            "japanese": "この女の子は元気です。",
+            "chinese": "這女孩很有精神。"
+          },
+          {
+            "japanese": "女の子が走ります。",
+            "chinese": "女孩在跑步。"
+          },
+          {
+            "japanese": "田中さんの子どもは女の子です。",
+            "chinese": "田中先生的小孩是女孩。"
+          },
+          {
+            "japanese": "女の子がダンスをします。",
+            "chinese": "女孩在跳舞。"
+          },
+          {
+            "japanese": "この女の子はかわいいです。",
+            "chinese": "這女孩很可愛。"
+          },
+          {
+            "japanese": "女の子が本を読みます。",
+            "chinese": "女孩在看書。"
+          },
+          {
+            "japanese": "山田さんの子どもは女の子です。",
+            "chinese": "山田先生的小孩是女孩。"
+          },
+          {
+            "japanese": "女の子が歌います。",
+            "chinese": "女孩在唱歌。"
+          },
+          {
+            "japanese": "この女の子は静かです。",
+            "chinese": "這女孩很安靜。"
+          },
+          {
+            "japanese": "女の子が絵を描きます。",
+            "chinese": "女孩在畫畫。"
+          },
+          {
+            "japanese": "李さんの子どもは女の子です。",
+            "chinese": "李先生的小孩是女孩。"
+          },
+          {
+            "japanese": "女の子がピアノを弾きます。",
+            "chinese": "女孩在彈鋼琴。"
+          },
+          {
+            "japanese": "この女の子は小さいです。",
+            "chinese": "這女孩很小。"
+          },
+          {
+            "japanese": "晩ごはんの後で女の子が宿題をします。",
+            "chinese": "晚餐後女孩做功課。"
+          },
+          {
+            "japanese": "王さんの子どもは女の子です。",
+            "chinese": "王先生的小孩是女孩。"
+          },
+          {
+            "japanese": "女の子が水を飲みます。",
+            "chinese": "女孩在喝水。"
+          },
+          {
+            "japanese": "この女の子は泣きます。",
+            "chinese": "這女孩在哭。"
+          },
+          {
+            "japanese": "女の子が笑います。",
+            "chinese": "女孩在笑。"
+          },
+          {
+            "japanese": "妹は女の子です。",
+            "chinese": "妹妹是女孩。"
+          }
+        ]
+      },
+      {
+        "japanese": "いぬ",
+        "kanji": "犬",
+        "chinese": "狗",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "寝",
+              "zh": "寢",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "静",
+              "zh": "靜",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "黒",
+              "zh": "黑",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "nature"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "犬が庭で遊びます。",
+            "chinese": "狗在院子玩。"
+          },
+          {
+            "japanese": "この犬は大きいです。",
+            "chinese": "這狗很大。"
+          },
+          {
+            "japanese": "犬に餌をあげます。",
+            "chinese": "餵狗。"
+          },
+          {
+            "japanese": "田中さんの犬は白いです。",
+            "chinese": "田中先生的狗是白色的。"
+          },
+          {
+            "japanese": "犬が走ります。",
+            "chinese": "狗在跑。"
+          },
+          {
+            "japanese": "この犬はかわいいです。",
+            "chinese": "這狗很可愛。"
+          },
+          {
+            "japanese": "犬と散歩します。",
+            "chinese": "和狗散步。"
+          },
+          {
+            "japanese": "山田さんの犬は黒いです。",
+            "chinese": "山田先生的狗是黑色的。"
+          },
+          {
+            "japanese": "犬が寝ます。",
+            "chinese": "狗在睡覺。"
+          },
+          {
+            "japanese": "この犬は静かです。",
+            "chinese": "這狗很安靜。"
+          },
+          {
+            "japanese": "犬の写真を撮ります。",
+            "chinese": "拍狗的照片。"
+          },
+          {
+            "japanese": "李さんの犬は元気です。",
+            "chinese": "李先生的狗很有精神。"
+          },
+          {
+            "japanese": "犬がごはんを食べます。",
+            "chinese": "狗在吃飯。"
+          },
+          {
+            "japanese": "この犬は有名です。",
+            "chinese": "這狗很有名。"
+          },
+          {
+            "japanese": "晩ごはんの後で犬と散歩します。",
+            "chinese": "晚餐後和狗散步。"
+          },
+          {
+            "japanese": "王さんの犬は大きいです。",
+            "chinese": "王先生的狗很大。"
+          },
+          {
+            "japanese": "犬が水を飲みます。",
+            "chinese": "狗在喝水。"
+          },
+          {
+            "japanese": "この犬は寝ます。",
+            "chinese": "這狗在睡覺。"
+          },
+          {
+            "japanese": "犬と遊びます。",
+            "chinese": "和狗玩。"
+          },
+          {
+            "japanese": "父の犬は白いです。",
+            "chinese": "爸爸的狗是白色的。"
+          }
+        ]
+      },
+      {
+        "japanese": "ねこ",
+        "kanji": "猫",
+        "chinese": "貓",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "寝",
+              "zh": "寢",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "静",
+              "zh": "靜",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "黒",
+              "zh": "黑",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "nature"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "猫が庭で寝ます。",
+            "chinese": "貓在院子睡覺。"
+          },
+          {
+            "japanese": "この猫は小さいです。",
+            "chinese": "這貓很小。"
+          },
+          {
+            "japanese": "猫に餌をあげます。",
+            "chinese": "餵貓。"
+          },
+          {
+            "japanese": "田中さんの猫は黒いです。",
+            "chinese": "田中先生的貓是黑色的。"
+          },
+          {
+            "japanese": "猫が走ります。",
+            "chinese": "貓在跑。"
+          },
+          {
+            "japanese": "この猫はかわいいです。",
+            "chinese": "這貓很可愛。"
+          },
+          {
+            "japanese": "猫と遊びます。",
+            "chinese": "和貓玩。"
+          },
+          {
+            "japanese": "山田さんの猫は白いです。",
+            "chinese": "山田先生的貓是白色的。"
+          },
+          {
+            "japanese": "猫が鳴きます。",
+            "chinese": "貓在叫。"
+          },
+          {
+            "japanese": "この猫は静かです。",
+            "chinese": "這貓很安靜。"
+          },
+          {
+            "japanese": "猫の写真を撮ります。",
+            "chinese": "拍貓的照片。"
+          },
+          {
+            "japanese": "李さんの猫は元気です。",
+            "chinese": "李先生的貓很有精神。"
+          },
+          {
+            "japanese": "猫がごはんを食べます。",
+            "chinese": "貓在吃飯。"
+          },
+          {
+            "japanese": "この猫は有名です。",
+            "chinese": "這貓很有名。"
+          },
+          {
+            "japanese": "晩ごはんの後で猫と遊びます。",
+            "chinese": "晚餐後和貓玩。"
+          },
+          {
+            "japanese": "王さんの猫は大きいです。",
+            "chinese": "王先生的貓很大。"
+          },
+          {
+            "japanese": "猫が水を飲みます。",
+            "chinese": "貓在喝水。"
+          },
+          {
+            "japanese": "この猫は寝ます。",
+            "chinese": "這貓在睡覺。"
+          },
+          {
+            "japanese": "猫を飼います。",
+            "chinese": "養貓。"
+          },
+          {
+            "japanese": "母の猫は黒いです。",
+            "chinese": "媽媽的貓是黑色的。"
+          }
+        ]
+      },
+      {
+        "japanese": "き",
+        "kanji": "木",
+        "chinese": "樹，木頭",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「写」、「晩」、「読」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "nature"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "木が庭にあります。",
+            "chinese": "院子裡有樹。"
+          },
+          {
+            "japanese": "この木は大きいです。",
+            "chinese": "這樹很大。"
+          },
+          {
+            "japanese": "木に水をやります。",
+            "chinese": "給樹澆水。"
+          },
+          {
+            "japanese": "田中さんの庭に木があります。",
+            "chinese": "田中先生的院子裡有樹。"
+          },
+          {
+            "japanese": "木の下で休みます。",
+            "chinese": "在樹下休息。"
+          },
+          {
+            "japanese": "この木は古いです。",
+            "chinese": "這樹很老。"
+          },
+          {
+            "japanese": "木を植えます。",
+            "chinese": "種樹。"
+          },
+          {
+            "japanese": "山田さんの庭に木があります。",
+            "chinese": "山田先生的院子裡有樹。"
+          },
+          {
+            "japanese": "木の写真を撮ります。",
+            "chinese": "拍樹的照片。"
+          },
+          {
+            "japanese": "この木は高いです。",
+            "chinese": "這樹很高。"
+          },
+          {
+            "japanese": "木の上に鳥がいます。",
+            "chinese": "樹上有鳥。"
+          },
+          {
+            "japanese": "李さんの庭に木があります。",
+            "chinese": "李先生的院子裡有樹。"
+          },
+          {
+            "japanese": "木が倒れます。",
+            "chinese": "樹倒了。"
+          },
+          {
+            "japanese": "この木は有名です。",
+            "chinese": "這樹很有名。"
+          },
+          {
+            "japanese": "晩ごはんの後で木の写真を見ます。",
+            "chinese": "晚餐後看樹的照片。"
+          },
+          {
+            "japanese": "王さんの庭に木があります。",
+            "chinese": "王先生的院子裡有樹。"
+          },
+          {
+            "japanese": "木を切ります。",
+            "chinese": "砍樹。"
+          },
+          {
+            "japanese": "この木は丈夫です。",
+            "chinese": "這樹很結實。"
+          },
+          {
+            "japanese": "木の下で本を読みます。",
+            "chinese": "在樹下看書。"
+          },
+          {
+            "japanese": "父の庭に木があります。",
+            "chinese": "爸爸的院子裡有樹。"
+          }
+        ]
+      },
+      {
+        "japanese": "もの",
+        "kanji": "物",
+        "chinese": "物品，東西",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「写」、「晩」、「気」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "この物は何ですか。",
+            "chinese": "這東西是什麼？"
+          },
+          {
+            "japanese": "物を買います。",
+            "chinese": "買東西。"
+          },
+          {
+            "japanese": "この物は高いです。",
+            "chinese": "這東西很貴。"
+          },
+          {
+            "japanese": "田中さんは物を送ります。",
+            "chinese": "田中先生寄東西。"
+          },
+          {
+            "japanese": "この物は便利です。",
+            "chinese": "這東西很方便。"
+          },
+          {
+            "japanese": "山田さんの店には物がたくさんあります。",
+            "chinese": "山田先生的店裡有很多東西。"
+          },
+          {
+            "japanese": "物を片付けます。",
+            "chinese": "收拾東西。"
+          },
+          {
+            "japanese": "李さんは物を探します。",
+            "chinese": "李先生找東西。"
+          },
+          {
+            "japanese": "この物は大切です。",
+            "chinese": "這東西很重要。"
+          },
+          {
+            "japanese": "王さんは物を買います。",
+            "chinese": "王先生買東西。"
+          },
+          {
+            "japanese": "物の写真を撮ります。",
+            "chinese": "拍東西的照片。"
+          },
+          {
+            "japanese": "妹は物をなくします。",
+            "chinese": "妹妹弄丟東西。"
+          },
+          {
+            "japanese": "この物は安いです。",
+            "chinese": "這東西很便宜。"
+          },
+          {
+            "japanese": "木村さんは物を送ります。",
+            "chinese": "木村先生寄東西。"
+          },
+          {
+            "japanese": "晩ごはんの後で物を片付けます。",
+            "chinese": "晚餐後收拾東西。"
+          },
+          {
+            "japanese": "佐藤さんは物を探します。",
+            "chinese": "佐藤先生找東西。"
+          },
+          {
+            "japanese": "この物は人気です。",
+            "chinese": "這東西很受歡迎。"
+          },
+          {
+            "japanese": "鈴木さんは物を買います。",
+            "chinese": "鈴木先生買東西。"
+          },
+          {
+            "japanese": "物は箱に置きます。",
+            "chinese": "東西放在箱子裡。"
+          },
+          {
+            "japanese": "父は物を運びます。",
+            "chinese": "爸爸搬東西。"
+          }
+        ]
+      },
+      {
+        "japanese": "フィルム",
+        "kanji": null,
+        "chinese": "底片，膠卷",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「写」、「晩」、「気」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "フィルムを買います。",
+            "chinese": "買底片。"
+          },
+          {
+            "japanese": "このフィルムは古いです。",
+            "chinese": "這底片很舊。"
+          },
+          {
+            "japanese": "フィルムで写真を撮ります。",
+            "chinese": "用底片拍照。"
+          },
+          {
+            "japanese": "フィルムをカメラに入れます。",
+            "chinese": "把底片裝進相機。"
+          },
+          {
+            "japanese": "田中さんはフィルムを買います。",
+            "chinese": "田中先生買底片。"
+          },
+          {
+            "japanese": "このフィルムは高いです。",
+            "chinese": "這底片很貴。"
+          },
+          {
+            "japanese": "フィルムを現像します。",
+            "chinese": "沖洗底片。"
+          },
+          {
+            "japanese": "山田さんはフィルムを使います。",
+            "chinese": "山田先生用底片。"
+          },
+          {
+            "japanese": "このフィルムは便利です。",
+            "chinese": "這底片很方便。"
+          },
+          {
+            "japanese": "李さんはフィルムを買います。",
+            "chinese": "李先生買底片。"
+          },
+          {
+            "japanese": "フィルムの写真を撮ります。",
+            "chinese": "拍底片的照片。"
+          },
+          {
+            "japanese": "王さんはフィルムを現像します。",
+            "chinese": "王先生沖洗底片。"
+          },
+          {
+            "japanese": "このフィルムは人気です。",
+            "chinese": "這底片很受歡迎。"
+          },
+          {
+            "japanese": "妹はフィルムを使います。",
+            "chinese": "妹妹用底片。"
+          },
+          {
+            "japanese": "晩ごはんの後でフィルムを現像します。",
+            "chinese": "晚餐後沖洗底片。"
+          },
+          {
+            "japanese": "木村さんはフィルムを買います。",
+            "chinese": "木村先生買底片。"
+          },
+          {
+            "japanese": "このフィルムは安いです。",
+            "chinese": "這底片很便宜。"
+          },
+          {
+            "japanese": "佐藤さんはフィルムを使います。",
+            "chinese": "佐藤先生用底片。"
+          },
+          {
+            "japanese": "フィルムは机に置きます。",
+            "chinese": "底片放在桌上。"
+          },
+          {
+            "japanese": "父はフィルムを買います。",
+            "chinese": "爸爸買底片。"
+          }
+        ]
+      },
+      {
+        "japanese": "でんち",
+        "kanji": "電池",
+        "chinese": "電池",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「写」、「晩」、「気」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "電池を買います。",
+            "chinese": "買電池。"
+          },
+          {
+            "japanese": "この電池は新しいです。",
+            "chinese": "這電池是新的。"
+          },
+          {
+            "japanese": "電池を入れます。",
+            "chinese": "裝電池。"
+          },
+          {
+            "japanese": "電池が切れます。",
+            "chinese": "電池沒電。"
+          },
+          {
+            "japanese": "田中さんは電池を買います。",
+            "chinese": "田中先生買電池。"
+          },
+          {
+            "japanese": "この電池は高いです。",
+            "chinese": "這電池很貴。"
+          },
+          {
+            "japanese": "電池を交換します。",
+            "chinese": "換電池。"
+          },
+          {
+            "japanese": "山田さんは電池を入れます。",
+            "chinese": "山田先生裝電池。"
+          },
+          {
+            "japanese": "この電池は便利です。",
+            "chinese": "這電池很方便。"
+          },
+          {
+            "japanese": "李さんは電池を買います。",
+            "chinese": "李先生買電池。"
+          },
+          {
+            "japanese": "電池の写真を撮ります。",
+            "chinese": "拍電池的照片。"
+          },
+          {
+            "japanese": "王さんは電池を交換します。",
+            "chinese": "王先生換電池。"
+          },
+          {
+            "japanese": "この電池は人気です。",
+            "chinese": "這電池很受歡迎。"
+          },
+          {
+            "japanese": "妹は電池を使います。",
+            "chinese": "妹妹用電池。"
+          },
+          {
+            "japanese": "晩ごはんの後で電池を交換します。",
+            "chinese": "晚餐後換電池。"
+          },
+          {
+            "japanese": "木村さんは電池を買います。",
+            "chinese": "木村先生買電池。"
+          },
+          {
+            "japanese": "この電池は安いです。",
+            "chinese": "這電池很便宜。"
+          },
+          {
+            "japanese": "佐藤さんは電池を入れます。",
+            "chinese": "佐藤先生裝電池。"
+          },
+          {
+            "japanese": "電池は箱に置きます。",
+            "chinese": "電池放在箱子裡。"
+          },
+          {
+            "japanese": "父は電池を買います。",
+            "chinese": "爸爸買電池。"
+          }
+        ]
+      },
+      {
+        "japanese": "はこ",
+        "kanji": "箱",
+        "chinese": "盒子，箱子",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「写」、「晩」、「軽」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "軽",
+              "zh": "輕",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "箱を開けます。",
+            "chinese": "開箱子。"
+          },
+          {
+            "japanese": "この箱は大きいです。",
+            "chinese": "這箱子很大。"
+          },
+          {
+            "japanese": "箱に物を入れます。",
+            "chinese": "把東西放進箱子。"
+          },
+          {
+            "japanese": "箱を運びます。",
+            "chinese": "搬箱子。"
+          },
+          {
+            "japanese": "田中さんは箱を買います。",
+            "chinese": "田中先生買箱子。"
+          },
+          {
+            "japanese": "この箱は小さいです。",
+            "chinese": "這箱子很小。"
+          },
+          {
+            "japanese": "箱を閉めます。",
+            "chinese": "關箱子。"
+          },
+          {
+            "japanese": "山田さんは箱を送ります。",
+            "chinese": "山田先生寄箱子。"
+          },
+          {
+            "japanese": "この箱は丈夫です。",
+            "chinese": "這箱子很結實。"
+          },
+          {
+            "japanese": "李さんは箱を開けます。",
+            "chinese": "李先生開箱子。"
+          },
+          {
+            "japanese": "箱の写真を撮ります。",
+            "chinese": "拍箱子的照片。"
+          },
+          {
+            "japanese": "王さんは箱を運びます。",
+            "chinese": "王先生搬箱子。"
+          },
+          {
+            "japanese": "この箱は安いです。",
+            "chinese": "這箱子很便宜。"
+          },
+          {
+            "japanese": "妹は箱を作ります。",
+            "chinese": "妹妹做箱子。"
+          },
+          {
+            "japanese": "晩ごはんの後で箱を片付けます。",
+            "chinese": "晚餐後收拾箱子。"
+          },
+          {
+            "japanese": "木村さんは箱を買います。",
+            "chinese": "木村先生買箱子。"
+          },
+          {
+            "japanese": "この箱は軽いです。",
+            "chinese": "這箱子很輕。"
+          },
+          {
+            "japanese": "佐藤さんは箱を送ります。",
+            "chinese": "佐藤先生寄箱子。"
+          },
+          {
+            "japanese": "箱は棚に置きます。",
+            "chinese": "箱子放在架上。"
+          },
+          {
+            "japanese": "父は箱を運びます。",
+            "chinese": "爸爸搬箱子。"
+          }
+        ]
+      },
+      {
+        "japanese": "スイッチ",
+        "kanji": null,
+        "chinese": "開關",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「写」、「壊」、「晩」、「気」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "壊",
+              "zh": "壞",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "スイッチを入れます。",
+            "chinese": "開開關。"
+          },
+          {
+            "japanese": "このスイッチは便利です。",
+            "chinese": "這開關很方便。"
+          },
+          {
+            "japanese": "スイッチを切ります。",
+            "chinese": "關開關。"
+          },
+          {
+            "japanese": "スイッチが壊れます。",
+            "chinese": "開關壞了。"
+          },
+          {
+            "japanese": "田中さんはスイッチを入れます。",
+            "chinese": "田中先生開開關。"
+          },
+          {
+            "japanese": "このスイッチは新しいです。",
+            "chinese": "這開關是新的。"
+          },
+          {
+            "japanese": "スイッチを押します。",
+            "chinese": "按開關。"
+          },
+          {
+            "japanese": "山田さんはスイッチを切ります。",
+            "chinese": "山田先生關開關。"
+          },
+          {
+            "japanese": "このスイッチは高いです。",
+            "chinese": "這開關很貴。"
+          },
+          {
+            "japanese": "李さんはスイッチを押します。",
+            "chinese": "李先生按開關。"
+          },
+          {
+            "japanese": "スイッチの写真を撮ります。",
+            "chinese": "拍開關的照片。"
+          },
+          {
+            "japanese": "王さんはスイッチを入れます。",
+            "chinese": "王先生開開關。"
+          },
+          {
+            "japanese": "このスイッチは人気です。",
+            "chinese": "這開關很受歡迎。"
+          },
+          {
+            "japanese": "妹はスイッチを切ります。",
+            "chinese": "妹妹關開關。"
+          },
+          {
+            "japanese": "晩ごはんの後でスイッチを切ります。",
+            "chinese": "晚餐後關開關。"
+          },
+          {
+            "japanese": "木村さんはスイッチを押します。",
+            "chinese": "木村先生按開關。"
+          },
+          {
+            "japanese": "このスイッチは安いです。",
+            "chinese": "這開關很便宜。"
+          },
+          {
+            "japanese": "佐藤さんはスイッチを入れます。",
+            "chinese": "佐藤先生開開關。"
+          },
+          {
+            "japanese": "スイッチは壁にあります。",
+            "chinese": "開關在牆上。"
+          },
+          {
+            "japanese": "父はスイッチを切ります。",
+            "chinese": "爸爸關開關。"
+          }
+        ]
+      },
+      {
+        "japanese": "れいぞうこ",
+        "kanji": "冷蔵庫",
+        "chinese": "冰箱",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "蔵",
+              "zh": "藏",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "冷蔵庫に卵があります。",
+            "chinese": "冰箱裡有蛋。"
+          },
+          {
+            "japanese": "この冷蔵庫は大きいです。",
+            "chinese": "這冰箱很大。"
+          },
+          {
+            "japanese": "冷蔵庫を開けます。",
+            "chinese": "開冰箱。"
+          },
+          {
+            "japanese": "冷蔵庫に牛乳があります。",
+            "chinese": "冰箱裡有牛奶。"
+          },
+          {
+            "japanese": "田中さんの冷蔵庫は新しいです。",
+            "chinese": "田中先生的冰箱是新的。"
+          },
+          {
+            "japanese": "冷蔵庫を買います。",
+            "chinese": "買冰箱。"
+          },
+          {
+            "japanese": "冷蔵庫に野菜があります。",
+            "chinese": "冰箱裡有蔬菜。"
+          },
+          {
+            "japanese": "山田さんの冷蔵庫は小さいです。",
+            "chinese": "山田先生的冰箱很小。"
+          },
+          {
+            "japanese": "冷蔵庫を閉めます。",
+            "chinese": "關冰箱。"
+          },
+          {
+            "japanese": "李さんは冷蔵庫を買います。",
+            "chinese": "李先生買冰箱。"
+          },
+          {
+            "japanese": "冷蔵庫の写真を撮ります。",
+            "chinese": "拍冰箱的照片。"
+          },
+          {
+            "japanese": "王さんの冷蔵庫は便利です。",
+            "chinese": "王先生的冰箱很方便。"
+          },
+          {
+            "japanese": "冷蔵庫に飲み物があります。",
+            "chinese": "冰箱裡有飲料。"
+          },
+          {
+            "japanese": "妹は冷蔵庫を開けます。",
+            "chinese": "妹妹開冰箱。"
+          },
+          {
+            "japanese": "晩ごはんの後で冷蔵庫を片付けます。",
+            "chinese": "晚餐後整理冰箱。"
+          },
+          {
+            "japanese": "木村さんの冷蔵庫は古いです。",
+            "chinese": "木村先生的冰箱很舊。"
+          },
+          {
+            "japanese": "冷蔵庫に果物があります。",
+            "chinese": "冰箱裡有水果。"
+          },
+          {
+            "japanese": "佐藤さんは冷蔵庫を買います。",
+            "chinese": "佐藤先生買冰箱。"
+          },
+          {
+            "japanese": "冷蔵庫は台所に置きます。",
+            "chinese": "冰箱放在廚房。"
+          },
+          {
+            "japanese": "父は冷蔵庫を閉めます。",
+            "chinese": "爸爸關冰箱。"
+          }
+        ]
+      },
+      {
+        "japanese": "テーブル",
+        "kanji": null,
+        "chinese": "餐桌",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「写」、「晩」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "テーブルに本があります。",
+            "chinese": "桌上有書。"
+          },
+          {
+            "japanese": "このテーブルは大きいです。",
+            "chinese": "這餐桌很大。"
+          },
+          {
+            "japanese": "テーブルを拭きます。",
+            "chinese": "擦餐桌。"
+          },
+          {
+            "japanese": "テーブルでごはんを食べます。",
+            "chinese": "在餐桌吃飯。"
+          },
+          {
+            "japanese": "田中さんのテーブルは新しいです。",
+            "chinese": "田中先生的餐桌是新的。"
+          },
+          {
+            "japanese": "テーブルを買います。",
+            "chinese": "買餐桌。"
+          },
+          {
+            "japanese": "テーブルに花があります。",
+            "chinese": "桌上有花。"
+          },
+          {
+            "japanese": "山田さんのテーブルは小さいです。",
+            "chinese": "山田先生的餐桌很小。"
+          },
+          {
+            "japanese": "テーブルを片付けます。",
+            "chinese": "收拾餐桌。"
+          },
+          {
+            "japanese": "李さんはテーブルを買います。",
+            "chinese": "李先生買餐桌。"
+          },
+          {
+            "japanese": "テーブルの写真を撮ります。",
+            "chinese": "拍餐桌的照片。"
+          },
+          {
+            "japanese": "王さんのテーブルは丈夫です。",
+            "chinese": "王先生的餐桌很結實。"
+          },
+          {
+            "japanese": "テーブルで勉強します。",
+            "chinese": "在餐桌唸書。"
+          },
+          {
+            "japanese": "妹はテーブルを拭きます。",
+            "chinese": "妹妹擦餐桌。"
+          },
+          {
+            "japanese": "晩ごはんの後でテーブルを片付けます。",
+            "chinese": "晚餐後收拾餐桌。"
+          },
+          {
+            "japanese": "木村さんのテーブルは古いです。",
+            "chinese": "木村先生的餐桌很舊。"
+          },
+          {
+            "japanese": "テーブルに新聞があります。",
+            "chinese": "桌上有報紙。"
+          },
+          {
+            "japanese": "佐藤さんはテーブルを買います。",
+            "chinese": "佐藤先生買餐桌。"
+          },
+          {
+            "japanese": "テーブルは部屋に置きます。",
+            "chinese": "餐桌放在房間。"
+          },
+          {
+            "japanese": "父はテーブルを拭きます。",
+            "chinese": "爸爸擦餐桌。"
+          }
+        ]
+      },
+      {
+        "japanese": "ベッド",
+        "kanji": null,
+        "chinese": "床",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「写」、「寝」、「晩」、「楽」、「読」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "寝",
+              "zh": "寢",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "楽",
+              "zh": "樂",
+              "note": null
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "ベッドで寝ます。",
+            "chinese": "在床上睡。"
+          },
+          {
+            "japanese": "このベッドは大きいです。",
+            "chinese": "這床很大。"
+          },
+          {
+            "japanese": "ベッドを買います。",
+            "chinese": "買床。"
+          },
+          {
+            "japanese": "ベッドで本を読みます。",
+            "chinese": "在床上看書。"
+          },
+          {
+            "japanese": "田中さんのベッドは新しいです。",
+            "chinese": "田中先生的床是新的。"
+          },
+          {
+            "japanese": "ベッドを整えます。",
+            "chinese": "整理床鋪。"
+          },
+          {
+            "japanese": "ベッドに猫がいます。",
+            "chinese": "床上有貓。"
+          },
+          {
+            "japanese": "山田さんのベッドは小さいです。",
+            "chinese": "山田先生的床很小。"
+          },
+          {
+            "japanese": "ベッドで休みます。",
+            "chinese": "在床上休息。"
+          },
+          {
+            "japanese": "李さんはベッドを買います。",
+            "chinese": "李先生買床。"
+          },
+          {
+            "japanese": "ベッドの写真を撮ります。",
+            "chinese": "拍床的照片。"
+          },
+          {
+            "japanese": "王さんのベッドは丈夫です。",
+            "chinese": "王先生的床很結實。"
+          },
+          {
+            "japanese": "ベッドに毛布があります。",
+            "chinese": "床上有毯子。"
+          },
+          {
+            "japanese": "妹はベッドを整えます。",
+            "chinese": "妹妹整理床鋪。"
+          },
+          {
+            "japanese": "晩ごはんの後でベッドで休みます。",
+            "chinese": "晚餐後在床上休息。"
+          },
+          {
+            "japanese": "木村さんのベッドは古いです。",
+            "chinese": "木村先生的床很舊。"
+          },
+          {
+            "japanese": "ベッドで音楽を聞きます。",
+            "chinese": "在床上聽音樂。"
+          },
+          {
+            "japanese": "佐藤さんはベッドを買います。",
+            "chinese": "佐藤先生買床。"
+          },
+          {
+            "japanese": "ベッドは部屋に置きます。",
+            "chinese": "床放在房間。"
+          },
+          {
+            "japanese": "父はベッドで寝ます。",
+            "chinese": "爸爸在床上睡。"
+          }
+        ]
+      },
+      {
+        "japanese": "たな",
+        "kanji": "棚",
+        "chinese": "架子，棚架",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「写」、「晩」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "棚に本があります。",
+            "chinese": "架上有書。"
+          },
+          {
+            "japanese": "この棚は大きいです。",
+            "chinese": "這架子很大。"
+          },
+          {
+            "japanese": "棚を買います。",
+            "chinese": "買架子。"
+          },
+          {
+            "japanese": "棚に物を置きます。",
+            "chinese": "把東西放在架上。"
+          },
+          {
+            "japanese": "田中さんの棚は新しいです。",
+            "chinese": "田中先生的架子是新的。"
+          },
+          {
+            "japanese": "棚を拭きます。",
+            "chinese": "擦架子。"
+          },
+          {
+            "japanese": "棚に写真があります。",
+            "chinese": "架上有照片。"
+          },
+          {
+            "japanese": "山田さんの棚は小さいです。",
+            "chinese": "山田先生的架子很小。"
+          },
+          {
+            "japanese": "棚を片付けます。",
+            "chinese": "收拾架子。"
+          },
+          {
+            "japanese": "李さんは棚を買います。",
+            "chinese": "李先生買架子。"
+          },
+          {
+            "japanese": "棚の写真を撮ります。",
+            "chinese": "拍架子的照片。"
+          },
+          {
+            "japanese": "王さんの棚は丈夫です。",
+            "chinese": "王先生的架子很結實。"
+          },
+          {
+            "japanese": "棚に箱があります。",
+            "chinese": "架上有箱子。"
+          },
+          {
+            "japanese": "妹は棚を拭きます。",
+            "chinese": "妹妹擦架子。"
+          },
+          {
+            "japanese": "晩ごはんの後で棚を片付けます。",
+            "chinese": "晚餐後收拾架子。"
+          },
+          {
+            "japanese": "木村さんの棚は古いです。",
+            "chinese": "木村先生的架子很舊。"
+          },
+          {
+            "japanese": "棚にCDがあります。",
+            "chinese": "架上有CD。"
+          },
+          {
+            "japanese": "佐藤さんは棚を買います。",
+            "chinese": "佐藤先生買架子。"
+          },
+          {
+            "japanese": "棚は部屋に置きます。",
+            "chinese": "架子放在房間。"
+          },
+          {
+            "japanese": "父は棚を拭きます。",
+            "chinese": "爸爸擦架子。"
+          }
+        ]
+      },
+      {
+        "japanese": "ドア",
+        "kanji": null,
+        "chinese": "門",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「写」、「晩」、「静」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "静",
+              "zh": "靜",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "ドアを開けます。",
+            "chinese": "開門。"
+          },
+          {
+            "japanese": "このドアは大きいです。",
+            "chinese": "這門很大。"
+          },
+          {
+            "japanese": "ドアを閉めます。",
+            "chinese": "關門。"
+          },
+          {
+            "japanese": "ドアの前に荷物があります。",
+            "chinese": "門前有行李。"
+          },
+          {
+            "japanese": "田中さんの家のドアは新しいです。",
+            "chinese": "田中先生家的門是新的。"
+          },
+          {
+            "japanese": "ドアを買います。",
+            "chinese": "買門。"
+          },
+          {
+            "japanese": "ドアの写真を撮ります。",
+            "chinese": "拍門的照片。"
+          },
+          {
+            "japanese": "山田さんの店のドアは古いです。",
+            "chinese": "山田先生店的門很舊。"
+          },
+          {
+            "japanese": "ドアを拭きます。",
+            "chinese": "擦門。"
+          },
+          {
+            "japanese": "李さんはドアを開けます。",
+            "chinese": "李先生開門。"
+          },
+          {
+            "japanese": "ドアの前に花があります。",
+            "chinese": "門前有花。"
+          },
+          {
+            "japanese": "王さんの家のドアは丈夫です。",
+            "chinese": "王先生家的門很結實。"
+          },
+          {
+            "japanese": "ドアを静かに閉めます。",
+            "chinese": "輕輕關門。"
+          },
+          {
+            "japanese": "妹はドアを閉めます。",
+            "chinese": "妹妹關門。"
+          },
+          {
+            "japanese": "晩ごはんの後でドアを閉めます。",
+            "chinese": "晚餐後關門。"
+          },
+          {
+            "japanese": "木村さんの家のドアは小さいです。",
+            "chinese": "木村先生家的門很小。"
+          },
+          {
+            "japanese": "ドアに鍵をかけます。",
+            "chinese": "鎖門。"
+          },
+          {
+            "japanese": "佐藤さんはドアを買います。",
+            "chinese": "佐藤先生買門。"
+          },
+          {
+            "japanese": "ドアは部屋の前にあります。",
+            "chinese": "門在房間前面。"
+          },
+          {
+            "japanese": "父はドアを拭きます。",
+            "chinese": "爸爸擦門。"
+          }
+        ]
+      },
+      {
+        "japanese": "ポスト",
+        "kanji": null,
+        "chinese": "郵筒，信箱",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「紙」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "紙",
+              "zh": "紙",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "object_tool"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "ポストに手紙を入れます。",
+            "chinese": "把信投進郵筒。"
+          },
+          {
+            "japanese": "このポストは赤いです。",
+            "chinese": "這郵筒是紅色的。"
+          },
+          {
+            "japanese": "ポストに手紙があります。",
+            "chinese": "郵筒裡有信。"
+          },
+          {
+            "japanese": "ポストを買います。",
+            "chinese": "買信箱。"
+          },
+          {
+            "japanese": "田中さんの家のポストは新しいです。",
+            "chinese": "田中先生家的信箱是新的。"
+          },
+          {
+            "japanese": "ポストを確認します。",
+            "chinese": "查看信箱。"
+          },
+          {
+            "japanese": "ポストの写真を撮ります。",
+            "chinese": "拍郵筒的照片。"
+          },
+          {
+            "japanese": "山田さんの家のポストは古いです。",
+            "chinese": "山田先生家的信箱很舊。"
+          },
+          {
+            "japanese": "ポストに新聞があります。",
+            "chinese": "信箱裡有報紙。"
+          },
+          {
+            "japanese": "李さんはポストを確認します。",
+            "chinese": "李先生查看信箱。"
+          },
+          {
+            "japanese": "ポストの前に花があります。",
+            "chinese": "郵筒前有花。"
+          },
+          {
+            "japanese": "王さんの家のポストは大きいです。",
+            "chinese": "王先生家的信箱很大。"
+          },
+          {
+            "japanese": "ポストに荷物があります。",
+            "chinese": "信箱裡有包裹。"
+          },
+          {
+            "japanese": "妹はポストを見ます。",
+            "chinese": "妹妹看信箱。"
+          },
+          {
+            "japanese": "晩ごはんの後でポストを確認します。",
+            "chinese": "晚餐後查看信箱。"
+          },
+          {
+            "japanese": "木村さんの家のポストは小さいです。",
+            "chinese": "木村先生家的信箱很小。"
+          },
+          {
+            "japanese": "ポストに手紙を出します。",
+            "chinese": "把信投進郵筒。"
+          },
+          {
+            "japanese": "佐藤さんはポストを買います。",
+            "chinese": "佐藤先生買信箱。"
+          },
+          {
+            "japanese": "ポストは家の前にあります。",
+            "chinese": "郵筒在家門前。"
+          },
+          {
+            "japanese": "父はポストを確認します。",
+            "chinese": "爸爸查看信箱。"
+          }
+        ]
+      },
+      {
+        "japanese": "ビル",
+        "kanji": null,
+        "chinese": "大廈，大樓",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "このビルは高いです。",
+            "chinese": "這大樓很高。"
+          },
+          {
+            "japanese": "ビルの中に店があります。",
+            "chinese": "大樓裡有店。"
+          },
+          {
+            "japanese": "ビルで働きます。",
+            "chinese": "在大樓工作。"
+          },
+          {
+            "japanese": "このビルは新しいです。",
+            "chinese": "這大樓很新。"
+          },
+          {
+            "japanese": "田中さんの会社はこのビルにあります。",
+            "chinese": "田中先生的公司在這棟大樓裡。"
+          },
+          {
+            "japanese": "ビルの写真を撮ります。",
+            "chinese": "拍大樓的照片。"
+          },
+          {
+            "japanese": "このビルは有名です。",
+            "chinese": "這大樓很有名。"
+          },
+          {
+            "japanese": "山田さんの店はビルの中にあります。",
+            "chinese": "山田先生的店在大樓裡。"
+          },
+          {
+            "japanese": "ビルの前で写真を撮ります。",
+            "chinese": "在大樓前拍照。"
+          },
+          {
+            "japanese": "李さんはビルで働きます。",
+            "chinese": "李先生在大樓工作。"
+          },
+          {
+            "japanese": "このビルは大きいです。",
+            "chinese": "這大樓很大。"
+          },
+          {
+            "japanese": "王さんの会社はビルにあります。",
+            "chinese": "王先生的公司在大樓裡。"
+          },
+          {
+            "japanese": "ビルの近くに公園があります。",
+            "chinese": "大樓附近有公園。"
+          },
+          {
+            "japanese": "妹はビルを見ます。",
+            "chinese": "妹妹看大樓。"
+          },
+          {
+            "japanese": "晩ごはんの後でビルの写真を見ます。",
+            "chinese": "晚餐後看大樓的照片。"
+          },
+          {
+            "japanese": "木村さんの会社はこのビルにあります。",
+            "chinese": "木村先生的公司在這棟大樓裡。"
+          },
+          {
+            "japanese": "このビルは古いです。",
+            "chinese": "這大樓很舊。"
+          },
+          {
+            "japanese": "佐藤さんはビルで働きます。",
+            "chinese": "佐藤先生在大樓工作。"
+          },
+          {
+            "japanese": "ビルは駅の前にあります。",
+            "chinese": "大樓在車站前。"
+          },
+          {
+            "japanese": "父はビルで働きます。",
+            "chinese": "爸爸在大樓工作。"
+          }
+        ]
+      },
+      {
+        "japanese": "こうえん",
+        "kanji": "公園",
+        "chinese": "公園",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「写」、「広」、「晩」、「歩」、「気」、「静」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "広",
+              "zh": "廣",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "静",
+              "zh": "靜",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "公園を散歩します。",
+            "chinese": "逛公園。"
+          },
+          {
+            "japanese": "この公園は広いです。",
+            "chinese": "這公園很寬敞。"
+          },
+          {
+            "japanese": "公園で遊びます。",
+            "chinese": "在公園玩。"
+          },
+          {
+            "japanese": "公園に花があります。",
+            "chinese": "公園裡有花。"
+          },
+          {
+            "japanese": "田中さんは公園を散歩します。",
+            "chinese": "田中先生逛公園。"
+          },
+          {
+            "japanese": "この公園は静かです。",
+            "chinese": "這公園很安靜。"
+          },
+          {
+            "japanese": "公園で写真を撮ります。",
+            "chinese": "在公園拍照。"
+          },
+          {
+            "japanese": "山田さんは公園で遊びます。",
+            "chinese": "山田先生在公園玩。"
+          },
+          {
+            "japanese": "この公園は人気です。",
+            "chinese": "這公園很受歡迎。"
+          },
+          {
+            "japanese": "李さんは公園を散歩します。",
+            "chinese": "李先生逛公園。"
+          },
+          {
+            "japanese": "公園に犬がいます。",
+            "chinese": "公園裡有狗。"
+          },
+          {
+            "japanese": "王さんは公園で写真を撮ります。",
+            "chinese": "王先生在公園拍照。"
+          },
+          {
+            "japanese": "この公園はきれいです。",
+            "chinese": "這公園很乾淨。"
+          },
+          {
+            "japanese": "妹は公園で遊びます。",
+            "chinese": "妹妹在公園玩。"
+          },
+          {
+            "japanese": "晩ごはんの後で公園を散歩します。",
+            "chinese": "晚餐後逛公園。"
+          },
+          {
+            "japanese": "木村さんは公園で遊びます。",
+            "chinese": "木村先生在公園玩。"
+          },
+          {
+            "japanese": "この公園は大きいです。",
+            "chinese": "這公園很大。"
+          },
+          {
+            "japanese": "佐藤さんは公園を散歩します。",
+            "chinese": "佐藤先生逛公園。"
+          },
+          {
+            "japanese": "公園は駅の近くにあります。",
+            "chinese": "公園在車站附近。"
+          },
+          {
+            "japanese": "父は公園で散歩します。",
+            "chinese": "爸爸在公園散步。"
+          }
+        ]
+      },
+      {
+        "japanese": "きっさてん",
+        "kanji": "喫茶店",
+        "chinese": "咖啡館，喫茶店",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            },
+            {
+              "jp": "静",
+              "zh": "靜",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "喫茶店でコーヒーを飲みます。",
+            "chinese": "在咖啡館喝咖啡。"
+          },
+          {
+            "japanese": "この喫茶店は静かです。",
+            "chinese": "這咖啡館很安靜。"
+          },
+          {
+            "japanese": "喫茶店で本を読みます。",
+            "chinese": "在咖啡館看書。"
+          },
+          {
+            "japanese": "喫茶店に行きます。",
+            "chinese": "去咖啡館。"
+          },
+          {
+            "japanese": "田中さんは喫茶店で休みます。",
+            "chinese": "田中先生在咖啡館休息。"
+          },
+          {
+            "japanese": "この喫茶店は人気です。",
+            "chinese": "這咖啡館很受歡迎。"
+          },
+          {
+            "japanese": "喫茶店でケーキを食べます。",
+            "chinese": "在咖啡館吃蛋糕。"
+          },
+          {
+            "japanese": "山田さんは喫茶店に行きます。",
+            "chinese": "山田先生去咖啡館。"
+          },
+          {
+            "japanese": "この喫茶店は古いです。",
+            "chinese": "這咖啡館很舊。"
+          },
+          {
+            "japanese": "李さんは喫茶店でコーヒーを飲みます。",
+            "chinese": "李先生在咖啡館喝咖啡。"
+          },
+          {
+            "japanese": "喫茶店の写真を撮ります。",
+            "chinese": "拍咖啡館的照片。"
+          },
+          {
+            "japanese": "王さんは喫茶店で休みます。",
+            "chinese": "王先生在咖啡館休息。"
+          },
+          {
+            "japanese": "この喫茶店は新しいです。",
+            "chinese": "這咖啡館很新。"
+          },
+          {
+            "japanese": "妹は喫茶店でケーキを食べます。",
+            "chinese": "妹妹在咖啡館吃蛋糕。"
+          },
+          {
+            "japanese": "晩ごはんの後で喫茶店に行きます。",
+            "chinese": "晚餐後去咖啡館。"
+          },
+          {
+            "japanese": "木村さんは喫茶店で本を読みます。",
+            "chinese": "木村先生在咖啡館看書。"
+          },
+          {
+            "japanese": "この喫茶店は便利です。",
+            "chinese": "這咖啡館很方便。"
+          },
+          {
+            "japanese": "佐藤さんは喫茶店に行きます。",
+            "chinese": "佐藤先生去咖啡館。"
+          },
+          {
+            "japanese": "喫茶店は駅の近くにあります。",
+            "chinese": "咖啡館在車站附近。"
+          },
+          {
+            "japanese": "父は喫茶店で新聞を読みます。",
+            "chinese": "爸爸在咖啡館看報紙。"
+          }
+        ]
+      },
+      {
+        "japanese": "ほんや",
+        "kanji": "本屋",
+        "chinese": "書店",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「写」、「晩」、「気」、「絵」、「読」、「辞」、「雑」、「静」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "絵",
+              "zh": "繪",
+              "note": null
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            },
+            {
+              "jp": "辞",
+              "zh": "辭",
+              "note": null
+            },
+            {
+              "jp": "雑",
+              "zh": "雜",
+              "note": null
+            },
+            {
+              "jp": "静",
+              "zh": "靜",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "本屋で本を買います。",
+            "chinese": "在書店買書。"
+          },
+          {
+            "japanese": "この本屋は大きいです。",
+            "chinese": "這書店很大。"
+          },
+          {
+            "japanese": "本屋に行きます。",
+            "chinese": "去書店。"
+          },
+          {
+            "japanese": "本屋で雑誌を読みます。",
+            "chinese": "在書店看雜誌。"
+          },
+          {
+            "japanese": "田中さんは本屋で本を買います。",
+            "chinese": "田中先生在書店買書。"
+          },
+          {
+            "japanese": "この本屋は人気です。",
+            "chinese": "這書店很受歡迎。"
+          },
+          {
+            "japanese": "本屋で辞書を買います。",
+            "chinese": "在書店買字典。"
+          },
+          {
+            "japanese": "山田さんは本屋に行きます。",
+            "chinese": "山田先生去書店。"
+          },
+          {
+            "japanese": "この本屋は古いです。",
+            "chinese": "這書店很舊。"
+          },
+          {
+            "japanese": "李さんは本屋で雑誌を買います。",
+            "chinese": "李先生在書店買雜誌。"
+          },
+          {
+            "japanese": "本屋の写真を撮ります。",
+            "chinese": "拍書店的照片。"
+          },
+          {
+            "japanese": "王さんは本屋に行きます。",
+            "chinese": "王先生去書店。"
+          },
+          {
+            "japanese": "この本屋は新しいです。",
+            "chinese": "這書店很新。"
+          },
+          {
+            "japanese": "妹は本屋で絵本を買います。",
+            "chinese": "妹妹在書店買繪本。"
+          },
+          {
+            "japanese": "晩ごはんの後で本屋に行きます。",
+            "chinese": "晚餐後去書店。"
+          },
+          {
+            "japanese": "木村さんは本屋で本を買います。",
+            "chinese": "木村先生在書店買書。"
+          },
+          {
+            "japanese": "この本屋は静かです。",
+            "chinese": "這書店很安靜。"
+          },
+          {
+            "japanese": "佐藤さんは本屋に行きます。",
+            "chinese": "佐藤先生去書店。"
+          },
+          {
+            "japanese": "本屋は駅の近くにあります。",
+            "chinese": "書店在車站附近。"
+          },
+          {
+            "japanese": "父は本屋で新聞を買います。",
+            "chinese": "爸爸在書店買報紙。"
+          }
+        ]
+      },
+      {
+        "japanese": "～や",
+        "kanji": "～屋",
+        "chinese": "～店",
+        "image": null,
+        "note": "接在名詞後，表經營某物的店，如「パン屋」",
+        "kanji_note": {
+          "summary": "日語的「写」、「晩」、「気」、「薬」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "薬",
+              "zh": "藥",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "花屋で花を買います。",
+            "chinese": "在花店買花。"
+          },
+          {
+            "japanese": "この花屋はきれいです。",
+            "chinese": "這花店很漂亮。"
+          },
+          {
+            "japanese": "魚屋で魚を買います。",
+            "chinese": "在魚店買魚。"
+          },
+          {
+            "japanese": "肉屋で肉を買います。",
+            "chinese": "在肉店買肉。"
+          },
+          {
+            "japanese": "田中さんは八百屋で野菜を買います。",
+            "chinese": "田中先生在蔬菜店買蔬菜。"
+          },
+          {
+            "japanese": "このパン屋は人気です。",
+            "chinese": "這麵包店很受歡迎。"
+          },
+          {
+            "japanese": "薬屋で薬を買います。",
+            "chinese": "在藥店買藥。"
+          },
+          {
+            "japanese": "山田さんは靴屋で靴を買います。",
+            "chinese": "山田先生在鞋店買鞋。"
+          },
+          {
+            "japanese": "この魚屋は古いです。",
+            "chinese": "這魚店很舊。"
+          },
+          {
+            "japanese": "李さんは花屋で花を買います。",
+            "chinese": "李先生在花店買花。"
+          },
+          {
+            "japanese": "八百屋の写真を撮ります。",
+            "chinese": "拍蔬菜店的照片。"
+          },
+          {
+            "japanese": "王さんは肉屋で肉を買います。",
+            "chinese": "王先生在肉店買肉。"
+          },
+          {
+            "japanese": "この靴屋は新しいです。",
+            "chinese": "這鞋店很新。"
+          },
+          {
+            "japanese": "妹はパン屋でパンを買います。",
+            "chinese": "妹妹在麵包店買麵包。"
+          },
+          {
+            "japanese": "晩ごはんの後で薬屋に行きます。",
+            "chinese": "晚餐後去藥店。"
+          },
+          {
+            "japanese": "木村さんは魚屋で魚を買います。",
+            "chinese": "木村先生在魚店買魚。"
+          },
+          {
+            "japanese": "この八百屋は便利です。",
+            "chinese": "這蔬菜店很方便。"
+          },
+          {
+            "japanese": "佐藤さんは花屋に行きます。",
+            "chinese": "佐藤先生去花店。"
+          },
+          {
+            "japanese": "肉屋は駅の近くにあります。",
+            "chinese": "肉店在車站附近。"
+          },
+          {
+            "japanese": "父はパン屋でパンを買います。",
+            "chinese": "爸爸在麵包店買麵包。"
+          }
+        ]
+      },
+      {
+        "japanese": "のりば",
+        "kanji": "乗り場",
+        "chinese": "搭乘火車、計程車等交通工具的場所",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「乗」、「写」、「広」、「晩」、「気」、「読」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "乗",
+              "zh": "乘",
+              "note": null
+            },
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "広",
+              "zh": "廣",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "バスの乗り場に行きます。",
+            "chinese": "去公車站。"
+          },
+          {
+            "japanese": "この乗り場は便利です。",
+            "chinese": "這乘車處很方便。"
+          },
+          {
+            "japanese": "タクシーの乗り場に行きます。",
+            "chinese": "去計程車招呼站。"
+          },
+          {
+            "japanese": "乗り場で切符を買います。",
+            "chinese": "在乘車處買票。"
+          },
+          {
+            "japanese": "田中さんはバスの乗り場に行きます。",
+            "chinese": "田中先生去公車站。"
+          },
+          {
+            "japanese": "この乗り場は新しいです。",
+            "chinese": "這乘車處很新。"
+          },
+          {
+            "japanese": "電車の乗り場を確認します。",
+            "chinese": "確認電車月台。"
+          },
+          {
+            "japanese": "山田さんはタクシーの乗り場に行きます。",
+            "chinese": "山田先生去計程車招呼站。"
+          },
+          {
+            "japanese": "この乗り場は広いです。",
+            "chinese": "這乘車處很寬敞。"
+          },
+          {
+            "japanese": "李さんは乗り場で切符を買います。",
+            "chinese": "李先生在乘車處買票。"
+          },
+          {
+            "japanese": "乗り場の写真を撮ります。",
+            "chinese": "拍乘車處的照片。"
+          },
+          {
+            "japanese": "王さんはバスの乗り場を確認します。",
+            "chinese": "王先生確認公車站。"
+          },
+          {
+            "japanese": "この乗り場は人気です。",
+            "chinese": "這乘車處很受歡迎。"
+          },
+          {
+            "japanese": "妹は乗り場で本を読みます。",
+            "chinese": "妹妹在乘車處看書。"
+          },
+          {
+            "japanese": "晩ごはんの後で乗り場を確認します。",
+            "chinese": "晚餐後確認乘車處。"
+          },
+          {
+            "japanese": "木村さんは電車の乗り場に行きます。",
+            "chinese": "木村先生去電車月台。"
+          },
+          {
+            "japanese": "この乗り場は古いです。",
+            "chinese": "這乘車處很舊。"
+          },
+          {
+            "japanese": "佐藤さんは乗り場で切符を買います。",
+            "chinese": "佐藤先生在乘車處買票。"
+          },
+          {
+            "japanese": "乗り場は駅の前にあります。",
+            "chinese": "乘車處在車站前。"
+          },
+          {
+            "japanese": "父はタクシーの乗り場に行きます。",
+            "chinese": "爸爸去計程車招呼站。"
+          }
+        ]
+      },
+      {
+        "japanese": "けん",
+        "kanji": "県",
+        "chinese": "縣",
+        "image": null,
+        "note": "日本行政區之一",
+        "kanji_note": {
+          "summary": "日語「働」、「栃」為和製字（國字），中文無此字。",
+          "details": [
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "広",
+              "zh": "廣",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "栃",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "県",
+              "zh": "縣",
+              "note": null
+            },
+            {
+              "jp": "静",
+              "zh": "靜",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "神奈川県へ行きます。",
+            "chinese": "去神奈川縣。"
+          },
+          {
+            "japanese": "この県は広いです。",
+            "chinese": "這縣很寬廣。"
+          },
+          {
+            "japanese": "千葉県で働きます。",
+            "chinese": "在千葉縣工作。"
+          },
+          {
+            "japanese": "埼玉県から来ます。",
+            "chinese": "從埼玉縣來。"
+          },
+          {
+            "japanese": "田中さんは静岡県へ行きます。",
+            "chinese": "田中先生去靜岡縣。"
+          },
+          {
+            "japanese": "この県は有名です。",
+            "chinese": "這縣很有名。"
+          },
+          {
+            "japanese": "愛知県で写真を撮ります。",
+            "chinese": "在愛知縣拍照。"
+          },
+          {
+            "japanese": "山田さんは広島県へ行きます。",
+            "chinese": "山田先生去廣島縣。"
+          },
+          {
+            "japanese": "この県は静かです。",
+            "chinese": "這縣很安靜。"
+          },
+          {
+            "japanese": "李さんは福岡県で働きます。",
+            "chinese": "李先生在福岡縣工作。"
+          },
+          {
+            "japanese": "長野県の山は高いです。",
+            "chinese": "長野縣的山很高。"
+          },
+          {
+            "japanese": "王さんは群馬県へ行きます。",
+            "chinese": "王先生去群馬縣。"
+          },
+          {
+            "japanese": "この県は便利です。",
+            "chinese": "這縣很方便。"
+          },
+          {
+            "japanese": "妹は栃木県で遊びます。",
+            "chinese": "妹妹在栃木縣玩。"
+          },
+          {
+            "japanese": "晩ごはんの後で茨城県の写真を見ます。",
+            "chinese": "晚餐後看茨城縣的照片。"
+          },
+          {
+            "japanese": "木村さんは岐阜県へ行きます。",
+            "chinese": "木村先生去岐阜縣。"
+          },
+          {
+            "japanese": "この県はきれいです。",
+            "chinese": "這縣很乾淨。"
+          },
+          {
+            "japanese": "佐藤さんは三重県で働きます。",
+            "chinese": "佐藤先生在三重縣工作。"
+          },
+          {
+            "japanese": "奈良県にお寺があります。",
+            "chinese": "奈良縣有寺廟。"
+          },
+          {
+            "japanese": "父は和歌山県へ行きます。",
+            "chinese": "爸爸去和歌山縣。"
+          }
+        ]
+      },
+      {
+        "japanese": "うえ",
+        "kanji": "上",
+        "chinese": "上，上面",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。",
+          "details": [
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "direction_position"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "机の上に本があります。",
+            "chinese": "桌上有書。"
+          },
+          {
+            "japanese": "上の棚に箱があります。",
+            "chinese": "上面的架上有箱子。"
+          },
+          {
+            "japanese": "本を机の上に置きます。",
+            "chinese": "把書放在桌上。"
+          },
+          {
+            "japanese": "猫が木の上にいます。",
+            "chinese": "貓在樹上。"
+          },
+          {
+            "japanese": "田中さんは上の階にいます。",
+            "chinese": "田中先生在樓上。"
+          },
+          {
+            "japanese": "写真を壁の上に貼ります。",
+            "chinese": "把照片貼在牆上。"
+          },
+          {
+            "japanese": "上の段に物があります。",
+            "chinese": "上層有東西。"
+          },
+          {
+            "japanese": "山田さんは山の上にいます。",
+            "chinese": "山田先生在山頂。"
+          },
+          {
+            "japanese": "荷物を棚の上に置きます。",
+            "chinese": "把行李放在架上。"
+          },
+          {
+            "japanese": "李さんは上の部屋にいます。",
+            "chinese": "李先生在樓上的房間。"
+          },
+          {
+            "japanese": "鳥が屋根の上にいます。",
+            "chinese": "鳥在屋頂上。"
+          },
+          {
+            "japanese": "王さんは上の席に座ります。",
+            "chinese": "王先生坐在上面的位子。"
+          },
+          {
+            "japanese": "花を机の上に置きます。",
+            "chinese": "把花放在桌上。"
+          },
+          {
+            "japanese": "妹は上の段を見ます。",
+            "chinese": "妹妹看上面一層。"
+          },
+          {
+            "japanese": "晩ごはんの後で上の棚を片付けます。",
+            "chinese": "晚餐後整理上面的架子。"
+          },
+          {
+            "japanese": "木村さんは上の階で働きます。",
+            "chinese": "木村先生在樓上工作。"
+          },
+          {
+            "japanese": "新聞を机の上に置きます。",
+            "chinese": "把報紙放在桌上。"
+          },
+          {
+            "japanese": "佐藤さんは上の席に座ります。",
+            "chinese": "佐藤先生坐在上面的位子。"
+          },
+          {
+            "japanese": "上を見ます。",
+            "chinese": "看上面。"
+          },
+          {
+            "japanese": "父は上の部屋にいます。",
+            "chinese": "爸爸在樓上的房間。"
+          }
+        ]
+      },
+      {
+        "japanese": "した",
+        "kanji": "下",
+        "chinese": "下，下面",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。",
+          "details": [
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "寝",
+              "zh": "寢",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "direction_position"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "机の下に猫がいます。",
+            "chinese": "桌下有貓。"
+          },
+          {
+            "japanese": "下の棚に本があります。",
+            "chinese": "下面的架上有書。"
+          },
+          {
+            "japanese": "荷物を机の下に置きます。",
+            "chinese": "把行李放在桌下。"
+          },
+          {
+            "japanese": "犬が木の下にいます。",
+            "chinese": "狗在樹下。"
+          },
+          {
+            "japanese": "田中さんは下の階にいます。",
+            "chinese": "田中先生在樓下。"
+          },
+          {
+            "japanese": "靴を下に置きます。",
+            "chinese": "把鞋放在下面。"
+          },
+          {
+            "japanese": "下の段に箱があります。",
+            "chinese": "下層有箱子。"
+          },
+          {
+            "japanese": "山田さんは山の下にいます。",
+            "chinese": "山田先生在山腳。"
+          },
+          {
+            "japanese": "荷物を棚の下に置きます。",
+            "chinese": "把行李放在架下。"
+          },
+          {
+            "japanese": "李さんは下の部屋にいます。",
+            "chinese": "李先生在樓下的房間。"
+          },
+          {
+            "japanese": "猫が机の下に寝ます。",
+            "chinese": "貓在桌下睡。"
+          },
+          {
+            "japanese": "王さんは下の席に座ります。",
+            "chinese": "王先生坐在下面的位子。"
+          },
+          {
+            "japanese": "花を机の下に置きます。",
+            "chinese": "把花放在桌下。"
+          },
+          {
+            "japanese": "妹は下の段を見ます。",
+            "chinese": "妹妹看下面一層。"
+          },
+          {
+            "japanese": "晩ごはんの後で下の棚を片付けます。",
+            "chinese": "晚餐後整理下面的架子。"
+          },
+          {
+            "japanese": "木村さんは下の階で働きます。",
+            "chinese": "木村先生在樓下工作。"
+          },
+          {
+            "japanese": "新聞を机の下に置きます。",
+            "chinese": "把報紙放在桌下。"
+          },
+          {
+            "japanese": "佐藤さんは下の席に座ります。",
+            "chinese": "佐藤先生坐在下面的位子。"
+          },
+          {
+            "japanese": "下を見ます。",
+            "chinese": "看下面。"
+          },
+          {
+            "japanese": "父は下の部屋にいます。",
+            "chinese": "爸爸在樓下的房間。"
+          }
+        ]
+      },
+      {
+        "japanese": "まえ",
+        "kanji": "前",
+        "chinese": "前，前面",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「学」、「晩」、「転」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "転",
+              "zh": "轉",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "direction_position"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "駅の前に店があります。",
+            "chinese": "車站前有店。"
+          },
+          {
+            "japanese": "家の前に花があります。",
+            "chinese": "家門前有花。"
+          },
+          {
+            "japanese": "田中さんは店の前にいます。",
+            "chinese": "田中先生在店前。"
+          },
+          {
+            "japanese": "ドアの前に荷物があります。",
+            "chinese": "門前有行李。"
+          },
+          {
+            "japanese": "山田さんは駅の前にいます。",
+            "chinese": "山田先生在車站前。"
+          },
+          {
+            "japanese": "学校の前に公園があります。",
+            "chinese": "學校前有公園。"
+          },
+          {
+            "japanese": "李さんは家の前にいます。",
+            "chinese": "李先生在家門前。"
+          },
+          {
+            "japanese": "本屋の前に人がいます。",
+            "chinese": "書店前有人。"
+          },
+          {
+            "japanese": "王さんは銀行の前にいます。",
+            "chinese": "王先生在銀行前。"
+          },
+          {
+            "japanese": "喫茶店の前に自転車があります。",
+            "chinese": "咖啡館前有腳踏車。"
+          },
+          {
+            "japanese": "妹は学校の前にいます。",
+            "chinese": "妹妹在學校前。"
+          },
+          {
+            "japanese": "木村さんは駅の前にいます。",
+            "chinese": "木村先生在車站前。"
+          },
+          {
+            "japanese": "ポストの前に花があります。",
+            "chinese": "郵筒前有花。"
+          },
+          {
+            "japanese": "佐藤さんは店の前にいます。",
+            "chinese": "佐藤先生在店前。"
+          },
+          {
+            "japanese": "晩ごはんの後で家の前を掃除します。",
+            "chinese": "晚餐後打掃家門前。"
+          },
+          {
+            "japanese": "鈴木さんは銀行の前にいます。",
+            "chinese": "鈴木先生在銀行前。"
+          },
+          {
+            "japanese": "ビルの前に車があります。",
+            "chinese": "大樓前有車。"
+          },
+          {
+            "japanese": "父は家の前にいます。",
+            "chinese": "爸爸在家門前。"
+          },
+          {
+            "japanese": "母は店の前にいます。",
+            "chinese": "媽媽在店前。"
+          },
+          {
+            "japanese": "弟は学校の前にいます。",
+            "chinese": "弟弟在學校前。"
+          }
+        ]
+      },
+      {
+        "japanese": "うしろ",
+        "kanji": "後ろ",
+        "chinese": "後，後面",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「学」、「晩」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "direction_position"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "家の後ろに庭があります。",
+            "chinese": "房子後面有院子。"
+          },
+          {
+            "japanese": "店の後ろに駐車場があります。",
+            "chinese": "店後面有停車場。"
+          },
+          {
+            "japanese": "田中さんは後ろにいます。",
+            "chinese": "田中先生在後面。"
+          },
+          {
+            "japanese": "犬が木の後ろにいます。",
+            "chinese": "狗在樹後。"
+          },
+          {
+            "japanese": "山田さんは後ろの席に座ります。",
+            "chinese": "山田先生坐在後面的位子。"
+          },
+          {
+            "japanese": "学校の後ろに公園があります。",
+            "chinese": "學校後面有公園。"
+          },
+          {
+            "japanese": "李さんは後ろにいます。",
+            "chinese": "李先生在後面。"
+          },
+          {
+            "japanese": "本屋の後ろに倉庫があります。",
+            "chinese": "書店後面有倉庫。"
+          },
+          {
+            "japanese": "王さんは後ろの部屋にいます。",
+            "chinese": "王先生在後面的房間。"
+          },
+          {
+            "japanese": "猫が車の後ろにいます。",
+            "chinese": "貓在車後。"
+          },
+          {
+            "japanese": "妹は後ろの席に座ります。",
+            "chinese": "妹妹坐在後面的位子。"
+          },
+          {
+            "japanese": "木村さんは後ろにいます。",
+            "chinese": "木村先生在後面。"
+          },
+          {
+            "japanese": "ポストの後ろに木があります。",
+            "chinese": "郵筒後面有樹。"
+          },
+          {
+            "japanese": "佐藤さんは後ろの部屋にいます。",
+            "chinese": "佐藤先生在後面的房間。"
+          },
+          {
+            "japanese": "晩ごはんの後で後ろの庭を掃除します。",
+            "chinese": "晚餐後打掃後院。"
+          },
+          {
+            "japanese": "鈴木さんは後ろにいます。",
+            "chinese": "鈴木先生在後面。"
+          },
+          {
+            "japanese": "ビルの後ろに川があります。",
+            "chinese": "大樓後面有河。"
+          },
+          {
+            "japanese": "父は後ろの席に座ります。",
+            "chinese": "爸爸坐在後面的位子。"
+          },
+          {
+            "japanese": "母は後ろにいます。",
+            "chinese": "媽媽在後面。"
+          },
+          {
+            "japanese": "弟は家の後ろで遊びます。",
+            "chinese": "弟弟在房子後面玩。"
+          }
+        ]
+      },
+      {
+        "japanese": "みぎ",
+        "kanji": "右",
+        "chinese": "右，右邊",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「紙」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "点",
+              "zh": "點",
+              "note": null
+            },
+            {
+              "jp": "紙",
+              "zh": "紙",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "direction_position"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "右に曲がります。",
+            "chinese": "向右轉。"
+          },
+          {
+            "japanese": "あの交差点を右に曲がります。",
+            "chinese": "在那個路口向右轉。"
+          },
+          {
+            "japanese": "銀行は右にあります。",
+            "chinese": "銀行在右邊。"
+          },
+          {
+            "japanese": "駅の右側に店があります。",
+            "chinese": "車站的右邊有商店。"
+          },
+          {
+            "japanese": "田中さんは右のドアを開けます。",
+            "chinese": "田中先生開右邊的門。"
+          },
+          {
+            "japanese": "山田さんは右の道を歩きます。",
+            "chinese": "山田先生走右邊的路。"
+          },
+          {
+            "japanese": "右の棚に本があります。",
+            "chinese": "右邊的架上有書。"
+          },
+          {
+            "japanese": "李さんは右の席に座ります。",
+            "chinese": "李先生坐在右邊的座位。"
+          },
+          {
+            "japanese": "王さんは右にいます。",
+            "chinese": "王先生在右邊。"
+          },
+          {
+            "japanese": "右の箱に電池があります。",
+            "chinese": "右邊的箱子裡有電池。"
+          },
+          {
+            "japanese": "妹は右の窓を開けます。",
+            "chinese": "妹妹開右邊的窗戶。"
+          },
+          {
+            "japanese": "木村さんは右に曲がります。",
+            "chinese": "木村先生向右轉。"
+          },
+          {
+            "japanese": "晩ごはんの後で右の棚を片付けます。",
+            "chinese": "晚餐後整理右邊的架子。"
+          },
+          {
+            "japanese": "佐藤さんは右の部屋にいます。",
+            "chinese": "佐藤先生在右邊的房間。"
+          },
+          {
+            "japanese": "右の本屋で本を買います。",
+            "chinese": "在右邊的書店買書。"
+          },
+          {
+            "japanese": "鈴木さんは右の壁の近くにいます。",
+            "chinese": "鈴木先生在右邊牆壁附近。"
+          },
+          {
+            "japanese": "父は右のソファに座ります。",
+            "chinese": "爸爸坐在右邊的沙發。"
+          },
+          {
+            "japanese": "この道を右へ歩きます。",
+            "chinese": "沿這條路向右走。"
+          },
+          {
+            "japanese": "右のポストに手紙を入れます。",
+            "chinese": "把信投進右邊的郵筒。"
+          },
+          {
+            "japanese": "高橋さんは次の角を右に曲がります。",
+            "chinese": "高橋先生在下一個轉角向右轉。"
+          }
+        ]
+      },
+      {
+        "japanese": "ひだり",
+        "kanji": "左",
+        "chinese": "左，左邊",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「奥」、「臓」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "奥",
+              "zh": "奧",
+              "note": null
+            },
+            {
+              "jp": "臓",
+              "zh": "臟",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "direction_position"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "左手で箸を持ちます。",
+            "chinese": "用左手拿筷子。"
+          },
+          {
+            "japanese": "兄は左利きです。",
+            "chinese": "哥哥是左撇子。"
+          },
+          {
+            "japanese": "田中さんは左の奥にいます。",
+            "chinese": "田中先生在左邊的深處。"
+          },
+          {
+            "japanese": "左のポケットに鍵があります。",
+            "chinese": "左邊的口袋裡有鑰匙。"
+          },
+          {
+            "japanese": "山田さんは左のドアを閉めます。",
+            "chinese": "山田先生關左邊的門。"
+          },
+          {
+            "japanese": "左の耳にピアスをします。",
+            "chinese": "左耳戴耳環。"
+          },
+          {
+            "japanese": "李さんは左に曲がります。",
+            "chinese": "李先生向左轉。"
+          },
+          {
+            "japanese": "日本は左側通行です。",
+            "chinese": "日本是靠左行駛。"
+          },
+          {
+            "japanese": "王さんは左の靴を履きます。",
+            "chinese": "王先生穿左腳的鞋。"
+          },
+          {
+            "japanese": "心臓は左にあります。",
+            "chinese": "心臟在左邊。"
+          },
+          {
+            "japanese": "妹は左手で字を書きます。",
+            "chinese": "妹妹用左手寫字。"
+          },
+          {
+            "japanese": "木村さんは左の入り口にいます。",
+            "chinese": "木村先生在左邊的入口。"
+          },
+          {
+            "japanese": "左の引き出しに財布があります。",
+            "chinese": "左邊的抽屜裡有錢包。"
+          },
+          {
+            "japanese": "佐藤さんは左のポケットに財布を入れます。",
+            "chinese": "佐藤先生把錢包放進左邊的口袋。"
+          },
+          {
+            "japanese": "鈴木さんは左の席に座ります。",
+            "chinese": "鈴木先生坐在左邊的座位。"
+          },
+          {
+            "japanese": "父は左手でごはんを食べます。",
+            "chinese": "爸爸用左手吃飯。"
+          },
+          {
+            "japanese": "母は左のほうにいます。",
+            "chinese": "媽媽在左邊。"
+          },
+          {
+            "japanese": "弟は左手でボールを投げます。",
+            "chinese": "弟弟用左手投球。"
+          },
+          {
+            "japanese": "左の壁に時計があります。",
+            "chinese": "左邊的牆上有時鐘。"
+          },
+          {
+            "japanese": "高橋さんは左のドアを押します。",
+            "chinese": "高橋先生推左邊的門。"
+          }
+        ]
+      },
+      {
+        "japanese": "なか",
+        "kanji": "中",
+        "chinese": "裡面，中間",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「晩」、「蔵」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "蔵",
+              "zh": "藏",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "direction_position"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "箱の中に物があります。",
+            "chinese": "箱子裡有東西。"
+          },
+          {
+            "japanese": "家の中に猫がいます。",
+            "chinese": "家裡有貓。"
+          },
+          {
+            "japanese": "田中さんは部屋の中にいます。",
+            "chinese": "田中先生在房間裡。"
+          },
+          {
+            "japanese": "袋の中に果物があります。",
+            "chinese": "袋子裡有水果。"
+          },
+          {
+            "japanese": "山田さんは店の中にいます。",
+            "chinese": "山田先生在店裡。"
+          },
+          {
+            "japanese": "冷蔵庫の中に卵があります。",
+            "chinese": "冰箱裡有蛋。"
+          },
+          {
+            "japanese": "李さんは家の中にいます。",
+            "chinese": "李先生在家裡。"
+          },
+          {
+            "japanese": "机の中に切符があります。",
+            "chinese": "桌子裡有票。"
+          },
+          {
+            "japanese": "王さんは車の中にいます。",
+            "chinese": "王先生在車裡。"
+          },
+          {
+            "japanese": "箱の中に電池があります。",
+            "chinese": "箱子裡有電池。"
+          },
+          {
+            "japanese": "妹は部屋の中にいます。",
+            "chinese": "妹妹在房間裡。"
+          },
+          {
+            "japanese": "木村さんはビルの中にいます。",
+            "chinese": "木村先生在大樓裡。"
+          },
+          {
+            "japanese": "棚の中に本があります。",
+            "chinese": "架子裡有書。"
+          },
+          {
+            "japanese": "佐藤さんは喫茶店の中にいます。",
+            "chinese": "佐藤先生在咖啡館裡。"
+          },
+          {
+            "japanese": "晩ごはんの後で部屋の中を掃除します。",
+            "chinese": "晚餐後打掃房間裡。"
+          },
+          {
+            "japanese": "鈴木さんは家の中にいます。",
+            "chinese": "鈴木先生在家裡。"
+          },
+          {
+            "japanese": "財布の中にお金があります。",
+            "chinese": "錢包裡有錢。"
+          },
+          {
+            "japanese": "父は車の中にいます。",
+            "chinese": "爸爸在車裡。"
+          },
+          {
+            "japanese": "母は台所の中にいます。",
+            "chinese": "媽媽在廚房裡。"
+          },
+          {
+            "japanese": "弟は箱の中を見ます。",
+            "chinese": "弟弟看箱子裡。"
+          }
+        ]
+      },
+      {
+        "japanese": "そと",
+        "kanji": "外",
+        "chinese": "外面",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。",
+          "details": [
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "静",
+              "zh": "靜",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "direction_position"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "外で遊びます。",
+            "chinese": "在外面玩。"
+          },
+          {
+            "japanese": "外は寒いです。",
+            "chinese": "外面很冷。"
+          },
+          {
+            "japanese": "田中さんは外にいます。",
+            "chinese": "田中先生在外面。"
+          },
+          {
+            "japanese": "外で写真を撮ります。",
+            "chinese": "在外面拍照。"
+          },
+          {
+            "japanese": "山田さんは外で働きます。",
+            "chinese": "山田先生在外面工作。"
+          },
+          {
+            "japanese": "外に犬がいます。",
+            "chinese": "外面有狗。"
+          },
+          {
+            "japanese": "李さんは外でごはんを食べます。",
+            "chinese": "李先生在外面吃飯。"
+          },
+          {
+            "japanese": "外は静かです。",
+            "chinese": "外面很安靜。"
+          },
+          {
+            "japanese": "王さんは外にいます。",
+            "chinese": "王先生在外面。"
+          },
+          {
+            "japanese": "外で運動します。",
+            "chinese": "在外面運動。"
+          },
+          {
+            "japanese": "妹は外で遊びます。",
+            "chinese": "妹妹在外面玩。"
+          },
+          {
+            "japanese": "木村さんは外で働きます。",
+            "chinese": "木村先生在外面工作。"
+          },
+          {
+            "japanese": "外に猫がいます。",
+            "chinese": "外面有貓。"
+          },
+          {
+            "japanese": "佐藤さんは外でごはんを食べます。",
+            "chinese": "佐藤先生在外面吃飯。"
+          },
+          {
+            "japanese": "晩ごはんの後で外を散歩します。",
+            "chinese": "晚餐後在外面散步。"
+          },
+          {
+            "japanese": "鈴木さんは外にいます。",
+            "chinese": "鈴木先生在外面。"
+          },
+          {
+            "japanese": "外は暑いです。",
+            "chinese": "外面很熱。"
+          },
+          {
+            "japanese": "父は外で仕事をします。",
+            "chinese": "爸爸在外面工作。"
+          },
+          {
+            "japanese": "母は外で買い物をします。",
+            "chinese": "媽媽在外面買東西。"
+          },
+          {
+            "japanese": "弟は外で遊びます。",
+            "chinese": "弟弟在外面玩。"
+          }
+        ]
+      },
+      {
+        "japanese": "となり",
+        "kanji": "隣",
+        "chinese": "隔壁，旁邊",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "隣",
+              "zh": "鄰",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "direction_position"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "隣の家に猫がいます。",
+            "chinese": "隔壁家有貓。"
+          },
+          {
+            "japanese": "隣の席に座ります。",
+            "chinese": "坐在隔壁位子。"
+          },
+          {
+            "japanese": "田中さんは隣にいます。",
+            "chinese": "田中先生在隔壁。"
+          },
+          {
+            "japanese": "隣の店で買い物をします。",
+            "chinese": "在隔壁店買東西。"
+          },
+          {
+            "japanese": "山田さんは隣の部屋にいます。",
+            "chinese": "山田先生在隔壁房間。"
+          },
+          {
+            "japanese": "隣の公園で遊びます。",
+            "chinese": "在隔壁公園玩。"
+          },
+          {
+            "japanese": "李さんは隣にいます。",
+            "chinese": "李先生在隔壁。"
+          },
+          {
+            "japanese": "隣の本屋で本を買います。",
+            "chinese": "在隔壁書店買書。"
+          },
+          {
+            "japanese": "王さんは隣の席に座ります。",
+            "chinese": "王先生坐在隔壁位子。"
+          },
+          {
+            "japanese": "隣の家に犬がいます。",
+            "chinese": "隔壁家有狗。"
+          },
+          {
+            "japanese": "妹は隣の部屋にいます。",
+            "chinese": "妹妹在隔壁房間。"
+          },
+          {
+            "japanese": "木村さんは隣にいます。",
+            "chinese": "木村先生在隔壁。"
+          },
+          {
+            "japanese": "隣の喫茶店で休みます。",
+            "chinese": "在隔壁咖啡館休息。"
+          },
+          {
+            "japanese": "佐藤さんは隣の席に座ります。",
+            "chinese": "佐藤先生坐在隔壁位子。"
+          },
+          {
+            "japanese": "晩ごはんの後で隣の公園を散歩します。",
+            "chinese": "晚餐後在隔壁公園散步。"
+          },
+          {
+            "japanese": "鈴木さんは隣の部屋にいます。",
+            "chinese": "鈴木先生在隔壁房間。"
+          },
+          {
+            "japanese": "隣の店は人気です。",
+            "chinese": "隔壁店很受歡迎。"
+          },
+          {
+            "japanese": "父は隣にいます。",
+            "chinese": "爸爸在隔壁。"
+          },
+          {
+            "japanese": "母は隣の家でお茶を飲みます。",
+            "chinese": "媽媽在隔壁家喝茶。"
+          },
+          {
+            "japanese": "弟は隣の公園で遊びます。",
+            "chinese": "弟弟在隔壁公園玩。"
+          }
+        ]
+      },
+      {
+        "japanese": "ちかく",
+        "kanji": "近く",
+        "chinese": "附近",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "direction_position"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "駅の近くに店があります。",
+            "chinese": "車站附近有店。"
+          },
+          {
+            "japanese": "近くの公園で遊びます。",
+            "chinese": "在附近的公園玩。"
+          },
+          {
+            "japanese": "田中さんは近くにいます。",
+            "chinese": "田中先生在附近。"
+          },
+          {
+            "japanese": "近くの本屋で本を買います。",
+            "chinese": "在附近的書店買書。"
+          },
+          {
+            "japanese": "山田さんは近くの店で働きます。",
+            "chinese": "山田先生在附近的店工作。"
+          },
+          {
+            "japanese": "近くに銀行があります。",
+            "chinese": "附近有銀行。"
+          },
+          {
+            "japanese": "李さんは近くにいます。",
+            "chinese": "李先生在附近。"
+          },
+          {
+            "japanese": "近くの喫茶店で休みます。",
+            "chinese": "在附近的咖啡館休息。"
+          },
+          {
+            "japanese": "王さんは近くの家にいます。",
+            "chinese": "王先生在附近的家。"
+          },
+          {
+            "japanese": "近くに花屋があります。",
+            "chinese": "附近有花店。"
+          },
+          {
+            "japanese": "妹は近くの公園で遊びます。",
+            "chinese": "妹妹在附近的公園玩。"
+          },
+          {
+            "japanese": "木村さんは近くにいます。",
+            "chinese": "木村先生在附近。"
+          },
+          {
+            "japanese": "近くの店で買い物をします。",
+            "chinese": "在附近的店買東西。"
+          },
+          {
+            "japanese": "佐藤さんは近くの会社で働きます。",
+            "chinese": "佐藤先生在附近的公司工作。"
+          },
+          {
+            "japanese": "晩ごはんの後で近くを散歩します。",
+            "chinese": "晚餐後在附近散步。"
+          },
+          {
+            "japanese": "鈴木さんは近くにいます。",
+            "chinese": "鈴木先生在附近。"
+          },
+          {
+            "japanese": "近くに郵便局があります。",
+            "chinese": "附近有郵局。"
+          },
+          {
+            "japanese": "父は近くの駅へ行きます。",
+            "chinese": "爸爸去附近的車站。"
+          },
+          {
+            "japanese": "母は近くの店で買い物をします。",
+            "chinese": "媽媽在附近的店買東西。"
+          },
+          {
+            "japanese": "弟は近くの公園で遊びます。",
+            "chinese": "弟弟在附近的公園玩。"
+          }
+        ]
+      },
+      {
+        "japanese": "あいだ",
+        "kanji": "間",
+        "chinese": "之間，中間",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「写」、「晩」、「絵」、「蔵」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "絵",
+              "zh": "繪",
+              "note": null
+            },
+            {
+              "jp": "蔵",
+              "zh": "藏",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "direction_position"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "駅と店の間に銀行があります。",
+            "chinese": "車站和店之間有銀行。"
+          },
+          {
+            "japanese": "本と本の間に写真があります。",
+            "chinese": "書和書之間有照片。"
+          },
+          {
+            "japanese": "田中さんは山田さんと李さんの間にいます。",
+            "chinese": "田中先生在山田先生和李先生之間。"
+          },
+          {
+            "japanese": "家と家の間に道があります。",
+            "chinese": "房子和房子之間有路。"
+          },
+          {
+            "japanese": "木村さんは王さんと佐藤さんの間にいます。",
+            "chinese": "木村先生在王先生和佐藤先生之間。"
+          },
+          {
+            "japanese": "テレビと棚の間に箱があります。",
+            "chinese": "電視和架子之間有箱子。"
+          },
+          {
+            "japanese": "妹は父と母の間にいます。",
+            "chinese": "妹妹在爸爸和媽媽之間。"
+          },
+          {
+            "japanese": "冷蔵庫とテーブルの間にゴミ箱があります。",
+            "chinese": "冰箱和餐桌之間有垃圾桶。"
+          },
+          {
+            "japanese": "王さんは駅と公園の間にいます。",
+            "chinese": "王先生在車站和公園之間。"
+          },
+          {
+            "japanese": "ベッドと窓の間に机があります。",
+            "chinese": "床和窗戶之間有桌子。"
+          },
+          {
+            "japanese": "弟は兄と姉の間にいます。",
+            "chinese": "弟弟在哥哥和姊姊之間。"
+          },
+          {
+            "japanese": "ポストと木の間に花があります。",
+            "chinese": "郵筒和樹之間有花。"
+          },
+          {
+            "japanese": "佐藤さんはビルと銀行の間にいます。",
+            "chinese": "佐藤先生在大樓和銀行之間。"
+          },
+          {
+            "japanese": "棚と棚の間に物があります。",
+            "chinese": "架子和架子之間有東西。"
+          },
+          {
+            "japanese": "晩ごはんの後で机とベッドの間を掃除します。",
+            "chinese": "晚餐後打掃桌子和床之間。"
+          },
+          {
+            "japanese": "鈴木さんは店と駅の間にいます。",
+            "chinese": "鈴木先生在店和車站之間。"
+          },
+          {
+            "japanese": "ドアと窓の間に絵があります。",
+            "chinese": "門和窗戶之間有畫。"
+          },
+          {
+            "japanese": "父は家と庭の間にいます。",
+            "chinese": "爸爸在房子和院子之間。"
+          },
+          {
+            "japanese": "母は台所と部屋の間にいます。",
+            "chinese": "媽媽在廚房和房間之間。"
+          },
+          {
+            "japanese": "猫は木と花の間にいます。",
+            "chinese": "貓在樹和花之間。"
+          }
+        ]
+      },
+      {
+        "japanese": "～や～など",
+        "kanji": "～や～など",
+        "chinese": "～啦～〔等〕",
+        "image": null,
+        "note": "列舉部分項目作代表，如「本や辞書など」",
+        "kanji_note": {
+          "summary": "「予」在日語可表「預先／給予」，繁體對應視語境為「預」或「予」，不宜一律寫成「豫」。日語的「紙」、「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "予",
+              "zh": "預／予",
+              "note": "在日語可表「預先／給予」，繁體對應視語境為「預」或「予」，不宜一律寫成「豫」。"
+            },
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "楽",
+              "zh": "樂",
+              "note": null
+            },
+            {
+              "jp": "紙",
+              "zh": "紙",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "絵",
+              "zh": "繪",
+              "note": null
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            },
+            {
+              "jp": "雑",
+              "zh": "雜",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "grammar_pattern"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "パンや卵などを買います。",
+            "chinese": "買麵包和雞蛋等。"
+          },
+          {
+            "japanese": "田中さんは本や雑誌などを読みます。",
+            "chinese": "田中先生看書和雜誌等。"
+          },
+          {
+            "japanese": "花や木などを植えます。",
+            "chinese": "種花和樹等。"
+          },
+          {
+            "japanese": "山田さんは犬や猫などを飼います。",
+            "chinese": "山田先生養狗和貓等。"
+          },
+          {
+            "japanese": "魚や肉などを食べます。",
+            "chinese": "吃魚和肉等。"
+          },
+          {
+            "japanese": "李さんは写真や絵などを見ます。",
+            "chinese": "李先生看照片和畫等。"
+          },
+          {
+            "japanese": "コーヒーやお茶などを飲みます。",
+            "chinese": "喝咖啡和茶等。"
+          },
+          {
+            "japanese": "王さんは机や棚などを買います。",
+            "chinese": "王先生買桌子和架子等。"
+          },
+          {
+            "japanese": "公園や学校などへ行きます。",
+            "chinese": "去公園和學校等。"
+          },
+          {
+            "japanese": "妹は歌やダンスなどを習います。",
+            "chinese": "妹妹學唱歌和跳舞等。"
+          },
+          {
+            "japanese": "木村さんは切符やチケットなどを予約します。",
+            "chinese": "木村先生訂車票和門票等。"
+          },
+          {
+            "japanese": "佐藤さんは荷物や手紙などを送ります。",
+            "chinese": "佐藤先生寄行李和信等。"
+          },
+          {
+            "japanese": "鈴木さんは箱や袋などを使います。",
+            "chinese": "鈴木先生用箱子和袋子等。"
+          },
+          {
+            "japanese": "母は野菜や果物などを買います。",
+            "chinese": "媽媽買蔬菜和水果等。"
+          },
+          {
+            "japanese": "晩ごはんの後で食器や台所などを片付けます。",
+            "chinese": "晚餐後收拾餐具和廚房等。"
+          },
+          {
+            "japanese": "父は新聞や雑誌などを読みます。",
+            "chinese": "爸爸看報紙和雜誌等。"
+          },
+          {
+            "japanese": "弟はゲームやテレビなどを楽しみます。",
+            "chinese": "弟弟享受遊戲和電視等。"
+          },
+          {
+            "japanese": "姉は服や靴などを買います。",
+            "chinese": "姊姊買衣服和鞋子等。"
+          },
+          {
+            "japanese": "兄は野球やサッカーなどをします。",
+            "chinese": "哥哥打棒球和踢足球等。"
+          },
+          {
+            "japanese": "友達や家族などと遊びます。",
+            "chinese": "和朋友和家人等一起玩。"
+          }
+        ]
+      },
+      {
+        "japanese": "いちばん",
+        "kanji": null,
+        "chinese": "最～",
+        "image": null,
+        "note": "表程度最高",
+        "kanji_note": {
+          "summary": "日語的「写」、「帰」、「晩」、「来」、「楽」、「気」、「画」、「静」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "帰",
+              "zh": "歸",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "楽",
+              "zh": "樂",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "静",
+              "zh": "靜",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "quality_state_degree"
+        ],
+        "speech": [
+          "adverb"
+        ],
+        "sentence": [
+          {
+            "japanese": "この店がいちばん好きです。",
+            "chinese": "最喜歡這家店。"
+          },
+          {
+            "japanese": "田中さんがいちばん上手です。",
+            "chinese": "田中先生最擅長。"
+          },
+          {
+            "japanese": "この料理がいちばんおいしいです。",
+            "chinese": "這道菜最好吃。"
+          },
+          {
+            "japanese": "山田さんがいちばん早く来ます。",
+            "chinese": "山田先生最早來。"
+          },
+          {
+            "japanese": "この本がいちばん面白いです。",
+            "chinese": "這本書最有趣。"
+          },
+          {
+            "japanese": "李さんがいちばん親切です。",
+            "chinese": "李先生最親切。"
+          },
+          {
+            "japanese": "この公園がいちばん静かです。",
+            "chinese": "這公園最安靜。"
+          },
+          {
+            "japanese": "王さんがいちばん歌が上手です。",
+            "chinese": "王先生最會唱歌。"
+          },
+          {
+            "japanese": "この映画がいちばん人気です。",
+            "chinese": "這電影最受歡迎。"
+          },
+          {
+            "japanese": "妹がいちばん元気です。",
+            "chinese": "妹妹最有精神。"
+          },
+          {
+            "japanese": "木村さんがいちばん早く帰ります。",
+            "chinese": "木村先生最早回家。"
+          },
+          {
+            "japanese": "この町がいちばん便利です。",
+            "chinese": "這城鎮最方便。"
+          },
+          {
+            "japanese": "佐藤さんがいちばん写真を撮ります。",
+            "chinese": "佐藤先生拍照最多。"
+          },
+          {
+            "japanese": "この花がいちばんきれいです。",
+            "chinese": "這花最漂亮。"
+          },
+          {
+            "japanese": "晩ごはんの後でいちばん好きな音楽を聞きます。",
+            "chinese": "晚餐後聽最喜歡的音樂。"
+          },
+          {
+            "japanese": "鈴木さんがいちばん上手です。",
+            "chinese": "鈴木先生最擅長。"
+          },
+          {
+            "japanese": "この部屋がいちばん大きいです。",
+            "chinese": "這房間最大。"
+          },
+          {
+            "japanese": "父がいちばん早く起きます。",
+            "chinese": "爸爸最早起床。"
+          },
+          {
+            "japanese": "母がいちばん料理が上手です。",
+            "chinese": "媽媽最會做菜。"
+          },
+          {
+            "japanese": "弟がいちばんゲームをします。",
+            "chinese": "弟弟最常玩遊戲。"
+          }
+        ]
+      },
+      {
+        "japanese": "…だんめ",
+        "kanji": "…段目",
+        "chinese": "第…層（架子的第…層）",
+        "image": null,
+        "note": "接數字後，表架子的層數",
+        "kanji_note": {
+          "summary": "日語的「写」、「晩」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "direction_position"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "上の段目に本があります。",
+            "chinese": "上面一層有書。"
+          },
+          {
+            "japanese": "一番上の段目に箱があります。",
+            "chinese": "最上面一層有箱子。"
+          },
+          {
+            "japanese": "田中さんは2段目を見ます。",
+            "chinese": "田中先生看第二層。"
+          },
+          {
+            "japanese": "下の段目に物があります。",
+            "chinese": "下面一層有東西。"
+          },
+          {
+            "japanese": "山田さんは3段目に本を置きます。",
+            "chinese": "山田先生把書放在第三層。"
+          },
+          {
+            "japanese": "一番下の段目に靴があります。",
+            "chinese": "最下面一層有鞋。"
+          },
+          {
+            "japanese": "李さんは上の段目を拭きます。",
+            "chinese": "李先生擦上面一層。"
+          },
+          {
+            "japanese": "2段目に写真があります。",
+            "chinese": "第二層有照片。"
+          },
+          {
+            "japanese": "王さんは下の段目を見ます。",
+            "chinese": "王先生看下面一層。"
+          },
+          {
+            "japanese": "3段目にCDがあります。",
+            "chinese": "第三層有CD。"
+          },
+          {
+            "japanese": "妹は一番上の段目を見ます。",
+            "chinese": "妹妹看最上面一層。"
+          },
+          {
+            "japanese": "木村さんは2段目を拭きます。",
+            "chinese": "木村先生擦第二層。"
+          },
+          {
+            "japanese": "一番下の段目に箱があります。",
+            "chinese": "最下面一層有箱子。"
+          },
+          {
+            "japanese": "佐藤さんは上の段目に荷物を置きます。",
+            "chinese": "佐藤先生把行李放在上面一層。"
+          },
+          {
+            "japanese": "晩ごはんの後で下の段目を片付けます。",
+            "chinese": "晚餐後整理下面一層。"
+          },
+          {
+            "japanese": "鈴木さんは3段目を見ます。",
+            "chinese": "鈴木先生看第三層。"
+          },
+          {
+            "japanese": "2段目に電池があります。",
+            "chinese": "第二層有電池。"
+          },
+          {
+            "japanese": "父は一番上の段目に物を置きます。",
+            "chinese": "爸爸把東西放在最上面一層。"
+          },
+          {
+            "japanese": "母は一番下の段目を拭きます。",
+            "chinese": "媽媽擦最下面一層。"
+          },
+          {
+            "japanese": "弟は下の段目に本を置きます。",
+            "chinese": "弟弟把書放在下面一層。"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,511 @@
+/* Blue theme tokens (docs/theme.md) plus shared layout. This file is the only
+   place that may write a colour literal. Every other .vue/.js/.css file reads
+   the tokens below via var(--…). */
+
+:root {
+  color-scheme: light;
+  --ink: #1a2740;
+  --ink-soft: #4d5d78;
+  --column: #f4f8fc;
+  --accent: #1d6adf;
+  --accent-ink: #ffffff;
+  --highlight: #0b7ea8;
+  --note: #9a5b12;
+  --error: #dc2626;
+  --line: rgba(26, 39, 64, 0.12);
+  --surface: #ffffff;
+  --surface-strong: #e7eef6;
+  --bg: #f4f8fc;
+  --muted: #7d8ba3;
+  --tooltip: #1a2740;
+  --tooltip-ink: #ffffff;
+  --radius: 28px;
+  --shadow: 0 18px 40px rgba(16, 40, 80, 0.18);
+  --tint: rgba(26, 39, 64, 0.06);
+  --tint-strong: rgba(26, 39, 64, 0.14);
+  --track: rgba(26, 39, 64, 0.1);
+  --accent-tint: rgba(29, 106, 223, 0.12);
+  --thumb: rgba(26, 39, 64, 0.32);
+  --thumb-edge: rgba(255, 255, 255, 0.18);
+  --overlay: rgba(10, 22, 48, 0.45);
+  --draw-overlay: rgba(8, 16, 32, 0.55);
+  --knob: #ffffff;
+  --shadow-knob: 0 1px 4px rgba(0, 0, 0, 0.25);
+  --shadow-accent: 0 10px 24px rgba(29, 106, 223, 0.28);
+  --shadow-card: 0 12px 30px rgba(16, 40, 80, 0.08);
+  --shadow-float: 0 16px 34px rgba(16, 40, 80, 0.16);
+  --shadow-pop: 0 10px 24px rgba(16, 40, 80, 0.22);
+  --progress-from: #1d6adf;
+  --progress-to: #3db7e8;
+  --error-strong: #8a2f3a;
+  --link-strong: #1d4ed8;
+  --grain-opacity: 0.18;
+  --grain-image:
+    repeating-radial-gradient(circle at 18% 27%, rgba(255, 255, 255, 0.05) 0 1px, transparent 1px 4px),
+    repeating-radial-gradient(circle at 72% 64%, rgba(0, 0, 0, 0.04) 0 1px, transparent 1px 5px);
+  --page-background:
+    radial-gradient(1200px 700px at 15% 10%, #1a4f9c 0%, transparent 60%),
+    radial-gradient(900px 600px at 85% 90%, #49b4d8 0%, transparent 65%),
+    linear-gradient(160deg, #0d2a52 0%, #164a86 48%, #2f8fbe 100%);
+  /* Motion easings match the katsuyou app.css easings; they are not colours. */
+  --ease-slide: cubic-bezier(0.4, 0.3, 0.5, 1);
+  --ease-exit: cubic-bezier(0.4, 0, 1, 1);
+  --ease-turn: cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: 'Hiragino Sans', 'Noto Sans TC', 'Noto Sans JP', sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---------- Dark theme ----------
+   The same palette appears twice on purpose: `data-theme="dark"` is the
+   explicit choice the toggle stores, and the OS preference is the default
+   before src/main.js has run (so a dark phone sees no light flash on the first
+   paint) and everywhere the user has not chosen. `data-theme="light"` keeps
+   the palette above even on a dark OS; it needs no own block because the
+   light tokens already sit in `:root`. `--grain-image` and `--radius` keep the
+   light values, so they are not restated below. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+    --ink: #e7eef8;
+    --ink-soft: #a9b7cc;
+    --column: #101a2b;
+    --accent: #7eb6ff;
+    --accent-ink: #08111f;
+    --highlight: #8fd4f0;
+    --note: #f0b46b;
+    --error: #ff7070;
+    --line: rgba(231, 238, 248, 0.14);
+    --surface: #182436;
+    --surface-strong: #213044;
+    --bg: #0b1220;
+    --muted: #8ea0b8;
+    --tooltip: #243246;
+    --tooltip-ink: #e7eef8;
+    --shadow: 0 18px 40px rgba(0, 0, 0, 0.55);
+    --tint: rgba(231, 238, 248, 0.07);
+    --tint-strong: rgba(231, 238, 248, 0.16);
+    --track: rgba(231, 238, 248, 0.12);
+    --accent-tint: rgba(126, 182, 255, 0.22);
+    --thumb: rgba(231, 238, 248, 0.34);
+    --thumb-edge: rgba(255, 255, 255, 0.14);
+    --overlay: rgba(4, 8, 16, 0.66);
+    --draw-overlay: rgba(2, 5, 12, 0.72);
+    --knob: #e7eef8;
+    --shadow-knob: 0 1px 4px rgba(0, 0, 0, 0.5);
+    --shadow-accent: 0 10px 24px rgba(0, 0, 0, 0.45);
+    --shadow-card: 0 12px 30px rgba(0, 0, 0, 0.45);
+    --shadow-float: 0 16px 34px rgba(0, 0, 0, 0.5);
+    --shadow-pop: 0 10px 24px rgba(0, 0, 0, 0.55);
+    --progress-from: #7eb6ff;
+    --progress-to: #5ec8e6;
+    --error-strong: #ff9a9a;
+    --link-strong: #9ec5ff;
+    --grain-opacity: 0.16;
+    --page-background:
+      radial-gradient(1200px 700px at 15% 10%, #14386e 0%, transparent 60%),
+      radial-gradient(900px 600px at 85% 90%, #0e4a5c 0%, transparent 65%),
+      linear-gradient(160deg, #070d18 0%, #101c30 48%, #0c3044 100%);
+  }
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --ink: #e7eef8;
+  --ink-soft: #a9b7cc;
+  --column: #101a2b;
+  --accent: #7eb6ff;
+  --accent-ink: #08111f;
+  --highlight: #8fd4f0;
+  --note: #f0b46b;
+  --error: #ff7070;
+  --line: rgba(231, 238, 248, 0.14);
+  --surface: #182436;
+  --surface-strong: #213044;
+  --bg: #0b1220;
+  --muted: #8ea0b8;
+  --tooltip: #243246;
+  --tooltip-ink: #e7eef8;
+  --shadow: 0 18px 40px rgba(0, 0, 0, 0.55);
+  --tint: rgba(231, 238, 248, 0.07);
+  --tint-strong: rgba(231, 238, 248, 0.16);
+  --track: rgba(231, 238, 248, 0.12);
+  --accent-tint: rgba(126, 182, 255, 0.22);
+  --thumb: rgba(231, 238, 248, 0.34);
+  --thumb-edge: rgba(255, 255, 255, 0.14);
+  --overlay: rgba(4, 8, 16, 0.66);
+  --draw-overlay: rgba(2, 5, 12, 0.72);
+  --knob: #e7eef8;
+  --shadow-knob: 0 1px 4px rgba(0, 0, 0, 0.5);
+  --shadow-accent: 0 10px 24px rgba(0, 0, 0, 0.45);
+  --shadow-card: 0 12px 30px rgba(0, 0, 0, 0.45);
+  --shadow-float: 0 16px 34px rgba(0, 0, 0, 0.5);
+  --shadow-pop: 0 10px 24px rgba(0, 0, 0, 0.55);
+  --progress-from: #7eb6ff;
+  --progress-to: #5ec8e6;
+  --error-strong: #ff9a9a;
+  --link-strong: #9ec5ff;
+  --grain-opacity: 0.16;
+  --page-background:
+    radial-gradient(1200px 700px at 15% 10%, #14386e 0%, transparent 60%),
+    radial-gradient(900px 600px at 85% 90%, #0e4a5c 0%, transparent 65%),
+    linear-gradient(160deg, #070d18 0%, #101c30 48%, #0c3044 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  /* The page is a fixed-size phone screen: the viewport meta pins the scale
+     and `manipulation` stops Chrome from reading a double tap as a zoom
+     gesture on any surface that declares nothing of its own. Pinch is handled
+     by the meta, so the gesture surfaces keep their own `pan-y`. */
+  touch-action: manipulation;
+  overscroll-behavior-y: none;
+  overflow-x: clip;
+}
+
+html {
+  scrollbar-width: none;
+  overscroll-behavior: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  color: var(--ink);
+  background: var(--page-background);
+  background-attachment: fixed;
+  background-size: 160% 160%;
+  animation: background-drift 30s ease-in-out infinite alternate;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: var(--grain-opacity);
+  background-image: var(--grain-image);
+  mix-blend-mode: soft-light;
+}
+
+#app {
+  min-height: 100vh;
+  min-height: 100dvh;
+  overflow-x: clip;
+}
+
+.app-shell {
+  display: flex;
+  justify-content: center;
+  padding: max(16px, env(safe-area-inset-top)) 16px 24px;
+  overflow-x: clip;
+}
+
+.column {
+  width: min(100%, 480px);
+  min-height: calc(100vh - 40px);
+  min-height: calc(100dvh - 40px);
+  --page-gutter: 24px;
+  padding: 24px var(--page-gutter) 0;
+  border-radius: var(--radius);
+  background: var(--column);
+  box-shadow: var(--shadow);
+}
+
+@keyframes background-drift {
+  from {
+    background-position: 0% 0%, 100% 100%, 50% 50%;
+  }
+  to {
+    background-position: 18% 12%, 80% 84%, 50% 50%;
+  }
+}
+
+/* Screen changes: short fade. */
+.screen-enter-active,
+.screen-leave-active {
+  transition: opacity 220ms ease;
+}
+
+.screen-enter-from,
+.screen-leave-to {
+  opacity: 0;
+}
+
+/* Buttons. Controls are 36px with a 10px radius, except the sizes named on
+   each screen. */
+.button {
+  min-height: 36px;
+  padding: 5px 16px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  font: inherit;
+  cursor: pointer;
+  transition: transform 140ms ease, background 140ms ease;
+}
+
+.button:active:not(:disabled) {
+  transform: scale(0.97);
+}
+
+.button.primary {
+  background: var(--accent);
+  color: var(--accent-ink);
+  box-shadow: var(--shadow-accent);
+}
+
+.button.ghost {
+  background: transparent;
+  border-color: var(--line);
+  color: var(--ink);
+}
+
+.button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+/* Top-bar icon buttons. Match the 48px bar so they fill its height. */
+.icon-button {
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border-radius: 12px;
+  cursor: pointer;
+  flex: 0 0 48px;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.icon-button svg {
+  display: block;
+}
+
+.icon-button:hover {
+  background: var(--tint);
+}
+
+/* Every screen's top bar. */
+.bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 48px;
+}
+
+.bar--sticky {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background: var(--column);
+}
+
+.bar-title {
+  flex: 1;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.bar-spacer {
+  flex: 0 0 48px;
+}
+
+/* A horizontal rule between two settings rows: its own 1px element in
+   --line, not a border on the row. */
+.hrule {
+  display: block;
+  flex: 0 0 1px;
+  height: 1px;
+  margin: 0;
+  border: 0;
+  background: var(--line);
+}
+
+/* 3×3 隨機抽卡 board and card. The stage card and overlay are appended to
+   <body> by src/study/quiz/draw-animation.js, so these live here (global) and
+   read only tokens. All colours stay in this file. */
+.draw-board {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(8px, 2.6vw, 13px);
+}
+
+.draw-board--busy .draw-card {
+  opacity: 0.13;
+  filter: blur(1.5px);
+  pointer-events: none;
+}
+
+.draw-card {
+  position: relative;
+  min-width: 0;
+  aspect-ratio: 3 / 4;
+  padding: 0;
+  border: 0;
+  border-radius: 14px;
+  background: transparent;
+  perspective: 1000px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.draw-card:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+.draw-card-inner {
+  position: absolute;
+  inset: 0;
+  transform-style: preserve-3d;
+}
+
+.draw-card-face {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.draw-card-back {
+  background: linear-gradient(145deg, var(--surface), var(--surface-strong) 66%, var(--accent-tint));
+}
+
+.draw-card-back::before {
+  content: '';
+  position: absolute;
+  inset: 7px;
+  border: 1px solid var(--accent);
+  opacity: 0.35;
+  border-radius: 9px;
+}
+
+.draw-card-back::after {
+  content: '?';
+  color: var(--muted);
+  font-size: clamp(30px, 8vw, 44px);
+}
+
+.draw-card-front {
+  transform: rotateY(180deg);
+  padding: 9px;
+  text-align: center;
+  background: linear-gradient(150deg, var(--surface-strong), var(--surface));
+}
+
+.draw-card-name {
+  font-size: clamp(10px, 2.9vw, 15px);
+  font-weight: 800;
+  line-height: 1.4;
+  color: var(--ink);
+}
+
+.draw-card--done {
+  cursor: default;
+}
+
+.draw-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  background: var(--draw-overlay);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.32s ease;
+}
+
+.draw-overlay--visible {
+  opacity: 1;
+}
+
+.draw-stage-card {
+  position: fixed !important;
+  z-index: 10001 !important;
+  margin: 0 !important;
+  aspect-ratio: auto !important;
+  transform-origin: center center;
+  cursor: default !important;
+  box-shadow: var(--shadow-float);
+  perspective: 1200px;
+}
+
+.draw-stage-card .draw-card-face {
+  border-radius: 19px;
+}
+
+.draw-stage-card .draw-card-name {
+  font-size: clamp(18px, 4vw, 25px);
+}
+
+/* Narrow widths (550px or less): the column fills the browser and the
+   gradient/grain are dropped, so the UI itself is the page. */
+@media (max-width: 550px) {
+  body {
+    background: var(--column);
+    animation: none;
+  }
+
+  body::after {
+    display: none;
+  }
+
+  .app-shell {
+    padding: 0;
+  }
+
+  .column {
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100dvh;
+    --page-gutter: 16px;
+    padding: 20px var(--page-gutter) 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body {
+    animation: none !important;
+  }
+
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+  }
+
+  .screen-enter-active,
+  .screen-leave-active {
+    transition-duration: 140ms !important;
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "files": [
+    {
+      "name": "lesson_1.json",
+      "id": "lesson_1",
+      "sha256": "d96edbe5564bfdb0f13e2e88f7e08770dc510b7f61d42a519ab7e25855650d7c"
+    },
+    {
+      "name": "lesson_2.json",
+      "id": "lesson_2",
+      "sha256": "e2449f8426abc62fbec6ee57aa1c89627277553ff7e0b605bab99d7295961e3f"
+    },
+    {
+      "name": "lesson_3.json",
+      "id": "lesson_3",
+      "sha256": "54e9d480821240dcc542d2e7d1908cace25ab7eb900d1878b2f7abc0895037e9"
+    },
+    {
+      "name": "lesson_4.json",
+      "id": "lesson_4",
+      "sha256": "a9ea3736bca0b514e92064c27bbd254326e43fcbdb9b9391fdb6aecb831b4cf8"
+    },
+    {
+      "name": "lesson_5.json",
+      "id": "lesson_5",
+      "sha256": "7d9f5529ef19c166ab9c57aa178e1989f119e988685716e5e7e52daa6ae2819d"
+    },
+    {
+      "name": "lesson_6.json",
+      "id": "lesson_6",
+      "sha256": "0eb61bbfe34132b0917967f07e67fafbff9777c07c22f1dfbad59873abb0cd06"
+    },
+    {
+      "name": "lesson_7.json",
+      "id": "lesson_7",
+      "sha256": "5227f9d625de7d8084694bc7ac49876a092bd96fedc7c8e8b9a818704ba97e18"
+    },
+    {
+      "name": "lesson_8.json",
+      "id": "lesson_8",
+      "sha256": "c1049fcffc5856e0c9448b6de7df4ac7fd27ee3a7060641f6903df40d7a609a2"
+    },
+    {
+      "name": "lesson_9.json",
+      "id": "lesson_9",
+      "sha256": "a8dac67ea7f3d1c7d71f1d5889a76ebd3a6c4179f8fb0d85a74e2dcc7a0ecf19"
+    },
+    {
+      "name": "lesson_10.json",
+      "id": "lesson_10",
+      "sha256": "6d14f9cffb1c63e385c3c4299867cd9383a2c0e5d859d0a447b08be956352469"
+    },
+    {
+      "name": "lesson_11.json",
+      "id": "lesson_11",
+      "sha256": "d14a760334b084343b1b4157b1f286774f7b76af0d94944fd360682c3f12469e"
+    },
+    {
+      "name": "lesson_12.json",
+      "id": "lesson_12",
+      "sha256": "9ae6f58fba1050a5b9da8428b22546936678bb7834d6d4c1fbf3d4ec9783309f"
+    },
+    {
+      "name": "lesson_13.json",
+      "id": "lesson_13",
+      "sha256": "ccf2935685e2cadecf1f480bfe559532a61c266698a125b3ba17cd17b59bcce9"
+    },
+    {
+      "name": "lesson_14.json",
+      "id": "lesson_14",
+      "sha256": "3243016f48c0fbe7aac3b1dba13c5e1c06ca9bc89824ac507746221c1dfb21bd"
+    },
+    {
+      "name": "lesson_15.json",
+      "id": "lesson_15",
+      "sha256": "e3dc44faab82c3c93e415d652af395248502e526ebea2ae7bbdd9faf58d4a756"
+    },
+    {
+      "name": "lesson_16.json",
+      "id": "lesson_16",
+      "sha256": "c3fc84e92b476b35c83739b81cbf72bc0c2f0c24d4caa8de2d77a98175b881f4"
+    },
+    {
+      "name": "lesson_17.json",
+      "id": "lesson_17",
+      "sha256": "8a3a799d7ddadbc2b1223b10a5c50ed1e45f1c2a4f3d3d3de1c53a3ddac57168"
+    },
+    {
+      "name": "lesson_18.json",
+      "id": "lesson_18",
+      "sha256": "329208bcb7713a0b552f28c981ebf6001c3d35f1acde3f1bbb54f8543c62852e"
+    },
+    {
+      "name": "lesson_19.json",
+      "id": "lesson_19",
+      "sha256": "6038c086f22261c38ebe4694cc8805e20a0ab173cdc8e4047efb6457c2c83475"
+    },
+    {
+      "name": "lesson_20.json",
+      "id": "lesson_20",
+      "sha256": "8bab90c60dcccac1bc18a73fedb4bf844762efc1042132f8f4bc296fcdcb1752"
+    },
+    {
+      "name": "lesson_21.json",
+      "id": "lesson_21",
+      "sha256": "f96e5657f7c40657123eaa2b4025ec9c01ed96b137453ae05dbe01ee348fcd8f"
+    },
+    {
+      "name": "lesson_22.json",
+      "id": "lesson_22",
+      "sha256": "1bf055bff64fe80c103a5dc9648688e67bb8e5905a3ca0081682535052d4280b"
+    },
+    {
+      "name": "lesson_23.json",
+      "id": "lesson_23",
+      "sha256": "ef068259f567bef850597aac07c06b6d0ab5db4bcddbb2f7733ed407943d1494"
+    },
+    {
+      "name": "lesson_24.json",
+      "id": "lesson_24",
+      "sha256": "c3e774889c2514b93170c8b98cc04c6943501dcf1854334ca3c6491fcc86f73c"
+    },
+    {
+      "name": "lesson_25.json",
+      "id": "lesson_25",
+      "sha256": "3fe2c094d3ec07a68e86532ca472d39133febc2508759b6a6bd123141cf46b74"
+    },
+    {
+      "name": "lesson_26.json",
+      "id": "lesson_26",
+      "sha256": "29c92854c6b1e9ecc88a964d76e4bcc4887f9ba1ea6af7947758e143d0eaa4f1"
+    },
+    {
+      "name": "lesson_27.json",
+      "id": "lesson_27",
+      "sha256": "f467815961a28f1c48049e25b5008e7a8231ad68091da9f9dca8e184086eabac"
+    },
+    {
+      "name": "lesson_28.json",
+      "id": "lesson_28",
+      "sha256": "6262a20427e639b790fe73742d6925844fab6eb1fec58b6a6f38ff04ee000745"
+    },
+    {
+      "name": "lesson_29.json",
+      "id": "lesson_29",
+      "sha256": "880092fce2f8d1be54a51f1d87b781446d8c812a3f7fc7615b9c11b8b3451d36"
+    },
+    {
+      "name": "lesson_30.json",
+      "id": "lesson_30",
+      "sha256": "c068325f64f4ec93822c8cf644c6fd13f875d13526869f0ed2361e4c4a1e050b"
+    },
+    {
+      "name": "lesson_31.json",
+      "id": "lesson_31",
+      "sha256": "994933f49567448819c5e5149bb70855d2ed24de0149b389ab19134fd9f8a971"
+    },
+    {
+      "name": "lesson_32.json",
+      "id": "lesson_32",
+      "sha256": "fa0cd662e256b0ca910fe2ec2a4ddf333eab99f2287c94a67a0d329cafc98284"
+    },
+    {
+      "name": "lesson_33.json",
+      "id": "lesson_33",
+      "sha256": "0f042651c74da3db2a01db897d4650f5efba2077618837050ba21b0ceef7b5e5"
+    },
+    {
+      "name": "lesson_34.json",
+      "id": "lesson_34",
+      "sha256": "76a48090fe09d9531243723698a27b880d012f031cf4887741ba6983c1d5c746"
+    },
+    {
+      "name": "lesson_35.json",
+      "id": "lesson_35",
+      "sha256": "3553d50d9322c547da6e06a78d8e2e002f125a1795fe9deef0e71a701cbe1747"
+    },
+    {
+      "name": "lesson_36.json",
+      "id": "lesson_36",
+      "sha256": "c5ee6bbf073dbb0953bc8b618b67c5ea90c4e18f6419ce75c2e415d7517e1e2f"
+    },
+    {
+      "name": "lesson_37.json",
+      "id": "lesson_37",
+      "sha256": "28758eaae24abd66839679de2b34ae81664e55a381b16c9c87931d20d794b569"
+    },
+    {
+      "name": "lesson_38.json",
+      "id": "lesson_38",
+      "sha256": "165b4a0738818afe13cbc02713a146d7c8df0ab4976a14455fdbe1a6b29da2c4"
+    },
+    {
+      "name": "lesson_39.json",
+      "id": "lesson_39",
+      "sha256": "13d3d96e5d23e33769465c0fb9d8b5bdfdacc3b6925a8e6e3972b93f9693a744"
+    },
+    {
+      "name": "lesson_40.json",
+      "id": "lesson_40",
+      "sha256": "1d60f65f8bced392b89ade97928142d3df491e9a34943437a09d93536ca13d74"
+    },
+    {
+      "name": "lesson_41.json",
+      "id": "lesson_41",
+      "sha256": "60070140db53610a45edca6a3db1e308ea025fcc7af17017f8f4b1c19cf7425b"
+    },
+    {
+      "name": "lesson_42.json",
+      "id": "lesson_42",
+      "sha256": "a9aa2f3dec8227ee7c989616bc6008ddc1216b9366aadec33a7f30ffe9f539d1"
+    },
+    {
+      "name": "lesson_43.json",
+      "id": "lesson_43",
+      "sha256": "d59de2cf6a133e5e71e7a214a12d0e69998c6c6d16c31c889882190d9829f931"
+    },
+    {
+      "name": "lesson_44.json",
+      "id": "lesson_44",
+      "sha256": "d143a3f5f7767a2dc9ccae21b9342b0900725c406c8ad69743b59ecd76d5e672"
+    },
+    {
+      "name": "lesson_45.json",
+      "id": "lesson_45",
+      "sha256": "4d843d4e9bac6b455636d4a0aa358256123f9701b02669c74e52673571874b4a"
+    },
+    {
+      "name": "lesson_46.json",
+      "id": "lesson_46",
+      "sha256": "4211f8a0dc489cf696f318238d1202422e2f2260e9adf18014fc26e1938dabe2"
+    },
+    {
+      "name": "lesson_47.json",
+      "id": "lesson_47",
+      "sha256": "606ece83f23a9e232a585f9f87fa80a45c2381de8bd61db754120c461d223b45"
+    },
+    {
+      "name": "lesson_48.json",
+      "id": "lesson_48",
+      "sha256": "af606823af0f8a6640d598b2c572e28330413e37169fcb627f42a0b7404f74d1"
+    },
+    {
+      "name": "lesson_49.json",
+      "id": "lesson_49",
+      "sha256": "0cbc96bb98a4082c07161b694badf28368f4c09f24a4004d84e399912693736b"
+    },
+    {
+      "name": "lesson_50.json",
+      "id": "lesson_50",
+      "sha256": "8a973e79a58475cd19f41779f8da4f9da9c8c19a0cc5d1fa2b402fcc4d1bcd46"
+    }
+  ]
+}

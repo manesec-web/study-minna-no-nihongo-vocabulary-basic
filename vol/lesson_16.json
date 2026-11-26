@@ -1,0 +1,4871 @@
+{
+  "lesson_16": {
+    "vols": [
+      {
+        "japanese": "のります",
+        "kanji": "乗ります",
+        "chinese": "搭乘〔電車〕",
+        "image": null,
+        "note": "常搭配「電車に乗ります」",
+        "kanji_note": {
+          "summary": "日語的「線」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "乗",
+              "zh": "乘",
+              "note": null
+            },
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "線",
+              "zh": "線",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "転",
+              "zh": "轉",
+              "note": null
+            },
+            {
+              "jp": "鉄",
+              "zh": "鐵",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "transportation_movement"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_1"
+        ],
+        "sentence": [
+          {
+            "japanese": "毎朝7時の電車に乗ります。",
+            "chinese": "每天早上搭七點的電車。"
+          },
+          {
+            "japanese": "駅の前でバスに乗ります。",
+            "chinese": "在車站前面搭公車。"
+          },
+          {
+            "japanese": "東京まで新幹線に乗ります。",
+            "chinese": "搭新幹線到東京。"
+          },
+          {
+            "japanese": "雨の日はタクシーに乗ります。",
+            "chinese": "下雨天就搭計程車。"
+          },
+          {
+            "japanese": "ここで地下鉄に乗ります。",
+            "chinese": "在這裡搭地下鐵。"
+          },
+          {
+            "japanese": "田中さんは京都行きの電車に乗ります。",
+            "chinese": "田中先生搭往京都的電車。"
+          },
+          {
+            "japanese": "空港行きのバスに乗ります。",
+            "chinese": "搭往機場的公車。"
+          },
+          {
+            "japanese": "母と一緒に電車に乗ります。",
+            "chinese": "跟媽媽一起搭電車。"
+          },
+          {
+            "japanese": "この電車に乗りますか。",
+            "chinese": "要搭這班電車嗎？"
+          },
+          {
+            "japanese": "山田さんは毎日自転車に乗ります。",
+            "chinese": "山田先生每天騎自行車。"
+          },
+          {
+            "japanese": "大阪へは飛行機に乗ります。",
+            "chinese": "去大阪搭飛機。"
+          },
+          {
+            "japanese": "弟は学校のバスに乗ります。",
+            "chinese": "弟弟搭學校的公車。"
+          },
+          {
+            "japanese": "会社へは地下鉄に乗ります。",
+            "chinese": "去公司搭地下鐵。"
+          },
+          {
+            "japanese": "週末は車に乗ります。",
+            "chinese": "週末就開車。"
+          },
+          {
+            "japanese": "木村さんは船に乗ります。",
+            "chinese": "木村先生搭船。"
+          },
+          {
+            "japanese": "8時のバスに乗ります。",
+            "chinese": "搭八點的公車。"
+          },
+          {
+            "japanese": "友達と電車に乗ります。",
+            "chinese": "跟朋友一起搭電車。"
+          },
+          {
+            "japanese": "鈴木さんは初めて飛行機に乗ります。",
+            "chinese": "鈴木先生第一次搭飛機。"
+          },
+          {
+            "japanese": "この先の駅で電車に乗ります。",
+            "chinese": "在前面那一站搭電車。"
+          },
+          {
+            "japanese": "佐藤さんは毎朝同じ電車に乗ります。",
+            "chinese": "佐藤先生每天早上搭同一班電車。"
+          }
+        ]
+      },
+      {
+        "japanese": "おります",
+        "kanji": "降ります",
+        "chinese": "下〔電車〕",
+        "image": null,
+        "note": "常搭配「電車を降ります」",
+        "kanji_note": {
+          "summary": "日語的「終」、「線」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "横",
+              "zh": "橫",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "浜",
+              "zh": "濱",
+              "note": null
+            },
+            {
+              "jp": "点",
+              "zh": "點",
+              "note": null
+            },
+            {
+              "jp": "終",
+              "zh": "終",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "線",
+              "zh": "線",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "鉄",
+              "zh": "鐵",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "transportation_movement"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_2"
+        ],
+        "sentence": [
+          {
+            "japanese": "次の駅で電車を降ります。",
+            "chinese": "在下一站下電車。"
+          },
+          {
+            "japanese": "東京駅で新幹線を降ります。",
+            "chinese": "在東京車站下新幹線。"
+          },
+          {
+            "japanese": "このバス停で降ります。",
+            "chinese": "在這一站下公車。"
+          },
+          {
+            "japanese": "会社の前でタクシーを降ります。",
+            "chinese": "在公司前面下計程車。"
+          },
+          {
+            "japanese": "空港で飛行機を降ります。",
+            "chinese": "在機場下飛機。"
+          },
+          {
+            "japanese": "田中さんは横浜で降ります。",
+            "chinese": "田中先生在橫濱下車。"
+          },
+          {
+            "japanese": "ここで電車を降ります。",
+            "chinese": "在這裡下電車。"
+          },
+          {
+            "japanese": "母はデパートの前でバスを降ります。",
+            "chinese": "媽媽在百貨公司前面下公車。"
+          },
+          {
+            "japanese": "終点で降ります。",
+            "chinese": "在終點站下車。"
+          },
+          {
+            "japanese": "山田さんは毎朝同じ駅で降ります。",
+            "chinese": "山田先生每天早上在同一站下車。"
+          },
+          {
+            "japanese": "この駅で降りますか。",
+            "chinese": "在這一站下車嗎？"
+          },
+          {
+            "japanese": "妹は学校の前でバスを降ります。",
+            "chinese": "妹妹在學校前面下公車。"
+          },
+          {
+            "japanese": "京都で新幹線を降ります。",
+            "chinese": "在京都下新幹線。"
+          },
+          {
+            "japanese": "木村さんは次の駅で降ります。",
+            "chinese": "木村先生在下一站下車。"
+          },
+          {
+            "japanese": "駅の改札の前で降ります。",
+            "chinese": "在車站剪票口前下車。"
+          },
+          {
+            "japanese": "兄は会社の近くで地下鉄を降ります。",
+            "chinese": "哥哥在公司附近下地下鐵。"
+          },
+          {
+            "japanese": "雨の日もここで降ります。",
+            "chinese": "下雨天也在這裡下車。"
+          },
+          {
+            "japanese": "鈴木さんは名古屋で降ります。",
+            "chinese": "鈴木先生在名古屋下車。"
+          },
+          {
+            "japanese": "バスから降ります。",
+            "chinese": "從公車上下來。"
+          },
+          {
+            "japanese": "佐藤さんはすぐ電車を降ります。",
+            "chinese": "佐藤先生馬上下電車。"
+          }
+        ]
+      },
+      {
+        "japanese": "のりかえます",
+        "kanji": "乗り換えます",
+        "chinese": "換車",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「線」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "乗",
+              "zh": "乘",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "横",
+              "zh": "橫",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "浜",
+              "zh": "濱",
+              "note": null
+            },
+            {
+              "jp": "渋",
+              "zh": "澀",
+              "note": null
+            },
+            {
+              "jp": "線",
+              "zh": "線",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "鉄",
+              "zh": "鐵",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "transportation_movement"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_2"
+        ],
+        "sentence": [
+          {
+            "japanese": "東京で地下鉄に乗り換えます。",
+            "chinese": "在東京換搭地下鐵。"
+          },
+          {
+            "japanese": "駅のホームで電車に乗り換えます。",
+            "chinese": "在車站月台換電車。"
+          },
+          {
+            "japanese": "大阪で新幹線に乗り換えます。",
+            "chinese": "在大阪換新幹線。"
+          },
+          {
+            "japanese": "ここからバスに乗り換えます。",
+            "chinese": "從這裡換搭公車。"
+          },
+          {
+            "japanese": "京都駅で電車を乗り換えます。",
+            "chinese": "在京都車站換電車。"
+          },
+          {
+            "japanese": "田中さんは名古屋で乗り換えます。",
+            "chinese": "田中先生在名古屋換車。"
+          },
+          {
+            "japanese": "空港で飛行機に乗り換えます。",
+            "chinese": "在機場換搭飛機。"
+          },
+          {
+            "japanese": "次の駅で地下鉄に乗り換えます。",
+            "chinese": "在下一站換搭地下鐵。"
+          },
+          {
+            "japanese": "山田さんは横浜で電車を乗り換えます。",
+            "chinese": "山田先生在橫濱換電車。"
+          },
+          {
+            "japanese": "この電車からバスに乗り換えます。",
+            "chinese": "從這班電車換搭公車。"
+          },
+          {
+            "japanese": "新宿で乗り換えます。",
+            "chinese": "在新宿換車。"
+          },
+          {
+            "japanese": "母はデパートの前でバスに乗り換えます。",
+            "chinese": "媽媽在百貨公司前面換搭公車。"
+          },
+          {
+            "japanese": "北海道行きの飛行機に乗り換えます。",
+            "chinese": "換搭往北海道的飛機。"
+          },
+          {
+            "japanese": "木村さんは毎日この駅で乗り換えます。",
+            "chinese": "木村先生每天在這個車站換車。"
+          },
+          {
+            "japanese": "渋谷で電車に乗り換えます。",
+            "chinese": "在澀谷換電車。"
+          },
+          {
+            "japanese": "弟は学校の前でバスに乗り換えます。",
+            "chinese": "弟弟在學校前面換搭公車。"
+          },
+          {
+            "japanese": "名古屋駅で新幹線に乗り換えます。",
+            "chinese": "在名古屋車站換新幹線。"
+          },
+          {
+            "japanese": "鈴木さんは福岡で電車を乗り換えます。",
+            "chinese": "鈴木先生在福岡換電車。"
+          },
+          {
+            "japanese": "ホテルの前でタクシーに乗り換えます。",
+            "chinese": "在飯店前面換搭計程車。"
+          },
+          {
+            "japanese": "佐藤さんはこの駅から地下鉄に乗り換えます。",
+            "chinese": "佐藤先生從這個車站換搭地下鐵。"
+          }
+        ]
+      },
+      {
+        "japanese": "あびます",
+        "kanji": "浴びます",
+        "chinese": "沖〔淋浴〕",
+        "image": null,
+        "note": "常搭配「シャワーを浴びます」",
+        "kanji_note": {
+          "summary": "日語的「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "action_activity"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_2"
+        ],
+        "sentence": [
+          {
+            "japanese": "毎朝シャワーを浴びます。",
+            "chinese": "每天早上沖澡。"
+          },
+          {
+            "japanese": "運動の後でシャワーを浴びます。",
+            "chinese": "運動後沖澡。"
+          },
+          {
+            "japanese": "暑い日に冷たいシャワーを浴びます。",
+            "chinese": "熱天沖冷水澡。"
+          },
+          {
+            "japanese": "田中さんは仕事の後でシャワーを浴びます。",
+            "chinese": "田中先生下班後沖澡。"
+          },
+          {
+            "japanese": "ジムでシャワーを浴びます。",
+            "chinese": "在健身房沖澡。"
+          },
+          {
+            "japanese": "プールの後でシャワーを浴びます。",
+            "chinese": "游完泳沖澡。"
+          },
+          {
+            "japanese": "山田さんは毎晩シャワーを浴びます。",
+            "chinese": "山田先生每天晚上沖澡。"
+          },
+          {
+            "japanese": "夜、お風呂の前にシャワーを浴びます。",
+            "chinese": "晚上洗澡前先沖澡。"
+          },
+          {
+            "japanese": "木村さんは朝シャワーを浴びます。",
+            "chinese": "木村先生早上沖澡。"
+          },
+          {
+            "japanese": "サッカーの後でシャワーを浴びます。",
+            "chinese": "踢完足球後沖澡。"
+          },
+          {
+            "japanese": "母は料理の後でシャワーを浴びます。",
+            "chinese": "媽媽做完飯後沖澡。"
+          },
+          {
+            "japanese": "旅館でシャワーを浴びます。",
+            "chinese": "在旅館沖澡。"
+          },
+          {
+            "japanese": "鈴木さんは海で水を浴びます。",
+            "chinese": "鈴木先生在海邊沖水。"
+          },
+          {
+            "japanese": "今からシャワーを浴びます。",
+            "chinese": "現在去沖澡。"
+          },
+          {
+            "japanese": "妹は朝と夜シャワーを浴びます。",
+            "chinese": "妹妹早晚沖澡。"
+          },
+          {
+            "japanese": "兄はジムでシャワーを浴びます。",
+            "chinese": "哥哥在健身房沖澡。"
+          },
+          {
+            "japanese": "佐藤さんは毎朝シャワーを浴びます。",
+            "chinese": "佐藤先生每天早上沖澡。"
+          },
+          {
+            "japanese": "このホテルでシャワーを浴びます。",
+            "chinese": "在這家飯店沖澡。"
+          },
+          {
+            "japanese": "王さんはプールの後でシャワーを浴びます。",
+            "chinese": "王先生游完泳沖澡。"
+          },
+          {
+            "japanese": "李さんは夜9時にシャワーを浴びます。",
+            "chinese": "李先生晚上九點沖澡。"
+          }
+        ]
+      },
+      {
+        "japanese": "いれます",
+        "kanji": "入れます",
+        "chinese": "放入，放進",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「写」、「塩」、「蔵」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "塩",
+              "zh": "鹽",
+              "note": null
+            },
+            {
+              "jp": "蔵",
+              "zh": "藏",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "action_activity"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_2"
+        ],
+        "sentence": [
+          {
+            "japanese": "本をかばんに入れます。",
+            "chinese": "把書放進書包。"
+          },
+          {
+            "japanese": "お茶をカップに入れます。",
+            "chinese": "把茶倒進杯子。"
+          },
+          {
+            "japanese": "牛乳を冷蔵庫に入れます。",
+            "chinese": "把牛奶放進冰箱。"
+          },
+          {
+            "japanese": "砂糖をコーヒーに入れます。",
+            "chinese": "把砂糖加進咖啡。"
+          },
+          {
+            "japanese": "田中さんは資料を封筒に入れます。",
+            "chinese": "田中先生把資料放進信封。"
+          },
+          {
+            "japanese": "鍵をポケットに入れます。",
+            "chinese": "把鑰匙放進口袋。"
+          },
+          {
+            "japanese": "塩を料理に入れます。",
+            "chinese": "把鹽加進料理。"
+          },
+          {
+            "japanese": "山田さんは服をスーツケースに入れます。",
+            "chinese": "山田先生把衣服放進行李箱。"
+          },
+          {
+            "japanese": "ゴミをゴミ箱に入れます。",
+            "chinese": "把垃圾放進垃圾桶。"
+          },
+          {
+            "japanese": "木村さんはお金を財布に入れます。",
+            "chinese": "木村先生把錢放進錢包。"
+          },
+          {
+            "japanese": "花を花瓶に入れます。",
+            "chinese": "把花插進花瓶。"
+          },
+          {
+            "japanese": "母はお菓子を箱に入れます。",
+            "chinese": "媽媽把點心放進箱子。"
+          },
+          {
+            "japanese": "水をコップに入れます。",
+            "chinese": "把水倒進杯子。"
+          },
+          {
+            "japanese": "鈴木さんはコートをクローゼットに入れます。",
+            "chinese": "鈴木先生把外套放進衣櫃。"
+          },
+          {
+            "japanese": "写真を本に入れます。",
+            "chinese": "把照片夾進書裡。"
+          },
+          {
+            "japanese": "妹はりんごをかばんに入れます。",
+            "chinese": "妹妹把蘋果放進書包。"
+          },
+          {
+            "japanese": "切手をアルバムに入れます。",
+            "chinese": "把郵票放進集郵冊。"
+          },
+          {
+            "japanese": "兄は本を本棚に入れます。",
+            "chinese": "哥哥把書放進書架。"
+          },
+          {
+            "japanese": "佐藤さんはゴミを袋に入れます。",
+            "chinese": "佐藤先生把垃圾放進袋子。"
+          },
+          {
+            "japanese": "この箱にプレゼントを入れます。",
+            "chinese": "把禮物放進這個箱子。"
+          }
+        ]
+      },
+      {
+        "japanese": "だします",
+        "kanji": "出します",
+        "chinese": "拿出，取出",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「紙」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "帯",
+              "zh": "帶",
+              "note": null
+            },
+            {
+              "jp": "紙",
+              "zh": "紙",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "蔵",
+              "zh": "藏",
+              "note": null
+            },
+            {
+              "jp": "辞",
+              "zh": "辭",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "action_activity"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_1"
+        ],
+        "sentence": [
+          {
+            "japanese": "財布からお金を出します。",
+            "chinese": "從錢包拿出錢。"
+          },
+          {
+            "japanese": "かばんから本を出します。",
+            "chinese": "從書包拿出書。"
+          },
+          {
+            "japanese": "ポケットから鍵を出します。",
+            "chinese": "從口袋拿出鑰匙。"
+          },
+          {
+            "japanese": "冷蔵庫から牛乳を出します。",
+            "chinese": "從冰箱拿出牛奶。"
+          },
+          {
+            "japanese": "田中さんは引き出しから書類を出します。",
+            "chinese": "田中先生從抽屜拿出文件。"
+          },
+          {
+            "japanese": "箱からお菓子を出します。",
+            "chinese": "從箱子拿出點心。"
+          },
+          {
+            "japanese": "封筒から手紙を出します。",
+            "chinese": "從信封拿出信。"
+          },
+          {
+            "japanese": "山田さんは本棚から辞書を出します。",
+            "chinese": "山田先生從書架拿出辭典。"
+          },
+          {
+            "japanese": "スーツケースから服を出します。",
+            "chinese": "從行李箱拿出衣服。"
+          },
+          {
+            "japanese": "木村さんは机の上から本を出します。",
+            "chinese": "木村先生從桌上拿出書。"
+          },
+          {
+            "japanese": "かばんから携帯を出します。",
+            "chinese": "從書包拿出手機。"
+          },
+          {
+            "japanese": "母は冷蔵庫から野菜を出します。",
+            "chinese": "媽媽從冰箱拿出蔬菜。"
+          },
+          {
+            "japanese": "ポケットから財布を出します。",
+            "chinese": "從口袋拿出錢包。"
+          },
+          {
+            "japanese": "鈴木さんは車から荷物を出します。",
+            "chinese": "鈴木先生從車上拿出行李。"
+          },
+          {
+            "japanese": "棚から箱を出します。",
+            "chinese": "從架子拿出箱子。"
+          },
+          {
+            "japanese": "妹は引き出しから人形を出します。",
+            "chinese": "妹妹從抽屜拿出娃娃。"
+          },
+          {
+            "japanese": "クローゼットからコートを出します。",
+            "chinese": "從衣櫃拿出外套。"
+          },
+          {
+            "japanese": "兄は冷蔵庫から卵を出します。",
+            "chinese": "哥哥從冰箱拿出雞蛋。"
+          },
+          {
+            "japanese": "佐藤さんは会議で資料を出します。",
+            "chinese": "佐藤先生在會議上拿出資料。"
+          },
+          {
+            "japanese": "駅で切符を出します。",
+            "chinese": "在車站拿出車票。"
+          }
+        ]
+      },
+      {
+        "japanese": "はいります",
+        "kanji": "入ります",
+        "chinese": "進入，上〔大學〕",
+        "image": null,
+        "note": "常搭配「大学に入ります」",
+        "kanji_note": {
+          "summary": "日語的「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "静",
+              "zh": "靜",
+              "note": null
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "transportation_movement"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_1"
+        ],
+        "sentence": [
+          {
+            "japanese": "来年大学に入ります。",
+            "chinese": "明年上大學。"
+          },
+          {
+            "japanese": "部屋に入ります。",
+            "chinese": "進入房間。"
+          },
+          {
+            "japanese": "お風呂に入ります。",
+            "chinese": "洗澡。"
+          },
+          {
+            "japanese": "田中さんは会議室に入ります。",
+            "chinese": "田中先生進入會議室。"
+          },
+          {
+            "japanese": "この店に入ります。",
+            "chinese": "走進這家店。"
+          },
+          {
+            "japanese": "銀行に入ります。",
+            "chinese": "進入銀行。"
+          },
+          {
+            "japanese": "山田さんは大学院に入ります。",
+            "chinese": "山田先生進入研究所。"
+          },
+          {
+            "japanese": "公園に入ります。",
+            "chinese": "進入公園。"
+          },
+          {
+            "japanese": "木村さんは4月に大学に入ります。",
+            "chinese": "木村先生四月上大學。"
+          },
+          {
+            "japanese": "駅の改札に入ります。",
+            "chinese": "進入車站的剪票口。"
+          },
+          {
+            "japanese": "母は台所に入ります。",
+            "chinese": "媽媽走進廚房。"
+          },
+          {
+            "japanese": "映画館に入ります。",
+            "chinese": "進入電影院。"
+          },
+          {
+            "japanese": "鈴木さんは会社に入ります。",
+            "chinese": "鈴木先生進公司上班。"
+          },
+          {
+            "japanese": "静かに部屋に入ります。",
+            "chinese": "安靜地走進房間。"
+          },
+          {
+            "japanese": "妹は自分の部屋に入ります。",
+            "chinese": "妹妹進入自己的房間。"
+          },
+          {
+            "japanese": "図書館に入ります。",
+            "chinese": "進入圖書館。"
+          },
+          {
+            "japanese": "兄は大学の研究室に入ります。",
+            "chinese": "哥哥進入大學的研究室。"
+          },
+          {
+            "japanese": "佐藤さんは来年大学に入ります。",
+            "chinese": "佐藤先生明年上大學。"
+          },
+          {
+            "japanese": "このビルに入ります。",
+            "chinese": "進入這棟大樓。"
+          },
+          {
+            "japanese": "王さんはお店に入ります。",
+            "chinese": "王先生走進商店。"
+          }
+        ]
+      },
+      {
+        "japanese": "でます",
+        "kanji": "出ます",
+        "chinese": "出，〔大學〕畢業",
+        "image": null,
+        "note": "常搭配「大学を出ます」",
+        "kanji_note": {
+          "summary": "日語的「館」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "館",
+              "zh": "館",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "transportation_movement"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_2"
+        ],
+        "sentence": [
+          {
+            "japanese": "来年大学を出ます。",
+            "chinese": "明年大學畢業。"
+          },
+          {
+            "japanese": "毎朝8時に家を出ます。",
+            "chinese": "每天早上八點出門。"
+          },
+          {
+            "japanese": "部屋を出ます。",
+            "chinese": "離開房間。"
+          },
+          {
+            "japanese": "田中さんは会社を5時に出ます。",
+            "chinese": "田中先生五點離開公司。"
+          },
+          {
+            "japanese": "駅を出ます。",
+            "chinese": "走出車站。"
+          },
+          {
+            "japanese": "映画館を出ます。",
+            "chinese": "走出電影院。"
+          },
+          {
+            "japanese": "山田さんは大学を出ます。",
+            "chinese": "山田先生大學畢業。"
+          },
+          {
+            "japanese": "お風呂を出ます。",
+            "chinese": "泡完澡出來。"
+          },
+          {
+            "japanese": "木村さんは銀行を出ます。",
+            "chinese": "木村先生走出銀行。"
+          },
+          {
+            "japanese": "改札を出ます。",
+            "chinese": "走出剪票口。"
+          },
+          {
+            "japanese": "母は台所を出ます。",
+            "chinese": "媽媽離開廚房。"
+          },
+          {
+            "japanese": "会議室を出ます。",
+            "chinese": "離開會議室。"
+          },
+          {
+            "japanese": "鈴木さんは来年大学を出ます。",
+            "chinese": "鈴木先生明年大學畢業。"
+          },
+          {
+            "japanese": "7時に家を出ます。",
+            "chinese": "七點出門。"
+          },
+          {
+            "japanese": "妹は学校を4時に出ます。",
+            "chinese": "妹妹四點離開學校。"
+          },
+          {
+            "japanese": "この店を出ます。",
+            "chinese": "離開這家店。"
+          },
+          {
+            "japanese": "兄は会社を出ます。",
+            "chinese": "哥哥離開公司。"
+          },
+          {
+            "japanese": "佐藤さんは駅を出ます。",
+            "chinese": "佐藤先生走出車站。"
+          },
+          {
+            "japanese": "公園を出ます。",
+            "chinese": "走出公園。"
+          },
+          {
+            "japanese": "王さんはお店を出ます。",
+            "chinese": "王先生走出商店。"
+          }
+        ]
+      },
+      {
+        "japanese": "やめます",
+        "kanji": null,
+        "chinese": "辭職，停止，放棄",
+        "image": null,
+        "note": "常搭配「会社をやめます」",
+        "kanji_note": {
+          "summary": "日語的「話」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "話",
+              "zh": "話",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "遅",
+              "zh": "遲",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "action_activity"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_2"
+        ],
+        "sentence": [
+          {
+            "japanese": "来月アルバイトをやめます。",
+            "chinese": "下個月辭掉打工。"
+          },
+          {
+            "japanese": "田中さんは会社をやめます。",
+            "chinese": "田中先生辭職。"
+          },
+          {
+            "japanese": "タバコをやめます。",
+            "chinese": "戒菸。"
+          },
+          {
+            "japanese": "山田さんは仕事をやめます。",
+            "chinese": "山田先生辭掉工作。"
+          },
+          {
+            "japanese": "お酒をやめます。",
+            "chinese": "戒酒。"
+          },
+          {
+            "japanese": "木村さんは大学をやめます。",
+            "chinese": "木村先生退學。"
+          },
+          {
+            "japanese": "毎日のお菓子をやめます。",
+            "chinese": "戒掉每天吃點心。"
+          },
+          {
+            "japanese": "鈴木さんはクラブをやめます。",
+            "chinese": "鈴木先生退出社團。"
+          },
+          {
+            "japanese": "ゲームをやめます。",
+            "chinese": "戒掉遊戲。"
+          },
+          {
+            "japanese": "佐藤さんはテニスをやめます。",
+            "chinese": "佐藤先生不打網球了。"
+          },
+          {
+            "japanese": "夜遅いコーヒーをやめます。",
+            "chinese": "戒掉晚上喝咖啡。"
+          },
+          {
+            "japanese": "母は無駄な買い物をやめます。",
+            "chinese": "媽媽戒掉亂買東西。"
+          },
+          {
+            "japanese": "ピアノをやめます。",
+            "chinese": "不學鋼琴了。"
+          },
+          {
+            "japanese": "王さんは留学をやめます。",
+            "chinese": "王先生放棄留學。"
+          },
+          {
+            "japanese": "今日の会議をやめます。",
+            "chinese": "取消今天的會議。"
+          },
+          {
+            "japanese": "妹はゲームをやめます。",
+            "chinese": "妹妹戒掉遊戲。"
+          },
+          {
+            "japanese": "この話をやめます。",
+            "chinese": "停止講這件事。"
+          },
+          {
+            "japanese": "兄は会社をやめます。",
+            "chinese": "哥哥辭職。"
+          },
+          {
+            "japanese": "李さんはゴルフをやめます。",
+            "chinese": "李先生不打高爾夫了。"
+          },
+          {
+            "japanese": "今からタバコをやめます。",
+            "chinese": "從現在起戒菸。"
+          }
+        ]
+      },
+      {
+        "japanese": "おします",
+        "kanji": "押します",
+        "chinese": "推，按",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「売」、「関」、「駅」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "売",
+              "zh": "賣",
+              "note": null
+            },
+            {
+              "jp": "関",
+              "zh": "關",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "action_activity"
+        ],
+        "speech": [
+          "verb",
+          "verb_group_1"
+        ],
+        "sentence": [
+          {
+            "japanese": "このボタンを押します。",
+            "chinese": "按這個按鈕。"
+          },
+          {
+            "japanese": "エレベーターのボタンを押します。",
+            "chinese": "按電梯按鈕。"
+          },
+          {
+            "japanese": "田中さんはドアを押します。",
+            "chinese": "田中先生推門。"
+          },
+          {
+            "japanese": "スイッチを押します。",
+            "chinese": "按開關。"
+          },
+          {
+            "japanese": "山田さんはカメラのシャッターを押します。",
+            "chinese": "山田先生按相機快門。"
+          },
+          {
+            "japanese": "ベルを押します。",
+            "chinese": "按門鈴。"
+          },
+          {
+            "japanese": "木村さんは自動販売機のボタンを押します。",
+            "chinese": "木村先生按自動販賣機的按鈕。"
+          },
+          {
+            "japanese": "駅で切符のボタンを押します。",
+            "chinese": "在車站按買票按鈕。"
+          },
+          {
+            "japanese": "鈴木さんはエレベーターで5階のボタンを押します。",
+            "chinese": "鈴木先生在電梯按五樓的按鈕。"
+          },
+          {
+            "japanese": "パソコンのキーを押します。",
+            "chinese": "按電腦的按鍵。"
+          },
+          {
+            "japanese": "母は電子レンジのボタンを押します。",
+            "chinese": "媽媽按微波爐的按鈕。"
+          },
+          {
+            "japanese": "テレビのリモコンを押します。",
+            "chinese": "按電視遙控器。"
+          },
+          {
+            "japanese": "佐藤さんは玄関のベルを押します。",
+            "chinese": "佐藤先生按玄關的門鈴。"
+          },
+          {
+            "japanese": "カメラのボタンを押します。",
+            "chinese": "按相機的按鈕。"
+          },
+          {
+            "japanese": "妹はおもちゃのボタンを押します。",
+            "chinese": "妹妹按玩具的按鈕。"
+          },
+          {
+            "japanese": "コピー機のボタンを押します。",
+            "chinese": "按影印機的按鈕。"
+          },
+          {
+            "japanese": "兄はパソコンの電源ボタンを押します。",
+            "chinese": "哥哥按電腦的電源按鈕。"
+          },
+          {
+            "japanese": "このエレベーターで1階のボタンを押します。",
+            "chinese": "在這台電梯按一樓的按鈕。"
+          },
+          {
+            "japanese": "王さんは部屋のスイッチを押します。",
+            "chinese": "王先生按房間的開關。"
+          },
+          {
+            "japanese": "李さんは車のクラクションを押します。",
+            "chinese": "李先生按汽車喇叭。"
+          }
+        ]
+      },
+      {
+        "japanese": "わかい",
+        "kanji": "若い",
+        "chinese": "年輕",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「医」、「奥」、「学」、「歯」、「気」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "医",
+              "zh": "醫",
+              "note": null
+            },
+            {
+              "jp": "奥",
+              "zh": "奧",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "歯",
+              "zh": "齒",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "quality_state_degree"
+        ],
+        "speech": [
+          "i_adjective"
+        ],
+        "sentence": [
+          {
+            "japanese": "田中さんは若いです。",
+            "chinese": "田中先生很年輕。"
+          },
+          {
+            "japanese": "この先生は若いです。",
+            "chinese": "這位老師很年輕。"
+          },
+          {
+            "japanese": "山田さんはまだ若いです。",
+            "chinese": "山田先生還很年輕。"
+          },
+          {
+            "japanese": "あの店は若い人が多いです。",
+            "chinese": "那家店年輕人很多。"
+          },
+          {
+            "japanese": "木村さんは若い会社員です。",
+            "chinese": "木村先生是年輕的公司職員。"
+          },
+          {
+            "japanese": "この女優は若いです。",
+            "chinese": "這位女演員很年輕。"
+          },
+          {
+            "japanese": "鈴木さんは若い歯医者です。",
+            "chinese": "鈴木先生是年輕的牙醫。"
+          },
+          {
+            "japanese": "王さんは若い留学生です。",
+            "chinese": "王先生是年輕的留學生。"
+          },
+          {
+            "japanese": "李さんは若い部長です。",
+            "chinese": "李先生是年輕的部長。"
+          },
+          {
+            "japanese": "母は心が若いです。",
+            "chinese": "媽媽心態年輕。"
+          },
+          {
+            "japanese": "この木は若いです。",
+            "chinese": "這棵樹還年輕。"
+          },
+          {
+            "japanese": "佐藤さんは若い研究者です。",
+            "chinese": "佐藤先生是年輕的研究人員。"
+          },
+          {
+            "japanese": "若い人は元気です。",
+            "chinese": "年輕人很有活力。"
+          },
+          {
+            "japanese": "姉は若いです。",
+            "chinese": "姊姊很年輕。"
+          },
+          {
+            "japanese": "弟は若い学生です。",
+            "chinese": "弟弟是年輕的學生。"
+          },
+          {
+            "japanese": "あの男の人は若いです。",
+            "chinese": "那個男人很年輕。"
+          },
+          {
+            "japanese": "田中さんの奥さんは若いです。",
+            "chinese": "田中先生的太太很年輕。"
+          },
+          {
+            "japanese": "この店の店員は若いです。",
+            "chinese": "這家店的店員很年輕。"
+          },
+          {
+            "japanese": "山田さんの息子は若いです。",
+            "chinese": "山田先生的兒子很年輕。"
+          },
+          {
+            "japanese": "木村さんの妹は若いです。",
+            "chinese": "木村先生的妹妹很年輕。"
+          }
+        ]
+      },
+      {
+        "japanese": "ながい",
+        "kanji": "長い",
+        "chinese": "長",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「紙」、「話」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "紙",
+              "zh": "紙",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "話",
+              "zh": "話",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "髪",
+              "zh": "髮",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "quality_state_degree"
+        ],
+        "speech": [
+          "i_adjective"
+        ],
+        "sentence": [
+          {
+            "japanese": "この川は長いです。",
+            "chinese": "這條河很長。"
+          },
+          {
+            "japanese": "田中さんの髪は長いです。",
+            "chinese": "田中先生的頭髮很長。"
+          },
+          {
+            "japanese": "この映画は長いです。",
+            "chinese": "這部電影很長。"
+          },
+          {
+            "japanese": "山田さんの話は長いです。",
+            "chinese": "山田先生的話很長。"
+          },
+          {
+            "japanese": "この道は長いです。",
+            "chinese": "這條路很長。"
+          },
+          {
+            "japanese": "木村さんの足は長いです。",
+            "chinese": "木村先生的腿很長。"
+          },
+          {
+            "japanese": "夏の日は長いです。",
+            "chinese": "夏天的白天很長。"
+          },
+          {
+            "japanese": "鈴木さんの手紙は長いです。",
+            "chinese": "鈴木先生的信很長。"
+          },
+          {
+            "japanese": "この橋は長いです。",
+            "chinese": "這座橋很長。"
+          },
+          {
+            "japanese": "佐藤さんのスピーチは長いです。",
+            "chinese": "佐藤先生的演講很長。"
+          },
+          {
+            "japanese": "この列は長いです。",
+            "chinese": "這條隊伍很長。"
+          },
+          {
+            "japanese": "王さんの名前は長いです。",
+            "chinese": "王先生的名字很長。"
+          },
+          {
+            "japanese": "李さんのズボンは長いです。",
+            "chinese": "李先生的褲子很長。"
+          },
+          {
+            "japanese": "この物語は長いです。",
+            "chinese": "這個故事很長。"
+          },
+          {
+            "japanese": "母の髪は長いです。",
+            "chinese": "媽媽的頭髮很長。"
+          },
+          {
+            "japanese": "父のズボンは長いです。",
+            "chinese": "爸爸的褲子很長。"
+          },
+          {
+            "japanese": "妹のスカートは長いです。",
+            "chinese": "妹妹的裙子很長。"
+          },
+          {
+            "japanese": "このトンネルは長いです。",
+            "chinese": "這條隧道很長。"
+          },
+          {
+            "japanese": "田中さんは長い間日本にいます。",
+            "chinese": "田中先生在日本待很久了。"
+          },
+          {
+            "japanese": "このテープは長いです。",
+            "chinese": "這捲錄音帶很長。"
+          }
+        ]
+      },
+      {
+        "japanese": "みじかい",
+        "kanji": "短い",
+        "chinese": "短",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「紙」、「話」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "紙",
+              "zh": "紙",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "話",
+              "zh": "話",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "髪",
+              "zh": "髮",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "quality_state_degree"
+        ],
+        "speech": [
+          "i_adjective"
+        ],
+        "sentence": [
+          {
+            "japanese": "この鉛筆は短いです。",
+            "chinese": "這支鉛筆很短。"
+          },
+          {
+            "japanese": "田中さんの髪は短いです。",
+            "chinese": "田中先生的頭髮很短。"
+          },
+          {
+            "japanese": "この映画は短いです。",
+            "chinese": "這部電影很短。"
+          },
+          {
+            "japanese": "山田さんの話は短いです。",
+            "chinese": "山田先生的話很短。"
+          },
+          {
+            "japanese": "冬の日は短いです。",
+            "chinese": "冬天的白天很短。"
+          },
+          {
+            "japanese": "木村さんの足は短いです。",
+            "chinese": "木村先生的腿很短。"
+          },
+          {
+            "japanese": "この道は短いです。",
+            "chinese": "這條路很短。"
+          },
+          {
+            "japanese": "鈴木さんの手紙は短いです。",
+            "chinese": "鈴木先生的信很短。"
+          },
+          {
+            "japanese": "この橋は短いです。",
+            "chinese": "這座橋很短。"
+          },
+          {
+            "japanese": "佐藤さんのスピーチは短いです。",
+            "chinese": "佐藤先生的演講很短。"
+          },
+          {
+            "japanese": "この列は短いです。",
+            "chinese": "這條隊伍很短。"
+          },
+          {
+            "japanese": "王さんの名前は短いです。",
+            "chinese": "王先生的名字很短。"
+          },
+          {
+            "japanese": "李さんのズボンは短いです。",
+            "chinese": "李先生的褲子很短。"
+          },
+          {
+            "japanese": "この物語は短いです。",
+            "chinese": "這個故事很短。"
+          },
+          {
+            "japanese": "母の髪は短いです。",
+            "chinese": "媽媽的頭髮很短。"
+          },
+          {
+            "japanese": "父のズボンは短いです。",
+            "chinese": "爸爸的褲子很短。"
+          },
+          {
+            "japanese": "妹のスカートは短いです。",
+            "chinese": "妹妹的裙子很短。"
+          },
+          {
+            "japanese": "このトンネルは短いです。",
+            "chinese": "這條隧道很短。"
+          },
+          {
+            "japanese": "夏の夜は短いです。",
+            "chinese": "夏天的夜晚很短。"
+          },
+          {
+            "japanese": "この休みは短いです。",
+            "chinese": "這個假期很短。"
+          }
+        ]
+      },
+      {
+        "japanese": "あかるい",
+        "kanji": "明るい",
+        "chinese": "明亮",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「話」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "声",
+              "zh": "聲",
+              "note": null
+            },
+            {
+              "jp": "話",
+              "zh": "話",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "quality_state_degree"
+        ],
+        "speech": [
+          "i_adjective"
+        ],
+        "sentence": [
+          {
+            "japanese": "この部屋は明るいです。",
+            "chinese": "這個房間很明亮。"
+          },
+          {
+            "japanese": "田中さんの家は明るいです。",
+            "chinese": "田中先生的家很明亮。"
+          },
+          {
+            "japanese": "今日の空は明るいです。",
+            "chinese": "今天的天空很亮。"
+          },
+          {
+            "japanese": "山田さんは明るい人です。",
+            "chinese": "山田先生是開朗的人。"
+          },
+          {
+            "japanese": "この教室は明るいです。",
+            "chinese": "這間教室很明亮。"
+          },
+          {
+            "japanese": "木村さんの店は明るいです。",
+            "chinese": "木村先生的店很明亮。"
+          },
+          {
+            "japanese": "この色は明るいです。",
+            "chinese": "這個顏色很明亮。"
+          },
+          {
+            "japanese": "鈴木さんは明るい性格です。",
+            "chinese": "鈴木先生個性開朗。"
+          },
+          {
+            "japanese": "佐藤さんの事務所は明るいです。",
+            "chinese": "佐藤先生的辦公室很明亮。"
+          },
+          {
+            "japanese": "朝の光は明るいです。",
+            "chinese": "早晨的光很亮。"
+          },
+          {
+            "japanese": "このランプは明るいです。",
+            "chinese": "這盞燈很亮。"
+          },
+          {
+            "japanese": "王さんの部屋は明るいです。",
+            "chinese": "王先生的房間很明亮。"
+          },
+          {
+            "japanese": "李さんは明るい声で話します。",
+            "chinese": "李先生用開朗的聲音說話。"
+          },
+          {
+            "japanese": "この食堂は明るいです。",
+            "chinese": "這間餐廳很明亮。"
+          },
+          {
+            "japanese": "母は明るい人です。",
+            "chinese": "媽媽是開朗的人。"
+          },
+          {
+            "japanese": "父の会社は明るいです。",
+            "chinese": "爸爸的公司很明亮。"
+          },
+          {
+            "japanese": "妹は明るい性格です。",
+            "chinese": "妹妹個性開朗。"
+          },
+          {
+            "japanese": "この廊下は明るいです。",
+            "chinese": "這條走廊很明亮。"
+          },
+          {
+            "japanese": "姉の部屋は明るいです。",
+            "chinese": "姊姊的房間很明亮。"
+          },
+          {
+            "japanese": "今日は月が明るいです。",
+            "chinese": "今天月亮很亮。"
+          }
+        ]
+      },
+      {
+        "japanese": "くらい",
+        "kanji": "暗い",
+        "chinese": "昏暗",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「話」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "声",
+              "zh": "聲",
+              "note": null
+            },
+            {
+              "jp": "寝",
+              "zh": "寢",
+              "note": null
+            },
+            {
+              "jp": "話",
+              "zh": "話",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "quality_state_degree"
+        ],
+        "speech": [
+          "i_adjective"
+        ],
+        "sentence": [
+          {
+            "japanese": "この部屋は暗いです。",
+            "chinese": "這個房間很暗。"
+          },
+          {
+            "japanese": "田中さんの家は暗いです。",
+            "chinese": "田中先生的家很暗。"
+          },
+          {
+            "japanese": "夜の道は暗いです。",
+            "chinese": "夜晚的路很暗。"
+          },
+          {
+            "japanese": "山田さんは暗い人です。",
+            "chinese": "山田先生是陰沉的人。"
+          },
+          {
+            "japanese": "この教室は暗いです。",
+            "chinese": "這間教室很暗。"
+          },
+          {
+            "japanese": "木村さんの店は暗いです。",
+            "chinese": "木村先生的店很暗。"
+          },
+          {
+            "japanese": "この色は暗いです。",
+            "chinese": "這個顏色很暗。"
+          },
+          {
+            "japanese": "鈴木さんは暗い性格です。",
+            "chinese": "鈴木先生個性陰沉。"
+          },
+          {
+            "japanese": "佐藤さんの事務所は暗いです。",
+            "chinese": "佐藤先生的辦公室很暗。"
+          },
+          {
+            "japanese": "今日の空は暗いです。",
+            "chinese": "今天的天空很暗。"
+          },
+          {
+            "japanese": "このランプは暗いです。",
+            "chinese": "這盞燈很暗。"
+          },
+          {
+            "japanese": "王さんの部屋は暗いです。",
+            "chinese": "王先生的房間很暗。"
+          },
+          {
+            "japanese": "李さんは暗い声で話します。",
+            "chinese": "李先生用低沉的聲音說話。"
+          },
+          {
+            "japanese": "この食堂は暗いです。",
+            "chinese": "這間餐廳很暗。"
+          },
+          {
+            "japanese": "母は暗い所が怖いです。",
+            "chinese": "媽媽怕暗的地方。"
+          },
+          {
+            "japanese": "父の会社は暗いです。",
+            "chinese": "爸爸的公司很暗。"
+          },
+          {
+            "japanese": "妹は暗い部屋で寝ます。",
+            "chinese": "妹妹在暗的房間睡覺。"
+          },
+          {
+            "japanese": "この廊下は暗いです。",
+            "chinese": "這條走廊很暗。"
+          },
+          {
+            "japanese": "姉の部屋は暗いです。",
+            "chinese": "姊姊的房間很暗。"
+          },
+          {
+            "japanese": "今日は空が暗いです。",
+            "chinese": "今天天空很暗。"
+          }
+        ]
+      },
+      {
+        "japanese": "せがたかい",
+        "kanji": "背が高い",
+        "chinese": "個子高",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「学」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "quality_state_degree"
+        ],
+        "speech": [
+          "i_adjective"
+        ],
+        "sentence": [
+          {
+            "japanese": "田中さんは背が高いです。",
+            "chinese": "田中先生個子高。"
+          },
+          {
+            "japanese": "山田さんはとても背が高いです。",
+            "chinese": "山田先生個子很高。"
+          },
+          {
+            "japanese": "木村さんは背が高い人です。",
+            "chinese": "木村先生是個子高的人。"
+          },
+          {
+            "japanese": "鈴木さんは背が高い学生です。",
+            "chinese": "鈴木先生是個子高的學生。"
+          },
+          {
+            "japanese": "あの選手は背が高いです。",
+            "chinese": "那位選手個子高。"
+          },
+          {
+            "japanese": "佐藤さんは背が高いですか。",
+            "chinese": "佐藤先生個子高嗎？"
+          },
+          {
+            "japanese": "王さんは背が高いです。",
+            "chinese": "王先生個子高。"
+          },
+          {
+            "japanese": "李さんは背が高い会社員です。",
+            "chinese": "李先生是個子高的公司職員。"
+          },
+          {
+            "japanese": "父は背が高いです。",
+            "chinese": "爸爸個子高。"
+          },
+          {
+            "japanese": "弟は背が高いです。",
+            "chinese": "弟弟個子高。"
+          },
+          {
+            "japanese": "姉は背が高いです。",
+            "chinese": "姊姊個子高。"
+          },
+          {
+            "japanese": "この先生は背が高いです。",
+            "chinese": "這位老師個子高。"
+          },
+          {
+            "japanese": "あの男の人は背が高いです。",
+            "chinese": "那個男人個子高。"
+          },
+          {
+            "japanese": "田中さんの友達は背が高いです。",
+            "chinese": "田中先生的朋友個子高。"
+          },
+          {
+            "japanese": "木村さんの息子は背が高いです。",
+            "chinese": "木村先生的兒子個子高。"
+          },
+          {
+            "japanese": "鈴木さんの娘は背が高いです。",
+            "chinese": "鈴木先生的女兒個子高。"
+          },
+          {
+            "japanese": "母は背が高いです。",
+            "chinese": "媽媽個子高。"
+          },
+          {
+            "japanese": "佐藤さんの弟は背が高いです。",
+            "chinese": "佐藤先生的弟弟個子高。"
+          },
+          {
+            "japanese": "山田さんのお兄さんは背が高いです。",
+            "chinese": "山田先生的哥哥個子高。"
+          },
+          {
+            "japanese": "王さんの妹は背が高いです。",
+            "chinese": "王先生的妹妹個子高。"
+          }
+        ]
+      },
+      {
+        "japanese": "あたまがいい",
+        "kanji": "頭がいい",
+        "chinese": "頭腦好，聰明",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「学」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "quality_state_degree"
+        ],
+        "speech": [
+          "i_adjective"
+        ],
+        "sentence": [
+          {
+            "japanese": "田中さんは頭がいいです。",
+            "chinese": "田中先生很聰明。"
+          },
+          {
+            "japanese": "山田さんはとても頭がいいです。",
+            "chinese": "山田先生非常聰明。"
+          },
+          {
+            "japanese": "木村さんは頭がいい学生です。",
+            "chinese": "木村先生是聰明的學生。"
+          },
+          {
+            "japanese": "鈴木さんは頭がいい会社員です。",
+            "chinese": "鈴木先生是聰明的公司職員。"
+          },
+          {
+            "japanese": "あの子は頭がいいです。",
+            "chinese": "那個孩子很聰明。"
+          },
+          {
+            "japanese": "佐藤さんは頭がいいですか。",
+            "chinese": "佐藤先生聰明嗎？"
+          },
+          {
+            "japanese": "王さんは頭がいい留学生です。",
+            "chinese": "王先生是聰明的留學生。"
+          },
+          {
+            "japanese": "李さんは頭がいい研究者です。",
+            "chinese": "李先生是聰明的研究人員。"
+          },
+          {
+            "japanese": "妹は頭がいいです。",
+            "chinese": "妹妹很聰明。"
+          },
+          {
+            "japanese": "弟は頭がいいです。",
+            "chinese": "弟弟很聰明。"
+          },
+          {
+            "japanese": "姉は頭がいいです。",
+            "chinese": "姊姊很聰明。"
+          },
+          {
+            "japanese": "この先生は頭がいいです。",
+            "chinese": "這位老師很聰明。"
+          },
+          {
+            "japanese": "あの犬は頭がいいです。",
+            "chinese": "那隻狗很聰明。"
+          },
+          {
+            "japanese": "田中さんの息子は頭がいいです。",
+            "chinese": "田中先生的兒子很聰明。"
+          },
+          {
+            "japanese": "木村さんの娘は頭がいいです。",
+            "chinese": "木村先生的女兒很聰明。"
+          },
+          {
+            "japanese": "鈴木さんの友達は頭がいいです。",
+            "chinese": "鈴木先生的朋友很聰明。"
+          },
+          {
+            "japanese": "父は頭がいいです。",
+            "chinese": "爸爸很聰明。"
+          },
+          {
+            "japanese": "母は頭がいいです。",
+            "chinese": "媽媽很聰明。"
+          },
+          {
+            "japanese": "佐藤さんの兄は頭がいいです。",
+            "chinese": "佐藤先生的哥哥很聰明。"
+          },
+          {
+            "japanese": "山田さんの弟は頭がいいです。",
+            "chinese": "山田先生的弟弟很聰明。"
+          }
+        ]
+      },
+      {
+        "japanese": "からだ",
+        "kanji": "体",
+        "chinese": "身體",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「具」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "体",
+              "zh": "體",
+              "note": null
+            },
+            {
+              "jp": "具",
+              "zh": "具",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "悪",
+              "zh": "惡",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "温",
+              "zh": "溫",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "毎日体を動かします。",
+            "chinese": "每天活動身體。"
+          },
+          {
+            "japanese": "田中さんは体が大きいです。",
+            "chinese": "田中先生身體很大。"
+          },
+          {
+            "japanese": "山田さんは体を鍛えます。",
+            "chinese": "山田先生鍛鍊身體。"
+          },
+          {
+            "japanese": "体の調子がいいです。",
+            "chinese": "身體狀況很好。"
+          },
+          {
+            "japanese": "木村さんは体が小さいです。",
+            "chinese": "木村先生個子很小。"
+          },
+          {
+            "japanese": "鈴木さんは体を洗います。",
+            "chinese": "鈴木先生洗身體。"
+          },
+          {
+            "japanese": "仕事の後で体を休めます。",
+            "chinese": "下班後讓身體休息。"
+          },
+          {
+            "japanese": "佐藤さんは体が丈夫です。",
+            "chinese": "佐藤先生身體健壯。"
+          },
+          {
+            "japanese": "王さんは体の具合が悪いです。",
+            "chinese": "王先生身體不舒服。"
+          },
+          {
+            "japanese": "李さんは毎朝体を動かします。",
+            "chinese": "李先生每天早上活動身體。"
+          },
+          {
+            "japanese": "お風呂で体を洗います。",
+            "chinese": "在浴室洗身體。"
+          },
+          {
+            "japanese": "母は体の調子がいいです。",
+            "chinese": "媽媽身體狀況很好。"
+          },
+          {
+            "japanese": "父は体を大事にします。",
+            "chinese": "爸爸愛護身體。"
+          },
+          {
+            "japanese": "妹は体が小さいです。",
+            "chinese": "妹妹身體小。"
+          },
+          {
+            "japanese": "毎晩体を伸ばします。",
+            "chinese": "每天晚上伸展身體。"
+          },
+          {
+            "japanese": "兄は体を鍛えます。",
+            "chinese": "哥哥鍛鍊身體。"
+          },
+          {
+            "japanese": "姉は体が疲れます。",
+            "chinese": "姊姊身體疲累。"
+          },
+          {
+            "japanese": "田中さんは体に気をつけます。",
+            "chinese": "田中先生注意身體。"
+          },
+          {
+            "japanese": "山田さんは体の調子が悪いです。",
+            "chinese": "山田先生身體狀況不好。"
+          },
+          {
+            "japanese": "木村さんは体を温めます。",
+            "chinese": "木村先生溫暖身體。"
+          }
+        ]
+      },
+      {
+        "japanese": "あたま",
+        "kanji": "頭",
+        "chinese": "頭",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「毎」、「触」、「転」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "触",
+              "zh": "觸",
+              "note": null
+            },
+            {
+              "jp": "転",
+              "zh": "轉",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "毎朝頭を洗います。",
+            "chinese": "每天早上洗頭。"
+          },
+          {
+            "japanese": "田中さんは頭が痛いです。",
+            "chinese": "田中先生頭痛。"
+          },
+          {
+            "japanese": "山田さんは頭を下げます。",
+            "chinese": "山田先生低頭行禮。"
+          },
+          {
+            "japanese": "頭に帽子をかぶります。",
+            "chinese": "在頭上戴帽子。"
+          },
+          {
+            "japanese": "木村さんは頭がいいです。",
+            "chinese": "木村先生很聰明。"
+          },
+          {
+            "japanese": "鈴木さんは頭を冷やします。",
+            "chinese": "鈴木先生讓頭腦冷靜。"
+          },
+          {
+            "japanese": "佐藤さんは頭が痛いです。",
+            "chinese": "佐藤先生頭痛。"
+          },
+          {
+            "japanese": "王さんは頭をかきます。",
+            "chinese": "王先生抓頭。"
+          },
+          {
+            "japanese": "李さんは頭の上に本を置きます。",
+            "chinese": "李先生把書放在頭上。"
+          },
+          {
+            "japanese": "母は頭が痛いです。",
+            "chinese": "媽媽頭痛。"
+          },
+          {
+            "japanese": "父は頭を触ります。",
+            "chinese": "爸爸摸頭。"
+          },
+          {
+            "japanese": "妹は頭にリボンをつけます。",
+            "chinese": "妹妹在頭上戴蝴蝶結。"
+          },
+          {
+            "japanese": "兄は頭を刈ります。",
+            "chinese": "哥哥剃頭。"
+          },
+          {
+            "japanese": "姉は頭を洗います。",
+            "chinese": "姊姊洗頭。"
+          },
+          {
+            "japanese": "田中さんは頭の回転が速いです。",
+            "chinese": "田中先生腦筋轉得快。"
+          },
+          {
+            "japanese": "山田さんは頭を使います。",
+            "chinese": "山田先生動腦筋。"
+          },
+          {
+            "japanese": "木村さんは頭をマッサージします。",
+            "chinese": "木村先生按摩頭部。"
+          },
+          {
+            "japanese": "この帽子は頭に合います。",
+            "chinese": "這頂帽子很合頭。"
+          },
+          {
+            "japanese": "鈴木さんは頭を振ります。",
+            "chinese": "鈴木先生搖頭。"
+          },
+          {
+            "japanese": "佐藤さんは頭を守ります。",
+            "chinese": "佐藤先生保護頭部。"
+          }
+        ]
+      },
+      {
+        "japanese": "かみ",
+        "kanji": "髪",
+        "chinese": "頭髮",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「毎」、「髪」、「黒」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "髪",
+              "zh": "髮",
+              "note": null
+            },
+            {
+              "jp": "黒",
+              "zh": "黑",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "毎朝髪をとかします。",
+            "chinese": "每天早上梳頭髮。"
+          },
+          {
+            "japanese": "田中さんの髪は長いです。",
+            "chinese": "田中先生的頭髮很長。"
+          },
+          {
+            "japanese": "山田さんは髪を切ります。",
+            "chinese": "山田先生剪頭髮。"
+          },
+          {
+            "japanese": "木村さんの髪は黒いです。",
+            "chinese": "木村先生的頭髮是黑的。"
+          },
+          {
+            "japanese": "鈴木さんは髪を染めます。",
+            "chinese": "鈴木先生染頭髮。"
+          },
+          {
+            "japanese": "佐藤さんの髪は短いです。",
+            "chinese": "佐藤先生的頭髮很短。"
+          },
+          {
+            "japanese": "王さんは髪を結びます。",
+            "chinese": "王先生綁頭髮。"
+          },
+          {
+            "japanese": "李さんの髪はきれいです。",
+            "chinese": "李先生的頭髮很漂亮。"
+          },
+          {
+            "japanese": "母は髪が長いです。",
+            "chinese": "媽媽頭髮很長。"
+          },
+          {
+            "japanese": "父は髪が短いです。",
+            "chinese": "爸爸頭髮很短。"
+          },
+          {
+            "japanese": "妹は髪を編みます。",
+            "chinese": "妹妹編頭髮。"
+          },
+          {
+            "japanese": "髪を後ろで結びます。",
+            "chinese": "把頭髮綁在後面。"
+          },
+          {
+            "japanese": "兄は髪を整えます。",
+            "chinese": "哥哥整理頭髮。"
+          },
+          {
+            "japanese": "姉は髪を染めます。",
+            "chinese": "姊姊染頭髮。"
+          },
+          {
+            "japanese": "田中さんは床屋で髪を切ります。",
+            "chinese": "田中先生在理髮店剪頭髮。"
+          },
+          {
+            "japanese": "山田さんは髪を洗います。",
+            "chinese": "山田先生洗頭髮。"
+          },
+          {
+            "japanese": "木村さんは髪を乾かします。",
+            "chinese": "木村先生吹乾頭髮。"
+          },
+          {
+            "japanese": "この髪留めはかわいいです。",
+            "chinese": "這個髮夾很可愛。"
+          },
+          {
+            "japanese": "鈴木さんは髪を短く切ります。",
+            "chinese": "鈴木先生把頭髮剪短。"
+          },
+          {
+            "japanese": "佐藤さんの髪はきれいです。",
+            "chinese": "佐藤先生的頭髮很漂亮。"
+          }
+        ]
+      },
+      {
+        "japanese": "かお",
+        "kanji": "顔",
+        "chinese": "臉",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「写」、「広」、「毎」、「焼」、「覚」、「隠」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "広",
+              "zh": "廣",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "焼",
+              "zh": "燒",
+              "note": null
+            },
+            {
+              "jp": "覚",
+              "zh": "覺",
+              "note": null
+            },
+            {
+              "jp": "隠",
+              "zh": "隱",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "毎朝顔を洗います。",
+            "chinese": "每天早上洗臉。"
+          },
+          {
+            "japanese": "田中さんは顔が広いです。",
+            "chinese": "田中先生人面廣。"
+          },
+          {
+            "japanese": "山田さんは顔が小さいです。",
+            "chinese": "山田先生臉很小。"
+          },
+          {
+            "japanese": "顔に化粧をします。",
+            "chinese": "在臉上化妝。"
+          },
+          {
+            "japanese": "木村さんは顔を覚えます。",
+            "chinese": "木村先生記住面孔。"
+          },
+          {
+            "japanese": "鈴木さんは顔が赤いです。",
+            "chinese": "鈴木先生臉很紅。"
+          },
+          {
+            "japanese": "佐藤さんは顔が丸いです。",
+            "chinese": "佐藤先生臉圓圓的。"
+          },
+          {
+            "japanese": "王さんは顔を拭きます。",
+            "chinese": "王先生擦臉。"
+          },
+          {
+            "japanese": "李さんは顔にクリームを塗ります。",
+            "chinese": "李先生在臉上塗乳液。"
+          },
+          {
+            "japanese": "母は顔が若いです。",
+            "chinese": "媽媽臉很年輕。"
+          },
+          {
+            "japanese": "父は顔を洗います。",
+            "chinese": "爸爸洗臉。"
+          },
+          {
+            "japanese": "妹は顔がかわいいです。",
+            "chinese": "妹妹臉很可愛。"
+          },
+          {
+            "japanese": "鏡で顔を見ます。",
+            "chinese": "用鏡子看臉。"
+          },
+          {
+            "japanese": "兄は顔が怖いです。",
+            "chinese": "哥哥臉看起來兇。"
+          },
+          {
+            "japanese": "姉は顔がきれいです。",
+            "chinese": "姊姊臉很漂亮。"
+          },
+          {
+            "japanese": "田中さんは顔が優しいです。",
+            "chinese": "田中先生長相和善。"
+          },
+          {
+            "japanese": "山田さんは顔をマッサージします。",
+            "chinese": "山田先生按摩臉部。"
+          },
+          {
+            "japanese": "木村さんは顔の写真を撮ります。",
+            "chinese": "木村先生拍臉的照片。"
+          },
+          {
+            "japanese": "鈴木さんは日焼けで顔が痛いです。",
+            "chinese": "鈴木先生曬傷臉痛。"
+          },
+          {
+            "japanese": "佐藤さんは顔を隠します。",
+            "chinese": "佐藤先生遮住臉。"
+          }
+        ]
+      },
+      {
+        "japanese": "め",
+        "kanji": "目",
+        "chinese": "眼睛",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「細」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "悪",
+              "zh": "惡",
+              "note": null
+            },
+            {
+              "jp": "検",
+              "zh": "檢",
+              "note": null
+            },
+            {
+              "jp": "細",
+              "zh": "細",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "薬",
+              "zh": "藥",
+              "note": null
+            },
+            {
+              "jp": "覚",
+              "zh": "覺",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "目が痛いです。",
+            "chinese": "眼睛痛。"
+          },
+          {
+            "japanese": "田中さんは目が大きいです。",
+            "chinese": "田中先生眼睛很大。"
+          },
+          {
+            "japanese": "山田さんは目を閉じます。",
+            "chinese": "山田先生閉上眼睛。"
+          },
+          {
+            "japanese": "目を開けます。",
+            "chinese": "睜開眼睛。"
+          },
+          {
+            "japanese": "木村さんは目がいいです。",
+            "chinese": "木村先生視力很好。"
+          },
+          {
+            "japanese": "鈴木さんは目をこすります。",
+            "chinese": "鈴木先生揉眼睛。"
+          },
+          {
+            "japanese": "佐藤さんは目が疲れます。",
+            "chinese": "佐藤先生眼睛疲勞。"
+          },
+          {
+            "japanese": "王さんは目が小さいです。",
+            "chinese": "王先生眼睛很小。"
+          },
+          {
+            "japanese": "李さんは目にゴミが入ります。",
+            "chinese": "李先生眼睛進沙。"
+          },
+          {
+            "japanese": "母は目が悪いです。",
+            "chinese": "媽媽視力不好。"
+          },
+          {
+            "japanese": "父は目を細めます。",
+            "chinese": "爸爸瞇起眼睛。"
+          },
+          {
+            "japanese": "妹は目がかわいいです。",
+            "chinese": "妹妹眼睛很可愛。"
+          },
+          {
+            "japanese": "兄は目を覚まします。",
+            "chinese": "哥哥醒過來。"
+          },
+          {
+            "japanese": "姉は目がきれいです。",
+            "chinese": "姊姊眼睛很漂亮。"
+          },
+          {
+            "japanese": "田中さんは目薬を差します。",
+            "chinese": "田中先生點眼藥水。"
+          },
+          {
+            "japanese": "山田さんは目を開けます。",
+            "chinese": "山田先生睜開眼睛。"
+          },
+          {
+            "japanese": "木村さんは目の検査をします。",
+            "chinese": "木村先生做眼睛檢查。"
+          },
+          {
+            "japanese": "鈴木さんは目を守ります。",
+            "chinese": "鈴木先生保護眼睛。"
+          },
+          {
+            "japanese": "佐藤さんは目を動かします。",
+            "chinese": "佐藤先生轉動眼睛。"
+          },
+          {
+            "japanese": "この目薬を使います。",
+            "chinese": "使用這個眼藥水。"
+          }
+        ]
+      },
+      {
+        "japanese": "みみ",
+        "kanji": "耳",
+        "chinese": "耳朵",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「当」、「検」、「楽」、「触」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "当",
+              "zh": "當",
+              "note": null
+            },
+            {
+              "jp": "検",
+              "zh": "檢",
+              "note": null
+            },
+            {
+              "jp": "楽",
+              "zh": "樂",
+              "note": null
+            },
+            {
+              "jp": "触",
+              "zh": "觸",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "耳が痛いです。",
+            "chinese": "耳朵痛。"
+          },
+          {
+            "japanese": "田中さんは耳が大きいです。",
+            "chinese": "田中先生耳朵很大。"
+          },
+          {
+            "japanese": "山田さんは耳を澄まします。",
+            "chinese": "山田先生仔細聽。"
+          },
+          {
+            "japanese": "この音楽を耳で聞きます。",
+            "chinese": "用耳朵聽這個音樂。"
+          },
+          {
+            "japanese": "木村さんは耳がいいです。",
+            "chinese": "木村先生聽力很好。"
+          },
+          {
+            "japanese": "鈴木さんは耳を触ります。",
+            "chinese": "鈴木先生摸耳朵。"
+          },
+          {
+            "japanese": "佐藤さんは耳が小さいです。",
+            "chinese": "佐藤先生耳朵很小。"
+          },
+          {
+            "japanese": "王さんは耳を掃除します。",
+            "chinese": "王先生清潔耳朵。"
+          },
+          {
+            "japanese": "李さんは耳にピアスをします。",
+            "chinese": "李先生戴耳環。"
+          },
+          {
+            "japanese": "母は耳が遠いです。",
+            "chinese": "媽媽耳朵重聽。"
+          },
+          {
+            "japanese": "父は耳をかきます。",
+            "chinese": "爸爸抓耳朵。"
+          },
+          {
+            "japanese": "妹は耳がかわいいです。",
+            "chinese": "妹妹耳朵很可愛。"
+          },
+          {
+            "japanese": "兄は音楽を耳で聞きます。",
+            "chinese": "哥哥用耳朵聽音樂。"
+          },
+          {
+            "japanese": "姉は耳にイヤリングをつけます。",
+            "chinese": "姊姊戴耳環。"
+          },
+          {
+            "japanese": "田中さんは耳の検査をします。",
+            "chinese": "田中先生做耳朵檢查。"
+          },
+          {
+            "japanese": "山田さんは耳に手を当てます。",
+            "chinese": "山田先生把手放在耳朵上。"
+          },
+          {
+            "japanese": "木村さんは耳をふさぎます。",
+            "chinese": "木村先生摀住耳朵。"
+          },
+          {
+            "japanese": "鈴木さんは耳の後ろを洗います。",
+            "chinese": "鈴木先生洗耳朵後面。"
+          },
+          {
+            "japanese": "佐藤さんは耳を守ります。",
+            "chinese": "佐藤先生保護耳朵。"
+          },
+          {
+            "japanese": "この音は耳にいいです。",
+            "chinese": "這個聲音對耳朵好。"
+          }
+        ]
+      },
+      {
+        "japanese": "くち",
+        "kanji": "口",
+        "chinese": "嘴巴",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「悪」、「渇」、「薬」、「軽」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "悪",
+              "zh": "惡",
+              "note": null
+            },
+            {
+              "jp": "渇",
+              "zh": "渴",
+              "note": null
+            },
+            {
+              "jp": "薬",
+              "zh": "藥",
+              "note": null
+            },
+            {
+              "jp": "軽",
+              "zh": "輕",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "口が渇きます。",
+            "chinese": "口渴。"
+          },
+          {
+            "japanese": "田中さんは口が大きいです。",
+            "chinese": "田中先生嘴巴很大。"
+          },
+          {
+            "japanese": "山田さんは口を開けます。",
+            "chinese": "山田先生張開嘴巴。"
+          },
+          {
+            "japanese": "ご飯を口に入れます。",
+            "chinese": "把飯放進嘴裡。"
+          },
+          {
+            "japanese": "木村さんは口が小さいです。",
+            "chinese": "木村先生嘴巴很小。"
+          },
+          {
+            "japanese": "鈴木さんは口を閉じます。",
+            "chinese": "鈴木先生閉上嘴巴。"
+          },
+          {
+            "japanese": "佐藤さんは口をゆすぎます。",
+            "chinese": "佐藤先生漱口。"
+          },
+          {
+            "japanese": "王さんは口がうまいです。",
+            "chinese": "王先生很會說話。"
+          },
+          {
+            "japanese": "李さんは口に食べ物を入れます。",
+            "chinese": "李先生把食物放進嘴裡。"
+          },
+          {
+            "japanese": "母は口が軽いです。",
+            "chinese": "媽媽嘴巴不牢。"
+          },
+          {
+            "japanese": "父は口を拭きます。",
+            "chinese": "爸爸擦嘴巴。"
+          },
+          {
+            "japanese": "妹は口がかわいいです。",
+            "chinese": "妹妹嘴巴很可愛。"
+          },
+          {
+            "japanese": "兄は口笛を吹きます。",
+            "chinese": "哥哥吹口哨。"
+          },
+          {
+            "japanese": "姉は口紅をつけます。",
+            "chinese": "姊姊擦口紅。"
+          },
+          {
+            "japanese": "田中さんは口を押さえます。",
+            "chinese": "田中先生摀住嘴巴。"
+          },
+          {
+            "japanese": "山田さんは口が堅いです。",
+            "chinese": "山田先生守口如瓶。"
+          },
+          {
+            "japanese": "木村さんは口を動かします。",
+            "chinese": "木村先生動嘴巴。"
+          },
+          {
+            "japanese": "鈴木さんは口が悪いです。",
+            "chinese": "鈴木先生講話難聽。"
+          },
+          {
+            "japanese": "佐藤さんは口の周りを洗います。",
+            "chinese": "佐藤先生洗嘴巴周圍。"
+          },
+          {
+            "japanese": "この薬は口に苦いです。",
+            "chinese": "這個藥吃起來苦。"
+          }
+        ]
+      },
+      {
+        "japanese": "は",
+        "kanji": "歯",
+        "chinese": "牙齒",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「医」、「抜」、「挟」、「晩」、「検」、「歯」、「毎」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "医",
+              "zh": "醫",
+              "note": null
+            },
+            {
+              "jp": "抜",
+              "zh": "拔",
+              "note": null
+            },
+            {
+              "jp": "挟",
+              "zh": "挾",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "検",
+              "zh": "檢",
+              "note": null
+            },
+            {
+              "jp": "歯",
+              "zh": "齒",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "毎晩歯を磨きます。",
+            "chinese": "每天晚上刷牙。"
+          },
+          {
+            "japanese": "田中さんは歯が痛いです。",
+            "chinese": "田中先生牙痛。"
+          },
+          {
+            "japanese": "山田さんは歯を白くします。",
+            "chinese": "山田先生美白牙齒。"
+          },
+          {
+            "japanese": "食後に歯を磨きます。",
+            "chinese": "飯後刷牙。"
+          },
+          {
+            "japanese": "木村さんは歯が丈夫です。",
+            "chinese": "木村先生牙齒很堅固。"
+          },
+          {
+            "japanese": "鈴木さんは歯医者で歯を見せます。",
+            "chinese": "鈴木先生在牙醫看牙齒。"
+          },
+          {
+            "japanese": "佐藤さんは歯を抜きます。",
+            "chinese": "佐藤先生拔牙。"
+          },
+          {
+            "japanese": "王さんは歯がきれいです。",
+            "chinese": "王先生牙齒很漂亮。"
+          },
+          {
+            "japanese": "李さんは歯を磨きます。",
+            "chinese": "李先生刷牙。"
+          },
+          {
+            "japanese": "母は歯が弱いです。",
+            "chinese": "媽媽牙齒不好。"
+          },
+          {
+            "japanese": "父は歯を食いしばります。",
+            "chinese": "爸爸咬緊牙關。"
+          },
+          {
+            "japanese": "妹は歯が小さいです。",
+            "chinese": "妹妹牙齒很小。"
+          },
+          {
+            "japanese": "兄は朝と夜歯を磨きます。",
+            "chinese": "哥哥早晚刷牙。"
+          },
+          {
+            "japanese": "姉は歯を矯正します。",
+            "chinese": "姊姊矯正牙齒。"
+          },
+          {
+            "japanese": "田中さんは歯の治療をします。",
+            "chinese": "田中先生治療牙齒。"
+          },
+          {
+            "japanese": "山田さんは歯に物が挟まります。",
+            "chinese": "山田先生牙齒卡到東西。"
+          },
+          {
+            "japanese": "木村さんは歯の検査をします。",
+            "chinese": "木村先生做牙齒檢查。"
+          },
+          {
+            "japanese": "鈴木さんは歯を強くします。",
+            "chinese": "鈴木先生強健牙齒。"
+          },
+          {
+            "japanese": "佐藤さんは歯が抜けます。",
+            "chinese": "佐藤先生牙齒脫落。"
+          },
+          {
+            "japanese": "この歯ブラシを使います。",
+            "chinese": "使用這個牙刷。"
+          }
+        ]
+      },
+      {
+        "japanese": "おなか",
+        "kanji": null,
+        "chinese": "肚子",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「効」、「壊」、「悪」、「温」、「薬」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "効",
+              "zh": "效",
+              "note": null
+            },
+            {
+              "jp": "壊",
+              "zh": "壞",
+              "note": null
+            },
+            {
+              "jp": "悪",
+              "zh": "惡",
+              "note": null
+            },
+            {
+              "jp": "温",
+              "zh": "溫",
+              "note": null
+            },
+            {
+              "jp": "薬",
+              "zh": "藥",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "おなかがすきます。",
+            "chinese": "肚子餓了。"
+          },
+          {
+            "japanese": "田中さんはおなかが痛いです。",
+            "chinese": "田中先生肚子痛。"
+          },
+          {
+            "japanese": "山田さんはおなかを壊します。",
+            "chinese": "山田先生吃壞肚子。"
+          },
+          {
+            "japanese": "おなかがいっぱいです。",
+            "chinese": "肚子很飽。"
+          },
+          {
+            "japanese": "木村さんはおなかが空きます。",
+            "chinese": "木村先生肚子餓。"
+          },
+          {
+            "japanese": "鈴木さんはおなかを押さえます。",
+            "chinese": "鈴木先生按住肚子。"
+          },
+          {
+            "japanese": "佐藤さんはおなかが大きいです。",
+            "chinese": "佐藤先生肚子很大。"
+          },
+          {
+            "japanese": "王さんはおなかを冷やします。",
+            "chinese": "王先生讓肚子著涼。"
+          },
+          {
+            "japanese": "李さんはおなかの調子が悪いです。",
+            "chinese": "李先生肚子不舒服。"
+          },
+          {
+            "japanese": "母はおなかが弱いです。",
+            "chinese": "媽媽腸胃不好。"
+          },
+          {
+            "japanese": "父はおなかがすきます。",
+            "chinese": "爸爸肚子餓。"
+          },
+          {
+            "japanese": "妹はおなかが痛いです。",
+            "chinese": "妹妹肚子痛。"
+          },
+          {
+            "japanese": "兄はおなかをマッサージします。",
+            "chinese": "哥哥按摩肚子。"
+          },
+          {
+            "japanese": "姉はおなかを温めます。",
+            "chinese": "姊姊溫暖肚子。"
+          },
+          {
+            "japanese": "田中さんはおなかの調子がいいです。",
+            "chinese": "田中先生肚子狀況很好。"
+          },
+          {
+            "japanese": "山田さんはおなかを抱えます。",
+            "chinese": "山田先生抱著肚子。"
+          },
+          {
+            "japanese": "木村さんはおなかをさすります。",
+            "chinese": "木村先生揉肚子。"
+          },
+          {
+            "japanese": "鈴木さんはおなかを動かします。",
+            "chinese": "鈴木先生動肚子。"
+          },
+          {
+            "japanese": "佐藤さんはおなかが減ります。",
+            "chinese": "佐藤先生肚子餓。"
+          },
+          {
+            "japanese": "この薬はおなかに効きます。",
+            "chinese": "這個藥對腸胃有效。"
+          }
+        ]
+      },
+      {
+        "japanese": "あし",
+        "kanji": "足",
+        "chinese": "腳，腿",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「細」、「組」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "温",
+              "zh": "溫",
+              "note": null
+            },
+            {
+              "jp": "細",
+              "zh": "細",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "組",
+              "zh": "組",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "裏",
+              "zh": "裡",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "足が痛いです。",
+            "chinese": "腳痛。"
+          },
+          {
+            "japanese": "田中さんは足が長いです。",
+            "chinese": "田中先生腿很長。"
+          },
+          {
+            "japanese": "山田さんは足を洗います。",
+            "chinese": "山田先生洗腳。"
+          },
+          {
+            "japanese": "駅まで足で歩きます。",
+            "chinese": "走路到車站。"
+          },
+          {
+            "japanese": "木村さんは足が速いです。",
+            "chinese": "木村先生跑得快。"
+          },
+          {
+            "japanese": "鈴木さんは足を怪我します。",
+            "chinese": "鈴木先生腳受傷。"
+          },
+          {
+            "japanese": "佐藤さんは足が疲れます。",
+            "chinese": "佐藤先生腳痠。"
+          },
+          {
+            "japanese": "王さんは足を伸ばします。",
+            "chinese": "王先生伸腿。"
+          },
+          {
+            "japanese": "李さんは足が短いです。",
+            "chinese": "李先生腿很短。"
+          },
+          {
+            "japanese": "母は足が細いです。",
+            "chinese": "媽媽腿很細。"
+          },
+          {
+            "japanese": "父は足を組みます。",
+            "chinese": "爸爸蹺腳。"
+          },
+          {
+            "japanese": "妹は足が小さいです。",
+            "chinese": "妹妹腳很小。"
+          },
+          {
+            "japanese": "兄は足を鍛えます。",
+            "chinese": "哥哥鍛鍊腿。"
+          },
+          {
+            "japanese": "姉は足がむくみます。",
+            "chinese": "姊姊腳水腫。"
+          },
+          {
+            "japanese": "田中さんは足の裏を押します。",
+            "chinese": "田中先生按腳底。"
+          },
+          {
+            "japanese": "山田さんは足を拭きます。",
+            "chinese": "山田先生擦腳。"
+          },
+          {
+            "japanese": "木村さんは足を動かします。",
+            "chinese": "木村先生動腳。"
+          },
+          {
+            "japanese": "鈴木さんは足が丈夫です。",
+            "chinese": "鈴木先生腿很健壯。"
+          },
+          {
+            "japanese": "佐藤さんは足を温めます。",
+            "chinese": "佐藤先生溫暖腳。"
+          },
+          {
+            "japanese": "この靴は足に合います。",
+            "chinese": "這雙鞋很合腳。"
+          }
+        ]
+      },
+      {
+        "japanese": "サービス",
+        "kanji": null,
+        "chinese": "服務",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「話」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "悪",
+              "zh": "惡",
+              "note": null
+            },
+            {
+              "jp": "払",
+              "zh": "拂",
+              "note": null
+            },
+            {
+              "jp": "満",
+              "zh": "滿",
+              "note": null
+            },
+            {
+              "jp": "話",
+              "zh": "話",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "quality_state_degree"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "この店はサービスがいいです。",
+            "chinese": "這家店服務很好。"
+          },
+          {
+            "japanese": "田中さんはサービスの仕事をします。",
+            "chinese": "田中先生做服務業的工作。"
+          },
+          {
+            "japanese": "山田さんはあの店のサービスに満足します。",
+            "chinese": "山田先生對那家店的服務滿意。"
+          },
+          {
+            "japanese": "ここはサービスが悪いです。",
+            "chinese": "這裡服務很差。"
+          },
+          {
+            "japanese": "木村さんはサービス料を払います。",
+            "chinese": "木村先生付服務費。"
+          },
+          {
+            "japanese": "このホテルのサービスは丁寧です。",
+            "chinese": "這家飯店的服務很周到。"
+          },
+          {
+            "japanese": "鈴木さんはサービスの向上を考えます。",
+            "chinese": "鈴木先生思考提升服務。"
+          },
+          {
+            "japanese": "あのレストランはサービスが早いです。",
+            "chinese": "那家餐廳服務很快。"
+          },
+          {
+            "japanese": "佐藤さんはサービスに文句を言います。",
+            "chinese": "佐藤先生抱怨服務。"
+          },
+          {
+            "japanese": "この会社はサービスを大切にします。",
+            "chinese": "這家公司重視服務。"
+          },
+          {
+            "japanese": "王さんはサービスの勉強をします。",
+            "chinese": "王先生學習服務。"
+          },
+          {
+            "japanese": "この銀行のサービスは親切です。",
+            "chinese": "這家銀行的服務很親切。"
+          },
+          {
+            "japanese": "李さんはサービスの質を調べます。",
+            "chinese": "李先生調查服務品質。"
+          },
+          {
+            "japanese": "母はこの店のサービスが好きです。",
+            "chinese": "媽媽喜歡這家店的服務。"
+          },
+          {
+            "japanese": "父はサービスの悪い店を避けます。",
+            "chinese": "爸爸避開服務差的店。"
+          },
+          {
+            "japanese": "妹はサービスの仕事に興味があります。",
+            "chinese": "妹妹對服務業有興趣。"
+          },
+          {
+            "japanese": "兄はサービスについて話します。",
+            "chinese": "哥哥談論服務。"
+          },
+          {
+            "japanese": "姉はサービスの研修を受けます。",
+            "chinese": "姊姊接受服務訓練。"
+          },
+          {
+            "japanese": "田中さんはサービスを改善します。",
+            "chinese": "田中先生改善服務。"
+          },
+          {
+            "japanese": "このサービスは無料です。",
+            "chinese": "這項服務是免費的。"
+          }
+        ]
+      },
+      {
+        "japanese": "ジョギング",
+        "kanji": null,
+        "chinese": "慢跑",
+        "image": null,
+        "note": "常搭配「ジョギングをします」",
+        "kanji_note": {
+          "summary": "日語的「飲」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "楽",
+              "zh": "樂",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "続",
+              "zh": "續",
+              "note": null
+            },
+            {
+              "jp": "飲",
+              "zh": "飲",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "action_activity"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "毎朝ジョギングをします。",
+            "chinese": "每天早上慢跑。"
+          },
+          {
+            "japanese": "田中さんは公園でジョギングをします。",
+            "chinese": "田中先生在公園慢跑。"
+          },
+          {
+            "japanese": "山田さんはジョギングが好きです。",
+            "chinese": "山田先生喜歡慢跑。"
+          },
+          {
+            "japanese": "朝のジョギングは気持ちがいいです。",
+            "chinese": "早晨慢跑很舒服。"
+          },
+          {
+            "japanese": "木村さんは川の近くをジョギングします。",
+            "chinese": "木村先生在河邊慢跑。"
+          },
+          {
+            "japanese": "鈴木さんはジョギングの後にシャワーを浴びます。",
+            "chinese": "鈴木先生慢跑後沖澡。"
+          },
+          {
+            "japanese": "佐藤さんは毎晩ジョギングをします。",
+            "chinese": "佐藤先生每天晚上慢跑。"
+          },
+          {
+            "japanese": "この道でジョギングをします。",
+            "chinese": "在這條路慢跑。"
+          },
+          {
+            "japanese": "王さんはジョギングの時間を決めます。",
+            "chinese": "王先生決定慢跑時間。"
+          },
+          {
+            "japanese": "李さんは友達とジョギングをします。",
+            "chinese": "李先生和朋友一起慢跑。"
+          },
+          {
+            "japanese": "母は朝のジョギングを続けます。",
+            "chinese": "媽媽持續早晨慢跑。"
+          },
+          {
+            "japanese": "父はジョギングを始めます。",
+            "chinese": "爸爸開始慢跑。"
+          },
+          {
+            "japanese": "妹はジョギングに誘います。",
+            "chinese": "妹妹邀人去慢跑。"
+          },
+          {
+            "japanese": "兄はジョギングで汗をかきます。",
+            "chinese": "哥哥慢跑流汗。"
+          },
+          {
+            "japanese": "姉はジョギングの格好をします。",
+            "chinese": "姊姊穿慢跑的裝扮。"
+          },
+          {
+            "japanese": "田中さんはジョギングの後で水を飲みます。",
+            "chinese": "田中先生慢跑後喝水。"
+          },
+          {
+            "japanese": "山田さんは雨の日もジョギングをします。",
+            "chinese": "山田先生下雨天也慢跑。"
+          },
+          {
+            "japanese": "木村さんはジョギングを楽しみます。",
+            "chinese": "木村先生享受慢跑。"
+          },
+          {
+            "japanese": "鈴木さんはジョギングの靴を買います。",
+            "chinese": "鈴木先生買慢跑鞋。"
+          },
+          {
+            "japanese": "佐藤さんは毎日30分ジョギングをします。",
+            "chinese": "佐藤先生每天慢跑三十分鐘。"
+          }
+        ]
+      },
+      {
+        "japanese": "シャワー",
+        "kanji": null,
+        "chinese": "淋浴",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「体」、「寝」、「晩」、「毎」、「温」、「髪」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "体",
+              "zh": "體",
+              "note": null
+            },
+            {
+              "jp": "寝",
+              "zh": "寢",
+              "note": null
+            },
+            {
+              "jp": "晩",
+              "zh": "晚",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "温",
+              "zh": "溫",
+              "note": null
+            },
+            {
+              "jp": "髪",
+              "zh": "髮",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "food_housing_daily_life"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "毎朝シャワーを浴びます。",
+            "chinese": "每天早上沖澡。"
+          },
+          {
+            "japanese": "田中さんはシャワーが長いです。",
+            "chinese": "田中先生沖澡很久。"
+          },
+          {
+            "japanese": "山田さんはシャワーの後で寝ます。",
+            "chinese": "山田先生沖澡後睡覺。"
+          },
+          {
+            "japanese": "このホテルはシャワーが新しいです。",
+            "chinese": "這家飯店的淋浴設備很新。"
+          },
+          {
+            "japanese": "木村さんはシャワーを浴びます。",
+            "chinese": "木村先生沖澡。"
+          },
+          {
+            "japanese": "鈴木さんはシャワーの温度を調べます。",
+            "chinese": "鈴木先生調淋浴溫度。"
+          },
+          {
+            "japanese": "佐藤さんはジムのシャワーを使います。",
+            "chinese": "佐藤先生使用健身房的淋浴。"
+          },
+          {
+            "japanese": "王さんはシャワーの後で体を拭きます。",
+            "chinese": "王先生沖澡後擦身體。"
+          },
+          {
+            "japanese": "李さんはシャワーの水を止めます。",
+            "chinese": "李先生關掉淋浴的水。"
+          },
+          {
+            "japanese": "母は夜シャワーを浴びます。",
+            "chinese": "媽媽晚上沖澡。"
+          },
+          {
+            "japanese": "父はシャワーが好きです。",
+            "chinese": "爸爸喜歡淋浴。"
+          },
+          {
+            "japanese": "妹はシャワーの後で髪を乾かします。",
+            "chinese": "妹妹沖澡後吹乾頭髮。"
+          },
+          {
+            "japanese": "兄は朝シャワーを浴びます。",
+            "chinese": "哥哥早上沖澡。"
+          },
+          {
+            "japanese": "姉はシャワーのお湯を出します。",
+            "chinese": "姊姊放出淋浴的熱水。"
+          },
+          {
+            "japanese": "田中さんはシャワーの後でシャツを着ます。",
+            "chinese": "田中先生沖澡後穿襯衫。"
+          },
+          {
+            "japanese": "山田さんはシャワーの音を聞きます。",
+            "chinese": "山田先生聽到淋浴的水聲。"
+          },
+          {
+            "japanese": "木村さんはシャワーを修理します。",
+            "chinese": "木村先生修理淋浴設備。"
+          },
+          {
+            "japanese": "鈴木さんはシャワーの掃除をします。",
+            "chinese": "鈴木先生打掃淋浴設備。"
+          },
+          {
+            "japanese": "佐藤さんは毎晩シャワーを浴びます。",
+            "chinese": "佐藤先生每天晚上沖澡。"
+          },
+          {
+            "japanese": "このシャワーは水が冷たいです。",
+            "chinese": "這個淋浴的水很冷。"
+          }
+        ]
+      },
+      {
+        "japanese": "みどり",
+        "kanji": "緑",
+        "chinese": "綠色，綠意",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「乗」、「号」、「楽」、「歩」、「緑」、「転」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "乗",
+              "zh": "乘",
+              "note": null
+            },
+            {
+              "jp": "号",
+              "zh": "號",
+              "note": null
+            },
+            {
+              "jp": "楽",
+              "zh": "樂",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "緑",
+              "zh": "綠",
+              "note": null
+            },
+            {
+              "jp": "転",
+              "zh": "轉",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "nature"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "この公園は緑が多いです。",
+            "chinese": "這個公園綠意很多。"
+          },
+          {
+            "japanese": "田中さんは緑が好きです。",
+            "chinese": "田中先生喜歡綠色。"
+          },
+          {
+            "japanese": "山田さんは緑のシャツを着ます。",
+            "chinese": "山田先生穿綠色的襯衫。"
+          },
+          {
+            "japanese": "春は緑がきれいです。",
+            "chinese": "春天綠意很美。"
+          },
+          {
+            "japanese": "木村さんは緑の山を歩きます。",
+            "chinese": "木村先生走在綠色的山上。"
+          },
+          {
+            "japanese": "鈴木さんは緑のペンを使います。",
+            "chinese": "鈴木先生用綠色的筆。"
+          },
+          {
+            "japanese": "佐藤さんは緑のカーテンを買います。",
+            "chinese": "佐藤先生買綠色的窗簾。"
+          },
+          {
+            "japanese": "この町は緑が少ないです。",
+            "chinese": "這個城鎮綠意很少。"
+          },
+          {
+            "japanese": "王さんは緑の葉を集めます。",
+            "chinese": "王先生收集綠色的葉子。"
+          },
+          {
+            "japanese": "李さんは緑の景色を楽しみます。",
+            "chinese": "李先生欣賞綠色景色。"
+          },
+          {
+            "japanese": "母は緑の野菜を食べます。",
+            "chinese": "媽媽吃綠色蔬菜。"
+          },
+          {
+            "japanese": "父は緑のネクタイをします。",
+            "chinese": "爸爸打綠色的領帶。"
+          },
+          {
+            "japanese": "妹は緑の服が好きです。",
+            "chinese": "妹妹喜歡綠色的衣服。"
+          },
+          {
+            "japanese": "兄は緑の自転車に乗ります。",
+            "chinese": "哥哥騎綠色的自行車。"
+          },
+          {
+            "japanese": "姉は緑の傘を差します。",
+            "chinese": "姊姊撐綠色的傘。"
+          },
+          {
+            "japanese": "田中さんは緑の木を植えます。",
+            "chinese": "田中先生種綠樹。"
+          },
+          {
+            "japanese": "山田さんは緑の多い所に住んでいます。",
+            "chinese": "山田先生住在綠意多的地方。"
+          },
+          {
+            "japanese": "木村さんは緑の信号を待ちます。",
+            "chinese": "木村先生等綠燈。"
+          },
+          {
+            "japanese": "鈴木さんは緑の絨毯を敷きます。",
+            "chinese": "鈴木先生鋪綠色的地毯。"
+          },
+          {
+            "japanese": "佐藤さんは緑の壁を塗ります。",
+            "chinese": "佐藤先生漆綠色的牆。"
+          }
+        ]
+      },
+      {
+        "japanese": "てら",
+        "kanji": "寺",
+        "chinese": "寺廟",
+        "image": null,
+        "note": "通常說「お寺」，加敬語前綴「お」",
+        "kanji_note": {
+          "summary": "日語的「会」、「写」、「参」、「歩」、「歴」、「毎」、「絵」、「静」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "参",
+              "zh": "參",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "歴",
+              "zh": "歷",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "絵",
+              "zh": "繪",
+              "note": null
+            },
+            {
+              "jp": "静",
+              "zh": "靜",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "京都で寺を見ます。",
+            "chinese": "在京都看寺廟。"
+          },
+          {
+            "japanese": "田中さんは古い寺が好きです。",
+            "chinese": "田中先生喜歡古老的寺廟。"
+          },
+          {
+            "japanese": "山田さんは寺にお参りします。",
+            "chinese": "山田先生到寺廟參拜。"
+          },
+          {
+            "japanese": "この寺は静かです。",
+            "chinese": "這座寺廟很安靜。"
+          },
+          {
+            "japanese": "木村さんは寺の写真を撮ります。",
+            "chinese": "木村先生拍寺廟的照片。"
+          },
+          {
+            "japanese": "鈴木さんは寺で手を洗います。",
+            "chinese": "鈴木先生在寺廟洗手。"
+          },
+          {
+            "japanese": "佐藤さんは奈良の寺を訪ねます。",
+            "chinese": "佐藤先生造訪奈良的寺廟。"
+          },
+          {
+            "japanese": "この寺の庭はきれいです。",
+            "chinese": "這座寺廟的庭院很美。"
+          },
+          {
+            "japanese": "王さんは寺の歴史を勉強します。",
+            "chinese": "王先生研究寺廟的歷史。"
+          },
+          {
+            "japanese": "李さんは寺の前で待ちます。",
+            "chinese": "李先生在寺廟前面等待。"
+          },
+          {
+            "japanese": "母は毎月寺へ行きます。",
+            "chinese": "媽媽每個月去寺廟。"
+          },
+          {
+            "japanese": "父は寺の鐘を聞きます。",
+            "chinese": "爸爸聽寺廟的鐘聲。"
+          },
+          {
+            "japanese": "妹は寺でお守りを買います。",
+            "chinese": "妹妹在寺廟買護身符。"
+          },
+          {
+            "japanese": "兄は寺の階段を上ります。",
+            "chinese": "哥哥爬上寺廟的階梯。"
+          },
+          {
+            "japanese": "姉は寺の絵を描きます。",
+            "chinese": "姊姊畫寺廟的圖。"
+          },
+          {
+            "japanese": "田中さんは寺に泊まります。",
+            "chinese": "田中先生在寺廟過夜。"
+          },
+          {
+            "japanese": "山田さんは寺のお坊さんに会います。",
+            "chinese": "山田先生見到寺廟的和尚。"
+          },
+          {
+            "japanese": "木村さんは寺の門をくぐります。",
+            "chinese": "木村先生穿過寺廟的門。"
+          },
+          {
+            "japanese": "鈴木さんは寺を案内します。",
+            "chinese": "鈴木先生介紹寺廟。"
+          },
+          {
+            "japanese": "佐藤さんは寺の境内を歩きます。",
+            "chinese": "佐藤先生在寺廟境內散步。"
+          }
+        ]
+      },
+      {
+        "japanese": "じんじゃ",
+        "kanji": "神社",
+        "chinese": "神社",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「会」、「写」、「参」、「歩」、「歴」、「毎」、「絵」、「静」與繁體用字不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "参",
+              "zh": "參",
+              "note": null
+            },
+            {
+              "jp": "歩",
+              "zh": "步",
+              "note": null
+            },
+            {
+              "jp": "歴",
+              "zh": "歷",
+              "note": null
+            },
+            {
+              "jp": "毎",
+              "zh": "每",
+              "note": null
+            },
+            {
+              "jp": "絵",
+              "zh": "繪",
+              "note": null
+            },
+            {
+              "jp": "静",
+              "zh": "靜",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "place_facility"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "神社でお参りします。",
+            "chinese": "在神社參拜。"
+          },
+          {
+            "japanese": "田中さんは神社が好きです。",
+            "chinese": "田中先生喜歡神社。"
+          },
+          {
+            "japanese": "山田さんは神社の鳥居をくぐります。",
+            "chinese": "山田先生穿過神社的鳥居。"
+          },
+          {
+            "japanese": "この神社は静かです。",
+            "chinese": "這座神社很安靜。"
+          },
+          {
+            "japanese": "木村さんは神社の写真を撮ります。",
+            "chinese": "木村先生拍神社的照片。"
+          },
+          {
+            "japanese": "鈴木さんは神社で手を洗います。",
+            "chinese": "鈴木先生在神社洗手。"
+          },
+          {
+            "japanese": "佐藤さんは神社でお守りを買います。",
+            "chinese": "佐藤先生在神社買護身符。"
+          },
+          {
+            "japanese": "この神社の木は大きいです。",
+            "chinese": "這座神社的樹很大。"
+          },
+          {
+            "japanese": "王さんは神社の歴史を勉強します。",
+            "chinese": "王先生研究神社的歷史。"
+          },
+          {
+            "japanese": "李さんは神社の前で待ちます。",
+            "chinese": "李先生在神社前面等待。"
+          },
+          {
+            "japanese": "母は毎年神社へ行きます。",
+            "chinese": "媽媽每年去神社。"
+          },
+          {
+            "japanese": "父は神社でおみくじを引きます。",
+            "chinese": "爸爸在神社抽籤。"
+          },
+          {
+            "japanese": "妹は神社の鈴を鳴らします。",
+            "chinese": "妹妹搖神社的鈴鐺。"
+          },
+          {
+            "japanese": "兄は神社の階段を上ります。",
+            "chinese": "哥哥爬上神社的階梯。"
+          },
+          {
+            "japanese": "姉は神社の絵を描きます。",
+            "chinese": "姊姊畫神社的圖。"
+          },
+          {
+            "japanese": "田中さんは神社の祭りに行きます。",
+            "chinese": "田中先生去神社的祭典。"
+          },
+          {
+            "japanese": "山田さんは神社の神主に会います。",
+            "chinese": "山田先生見到神社的神主。"
+          },
+          {
+            "japanese": "木村さんは神社を案内します。",
+            "chinese": "木村先生介紹神社。"
+          },
+          {
+            "japanese": "鈴木さんは神社の境内を歩きます。",
+            "chinese": "鈴木先生在神社境內散步。"
+          },
+          {
+            "japanese": "佐藤さんは神社の掃除をします。",
+            "chinese": "佐藤先生打掃神社。"
+          }
+        ]
+      },
+      {
+        "japanese": "りゅうがくせい",
+        "kanji": "留学生",
+        "chinese": "留學生",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "日語的「話」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "伝",
+              "zh": "傳",
+              "note": null
+            },
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "話",
+              "zh": "話",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "説",
+              "zh": "說",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "people_role_address"
+        ],
+        "speech": [
+          "noun"
+        ],
+        "sentence": [
+          {
+            "japanese": "王さんは留学生です。",
+            "chinese": "王先生是留學生。"
+          },
+          {
+            "japanese": "田中さんは留学生に日本語を教えます。",
+            "chinese": "田中先生教留學生日語。"
+          },
+          {
+            "japanese": "山田さんは留学生と話します。",
+            "chinese": "山田先生和留學生說話。"
+          },
+          {
+            "japanese": "この大学は留学生が多いです。",
+            "chinese": "這所大學留學生很多。"
+          },
+          {
+            "japanese": "木村さんは留学生の世話をします。",
+            "chinese": "木村先生照顧留學生。"
+          },
+          {
+            "japanese": "鈴木さんは留学生の友達がいます。",
+            "chinese": "鈴木先生有留學生朋友。"
+          },
+          {
+            "japanese": "佐藤さんは留学生を案内します。",
+            "chinese": "佐藤先生帶留學生參觀。"
+          },
+          {
+            "japanese": "李さんは来年留学生になります。",
+            "chinese": "李先生明年成為留學生。"
+          },
+          {
+            "japanese": "母は留学生に料理を作ります。",
+            "chinese": "媽媽為留學生做料理。"
+          },
+          {
+            "japanese": "父は留学生と写真を撮ります。",
+            "chinese": "爸爸和留學生拍照。"
+          },
+          {
+            "japanese": "妹は留学生と友達になります。",
+            "chinese": "妹妹和留學生成為朋友。"
+          },
+          {
+            "japanese": "兄は留学生の寮を訪ねます。",
+            "chinese": "哥哥拜訪留學生的宿舍。"
+          },
+          {
+            "japanese": "姉は留学生を手伝います。",
+            "chinese": "姊姊幫助留學生。"
+          },
+          {
+            "japanese": "田中さんは留学生の説明会に出ます。",
+            "chinese": "田中先生參加留學生說明會。"
+          },
+          {
+            "japanese": "山田さんは留学生に道を教えます。",
+            "chinese": "山田先生為留學生指路。"
+          },
+          {
+            "japanese": "木村さんは留学生と食事します。",
+            "chinese": "木村先生和留學生吃飯。"
+          },
+          {
+            "japanese": "鈴木さんは留学生の相談を聞きます。",
+            "chinese": "鈴木先生聽留學生的諮詢。"
+          },
+          {
+            "japanese": "佐藤さんは留学生を家に呼びます。",
+            "chinese": "佐藤先生邀請留學生來家裡。"
+          },
+          {
+            "japanese": "この学校は留学生を受け入れます。",
+            "chinese": "這所學校招收留學生。"
+          },
+          {
+            "japanese": "王さんは留学生の先輩です。",
+            "chinese": "王先生是留學生的學長。"
+          }
+        ]
+      },
+      {
+        "japanese": "…ばん",
+        "kanji": "…番",
+        "chinese": "…號",
+        "image": null,
+        "note": "接數字後表序號",
+        "kanji_note": {
+          "summary": "「予」在日語可表「預先／給予」，繁體對應視語境為「預」或「予」，不宜一律寫成「豫」。日語的「線」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "乗",
+              "zh": "乘",
+              "note": null
+            },
+            {
+              "jp": "予",
+              "zh": "預／予",
+              "note": "在日語可表「預先／給予」，繁體對應視語境為「預」或「予」，不宜一律寫成「豫」。"
+            },
+            {
+              "jp": "号",
+              "zh": "號",
+              "note": null
+            },
+            {
+              "jp": "払",
+              "zh": "拂",
+              "note": null
+            },
+            {
+              "jp": "気",
+              "zh": "氣",
+              "note": null
+            },
+            {
+              "jp": "線",
+              "zh": "線",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            }
+          ]
+        },
+        "tags": [
+          "time_date_quantity"
+        ],
+        "speech": [
+          "bound_morpheme"
+        ],
+        "sentence": [
+          {
+            "japanese": "部屋の番号は3番です。",
+            "chinese": "房間號碼是三號。"
+          },
+          {
+            "japanese": "田中さんは5番に座ります。",
+            "chinese": "田中先生坐在五號。"
+          },
+          {
+            "japanese": "山田さんは1番でゴールします。",
+            "chinese": "山田先生第一個到達終點。"
+          },
+          {
+            "japanese": "このバスは3番です。",
+            "chinese": "這班公車是三號。"
+          },
+          {
+            "japanese": "木村さんは背番号10番です。",
+            "chinese": "木村先生的背號是十號。"
+          },
+          {
+            "japanese": "鈴木さんは2番の改札へ行きます。",
+            "chinese": "鈴木先生去二號剪票口。"
+          },
+          {
+            "japanese": "佐藤さんは7番のホームで待ちます。",
+            "chinese": "佐藤先生在七號月台等。"
+          },
+          {
+            "japanese": "王さんは1番線の電車に乗ります。",
+            "chinese": "王先生搭一號月台的電車。"
+          },
+          {
+            "japanese": "李さんは100番の席に座ります。",
+            "chinese": "李先生坐在一百號的座位。"
+          },
+          {
+            "japanese": "母は4番のレジで払います。",
+            "chinese": "媽媽在四號收銀台付款。"
+          },
+          {
+            "japanese": "父は6番の教室へ行きます。",
+            "chinese": "爸爸去六號教室。"
+          },
+          {
+            "japanese": "妹は8番の靴を履きます。",
+            "chinese": "妹妹穿八號的鞋子。"
+          },
+          {
+            "japanese": "兄は1番で走ります。",
+            "chinese": "哥哥跑第一名。"
+          },
+          {
+            "japanese": "姉は9番の部屋を予約します。",
+            "chinese": "姊姊預約九號房。"
+          },
+          {
+            "japanese": "田中さんは1番の成績です。",
+            "chinese": "田中先生成績第一名。"
+          },
+          {
+            "japanese": "山田さんは3番のテーブルに座ります。",
+            "chinese": "山田先生坐在三號桌。"
+          },
+          {
+            "japanese": "木村さんは11番の番号を引きます。",
+            "chinese": "木村先生抽到十一號。"
+          },
+          {
+            "japanese": "鈴木さんは2番の出口から出ます。",
+            "chinese": "鈴木先生從二號出口出去。"
+          },
+          {
+            "japanese": "佐藤さんは5番のバス停で降ります。",
+            "chinese": "佐藤先生在五號公車站下車。"
+          },
+          {
+            "japanese": "この店は1番が人気です。",
+            "chinese": "這家店一號商品很受歡迎。"
+          }
+        ]
+      },
+      {
+        "japanese": "どうやって",
+        "kanji": null,
+        "chinese": "怎樣，如何",
+        "image": null,
+        "note": null,
+        "kanji_note": {
+          "summary": "「予」在日語可表「預先／給予」，繁體對應視語境為「預」或「予」，不宜一律寫成「豫」。日語的「具」、「漢」、「直」與繁體標準字形筆畫略有不同。",
+          "details": [
+            {
+              "jp": "予",
+              "zh": "預／予",
+              "note": "在日語可表「預先／給予」，繁體對應視語境為「預」或「予」，不宜一律寫成「豫」。"
+            },
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "具",
+              "zh": "具",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "写",
+              "zh": "寫",
+              "note": null
+            },
+            {
+              "jp": "図",
+              "zh": "圖",
+              "note": null
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "来",
+              "zh": "來",
+              "note": null
+            },
+            {
+              "jp": "漢",
+              "zh": "漢",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "直",
+              "zh": "直",
+              "note": "與繁體標準字形筆畫略有不同，書寫時留意。"
+            },
+            {
+              "jp": "覚",
+              "zh": "覺",
+              "note": null
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "function_word"
+        ],
+        "speech": [
+          "adverb"
+        ],
+        "sentence": [
+          {
+            "japanese": "駅までどうやって行きますか。",
+            "chinese": "到車站怎麼去？"
+          },
+          {
+            "japanese": "田中さんはどうやって日本語を覚えますか。",
+            "chinese": "田中先生怎麼記日語？"
+          },
+          {
+            "japanese": "この料理はどうやって作りますか。",
+            "chinese": "這道菜怎麼做？"
+          },
+          {
+            "japanese": "山田さんはどうやって会社へ通いますか。",
+            "chinese": "山田先生怎麼通勤？"
+          },
+          {
+            "japanese": "この機械はどうやって使いますか。",
+            "chinese": "這台機器怎麼用？"
+          },
+          {
+            "japanese": "木村さんはどうやって切符を買いますか。",
+            "chinese": "木村先生怎麼買票？"
+          },
+          {
+            "japanese": "ここからどうやって空港へ行きますか。",
+            "chinese": "從這裡怎麼去機場？"
+          },
+          {
+            "japanese": "鈴木さんはどうやって漢字を勉強しますか。",
+            "chinese": "鈴木先生怎麼學漢字？"
+          },
+          {
+            "japanese": "この問題はどうやって解きますか。",
+            "chinese": "這個問題怎麼解？"
+          },
+          {
+            "japanese": "佐藤さんはどうやって予約しますか。",
+            "chinese": "佐藤先生怎麼預約？"
+          },
+          {
+            "japanese": "この服はどうやって洗いますか。",
+            "chinese": "這件衣服怎麼洗？"
+          },
+          {
+            "japanese": "王さんはどうやって日本へ来ますか。",
+            "chinese": "王先生怎麼來日本？"
+          },
+          {
+            "japanese": "この地図はどうやって読みますか。",
+            "chinese": "這張地圖怎麼看？"
+          },
+          {
+            "japanese": "李さんはどうやって家を探しますか。",
+            "chinese": "李先生怎麼找房子？"
+          },
+          {
+            "japanese": "この道具はどうやってしまいますか。",
+            "chinese": "這個道具怎麼收？"
+          },
+          {
+            "japanese": "母はどうやってこの店を知りましたか。",
+            "chinese": "媽媽是怎麼得知這家店的？"
+          },
+          {
+            "japanese": "父はどうやって車を直しますか。",
+            "chinese": "爸爸怎麼修車？"
+          },
+          {
+            "japanese": "妹はどうやって学校へ行きますか。",
+            "chinese": "妹妹怎麼去學校？"
+          },
+          {
+            "japanese": "兄はどうやって料理を作りますか。",
+            "chinese": "哥哥怎麼做料理？"
+          },
+          {
+            "japanese": "姉はどうやって写真を撮りますか。",
+            "chinese": "姊姊怎麼拍照？"
+          }
+        ]
+      },
+      {
+        "japanese": "どの",
+        "kanji": null,
+        "chinese": "哪個～（用於三者或以上）",
+        "image": null,
+        "note": "後接名詞使用，用於三者或以上",
+        "kanji_note": {
+          "summary": "日語「働」為和製字（國字），中文無此字。",
+          "details": [
+            {
+              "jp": "乗",
+              "zh": "乘",
+              "note": null
+            },
+            {
+              "jp": "会",
+              "zh": "會",
+              "note": null
+            },
+            {
+              "jp": "働",
+              "zh": null,
+              "note": "為和製字（國字），中文無此字。"
+            },
+            {
+              "jp": "学",
+              "zh": "學",
+              "note": null
+            },
+            {
+              "jp": "画",
+              "zh": "畫",
+              "note": null
+            },
+            {
+              "jp": "読",
+              "zh": "讀",
+              "note": null
+            },
+            {
+              "jp": "頼",
+              "zh": "賴",
+              "note": null
+            },
+            {
+              "jp": "駅",
+              "zh": "驛",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "function_word"
+        ],
+        "speech": [
+          "determiner"
+        ],
+        "sentence": [
+          {
+            "japanese": "どの電車に乗りますか。",
+            "chinese": "搭哪班電車？"
+          },
+          {
+            "japanese": "田中さんはどの本を読みますか。",
+            "chinese": "田中先生讀哪本書？"
+          },
+          {
+            "japanese": "どの店で買いますか。",
+            "chinese": "在哪家店買？"
+          },
+          {
+            "japanese": "山田さんはどの席に座りますか。",
+            "chinese": "山田先生坐哪個座位？"
+          },
+          {
+            "japanese": "どの道を行きますか。",
+            "chinese": "走哪條路？"
+          },
+          {
+            "japanese": "木村さんはどの映画を見ますか。",
+            "chinese": "木村先生看哪部電影？"
+          },
+          {
+            "japanese": "どの色が好きですか。",
+            "chinese": "喜歡哪個顏色？"
+          },
+          {
+            "japanese": "鈴木さんはどの靴を履きますか。",
+            "chinese": "鈴木先生穿哪雙鞋？"
+          },
+          {
+            "japanese": "どの駅で降りますか。",
+            "chinese": "在哪一站下車？"
+          },
+          {
+            "japanese": "佐藤さんはどの料理を頼みますか。",
+            "chinese": "佐藤先生點哪道菜？"
+          },
+          {
+            "japanese": "どの人が先生ですか。",
+            "chinese": "哪一位是老師？"
+          },
+          {
+            "japanese": "王さんはどの部屋に泊まりますか。",
+            "chinese": "王先生住哪個房間？"
+          },
+          {
+            "japanese": "どの電車が一番早いですか。",
+            "chinese": "哪班電車最快？"
+          },
+          {
+            "japanese": "李さんはどの会社で働きますか。",
+            "chinese": "李先生在哪個公司工作？"
+          },
+          {
+            "japanese": "どの花が好きですか。",
+            "chinese": "喜歡哪朵花？"
+          },
+          {
+            "japanese": "母はどのシャツを買いますか。",
+            "chinese": "媽媽買哪件襯衫？"
+          },
+          {
+            "japanese": "父はどの車に乗りますか。",
+            "chinese": "爸爸搭哪輛車？"
+          },
+          {
+            "japanese": "妹はどのケーキを選びますか。",
+            "chinese": "妹妹選哪個蛋糕？"
+          },
+          {
+            "japanese": "兄はどの大学に入りますか。",
+            "chinese": "哥哥進哪所大學？"
+          },
+          {
+            "japanese": "姉はどのコートを着ますか。",
+            "chinese": "姊姊穿哪件大衣？"
+          }
+        ]
+      },
+      {
+        "japanese": "まだまだです",
+        "kanji": null,
+        "chinese": "還不行。還差得遠。",
+        "image": null,
+        "note": "謙虛的固定表達，前面常加「いいえ、」\n固定謙虛表達，本身為肯定形，不需接否定。",
+        "kanji_note": {
+          "summary": "日語「転」→ 繁體「轉」。",
+          "details": [
+            {
+              "jp": "転",
+              "zh": "轉",
+              "note": null
+            }
+          ]
+        },
+        "tags": [
+          "greeting_conversational"
+        ],
+        "speech": [
+          "set_phrase"
+        ],
+        "sentence": [
+          {
+            "japanese": "日本語はまだまだです。",
+            "chinese": "日文還差得遠。"
+          },
+          {
+            "japanese": "田中さんは「まだまだです」と言います。",
+            "chinese": "田中先生說「還差得遠」。"
+          },
+          {
+            "japanese": "料理の腕はまだまだです。",
+            "chinese": "廚藝還差得遠。"
+          },
+          {
+            "japanese": "山田さんはまだまだです。",
+            "chinese": "山田先生還差得遠。"
+          },
+          {
+            "japanese": "ピアノはまだまだです。",
+            "chinese": "鋼琴還差得遠。"
+          },
+          {
+            "japanese": "木村さんの英語はまだまだです。",
+            "chinese": "木村先生的英文還差得遠。"
+          },
+          {
+            "japanese": "私の字はまだまだです。",
+            "chinese": "我的字還差得遠。"
+          },
+          {
+            "japanese": "鈴木さんはゴルフがまだまだです。",
+            "chinese": "鈴木先生的高爾夫還差得遠。"
+          },
+          {
+            "japanese": "この作品はまだまだです。",
+            "chinese": "這個作品還差得遠。"
+          },
+          {
+            "japanese": "佐藤さんの運転はまだまだです。",
+            "chinese": "佐藤先生的駕駛技術還差得遠。"
+          },
+          {
+            "japanese": "王さんの日本語はまだまだです。",
+            "chinese": "王先生的日文還差得遠。"
+          },
+          {
+            "japanese": "李さんは歌がまだまだです。",
+            "chinese": "李先生的歌還差得遠。"
+          },
+          {
+            "japanese": "母の料理はまだまだです。",
+            "chinese": "媽媽的料理還差得遠。"
+          },
+          {
+            "japanese": "父のゴルフはまだまだです。",
+            "chinese": "爸爸的高爾夫還差得遠。"
+          },
+          {
+            "japanese": "妹のピアノはまだまだです。",
+            "chinese": "妹妹的鋼琴還差得遠。"
+          },
+          {
+            "japanese": "兄の運転はまだまだです。",
+            "chinese": "哥哥的駕駛還差得遠。"
+          },
+          {
+            "japanese": "姉の字はまだまだです。",
+            "chinese": "姊姊的字還差得遠。"
+          },
+          {
+            "japanese": "このチームはまだまだです。",
+            "chinese": "這支隊伍還差得遠。"
+          },
+          {
+            "japanese": "山田さんは「まだまだです」と笑います。",
+            "chinese": "山田先生笑著說「還差得遠」。"
+          },
+          {
+            "japanese": "まだまだです、これからです。",
+            "chinese": "還差得遠，才剛開始。"
+          }
+        ]
+      }
+    ]
+  }
+}
