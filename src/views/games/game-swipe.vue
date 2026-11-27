@@ -6,6 +6,7 @@ import { attachSwipe } from '../../study/quiz/swipe-gesture.js'
 const store = inject('store')
 const props = defineProps({ round: { type: Object, required: true } })
 const state = computed(() => props.round.state)
+const effect = computed(() => props.round.hintEffect)
 
 const cardEl = ref(null)
 
@@ -32,8 +33,8 @@ onBeforeUnmount(() => detach())
       <span class="prompt-text">{{ state.question.chinese }}</span>
     </div>
     <div class="swipe-actions">
-      <button class="button ghost" type="button" @click="judge(false)">錯誤配對</button>
-      <button class="button primary" type="button" @click="judge(true)">正確配對</button>
+      <button class="button ghost" :class="{ 'swipe-action--hint': effect?.kind === 'judge' && effect.correct === false }" type="button" @click="judge(false)">錯誤配對</button>
+      <button class="button primary" :class="{ 'swipe-action--hint': effect?.kind === 'judge' && effect.correct === true }" type="button" @click="judge(true)">正確配對</button>
     </div>
   </div>
 </template>

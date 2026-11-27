@@ -274,13 +274,13 @@ try {
   )
   const quizModeChips = await page.locator('.quiz-setup .chip--mode').allTextContents()
   check(
-    'quiz setup lists 隨機模式 plus the 27 concrete modes',
-    quizModeChips.length === 28,
+    'quiz setup lists 隨機模式 plus the 24 concrete modes',
+    quizModeChips.length === 25,
     quizModeChips.join('|'),
   )
   check(
-    'quiz setup omits the retired 假名重組 and 卡片塔 modes',
-    !quizModeChips.some((label) => label.includes('假名重組') || label.includes('卡片塔')),
+    'quiz setup omits the retired 假名重組, 卡片塔 and 音拍猜謎 modes',
+    !quizModeChips.some((label) => label.includes('假名重組') || label.includes('卡片塔') || label.includes('音拍猜謎')),
     quizModeChips.join('|'),
   )
   const quizStartBefore = await page.locator('.quiz-start').textContent()
@@ -298,6 +298,16 @@ try {
   check('the play screen runs the first concrete mode', (await page.locator('.quiz-round').count()) === 1)
   check('the choice board renders', (await page.locator('.quiz-play .choice-grid').count()) === 1)
   check('the play screen has no input', (await page.locator('.quiz-play input').count()) === 0)
+
+  // The 10s 提示 button: it must appear only after the actionable clock has run.
+  check('the hint button is hidden before 10s', (await page.locator('.quiz-hint-button').count()) === 0)
+  await page.waitForSelector('.quiz-hint-button', { timeout: 12000 })
+  const hintLabel = (await page.locator('.quiz-hint-button').textContent()).trim()
+  check('the hint button appears after 10s and reads 提示', hintLabel === '提示', hintLabel)
+  await page.locator('.quiz-hint-button').click()
+  await wait(120)
+  check('pressing 提示 highlights the correct choice', (await page.locator('.quiz-play .choice--hint').count()) === 1)
+
   await page.locator('.quiz-play .icon-button').click()
   await page.waitForSelector('.home-actions', { timeout: 5000 })
   check('quiz play back returns home', (await page.locator('.home-actions').count()) === 1)
@@ -358,8 +368,30 @@ try {
     await page.waitForSelector('.home-actions', { timeout: 5000 })
   }
 
-  // 翻卡配對: face-down at rest, text face hidden by backface/transform.
+  // 翻卡配對: a fixed 4×5 board and a 3s peek bar that must finish before play.
   await seedQuizAndStart('pairs', [16])
+  const pairsPeek = await page.evaluate(() => ({
+    dealUp: document.querySelectorAll('.pair-card--deal-up').length,
+    bar: document.querySelectorAll('.pairs-peek').length,
+    cols: (() => {
+      const grid = document.querySelector('.pairs-grid')
+      return grid ? getComputedStyle(grid).gridTemplateColumns.split(' ').length : 0
+    })(),
+  }))
+  check('pairs deal reveals every card face-up during the opening peek', pairsPeek.dealUp === 20, JSON.stringify(pairsPeek))
+  check('pairs shows a peek progress bar', pairsPeek.bar === 1, JSON.stringify(pairsPeek))
+  check('pairs grid is 4 columns', pairsPeek.cols === 4, JSON.stringify(pairsPeek))
+  await wait(1000)
+  const pairsMidPeek = await page.evaluate(() => {
+    const card = document.querySelector('.pair-card')
+    return {
+      open: document.querySelectorAll('.pair-card--open').length,
+      disabled: card ? card.disabled : null,
+      bar: document.querySelectorAll('.pairs-peek').length,
+    }
+  })
+  check('pairs stays face-up and locked mid-peek', pairsMidPeek.open === 0 && pairsMidPeek.disabled === true && pairsMidPeek.bar === 1, JSON.stringify(pairsMidPeek))
+  await wait(3200)
   const pairsClosed = await page.evaluate(() => {
     const card = document.querySelector('.pair-card:not(.pair-card--open)')
     if (!card) return null
@@ -373,6 +405,7 @@ try {
       backTransform: backStyle.transform,
       backface: backStyle.backfaceVisibility || backStyle.webkitBackfaceVisibility,
       innerTransform: getComputedStyle(inner).transform,
+      bar: document.querySelectorAll('.pairs-peek').length,
     }
   })
   check('pairs start face-down with ? visible', pairsClosed && pairsClosed.frontText === '?', JSON.stringify(pairsClosed))
@@ -381,12 +414,8 @@ try {
     pairsClosed && pairsClosed.backface === 'hidden' && pairsClosed.backTransform !== 'none',
     JSON.stringify(pairsClosed),
   )
+  check('pairs peek bar is gone once play begins', pairsClosed && pairsClosed.bar === 0, JSON.stringify(pairsClosed))
   check('no 正確/錯誤 feedback text is rendered', (await page.locator('.quiz-feedback').count()) === 0)
-  const pairsMobileCols = await page.evaluate(() => {
-    const grid = document.querySelector('.pairs-grid')
-    return grid ? getComputedStyle(grid).gridTemplateColumns.split(' ').length : 0
-  })
-  check('pairs grid is 4 columns on mobile', pairsMobileCols === 4, `cols=${pairsMobileCols}`)
   await page.locator('.pair-card').first().click()
   await wait(300)
   check('a tap opens the pair card', (await page.locator('.pair-card--open').count()) === 1)
@@ -396,13 +425,15 @@ try {
     const grid = document.querySelector('.pairs-grid')
     return grid ? getComputedStyle(grid).gridTemplateColumns.split(' ').length : 0
   })
-  check('pairs grid is 5 columns on desktop', pairsDesktopCols === 5, `cols=${pairsDesktopCols}`)
+  check('pairs grid stays 4 columns on desktop', pairsDesktopCols === 4, `cols=${pairsDesktopCols}`)
   await page.setViewportSize({ width: 390, height: 844 })
   await wait(200)
   await quizBackHome()
 
-  // 消除下落: read data-word ids, find a real connected 3+ group, click it.
+  // 消除下落: wait for the opening drop-in to settle, then read data-word ids,
+  // find a real connected 3+ group, click it.
   await seedQuizAndStart('match3', [16])
+  await wait(700)
   const match3Group = await page.evaluate(() => {
     const els = Array.from(document.querySelectorAll('.match3-cell'))
     const words = els.map((el) => Number(el.dataset.word))
@@ -475,20 +506,21 @@ try {
   )
   check(
     'connect uncleared cells have a visible surface and border',
-    connectOpen.total === 36 && connectOpen.uncleared === 36 && connectOpen.bg !== 'rgba(0, 0, 0, 0)' && connectOpen.border !== 'rgba(0, 0, 0, 0)',
+    connectOpen.total === 40 && connectOpen.uncleared === 40 && connectOpen.bg !== 'rgba(0, 0, 0, 0)' && connectOpen.border !== 'rgba(0, 0, 0, 0)',
     JSON.stringify(connectOpen),
   )
 
   const connectPair = await page.evaluate(() => {
     const els = Array.from(document.querySelectorAll('.connect-cell'))
     const words = els.map((el) => Number(el.dataset.word))
-    const cols = 6
+    const cols = 5
+    const rows = 8
     for (let i = 0; i < els.length; i += 1) {
       const row = Math.floor(i / cols)
       const col = i % cols
       const neighbours = []
       if (row > 0) neighbours.push(i - cols)
-      if (row < cols - 1) neighbours.push(i + cols)
+      if (row < rows - 1) neighbours.push(i + cols)
       if (col > 0) neighbours.push(i - 1)
       if (col < cols - 1) neighbours.push(i + 1)
       for (const j of neighbours) if (words[i] === words[j]) return [i, j]
@@ -617,6 +649,36 @@ try {
   }
   await quizBackHome()
 
+  // 記憶順序: a bottom pile, tap to deal three slots, 2s countdown, then six
+  // Chinese options placed into the slots one by one.
+  await seedQuizAndStart('memory', [16])
+  const memoryStack = await page.evaluate(() => ({
+    slots: document.querySelectorAll('.memory-slot').length,
+    pile: document.querySelectorAll('.memory-pile').length,
+    pileCards: document.querySelectorAll('.memory-pile-card').length,
+  }))
+  check('memory opens with three slots and a bottom pile', memoryStack.slots === 3 && memoryStack.pile === 1 && memoryStack.pileCards === 3, JSON.stringify(memoryStack))
+  check('memory has no 記住了 button', (await page.locator('.quiz-begin').count()) === 0)
+  await page.locator('.memory-pile').click()
+  await wait(1600)
+  const memoryReveal = await page.evaluate(() => ({
+    countdown: document.querySelectorAll('.memory-countdown').length,
+    readable: Array.from(document.querySelectorAll('.memory-slot-front')).filter((el) => el.textContent.trim().length > 0).length,
+  }))
+  check('memory reveals three readable words then shows the 2s countdown', memoryReveal.countdown === 1 && memoryReveal.readable === 3, JSON.stringify(memoryReveal))
+  await wait(2200)
+  check('memory shows six Chinese options after the countdown', (await page.locator('.memory-options .choice').count()) === 6)
+  for (let i = 0; i < 3; i += 1) {
+    const choice = page.locator('.memory-options .choice:not([disabled])').first()
+    if ((await choice.count()) > 0) {
+      await choice.click()
+      await wait(120)
+    }
+  }
+  await wait(300)
+  check('memory places three answers and flips to check', (await page.locator('.memory-slot--checked').count()) === 3)
+  await quizBackHome()
+
   // New modes render their board and accept a core interaction without a page error.
   const newModeBoards = [
     ['swipe', '.swipe-card'],
@@ -624,16 +686,13 @@ try {
     ['fillblank', '.fillblank-options .choice'],
     ['wordle', '.wordle-pad .wordle-key'],
     ['crossword', '.crossword-grid'],
-    ['trimatch', '.trimatch-grid'],
     ['falling', '.falling-cannons .falling-cannon'],
     ['whack', '.whack-grid .whack-hole'],
     ['nokanji', '.choice-grid .choice'],
-    ['furigana', '.furigana-prompt'],
     ['mahjong', '.mahjong-tile'],
     ['kanatrap', '.choice-grid .choice'],
     ['sushi', '.sushi-input'],
     ['spottypo', '.oddone-group'],
-    ['mora', '.choice-grid .choice'],
     ['wordsearch', '.wordsearch-cell'],
     ['snake', '.snake-pad .button'],
     ['hangman', '.wordle-pad .wordle-key'],
@@ -647,6 +706,326 @@ try {
       await first.click()
       await wait(180)
     }
+    await quizBackHome()
+  }
+
+  // ---- Regression: the four quiz fixes (去漢字盲測 second question, 單字麻將 pile, 濁音排雷 10 per round, 單字貪食蛇 fine grid) ----
+
+  const allLessons = Array.from({ length: 50 }, (_v, i) => i + 1)
+  const livesText = async () => (await page.locator('.hud-item').first().textContent()).trim()
+  const roundDone = async () => (await page.locator('.quiz-done').count()) === 1
+
+  // 去漢字盲測: the board used to go blank after the first answer (the second
+  // question was stored as undefined). Answer twice and the board must still
+  // render a prompt and choices each time.
+  await seedQuizAndStart('nokanji', [1, 2, 3])
+  for (let question = 1; question <= 2; question += 1) {
+    const before = (await page.locator('.quiz-round .prompt-text').textContent()).trim()
+    await page.locator('.quiz-round .choice').first().click()
+    await wait(150)
+    if ((await page.locator('.quiz-reveal').count()) === 1) await page.locator('.quiz-reveal .button').click()
+    // A correct answer holds ~1s before quiz.next; a reveal advances on 確定.
+    await page.waitForFunction(
+      (prev) => document.querySelector('.quiz-round .prompt-text')?.textContent.trim() !== prev,
+      before,
+      { timeout: 3000 },
+    )
+    await wait(120)
+    const after = (await page.locator('.quiz-round .prompt-text').textContent()).trim()
+    check(
+      `nokanji renders question ${question + 1} after answering`,
+      (await page.locator('.quiz-round .choice-grid .choice').count()) >= 2 && after.length > 0 && after !== before,
+      `${before} -> ${after}`,
+    )
+  }
+  await quizBackHome()
+
+  // 單字麻將: a dense multi-layer pile with larger tiles, a seven-slot tray,
+  // and a real play-through of the provable order (top layer first, then each
+  // layer by rows from the left) that must clear the board without a life.
+  await seedQuizAndStart('mahjong', allLessons)
+  const mahjongOpen = await page.evaluate(() => {
+    const tiles = Array.from(document.querySelectorAll('.mahjong-tile'))
+    const board = document.querySelector('.mahjong-board').getBoundingClientRect()
+    const first = tiles[0].getBoundingClientRect()
+    const layers = new Set(tiles.map((el) => el.style.zIndex))
+    const lefts = new Set(tiles.map((el) => el.style.left))
+    return {
+      tiles: tiles.length,
+      layers: layers.size,
+      lefts: lefts.size,
+      tileW: Math.round(first.width),
+      tileH: Math.round(first.height),
+      boardW: Math.round(board.width),
+      boardH: Math.round(board.height),
+      free: tiles.filter((el) => !el.disabled).length,
+      tray: document.querySelectorAll('.mahjong-tray-slot').length,
+    frameInner: (() => {
+      const f = document.querySelector('.mahjong-frame')
+      if (!f) return 0
+      const s = getComputedStyle(f)
+      return Math.round(f.clientWidth - parseFloat(s.paddingLeft) - parseFloat(s.paddingRight))
+    })(),
+      noOverflow: document.documentElement.scrollWidth <= window.innerWidth,
+    }
+  })
+  check(
+    'mahjong deals a dense multi-layer pile (≥ 24 tiles, ≥ 3 layers, ≥ 4 columns)',
+    mahjongOpen.tiles >= 24 && mahjongOpen.layers >= 3 && mahjongOpen.lefts >= 4,
+    JSON.stringify(mahjongOpen),
+  )
+  check(
+    // The frame adds a 2px border + 8px padding around the pile, so the board
+    // is measured against the frame's inner width rather than the old bare
+    // play area; the tile must still beat the old 48×68 face.
+    'mahjong tiles are larger than the old 48×68 and fill the frame width',
+    mahjongOpen.tileW >= 52 &&
+      mahjongOpen.tileH >= 68 &&
+      mahjongOpen.boardW >= 336 &&
+      mahjongOpen.boardW >= mahjongOpen.frameInner - 4 &&
+      mahjongOpen.noOverflow,
+    JSON.stringify(mahjongOpen),
+  )
+  check('mahjong tray has seven slots', mahjongOpen.tray === 7, JSON.stringify(mahjongOpen))
+  check('mahjong opens with free tiles to tap', mahjongOpen.free >= 2, JSON.stringify(mahjongOpen))
+  const mahjongLivesBefore = await livesText()
+  await page.locator('.mahjong-tile:not([disabled])').first().click()
+  await wait(200)
+  check(
+    'mahjong moves a tapped free tile into the tray',
+    (await page.locator('.mahjong-tray-slot:not(.mahjong-tray-slot--empty)').count()) === 1,
+  )
+  let mahjongTaps = 1
+  for (; mahjongTaps < 80 && !(await roundDone()); mahjongTaps += 1) {
+    const next = await page.evaluate(() => {
+      const tiles = Array.from(document.querySelectorAll('.mahjong-tile:not([disabled])'))
+      if (tiles.length === 0) return -1
+      const key = (el) => ({ z: Number(el.style.zIndex), top: parseFloat(el.style.top), left: parseFloat(el.style.left) })
+      tiles.sort((a, b) => {
+        const ka = key(a)
+        const kb = key(b)
+        return kb.z - ka.z || ka.top - kb.top || ka.left - kb.left
+      })
+      return tiles.indexOf(tiles[0])
+    })
+    if (next < 0) break
+    await page.locator('.mahjong-tile:not([disabled])').nth(next).click()
+    await wait(80)
+  }
+  await wait(300)
+  const mahjongDoneTitle = (await page.locator('.quiz-done-title').textContent()).trim()
+  check(
+    'mahjong plays through to 清空 along the layer-by-layer order without losing a life',
+    (await roundDone()) && mahjongDoneTitle === '本回合完成' && (await livesText()) === mahjongLivesBefore,
+    `${mahjongTaps} taps, ${mahjongDoneTitle}, ${mahjongLivesBefore} -> ${await livesText()}`,
+  )
+  await quizBackHome()
+
+  // 單字麻將 frame: at a narrow phone-ish width (like the annotated
+  // screenshot, ~520px) the pile and the 7-slot tray must both live inside
+  // one visible `.mahjong-frame`, with no tile, slot, or tile text
+  // overflowing it while tiles are both on the pile and in the tray.
+  await page.setViewportSize({ width: 520, height: 760 })
+  await seedQuizAndStart('mahjong', allLessons)
+  await page.locator('.mahjong-tile:not([disabled])').first().click()
+  await wait(150)
+  await page.locator('.mahjong-tile:not([disabled])').first().click()
+  await wait(150)
+  const mahjongFrame = await page.evaluate(() => {
+    const frame = document.querySelector('.mahjong-frame')
+    if (!frame) return { frame: false }
+    const fr = frame.getBoundingClientRect()
+    const inside = (el) => {
+      const r = el.getBoundingClientRect()
+      return (
+        r.width === 0 ||
+        (r.left >= fr.left - 1 && r.right <= fr.right + 1 && r.top >= fr.top - 1 && r.bottom <= fr.bottom + 1)
+      )
+    }
+    const tiles = Array.from(frame.querySelectorAll('.mahjong-tile'))
+    const slots = Array.from(frame.querySelectorAll('.mahjong-tray-slot'))
+    const texts = Array.from(frame.querySelectorAll('.mahjong-tile-text')).filter((el) => el.textContent.trim())
+    // Visual rule: a blocked tile keeps a solid body (no whole-tile opacity)
+    // dimmed by the frost veil pseudo-element; a free tile is a solid card.
+    const blocked = frame.querySelector('.mahjong-tile--blocked')
+    const free = tiles.find((el) => !el.disabled)
+    const opaque = (color) => color.startsWith('rgba') ? Number(color.split(',')[3]) === 1 : true
+    return {
+      frame: true,
+      trayTiles: frame.querySelectorAll('.mahjong-tray-slot:not(.mahjong-tray-slot--empty)').length,
+      pileTiles: tiles.length,
+      border: getComputedStyle(frame).borderTopWidth,
+      frameTiles: tiles.filter(inside).length,
+      frameSlots: slots.filter(inside).length,
+      texts: texts.length,
+      frameTexts: texts.filter(inside).length,
+      blockedSolid: blocked ? getComputedStyle(blocked).opacity === '1' : true,
+      blockedVeil: blocked ? getComputedStyle(blocked, '::before').backgroundColor !== 'rgba(0, 0, 0, 0)' : true,
+      freeSolid: free ? opaque(getComputedStyle(free).backgroundColor) : true,
+      noOverflow: document.documentElement.scrollWidth <= window.innerWidth,
+    }
+  })
+  check(
+    'mahjong pile + 7-slot tray live inside one visible frame at ~520px width',
+    mahjongFrame.frame &&
+      mahjongFrame.border !== '0px' &&
+      mahjongFrame.pileTiles > 0 &&
+      mahjongFrame.trayTiles >= 2 &&
+      mahjongFrame.frameTiles === mahjongFrame.pileTiles &&
+      mahjongFrame.frameSlots === 7 &&
+      mahjongFrame.frameTexts === mahjongFrame.texts &&
+      mahjongFrame.blockedSolid &&
+      mahjongFrame.blockedVeil &&
+      mahjongFrame.freeSolid &&
+      mahjongFrame.noOverflow,
+    JSON.stringify(mahjongFrame),
+  )
+  await quizBackHome()
+  await page.setViewportSize({ width: 390, height: 844 })
+
+  // 濁音排雷: one round is 10 questions; the 10s hint clock restarts per
+  // question (the button goes away when the next question starts and only
+  // comes back after a fresh 10s).
+  await seedQuizAndStart('kanatrap', [1, 2, 3])
+  const kanatrapFirst = (await page.locator('.quiz-mode-hint').textContent()).trim()
+  check('kanatrap opens on 第 1 / 10 題', kanatrapFirst.startsWith('第 1 / 10 題'), kanatrapFirst)
+  await page.waitForSelector('.quiz-hint-button', { timeout: 12000 })
+  let kanatrapAnswers = 0
+  let kanatrapHintReset = false
+  let kanatrapHighlighted = false
+  while (kanatrapAnswers < 12 && !(await roundDone())) {
+    if ((await page.locator('.quiz-reveal').count()) === 1) {
+      await page.locator('.quiz-reveal .button').click()
+      await wait(120)
+      continue
+    }
+    if ((await page.locator('.quiz-round .choice').count()) === 0) break
+    await page.locator('.quiz-round .choice').first().click()
+    kanatrapAnswers += 1
+    await wait(150)
+    if ((await page.locator('.quiz-reveal').count()) === 1) {
+      await page.locator('.quiz-reveal .button').click()
+      await wait(120)
+    } else {
+      // The shell holds ~1s on a correct answer, then dispatches quiz.next.
+      await page.waitForFunction(
+        (n) => document.querySelector('.quiz-mode-hint')?.textContent.trim().startsWith(`第 ${n} /`) || document.querySelector('.quiz-done'),
+        kanatrapAnswers + 1,
+        { timeout: 3000 },
+      )
+    }
+    await wait(100)
+    if (kanatrapAnswers === 1) {
+      kanatrapHintReset = (await page.locator('.quiz-hint-button').count()) === 0
+      await page.waitForSelector('.quiz-hint-button', { timeout: 12000 })
+      await page.locator('.quiz-hint-button').click()
+      await wait(150)
+      kanatrapHighlighted = (await page.locator('.quiz-round .choice--hint').count()) === 1
+    }
+  }
+  const kanatrapDoneTitle = (await page.locator('.quiz-done-title').textContent()).trim()
+  check('kanatrap ends after exactly 10 answers', kanatrapAnswers === 10 && (await roundDone()), `${kanatrapAnswers} answers`)
+  check('kanatrap counts a completed 10-question round as cleared', kanatrapDoneTitle === '本回合完成', kanatrapDoneTitle)
+  check('kanatrap hint button restarts on the second question', kanatrapHintReset && kanatrapHighlighted)
+  await quizBackHome()
+
+  // 單字貪食蛇: a fine grid of many small, mostly empty cells; one food cell;
+  // direction keys reach the queue without an error.
+  await seedQuizAndStart('snake', [1, 2, 3])
+  const snakeOpen = await page.evaluate(() => {
+    const cells = Array.from(document.querySelectorAll('.snake-cell'))
+    const grid = document.querySelector('.snake-grid').getBoundingClientRect()
+    const first = cells[0].getBoundingClientRect()
+    return {
+      cells: cells.length,
+      empty: cells.filter((el) => el.classList.contains('snake-cell--empty')).length,
+      food: document.querySelectorAll('.snake-cell--food').length,
+      head: document.querySelectorAll('.snake-cell--head').length,
+      cellW: Math.round(first.width),
+      gridW: Math.round(grid.width),
+      gridH: Math.round(grid.height),
+      pad: document.querySelectorAll('.snake-pad .button').length,
+      noOverflow: document.documentElement.scrollWidth <= window.innerWidth,
+    }
+  })
+  check(
+    'snake lays a fine grid of many small, mostly empty cells',
+    snakeOpen.cells >= 200 && snakeOpen.empty / snakeOpen.cells >= 0.6 && snakeOpen.cellW <= 30,
+    JSON.stringify(snakeOpen),
+  )
+  check('snake shows one head and one highlighted food cell', snakeOpen.head === 1 && snakeOpen.food === 1, JSON.stringify(snakeOpen))
+  check('snake keeps its d-pad and fits the width', snakeOpen.pad === 4 && snakeOpen.noOverflow, JSON.stringify(snakeOpen))
+  const headBefore = await page.evaluate(() => Array.from(document.querySelectorAll('.snake-cell')).findIndex((el) => el.classList.contains('snake-cell--head')))
+  await page.keyboard.press('ArrowDown')
+  await wait(1200)
+  const headAfter = await page.evaluate(() => Array.from(document.querySelectorAll('.snake-cell')).findIndex((el) => el.classList.contains('snake-cell--head')))
+  check('snake moves on a direction key', headAfter !== headBefore, `${headBefore} -> ${headAfter}`)
+
+  // A wrong kana is eaten (the snake shrinks, no life lost) and comes back
+  // after ~1s in an empty cell, through the view's delayed quiz.act respawn.
+  const snakeCells = () => page.evaluate(() => Array.from(document.querySelectorAll('.snake-cell')).map((el) => el.className))
+  let snakeRespawn = null
+  for (let attempt = 0; attempt < 8 && !snakeRespawn; attempt += 1) {
+    const classes = await snakeCells()
+    const head = classes.findIndex((c) => c.includes('snake-cell--head'))
+    const row = Math.floor(head / 13)
+    let target = -1
+    for (let r = row + 1; r < 17; r += 1) {
+      const at = r * 13 + (head % 13)
+      if (classes[at].includes('snake-cell--kana') && !classes[at].includes('snake-cell--food')) {
+        target = at
+        break
+      }
+    }
+    if (target < 0) {
+      await page.keyboard.press('ArrowRight')
+      await wait(450)
+      continue
+    }
+    const before = await page.evaluate(() => ({
+      body: document.querySelectorAll('.snake-cell--body').length,
+      kana: document.querySelectorAll('.snake-cell--kana').length,
+      lives: document.querySelector('.hud-item').textContent.trim(),
+    }))
+    await page.keyboard.press('ArrowDown')
+    await wait((Math.floor(target / 13) - row) * 400 + 60)
+    const after = await page.evaluate(
+      (at) => ({
+        head: Array.from(document.querySelectorAll('.snake-cell')).findIndex((el) => el.classList.contains('snake-cell--head')),
+        ate: !document.querySelectorAll('.snake-cell')[at].classList.contains('snake-cell--kana'),
+        body: document.querySelectorAll('.snake-cell--body').length,
+        kana: document.querySelectorAll('.snake-cell--kana').length,
+        lives: document.querySelector('.hud-item').textContent.trim(),
+      }),
+      target,
+    )
+    if (!(after.head === target && after.ate)) continue
+    await wait(1200)
+    const later = await page.evaluate(() => document.querySelectorAll('.snake-cell--kana').length)
+    snakeRespawn = { before, after, later }
+  }
+  check(
+    'snake eats a wrong kana: shrinks, no life lost, kana returns after 1s',
+    Boolean(snakeRespawn) &&
+      snakeRespawn.after.body === snakeRespawn.before.body - 1 &&
+      snakeRespawn.after.kana === snakeRespawn.before.kana - 1 &&
+      snakeRespawn.after.lives === snakeRespawn.before.lives &&
+      snakeRespawn.later === snakeRespawn.after.kana + 1,
+    JSON.stringify(snakeRespawn),
+  )
+  await quizBackHome()
+
+  // The 10s 提示 button still works in the other three fixed modes.
+  for (const [mode, lessons, selector] of [
+    ['nokanji', [1, 2, 3], '.quiz-round .choice--hint'],
+    ['mahjong', allLessons, '.mahjong-tile--hint'],
+    ['snake', [1, 2, 3], '.snake-cell--hint'],
+  ]) {
+    await seedQuizAndStart(mode, lessons)
+    await page.waitForSelector('.quiz-hint-button', { timeout: 12000 })
+    await page.locator('.quiz-hint-button').click()
+    await wait(150)
+    check(`${mode} 提示 highlights one target`, (await page.locator(selector).count()) === 1)
     await quizBackHome()
   }
 

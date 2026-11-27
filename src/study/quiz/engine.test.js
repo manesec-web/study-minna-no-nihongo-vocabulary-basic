@@ -4,7 +4,10 @@ import {
   beginNext,
   buildQuizRun,
   createRound,
+  CONNECT_COLS,
+  CONNECT_ROWS,
   drawModeAt,
+  ensureMatch3Move,
   findConnectPath,
   findMatch3Group,
   hasConnectMove,
@@ -175,6 +178,7 @@ describe('quiz engine', () => {
 
   it('matches a pair in 翻卡配對 and clears the round when all pairs match', () => {
     const round = createRound('pairs', refs(4), fakeLibrary(), refs(4), zeroRandom, 0)
+    act(round, { type: 'resolve' }) // end the opening peek
     const cards = round.state.cards
     const first = cards.findIndex((c) => !c.matched)
     const second = cards.findIndex((c, at) => at !== first && c.word === cards[first].word)
@@ -189,6 +193,7 @@ describe('quiz engine', () => {
 
   it('a wrong pair keeps both faces open and locked until resolve closes them', () => {
     const round = createRound('pairs', refs(4), fakeLibrary(), refs(4), zeroRandom, 0)
+    act(round, { type: 'resolve' }) // end the opening peek
     const cards = round.state.cards
     const a = cards.findIndex((c) => c.word === 0)
     const b = cards.findIndex((c) => c.word !== 0)
@@ -215,9 +220,31 @@ describe('quiz engine', () => {
     expect(round.state.open).toEqual([])
   })
 
+  it('pairs opens with an all-face-up peek that locks the board until resolve', () => {
+    const round = createRound('pairs', refs(4), fakeLibrary(), refs(4), zeroRandom, 0)
+    expect(round.state.peek).toBe(true)
+    expect(round.state.locked).toBe(true)
+
+    const ignored = act(round, { type: 'tap', index: 0 })
+    expect(ignored.life).toBe(0)
+    expect(round.state.cards[0].open).toBe(false)
+
+    act(round, { type: 'resolve' })
+    expect(round.state.peek).toBe(false)
+    expect(round.state.locked).toBe(false)
+  })
+
+  it('pairs holds the countdown during the peek and starts it on resolve', () => {
+    const round = createRound('pairs', refs(4), fakeLibrary(), refs(4), zeroRandom, 5)
+    expect(round.clock.active).toBe(false)
+    expect(act(round, { type: 'resolve' }).clock).toBe('start')
+    expect(round.state.locked).toBe(false)
+  })
+
   it('match3 opens with a clearable group and refills keep one', () => {
     const round = createRound('match3', refs(6), fakeLibrary(), refs(6), zeroRandom, 0)
     expect(hasMatch3Move(round.state.cells)).toBe(true)
+    act(round, { type: 'resolve' }) // end the opening drop-in
 
     // zeroRandom fills every cell with word 0, so 0–1–2 is a straight run.
     act(round, { type: 'tap', index: 0 })
@@ -225,11 +252,13 @@ describe('quiz engine', () => {
     const event = act(round, { type: 'tap', index: 2 })
     expect(event.life).toBe(0)
     expect(event.score).toBeGreaterThan(0)
+    act(round, { type: 'resolve' }) // gravity refills after the clear pop
     expect(hasMatch3Move(round.state.cells)).toBe(true)
   })
 
   it('match3 changing to a non-adjacent different word just reselects without a life loss', () => {
     const round = createRound('match3', refs(6), fakeLibrary(), refs(6), zeroRandom, 0)
+    act(round, { type: 'resolve' }) // end the opening drop-in
     round.state.cells[24].word = 1
     const cells = round.state.cells
     act(round, { type: 'tap', index: 0 })
@@ -243,6 +272,7 @@ describe('quiz engine', () => {
 
   it('match3 extending the chain with a neighbouring different word costs a life', () => {
     const round = createRound('match3', refs(6), fakeLibrary(), refs(6), zeroRandom, 0)
+    act(round, { type: 'resolve' }) // end the opening drop-in
     round.state.cells[1].word = 1
     act(round, { type: 'tap', index: 0 })
     const event = act(round, { type: 'tap', index: 1 })
@@ -288,11 +318,10 @@ describe('quiz engine', () => {
 
   it('findConnectPath returns null for a blocked pair', () => {
     const cells = []
-    for (let i = 0; i < 36; i += 1) cells.push({ word: i % 2, cleared: false })
-    // Two same-word cards at opposite corners of a full board cannot connect
-    // through cleared cells because nothing is cleared yet and they are not
-    // adjacent.
-    expect(findConnectPath(cells, 0, 35)).toBe(null)
+    for (let i = 0; i < CONNECT_COLS * CONNECT_ROWS; i += 1) cells.push({ word: i % 2, cleared: false })
+    // Two cards at opposite corners of a full board cannot connect through
+    // cleared cells because nothing is cleared yet and they are not adjacent.
+    expect(findConnectPath(cells, 0, CONNECT_COLS * CONNECT_ROWS - 1)).toBe(null)
   })
 
   it('findMatch3Group finds an L-shaped connected group, not just a straight run', () => {
@@ -307,6 +336,7 @@ describe('quiz engine', () => {
 
   it('the real 第16課 screenshot board is solvable by the vertical 顔/かお/臉 run', () => {
     const round = createRound('match3', refs(10), l16Library(), refs(10), zeroRandom, 0)
+    act(round, { type: 'resolve' }) // end the opening drop-in
     round.state.cells = boardCells(L16_BOARD)
 
     const group = findMatch3Group(round.state.cells)
@@ -321,6 +351,7 @@ describe('quiz engine', () => {
     const event = act(round, { type: 'tap', index: 12 })
     expect(event.life).toBe(0)
     expect(event.score).toBeGreaterThan(0)
+    act(round, { type: 'resolve' }) // gravity runs after the clear pop
     expect(originalCells[2].cleared).toBe(true)
     expect(originalCells[7].cleared).toBe(true)
     expect(originalCells[12].cleared).toBe(true)
@@ -329,6 +360,7 @@ describe('quiz engine', () => {
 
   it('match3 penalises a non-adjacent cell of the same word', () => {
     const round = createRound('match3', refs(6), fakeLibrary(), refs(6), zeroRandom, 0)
+    act(round, { type: 'resolve' }) // end the opening drop-in
     act(round, { type: 'tap', index: 0 })
     const event = act(round, { type: 'tap', index: 24 })
     expect(event.life).toBe(-1)
@@ -342,6 +374,53 @@ describe('quiz engine', () => {
       expect(hasMatch3Move(round.state.cells)).toBe(true)
       expect(findMatch3Group(round.state.cells)).not.toBeNull()
     }
+  })
+
+  it('match3 wins after 10 clears, not 10 tiles', () => {
+    const round = createRound('match3', refs(6), fakeLibrary(), refs(6), zeroRandom, 0)
+    act(round, { type: 'resolve' }) // end the opening drop-in
+    round.state.clearCount = 9
+
+    // zeroRandom fills every cell with word 0: tapping 0–1–2 clears one group.
+    act(round, { type: 'tap', index: 0 })
+    act(round, { type: 'tap', index: 1 })
+    const event = act(round, { type: 'tap', index: 2 })
+    expect(event.life).toBe(0)
+    expect(round.state.clearCount).toBe(10)
+    // The round completes after the clear pop (on resolve), like other modes.
+    expect(round.done).toBe(false)
+    act(round, { type: 'resolve' })
+    expect(round.done).toBe(true)
+    expect(round.cleared).toBe(true)
+  })
+
+  it('match3 never relies on a fixed top-left three-cell stamp', () => {
+    const faces = refs(4)
+    const checker = [0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0]
+    const lcg = (seed) => {
+      let state = seed
+      return () => {
+        state = (state * 1664525 + 1013904223) % 4294967296
+        return state / 4294967296
+      }
+    }
+    const groups = new Set()
+    for (let seed = 1; seed <= 24; seed += 1) {
+      const cells = checker.map((word) => ({
+        word,
+        face: 'jp',
+        selected: false,
+        cleared: false,
+        fresh: true,
+      }))
+      const fixed = ensureMatch3Move(cells, faces, lcg(seed))
+      const group = findMatch3Group(fixed)
+      expect(group).not.toBeNull()
+      groups.add([...group].sort((a, b) => a - b).join(','))
+    }
+    // The guaranteed group varies across seeds instead of being pinned to the
+    // same three cells every round.
+    expect(groups.size).toBeGreaterThan(1)
   })
 
   it('reaction uses different prompt and answer languages with unique options', () => {
@@ -385,39 +464,81 @@ describe('quiz engine', () => {
     expect(round.state.hp).toBe(afterCorrect)
   })
 
-  it('memory shows three cards then recalls their Chinese meanings', () => {
+  it('memory starts with a stacked pile and deals three slots on tap', () => {
     const round = createRound('memory', refs(6), fakeLibrary(), refs(6), zeroRandom, 0)
-    expect(round.state.phase).toBe('show')
-    expect(round.state.cards.length).toBe(3)
+    expect(round.state.phase).toBe('stack')
+    expect(round.state.slots.length).toBe(3)
+    expect(round.state.slots.every((s) => s.placed === -1 && s.correct === null)).toBe(true)
+    expect(round.state.choices.length).toBe(6)
+
+    act(round, { type: 'tap', index: 0 })
+    expect(round.state.phase).toBe('deal')
+    act(round, { type: 'next' })
+    expect(round.state.phase).toBe('countdown')
     act(round, { type: 'next' })
     expect(round.state.phase).toBe('ask')
-    expect(round.state.choices.length).toBe(6)
-    expect(round.state.target).toBe(3)
-
-    for (let i = 0; i < 2; i += 1) {
-      const correct = round.state.choices.findIndex((c) => c.correct && !c.solved)
-      const event = act(round, { type: 'choose', index: correct })
-      expect(event.life).toBe(0)
-    }
-    expect(round.state.solvedCount).toBe(2)
-    const last = round.state.choices.findIndex((c) => c.correct && !c.solved)
-    act(round, { type: 'choose', index: last })
-    // Six words make two groups; finishing the first group shows the next one.
-    expect(round.state.phase).toBe('show')
   })
 
-  it('memory wrong tap reveals the correct Chinese and retries the same group', () => {
+  it('memory grades all three together and advances after a correct group', () => {
     const round = createRound('memory', refs(6), fakeLibrary(), refs(6), zeroRandom, 0)
+    act(round, { type: 'tap', index: 0 })
     act(round, { type: 'next' })
+    act(round, { type: 'next' }) // -> ask
+
+    const answerOf = (slot) => faceOf(round.faces[slot.word], 'zh')
+    const choiceFor = (slot) =>
+      round.state.choices.findIndex((c) => !c.used && c.text === answerOf(slot))
+
+    // The first two placements fill slots without submitting.
+    act(round, { type: 'choose', index: choiceFor(round.state.slots[0]) })
+    expect(round.state.phase).toBe('ask')
+    act(round, { type: 'choose', index: choiceFor(round.state.slots[1]) })
+    expect(round.state.phase).toBe('ask')
+    expect(round.state.slots.filter((s) => s.placed >= 0).length).toBe(2)
+
+    const event = act(round, { type: 'choose', index: choiceFor(round.state.slots[2]) })
+    expect(event.life).toBe(0)
+    expect(event.score).toBeGreaterThan(0)
+    expect(round.state.phase).toBe('check')
+    expect(round.state.slots.every((s) => s.correct)).toBe(true)
+
+    act(round, { type: 'confirm' })
+    expect(round.state.groupIndex).toBe(1)
+    expect(round.state.phase).toBe('stack')
+  })
+
+  it('memory wrong group loses a life and retries the same group', () => {
+    const round = createRound('memory', refs(6), fakeLibrary(), refs(6), zeroRandom, 0)
+    act(round, { type: 'tap', index: 0 })
+    act(round, { type: 'next' })
+    act(round, { type: 'next' }) // -> ask
+
+    const answerOf = (slot) => faceOf(round.faces[slot.word], 'zh')
+    const choiceFor = (slot) =>
+      round.state.choices.findIndex((c) => !c.used && c.text === answerOf(slot))
     const wrong = round.state.choices.findIndex((c) => !c.correct)
+
+    act(round, { type: 'choose', index: choiceFor(round.state.slots[0]) })
+    act(round, { type: 'choose', index: choiceFor(round.state.slots[1]) })
     const event = act(round, { type: 'choose', index: wrong })
     expect(event.life).toBe(-1)
-    expect(round.state.phase).toBe('reveal')
-    expect(round.reveal.text).toBeTruthy()
+    expect(round.state.phase).toBe('check')
+    expect(round.state.slots.some((s) => s.correct === false)).toBe(true)
+    expect(round.state.slots.every((s) => s.correct !== null)).toBe(true)
 
     act(round, { type: 'confirm' })
     expect(round.state.phase).toBe('ask')
-    expect(round.state.solvedCount).toBe(0)
+    expect(round.state.groupIndex).toBe(0) // retry the same group
+    expect(round.state.slots.every((s) => s.placed === -1 && s.correct === null)).toBe(true)
+    expect(round.state.choices.every((c) => !c.used)).toBe(true)
+  })
+
+  it('memory holds the clock until the choices are interactable', () => {
+    const round = createRound('memory', refs(6), fakeLibrary(), refs(6), zeroRandom, 5)
+    expect(round.clock.active).toBe(false)
+    expect(act(round, { type: 'tap', index: 0 }).clock).toBe(null)
+    expect(act(round, { type: 'next' }).clock).toBe(null) // reveal -> countdown
+    expect(act(round, { type: 'next' }).clock).toBe('start') // countdown -> ask
   })
 
   it('spell builds eight tiles for a short word and keeps long words whole', () => {

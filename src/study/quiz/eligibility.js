@@ -1,7 +1,7 @@
 // Setup-time eligibility: derive each mode's availability from the user's
 // actually-selected lessons, never from a fabricated word pool. The original
-// nine modes are eligible whenever the pool is non-empty; the ten newer modes
-// run their own `eligible` generator.
+// nine modes are eligible whenever the pool is non-empty; the newer modes run
+// their own `eligible` generator.
 import { CONCRETE_MODES } from './modes.js'
 import { wordFace } from './faces.js'
 import { NEW_GAMES } from './games/index.js'

@@ -35,6 +35,10 @@
   --shadow-card: 0 12px 30px rgba(16, 40, 80, 0.08);
   --shadow-float: 0 16px 34px rgba(16, 40, 80, 0.16);
   --shadow-pop: 0 10px 24px rgba(16, 40, 80, 0.22);
+  --shadow-tile: 0 2px 6px rgba(16, 40, 80, 0.14);
+  --mahjong-veil: rgba(240, 246, 252, 0.62);
+  --mahjong-blocked-ink: rgba(26, 39, 64, 0.45);
+  --mahjong-side: #d3e0ee;
   --progress-from: #1d6adf;
   --progress-to: #3db7e8;
   --error-strong: #8a2f3a;
@@ -97,6 +101,10 @@
     --shadow-card: 0 12px 30px rgba(0, 0, 0, 0.45);
     --shadow-float: 0 16px 34px rgba(0, 0, 0, 0.5);
     --shadow-pop: 0 10px 24px rgba(0, 0, 0, 0.55);
+    --shadow-tile: 0 2px 6px rgba(0, 0, 0, 0.45);
+    --mahjong-veil: rgba(11, 18, 32, 0.58);
+    --mahjong-blocked-ink: rgba(231, 238, 248, 0.5);
+    --mahjong-side: #16202f;
     --progress-from: #7eb6ff;
     --progress-to: #5ec8e6;
     --error-strong: #ff9a9a;
@@ -141,6 +149,10 @@
   --shadow-card: 0 12px 30px rgba(0, 0, 0, 0.45);
   --shadow-float: 0 16px 34px rgba(0, 0, 0, 0.5);
   --shadow-pop: 0 10px 24px rgba(0, 0, 0, 0.55);
+  --shadow-tile: 0 2px 6px rgba(0, 0, 0, 0.45);
+  --mahjong-veil: rgba(11, 18, 32, 0.58);
+  --mahjong-blocked-ink: rgba(231, 238, 248, 0.5);
+  --mahjong-side: #16202f;
   --progress-from: #7eb6ff;
   --progress-to: #5ec8e6;
   --error-strong: #ff9a9a;

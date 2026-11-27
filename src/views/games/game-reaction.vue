@@ -5,6 +5,7 @@ import { faceLabel, faceOf } from '../../study/quiz/faces.js'
 const store = inject('store')
 const props = defineProps({ round: { type: Object, required: true } })
 const state = computed(() => props.round.state)
+const effect = computed(() => props.round.hintEffect)
 
 function faceText(card) {
   const word = props.round.faces?.[card?.word]
@@ -28,7 +29,7 @@ function tap(index) {
         v-for="(card, at) in state.cards"
         :key="at"
         class="reaction-card"
-        :class="{ 'reaction-card--flash': state.flash === at }"
+        :class="{ 'reaction-card--flash': state.flash === at, 'reaction-card--hint': effect?.kind === 'index' && effect.index === at }"
         type="button"
         :data-word="card.word"
         :data-face="card.face"

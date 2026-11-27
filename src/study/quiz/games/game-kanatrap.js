@@ -2,10 +2,18 @@
 // reading out of four. Distractors are micro-perturbations of the correct kana
 // (voicing toggle, っ insertion/deletion, long-vowel change) — never gibberish
 // and never another legitimate reading alias of the same word.
-import { faceOf, rng01, shuffled } from './shared.js'
+//
+// A round is QUESTIONS_PER_ROUND questions long. Every question is built the
+// same way; a correct answer pauses briefly (the shell dispatches quiz.next),
+// a wrong one or a timeout reveals the reading and waits for quiz.confirm, and
+// both then move on. When the batch has fewer than QUESTIONS_PER_ROUND eligible
+// words the pool is reshuffled and reused so a round still holds 10 questions.
+import { rng01, shuffled } from './shared.js'
 
 export const usesPool = false
 export const usesRng = true
+
+export const QUESTIONS_PER_ROUND = 10
 
 const DAKUTEN = { か: 'が', が: 'か', き: 'ぎ', ぎ: 'き', く: 'ぐ', ぐ: 'く', け: 'げ', げ: 'け', こ: 'ご', ご: 'こ', さ: 'ざ', ざ: 'さ', し: 'じ', じ: 'し', す: 'ず', ず: 'す', せ: 'ぜ', ぜ: 'せ', そ: 'ぞ', ぞ: 'そ', た: 'だ', だ: 'た', ち: 'ぢ', ぢ: 'ち', つ: 'づ', づ: 'つ', て: 'で', で: 'て', と: 'ど', ど: 'と', は: 'ば', ば: 'は', ひ: 'び', び: 'ひ', ふ: 'ぶ', ぶ: 'ふ', へ: 'べ', べ: 'へ', ほ: 'ぼ', ぼ: 'ほ', ば: 'ぱ', ぱ: 'ば' }
 
@@ -60,9 +68,7 @@ function perturb(chars, rng) {
   return out.join('')
 }
 
-export function create(round, faces, _poolFaces, rng) {
-  const words = eligibleWords(faces)
-  const target = shuffled(words, rng)[0]
+function buildQuestion(target, words, rng) {
   const correct = target.kana
   const seen = new Set([correct, ...words.map((w) => w.kana)])
   const options = [correct]
@@ -72,13 +78,67 @@ export function create(round, faces, _poolFaces, rng) {
     seen.add(candidate)
     options.push(candidate)
   }
-  round.state = {
+  return {
     prompt: target.kanji,
     promptZh: target.zh,
     options: shuffled(options, rng),
     correct,
+  }
+}
+
+// The targets of one round: every eligible word once while they last, then a
+// reshuffled deck again, so a 2-word batch still plays 10 questions and a
+// 12-word batch plays 10 different words.
+function targetsFor(words, count, rng) {
+  const targets = []
+  while (targets.length < count) {
+    for (const word of shuffled(words, rng)) {
+      if (targets.length >= count) break
+      targets.push(word)
+    }
+  }
+  return targets
+}
+
+function showQuestion(state) {
+  const question = state.questions[state.index]
+  state.prompt = question.prompt
+  state.promptZh = question.promptZh
+  state.options = question.options
+  state.correct = question.correct
+}
+
+function advance(round) {
+  const state = round.state
+  round.flash = null
+  round.reveal = null
+  state.index += 1
+  if (state.index >= state.total) {
+    round.done = true
+    round.cleared = true
+    state.phase = 'done'
+    return true
+  }
+  showQuestion(state)
+  state.phase = 'ask'
+  return false
+}
+
+export function create(round, faces, _poolFaces, rng) {
+  const words = eligibleWords(faces)
+  const targets = targetsFor(words, QUESTIONS_PER_ROUND, rng)
+  const questions = targets.map((target) => buildQuestion(target, words, rng))
+  round.state = {
+    index: 0,
+    total: questions.length,
+    questions,
+    prompt: '',
+    promptZh: '',
+    options: [],
+    correct: '',
     phase: 'ask',
   }
+  showQuestion(round.state)
 }
 
 export function act(round, action) {
@@ -89,9 +149,7 @@ export function act(round, action) {
     if (option === state.correct) {
       round.streak += 1
       round.flash = null
-      round.done = true
-      round.cleared = true
-      state.phase = 'done'
+      state.phase = 'correct'
       return { life: 0, score: 15 + round.streak * 5, clock: 'stop', message: '排雷成功' }
     }
     round.streak = 0
@@ -100,13 +158,13 @@ export function act(round, action) {
     state.phase = 'reveal'
     return { life: -1, score: 0, clock: 'stop', message: '踩雷' }
   }
+  if (action.type === 'next' && state.phase === 'correct') {
+    const done = advance(round)
+    return { life: 0, score: 0, clock: done ? 'stop' : 'start', message: null }
+  }
   if (action.type === 'confirm' && state.phase === 'reveal') {
-    round.reveal = null
-    round.flash = null
-    round.done = true
-    round.cleared = false
-    state.phase = 'done'
-    return { life: 0, score: 0, clock: 'stop', message: null }
+    const done = advance(round)
+    return { life: 0, score: 0, clock: done ? 'stop' : 'start', message: null }
   }
   if (action.type === 'timeout' && state.phase === 'ask') {
     round.streak = 0

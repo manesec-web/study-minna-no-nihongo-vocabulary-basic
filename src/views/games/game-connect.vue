@@ -7,6 +7,7 @@ import { connectPathPoints } from '../../study/quiz/connect-path.js'
 const store = inject('store')
 const props = defineProps({ round: { type: Object, required: true } })
 const state = computed(() => props.round.state)
+const effect = computed(() => props.round.hintEffect)
 
 const boardEl = ref(null)
 const pathPoints = ref('')
@@ -76,6 +77,7 @@ onBeforeUnmount(() => {
           :class="{
             'connect-cell--selected': cell.selected,
             'connect-cell--flash': cell.flash,
+            'connect-cell--hint': effect?.kind === 'pair' && (effect.a === at || effect.b === at),
             [cellFontClass(faceText(cell))]: true,
           }"
           type="button"

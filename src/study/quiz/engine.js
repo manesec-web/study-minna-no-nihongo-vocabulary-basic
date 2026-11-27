@@ -150,14 +150,18 @@ export function createRound(mode, batch, library, poolRefs, rng, timeLimit) {
     cleared: false,
     score: 0,
     streak: 0,
-    // A time-limited round starts its countdown as soon as the round opens,
-    // except 記憶順序, which only counts down while the player taps the
-    // sequence (its `show` phase is untimed).
-    clock: { active: (timeLimit || 0) > 0 && mode !== 'memory', seconds: timeLimit || 0, key: 0 },
+    // A time-limited round starts its countdown when play actually begins.
+    // 記憶順序, 翻卡配對, and 消除下落 hold it through their untimed intros
+    // (sequence show, opening peek, drop-in deal) and start it later.
+    clock: { active: (timeLimit || 0) > 0 && !['memory', 'pairs', 'match3'].includes(mode), seconds: timeLimit || 0, key: 0 },
     clockSeconds: timeLimit || 0,
     baseClockSeconds: timeLimit || 0,
     flash: null,
     reveal: null,
+    // The 10s hint clock lives at the command layer (see src/study/quiz/hint.js);
+    // this default is only the empty round shape before the command syncs it.
+    hint: { key: '', active: false, available: false, used: false },
+    hintEffect: null,
     state: {},
   }
   if (CREATE[mode]) CREATE[mode](round, faces, poolFaces, rng)
@@ -282,12 +286,20 @@ function createPairs(round, faces, _poolFaces, rng) {
     const twoFaces = shuffled([...FACES], rng).slice(0, 2)
     for (const face of twoFaces) cards.push({ word, face, open: false, matched: false, flash: false })
   }
-  round.state = { cards: shuffled(cards, rng), open: [], locked: false, pending: null, done: false }
+  round.state = { cards: shuffled(cards, rng), open: [], locked: true, pending: null, done: false, peek: true }
 }
 
 function actPairs(round, action) {
   const state = round.state
   if (action.type === 'resolve') {
+    // End the opening 3s all-face-up peek (the view staggered the deal, then
+    // held it before dispatching resolve). Play — and the countdown — start
+    // here, after the bar finishes and the cards flip back face-down.
+    if (state.peek && state.locked) {
+      state.peek = false
+      state.locked = false
+      return { life: 0, score: 0, clock: round.clockSeconds > 0 ? 'start' : null, message: null }
+    }
     if (!state.locked || !state.pending) return noop()
     const [firstIndex, secondIndex] = state.pending
     const first = state.cards[firstIndex]
@@ -357,10 +369,28 @@ function actPairs(round, action) {
 
 const MATCH3_COLS = 5
 const MATCH3_ROWS = 5
+const MATCH3_WIN_CLEARS = 10
+
+// A stable per-tile id lets the view keep surviving tiles' DOM nodes across a
+// gravity refill and only animate the freshly dealt tiles (a new id = a new
+// node = its drop-in animation runs again). It never affects game rules.
+let match3CellKey = 0
 
 function newMatch3Cell(faces, rng) {
-  const word = Math.floor(rng01(rng) * faces.length)
-  return { word, face: pick(FACES, rng), selected: false, cleared: false }
+  match3CellKey += 1
+  return {
+    word: Math.floor(rng01(rng) * faces.length),
+    face: pick(FACES, rng),
+    selected: false,
+    cleared: false,
+    fresh: true,
+    key: match3CellKey,
+  }
+}
+
+function stampMatch3Cell(word, rng) {
+  match3CellKey += 1
+  return { word, face: pick(FACES, rng), selected: false, cleared: false, fresh: true, key: match3CellKey }
 }
 
 function fillMatch3(faces, rng) {
@@ -427,17 +457,47 @@ export function hasMatch3Move(cells) {
 }
 
 // Guarantee at least one clearable group without disturbing the rest of the
-// board: when no connected 3+ group exists, stamp a horizontal three-cell run
-// at the top-left with a word drawn from the round's faces. This is
-// deterministic and cheap, so gravity refills can call it on every new board.
-function ensureMatch3Move(cells, faces, rng) {
-  if (findMatch3Group(cells)) return cells
+// board. The first choice is a natural group; when none exists, the freshly
+// dealt cells (survivors stay in place after gravity) are reshuffled for a
+// bounded number of attempts. Only when that still fails is a 3-cell group
+// planted at a random position with a random legal shape — never a fixed
+// top-left triple the player could memorise.
+const MATCH3_PLANT_SHAPES = [
+  [{ row: 0, col: 0 }, { row: 0, col: 1 }, { row: 0, col: 2 }], // horizontal
+  [{ row: 0, col: 0 }, { row: 1, col: 0 }, { row: 2, col: 0 }], // vertical
+  [{ row: 0, col: 0 }, { row: 0, col: 1 }, { row: 1, col: 0 }], // L
+  [{ row: 0, col: 0 }, { row: 0, col: 1 }, { row: 1, col: 1 }], // L mirrored
+  [{ row: 0, col: 0 }, { row: 1, col: 0 }, { row: 1, col: 1 }], // L
+  [{ row: 0, col: 1 }, { row: 1, col: 0 }, { row: 1, col: 1 }], // L mirrored
+]
+
+function plantMatch3Group(cells, faces, rng) {
   const word = Math.floor(rng01(rng) * faces.length)
-  for (let offset = 0; offset < 3; offset += 1) {
-    const at = rowColToIndex(0, offset)
-    cells[at] = { word, face: pick(FACES, rng), selected: false, cleared: false }
+  const shape = pick(MATCH3_PLANT_SHAPES, rng)
+  const maxRow = MATCH3_ROWS - 1 - Math.max(...shape.map((cell) => cell.row))
+  const maxCol = MATCH3_COLS - 1 - Math.max(...shape.map((cell) => cell.col))
+  const anchorRow = maxRow > 0 ? Math.floor(rng01(rng) * (maxRow + 1)) : 0
+  const anchorCol = maxCol > 0 ? Math.floor(rng01(rng) * (maxCol + 1)) : 0
+  for (const offset of shape) {
+    cells[rowColToIndex(anchorRow + offset.row, anchorCol + offset.col)] = stampMatch3Cell(word, rng)
   }
   return cells
+}
+
+export function ensureMatch3Move(cells, faces, rng) {
+  if (findMatch3Group(cells)) return cells
+  // Only the freshly dealt cells may be reshuffled; gravity survivors keep
+  // their place. After a fill every cell is fresh, so the whole board is
+  // redrawn here.
+  const fresh = []
+  cells.forEach((cell, index) => {
+    if (cell && cell.fresh) fresh.push(index)
+  })
+  for (let attempt = 0; attempt < 80; attempt += 1) {
+    for (const index of fresh) cells[index] = newMatch3Cell(faces, rng)
+    if (findMatch3Group(cells)) return cells
+  }
+  return plantMatch3Group(cells, faces, rng)
 }
 
 function applyGravity(cells, rng, faces) {
@@ -448,11 +508,12 @@ function applyGravity(cells, rng, faces) {
       const at = rowColToIndex(row, col)
       if (!cells[at].cleared) survivors.push(cells[at])
     }
-    // Bottom rows get the survivors (bottom-up), top rows get new cards.
+    // Bottom rows get the survivors (bottom-up), top rows get new cards that
+    // visibly fall into place in the view.
     for (let row = MATCH3_ROWS - 1; row >= 0; row -= 1) {
       const target = rowColToIndex(row, col)
       const source = survivors[MATCH3_ROWS - 1 - row]
-      next[target] = source ? { ...source, selected: false } : newMatch3Cell(faces, rng)
+      next[target] = source ? { ...source, selected: false, fresh: false } : newMatch3Cell(faces, rng)
     }
   }
   return ensureMatch3Move(next, faces, rng)
@@ -464,12 +525,40 @@ function createMatch3(round, faces, _poolFaces, rng) {
     selected: [],
     score: 0,
     combo: 0,
+    clearCount: 0,
+    phase: 'drop',
+    locked: true,
+    pending: [],
   }
+  // The opening drop-in is untimed: the countdown starts only after the view
+  // resolves the deal and the tiles become tappable.
 }
 
 function actMatch3(round, action) {
   const state = round.state
+  if (action.type === 'resolve') {
+    if (state.phase === 'drop' && state.locked) {
+      state.phase = 'play'
+      state.locked = false
+      return { life: 0, score: 0, clock: round.clockSeconds > 0 ? 'start' : null, message: null }
+    }
+    if (state.phase === 'clear' && state.locked) {
+      for (const i of state.pending) state.cells[i].cleared = true
+      state.cells = applyGravity(state.cells, round.rng, round.faces)
+      state.pending = []
+      state.locked = false
+      state.phase = 'play'
+      if (state.clearCount >= MATCH3_WIN_CLEARS) {
+        round.done = true
+        round.cleared = true
+        return { life: 0, score: 0, clock: 'stop', message: '完成' }
+      }
+      return { life: 0, score: 0, clock: null, message: null }
+    }
+    return noop()
+  }
   if (action.type === 'tap') {
+    if (state.locked || state.phase !== 'play') return noop()
     const cells = state.cells
     const cell = cells[action.index]
     if (!cell || cell.cleared) return noop()
@@ -518,19 +607,19 @@ function actMatch3(round, action) {
       state.combo += 1
       const combo = Math.max(1, state.combo)
       const gain = (count * 10 + (count >= 4 ? (count - 3) * 5 : 0)) * combo
-      for (const i of state.selected) cells[i].cleared = true
+      // A clear first pops the selected tiles while locked; the view dispatches
+      // quiz.resolve after the pop, and only then does gravity refill the board.
+      for (const i of state.selected) cells[i].selected = false
+      state.pending = state.selected.slice()
       state.selected = []
-      state.cells = applyGravity(cells, round.rng, round.faces)
+      state.locked = true
+      state.phase = 'clear'
       round.streak += 1
+      state.clearCount += 1
       round.flash = 'correct'
       return { life: 0, score: gain, clock: 'reset', message: `消除 ${count} 個` }
     }
     return noop()
-  }
-  if (action.type === 'end') {
-    round.done = true
-    round.cleared = true
-    return { life: 0, score: 0, clock: 'stop', message: '結束本模式' }
   }
   if (action.type === 'timeout') {
     round.done = true
@@ -545,8 +634,8 @@ createMatch3.usesRng = true
 
 // ---------- 4) 路徑連接 ----------
 
-const CONNECT_COLS = 6
-const CONNECT_ROWS = 6
+const CONNECT_COLS = 5
+const CONNECT_ROWS = 8
 const CONNECT_PAIRS = (CONNECT_COLS * CONNECT_ROWS) / 2
 
 export { CONNECT_COLS, CONNECT_ROWS }
@@ -892,11 +981,12 @@ createBoss.usesPool = true
 
 // ---------- 6) 記憶順序 ----------
 
-// Groups of up to 3 words are drawn from the round's word list. The group's
-// three cards show 日語 or 平假名 (mixed) during `show`, then turn face-down;
-// the player picks the corresponding 中文 meanings from six options. Tapping a
-// wrong option deducts a life, reveals the next unsolved correct 中文, and
-// returns to the same six options (no re-show of the cards).
+// Each group is three words. The round opens with a single face-down pile at
+// the bottom; one tap deals the three cards into three slots one by one, a 2s
+// countdown holds them readable, then the player places the three 中文 meanings
+// into the slots. All three are graded together when the third slot is filled.
+
+const MEMORY_OPTION_COUNT = 6
 
 function memoryGroups(faces, rng) {
   return chunk(shuffled(faces.map((_face, at) => at), rng), 3)
@@ -904,29 +994,30 @@ function memoryGroups(faces, rng) {
 
 function startMemoryGroup(round, faces, rng) {
   const group = round.state.groups[round.state.groupIndex]
-  round.state.cards = group.map((word) => ({ word, face: pick(['jp', 'kana'], rng) }))
-  round.state.correctTexts = [...new Set(
-    round.state.cards.map((card) => faceOf(faces[card.word], 'zh')).filter(Boolean),
-  )]
-  const seen = new Set(round.state.correctTexts)
+  round.state.slots = group.map((word) => ({
+    word,
+    face: pick(['jp', 'kana'], rng),
+    placed: -1,
+    correct: null,
+  }))
+  const correctTexts = round.state.slots.map((slot) => faceOf(faces[slot.word], 'zh'))
+  const seen = new Set(correctTexts)
   const distractors = []
   for (const other of shuffled(round.poolFaces, rng)) {
     const text = faceOf(other, 'zh')
     if (!text || seen.has(text)) continue
     seen.add(text)
     distractors.push(text)
-    if (distractors.length >= 6 - round.state.correctTexts.length) break
+    if (distractors.length >= MEMORY_OPTION_COUNT - correctTexts.length) break
   }
   round.state.choices = shuffled(
     [
-      ...round.state.correctTexts.map((text) => ({ text, correct: true, solved: false })),
-      ...distractors.map((text) => ({ text, correct: false, solved: false })),
+      ...correctTexts.map((text) => ({ text, correct: true, used: false })),
+      ...distractors.map((text) => ({ text, correct: false, used: false })),
     ],
     rng,
   )
-  round.state.solvedCount = 0
-  round.state.target = round.state.correctTexts.length
-  round.state.phase = 'show'
+  round.state.phase = 'stack'
   round.reveal = null
   round.flash = null
 }
@@ -935,62 +1026,98 @@ function createMemory(round, faces, _poolFaces, rng) {
   round.state = {
     groups: memoryGroups(faces, rng),
     groupIndex: 0,
-    phase: 'show',
-    cards: [],
+    phase: 'stack',
+    slots: [],
     choices: [],
-    correctTexts: [],
-    solvedCount: 0,
-    target: 0,
   }
   startMemoryGroup(round, faces, rng)
 }
 
+// Grade the three slots together. The view flips the slot cards on `check`; the
+// life/score deltas land on this single submit, not per placement.
+function gradeMemoryGroup(round, timeout = false) {
+  const state = round.state
+  let allCorrect = true
+  for (const slot of state.slots) {
+    const choice = state.choices[slot.placed]
+    const answer = faceOf(round.faces[slot.word], 'zh')
+    slot.correct = Boolean(choice) && choice.text === answer
+    if (!slot.correct) allCorrect = false
+  }
+  state.phase = 'check'
+  if (allCorrect) {
+    round.streak += 1
+    round.flash = 'correct'
+    return { life: 0, score: 30 + round.streak * 2, clock: 'stop', message: '記憶正確' }
+  }
+  round.streak = 0
+  round.flash = 'wrong'
+  return { life: -1, score: 0, clock: 'stop', message: timeout ? '時間到' : '記憶錯誤' }
+}
+
+function afterMemoryCheck(round) {
+  const state = round.state
+  const allCorrect = state.slots.every((slot) => slot.correct)
+  if (allCorrect) {
+    if (state.groupIndex + 1 >= state.groups.length) {
+      round.done = true
+      round.cleared = true
+      state.phase = 'done'
+      return { life: 0, score: 0, clock: 'stop', message: '記憶完成' }
+    }
+    state.groupIndex += 1
+    startMemoryGroup(round, round.faces, round.rng)
+    return { life: 0, score: 0, clock: null, message: '本組完成' }
+  }
+  // Retry the same group: clear the placements and re-enable the options. The
+  // player just saw which slots were correct, so the words need no re-deal.
+  for (const slot of state.slots) {
+    slot.placed = -1
+    slot.correct = null
+  }
+  for (const choice of state.choices) choice.used = false
+  state.phase = 'ask'
+  round.flash = null
+  round.reveal = null
+  return { life: 0, score: 0, clock: round.clockSeconds > 0 ? 'start' : null, message: '再試一次' }
+}
+
 function actMemory(round, action) {
   const state = round.state
-  if (action.type === 'next' && state.phase === 'show') {
-    state.phase = 'ask'
+  if (action.type === 'tap' && state.phase === 'stack') {
+    state.phase = 'deal'
     round.flash = null
     round.reveal = null
     return { life: 0, score: 0, clock: null, message: null }
+  }
+  if (action.type === 'next' && state.phase === 'deal') {
+    state.phase = 'countdown'
+    return { life: 0, score: 0, clock: null, message: null }
+  }
+  if (action.type === 'next' && state.phase === 'countdown') {
+    state.phase = 'ask'
+    round.flash = null
+    round.reveal = null
+    return { life: 0, score: 0, clock: round.clockSeconds > 0 ? 'start' : null, message: null }
   }
   if (action.type === 'choose' && state.phase === 'ask') {
     const choice = state.choices[action.index]
-    if (!choice || choice.solved) return noop()
-    if (choice.correct) {
-      choice.solved = true
-      state.solvedCount += 1
-      round.streak += 1
-      round.flash = 'correct'
-      if (state.solvedCount >= state.target) {
-        const groupGain = 20 + round.streak * 2
-        if (state.groupIndex + 1 >= state.groups.length) {
-          round.done = true
-          round.cleared = true
-          state.phase = 'done'
-          return { life: 0, score: groupGain, clock: 'stop', message: '記憶完成' }
-        }
-        state.groupIndex += 1
-        startMemoryGroup(round, round.faces, round.rng)
-        return { life: 0, score: groupGain, clock: null, message: '本組完成' }
-      }
-      return { life: 0, score: 10, clock: null, message: '正確' }
+    if (!choice || choice.used) return noop()
+    const slotIndex = state.slots.findIndex((slot) => slot.placed < 0)
+    if (slotIndex === -1) return noop()
+    choice.used = true
+    state.slots[slotIndex].placed = action.index
+    // The first two placements only fill slots; the third placement submits.
+    if (slotIndex < state.slots.length - 1) {
+      return { life: 0, score: 0, clock: null, message: null }
     }
-    round.streak = 0
-    round.flash = 'wrong'
-    const next = state.choices.find((c) => c.correct && !c.solved)
-    round.reveal = { text: next?.text ?? '' }
-    state.phase = 'reveal'
-    return { life: -1, score: 0, clock: null, message: '錯誤' }
+    return gradeMemoryGroup(round)
   }
-  if (action.type === 'confirm' && state.phase === 'reveal') {
-    state.phase = 'ask'
-    round.reveal = null
-    round.flash = null
-    return { life: 0, score: 0, clock: null, message: null }
+  if (action.type === 'confirm' && state.phase === 'check') {
+    return afterMemoryCheck(round)
   }
-  if (action.type === 'timeout') {
-    // 記憶順序 is untimed; a stray timeout is a no-op.
-    return noop()
+  if (action.type === 'timeout' && state.phase === 'ask') {
+    return gradeMemoryGroup(round, true)
   }
   return noop()
 }

@@ -4,6 +4,7 @@ import { ArrowLeft } from 'lucide-vue-next'
 import { MODE_LABELS } from '../study/quiz/modes.js'
 import { playDrawCard } from '../study/quiz/draw-animation.js'
 import { GAME_COMPONENTS } from './games/index.js'
+import { HINT_DELAY_MS } from '../study/quiz/hint.js'
 
 const store = inject('store')
 const session = store.session
@@ -21,6 +22,12 @@ const lastHistory = computed(() => {
   const history = run.value?.history ?? []
   return history[history.length - 1] ?? null
 })
+
+const hint = computed(() => round.value?.hint ?? null)
+
+function doHint() {
+  store.send('quiz.hint')
+}
 
 function back() {
   store.send('nav.go', { screen: 'home' })
@@ -130,13 +137,21 @@ function clearResolveTimer() {
 }
 
 watch(
-  () => [round.value?.mode, round.value?.state?.locked, round.value?.state?.path],
+  () => [round.value?.mode, round.value?.state?.locked, round.value?.state?.path, round.value?.state?.phase],
   () => {
     clearResolveTimer()
     const current = round.value?.state
     if (!current) return
     if (round.value?.mode === 'pairs' && current.locked) {
-      resolveTimer = setTimeout(() => store.send('quiz.resolve'), 1000)
+      // The opening 3s all-face-up peek is rule-significant: hold it even under
+      // reduced motion. A mismatch hold stays ~1s.
+      resolveTimer = setTimeout(() => store.send('quiz.resolve'), current.peek ? 3000 : 1000)
+    } else if (round.value?.mode === 'match3' && current.locked) {
+      // Resolve the opening drop-in or a post-clear pop; reduced motion may
+      // shorten the decorative part, gravity and the clear count are unchanged.
+      const drop = current.phase === 'drop'
+      const delay = drop ? (reducedMotion() ? 30 : 560) : (reducedMotion() ? 40 : 260)
+      resolveTimer = setTimeout(() => store.send('quiz.resolve'), delay)
     } else if (round.value?.mode === 'connect' && current.locked && current.path) {
       resolveTimer = setTimeout(() => store.send('quiz.resolve'), 720)
     }
@@ -144,21 +159,48 @@ watch(
   { immediate: true },
 )
 
-// 記憶順序 auto-advances past the 3-card show phase after ~3s.
-let memoryShowTimer = null
-function clearMemoryShowTimer() {
-  if (memoryShowTimer) {
-    clearTimeout(memoryShowTimer)
-    memoryShowTimer = null
+// The hint clock is shell-presentation like the countdown above: the view only
+// accumulates continuous actionable time (see src/study/quiz/hint.js) and then
+// dispatches quiz.hintReady. Muting while the player cannot act, and resetting
+// on a new question/board, are both driven by `round.hint` from the store.
+let hintTicker = null
+let hintElapsedMs = 0
+let hintKey = null
+
+function clearHintTicker() {
+  if (hintTicker) {
+    clearInterval(hintTicker)
+    hintTicker = null
   }
 }
 
 watch(
-  () => [round.value?.mode, round.value?.state?.phase],
-  () => {
-    clearMemoryShowTimer()
-    if (round.value?.mode === 'memory' && round.value?.state?.phase === 'show') {
-      memoryShowTimer = setTimeout(() => store.send('quiz.next'), 3000)
+  () => [
+    run.value?.phase,
+    round.value?.hint?.key,
+    round.value?.hint?.active,
+    round.value?.hint?.available,
+    round.value?.hint?.used,
+  ],
+  ([runPhase, key, active, available, used]) => {
+    if (key !== hintKey) {
+      hintKey = key
+      hintElapsedMs = 0
+      clearHintTicker()
+    }
+    const running = runPhase === 'round' && key != null && active && !available && !used
+    if (!running) {
+      clearHintTicker()
+      return
+    }
+    if (!hintTicker) {
+      hintTicker = setInterval(() => {
+        hintElapsedMs += 200
+        if (hintElapsedMs >= HINT_DELAY_MS) {
+          clearHintTicker()
+          store.send('quiz.hintReady')
+        }
+      }, 200)
     }
   },
   { immediate: true },
@@ -169,7 +211,7 @@ onBeforeUnmount(() => {
   clearClockTimer()
   clearAdvanceTimer()
   clearResolveTimer()
-  clearMemoryShowTimer()
+  clearHintTicker()
 })
 </script>
 
@@ -181,6 +223,14 @@ onBeforeUnmount(() => {
       </button>
       <h1 class="bar-title">測驗</h1>
       <div class="quiz-hud">
+        <button
+          v-if="hint && hint.available && !hint.used && hint.active"
+          class="quiz-hint-button"
+          type="button"
+          @click="doHint"
+        >
+          提示
+        </button>
         <span class="hud-item">生命 {{ livesText }}</span>
         <span class="hud-item">{{ score }} 分</span>
       </div>

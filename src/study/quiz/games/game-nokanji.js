@@ -11,13 +11,17 @@ export function eligible(faces) {
   return { ok: true, reason: null }
 }
 
+// Returns the question so `advanceQuestion` can store it. (It used to assign
+// `round.state.question` as a side effect and return undefined, so from the
+// second question on the helper stored `undefined` and the board rendered
+// blank with `Cannot read properties of undefined (reading 'promptFace')`.)
 function buildQuestion(round, faces, poolFaces, rng, index) {
-  round.state.question = mcQuestion(faces[index], poolFaces, rng, 'kana', 'zh', 5)
+  return mcQuestion(faces[index], poolFaces, rng, 'kana', 'zh', 5)
 }
 
 export function create(round, faces, poolFaces, rng) {
   round.state = { index: 0, phase: 'ask', question: null }
-  buildQuestion(round, faces, poolFaces, rng, 0)
+  round.state.question = buildQuestion(round, faces, poolFaces, rng, 0)
 }
 
 export function act(round, action) {

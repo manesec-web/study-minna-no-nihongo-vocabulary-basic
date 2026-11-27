@@ -4,6 +4,7 @@ import { computed, inject, onBeforeUnmount, onMounted, ref } from 'vue'
 const store = inject('store')
 const props = defineProps({ round: { type: Object, required: true } })
 const state = computed(() => props.round.state)
+const effect = computed(() => props.round.hintEffect)
 
 function plate() {
   const word = props.round.faces?.find((f) => f.ref === state.value.queue[state.value.position]?.ref)
@@ -59,6 +60,7 @@ onBeforeUnmount(() => {
         <span>{{ plateZh() }}</span>
       </div>
     </div>
+    <p v-if="effect?.kind === 'reading'" class="quiz-hint-text">提示：讀音是「{{ effect.reading }}」</p>
     <input
       class="sushi-input"
       type="text"

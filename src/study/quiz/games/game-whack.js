@@ -1,14 +1,18 @@
-// 打地鼠 (whack): a Chinese target at the top, nine holes where moles pop up and
-// vanish. Tap a correct mole to score; tap a wrong mole to lose time. The mode
-// always keeps at least one correct mole visible so there is never an unfair
-// empty window. Uses a fixed 60-second internal timer when the session is
-// infinite.
+// 打地鼠 (whack): a target on top, nine holes where one mole pops up at a time.
+// A mole stays up for 1s then hides for 2s, then the next mole appears in a
+// different hole with a different word/face. Tap a mole matching the target to
+// score; tap the wrong mole to lose time. Uses a fixed 60-second internal timer
+// when the session is infinite.
 import { faceOf, pick, rng01, shuffled } from './shared.js'
 
 export const usesPool = false
 export const usesRng = true
 
 const INTERNAL_SECONDS = 60
+const HOLE_COUNT = 9
+// 1s up / 2s down, driven by the view's 1s visibility interval: one tick while
+// up hides the mole, then two ticks while down bring the next mole up.
+const DOWN_TICKS = 2
 
 export function eligible(faces) {
   const distinct = new Set(faces.map((f) => faceOf(f, 'jp')).filter(Boolean)).size
@@ -18,21 +22,67 @@ export function eligible(faces) {
   return { ok: true, reason: null }
 }
 
+function holeFor(round, word, face) {
+  return { word, face, visible: false, hit: false }
+}
+
+// Fill the nine holes with distinct word/face texts where the pool allows. The
+// target word is included once so a correct mole can appear; the rest cycle
+// through the shuffled distractors (cycling only when the pool is smaller than
+// nine, so the board is never all the same text).
 function buildHoles(round, faces, rng) {
   const state = round.state
-  const target = faces[state.targetWord]
-  const targetText = faceOf(target, state.face)
-  const holes = []
-  const others = shuffled(faces.filter((f) => faceOf(f, state.face) !== targetText), rng)
-  // First hole is always the correct target and visible, so a correct answer is
-  // always on screen.
-  holes.push({ word: state.targetWord, face: state.face, visible: true, hit: false })
-  for (let i = 1; i < 9; i += 1) {
-    const other = others[i % others.length]
-    const word = faces.indexOf(other)
-    holes.push({ word, face: state.face, visible: pick([true, false], rng), hit: false })
+  // A new target is a new board for the purpose of the 10s hint clock.
+  state.turn = (state.turn ?? 0) + 1
+  const targetText = faceOf(faces[state.targetWord], state.face)
+  let others = shuffled(
+    faces.filter((f) => faceOf(f, state.face) !== targetText),
+    rng,
+  )
+  if (others.length === 0) others = shuffled([...faces], rng)
+
+  const holes = [holeFor(round, state.targetWord, state.face)]
+  for (let i = 1; i < HOLE_COUNT; i += 1) {
+    const other = others[(i - 1) % others.length]
+    holes.push(holeFor(round, faces.indexOf(other), state.face))
   }
-  state.holes = shuffled(holes, rng)
+
+  state.holes = holes
+  state.visibleIndex = -1
+  state.lastIndex = -1
+  state.lastWord = -1
+  state.cycle = 'up'
+  state.downTicks = 0
+  appearMole(round, rng)
+}
+
+// Show exactly one mole, never in the same hole twice in a row, and prefer a
+// word that differs from the previous appearance.
+function appearMole(round, rng) {
+  const state = round.state
+  const n = state.holes.length
+  let index = -1
+  for (let attempt = 0; attempt < n * 2; attempt += 1) {
+    const candidate = Math.floor(rng01(rng) * n)
+    if (candidate === state.lastIndex) continue
+    if (state.holes[candidate].word === state.lastWord) continue
+    index = candidate
+    break
+  }
+  if (index === -1) {
+    for (let candidate = 0; candidate < n; candidate += 1) {
+      if (candidate !== state.lastIndex) {
+        index = candidate
+        break
+      }
+    }
+  }
+  for (const hole of state.holes) hole.visible = false
+  state.holes[index].visible = true
+  state.visibleIndex = index
+  state.lastIndex = index
+  state.lastWord = state.holes[index].word
+  state.cycle = 'up'
 }
 
 function nextTarget(round, faces, rng) {
@@ -47,8 +97,14 @@ export function create(round, faces, _poolFaces, rng) {
     targetWord: 0,
     face: 'jp',
     holes: [],
+    visibleIndex: -1,
+    lastIndex: -1,
+    lastWord: -1,
+    cycle: 'up',
+    downTicks: 0,
     score: 0,
     remaining: INTERNAL_SECONDS,
+    turn: 0,
     phase: 'play',
   }
   if (round.baseClockSeconds > 0) round.state.remaining = round.baseClockSeconds
@@ -60,11 +116,13 @@ export function act(round, action) {
   if (state.phase !== 'play') return { life: 0, score: 0, clock: null, message: null }
   if (action.type === 'tap') {
     const hole = state.holes[action.index]
-    if (!hole) return { life: 0, score: 0, clock: null, message: null }
-    if (!hole.visible) return { life: 0, score: 0, clock: null, message: null }
+    if (!hole || !hole.visible || state.cycle !== 'up') {
+      return { life: 0, score: 0, clock: null, message: null }
+    }
     if (hole.word === state.targetWord) {
       hole.hit = true
       hole.visible = false
+      state.visibleIndex = -1
       round.streak += 1
       round.flash = null
       nextTarget(round, round.faces, round.rng)
@@ -83,15 +141,16 @@ export function act(round, action) {
       state.phase = 'done'
       return { life: 0, score: 0, clock: 'stop', message: '時間到' }
     }
-    // Refresh mole visibility but always leave the correct one visible.
-    const correctIndex = state.holes.findIndex((h) => h.word === state.targetWord && h.visible)
-    if (correctIndex === -1) {
-      const correct = state.holes.find((h) => h.word === state.targetWord)
-      if (correct) correct.visible = true
-    }
-    for (const hole of state.holes) {
-      if (hole.word !== state.targetWord && !hole.hit) {
-        hole.visible = pick([true, false], round.rng)
+    // 1s up → hide; 2s down → next mole.
+    if (state.cycle === 'up') {
+      for (const hole of state.holes) hole.visible = false
+      state.visibleIndex = -1
+      state.cycle = 'down'
+      state.downTicks = 0
+    } else {
+      state.downTicks += 1
+      if (state.downTicks >= DOWN_TICKS) {
+        appearMole(round, round.rng)
       }
     }
     return { life: 0, score: 0, clock: null, message: null }

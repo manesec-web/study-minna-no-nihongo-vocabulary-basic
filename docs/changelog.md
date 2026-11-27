@@ -1,5 +1,226 @@
 # Changelog
 
+## 2026-11-27 — 單字麻將 tile faces: solid tiles, frost on covered ones
+
+Visual-only fix on the uncommitted tree (`HEAD` stays `f1b55dd`; rules,
+geometry, and the frame are untouched). A mid-play screenshot showed the free
+(selectable) tiles sitting on a wash of semi-transparent blocked tiles with
+overlapping glyphs bleeding through — `.mahjong-tile--blocked` dimmed the
+whole tile with `opacity: 0.72`, so covered faces turned see-through and the
+text mashed together. Covered tiles now keep a solid body, are dimmed by one
+uniform frost veil (`::before`, over face and text), lose type contrast, cast
+only a small layer shadow, and keep the darker 3D offset side — the 羊了個羊
+peek-under stays, the mash is gone. Free tiles keep their solid face and pop
+with a stronger lift shadow; tray tiles keep the same chrome. Four new
+tokens in `src/styles/app.css` (both dark blocks) + `docs/theme.md`:
+`--mahjong-veil`, `--mahjong-blocked-ink`, `--mahjong-side`, `--shadow-tile`;
+`quiz-games.css` uses only `var(--…)`.
+
+Checks: `npm test` — 42 files, 324 tests; `npm run build` — `dict/vol.bin` 50
+lessons; `node scripts/browser-check.mjs` — all pass, including the ~520px
+frame containment now extended to lock the visual rule (blocked tiles have
+`opacity: 1` plus a frost veil, free tiles a solid opaque face); light + dark
+mid-play screenshots reviewed under `/tmp/quiz-refs/shots/`. The snake
+respawn check remains timing-flaky (1s respawn vs a 1.2s wait) and passes on
+re-run — unchanged by this work.
+
+## 2026-11-27 — 音拍猜謎 removed, 單字麻將 pile + tray framed
+
+Two quiz changes, stacked on the uncommitted tree (`HEAD` stays `f1b55dd`;
+`vol/`, `index.html`, the favicon, and the Google Tag IDs are untouched):
+
+- **音拍猜謎 (mora) retired.** `game-mora.js` / `game-mora.vue` are deleted and
+  the mode is dropped from `CONCRETE_MODES` / `SETUP_MODES` / `MODE_LABELS`,
+  `NEW_GAMES`, `GAME_COMPONENTS`, setup eligibility, and the per-mode hints in
+  `hint.js`. The quiz is 24 concrete modes plus 隨機模式. `quiz-view.test.js`
+  has an end-to-end removal test (24 modes, no mora label or file, every
+  remaining mode still builds a round with a hint rule), and
+  `scripts/browser-check.mjs` asserts the setup lists 24 mode chips and omits
+  音拍猜謎. Old changelog/progress sections that mention the mode when it was
+  added are historical and stay as written.
+- **單字麻將 — one visible frame around the pile and the tray.** A screenshot
+  showed the pile floating outside a marked area and the seven tray slots in a
+  loose band below it. The pile box and the 托盤 n / 7 caption plus the
+  seven-slot tray now sit inside one `.mahjong-frame` (2px `--thumb` border,
+  tinted background, card shadow, `overflow: hidden`, padding that keeps the
+  3D tile sides and covered-tile peek inside). The pile height is a
+  `padding-top` percentage (`boardRatio` from `game-mahjong.js`), not
+  `aspect-ratio`, so the frame is sized on short windows with a dvh clamp and
+  never spills off-screen; tile text clips instead of pushing tiles wide.
+  `browser-check` now also plays mahjong at a narrow (~520px) width with tiles
+  both on the pile and in the tray and asserts every tile, slot, and text
+  rectangle stays inside `.mahjong-frame`.
+
+Checks: `npm test` — 42 files, 324 tests; `npm run build` — `dict/vol.bin` 50
+lessons; `node scripts/browser-check.mjs` — 203 checks pass (24-mode setup,
+mahjong frame containment at ~520px, mahjong full play-through retained).
+
+## 2026-11-27 — 去漢字盲測 blank-board fix, 羊了個羊-scale 單字麻將, 濁音排雷 10 per round, 單字貪食蛇 fine grid
+
+Four quiz changes, stacked on the uncommitted tree (`HEAD` stays `f1b55dd`;
+`vol/`, `index.html`, the favicon, and the Google Tag IDs are untouched):
+
+- **去漢字盲測 (nokanji) — blank board from the second question on.**
+  `game-nokanji.js`'s `buildQuestion` assigned `round.state.question` as a side
+  effect and returned `undefined`, yet it was passed to `advanceQuestion`,
+  which stores the callback's return value. So the first question rendered and
+  every later one stored `undefined`; the view then threw
+  `Cannot read properties of undefined (reading 'promptFace')` and Vue
+  rendered an empty comment — the shell's accent mode label with a blank play
+  area. The helper now returns the question. New tests play the mode through
+  several questions (correct → `next`, wrong → `confirm`), and
+  `quiz-view.test.js` server-renders every question mode's component on its
+  **second** question so this class of bug cannot pass again.
+- **單字麻將 (mahjong) — bigger, denser, 羊了個羊-style, provably solvable.**
+  The old board was one row of six 48×68 columns (18 tiles). The new pile is a
+  three-layer pyramid whose odd layers sit over the 2×2 junctions of the layer
+  below, with taller corner piles on a fourth layer: 24 tiles (3–4 words), 30
+  (5–6), 54 (7+), each word in whole 漢字/假名/中文 triples.
+  Geometry is in board units and rendered by percentage with `cqw` type, so
+  tiles scale with the play area (≈56×73 px on a phone, ≈68×88 px on desktop);
+  every tile keeps its darker offset side and higher layers ride higher so
+  covered tiles peek out; corner piles settle up as they empty. Rules are
+  unchanged (overlap + left/right sandwich blocking, 7-slot tray, triple
+  before limit). Solvability is by construction: `solutionOrder` sweeps layers
+  top-down, rows left→right, and the triples are dealt A B C A B C A B C along
+  that sweep, so the tray peaks at six plus the completing seventh; a unit
+  test plays that order on nine generated boards with zero lives lost, and
+  `browser-check` plays a full 54-tile board to 清空 in Chrome.
+- **濁音排雷 (kanatrap) — 10 questions per round (was 1).** `create` now builds
+  `QUESTIONS_PER_ROUND = 10` questions; a correct answer holds ~1s then
+  `quiz.next`, a wrong one/timeout reveals and `確定` moves on, and the round
+  clears once all 10 are answered. With fewer than 10 eligible words the pool is
+  reshuffled and reused; with more, 10 distinct words are drawn. The hint key is
+  `kanatrap:<index>` so the 10s clock restarts per question (tested), and the
+  view shows `第 n / 10 題`. 音拍猜謎 is unchanged.
+- **單字貪食蛇 (snake) — fine mostly-empty grid with a guaranteed route.**
+  A 13×17 grid (221 small cells) replaces the full 8×8. The word's kana sit 2–3
+  cells apart along a reserved self-avoiding walk from the start (rows only
+  ever go down, so it never revisits a cell), and 22–28 wrong kana — never a
+  kana of the current word — are scattered off the walk. Correct kana stay
+  gone and grow the snake; a wrong kana is eaten, shrinks the snake by one, and
+  returns after 1s in a random empty cell (`state.respawn` queue + the view's
+  `respawn-timer.js` dispatching `quiz.act {type:'respawn'}` late; no rule in
+  the `.vue`); wall/self collision costs a life and resets only the snake. A
+  unit test drives the snake along `state.route` on three seeds and finishes
+  the word with zero penalties.
+
+Checks: `npm test` — 42 files, 325 tests; `npm run build` — `dict/vol.bin` 50
+lessons; `node scripts/browser-check.mjs` — all pass, including the new
+nokanji second/third-question renders, mahjong size/density/tray/full
+play-through, kanatrap 10-answer round + per-question hint restart, snake
+grid metrics + direction key, and the 提示 button in all four modes.
+
+## 2026-11-27 — 10s 提示 button across all 25 quiz modes
+
+Every remaining concrete quiz mode gains a one-shot `提示` hint. The button
+sits at the top right of the `quiz-play` bar and appears after 10 seconds of
+continuous actionable time (not wall-clock; the clock pauses through held
+reveals and intros and resets on a new question/board/target/group). The rule
+lives in `src/study/quiz/hint.js`: `hintRule` names the reset key + whether the
+player can act now, and `applyHint` stores one per-mode `round.hintEffect`.
+`src/commands/quiz.js` recomputes `round.hint` after every action and exposes
+`quiz.hintReady` / `quiz.hint`; `QuizPlayView.vue` only runs the 200ms
+accumulating timer and renders the button. Each `game-*.vue` reads
+`round.hintEffect` for its highlight/reading/letter (choice highlight, pair/
+connect/column/match3 highlights, odd-card highlight, falling cannon, whack
+hole, mahjong free tile, spell tile, wordle/hangman kana, sushi reading,
+wordsearch line, snake food, crossword cell, swipe judgement outline).
+`game-whack.js` adds a per-target `turn` so the hint resets with each mole
+board. Colours stay var() tokens only. `vol/`, `GTM_ID` / `GA4_ID`, and the
+favicon files are unchanged.
+
+## 2026-11-27 — remove 三元消消樂/振假名狙擊, rework 打地鼠 timing, 羊了個羊-style 單字麻將
+
+Three changes on top of the previous quiz-mode redesign (no canvas engine; Vue +
+CSS + delayed dispatch):
+
+- `trimatch` (三元消消樂) and `furigana` (振假名狙擊) are removed end to end:
+  dropped from `CONCRETE_MODES` / `MODE_LABELS` / `SETUP_MODES`, `NEW_GAMES`,
+  `GAME_COMPONENTS`, eligibility, and every test/browser-check; their
+  `game-*.js` / `game-*.vue` files are deleted. The quiz now has 25 concrete
+  modes.
+- `whack` (打地鼠) now shows exactly one mole at a time on a rule-significant
+  1s-up / 2s-down cycle: a tick hides the mole, then two down ticks bring the
+  next mole up. Each appearance uses a different hole than the previous one and
+  a different word/face (the nine holes are never all one text). The cycle is
+  driven by the existing 1s visibility interval, so reduced motion only
+  shortens the pop animation and never the timing.
+- `mahjong` (單字麻將) is re-rendered as a real 羊了個羊-style stacked board:
+  tiles are absolutely positioned with per-layer offsets and a visible 3D side
+  (`::after` offset in `--surface-strong`), so a covered tile peeks out under
+  the one on top; a tile moved to the tray or cleared leaves its stack and the
+  tiles below settle up. Rules (free/blocked, 7-slot tray, triple-before-limit)
+  are unchanged.
+
+`vol/`, the Google Tag IDs, and the colour tokens are unchanged. Checks:
+`node scripts/write-sha256.mjs --check` passes; `npm test` — 40 files, 301 tests;
+`npm run build` — `dict/vol.bin` has 50 lessons; `node scripts/browser-check.mjs`
+— all checks pass (25-mode setup, whack one-mole cycle, mahjong stacked board).
+
+## 2026-11-27 — four quiz modes redesigned: pairs 3s peek + 4×5, match3 random solvability, connect 8×5, memory pile-to-slots
+
+A redesign of the same four quiz modes, replacing the previous layout, timing,
+and memory flow (no canvas engine; Vue + CSS + delayed dispatch through
+`store.send`):
+
+- 翻卡配對 is now a fixed 4-column × 5-row grid (20 cards / 10 pairs). A 3s
+  peek bar sits above the board and counts down; taps and the quiz clock are
+  held during the peek, and play + the countdown start on `quiz.resolve` when
+  the bar finishes and the cards flip back face-down. Reduced motion keeps the
+  3s peek and only shortens the flip.
+- 消除下落 no longer stamps the guaranteed clear at the top-left three cells.
+  `ensureMatch3Move` now reshuffles the freshly dealt cells (survivors stay
+  after gravity) up to a bounded number of tries for a natural group, and only
+  as a last resort plants a 3-cell group at a random position with a random
+  legal shape (horizontal / vertical / small L). The 10-group win and the
+  drop-in/gravity/pop motion are unchanged.
+- 路徑連接 changes from 6×9 (54 cells) to 8 rows × 5 columns (40 cells,
+  20 pairs): `CONNECT_COLS` 5 / `CONNECT_ROWS` 8, `repeat(5, minmax(0, 1fr))`,
+  and the measured path SVG works unchanged.
+- 記憶順序 is rebuilt: a single bottom pile of three cards, one tap, then
+  cards dealt into three slots one by one; a 2s countdown holds the words
+  readable; the words leave the slots and six 中文 options are placed into
+  slots 1/2/3; the third placement grades all three together and flips the
+  slots to show right/wrong. Wrong loses one life and retries the same group;
+  the clock is held until the options are interactable. No 記住了 button.
+
+`vol/`, the Google Tag IDs, and the colour tokens are unchanged. Checks:
+`node scripts/write-sha256.mjs --check` passes; `npm test` — 40 files, 301 tests;
+`npm run build` — `dict/vol.bin` has 50 lessons; `node scripts/browser-check.mjs`
+— all checks pass (pairs 4×5 + 3s peek bar, match3 solvable group, connect
+8×5 fit/path, memory pile → deal → countdown → place → check).
+
+## 2026-11-27 — four quiz modes: pairs deal peek, match3 10-group win, connect 9 rows, memory poker-table intro
+
+A rule + animation pass over four quiz modes, all through Vue + CSS + the
+`quiz.resolve` delayed-dispatch pattern (no canvas engine):
+
+- 翻卡配對 now opens with a staggered all-face-up deal — cards flip open in a
+  wave, hold a ~2s peek (kept under reduced motion), then flip back face-down in
+  a reverse wave before play. Views/CSS: `game-pairs.vue`, `pair-deal-up` /
+  `pair-deal-down` keyframes in `quiz-games.css`.
+- 消除下落 now ends after **10 cleared groups**, not 10 tiles
+  (`round.state.clearCount`). The opening drop-in and post-clear gravity are
+  animated (column-staggered fall with overshoot settle, a scale pop on cleared
+  tiles before gravity, and new tiles fall from above); the countdown is held
+  during the opening drop-in, and the `結束本模式` button plus `quiz.end` are
+  removed. `hasMatch3Move` / `ensureMatch3Move` still guarantee a clearable 3+
+  group on the deal and every refill.
+- 路徑連接 grows from 6×6 to 6×9 (54 cells, 27 pairs); columns stay
+  `repeat(6, minmax(0, 1fr))` and the measured path SVG / solve-keeping shuffle
+  work on the taller board.
+- 記憶順序 replaces the static "show 3 cards + 記住了" intro with a 12-card
+  face-down poker table: the three target words flip open in sequence, hold long
+  enough to read, then vanish, and the Chinese question starts automatically (no
+  button, still untimed, wrong-answer rules unchanged).
+
+`vol/`, the Google Tag IDs, and the colour tokens are unchanged. Checks:
+`node scripts/write-sha256.mjs --check` passes; `npm test` — 40 files, 296 tests;
+`npm run build` — `dict/vol.bin` has 50 lessons; `node scripts/browser-check.mjs`
+— all checks pass (pairs deal peek, match3 groups, connect 6×9 fit/path, memory
+poker-table auto-advance).
+
 ## 2026-11-27 — eight more quiz modes (27 total)
 
 Eight independent `game-*` modes join the registry: 單字麻將, 濁音排雷, 迴轉壽司, 找碴讀音, 音拍猜謎, 尋字迷宮, 單字貪食蛇, 五十音劊子手. Each has its own state machine (`src/study/quiz/games/game-*.js`) and component (`src/views/games/Game*.vue`), setup eligibility with a precise disable reason, and unit/integration tests. `scripts/browser-check.mjs` renders and operates all 27 modes. `vol/` and the Google Tag IDs are unchanged.

@@ -6,6 +6,7 @@ import { createVisibilityInterval } from '../../study/quiz/visibility-interval.j
 const store = inject('store')
 const props = defineProps({ round: { type: Object, required: true } })
 const state = computed(() => props.round.state)
+const effect = computed(() => props.round.hintEffect)
 
 function meteorText() {
   const word = props.round.faces?.[state.value.meteor?.word]
@@ -56,6 +57,7 @@ onBeforeUnmount(() => {
         v-for="(cannon, at) in state.cannons"
         :key="at"
         class="falling-cannon"
+        :class="{ 'falling-cannon--hint': effect?.kind === 'index' && effect.index === at }"
         type="button"
         @click="shoot(at)"
       >

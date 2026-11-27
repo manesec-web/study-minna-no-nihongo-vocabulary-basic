@@ -5,6 +5,7 @@ import { faceLabel } from '../../study/quiz/faces.js'
 const store = inject('store')
 const props = defineProps({ round: { type: Object, required: true } })
 const state = computed(() => props.round.state)
+const effect = computed(() => props.round.hintEffect)
 
 function choose(index) {
   store.send('quiz.choose', { index })
@@ -29,6 +30,7 @@ function choose(index) {
         v-for="(choice, at) in state.question.choices"
         :key="at"
         class="choice"
+        :class="{ 'choice--hint': effect?.kind === 'choice' && effect.index === at }"
         type="button"
         :data-correct="choice.correct"
         @click="choose(at)"

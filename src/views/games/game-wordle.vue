@@ -6,6 +6,7 @@ import { attachKeyboard } from '../../study/quiz/keyboard.js'
 const store = inject('store')
 const props = defineProps({ round: { type: Object, required: true } })
 const state = computed(() => props.round.state)
+const effect = computed(() => props.round.hintEffect)
 
 const keys = Array.from(WORDLE_KANA)
 
@@ -45,6 +46,7 @@ onBeforeUnmount(() => detach())
       <template v-if="!state.hard">提示：{{ state.hint }}</template>
       <template v-else>高手模式：第 3 次送出後才顯示中文提示。</template>
     </p>
+    <p v-if="effect?.kind === 'letter'" class="quiz-hint-text">提示：第一個假名是「{{ effect.letter }}」</p>
     <div class="wordle-rows">
       <div v-for="(guess, g) in state.guesses" :key="g" class="wordle-row">
         <span
@@ -72,6 +74,7 @@ onBeforeUnmount(() => detach())
         v-for="ch in keys"
         :key="ch"
         class="wordle-key"
+        :class="{ 'wordle-key--hint': effect?.kind === 'letter' && effect.letter === ch }"
         type="button"
         @click="input(ch)"
       >

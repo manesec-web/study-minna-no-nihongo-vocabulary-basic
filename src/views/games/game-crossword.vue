@@ -5,8 +5,15 @@ import { CROSSWORD_KANA } from '../../study/quiz/games/game-crossword.js'
 const store = inject('store')
 const props = defineProps({ round: { type: Object, required: true } })
 const state = computed(() => props.round.state)
+const effect = computed(() => props.round.hintEffect)
 
 const keys = Array.from(CROSSWORD_KANA)
+
+function hintedCell(row, col) {
+  const e = effect.value
+  return e?.kind === 'cells' && Array.isArray(e.cells) &&
+    e.cells.some((cell) => cell.row === row && cell.col === col)
+}
 
 function tap(row, col) {
   store.send('quiz.act', { type: 'tap', value: { row, col } })
@@ -49,6 +56,7 @@ function hintText() {
             'crossword-cell--empty': !cell.char,
             'crossword-cell--selected': state.selected && state.selected.row === r && state.selected.col === c,
             'crossword-cell--correct': cell.correct,
+            'crossword-cell--hint': hintedCell(r, c),
           }"
           type="button"
           :disabled="!cell.char"

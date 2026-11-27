@@ -205,3 +205,50 @@ describe('quiz round interactions', () => {
     expect(session.quiz.run.reason).toBe('cleared')
   })
 })
+
+describe('quiz hint lifecycle', () => {
+  it('quiz.hintReady makes the button available and quiz.hint is one-shot', () => {
+    const reg = makeRegistry()
+    const session = quizSession({ modes: ['choice'], lives: 3 })
+    reg.dispatch(session, 'quiz.start')
+    const round = session.quiz.run.round
+
+    // A new question starts the hint clock, but the button is still hidden.
+    expect(round.hint.active).toBe(true)
+    expect(round.hint.available).toBe(false)
+
+    // The shell timer dispatches this after 10s of continuous actionable time.
+    let result = reg.dispatch(session, 'quiz.hintReady')
+    expect(result.ok).toBe(true)
+    expect(round.hint.available).toBe(true)
+
+    result = reg.dispatch(session, 'quiz.hint')
+    expect(result.ok).toBe(true)
+    expect(round.hint.used).toBe(true)
+    expect(round.hintEffect.kind).toBe('choice')
+    expect(round.hintEffect.index).toBe(round.state.question.correctIndex)
+
+    result = reg.dispatch(session, 'quiz.hint')
+    expect(result.ok).toBe(false)
+    expect(result.error.code).toBe('command-disabled')
+  })
+
+  it('each new question resets the hint', () => {
+    const reg = makeRegistry()
+    const session = quizSession({ modes: ['choice'], lives: 3 })
+    reg.dispatch(session, 'quiz.start')
+    const round = session.quiz.run.round
+
+    reg.dispatch(session, 'quiz.hintReady')
+    reg.dispatch(session, 'quiz.hint')
+    expect(round.hint.used).toBe(true)
+
+    reg.dispatch(session, 'quiz.choose', { index: round.state.question.correctIndex })
+    reg.dispatch(session, 'quiz.next')
+    expect(round.state.index).toBe(1)
+    expect(round.hint.available).toBe(false)
+    expect(round.hint.used).toBe(false)
+    expect(round.hint.active).toBe(true)
+    expect(round.hintEffect).toBe(null)
+  })
+})

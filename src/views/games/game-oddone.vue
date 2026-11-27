@@ -4,6 +4,7 @@ import { computed, inject } from 'vue'
 const store = inject('store')
 const props = defineProps({ round: { type: Object, required: true } })
 const state = computed(() => props.round.state)
+const effect = computed(() => props.round.hintEffect)
 
 function tap(index) {
   store.send('quiz.tap', { index })
@@ -18,6 +19,7 @@ function tap(index) {
         v-for="(group, at) in state.groups"
         :key="at"
         class="oddone-group"
+        :class="{ 'oddone-group--hint': effect?.kind === 'index' && effect.index === at }"
         type="button"
         @click="tap(at)"
       >

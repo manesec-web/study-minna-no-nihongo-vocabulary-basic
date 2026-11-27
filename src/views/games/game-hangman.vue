@@ -5,6 +5,7 @@ import { HANGMAN_KANA } from '../../study/quiz/games/game-hangman.js'
 const store = inject('store')
 const props = defineProps({ round: { type: Object, required: true } })
 const state = computed(() => props.round.state)
+const effect = computed(() => props.round.hintEffect)
 
 const keys = Array.from(HANGMAN_KANA)
 
@@ -24,12 +25,13 @@ function guess(ch) {
       </template>
     </p>
     <p class="reaction-progress">錯誤 {{ state.wrong }}/{{ state.maxWrong }}</p>
+    <p v-if="effect?.kind === 'letter'" class="quiz-hint-text">提示：其中一個假名是「{{ effect.letter }}」</p>
     <div class="wordle-pad">
       <button
         v-for="ch in keys"
         :key="ch"
         class="wordle-key"
-        :class="{ 'tile--used': state.guessed.includes(ch) }"
+        :class="{ 'tile--used': state.guessed.includes(ch), 'wordle-key--hint': effect?.kind === 'letter' && effect.letter === ch }"
         type="button"
         :disabled="state.guessed.includes(ch)"
         @click="guess(ch)"

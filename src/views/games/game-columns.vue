@@ -5,6 +5,7 @@ import { faceOf } from '../../study/quiz/faces.js'
 const store = inject('store')
 const props = defineProps({ round: { type: Object, required: true } })
 const state = computed(() => props.round.state)
+const effect = computed(() => props.round.hintEffect)
 
 function faceText(card) {
   const word = props.round.faces?.[card?.word]
@@ -23,7 +24,7 @@ function tap(index) {
         v-for="(card, at) in state.left"
         :key="`left-${at}`"
         class="column-card"
-        :class="{ 'column-card--selected': state.leftSelected === at, 'column-card--matched': card.matched, 'column-card--flash': card.flash }"
+        :class="{ 'column-card--selected': state.leftSelected === at, 'column-card--matched': card.matched, 'column-card--flash': card.flash, 'column-card--hint': effect?.kind === 'pair' && effect.a === at }"
         type="button"
         :disabled="card.matched"
         @click="tap(at)"
@@ -36,7 +37,7 @@ function tap(index) {
         v-for="(card, at) in state.right"
         :key="`right-${at}`"
         class="column-card"
-        :class="{ 'column-card--matched': card.matched, 'column-card--flash': card.flash }"
+        :class="{ 'column-card--matched': card.matched, 'column-card--flash': card.flash, 'column-card--hint': effect?.kind === 'pair' && effect.b === at }"
         type="button"
         :disabled="card.matched"
         @click="tap(state.left.length + at)"

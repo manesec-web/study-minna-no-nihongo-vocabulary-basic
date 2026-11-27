@@ -5,6 +5,7 @@ import { arrowCell, lineCells, SIZE } from '../../study/quiz/games/game-wordsear
 const store = inject('store')
 const props = defineProps({ round: { type: Object, required: true } })
 const state = computed(() => props.round.state)
+const effect = computed(() => props.round.hintEffect)
 
 const dragStart = ref(null)
 const dragCells = ref([])
@@ -93,6 +94,7 @@ onBeforeUnmount(() => {
         :class="{
           'wordsearch-cell--start': state.selStart === at,
           'wordsearch-cell--preview': isPreview(at),
+          'wordsearch-cell--hint': effect?.kind === 'cells' && effect.cells.includes(at),
         }"
         type="button"
         :data-index="at"

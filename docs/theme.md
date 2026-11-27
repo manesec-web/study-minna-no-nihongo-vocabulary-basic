@@ -21,6 +21,8 @@ The brand is blue. Light and dark are both blue. The katsuyou palette — indigo
 | `--overlay` | Sheet backdrop |
 | `--draw-overlay` | Full-screen dim behind the 3×3 隨機抽卡 reveal |
 | `--knob` and the `--shadow-*` tokens | Switch knob and elevation |
+| `--mahjong-veil`, `--mahjong-blocked-ink`, `--mahjong-side` | 單字麻將 covered tiles: the frost veil over a blocked face, the dimmed type on it, and the darker 3D side of a covered tile. They keep covered tiles peekable without see-through text |
+| `--shadow-tile` | The small layer shadow that separates a covered 單字麻將 tile from the tiles stacked on it |
 | `--progress-from`, `--progress-to` | Loading bar. Blue to cyan |
 | `--link-strong` | Text links |
 | `--page-background` | The desktop gradient behind the column. Both stops are blue |
@@ -65,6 +67,10 @@ The brand is blue. Light and dark are both blue. The katsuyou palette — indigo
   --shadow-card: 0 12px 30px rgba(16, 40, 80, 0.08);
   --shadow-float: 0 16px 34px rgba(16, 40, 80, 0.16);
   --shadow-pop: 0 10px 24px rgba(16, 40, 80, 0.22);
+  --shadow-tile: 0 2px 6px rgba(16, 40, 80, 0.14);
+  --mahjong-veil: rgba(240, 246, 252, 0.62);
+  --mahjong-blocked-ink: rgba(26, 39, 64, 0.45);
+  --mahjong-side: #d3e0ee;
   --progress-from: #1d6adf;
   --progress-to: #3db7e8;
   --error-strong: #8a2f3a;
@@ -123,6 +129,10 @@ color-scheme: dark;
 --shadow-card: 0 12px 30px rgba(0, 0, 0, 0.45);
 --shadow-float: 0 16px 34px rgba(0, 0, 0, 0.5);
 --shadow-pop: 0 10px 24px rgba(0, 0, 0, 0.55);
+--shadow-tile: 0 2px 6px rgba(0, 0, 0, 0.45);
+--mahjong-veil: rgba(11, 18, 32, 0.58);
+--mahjong-blocked-ink: rgba(231, 238, 248, 0.5);
+--mahjong-side: #16202f;
 --progress-from: #7eb6ff;
 --progress-to: #5ec8e6;
 --error-strong: #ff9a9a;

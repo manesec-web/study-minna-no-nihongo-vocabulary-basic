@@ -1,13 +1,33 @@
-// 單字貪食蛇 (snake): a bounded grid; the snake eats the current word's kana in
-// order while avoiding distractor kana, the wall, and its own body. Direction
-// input is queued to prevent the classic fast-reversal self-collision.
+// 單字貪食蛇 (snake): a fine grid of many small cells (COLS × ROWS), mostly
+// empty, where each cell holds at most one hiragana. The current word's kana
+// are laid along a reserved self-avoiding walk from the start, so a winning
+// route always exists; wrong kana are scattered off that walk and can never
+// block it. The snake eats the current word's kana in order.
+//
+//   - a CORRECT kana stays gone (「吃掉了就不需要出現」) and the snake grows;
+//   - a WRONG kana is eaten, the snake shrinks by one, and the kana reappears
+//     after ~1s in a random empty cell: the engine only queues it on
+//     `state.respawn` and flags the event, the view dispatches the late
+//     `respawn` action (src/study/quiz/respawn-timer.js), never the .vue;
+//   - the wall or the snake's own body costs a life and resets only the snake
+//     (the board keeps its progress);
+//   - direction input is queued so a fast reversal cannot self-collide.
 import { rng01, shuffled } from './shared.js'
 
 export const usesPool = false
 export const usesRng = true
 
-const SIZE = 8
+export const COLS = 13
+export const ROWS = 17
+export const START_LENGTH = 3
+// How many wrong kana are scattered per level (the walk itself stays empty).
+const DISTRACTOR_MIN = 22
+const DISTRACTOR_MAX = 28
+
 const KANA = 'あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん'
+
+const DIRVEC = { up: { dr: -1, dc: 0 }, down: { dr: 1, dc: 0 }, left: { dr: 0, dc: -1 }, right: { dr: 0, dc: 1 } }
+const OPPOSITE = { up: 'down', down: 'up', left: 'right', right: 'left' }
 
 function eligibleWords(faces) {
   return faces.filter((f) => f.zh && f.kana && Array.from(f.kana).length >= 2 && Array.from(f.kana).length <= 6)
@@ -20,155 +40,226 @@ export function eligible(faces) {
   return { ok: true, reason: null }
 }
 
-const DIRS = { up: -SIZE, down: SIZE, left: -1, right: 1 }
+function cellIndex(row, col) {
+  return row * COLS + col
+}
 
-function buildFood(round, faces, rng) {
-  const state = round.state
-  const word = state.queue[state.position]
-  const chars = Array.from(word.kana)
-  const startRow = 3
-  const startCol = 1
-  state.snake = [startRow * SIZE + startCol]
+function startCells() {
+  // The head sits at column START_LENGTH on the third row, body to its left,
+  // facing right. The rows above stay clear so the first turn is always safe.
+  const row = 2
+  const head = cellIndex(row, START_LENGTH)
+  return Array.from({ length: START_LENGTH }, (_v, i) => head - i)
+}
+
+function resetSnake(state) {
+  state.snake = startCells()
   state.dir = 'right'
-  state.targetIndex = 0
-  state.grid = new Array(SIZE * SIZE).fill(null)
-  // Place the target word in a straight reachable line to the right.
-  chars.forEach((ch, i) => {
-    state.grid[(startRow) * SIZE + (startCol + 1 + i)] = { char: ch, target: true }
-  })
-  // Distractors fill the rest.
-  for (let i = 0; i < SIZE * SIZE; i += 1) {
-    if (state.grid[i] === null && i !== state.snake[0]) {
-      state.grid[i] = { char: KANA[Math.floor(rng01(rng) * KANA.length)], target: false }
-    }
-  }
-  markFood(state)
-  state.phase = 'play'
+  state.pendingDir = null
+}
+
+// A kana of the current word. `target` tells the rule from the distractors;
+// the walk order of the target cells is kept in `state.targets`.
+function currentChars(state) {
+  return Array.from(state.queue[state.position].kana)
 }
 
 function markFood(state) {
-  const word = state.queue[state.position]
-  const expected = Array.from(word.kana)[state.targetIndex]
+  const expected = currentChars(state)[state.targetIndex]
   state.foodAt = null
   if (expected == null) return
-  for (let i = 0; i < state.grid.length; i += 1) {
-    const cell = state.grid[i]
-    if (cell?.target && cell.char === expected && !state.snake.includes(i)) {
-      state.foodAt = i
-      break
-    }
-  }
+  const at = state.targets.find((index) => state.grid[index]?.char === expected)
+  state.foodAt = at ?? null
 }
 
-function dropEmptyTail(state, rng) {
-  if (state.snake.length <= 1) return
-  const tail = state.snake[state.snake.length - 1]
-  if (state.grid[tail] == null) {
-    state.snake.pop()
-    // Fill the vacated start cell so it does not remain a hole in the kana grid.
-    state.grid[tail] = { char: KANA[Math.floor(rng01(rng) * KANA.length)], target: false }
+// Drop target cells the word no longer needs (a duplicated kana satisfied by
+// another cell), keeping the rest in walk order.
+function pruneTargets(state) {
+  const needed = currentChars(state).slice(state.targetIndex)
+  const kept = []
+  for (const ch of needed) {
+    const at = state.targets.find((index) => !kept.includes(index) && state.grid[index]?.char === ch)
+    if (at != null) kept.push(at)
   }
+  for (const index of state.targets) {
+    if (!kept.includes(index)) state.grid[index] = null
+  }
+  state.targets = kept
+}
+
+function buildLevel(state, rng) {
+  const chars = currentChars(state)
+  state.grid = new Array(COLS * ROWS).fill(null)
+  state.targets = []
+  state.targetIndex = 0
+  state.respawn = []
+  resetSnake(state)
+
+  // The reserved walk: head → each kana in turn, two or three cells apart,
+  // turning down one row at a wall and drifting down a row now and then. It
+  // only ever moves down or sideways, so it never revisits a cell.
+  const reserved = new Set(state.snake)
+  const route = []
+  let row = 2
+  let col = START_LENGTH
+  let dx = 1
+  const step = () => {
+    if (col + dx < 0 || col + dx >= COLS) {
+      // A wall turn steps down one row and reverses. With at most six kana the
+      // walk never reaches the bottom row; the clamp is only a safety net.
+      row = Math.min(row + 1, ROWS - 1)
+      dx = -dx
+    } else {
+      col += dx
+    }
+    reserved.add(cellIndex(row, col))
+    route.push(cellIndex(row, col))
+  }
+  chars.forEach((ch, k) => {
+    const steps = 2 + Math.floor(rng01(rng) * 2)
+    for (let s = 0; s < steps; s += 1) step()
+    state.grid[cellIndex(row, col)] = { char: ch, target: true }
+    state.targets.push(cellIndex(row, col))
+    if (k < chars.length - 1 && rng01(rng) < 0.6 && row < ROWS - 2) {
+      row += 1
+      reserved.add(cellIndex(row, col))
+      route.push(cellIndex(row, col))
+    }
+  })
+  state.route = route
+
+  // Wrong kana: never a kana of the current word, never on the walk.
+  const wordChars = new Set(chars)
+  const pool = Array.from(KANA).filter((ch) => !wordChars.has(ch))
+  const count = DISTRACTOR_MIN + Math.floor(rng01(rng) * (DISTRACTOR_MAX - DISTRACTOR_MIN + 1))
+  let placed = 0
+  for (let tries = 0; tries < 600 && placed < count; tries += 1) {
+    const at = Math.floor(rng01(rng) * state.grid.length)
+    if (state.grid[at] || reserved.has(at)) continue
+    state.grid[at] = { char: pool[Math.floor(rng01(rng) * pool.length)], target: false }
+    placed += 1
+  }
+  markFood(state)
 }
 
 export function create(round, faces, _poolFaces, rng) {
   round.state = {
     queue: shuffled(eligibleWords(faces), rng),
     position: 0,
+    grid: [],
+    targets: [],
+    route: [],
     snake: [],
     dir: 'right',
-    grid: [],
+    pendingDir: null,
     targetIndex: 0,
-    score: 0,
+    foodAt: null,
+    respawn: [],
     phase: 'play',
   }
-  buildFood(round, faces, rng)
+  buildLevel(round.state, rng)
 }
 
-function resetSnake(round, rng) {
-  const state = round.state
-  const startRow = 3
-  const startCol = 1
-  state.snake = [startRow * SIZE + startCol]
-  state.dir = 'right'
-  state.targetIndex = 0
-  buildFood(round, round.faces, rng)
+function noop() {
+  return { life: 0, score: 0, clock: null, message: null }
 }
 
 export function act(round, action) {
   const state = round.state
-  if (state.phase !== 'play') return { life: 0, score: 0, clock: null, message: null }
-  if (action.type === 'dir' && typeof action.value === 'string' && DIRS[action.value]) {
-    const opposite = { up: 'down', down: 'up', left: 'right', right: 'left' }
+  if (state.phase !== 'play') return noop()
+
+  if (action.type === 'dir' && typeof action.value === 'string' && DIRVEC[action.value]) {
     const effective = state.pendingDir ?? state.dir
-    if (opposite[action.value] !== effective) state.pendingDir = action.value
-    return { life: 0, score: 0, clock: null, message: null }
+    if (OPPOSITE[action.value] !== effective) state.pendingDir = action.value
+    return noop()
   }
+
+  if (action.type === 'respawn') {
+    // One queued wrong kana returns in a random empty cell (never under the
+    // snake, never on a cell that already holds a kana).
+    const ch = state.respawn.shift()
+    if (ch == null) return noop()
+    const empty = []
+    for (let at = 0; at < state.grid.length; at += 1) {
+      if (state.grid[at] == null && !state.snake.includes(at)) empty.push(at)
+    }
+    if (empty.length === 0) {
+      state.respawn.unshift(ch)
+      return noop()
+    }
+    const at = empty[Math.floor(rng01(round.rng) * empty.length)]
+    state.grid[at] = { char: ch, target: false }
+    return noop()
+  }
+
   if (action.type === 'tick') {
     if (state.pendingDir) {
       state.dir = state.pendingDir
       state.pendingDir = null
     }
     const head = state.snake[0]
-    const row = Math.floor(head / SIZE)
-    const col = head % SIZE
-    const next = head + DIRS[state.dir]
-    const nr = Math.floor(next / SIZE)
-    const nc = next % SIZE
-    if (nr < 0 || nr >= SIZE || nc < 0 || nc >= SIZE || state.snake.includes(next)) {
+    const vec = DIRVEC[state.dir]
+    const row = Math.floor(head / COLS)
+    const col = head % COLS
+    const nr = row + vec.dr
+    const nc = col + vec.dc
+    const next = cellIndex(nr, nc)
+    if (nr < 0 || nr >= ROWS || nc < 0 || nc >= COLS || state.snake.includes(next)) {
       round.streak = 0
-      resetSnake(round, round.rng)
+      resetSnake(state)
       return { life: -1, score: 0, clock: null, message: '碰撞' }
     }
+
     const cell = state.grid[next]
-    if (cell?.target) {
-      const word = state.queue[state.position]
-      const expected = Array.from(word.kana)[state.targetIndex]
-      if (cell.char === expected) {
-        state.snake.unshift(next)
-        // Keep the eaten kana on the body so the snake does not punch holes
-        // in the grid. Only the next expected letter is marked as food.
-        state.grid[next] = { char: cell.char, target: false }
-        dropEmptyTail(state, round.rng)
-        state.targetIndex += 1
-        markFood(state)
-        round.streak += 1
-        if (state.targetIndex >= Array.from(word.kana).length) {
-          state.position += 1
-          if (state.position >= state.queue.length) {
-            round.done = true
-            round.cleared = true
-            state.phase = 'done'
-            return { life: 0, score: 25 + round.streak * 5, clock: 'stop', message: '吃完' }
-          }
-          buildFood(round, round.faces, round.rng)
-          return { life: 0, score: 10 + round.streak * 5, clock: 'reset', message: '吃完整詞' }
+    const chars = currentChars(state)
+    const expected = chars[state.targetIndex]
+
+    if (cell && cell.target && cell.char === expected) {
+      // Correct: gone for good, the snake grows.
+      state.grid[next] = null
+      state.snake.unshift(next)
+      state.targets = state.targets.filter((index) => index !== next)
+      state.targetIndex += 1
+      if (state.targetIndex >= chars.length) {
+        state.position += 1
+        if (state.position >= state.queue.length) {
+          round.done = true
+          round.cleared = true
+          state.phase = 'done'
+          return { life: 0, score: 25 + round.streak * 5, clock: 'stop', message: '吃完' }
         }
-        return { life: 0, score: 5, clock: null, message: '吃一字' }
+        round.streak += 1
+        buildLevel(state, round.rng)
+        return { life: 0, score: 10 + round.streak * 5, clock: 'reset', message: '吃完整詞' }
       }
-      // Wrong-order target: penalise and reset.
-      round.streak = 0
-      resetSnake(round, round.rng)
-      return { life: -1, score: 0, clock: null, message: '吃錯順序' }
+      pruneTargets(state)
+      markFood(state)
+      round.streak += 1
+      return { life: 0, score: 5, clock: null, message: '吃一字' }
     }
+
     if (cell) {
+      // Wrong kana: eaten, the snake shrinks, and the kana comes back later.
+      state.grid[next] = null
+      state.snake.unshift(next)
+      state.snake.pop()
+      if (state.snake.length > 1) state.snake.pop()
+      state.respawn.push(cell.char)
       round.streak = 0
-      resetSnake(round, round.rng)
-      return { life: -1, score: 0, clock: null, message: '吃到干擾字' }
+      return { life: 0, score: 0, clock: null, message: '吃到干擾字', respawn: true }
     }
-    // Move forward onto an empty cell; drop the tail and clear its letter.
-    const left = state.snake[state.snake.length - 1]
+
+    // Empty cell: plain move.
     state.snake.unshift(next)
     state.snake.pop()
-    if (!state.snake.includes(left) && state.grid[left] && !state.grid[left].target) {
-      state.grid[left] = null
-    }
-    return { life: 0, score: 0, clock: null, message: null }
+    return noop()
   }
+
   if (action.type === 'timeout') {
     round.done = true
     round.cleared = false
     state.phase = 'done'
     return { life: -1, score: 0, clock: 'stop', message: '時間到' }
   }
-  return { life: 0, score: 0, clock: null, message: null }
+  return noop()
 }

@@ -6,6 +6,7 @@ import { createVisibilityInterval } from '../../study/quiz/visibility-interval.j
 const store = inject('store')
 const props = defineProps({ round: { type: Object, required: true } })
 const state = computed(() => props.round.state)
+const effect = computed(() => props.round.hintEffect)
 
 function holeText(hole) {
   if (!hole.visible) return ''
@@ -46,7 +47,7 @@ onBeforeUnmount(() => {
         v-for="(hole, at) in state.holes"
         :key="at"
         class="whack-hole"
-        :class="{ 'whack-hole--visible': hole.visible }"
+        :class="{ 'whack-hole--visible': hole.visible, 'whack-hole--hint': effect?.kind === 'index' && effect.index === at }"
         type="button"
         @click="tap(at)"
       >

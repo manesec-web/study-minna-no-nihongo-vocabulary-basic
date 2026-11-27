@@ -93,14 +93,27 @@
 
 .pairs-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 8px;
 }
 
-@media (max-width: 550px) {
-  .pairs-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
+.pairs-peek {
+  height: 8px;
+  border-radius: 999px;
+  background: var(--track);
+  overflow: hidden;
+}
+
+.pairs-peek-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--progress-from), var(--progress-to));
+  animation: pairs-peek-drain 3s linear forwards;
+}
+
+@keyframes pairs-peek-drain {
+  from { width: 100%; }
+  to { width: 0%; }
 }
 
 .pair-card {
@@ -160,6 +173,26 @@
   cursor: default;
 }
 
+.pair-card--deal-up .pair-card-inner {
+  animation: pair-deal-up 280ms cubic-bezier(0.3, 1.1, 0.3, 1.1) both;
+  animation-delay: var(--flip-delay, 0ms);
+}
+
+.pair-card--deal-down .pair-card-inner {
+  animation: pair-deal-down 280ms cubic-bezier(0.3, 1, 0.3, 1.05) both;
+  animation-delay: var(--flip-delay, 0ms);
+}
+
+@keyframes pair-deal-up {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(180deg); }
+}
+
+@keyframes pair-deal-down {
+  from { transform: rotateY(180deg); }
+  to { transform: rotateY(360deg); }
+}
+
 .column-card--flash,
 .connect-cell--flash {
   border-color: var(--error);
@@ -188,7 +221,7 @@
 
 .connect-grid {
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 6px;
 }
 
@@ -269,9 +302,24 @@
   background: var(--accent-tint);
 }
 
-.quiz-end {
-  align-self: center;
-  min-height: 44px;
+.match3-cell--drop {
+  animation: match3-drop 320ms cubic-bezier(0.18, 0.8, 0.24, 1.24) both;
+  animation-delay: var(--drop-delay, 0ms);
+}
+
+.match3-cell--clearing {
+  animation: match3-clear 240ms cubic-bezier(0.2, 0.8, 0.4, 1) forwards;
+}
+
+@keyframes match3-drop {
+  from { transform: translateY(-150%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes match3-clear {
+  0% { transform: scale(1); opacity: 1; }
+  45% { transform: scale(1.16); opacity: 1; }
+  100% { transform: scale(0.12); opacity: 0; }
 }
 
 .memory-status {
@@ -281,41 +329,184 @@
   font-size: 0.9rem;
 }
 
-.memory-grid {
+.memory-slots {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
 }
 
-.memory-card {
-  aspect-ratio: 1;
+.memory-slot {
+  aspect-ratio: 3 / 4;
+  min-width: 0;
+  perspective: 900px;
+}
+
+.memory-slot-inner {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 320ms cubic-bezier(0.3, 0.9, 0.3, 1.08);
+}
+
+.memory-slot--deal .memory-slot-inner {
+  animation: memory-slot-deal 340ms cubic-bezier(0.3, 1.08, 0.3, 1.08) both;
+}
+
+.memory-slot--checked .memory-slot-inner {
+  transform: rotateY(180deg);
+}
+
+.memory-slot-face {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 6px;
   border: 1px solid var(--line);
-  border-radius: 10px;
+  border-radius: 12px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.memory-slot-front {
   background: var(--surface);
   color: var(--ink);
-  font: inherit;
-  font-size: 0.95rem;
-  cursor: default;
-  transition: background 140ms ease, transform 140ms ease;
 }
 
-.memory-card--hidden {
+.memory-slot--empty .memory-slot-front {
   background: var(--tint);
+}
+
+.memory-slot--filled .memory-slot-front {
+  border-color: var(--accent);
+  background: var(--accent-tint);
+}
+
+.memory-slot-back {
+  background: var(--surface);
+  color: var(--ink);
+  transform: rotateY(180deg);
+}
+
+.memory-slot--correct .memory-slot-back {
+  border-color: var(--highlight);
+  background: var(--accent-tint);
+}
+
+.memory-slot--wrong .memory-slot-back {
+  border-color: var(--error);
+}
+
+.memory-slot-verdict {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--highlight);
+}
+
+.memory-slot--wrong .memory-slot-verdict {
+  color: var(--error);
+}
+
+.memory-slot-answer {
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+}
+
+@keyframes memory-slot-deal {
+  from { transform: rotateY(90deg) scale(0.9); opacity: 0; }
+  to { transform: rotateY(0deg) scale(1); opacity: 1; }
+}
+
+.memory-pile {
+  align-self: center;
+  min-width: 180px;
+  min-height: 140px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.memory-pile:active .memory-pile-stack {
+  transform: scale(0.97);
+}
+
+.memory-pile-stack {
+  position: relative;
+  width: 92px;
+  height: 122px;
+  transition: transform 140ms ease;
+}
+
+.memory-pile-card {
+  position: absolute;
+  inset: 0;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: linear-gradient(150deg, var(--surface-strong), var(--accent-tint));
+  box-shadow: var(--shadow-card);
+}
+
+.memory-pile-card:nth-child(1) {
+  transform: translate(-6px, -4px) rotate(-3deg);
+}
+
+.memory-pile-card:nth-child(2) {
+  transform: translate(2px, -2px);
+}
+
+.memory-pile-card:nth-child(3) {
+  transform: translate(7px, 3px) rotate(3deg);
+}
+
+.memory-pile-hint {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.memory-countdown {
+  height: 8px;
+  margin-top: 4px;
+  border-radius: 999px;
+  background: var(--track);
+  overflow: hidden;
+}
+
+.memory-countdown-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--progress-from), var(--progress-to));
+  animation: memory-countdown-drain 2s linear forwards;
+}
+
+@keyframes memory-countdown-drain {
+  from { width: 100%; }
+  to { width: 0%; }
 }
 
 .memory-options {
   margin-top: 6px;
 }
 
-.memory-option--solved {
-  opacity: 0.45;
+.memory-option--used {
+  opacity: 0.4;
   cursor: default;
   border-color: var(--accent);
-}
-
-.quiz-begin {
-  align-self: center;
-  min-width: 160px;
 }
 
 .placed-row {
@@ -588,32 +779,6 @@
   min-height: 22px;
 }
 
-.trimatch-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
-}
-
-.trimatch-card {
-  aspect-ratio: 1;
-  border: 1px solid var(--line);
-  border-radius: 10px;
-  background: var(--surface);
-  color: var(--ink);
-  font-size: 1rem;
-  cursor: pointer;
-}
-
-.trimatch-card--selected {
-  border-color: var(--accent);
-  background: var(--accent-tint);
-}
-
-.trimatch-card--cleared {
-  opacity: 0.35;
-  cursor: default;
-}
-
 .falling-lane {
   position: relative;
   height: 260px;
@@ -675,6 +840,12 @@
 .whack-hole--visible {
   background: var(--surface);
   border-color: var(--accent);
+  animation: whack-pop 160ms cubic-bezier(0.3, 1.4, 0.4, 1) both;
+}
+
+@keyframes whack-pop {
+  from { transform: scale(0.5); }
+  to { transform: scale(1); }
 }
 
 .furigana-prompt {
@@ -684,60 +855,177 @@
 }
 
 /* --- stage-8 modes --- */
+/* 單字麻將: one framed play area. The box holds the 羊了個羊-style pile on
+   top and the seven-slot tray at the bottom. Its geometry comes from
+   game-mahjong.js: the pile box's height is a padding-top percentage of its
+   width (not aspect-ratio, which some browsers ignore — a collapsed box would
+   stack the tiles in one row with the tray stuck underneath), tiles are placed
+   by percentage of that box, and type is sized in container units so the whole
+   box scales with the play area. The frame clips anything that would paint
+   outside it; its padding keeps the 3D sides and the peek-under inside. */
+.mahjong-frame {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  /* The view narrows the box on short windows so it stays on screen; this is
+     the full-width default. */
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 8px 8px 10px;
+  border: 2px solid var(--thumb);
+  border-radius: 18px;
+  background: var(--tint);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+  container-type: inline-size;
+}
+
 .mahjong-board {
-  display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-  grid-template-rows: repeat(3, auto);
-  gap: 6px;
+  position: relative;
+  width: 100%;
 }
 
 .mahjong-tile {
-  min-height: 56px;
-  border: 1px solid var(--line);
-  border-radius: 10px;
-  background: var(--surface);
-  color: var(--ink);
-  font-size: 0.9rem;
-  cursor: pointer;
-  overflow: hidden;
-}
-
-.mahjong-tile--blocked {
-  background: var(--tint-strong);
-  color: var(--muted);
-}
-
-.mahjong-tile--cleared {
-  opacity: 0.25;
-  cursor: default;
-}
-
-.mahjong-tile--tray {
-  border-color: var(--accent);
-}
-
-.mahjong-tray {
-  display: flex;
-  gap: 6px;
-  justify-content: center;
-  min-height: 56px;
-}
-
-.mahjong-tray-slot {
-  width: 48px;
-  height: 56px;
+  position: absolute;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 4px;
+  padding: 0.8cqw;
+  overflow: hidden;
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-bottom-width: 3px;
+  border-bottom-width: 0.7cqw;
+  border-radius: 14%;
   background: var(--surface);
   color: var(--ink);
+  font: inherit;
+  font-size: 0.78rem;
+  font-size: clamp(0.72rem, 3.3cqw, 1.05rem);
+  line-height: 1.1;
+  text-align: center;
+  cursor: pointer;
+  /* Free tiles are solid cards that pop off the pile (羊了個羊): a strong
+     lift shadow separates them from what is underneath. */
+  box-shadow: var(--shadow-pop);
+  transition: top 220ms ease, transform 120ms ease, opacity 160ms ease, background 160ms ease;
+}
+
+/* Tile text can wrap anywhere and is clipped to the tile, so a long gloss can
+   never squeeze the tile or spill outside the frame. */
+.mahjong-tile-text {
+  display: block;
+  min-width: 0;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+}
+
+/* 3D side: a slightly darker copy offset down-right behind the face, so each
+   tile reads as a small block and the covered tiles peek out from under the
+   one stacked above them. The percentages are of the tile's own box, so the
+   side scales with the tile; the pile box reserves room for it. */
+.mahjong-tile::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 14%;
+  border: 1px solid var(--line);
+  background: var(--surface-strong);
+  transform: translate(6%, 6%);
+  z-index: -1;
+}
+
+.mahjong-tile--blocked::after {
+  background: var(--mahjong-side);
+}
+
+/* A covered or sandwiched tile stays peekable but not a see-through mash of
+   overlapping glyphs: its body stays a solid tile, a uniform frost veil
+   (::before, painted over the face and its text) dims the whole face evenly,
+   the type loses contrast, and only a small layer shadow separates it from
+   the tiles stacked on it. No whole-tile opacity — that is what made the
+   faces transparent and mashed the text together. */
+.mahjong-tile--blocked {
+  background: var(--surface-strong);
+  color: var(--mahjong-blocked-ink);
+  box-shadow: var(--shadow-tile);
+}
+
+.mahjong-tile--blocked::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 14%;
+  background: var(--mahjong-veil);
+}
+
+.mahjong-tile:not(:disabled):hover {
+  transform: translateY(-2px);
+}
+
+.mahjong-tile:not(:disabled):active {
+  transform: scale(0.97);
+}
+
+.mahjong-tile:disabled {
+  cursor: default;
+}
+
+.mahjong-tray-label {
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  letter-spacing: 0.08em;
+}
+
+/* The tray: seven equal slots across the frame. Slot height is a padding
+   percentage of the slot width, so the row keeps its shape without
+   aspect-ratio. Empty slots are outlined; a filled slot is a tile. */
+.mahjong-tray {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 6px;
+  gap: 1.4cqw;
+  width: 100%;
+}
+
+.mahjong-tray-slot {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding-top: 115%;
+  border: 1px dashed var(--line);
+  border-radius: 12%;
+  background: var(--surface);
 }
 
 .mahjong-tray-slot--empty {
-  background: var(--tint);
-  border-color: transparent;
+  background: transparent;
+}
+
+.mahjong-tray-face {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  padding: 0.6cqw;
+  overflow: hidden;
+  font-size: 0.72rem;
+  font-size: clamp(0.68rem, 3.2cqw, 1rem);
+  line-height: 1.1;
+  text-align: center;
+  color: var(--ink);
+  border-bottom: 3px solid var(--mahjong-side);
+  border-bottom-width: 0.6cqw;
+  border-radius: 12%;
 }
 
 .sushi-lane {
@@ -815,44 +1103,70 @@
   background: var(--accent-tint);
 }
 
+/* 單字貪食蛇: a fine grid of many small cells. The column count comes from
+   game-snake.js through --snake-cols; empty cells show the faint track so the
+   kana stand out. On a short desktop window the board narrows so the d-pad
+   stays on screen (browsers without dvh keep the full width). */
 .snake-grid {
   display: grid;
-  grid-template-columns: repeat(8, minmax(0, 1fr));
+  grid-template-columns: repeat(var(--snake-cols, 13), minmax(0, 1fr));
   gap: 2px;
+  width: 100%;
+  max-width: calc((100dvh - 27rem) * 13 / 17);
+  margin: 0 auto;
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--track);
+  container-type: inline-size;
 }
 
 .snake-cell {
   aspect-ratio: 1;
-  border: 1px solid var(--line);
+  border: 1px solid transparent;
   border-radius: 4px;
-  background: var(--surface);
+  background: transparent;
   color: var(--ink);
-  font-size: 0.9rem;
+  font-size: 0.75rem;
+  font-size: clamp(0.72rem, 3.6cqw, 1rem);
+  line-height: 1;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.snake-cell--kana {
+  border-color: var(--line);
+  background: var(--surface);
+}
+
 .snake-cell--head {
+  border-color: var(--accent);
   background: var(--accent);
   color: var(--accent-ink);
-  border-color: var(--accent);
 }
 
 .snake-cell--body {
+  border-color: var(--accent);
   background: var(--accent-tint);
   color: var(--ink);
 }
 
 .snake-cell--food {
   border-color: var(--note);
+  box-shadow: inset 0 0 0 1px var(--note);
 }
 
 .snake-pad {
   display: grid;
-  grid-template-columns: repeat(3, 48px);
+  grid-template-columns: repeat(3, 44px);
   gap: 6px;
   justify-content: center;
+}
+
+.snake-pad .button {
+  min-height: 44px;
+  padding: 0;
 }
 
 .tile--used {
@@ -863,4 +1177,100 @@
 .wordsearch-cell--preview {
   background: var(--accent-tint);
   border-color: var(--accent);
+}
+
+/* --- hint button + per-mode hint highlights (10s hint feature) --- */
+
+.quiz-hint-button {
+  min-height: 32px;
+  padding: 4px 12px;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--accent-tint);
+  color: var(--accent);
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.quiz-hint-button:active {
+  transform: scale(0.96);
+}
+
+.choice--hint,
+.column-card--hint,
+.reaction-card--hint,
+.falling-cannon--hint,
+.mahjong-tile--hint,
+.tile--hint,
+.whack-hole--hint,
+.wordle-key--hint,
+.memory-option--hint {
+  border-color: var(--accent);
+  background: var(--accent-tint);
+}
+
+.oddone-group--hint {
+  border-color: var(--accent);
+  background: var(--accent-tint);
+}
+
+.match3-cell--hint,
+.connect-cell--hint {
+  border-color: var(--accent);
+  background: var(--accent-tint);
+}
+
+.pair-card--hint .pair-card-face {
+  border-color: var(--accent);
+}
+
+.wordsearch-cell--hint,
+.crossword-cell--hint,
+.snake-cell--hint {
+  border-color: var(--accent);
+  background: var(--accent-tint);
+}
+
+.swipe-action--hint {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.quiz-hint-text {
+  margin: 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--accent);
+}
+
+/* Decorative motion only: the intro/deal staggers are skipped under reduced
+   motion, while the rule-significant holds stay (pairs peek 3s, memory's
+   readable look + 2s countdown). */
+@media (prefers-reduced-motion: reduce) {
+  .pair-card--deal-up .pair-card-inner,
+  .pair-card--deal-down .pair-card-inner,
+  .match3-cell--drop,
+  .memory-slot--deal .memory-slot-inner {
+    animation-delay: 0ms !important;
+    animation-duration: 160ms !important;
+  }
+
+  /* The 3s pairs peek and the 2s memory countdown are rule-significant timing,
+     not decoration: they must not be collapsed by the global reduced-motion
+     animation cutoff. */
+  .pairs-peek-fill {
+    animation-duration: 3s !important;
+  }
+
+  /* A corner pile settling up after a removal is decorative motion. */
+  .mahjong-tile {
+    transition: none !important;
+  }
+
+  .memory-countdown-fill {
+    animation-duration: 2s !important;
+  }
 }

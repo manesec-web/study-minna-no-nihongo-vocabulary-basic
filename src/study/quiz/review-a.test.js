@@ -70,17 +70,34 @@ describe('review A mechanisms', () => {
 
   it('mahjong blocks covered tiles and prefers a triple over the 7-slot limit', () => {
     const round = createRound('mahjong', refs(6), lib(), refs(6), zeroRandom, 0)
-    // Layer 0 is covered: tapping it must not enter the tray.
-    act(round, { type: 'tap', index: 0 })
-    expect(round.state.tray.length).toBe(0)
-    // Fill the tray toward 7 but finish a triple on the 7th tap.
-    act(round, { type: 'tap', index: 2 }) // pos0 layer2
-    act(round, { type: 'tap', index: 1 }) // pos0 layer1
-    for (const pos of [1, 2, 3, 4]) act(round, { type: 'tap', index: pos * 3 + 2 })
-    expect(round.state.tray.length).toBe(6)
-    act(round, { type: 'tap', index: 0 }) // pos0 layer0 → triple clears
-    expect(round.state.tray.length).toBeLessThan(7)
-    expect(round.state.tiles[0].cleared).toBe(true)
+    const state = round.state
+    // A covered base tile ignores a tap.
+    const covered = state.tiles.find((t) => t.layer === 0 && !t.chain)
+    expect(covered.free).toBe(false)
+    act(round, { type: 'tap', index: state.tiles.indexOf(covered) })
+    expect(state.tray.length).toBe(0)
+
+    // Rule fixture: seven tiles alone on the top layer, spaced two columns
+    // apart so none is sandwiched: A B C D E A, then the third A as the
+    // seventh tap. The triple is tried before the limit.
+    const words = round.faces.slice(0, 5).map((f) => f.ref)
+    const tile = (word, col) => ({
+      word, face: 'jp', layer: 3, col, row: 5, chain: false, chainTop: 3, drawLayer: 3,
+      inTray: false, cleared: false, free: true,
+    })
+    state.tiles = [
+      tile(words[0], 0), tile(words[1], 2), tile(words[2], 4), tile(words[3], 6),
+      tile(words[4], 8), tile(words[0], 10), tile(words[0], 12),
+    ]
+    state.tray = []
+    for (const index of [0, 1, 2, 3, 4, 5]) act(round, { type: 'tap', index })
+    expect(state.tray.length).toBe(6)
+    const event = act(round, { type: 'tap', index: 6 }) // seventh tap completes A
+    expect(event.message).toBe('三消')
+    expect(state.tray.length).toBeLessThan(7)
+    expect(state.tiles[0].cleared).toBe(true)
+    expect(state.tiles[6].cleared).toBe(true)
+    expect(round.done).toBe(false)
   })
 
   it('sushi romaji handles dakuten, small kana, っ, ん and long vowel', () => {

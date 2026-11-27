@@ -5,6 +5,7 @@ import { CommandError } from '../engine/errors.js'
 import { CONCRETE_MODES, COUNT_OPTIONS, LIVES_OPTIONS, TIME_OPTIONS } from '../study/quiz/modes.js'
 import { applyQuizPatch, validateQuizPatch } from '../study/quiz/setup.js'
 import { act, beginNext, buildQuizRun, createRound, drawModeAt, timeSeconds } from '../study/quiz/engine.js'
+import { applyHint, hintRule } from '../study/quiz/hint.js'
 
 export function specs(deps = {}) {
   const library = deps.library
@@ -25,6 +26,20 @@ export function specs(deps = {}) {
     session.quiz = applyQuizPatch(session.quiz, patch)
     persist(session)
     return { quiz: session.quiz }
+  }
+
+  // The 10s hint button lives in the shell, but every timing decision — is the
+  // player able to act, and has a new question/board begun — is a pure rule
+  // recomputed here after each action and each round start.
+  function syncHint(round) {
+    if (!round) return
+    const rule = hintRule(round)
+    if (!round.hint || round.hint.key !== rule.key) {
+      round.hint = { key: rule.key, active: rule.active, available: false, used: false }
+      round.hintEffect = null
+    } else {
+      round.hint.active = rule.active
+    }
   }
 
   function applyEvent(session, event) {
@@ -52,6 +67,7 @@ export function specs(deps = {}) {
       round.done = true
       round.cleared = false
       run.history.push({ mode: round.mode, cleared: false, score: round.score })
+      syncHint(round)
       return
     }
     if (round.done) {
@@ -59,6 +75,7 @@ export function specs(deps = {}) {
       run.phase = run.roundIndex >= run.batches.length - 1 ? 'over' : 'done'
       if (run.phase === 'over') run.reason = round.cleared ? 'cleared' : 'incomplete'
     }
+    syncHint(round)
   }
 
   function startRound(session, mode) {
@@ -68,6 +85,7 @@ export function specs(deps = {}) {
     run.phase = 'round'
     run.draw = null
     run.lastMode = mode
+    syncHint(run.round)
   }
 
   return [
@@ -148,6 +166,7 @@ export function specs(deps = {}) {
         session.quiz.run = run
         beginNext(run, library, random, timeSeconds(session.quiz.time))
         session.screen = 'quiz-play'
+        syncHint(run.round)
         return { phase: run.phase, words: run.words.length, batches: run.batches.length }
       },
     },
@@ -247,17 +266,6 @@ export function specs(deps = {}) {
       },
     },
     {
-      id: 'quiz.end',
-      params: [],
-      enabled: (session) => Boolean(activeRun(session) && session.quiz.run.phase === 'round'),
-      run: (session) => {
-        const run = session.quiz.run
-        const event = act(run.round, { type: 'end' }, { library, random })
-        applyEvent(session, event)
-        return { event, phase: run.phase, round: run.round }
-      },
-    },
-    {
       id: 'quiz.nextRound',
       params: [],
       enabled: (session) => {
@@ -268,7 +276,37 @@ export function specs(deps = {}) {
         const run = session.quiz.run
         run.roundIndex += 1
         beginNext(run, library, random, timeSeconds(session.quiz.time))
+        syncHint(run.round)
         return { phase: run.phase, roundIndex: run.roundIndex }
+      },
+    },
+    {
+      id: 'quiz.hintReady',
+      params: [],
+      enabled: (session) => {
+        const run = activeRun(session)
+        const hint = run?.phase === 'round' ? run.round?.hint : null
+        return Boolean(hint && !hint.available && !hint.used && hint.active)
+      },
+      run: (session) => {
+        const hint = session.quiz.run.round.hint
+        hint.available = true
+        return { available: true }
+      },
+    },
+    {
+      id: 'quiz.hint',
+      params: [],
+      enabled: (session) => {
+        const run = activeRun(session)
+        const hint = run?.phase === 'round' ? run.round?.hint : null
+        return Boolean(hint && hint.available && !hint.used && hint.active)
+      },
+      run: (session) => {
+        const round = session.quiz.run.round
+        const effect = applyHint(round)
+        round.hint.used = true
+        return { effect, round: round }
       },
     },
   ]
