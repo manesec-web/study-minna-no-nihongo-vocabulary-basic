@@ -9,8 +9,9 @@
 //     after ~1s in a random empty cell: the engine only queues it on
 //     `state.respawn` and flags the event, the view dispatches the late
 //     `respawn` action (src/study/quiz/respawn-timer.js), never the .vue;
-//   - the wall or the snake's own body costs a life and resets only the snake
-//     (the board keeps its progress);
+//   - the wall wraps around: leaving through the right edge re-enters from the
+//     left, and the same on the other three edges; only the snake's own body
+//     costs a life and resets the snake (the board keeps its progress);
 //   - direction input is queued so a fast reversal cannot self-collide.
 import { rng01, shuffled } from './shared.js'
 
@@ -201,13 +202,15 @@ export function act(round, action) {
     const vec = DIRVEC[state.dir]
     const row = Math.floor(head / COLS)
     const col = head % COLS
-    const nr = row + vec.dr
-    const nc = col + vec.dc
+    // Wrap through the walls: the snake leaves one edge and re-enters from the
+    // opposite edge, so only colliding with its own body counts as a crash.
+    const nr = (row + vec.dr + ROWS) % ROWS
+    const nc = (col + vec.dc + COLS) % COLS
     const next = cellIndex(nr, nc)
-    if (nr < 0 || nr >= ROWS || nc < 0 || nc >= COLS || state.snake.includes(next)) {
+    if (state.snake.includes(next)) {
       round.streak = 0
       resetSnake(state)
-      return { life: -1, score: 0, clock: null, message: '碰撞' }
+      return { life: -1, score: 0, clock: null, message: '撞到自己' }
     }
 
     const cell = state.grid[next]

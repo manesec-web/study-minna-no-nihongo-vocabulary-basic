@@ -47,7 +47,11 @@ onBeforeUnmount(() => {
         v-for="(hole, at) in state.holes"
         :key="at"
         class="whack-hole"
-        :class="{ 'whack-hole--visible': hole.visible, 'whack-hole--hint': effect?.kind === 'index' && effect.index === at }"
+        :class="{
+          'whack-hole--visible': hole.visible,
+          'whack-hole--hint': effect?.kind === 'index' && effect.index === at,
+          'whack-hole--wrong': state.wrongIndex === at,
+        }"
         type="button"
         @click="tap(at)"
       >

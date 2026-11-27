@@ -118,9 +118,13 @@ watch(
   () => [round.value?.mode, round.value?.state?.phase],
   () => {
     clearAdvanceTimer()
+    const mode = round.value?.mode
     const current = round.value?.state?.phase
     if (current === 'correct') {
-      const delay = round.value?.mode === 'spell' ? 800 : 1000
+      const delay = mode === 'spell' ? 800 : mode === 'swipe' ? 500 : mode === 'choice' || mode === 'boss' ? 500 : 1000
+      advanceTimer = setTimeout(() => store.send('quiz.next'), delay)
+    } else if (current === 'wrong') {
+      const delay = mode === 'choice' || mode === 'boss' || mode === 'swipe' ? 3000 : 1000
       advanceTimer = setTimeout(() => store.send('quiz.next'), delay)
     }
   },

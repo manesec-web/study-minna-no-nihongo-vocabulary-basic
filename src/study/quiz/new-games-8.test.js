@@ -152,7 +152,6 @@ describe('eight new quiz modes', () => {
       expect(new Set(round.state.options).size).toBe(4)
       expect(round.state.options).toContain(round.state.correct)
       expect(round.state.prompt).toBeTruthy()
-      expect(round.state.promptZh).toBeTruthy()
       seen.add(round.state.prompt)
       const correct = round.state.options.indexOf(round.state.correct)
       const event = act(round, { type: 'choose', index: correct })

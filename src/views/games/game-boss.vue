@@ -29,13 +29,20 @@ function choose(index) {
       <button
         v-for="(choice, at) in state.question.choices"
         :key="at"
-        class="choice"
-        :class="{ 'choice--hint': effect?.kind === 'choice' && effect.index === at }"
+        class="choice choice--with-mark"
+        :class="{
+          'choice--hint': effect?.kind === 'choice' && effect.index === at,
+          'choice--picked-correct': state.phase === 'correct' && state.chosenIndex === at,
+          'choice--picked-wrong': state.phase === 'wrong' && state.chosenIndex === at,
+        }"
         type="button"
         :data-correct="choice.correct"
+        :disabled="state.phase !== 'ask'"
         @click="choose(at)"
       >
-        {{ choice.text }}
+        <span class="choice-text">{{ choice.text }}</span>
+        <span v-if="state.phase === 'correct' && state.chosenIndex === at" class="choice-mark" aria-hidden="true">✓</span>
+        <span v-else-if="state.phase === 'wrong' && state.chosenIndex === at" class="choice-mark choice-mark--wrong" aria-hidden="true">✗</span>
       </button>
     </div>
   </div>

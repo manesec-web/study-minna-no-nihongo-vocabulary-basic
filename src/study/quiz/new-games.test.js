@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { act, createRound } from './engine.js'
 import { evaluateEligibility } from './eligibility.js'
 import { colorGuess } from './games/game-wordle.js'
+import { buildKanaPad, KANA_CORE } from './games/shared.js'
 import { COLS, ROWS, START_LENGTH } from './games/game-snake.js'
 
 const WORDS = [
@@ -73,22 +74,29 @@ describe('new quiz modes', () => {
     }
   })
 
-  it('swipe judges a true pairing and advances to the next question', () => {
+  it('swipe judges a true pairing, pauses, and advances on quiz.next', () => {
     const round = createRound('swipe', refs(6), lib(), refs(6), zeroRandom, 0)
     expect(round.state.question).toBeTruthy()
     const value = round.state.question.isMatch
     const event = act(round, { type: 'judge', value })
     expect(event.life).toBe(0)
     expect(event.score).toBeGreaterThan(0)
+    expect(round.state.phase).toBe('correct')
+    expect(round.state.position).toBe(0)
+    act(round, { type: 'next' })
     expect(round.state.position).toBe(1)
+    expect(round.state.phase).toBe('ask')
   })
 
-  it('swipe wrong judgement loses a life and reveals', () => {
+  it('swipe wrong judgement loses a life, shows the wrong phase, and advances on quiz.next', () => {
     const round = createRound('swipe', refs(6), lib(), refs(6), zeroRandom, 0)
     const wrong = !round.state.question.isMatch
     const event = act(round, { type: 'judge', value: wrong })
     expect(event.life).toBe(-1)
-    expect(round.state.phase).toBe('reveal')
+    expect(round.state.phase).toBe('wrong')
+    act(round, { type: 'next' })
+    expect(round.state.phase).toBe('ask')
+    expect(round.state.position).toBe(1)
   })
 
   it('oddone has exactly one mismatched group', () => {
@@ -137,6 +145,26 @@ describe('new quiz modes', () => {
     expect(round.state.guesses.length).toBe(1)
     expect(round.done).toBe(true)
     expect(round.cleared).toBe(true)
+  })
+
+  it('the kana pad is 6×6 (36 keys) and always carries every kana of the answer', () => {
+    expect(new Set(buildKanaPad('')).size).toBe(36)
+    // Kana outside the 36 most common ones are swapped into the tail; the
+    // leading keys keep their place from round to round.
+    const pad = buildKanaPad('ぬのへ')
+    expect(pad.length).toBe(36)
+    expect(new Set(pad).size).toBe(36)
+    for (const ch of 'ぬのへ') expect(pad).toContain(ch)
+    expect(pad.slice(0, 33)).toEqual(Array.from(KANA_CORE).slice(0, 33))
+    expect(Array.from(KANA_CORE).length).toBe(36)
+
+    const wordle = createRound('wordle', refs(10), lib(), refs(10), () => 0.5, 0)
+    expect(wordle.state.pad.length).toBe(36)
+    for (const ch of Array.from(wordle.state.target)) expect(wordle.state.pad).toContain(ch)
+
+    const hangman = createRound('hangman', refs(10), lib(), refs(10), () => 0.5, 0)
+    expect(hangman.state.pad.length).toBe(36)
+    for (const ch of hangman.state.target) expect(hangman.state.pad).toContain(ch)
   })
 
   it('crossword builds a connected 4+ word layout and can be completed', () => {
@@ -265,23 +293,20 @@ describe('new quiz modes', () => {
     expect(state.grid.filter(Boolean).length).toBe(before + 1)
   })
 
-  it('snake wall collision costs a life and resets only the snake', () => {
+  it('snake wraps through the right wall and re-enters from the left', () => {
     const round = createRound('snake', refs(6), lib(), refs(6), zeroRandom, 0)
     const state = round.state
-    const head = state.snake[0]
-    // Clear the column above the head so the walk to the wall is plain.
-    state.grid[head - COLS] = null
-    state.grid[head - 2 * COLS] = null
-    act(round, { type: 'dir', value: 'up' })
-    act(round, { type: 'tick' })
-    act(round, { type: 'tick' })
-    expect(Math.floor(state.snake[0] / COLS)).toBe(0)
-    const eaten = state.grid.map((cell, at) => (cell ? at : -1)).filter((at) => at >= 0)
-    const event = act(round, { type: 'tick' })
-    expect(event.life).toBe(-1)
-    expect(state.snake).toEqual([2 * COLS + START_LENGTH, 2 * COLS + START_LENGTH - 1, 2 * COLS + START_LENGTH - 2])
-    expect(state.dir).toBe('right')
-    expect(state.grid.map((cell, at) => (cell ? at : -1)).filter((at) => at >= 0)).toEqual(eaten)
+    const row = 2
+    // Clear the kana along the straight rightward path up to and through the
+    // wrap re-entry cell so every tick is a plain move.
+    for (let col = START_LENGTH + 1; col < COLS; col += 1) state.grid[row * COLS + col] = null
+    state.grid[row * COLS] = null
+    const steps = (COLS - 1) - START_LENGTH + 1
+    for (let i = 0; i < steps; i += 1) {
+      const event = act(round, { type: 'tick' })
+      expect(event.life).toBe(0)
+    }
+    expect(state.snake[0]).toBe(row * COLS)
   })
 
   it('falling shoots the matching cannon and misses the wrong one', () => {

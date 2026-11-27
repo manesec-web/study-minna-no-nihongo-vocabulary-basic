@@ -592,18 +592,70 @@ try {
   await setTheme('light')
 
   // Boss 戰: wrong answer must not widen the HP bar; correct must narrow it.
+  // The picked choice is marked with an icon only (no 正確/錯誤 text) in a slot
+  // that never moves the label, and the shell moves on by itself — ~3s after a
+  // wrong answer, ~0.5s after a correct one. There is no 確定 step.
+  const textLeftOf = (selector) =>
+    page.evaluate((sel) => {
+      const text = document.querySelector(sel)
+      return text ? text.getBoundingClientRect().left : null
+    }, selector)
+  const pickedState = () =>
+    page.evaluate(() => {
+      const picked = document.querySelector('.choice--picked-wrong, .choice--picked-correct')
+      const mark = picked?.querySelector('.choice-mark') ?? null
+      const text = picked?.querySelector('.choice-text') ?? null
+      return {
+        mark: mark ? mark.textContent.trim() : null,
+        markHidden: mark ? mark.getAttribute('aria-hidden') : null,
+        textLeft: text ? text.getBoundingClientRect().left : null,
+        reveal: document.querySelectorAll('.quiz-reveal').length,
+        markText: mark ? mark.textContent : null,
+      }
+    })
   await seedQuizAndStart('boss', [16])
   const bossWidthBefore = await page.evaluate(() => document.querySelector('.hp-fill')?.getBoundingClientRect().width ?? null)
+  const bossWrongLabelBefore = await textLeftOf('.choice[data-correct="false"] .choice-text')
+  const bossWrongAt = Date.now()
   await page.locator('.choice[data-correct="false"]').first().click()
   await wait(300)
   const bossWidthAfterWrong = await page.evaluate(() => document.querySelector('.hp-fill')?.getBoundingClientRect().width ?? null)
   check('boss wrong answer does not widen the HP bar', bossWidthBefore !== null && bossWidthAfterWrong !== null && bossWidthAfterWrong <= bossWidthBefore + 1, `${bossWidthBefore} -> ${bossWidthAfterWrong}`)
-  await page.locator('.quiz-reveal .button').click()
-  await wait(150)
+  const bossWrong = await pickedState()
+  check(
+    'boss wrong mark is the ✗ icon alone, hidden from assistive tech, with no 確定 step',
+    bossWrong.mark === '✗' && bossWrong.markHidden === 'true' && bossWrong.reveal === 0 && !/正確|錯誤/.test(bossWrong.markText ?? ''),
+    JSON.stringify(bossWrong),
+  )
+  check(
+    'boss wrong mark does not move the choice label',
+    bossWrongLabelBefore !== null && bossWrong.textLeft !== null && Math.abs(bossWrong.textLeft - bossWrongLabelBefore) < 0.5,
+    `${bossWrongLabelBefore} -> ${bossWrong.textLeft}`,
+  )
+  await page.waitForFunction(
+    () => !document.querySelector('.choice--picked-wrong') && Boolean(document.querySelector('.choice[data-correct="true"]')),
+    null,
+    { timeout: 6000 },
+  )
+  const bossWrongHoldMs = Date.now() - bossWrongAt
+  check('boss moves to the next question by itself ~3s after a wrong answer', bossWrongHoldMs >= 2000 && bossWrongHoldMs <= 5000, `${bossWrongHoldMs}ms`)
+
+  const bossCorrectLabelBefore = await textLeftOf('.choice[data-correct="true"] .choice-text')
+  const bossCorrectAt = Date.now()
   await page.locator('.choice[data-correct="true"]').first().click()
-  await wait(350)
+  await wait(150)
   const bossWidthAfterCorrect = await page.evaluate(() => document.querySelector('.hp-fill')?.getBoundingClientRect().width ?? null)
   check('boss correct answer narrows the HP bar', bossWidthBefore !== null && bossWidthAfterCorrect !== null && bossWidthAfterCorrect < bossWidthBefore, `${bossWidthBefore} -> ${bossWidthAfterCorrect}`)
+  const bossCorrect = await pickedState()
+  check(
+    'boss correct mark is the ✓ icon alone and does not move the label',
+    bossCorrect.mark === '✓' && bossCorrect.markHidden === 'true' && !/正確|錯誤/.test(bossCorrect.markText ?? '') && bossCorrect.reveal === 0 &&
+      bossCorrectLabelBefore !== null && bossCorrect.textLeft !== null && Math.abs(bossCorrect.textLeft - bossCorrectLabelBefore) < 0.5,
+    JSON.stringify({ bossCorrectLabelBefore, ...bossCorrect }),
+  )
+  await page.waitForFunction(() => !document.querySelector('.choice--picked-correct') && document.querySelector('.choice[data-correct="true"]'), null, { timeout: 4000 })
+  const bossCorrectHoldMs = Date.now() - bossCorrectAt
+  check('boss moves on by itself ~0.5s after a correct answer', bossCorrectHoldMs >= 300 && bossCorrectHoldMs <= 2000, `${bossCorrectHoldMs}ms`)
   await quizBackHome()
 
   // 快速反應: prompt/answer languages differ; wrong frame and stale text do not survive.
@@ -691,7 +743,7 @@ try {
     ['nokanji', '.choice-grid .choice'],
     ['mahjong', '.mahjong-tile'],
     ['kanatrap', '.choice-grid .choice'],
-    ['sushi', '.sushi-input'],
+    ['sushi', '.sushi-pad .sushi-key'],
     ['spottypo', '.oddone-group'],
     ['wordsearch', '.wordsearch-cell'],
     ['snake', '.snake-pad .button'],
@@ -882,6 +934,136 @@ try {
   )
   await quizBackHome()
   await page.setViewportSize({ width: 390, height: 844 })
+
+  // 極速是非: two icon-only buttons (❌ / ⭕). A wrong judgement turns the
+  // card and the pressed button red, and the next question comes by itself
+  // after ~3s; a correct one moves on after ~0.5s. There is no 確定 step.
+  await setTheme('light')
+  await seedQuizAndStart('swipe', allLessons)
+  const swipeButtons = await page.evaluate(() =>
+    Array.from(document.querySelectorAll('.swipe-actions .button')).map((el) => ({
+      text: el.textContent.trim(),
+      label: el.getAttribute('aria-label'),
+    })),
+  )
+  check(
+    'swipe judges with icon-only ❌ / ⭕ buttons named for assistive tech',
+    swipeButtons.length === 2 &&
+      swipeButtons[0].text === '❌' &&
+      swipeButtons[0].label === '錯誤配對' &&
+      swipeButtons[1].text === '⭕' &&
+      swipeButtons[1].label === '正確配對',
+    JSON.stringify(swipeButtons),
+  )
+  const swipeWord = () => page.evaluate(() => Array.from(document.querySelectorAll('.swipe-card .prompt-text')).map((el) => el.textContent.trim()).join('|'))
+  const swipeBefore = await swipeWord()
+  const swipeLivesBefore = await livesText()
+  const swipeWrongAt = Date.now()
+  await page.locator('.swipe-actions .button[data-correct="false"]').click()
+  await wait(200)
+  const swipeWrong = await page.evaluate(() => {
+    const card = document.querySelector('.swipe-card')
+    const cardStyle = getComputedStyle(card)
+    const button = document.querySelector('.swipe-action--wrong')
+    const probe = document.createElement('span')
+    probe.style.color = 'var(--error)'
+    document.body.appendChild(probe)
+    const error = getComputedStyle(probe).color
+    probe.remove()
+    return {
+      cardClass: card.classList.contains('swipe-card--wrong'),
+      cardBorder: cardStyle.borderTopColor,
+      cardColor: cardStyle.color,
+      error,
+      wrongButton: Boolean(button),
+      buttonBorder: button ? getComputedStyle(button).borderTopColor : null,
+      reveal: document.querySelectorAll('.quiz-reveal').length,
+    }
+  })
+  check(
+    'swipe wrong judgement turns the card red (border and text) and the pressed button red',
+    swipeWrong.cardClass && swipeWrong.wrongButton && swipeWrong.cardBorder === swipeWrong.error && swipeWrong.cardColor === swipeWrong.error && swipeWrong.buttonBorder === swipeWrong.error,
+    JSON.stringify(swipeWrong),
+  )
+  await wait(900)
+  check(
+    'swipe wrong judgement costs one life and shows no 確定 step',
+    (await livesText()) !== swipeLivesBefore && (await page.locator('.quiz-reveal').count()) === 0 && (await swipeWord()) === swipeBefore,
+    `${swipeLivesBefore} -> ${await livesText()}`,
+  )
+  await page.waitForFunction(
+    (prev) => {
+      const now = Array.from(document.querySelectorAll('.swipe-card .prompt-text')).map((el) => el.textContent.trim()).join('|')
+      return now !== prev && !document.querySelector('.swipe-card--wrong')
+    },
+    swipeBefore,
+    { timeout: 6000 },
+  )
+  const swipeWrongHoldMs = Date.now() - swipeWrongAt
+  check('swipe changes to the next question ~3s after a wrong judgement', swipeWrongHoldMs >= 2000 && swipeWrongHoldMs <= 5000, `${swipeWrongHoldMs}ms`)
+
+  const swipeCorrectBefore = await swipeWord()
+  const swipeLivesAtCorrect = await livesText()
+  const swipeCorrectAt = Date.now()
+  await page.locator('.swipe-actions .button[data-correct="true"]').click()
+  await wait(120)
+  const swipeCorrectClass = await page.evaluate(() => document.querySelector('.swipe-card').classList.contains('swipe-card--correct'))
+  check(
+    'swipe correct judgement is marked and costs no life',
+    swipeCorrectClass && (await livesText()) === swipeLivesAtCorrect,
+    `${swipeLivesAtCorrect} -> ${await livesText()}`,
+  )
+  await page.waitForFunction(
+    (prev) => {
+      const now = Array.from(document.querySelectorAll('.swipe-card .prompt-text')).map((el) => el.textContent.trim()).join('|')
+      return now !== prev && !document.querySelector('.swipe-card--correct')
+    },
+    swipeCorrectBefore,
+    { timeout: 4000 },
+  )
+  const swipeCorrectHoldMs = Date.now() - swipeCorrectAt
+  check('swipe changes to the next question ~0.5s after a correct judgement', swipeCorrectHoldMs >= 250 && swipeCorrectHoldMs <= 2000, `${swipeCorrectHoldMs}ms`)
+  await quizBackHome()
+
+  // 找出內鬼: a one-per-row list (one grid column, four distinct rows).
+  await seedQuizAndStart('oddone', allLessons)
+  const oddoneList = await page.evaluate(() => {
+    const grid = document.querySelector('.oddone-grid')
+    const groups = Array.from(document.querySelectorAll('.oddone-group'))
+    const tops = groups.map((el) => Math.round(el.getBoundingClientRect().top))
+    return {
+      list: grid.classList.contains('oddone-grid--list'),
+      cols: getComputedStyle(grid).gridTemplateColumns.split(' ').length,
+      groups: groups.length,
+      rows: new Set(tops).size,
+      noOverflow: document.documentElement.scrollWidth <= window.innerWidth,
+    }
+  })
+  check(
+    '找出內鬼 is a one-per-row list: 1 column, 4 rows, no overflow',
+    oddoneList.list && oddoneList.cols === 1 && oddoneList.groups === 4 && oddoneList.rows === 4 && oddoneList.noOverflow,
+    JSON.stringify(oddoneList),
+  )
+  await quizBackHome()
+
+  // 猜假名 / 五十音劊子手: a 6×6 pad — 36 unique keys in 6 columns.
+  for (const mode of ['wordle', 'hangman']) {
+    await seedQuizAndStart(mode, allLessons)
+    const pad = await page.evaluate(() => {
+      const pad = document.querySelector('.wordle-pad')
+      const keys = Array.from(document.querySelectorAll('.wordle-pad .wordle-key')).map((el) => el.textContent.trim())
+      const first = document.querySelector('.wordle-pad .wordle-key').getBoundingClientRect()
+      return {
+        keys: keys.length,
+        unique: new Set(keys).size,
+        cols: getComputedStyle(pad).gridTemplateColumns.split(' ').length,
+        keyW: Math.round(first.width),
+        noOverflow: document.documentElement.scrollWidth <= window.innerWidth,
+      }
+    })
+    check(`${mode} pad is 6×6: 36 unique keys, 6 columns, wide keys, no overflow`, pad.keys === 36 && pad.unique === 36 && pad.cols === 6 && pad.keyW >= 44 && pad.noOverflow, JSON.stringify(pad))
+    await quizBackHome()
+  }
 
   // 濁音排雷: one round is 10 questions; the 10s hint clock restarts per
   // question (the button goes away when the next question starts and only

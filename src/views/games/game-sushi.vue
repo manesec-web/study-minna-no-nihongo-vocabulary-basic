@@ -1,5 +1,5 @@
 <script setup>
-import { computed, inject, onBeforeUnmount, onMounted, ref } from 'vue'
+import { computed, inject, onBeforeUnmount, onMounted } from 'vue'
 
 const store = inject('store')
 const props = defineProps({ round: { type: Object, required: true } })
@@ -19,15 +19,15 @@ function plateZh() {
   return plate()?.zh ?? ''
 }
 
-const boardEl = ref(null)
-const composing = ref(false)
+function press(ch) {
+  store.send('quiz.act', { type: 'input', value: ch })
+}
 
-function input(event) {
-  store.send('quiz.act', { type: 'input', value: event.target.value })
+function backspace() {
+  store.send('quiz.act', { type: 'backspace' })
 }
 
 function submit() {
-  if (composing.value) return
   store.send('quiz.act', { type: 'submit' })
 }
 
@@ -61,17 +61,22 @@ onBeforeUnmount(() => {
       </div>
     </div>
     <p v-if="effect?.kind === 'reading'" class="quiz-hint-text">提示：讀音是「{{ effect.reading }}」</p>
-    <input
-      class="sushi-input"
-      type="text"
-      :value="state.typed"
-      placeholder="輸入平假名（可直接用日文 IME）"
-      @input="input"
-      @compositionstart="composing = true"
-      @compositionend="composing = false"
-      @keydown.enter="submit"
-    />
-    <button class="button primary" type="button" :disabled="composing" @click="submit">送出</button>
+    <div class="sushi-typed">{{ state.typed }}</div>
+    <div class="sushi-pad">
+      <button
+        v-for="(ch, at) in state.pad"
+        :key="at"
+        class="sushi-key"
+        type="button"
+        @click="press(ch)"
+      >
+        {{ ch }}
+      </button>
+    </div>
+    <div class="wordle-toolbar">
+      <button class="button ghost" type="button" @click="backspace">退格</button>
+      <button class="button primary" type="button" @click="submit">送出</button>
+    </div>
     <p class="reaction-progress">已吃完 {{ state.hit }}/{{ state.queue.length }}</p>
   </div>
 </template>

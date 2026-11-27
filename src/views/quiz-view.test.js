@@ -172,6 +172,54 @@ describe('the quiz is tap-driven, not a keyboard', () => {
     expect(text).toMatch(/prompt-text">\{\{ faceOf\(props\.round\.faces\[state\.target\.word\], state\.target\.face\) \}\}<\/span>/)
   })
 
+  it('Boss 戰 and 選擇題 mark the picked choice with an icon only, in a slot that never shifts the label', () => {
+    const css = fs.readFileSync(new URL('../styles/quiz-games.css', import.meta.url), 'utf8')
+    for (const file of ['./games/game-boss.vue', './games/game-choice.vue']) {
+      const text = source(file)
+      expect(text, file).toMatch(/class="choice-mark" aria-hidden="true">✓<\/span>/)
+      expect(text, file).toMatch(/choice-mark choice-mark--wrong" aria-hidden="true">✗<\/span>/)
+      // No 正確/錯誤 words inside the mark, and no inline size that reflows.
+      expect(text, file).not.toMatch(/choice-mark[^>]*>[^<]*(正確|錯誤)/)
+    }
+    expect(css).toMatch(/\.choice--with-mark \{\n  position: relative;/)
+    expect(css).toMatch(/\.choice-mark \{[\s\S]*?position: absolute;/)
+  })
+
+  it('極速是非 judges with icon-only ⭕/❌ buttons and turns a mis-judged card red', () => {
+    const text = source('./games/game-swipe.vue')
+    expect(text).toMatch(/aria-label="錯誤配對"[\s\S]*?@click="judge\(false\)"\s*>❌<\/button>/)
+    expect(text).toMatch(/aria-label="正確配對"[\s\S]*?@click="judge\(true\)"\s*>⭕<\/button>/)
+    // Both buttons are the same neutral button: neither answer is the "primary" one.
+    expect(text).toMatch(/class="button ghost swipe-action"[\s\S]*?aria-label="錯誤配對"/)
+    expect(text).toMatch(/class="button ghost swipe-action"[\s\S]*?aria-label="正確配對"/)
+    expect(text).not.toMatch(/button primary swipe-action/)
+    expect(text).toMatch(/'swipe-card--wrong': state\.phase === 'wrong'/)
+    expect(text).toMatch(/'swipe-action--wrong': state\.phase === 'wrong' && state\.chosen === (false|true)/)
+    const css = fs.readFileSync(new URL('../styles/quiz-games.css', import.meta.url), 'utf8')
+    expect(css).toMatch(/\.swipe-card--wrong \{\n  border-color: var\(--error\);\n  color: var\(--error\);\n\}/)
+    // The shell advances 極速是非 after ~0.5s (correct) / ~3s (wrong).
+    const shell = source('./QuizPlayView.vue')
+    expect(shell).toMatch(/mode === 'swipe' \? 500/)
+    expect(shell).toMatch(/mode === 'boss' \|\| mode === 'swipe' \? 3000/)
+  })
+
+  it('找出內鬼 is a one-per-row list, not a 2×2 grid', () => {
+    const text = source('./games/game-oddone.vue')
+    expect(text).toMatch(/class="oddone-grid oddone-grid--list"/)
+    const css = fs.readFileSync(new URL('../styles/quiz-games.css', import.meta.url), 'utf8')
+    expect(css).toMatch(/\.oddone-grid--list \{\n  grid-template-columns: 1fr;\n  gap: 8px;\n\}/)
+    // 找碴讀音 shares the 2×2 grid class and is not converted.
+    expect(source('./games/game-spottypo.vue')).not.toMatch(/oddone-grid--list/)
+  })
+
+  it('猜假名 and 五十音劊子手 use a 6-column pad fed from state', () => {
+    const css = fs.readFileSync(new URL('../styles/quiz-games.css', import.meta.url), 'utf8')
+    expect(css).toMatch(/\.wordle-pad \{\n  display: grid;\n  grid-template-columns: repeat\(6, minmax\(0, 1fr\)\);/)
+    for (const file of ['./games/game-wordle.vue', './games/game-hangman.vue']) {
+      expect(source(file), file).toMatch(/state\.value\.pad \?\? \[\]/)
+    }
+  })
+
   it('every concrete mode has a game component', () => {
     for (const mode of CONCRETE_MODES) {
       expect(GAME_COMPONENTS[mode], `missing component for ${mode}`).toBeTruthy()

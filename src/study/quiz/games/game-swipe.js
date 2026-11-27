@@ -34,6 +34,7 @@ function buildQuestion(round, faces, rng) {
     isMatch,
   }
   round.state.resolved = false
+  round.state.chosen = null
   round.state.phase = 'ask'
 }
 
@@ -63,31 +64,32 @@ export function act(round, action) {
   const state = round.state
   if (action.type === 'judge' && state.phase === 'ask' && !state.resolved) {
     state.resolved = true
-    const correct = (action.value === true) === state.question.isMatch
+    // Which button was pressed, so the view can paint the judged pair.
+    state.chosen = action.value === true
+    const correct = state.chosen === state.question.isMatch
     if (correct) {
       round.streak += 1
-      round.flash = null
-      advance(round, round.faces, round.rng)
-      return { life: 0, score: 10 + round.streak, clock: 'reset', message: '判斷正確' }
+      round.flash = 'correct'
+      // The shell holds ~0.5s and then dispatches quiz.next; the view paints
+      // the result in the meantime.
+      state.phase = 'correct'
+      return { life: 0, score: 10 + round.streak, clock: 'stop', message: '判斷正確' }
     }
     round.streak = 0
     round.flash = 'wrong'
-    round.reveal = { text: state.question.isMatch ? '正確配對' : '錯誤配對' }
-    state.phase = 'reveal'
+    state.phase = 'wrong'
     return { life: -1, score: 0, clock: 'stop', message: '判斷錯誤' }
   }
-  if (action.type === 'confirm' && state.phase === 'reveal') {
-    round.reveal = null
-    round.flash = null
+  if (action.type === 'next' && (state.phase === 'correct' || state.phase === 'wrong')) {
     advance(round, round.faces, round.rng)
     return { life: 0, score: 0, clock: 'start', message: null }
   }
   if (action.type === 'timeout' && state.phase === 'ask') {
     state.resolved = true
+    state.chosen = null
     round.streak = 0
     round.flash = 'wrong'
-    round.reveal = { text: state.question.isMatch ? '正確配對' : '錯誤配對' }
-    state.phase = 'reveal'
+    state.phase = 'wrong'
     return { life: -1, score: 0, clock: 'stop', message: '時間到' }
   }
   return { life: 0, score: 0, clock: null, message: null }

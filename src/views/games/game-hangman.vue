@@ -1,13 +1,12 @@
 <script setup>
 import { computed, inject } from 'vue'
-import { HANGMAN_KANA } from '../../study/quiz/games/game-hangman.js'
 
 const store = inject('store')
 const props = defineProps({ round: { type: Object, required: true } })
 const state = computed(() => props.round.state)
 const effect = computed(() => props.round.hintEffect)
 
-const keys = Array.from(HANGMAN_KANA)
+const keys = computed(() => state.value.pad ?? [])
 
 function guess(ch) {
   store.send('quiz.act', { type: 'input', value: ch })
@@ -31,7 +30,7 @@ function guess(ch) {
         v-for="ch in keys"
         :key="ch"
         class="wordle-key"
-        :class="{ 'tile--used': state.guessed.includes(ch), 'wordle-key--hint': effect?.kind === 'letter' && effect.letter === ch }"
+        :class="{ 'tile--used': state.guessed.includes(ch), 'wordle-key--hint': effect?.kind === 'letter' && effect.letter === ch, 'wordle-key--wrong': state.wrongAt === ch }"
         type="button"
         :disabled="state.guessed.includes(ch)"
         @click="guess(ch)"

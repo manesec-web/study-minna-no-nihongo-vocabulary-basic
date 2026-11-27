@@ -80,7 +80,6 @@ function buildQuestion(target, words, rng) {
   }
   return {
     prompt: target.kanji,
-    promptZh: target.zh,
     options: shuffled(options, rng),
     correct,
   }
@@ -103,7 +102,6 @@ function targetsFor(words, count, rng) {
 function showQuestion(state) {
   const question = state.questions[state.index]
   state.prompt = question.prompt
-  state.promptZh = question.promptZh
   state.options = question.options
   state.correct = question.correct
 }
@@ -133,7 +131,6 @@ export function create(round, faces, _poolFaces, rng) {
     total: questions.length,
     questions,
     prompt: '',
-    promptZh: '',
     options: [],
     correct: '',
     phase: 'ask',

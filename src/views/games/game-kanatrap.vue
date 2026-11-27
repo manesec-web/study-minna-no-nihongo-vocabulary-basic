@@ -16,7 +16,6 @@ function choose(index) {
     <p class="quiz-mode-hint">第 {{ state.index + 1 }} / {{ state.total }} 題：選出正確讀音</p>
     <p class="prompt">
       <span class="furigana-prompt">{{ state.prompt }}</span>
-      <span class="prompt-text">{{ state.promptZh }}</span>
     </p>
     <div class="choice-grid">
       <button

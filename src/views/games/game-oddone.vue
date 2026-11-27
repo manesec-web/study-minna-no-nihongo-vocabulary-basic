@@ -14,7 +14,7 @@ function tap(index) {
 <template>
   <div class="board">
     <p class="quiz-mode-hint">4 組配對中有 1 組配錯，點出那一組。</p>
-    <div class="oddone-grid">
+    <div class="oddone-grid oddone-grid--list">
       <button
         v-for="(group, at) in state.groups"
         :key="at"

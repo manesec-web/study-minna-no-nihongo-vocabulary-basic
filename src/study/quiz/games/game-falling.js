@@ -16,6 +16,7 @@ export function eligible(faces) {
 
 function spawnMeteor(round, faces, rng) {
   const state = round.state
+  state.wrongIndex = null
   if (state.position >= state.total) {
     round.done = true
     round.cleared = state.hit >= state.total
@@ -47,6 +48,7 @@ export function create(round, faces, _poolFaces, rng) {
     hit: 0,
     meteor: null,
     cannons: [],
+    wrongIndex: null,
     phase: 'play',
   }
   spawnMeteor(round, faces, rng)
@@ -70,6 +72,7 @@ export function act(round, action) {
     }
     round.streak = 0
     round.flash = 'wrong'
+    state.wrongIndex = action.index
     return { life: -1, score: 0, clock: null, message: '打錯砲台' }
   }
   if (action.type === 'tick') {

@@ -205,6 +205,7 @@ function advanceQuestion(round, faces, poolFaces, rng, build) {
   round.state.index += 1
   round.flash = null
   round.reveal = null
+  round.state.chosenIndex = null
   if (round.state.index >= faces.length) {
     round.done = true
     round.cleared = true
@@ -230,7 +231,7 @@ function wrongEvent(round, correctText) {
 // ---------- 1) 選擇題 ----------
 
 function createChoice(round, faces, poolFaces, rng) {
-  round.state = { index: 0, phase: 'ask', question: null }
+  round.state = { index: 0, phase: 'ask', question: null, chosenIndex: null }
   round.state.question = buildChoice(round, faces, poolFaces, rng, 0)
 }
 
@@ -246,6 +247,7 @@ function actChoice(round, action) {
   if (action.type === 'choose' && state.phase === 'ask') {
     const choice = state.question?.choices?.[action.index]
     if (!choice) return noop()
+    state.chosenIndex = action.index
     if (choice.correct) {
       round.streak += 1
       round.flash = 'correct'
@@ -253,15 +255,11 @@ function actChoice(round, action) {
       return { life: 0, score: 10 + round.streak, clock: 'stop', message: '正確' }
     }
     round.streak = 0
-    return wrongEvent(round, state.question.choices[state.question.correctIndex]?.text)
+    round.flash = 'wrong'
+    state.phase = 'wrong'
+    return { life: -1, score: 0, clock: 'stop', message: '錯誤' }
   }
-  if (action.type === 'next' && state.phase === 'correct') {
-    const done = advanceQuestion(round, round.faces, round.poolFaces, round.rng, (i) =>
-      buildChoice(round, round.faces, round.poolFaces, round.rng, i),
-    )
-    return { life: 0, score: 0, clock: done ? 'stop' : 'start', message: null }
-  }
-  if (action.type === 'confirm' && state.phase === 'reveal') {
+  if (action.type === 'next' && (state.phase === 'correct' || state.phase === 'wrong')) {
     const done = advanceQuestion(round, round.faces, round.poolFaces, round.rng, (i) =>
       buildChoice(round, round.faces, round.poolFaces, round.rng, i),
     )
@@ -269,7 +267,10 @@ function actChoice(round, action) {
   }
   if (action.type === 'timeout' && state.phase === 'ask') {
     round.streak = 0
-    return wrongEvent(round, state.question.choices[state.question.correctIndex]?.text)
+    round.flash = 'wrong'
+    state.chosenIndex = null
+    state.phase = 'wrong'
+    return { life: -1, score: 0, clock: 'stop', message: '錯誤' }
   }
   return noop()
 }
@@ -891,6 +892,7 @@ function createBoss(round, faces, poolFaces, rng) {
     phase: 'ask',
     question: null,
     modifier: null,
+    chosenIndex: null,
   }
   round.state.question = buildBoss(round, faces, poolFaces, rng, 0)
   round.state.modifier = bossModifier(round.state.index)
@@ -925,6 +927,7 @@ function actBoss(round, action) {
   if (action.type === 'choose' && state.phase === 'ask') {
     const choice = state.question?.choices?.[action.index]
     if (!choice) return noop()
+    state.chosenIndex = action.index
     if (choice.correct) {
       round.streak += 1
       const crit = round.streak >= 3 ? 2 : 1
@@ -940,9 +943,11 @@ function actBoss(round, action) {
       return { life: 0, score: 20 * crit, clock: 'stop', message: `造成 ${crit} 點傷害` }
     }
     round.streak = 0
-    return wrongEvent(round, state.question.choices[state.question.correctIndex]?.text)
+    round.flash = 'wrong'
+    state.phase = 'wrong'
+    return { life: -1, score: 0, clock: 'stop', message: '錯誤' }
   }
-  if (action.type === 'next' && state.phase === 'correct') {
+  if (action.type === 'next' && (state.phase === 'correct' || state.phase === 'wrong')) {
     if (state.index + 1 >= round.faces.length) {
       round.done = true
       round.cleared = false
@@ -950,20 +955,7 @@ function actBoss(round, action) {
       return { life: 0, score: 0, clock: 'stop', message: 'Boss 尚未擊敗' }
     }
     state.index += 1
-    state.modifier = bossModifier(state.index)
-    setBossClock(round)
-    state.question = buildBoss(round, round.faces, round.poolFaces, round.rng, state.index)
-    state.phase = 'ask'
-    return { life: 0, score: 0, clock: 'start', message: null }
-  }
-  if (action.type === 'confirm' && state.phase === 'reveal') {
-    if (state.index + 1 >= round.faces.length) {
-      round.done = true
-      round.cleared = false
-      state.phase = 'done'
-      return { life: 0, score: 0, clock: 'stop', message: 'Boss 尚未擊敗' }
-    }
-    state.index += 1
+    state.chosenIndex = null
     state.modifier = bossModifier(state.index)
     setBossClock(round)
     state.question = buildBoss(round, round.faces, round.poolFaces, round.rng, state.index)
@@ -972,7 +964,10 @@ function actBoss(round, action) {
   }
   if (action.type === 'timeout' && state.phase === 'ask') {
     round.streak = 0
-    return wrongEvent(round, state.question.choices[state.question.correctIndex]?.text)
+    round.flash = 'wrong'
+    state.chosenIndex = null
+    state.phase = 'wrong'
+    return { life: -1, score: 0, clock: 'stop', message: '錯誤' }
   }
   return noop()
 }

@@ -161,19 +161,18 @@ describe('quiz engine', () => {
     expect(round.state.index).toBe(1)
   })
 
-  it('judges a wrong choice and reveals the correct answer', () => {
+  it('judges a wrong choice, marks it, and advances with quiz.next', () => {
     const round = createRound('choice', refs(3), fakeLibrary(), refs(12), zeroRandom, 0)
     const wrong = (round.state.question.correctIndex + 1) % round.state.question.choices.length
     const event = act(round, { type: 'choose', index: wrong })
     expect(event.life).toBe(-1)
-    expect(round.state.phase).toBe('reveal')
-    expect(round.reveal.text).toBe(
-      round.state.question.choices[round.state.question.correctIndex].text,
-    )
+    expect(round.state.phase).toBe('wrong')
+    expect(round.state.chosenIndex).toBe(wrong)
 
-    const confirm = act(round, { type: 'confirm' })
-    expect(confirm.clock).toBe('start')
+    const next = act(round, { type: 'next' })
+    expect(next.clock).toBe('start')
     expect(round.state.phase).toBe('ask')
+    expect(round.state.chosenIndex).toBe(null)
   })
 
   it('matches a pair in 翻卡配對 and clears the round when all pairs match', () => {
@@ -460,8 +459,10 @@ describe('quiz engine', () => {
     const wrong = (round.state.question.correctIndex + 1) % round.state.question.choices.length
     act(round, { type: 'choose', index: wrong })
     expect(round.state.hp).toBe(afterCorrect)
-    act(round, { type: 'confirm' })
+    expect(round.state.phase).toBe('wrong')
+    act(round, { type: 'next' })
     expect(round.state.hp).toBe(afterCorrect)
+    expect(round.state.phase).toBe('ask')
   })
 
   it('memory starts with a stacked pile and deals three slots on tap', () => {

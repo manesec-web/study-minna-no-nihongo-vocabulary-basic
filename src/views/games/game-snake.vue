@@ -51,13 +51,12 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="board">
+  <div ref="boardEl" class="board snake-board">
     <p class="prompt">
       <span class="prompt-text">{{ currentWord().zh }}</span>
     </p>
     <p class="quiz-mode-hint">依順序吃出讀音：{{ progress }}</p>
     <div
-      ref="boardEl"
       class="snake-grid"
       :style="{ '--snake-cols': COLS, '--snake-rows': ROWS }"
     >

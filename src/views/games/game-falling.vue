@@ -57,7 +57,10 @@ onBeforeUnmount(() => {
         v-for="(cannon, at) in state.cannons"
         :key="at"
         class="falling-cannon"
-        :class="{ 'falling-cannon--hint': effect?.kind === 'index' && effect.index === at }"
+        :class="{
+          'falling-cannon--hint': effect?.kind === 'index' && effect.index === at,
+          'falling-cannon--wrong': state.wrongIndex === at,
+        }"
         type="button"
         @click="shoot(at)"
       >

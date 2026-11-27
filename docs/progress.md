@@ -385,6 +385,27 @@ Tag IDs, and the colour tokens are unchanged.
   screenshots reviewed in `/tmp/quiz-refs/shots/`. Snake respawn check is
   timing-flaky and passes on re-run.
 
+## Follow-up (2026-11-27, Boss 戰 marks, 極速是非 ⭕/❌, 找出內鬼 list, 6×6 kana pads)
+
+- Boss 戰 / 選擇題: the picked choice is marked with the bare `✓` / `✗` icon
+  in an absolute slot at the right of the button; the label no longer shifts
+  and no `正確`/`錯誤` text is printed.
+- 極速是非: icon-only `❌` / `⭕` buttons (accessible names 錯誤配對 /
+  正確配對); a wrong judgement turns the card and the pressed button red
+  (border + text) and the next question follows after ~3s, a correct one
+  after ~0.5s, both through `quiz.next` (no reveal / `確定`).
+- 找出內鬼: a one-per-row list (`.oddone-grid--list`), Japanese left and
+  Chinese right.
+- 猜假名 / 五十音劊子手: 6×6 pads from `buildKanaPad` (`games/shared.js`) —
+  the 36 most frequent kana in gojuon order, the answer's kana always swapped
+  in; `round.state.pad` feeds both views.
+- Fixed the non-terminating `buildPad` loop in 迴轉壽司 (shuffle-then-take).
+- Docs: `spec.md` modes 1, 5, 10, 11, 13, 24; `changelog.md`; this file;
+  `roadmap.md` follow-up sentence.
+- Checks: `npm test` — 42 files, 329 tests; `npm run build` — ok (50
+  lessons); `node scripts/browser-check.mjs` — 218 checks pass. Review
+  screenshots (390px, light + dark) under `/tmp/quiz-refs/shots/gb-*.png`.
+
 ## Checks run (final)
 
 Review A (2026-11-27) completed the previously-noted gaps: wordsearch drag +

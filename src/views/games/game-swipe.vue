@@ -27,14 +27,43 @@ onBeforeUnmount(() => detach())
 
 <template>
   <div class="board">
-    <div ref="cardEl" class="swipe-card">
+    <p class="quiz-mode-hint">日文和中文的配對正確嗎？⭕ 正確　❌ 錯誤</p>
+    <div
+      ref="cardEl"
+      class="swipe-card"
+      :class="{
+        'swipe-card--wrong': state.phase === 'wrong',
+        'swipe-card--correct': state.phase === 'correct',
+      }"
+    >
       <span class="prompt-face">{{ faceLabel(state.question.promptFace) }}</span>
       <span class="prompt-text">{{ state.question.japanese }}</span>
       <span class="prompt-text">{{ state.question.chinese }}</span>
     </div>
     <div class="swipe-actions">
-      <button class="button ghost" :class="{ 'swipe-action--hint': effect?.kind === 'judge' && effect.correct === false }" type="button" @click="judge(false)">錯誤配對</button>
-      <button class="button primary" :class="{ 'swipe-action--hint': effect?.kind === 'judge' && effect.correct === true }" type="button" @click="judge(true)">正確配對</button>
+      <button
+        class="button ghost swipe-action"
+        :class="{
+          'swipe-action--hint': effect?.kind === 'judge' && effect.correct === false,
+          'swipe-action--wrong': state.phase === 'wrong' && state.chosen === false,
+        }"
+        type="button"
+        aria-label="錯誤配對"
+        :data-correct="!state.question.isMatch"
+        @click="judge(false)"
+      >❌</button>
+      <button
+        class="button ghost swipe-action"
+        :class="{
+          'swipe-action--hint': effect?.kind === 'judge' && effect.correct === true,
+          'swipe-action--wrong': state.phase === 'wrong' && state.chosen === true,
+          'swipe-action--correct': state.phase === 'correct',
+        }"
+        type="button"
+        aria-label="正確配對"
+        :data-correct="state.question.isMatch"
+        @click="judge(true)"
+      >⭕</button>
     </div>
   </div>
 </template>

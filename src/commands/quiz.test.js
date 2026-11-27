@@ -152,7 +152,7 @@ describe('quiz round interactions', () => {
     expect(round.state.phase).toBe('ask')
   })
 
-  it('a wrong choice deducts a life and reveals, 確定 continues', () => {
+  it('a wrong choice deducts a life and continues with quiz.next', () => {
     const reg = makeRegistry()
     const session = quizSession({ modes: ['choice'], lives: 3 })
     reg.dispatch(session, 'quiz.start')
@@ -160,10 +160,9 @@ describe('quiz round interactions', () => {
     const wrong = (round.state.question.correctIndex + 1) % round.state.question.choices.length
     reg.dispatch(session, 'quiz.choose', { index: wrong })
     expect(session.quiz.run.lives).toBe(2)
-    expect(round.state.phase).toBe('reveal')
-    expect(round.reveal.text).toBeTruthy()
+    expect(round.state.phase).toBe('wrong')
 
-    reg.dispatch(session, 'quiz.confirm')
+    reg.dispatch(session, 'quiz.next')
     expect(round.state.phase).toBe('ask')
     expect(round.state.index).toBe(1)
   })
@@ -188,7 +187,7 @@ describe('quiz round interactions', () => {
     expect(round.clock.active).toBe(true)
     reg.dispatch(session, 'quiz.timeout')
     expect(session.quiz.run.lives).toBe(2)
-    expect(round.state.phase).toBe('reveal')
+    expect(round.state.phase).toBe('wrong')
   })
 
   it('finishes the run when the last question is answered', () => {

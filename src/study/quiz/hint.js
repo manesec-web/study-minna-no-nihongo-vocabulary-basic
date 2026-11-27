@@ -96,8 +96,10 @@ function activeFor(mode, state, done) {
     case 'columns':
     case 'reaction':
       return true
-    case 'wordle':
     case 'crossword':
+      // 迷你填字 never shows the 10s hint button.
+      return false
+    case 'wordle':
     case 'falling':
     case 'mahjong':
     case 'sushi':

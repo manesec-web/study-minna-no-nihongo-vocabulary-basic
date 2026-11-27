@@ -1,12 +1,12 @@
 // 日語版 Wordle (wordle): guess a 4–5 kana reading. Colours follow the standard
 // two-pass rule so repeated kana are counted correctly. Non-dictionary guesses
 // are allowed; only the length gate consumes nothing on invalid input.
-import { rng01, shuffled } from './shared.js'
+import { rng01, shuffled, buildKanaPad } from './shared.js'
 
 export const usesPool = false
 export const usesRng = true
 
-export const WORDLE_KANA = 'あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをんぁぃぅぇぉゃゅょっがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽー'
+export { buildKanaPad }
 
 export function eligible(faces) {
   const usable = faces.filter((f) => {
@@ -48,19 +48,22 @@ function pickTarget(round, faces, rng) {
   }
   const target = usable.length ? shuffled(usable, rng)[0] : faces[0]
   round.state.target = Array.from(target.kana).join('')
-  round.state.hint = target.zh
   round.state.length = Array.from(target.kana).length
+  // The hint stays closed: the mode never shows the Chinese meaning. The guess
+  // budget scales with the reading so 4-kana words keep 6 tries and 5-kana
+  // words get 7.
+  round.state.maxGuesses = round.state.length + 2
+  // 36-key (6×6) pad that always carries every kana of the answer.
+  round.state.pad = buildKanaPad(round.state.target)
 }
 
 export function create(round, faces, _poolFaces, rng) {
   round.state = {
     target: '',
-    hint: '',
     length: 0,
     input: '',
     guesses: [],
-    maxGuesses: 6,
-    hard: false,
+    maxGuesses: 0,
     phase: 'play',
   }
   pickTarget(round, faces, rng)
@@ -69,10 +72,6 @@ export function create(round, faces, _poolFaces, rng) {
 export function act(round, action) {
   const state = round.state
   if (state.phase !== 'play') return { life: 0, score: 0, clock: null, message: null }
-  if (action.type === 'toggle') {
-    state.hard = !state.hard
-    return { life: 0, score: 0, clock: null, message: null }
-  }
   if (action.type === 'input' && typeof action.value === 'string') {
     if (state.input.length < state.length) state.input += action.value
     return { life: 0, score: 0, clock: null, message: null }

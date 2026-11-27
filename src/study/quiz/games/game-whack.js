@@ -51,6 +51,7 @@ function buildHoles(round, faces, rng) {
   state.visibleIndex = -1
   state.lastIndex = -1
   state.lastWord = -1
+  state.wrongIndex = null
   state.cycle = 'up'
   state.downTicks = 0
   appearMole(round, rng)
@@ -102,6 +103,7 @@ export function create(round, faces, _poolFaces, rng) {
     lastWord: -1,
     cycle: 'up',
     downTicks: 0,
+    wrongIndex: null,
     score: 0,
     remaining: INTERNAL_SECONDS,
     turn: 0,
@@ -130,6 +132,7 @@ export function act(round, action) {
     }
     round.streak = 0
     round.flash = 'wrong'
+    state.wrongIndex = action.index
     state.remaining = Math.max(0, state.remaining - 5)
     return { life: 0, score: 0, clock: null, message: '打錯' }
   }
@@ -145,6 +148,7 @@ export function act(round, action) {
     if (state.cycle === 'up') {
       for (const hole of state.holes) hole.visible = false
       state.visibleIndex = -1
+      state.wrongIndex = null
       state.cycle = 'down'
       state.downTicks = 0
     } else {

@@ -7,6 +7,29 @@ import { shuffled } from './shared.js'
 export const usesPool = false
 export const usesRng = true
 
+// A 4×4 (16-key) on-screen kana pad: it always carries every kana of the
+// current reading, then is topped up with distinct random kana, and is
+// reshuffled after every tap so the plate keeps its conveyor-belt feel.
+const PAD_SIZE = 16
+const PAD_KANA = 'あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽっゃゅょー'
+
+function buildPad(word, rng) {
+  const chars = Array.from(word.kana)
+  const pool = Array.from(PAD_KANA).filter((ch) => !chars.includes(ch))
+  const pad = [...chars]
+  const used = new Set(pad)
+  // A shuffle-then-take of the remaining kana keeps the pad distinct without
+  // re-picking an already-used index (a constant rng would loop forever on
+  // the old `pool[random]` + re-pick form).
+  for (const ch of shuffled(pool, rng)) {
+    if (pad.length >= PAD_SIZE) break
+    if (used.has(ch)) continue
+    used.add(ch)
+    pad.push(ch)
+  }
+  return shuffled(pad, rng)
+}
+
 const ROMAJI = [
   ['kya', 'きゃ'], ['kyu', 'きゅ'], ['kyo', 'きょ'], ['sha', 'しゃ'], ['shu', 'しゅ'], ['sho', 'しょ'],
   ['cha', 'ちゃ'], ['chu', 'ちゅ'], ['cho', 'ちょ'], ['nya', 'にゃ'], ['nyu', 'にゅ'], ['nyo', 'にょ'],
@@ -87,6 +110,7 @@ export function create(round, faces, _poolFaces, rng) {
     position: 0,
     x: 0,
     typed: '',
+    pad: buildPad(words[0], rng),
     hit: 0,
     phase: 'play',
   }
@@ -102,6 +126,7 @@ function spawn(round) {
   }
   state.x = 0
   state.typed = ''
+  state.pad = buildPad(state.queue[state.position], round.rng)
   return true
 }
 
@@ -109,7 +134,12 @@ export function act(round, action) {
   const state = round.state
   if (state.phase !== 'play') return { life: 0, score: 0, clock: null, message: null }
   if (action.type === 'input' && typeof action.value === 'string') {
-    state.typed = action.value
+    state.typed += action.value
+    state.pad = shuffled(state.pad, round.rng)
+    return { life: 0, score: 0, clock: null, message: null }
+  }
+  if (action.type === 'backspace') {
+    state.typed = state.typed.slice(0, -1)
     return { life: 0, score: 0, clock: null, message: null }
   }
   if (action.type === 'submit') {

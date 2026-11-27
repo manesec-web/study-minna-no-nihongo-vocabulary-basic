@@ -641,6 +641,17 @@
   border-radius: 16px;
   background: var(--surface);
   padding: 20px;
+  transition: border-color 140ms ease, color 140ms ease;
+}
+
+/* A wrong judgement turns the card (and its text) red until the next question. */
+.swipe-card--wrong {
+  border-color: var(--error);
+  color: var(--error);
+}
+
+.swipe-card--correct {
+  border-color: var(--highlight);
 }
 
 .swipe-actions {
@@ -653,6 +664,30 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
+}
+
+/* 找出內鬼 is a list on phones: one group per row, japanese left and the
+   Chinese meaning right, so the 2×2 cards are not too small to read. */
+.oddone-grid--list {
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+
+.oddone-grid--list .oddone-group {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  text-align: left;
+}
+
+.oddone-grid--list .oddone-group strong {
+  flex: none;
+}
+
+.oddone-grid--list .oddone-group span {
+  flex: 1;
+  text-align: right;
 }
 
 .oddone-group {
@@ -720,7 +755,7 @@
 
 .wordle-pad {
   display: grid;
-  grid-template-columns: repeat(10, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 4px;
 }
 
@@ -1273,4 +1308,151 @@
   .memory-countdown-fill {
     animation-duration: 2s !important;
   }
+}
+
+/* --- inline tap feedback + bigger pads + wrong-tap shake (follow-ups) --- */
+
+.choice--with-mark {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.choice-text {
+  flex: 1;
+  text-align: center;
+}
+
+.choice-mark {
+  /* Absolutely positioned so adding/removing the mark never shifts the
+     button's label. */
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--highlight);
+  white-space: nowrap;
+}
+
+.choice-mark--wrong {
+  color: var(--error);
+}
+
+.choice--picked-correct {
+  border-color: var(--highlight);
+}
+
+.choice--picked-wrong {
+  border-color: var(--error);
+}
+
+/* 極速是非 / 找出內鬼 / 缺字填空 / 找碴讀音: larger touch targets. */
+.swipe-actions .button {
+  min-height: 56px;
+  font-size: 1.05rem;
+}
+
+/* 極速是非 judges with two icon-only buttons, ⭕ and ❌ — the same neutral
+   button, since neither answer is the primary one. A judgement that was wrong
+   turns its button red (border and icon); a right one gets the highlight
+   border. The caption above the card names the two buttons. */
+.swipe-actions .button.swipe-action {
+  min-height: 64px;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.swipe-actions .button.swipe-action--correct {
+  border-color: var(--highlight);
+}
+
+.swipe-actions .button.swipe-action--wrong {
+  background: transparent;
+  border-color: var(--error);
+  color: var(--error);
+  box-shadow: none;
+}
+
+.oddone-group {
+  padding: 16px 14px;
+  gap: 6px;
+}
+
+.oddone-group strong {
+  font-size: 1.15rem;
+}
+
+.oddone-group span {
+  font-size: 1rem;
+}
+
+.fillblank-options .choice {
+  min-height: 56px;
+  font-size: 1.25rem;
+}
+
+@keyframes quiz-shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-4px); }
+  40% { transform: translateX(4px); }
+  60% { transform: translateX(-3px); }
+  80% { transform: translateX(3px); }
+}
+
+.falling-cannon--wrong,
+.whack-hole--wrong,
+.wordle-key--wrong {
+  color: var(--error);
+  border-color: var(--error);
+  animation: quiz-shake 240ms ease;
+}
+
+/* 迴轉壽司 4×4 on-screen pad. */
+.sushi-typed {
+  min-height: 30px;
+  text-align: center;
+  font-size: 1.4rem;
+  letter-spacing: 0.2em;
+  color: var(--ink);
+}
+
+.sushi-pad {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.sushi-key {
+  min-height: 48px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 1.05rem;
+  cursor: pointer;
+}
+
+.sushi-key:active {
+  transform: scale(0.95);
+}
+
+/* 單字貪食蛇 d-pad: bigger buttons; the whole board is the swipe target. */
+.snake-board {
+  touch-action: manipulation;
+}
+
+.snake-pad {
+  grid-template-columns: repeat(3, 58px);
+  gap: 8px;
+}
+
+.snake-pad .button {
+  min-height: 58px;
+  font-size: 1.5rem;
 }

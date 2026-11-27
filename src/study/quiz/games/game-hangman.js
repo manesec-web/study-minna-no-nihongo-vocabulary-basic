@@ -2,12 +2,10 @@
 // full gojuon keyboard (dakuten, handakuten, small kana, ー included). Guessing
 // an existing kana reveals every occurrence; a wrong guess costs a life and a
 // repeated guess is free. The answer is normalised hiragana.
-import { shuffled } from './shared.js'
+import { shuffled, buildKanaPad } from './shared.js'
 
 export const usesPool = false
 export const usesRng = true
-
-export const HANGMAN_KANA = 'あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをんがぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽっゃゅょー'
 
 function eligibleWords(faces) {
   return faces.filter((f) => f.zh && f.kana && Array.from(f.kana).length >= 1)
@@ -27,8 +25,11 @@ export function create(round, faces, _poolFaces, rng) {
     clue: word.zh,
     guessed: [],
     wrong: 0,
+    wrongAt: null,
     maxWrong: 6,
     phase: 'play',
+    // 36-key (6×6) pad that always carries every kana of the answer.
+    pad: buildKanaPad(word.kana),
   }
 }
 
@@ -42,6 +43,7 @@ export function act(round, action) {
     }
     state.guessed.push(ch)
     if (state.target.includes(ch)) {
+      state.wrongAt = null
       round.streak += 1
       const won = state.target.every((c) => state.guessed.includes(c))
       if (won) {
@@ -53,6 +55,7 @@ export function act(round, action) {
       return { life: 0, score: 5, clock: null, message: '命中' }
     }
     state.wrong += 1
+    state.wrongAt = ch
     round.streak = 0
     if (state.wrong >= state.maxWrong) {
       round.done = true

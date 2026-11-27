@@ -1,5 +1,50 @@
 # Changelog
 
+## 2026-11-27 — Boss 戰 marks, 極速是非 ⭕/❌, 找出內鬼 list, 6×6 kana pads
+
+Four quiz UX changes from the user's list, on the uncommitted tree on top of
+`f8383eb` (`vol/`, `index.html`, the favicon, and the Google Tag IDs are
+untouched; nothing is committed by this work):
+
+- **Boss 戰 / 選擇題 — icon-only marks that never move the label.** The picked
+  choice used to append `✓ 正確` / `✗ 錯誤` inside a space-between flex row, so
+  the label jumped sideways when the mark appeared. The mark is now the bare
+  icon (`✓` / `✗`, `aria-hidden`) in an absolutely positioned slot at the
+  right of the button and the label stays centred. 選擇題 shares the same
+  `choice--with-mark` markup and CSS, so it gets the same treatment.
+- **極速是非 — ⭕ / ❌, red on a wrong judgement, 0.5s / 3s.** The two judge
+  buttons are icon-only (`❌` / `⭕`, accessible names 錯誤配對 / 正確配對; a
+  caption above the card names them). `game-swipe.js` no longer opens a reveal
+  on a wrong judgement: it records the pressed value (`state.chosen`) and sets
+  `phase` to `correct` or `wrong`; the shell advances with `quiz.next` after
+  ~0.5s (correct) or ~3s (wrong) — the same clock 選擇題 and Boss 戰 use. A
+  wrong judgement turns the card red (border and text) and the pressed button
+  red; a correct one outlines card and button with the highlight border. No
+  `確定`, no `正確答案` line.
+- **找出內鬼 — one group per row.** `.oddone-grid--list`: a single-column
+  list with the Japanese on the left and the Chinese meaning on the right
+  (was a 2×2 grid that was too small on a phone). 找碴讀音 keeps its 2×2 grid.
+- **猜假名 / 五十音劊子手 — 6×6 pads.** `buildKanaPad` in
+  `games/shared.js` builds 36 keys: the 36 kana most frequent in the shipped
+  readings in gojuon order, with the answer's own kana always swapped into the
+  tail, so a word is never unguessable. The pad lives on `round.state.pad`
+  (built in `create` / `pickTarget`) and both views render it; the physical
+  keyboard accepts the pad's kana. The old ~72-key `WORDLE_KANA` /
+  `HANGMAN_KANA` strings are gone.
+- **Found and fixed: an infinite loop in 迴轉壽司's `buildPad`.** The
+  uncommitted 4×4 pad topped itself up with `pool[random]` and re-picked while
+  the kana was already used — with a constant rng (`zeroRandom` in the engine
+  tests) that never terminates, and it hung `npm test` with four vitest
+  workers spinning. It now shuffles the pool once and takes the first keys.
+
+Checks: `npm test` — 42 files, 329 tests; `npm run build` — `dict/vol.bin` 50
+lessons; `node scripts/browser-check.mjs` — 218 checks pass, including new
+ones for the icon-only / unmoving Boss 戰 marks (label x before = after), the
+⭕/❌ buttons, the red wrong state, the measured ~3s / ~0.5s advance, the
+one-column 找出內鬼 list, and the 6×6 pads in both themes. The stale
+`.sushi-input` browser-check selector (the mode now has an on-screen pad, not
+an `<input>`) was updated to `.sushi-pad .sushi-key`.
+
 ## 2026-11-27 — 單字麻將 tile faces: solid tiles, frost on covered ones
 
 Visual-only fix on the uncommitted tree (`HEAD` stays `f1b55dd`; rules,

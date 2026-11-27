@@ -20,6 +20,24 @@ export function shuffled(arr, rng) {
   return shuffle([...arr], rng)
 }
 
+// The on-screen kana pad for 猜假名 and 五十音劊子手 is 6×6 (36 keys). These
+// are the 36 kana that occur most often in the shipped readings, laid out in
+// gojuon order (plain kana first, then small kana, voiced kana and ー). A
+// fixed 36 cannot hold every kana of every word, so buildKanaPad always
+// swaps in the kana the current answer needs: a round is never unguessable.
+export const KANA_PAD_SIZE = 36
+export const KANA_CORE = 'あいうおかきくけこさしすせたちつてとなにはまみもらりれんゅょっがじでどー'
+
+export function buildKanaPad(requiredChars, size = KANA_PAD_SIZE) {
+  const required = Array.from(new Set(Array.from(requiredChars ?? ''))).filter(Boolean)
+  const base = Array.from(KANA_CORE).slice(0, size)
+  const missing = required.filter((ch) => !base.includes(ch))
+  if (missing.length === 0) return base
+  // Replace the tail of the core with the kana the current answer needs, so
+  // the first keys keep their place from round to round.
+  return [...base.slice(0, Math.max(0, size - missing.length)), ...missing]
+}
+
 export function chunk(items, size) {
   const out = []
   for (let i = 0; i < items.length; i += size) out.push(items.slice(i, i + size))
